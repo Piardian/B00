@@ -1,0 +1,186 @@
+{
+  "period": "2026-07-11 to 2026-10-11",
+  "initial_capital": 10000.0,
+  "optimized_macro_gated_tp2_2r": {
+    "total_trades": 58,
+    "tp2_count": 9,
+    "be_count": 14,
+    "sl_count": 35,
+    "win_rate": 39.7,
+    "pure_tp2_rate": 15.5,
+    "net_r": -14.5,
+    "fixed_balance": 7100.0,
+    "compounding_balance": 7395.15,
+    "fixed_return_pct": -29.0,
+    "compounding_return_pct": -26.05,
+    "max_drawdown_pct": 29.62
+  },
+  "macro_gated_tp2_3r": {
+    "total_trades": 58,
+    "tp2_count": 5,
+    "be_count": 17,
+    "sl_count": 36,
+    "win_rate": 37.9,
+    "pure_tp2_rate": 8.6,
+    "net_r": -17.5,
+    "fixed_balance": 6500.0,
+    "compounding_balance": 6962.56,
+    "fixed_return_pct": -35.0,
+    "compounding_return_pct": -30.37,
+    "max_drawdown_pct": 32.42
+  },
+  "ungated_tp2_2r": {
+    "total_trades": 154,
+    "tp2_count": 27,
+    "be_count": 39,
+    "sl_count": 87,
+    "win_rate": 42.9,
+    "pure_tp2_rate": 17.5,
+    "net_r": -26.36,
+    "fixed_balance": 4728.0,
+    "compounding_balance": 5719.14,
+    "fixed_return_pct": -52.72,
+    "compounding_return_pct": -42.81,
+    "max_drawdown_pct": 48.04
+  },
+  "symbol_breakdown": {
+    "EURUSD": {
+      "trades": 7,
+      "wins": 3,
+      "win_rate": 42.9,
+      "net_r": -1.5,
+      "tp2": 1,
+      "be": 2,
+      "sl": 4
+    },
+    "GBPUSD": {
+      "trades": 3,
+      "wins": 1,
+      "win_rate": 33.3,
+      "net_r": -0.5,
+      "tp2": 1,
+      "be": 0,
+      "sl": 2
+    },
+    "USDJPY": {
+      "trades": 4,
+      "wins": 3,
+      "win_rate": 75.0,
+      "net_r": 0.5,
+      "tp2": 0,
+      "be": 3,
+      "sl": 1
+    },
+    "USDCHF": {
+      "trades": 4,
+      "wins": 0,
+      "win_rate": 0.0,
+      "net_r": -4.0,
+      "tp2": 0,
+      "be": 0,
+      "sl": 4
+    },
+    "USDCAD": {
+      "trades": 2,
+      "wins": 1,
+      "win_rate": 50.0,
+      "net_r": -0.5,
+      "tp2": 0,
+      "be": 1,
+      "sl": 1
+    },
+    "NZDUSD": {
+      "trades": 7,
+      "wins": 2,
+      "win_rate": 28.6,
+      "net_r": -3.0,
+      "tp2": 1,
+      "be": 1,
+      "sl": 5
+    },
+    "EURJPY": {
+      "trades": 5,
+      "wins": 1,
+      "win_rate": 20.0,
+      "net_r": -3.5,
+      "tp2": 0,
+      "be": 1,
+      "sl": 4
+    },
+    "EURGBP": {
+      "trades": 4,
+      "wins": 1,
+      "win_rate": 25.0,
+      "net_r": -1.5,
+      "tp2": 1,
+      "be": 0,
+      "sl": 3
+    },
+    "BTCUSD": {
+      "trades": 13,
+      "wins": 6,
+      "win_rate": 46.2,
+      "net_r": -2.0,
+      "tp2": 2,
+      "be": 4,
+      "sl": 7
+    },
+    "ETHUSD": {
+      "trades": 4,
+      "wins": 2,
+      "win_rate": 50.0,
+      "net_r": 1.0,
+      "tp2": 2,
+      "be": 0,
+      "sl": 2
+    },
+    "SOLUSD": {
+      "trades": 2,
+      "wins": 1,
+      "win_rate": 50.0,
+      "net_r": -0.5,
+      "tp2": 0,
+      "be": 1,
+      "sl": 1
+    },
+    "XRPUSD": {
+      "trades": 3,
+      "wins": 2,
+      "win_rate": 66.7,
+      "net_r": 1.0,
+      "tp2": 1,
+      "be": 1,
+      "sl": 1
+    }
+  },
+  "monthly_breakdown": {
+    "2026-07": {
+      "trades": 9,
+      "wins": 3,
+      "win_rate": 33.3,
+      "net_r": -4.5,
+      "dollar": -900.0
+    },
+    "2026-08": {
+      "trades": 28,
+      "wins": 9,
+      "win_rate": 32.1,
+      "net_r": -8.5,
+      "dollar": -1700.0
+    },
+    "2026-09": {
+      "trades": 19,
+      "wins": 9,
+      "win_rate": 47.4,
+      "net_r": -3.5,
+      "dollar": -700.0
+    },
+    "2026-10": {
+      "trades": 2,
+      "wins": 2,
+      "win_rate": 100.0,
+      "net_r": 2.0,
+      "dollar": 400.0
+    }
+  }
+}

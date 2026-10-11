@@ -1,0 +1,695 @@
+{
+  "metadata": {
+    "evaluation_time_utc": "2026-09-17T14:20:46.823491+00:00",
+    "sample_size_total_events": 88,
+    "sample_size_clustered_instants": 59,
+    "tested_horizons_minutes": [
+      15,
+      30,
+      60,
+      240
+    ],
+    "simultaneous_duplicates_filtered": 29
+  },
+  "horse_race_4_models": {
+    "15m": {
+      "sign_surprise": {
+        "name": "Model 0: Sign(Surprise)",
+        "rank_ic": 0.4998,
+        "rank_ic_95ci": [
+          0.3083,
+          0.658
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 76,
+        "directional_hit_rate_pct": 73.7,
+        "hit_rate_95ci": [
+          64.5,
+          82.9
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "raw_surprise": {
+        "name": "Model 1: Raw Surprise (A - F)",
+        "rank_ic": 0.4663,
+        "rank_ic_95ci": [
+          0.2724,
+          0.6273
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 76,
+        "directional_hit_rate_pct": 73.7,
+        "hit_rate_95ci": [
+          64.5,
+          82.9
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "z_std": {
+        "name": "Model 2: Classic STD Z",
+        "rank_ic": 0.4798,
+        "rank_ic_95ci": [
+          0.2883,
+          0.6387
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 5,
+        "directional_hit_rate_pct": 60.0,
+        "hit_rate_95ci": [
+          20.0,
+          100.0
+        ],
+        "hit_rate_pvalue": 0.491
+      },
+      "z_mad": {
+        "name": "Model 3: Robust MAD Z",
+        "rank_ic": 0.5585,
+        "rank_ic_95ci": [
+          0.3596,
+          0.72
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 18,
+        "directional_hit_rate_pct": 88.9,
+        "hit_rate_95ci": [
+          72.2,
+          100.0
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "deltas": {
+        "mad_minus_std_ic": 0.0786,
+        "mad_minus_std_95ci": [
+          -0.0112,
+          0.1691
+        ],
+        "significant_difference_std": false
+      }
+    },
+    "30m": {
+      "sign_surprise": {
+        "name": "Model 0: Sign(Surprise)",
+        "rank_ic": 0.5151,
+        "rank_ic_95ci": [
+          0.331,
+          0.6691
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 76,
+        "directional_hit_rate_pct": 71.1,
+        "hit_rate_95ci": [
+          60.5,
+          81.6
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "raw_surprise": {
+        "name": "Model 1: Raw Surprise (A - F)",
+        "rank_ic": 0.4702,
+        "rank_ic_95ci": [
+          0.2888,
+          0.6266
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 76,
+        "directional_hit_rate_pct": 71.1,
+        "hit_rate_95ci": [
+          60.5,
+          81.6
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "z_std": {
+        "name": "Model 2: Classic STD Z",
+        "rank_ic": 0.4984,
+        "rank_ic_95ci": [
+          0.3017,
+          0.663
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 5,
+        "directional_hit_rate_pct": 60.0,
+        "hit_rate_95ci": [
+          20.0,
+          100.0
+        ],
+        "hit_rate_pvalue": 0.491
+      },
+      "z_mad": {
+        "name": "Model 3: Robust MAD Z",
+        "rank_ic": 0.5625,
+        "rank_ic_95ci": [
+          0.3698,
+          0.7226
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 18,
+        "directional_hit_rate_pct": 88.9,
+        "hit_rate_95ci": [
+          72.2,
+          100.0
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "deltas": {
+        "mad_minus_std_ic": 0.0641,
+        "mad_minus_std_95ci": [
+          -0.0246,
+          0.151
+        ],
+        "significant_difference_std": false
+      }
+    },
+    "60m": {
+      "sign_surprise": {
+        "name": "Model 0: Sign(Surprise)",
+        "rank_ic": 0.5128,
+        "rank_ic_95ci": [
+          0.333,
+          0.6662
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 76,
+        "directional_hit_rate_pct": 69.7,
+        "hit_rate_95ci": [
+          60.5,
+          80.3
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "raw_surprise": {
+        "name": "Model 1: Raw Surprise (A - F)",
+        "rank_ic": 0.4662,
+        "rank_ic_95ci": [
+          0.2796,
+          0.6283
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 76,
+        "directional_hit_rate_pct": 69.7,
+        "hit_rate_95ci": [
+          60.5,
+          80.3
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "z_std": {
+        "name": "Model 2: Classic STD Z",
+        "rank_ic": 0.4909,
+        "rank_ic_95ci": [
+          0.3015,
+          0.6458
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 5,
+        "directional_hit_rate_pct": 60.0,
+        "hit_rate_95ci": [
+          20.0,
+          100.0
+        ],
+        "hit_rate_pvalue": 0.491
+      },
+      "z_mad": {
+        "name": "Model 3: Robust MAD Z",
+        "rank_ic": 0.5575,
+        "rank_ic_95ci": [
+          0.368,
+          0.7125
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 18,
+        "directional_hit_rate_pct": 88.9,
+        "hit_rate_95ci": [
+          72.2,
+          100.0
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "deltas": {
+        "mad_minus_std_ic": 0.0666,
+        "mad_minus_std_95ci": [
+          -0.0274,
+          0.1567
+        ],
+        "significant_difference_std": false
+      }
+    },
+    "240m": {
+      "sign_surprise": {
+        "name": "Model 0: Sign(Surprise)",
+        "rank_ic": 0.3567,
+        "rank_ic_95ci": [
+          0.1436,
+          0.5324
+        ],
+        "rank_ic_pvalue": 0.002,
+        "actionable_signal_count": 76,
+        "directional_hit_rate_pct": 68.4,
+        "hit_rate_95ci": [
+          57.9,
+          78.9
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "raw_surprise": {
+        "name": "Model 1: Raw Surprise (A - F)",
+        "rank_ic": 0.3039,
+        "rank_ic_95ci": [
+          0.0947,
+          0.4814
+        ],
+        "rank_ic_pvalue": 0.003,
+        "actionable_signal_count": 76,
+        "directional_hit_rate_pct": 68.4,
+        "hit_rate_95ci": [
+          57.9,
+          78.9
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "z_std": {
+        "name": "Model 2: Classic STD Z",
+        "rank_ic": 0.368,
+        "rank_ic_95ci": [
+          0.1335,
+          0.5569
+        ],
+        "rank_ic_pvalue": 0.002,
+        "actionable_signal_count": 5,
+        "directional_hit_rate_pct": 60.0,
+        "hit_rate_95ci": [
+          20.0,
+          100.0
+        ],
+        "hit_rate_pvalue": 0.491
+      },
+      "z_mad": {
+        "name": "Model 3: Robust MAD Z",
+        "rank_ic": 0.3911,
+        "rank_ic_95ci": [
+          0.1665,
+          0.5655
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 18,
+        "directional_hit_rate_pct": 72.2,
+        "hit_rate_95ci": [
+          50.0,
+          88.9
+        ],
+        "hit_rate_pvalue": 0.045
+      },
+      "deltas": {
+        "mad_minus_std_ic": 0.0231,
+        "mad_minus_std_95ci": [
+          -0.074,
+          0.1207
+        ],
+        "significant_difference_std": false
+      }
+    }
+  },
+  "clustered_de_duplicated_race": {
+    "15m": {
+      "sign_surprise": {
+        "rank_ic": 0.4964,
+        "rank_ic_95ci": [
+          0.2761,
+          0.6676
+        ],
+        "hit_count": 50,
+        "directional_hit_rate_pct": 78.0,
+        "hit_rate_95ci": [
+          66.0,
+          88.0
+        ]
+      },
+      "raw_surprise": {
+        "rank_ic": 0.4576,
+        "rank_ic_95ci": [
+          0.2093,
+          0.659
+        ],
+        "hit_count": 56,
+        "directional_hit_rate_pct": 73.2,
+        "hit_rate_95ci": [
+          60.7,
+          83.9
+        ]
+      },
+      "z_std": {
+        "rank_ic": 0.4653,
+        "rank_ic_95ci": [
+          0.2274,
+          0.6588
+        ],
+        "hit_count": 5,
+        "directional_hit_rate_pct": 60.0,
+        "hit_rate_95ci": [
+          20.0,
+          100.0
+        ]
+      },
+      "z_mad": {
+        "rank_ic": 0.5694,
+        "rank_ic_95ci": [
+          0.3466,
+          0.7487
+        ],
+        "hit_count": 11,
+        "directional_hit_rate_pct": 81.8,
+        "hit_rate_95ci": [
+          54.5,
+          100.0
+        ]
+      }
+    },
+    "30m": {
+      "sign_surprise": {
+        "rank_ic": 0.5186,
+        "rank_ic_95ci": [
+          0.2903,
+          0.6982
+        ],
+        "hit_count": 50,
+        "directional_hit_rate_pct": 72.0,
+        "hit_rate_95ci": [
+          60.0,
+          84.0
+        ]
+      },
+      "raw_surprise": {
+        "rank_ic": 0.4597,
+        "rank_ic_95ci": [
+          0.2233,
+          0.65
+        ],
+        "hit_count": 56,
+        "directional_hit_rate_pct": 69.6,
+        "hit_rate_95ci": [
+          57.1,
+          82.1
+        ]
+      },
+      "z_std": {
+        "rank_ic": 0.4685,
+        "rank_ic_95ci": [
+          0.2232,
+          0.6778
+        ],
+        "hit_count": 5,
+        "directional_hit_rate_pct": 60.0,
+        "hit_rate_95ci": [
+          20.0,
+          100.0
+        ]
+      },
+      "z_mad": {
+        "rank_ic": 0.5693,
+        "rank_ic_95ci": [
+          0.329,
+          0.7616
+        ],
+        "hit_count": 11,
+        "directional_hit_rate_pct": 81.8,
+        "hit_rate_95ci": [
+          54.5,
+          100.0
+        ]
+      }
+    },
+    "60m": {
+      "sign_surprise": {
+        "rank_ic": 0.5157,
+        "rank_ic_95ci": [
+          0.2941,
+          0.6914
+        ],
+        "hit_count": 50,
+        "directional_hit_rate_pct": 70.0,
+        "hit_rate_95ci": [
+          58.0,
+          82.0
+        ]
+      },
+      "raw_surprise": {
+        "rank_ic": 0.4451,
+        "rank_ic_95ci": [
+          0.1981,
+          0.6385
+        ],
+        "hit_count": 56,
+        "directional_hit_rate_pct": 69.6,
+        "hit_rate_95ci": [
+          57.1,
+          80.4
+        ]
+      },
+      "z_std": {
+        "rank_ic": 0.462,
+        "rank_ic_95ci": [
+          0.2279,
+          0.6617
+        ],
+        "hit_count": 5,
+        "directional_hit_rate_pct": 60.0,
+        "hit_rate_95ci": [
+          20.0,
+          100.0
+        ]
+      },
+      "z_mad": {
+        "rank_ic": 0.5704,
+        "rank_ic_95ci": [
+          0.3462,
+          0.7479
+        ],
+        "hit_count": 11,
+        "directional_hit_rate_pct": 81.8,
+        "hit_rate_95ci": [
+          54.5,
+          100.0
+        ]
+      }
+    },
+    "240m": {
+      "sign_surprise": {
+        "rank_ic": 0.3753,
+        "rank_ic_95ci": [
+          0.1176,
+          0.5899
+        ],
+        "hit_count": 50,
+        "directional_hit_rate_pct": 68.0,
+        "hit_rate_95ci": [
+          54.0,
+          80.0
+        ]
+      },
+      "raw_surprise": {
+        "rank_ic": 0.2825,
+        "rank_ic_95ci": [
+          0.0045,
+          0.5213
+        ],
+        "hit_count": 56,
+        "directional_hit_rate_pct": 67.9,
+        "hit_rate_95ci": [
+          55.4,
+          78.6
+        ]
+      },
+      "z_std": {
+        "rank_ic": 0.3452,
+        "rank_ic_95ci": [
+          0.0685,
+          0.5789
+        ],
+        "hit_count": 5,
+        "directional_hit_rate_pct": 60.0,
+        "hit_rate_95ci": [
+          20.0,
+          100.0
+        ]
+      },
+      "z_mad": {
+        "rank_ic": 0.4197,
+        "rank_ic_95ci": [
+          0.1529,
+          0.6245
+        ],
+        "hit_count": 11,
+        "directional_hit_rate_pct": 72.7,
+        "hit_rate_95ci": [
+          45.5,
+          100.0
+        ]
+      }
+    }
+  },
+  "net_of_cost_analysis": {
+    "gross_0bps": {
+      "trade_count": 18,
+      "mean_gross_bps": 28.1,
+      "mean_net_bps": 28.1,
+      "net_win_rate_pct": 88.9,
+      "profit_factor": 14.23
+    },
+    "low_cost_10bps_1pip": {
+      "trade_count": 18,
+      "mean_gross_bps": 28.1,
+      "mean_net_bps": 18.1,
+      "net_win_rate_pct": 83.3,
+      "profit_factor": 6.27
+    },
+    "news_cost_15bps_1.5pips": {
+      "trade_count": 18,
+      "mean_gross_bps": 28.1,
+      "mean_net_bps": 13.1,
+      "net_win_rate_pct": 72.2,
+      "profit_factor": 3.85
+    },
+    "std_news_cost_15bps": {
+      "trade_count": 5,
+      "mean_gross_bps": 10.78,
+      "mean_net_bps": -4.22,
+      "net_win_rate_pct": 60.0,
+      "profit_factor": 0.69
+    }
+  },
+  "indicator_year_decomposition": {
+    "core_cpi": {
+      "total_n": 14,
+      "by_year": {
+        "2024": {
+          "n": 11,
+          "mad_ic": 0.8711,
+          "std_ic": 0.8711,
+          "mad_ge_1_signals": 0,
+          "std_ge_1_signals": 0
+        },
+        "2025": {
+          "n": 3,
+          "mad_ic": 0.866,
+          "std_ic": 0.866,
+          "mad_ge_1_signals": 0,
+          "std_ge_1_signals": 0
+        }
+      }
+    },
+    "cpi": {
+      "total_n": 14,
+      "by_year": {
+        "2024": {
+          "n": 11,
+          "mad_ic": 0.7056,
+          "std_ic": 0.7056,
+          "mad_ge_1_signals": 1,
+          "std_ge_1_signals": 1
+        },
+        "2025": {
+          "n": 3,
+          "mad_ic": 1.0,
+          "std_ic": 1.0,
+          "mad_ge_1_signals": 1,
+          "std_ge_1_signals": 1
+        }
+      }
+    },
+    "gdp": {
+      "total_n": 4,
+      "by_year": {
+        "2024": {
+          "n": 3,
+          "mad_ic": -0.5,
+          "std_ic": -0.5,
+          "mad_ge_1_signals": 2,
+          "std_ge_1_signals": 1
+        },
+        "2025": {
+          "n": 1,
+          "mad_ic": 0.0,
+          "std_ic": 0.0,
+          "mad_ge_1_signals": 0,
+          "std_ge_1_signals": 0
+        }
+      }
+    },
+    "nfp": {
+      "total_n": 14,
+      "by_year": {
+        "2024": {
+          "n": 10,
+          "mad_ic": 0.7939,
+          "std_ic": 0.7939,
+          "mad_ge_1_signals": 4,
+          "std_ge_1_signals": 0
+        },
+        "2025": {
+          "n": 4,
+          "mad_ic": 1.0,
+          "std_ic": 1.0,
+          "mad_ge_1_signals": 2,
+          "std_ge_1_signals": 0
+        }
+      }
+    },
+    "pmi": {
+      "total_n": 14,
+      "by_year": {
+        "2024": {
+          "n": 10,
+          "mad_ic": 0.4061,
+          "std_ic": 0.4061,
+          "mad_ge_1_signals": 3,
+          "std_ge_1_signals": 2
+        },
+        "2025": {
+          "n": 4,
+          "mad_ic": -0.2,
+          "std_ic": -0.2,
+          "mad_ge_1_signals": 0,
+          "std_ge_1_signals": 0
+        }
+      }
+    },
+    "retail_sales": {
+      "total_n": 14,
+      "by_year": {
+        "2024": {
+          "n": 11,
+          "mad_ic": 0.6788,
+          "std_ic": 0.6788,
+          "mad_ge_1_signals": 2,
+          "std_ge_1_signals": 0
+        },
+        "2025": {
+          "n": 3,
+          "mad_ic": 0.5,
+          "std_ic": 0.5,
+          "mad_ge_1_signals": 1,
+          "std_ge_1_signals": 0
+        }
+      }
+    },
+    "unemployment": {
+      "total_n": 14,
+      "by_year": {
+        "2024": {
+          "n": 10,
+          "mad_ic": 0.5549,
+          "std_ic": 0.5549,
+          "mad_ge_1_signals": 2,
+          "std_ge_1_signals": 0
+        },
+        "2025": {
+          "n": 4,
+          "mad_ic": 0.2,
+          "std_ic": 0.2,
+          "mad_ge_1_signals": 0,
+          "std_ge_1_signals": 0
+        }
+      }
+    }
+  }
+}

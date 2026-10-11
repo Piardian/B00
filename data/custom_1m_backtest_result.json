@@ -1,0 +1,148 @@
+{
+  "initial_capital": 10000.0,
+  "risk_percentage": "%2.0",
+  "total_trades": 98,
+  "tp2_hits": 9,
+  "be_hits": 26,
+  "sl_hits": 63,
+  "time_exits": 0,
+  "win_rate": "%35.7",
+  "tp2_rate": "%9.2",
+  "total_net_r": "-32.0R",
+  "fixed_model": {
+    "risk_per_trade": "$200.00",
+    "ending_balance": "$3,600.00",
+    "net_profit_dollar": "$-6,400.00",
+    "net_return_pct": "%-64.0"
+  },
+  "compounding_model": {
+    "ending_balance": "$5,162.96",
+    "net_profit_dollar": "$-4,837.04",
+    "net_return_pct": "%-48.4",
+    "max_drawdown_pct": "%49.93"
+  },
+  "strategy_breakdown": {
+    "SFP_INSTITUTIONAL": {
+      "trades": 65,
+      "wins": 30,
+      "win_rate": "%46.2",
+      "net_r": "-8.0R"
+    },
+    "ORB_LONDON_ONLY": {
+      "trades": 33,
+      "wins": 5,
+      "win_rate": "%15.2",
+      "net_r": "-24.0R"
+    }
+  },
+  "top_performing_symbols": {
+    "EURUSD": {
+      "trades": 8,
+      "wins": 4,
+      "win_rate": 50.0,
+      "net_r": 1.0
+    },
+    "GBPUSD": {
+      "trades": 7,
+      "wins": 4,
+      "win_rate": 57.1,
+      "net_r": 2.0
+    },
+    "USDJPY": {
+      "trades": 1,
+      "wins": 1,
+      "win_rate": 100.0,
+      "net_r": 0.5
+    },
+    "USDCHF": {
+      "trades": 5,
+      "wins": 2,
+      "win_rate": 40.0,
+      "net_r": -2.0
+    },
+    "USDCAD": {
+      "trades": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "net_r": -0.5
+    },
+    "NZDUSD": {
+      "trades": 5,
+      "wins": 2,
+      "win_rate": 40.0,
+      "net_r": -2.0
+    },
+    "EURJPY": {
+      "trades": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "net_r": 1.0
+    },
+    "EURGBP": {
+      "trades": 4,
+      "wins": 2,
+      "win_rate": 50.0,
+      "net_r": -1.0
+    },
+    "XAUUSD": {
+      "trades": 7,
+      "wins": 2,
+      "win_rate": 28.6,
+      "net_r": -4.0
+    },
+    "NAS100": {
+      "trades": 3,
+      "wins": 1,
+      "win_rate": 33.3,
+      "net_r": -1.5
+    },
+    "SP500": {
+      "trades": 7,
+      "wins": 1,
+      "win_rate": 14.3,
+      "net_r": -5.5
+    },
+    "US30": {
+      "trades": 7,
+      "wins": 1,
+      "win_rate": 14.3,
+      "net_r": -5.5
+    },
+    "BTCUSD": {
+      "trades": 5,
+      "wins": 2,
+      "win_rate": 40.0,
+      "net_r": -0.5
+    },
+    "ETHUSD": {
+      "trades": 10,
+      "wins": 2,
+      "win_rate": 20.0,
+      "net_r": -5.5
+    },
+    "SOLUSD": {
+      "trades": 4,
+      "wins": 0,
+      "win_rate": 0.0,
+      "net_r": -4.0
+    },
+    "LTCUSD": {
+      "trades": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "net_r": 1.0
+    },
+    "XRPUSD": {
+      "trades": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "net_r": -1.5
+    },
+    "DOGUSD": {
+      "trades": 4,
+      "wins": 0,
+      "win_rate": 0.0,
+      "net_r": -4.0
+    }
+  }
+}

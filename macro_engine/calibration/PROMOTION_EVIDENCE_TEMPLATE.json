@@ -1,0 +1,29 @@
+{
+  "methodology_version": "promotion-evidence-v1",
+  "production_activation": false,
+  "frozen_parameters": {
+    "mad_threshold_abs_z": 1.0,
+    "holdout_fitting": false,
+    "threshold_optimization": false
+  },
+  "holdout": {
+    "2025_H2": {
+      "status": "INSUFFICIENT_DATA",
+      "rows": 0
+    },
+    "2026_YTD": {
+      "status": "INSUFFICIENT_DATA",
+      "rows": 0
+    }
+  },
+  "execution_stress": {
+    "status": "PENDING",
+    "scenarios": ["CALM_10BP", "NEWS_30BP", "NEWS_50BP"]
+  },
+  "incremental_smc": {
+    "status": "PENDING",
+    "ledger_required": true
+  },
+  "promotion_ready": false,
+  "decision": "HOLDOUT_INCOMPLETE"
+}

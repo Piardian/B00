@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "symbol": "EURUSD",
+    "time_basis": "UTC event timestamp reconstructed from America/New_York schedule",
+    "bar_timeframe": "M5",
+    "horizons_minutes": [
+      5,
+      15,
+      30,
+      60,
+      240
+    ],
+    "walk_forward": "expanding, train strictly before validation year",
+    "mt5_bar_range_utc": {
+      "first_bar": "2025-11-03T08:15:00+00:00",
+      "last_bar": "2026-09-17T11:00:00+00:00",
+      "total_bars": 65000
+    }
+  },
+  "diagnostics": {
+    "observations_total": 706,
+    "matched": 0,
+    "missing_event_bar": 474,
+    "missing_horizon_bar": 0,
+    "invalid_observation": 4
+  },
+  "summary": {
+    "error": "No fully aligned event records"
+  },
+  "timestamp_audit": {
+    "raw_vs_reconstructed_close_within_5m": 0,
+    "matched_records": 0
+  },
+  "m15_extended_analysis": {
+    "note": "M5 buffer only exists from 2025-11-03 onwards in this broker account. M15 is available back to 2024-02-05 and covers 2024-2025 events.",
+    "diagnostics": {
+      "observations_total": 706,
+      "matched": 88,
+      "missing_event_bar": 386,
+      "missing_horizon_bar": 0,
+      "invalid_observation": 4
+    },
+    "summary": {
+      "sample_count": 88,
+      "horizons": {
+        "15m": {
+          "mad_ic": 0.5585,
+          "std_ic": 0.4798,
+          "delta_mad_minus_std": 0.0786,
+          "mad_hit_rate_abs_z_ge_1": 88.9,
+          "std_hit_rate_abs_z_ge_1": 60.0,
+          "mean_return_mad_sign": 16.515
+        },
+        "30m": {
+          "mad_ic": 0.5625,
+          "std_ic": 0.4984,
+          "delta_mad_minus_std": 0.0641,
+          "mad_hit_rate_abs_z_ge_1": 88.9,
+          "std_hit_rate_abs_z_ge_1": 60.0,
+          "mean_return_mad_sign": 17.012
+        },
+        "60m": {
+          "mad_ic": 0.5575,
+          "std_ic": 0.4909,
+          "delta_mad_minus_std": 0.0666,
+          "mad_hit_rate_abs_z_ge_1": 88.9,
+          "std_hit_rate_abs_z_ge_1": 60.0,
+          "mean_return_mad_sign": 15.104
+        },
+        "240m": {
+          "mad_ic": 0.3911,
+          "std_ic": 0.368,
+          "delta_mad_minus_std": 0.0231,
+          "mad_hit_rate_abs_z_ge_1": 72.2,
+          "std_hit_rate_abs_z_ge_1": 60.0,
+          "mean_return_mad_sign": 14.038
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+# Environment & Secrets
+.env
+*.env
+!.env.example
+.env.local
+.env.*.local
+
+# Runtime Locks & Ephemeral State
+*.lock
+!package-lock.json
+*.pid
+orchestrator/*.lock
+data/*.lock
+data/runtime.lock
+data/candles/
+data/signal_history.json
+data/active_trades.json
+data/trade_ledger.json
+sfp_orb_engine/data/*.lock
+smc_engine/data/*.lock
+macro_engine/gateways/calendar_cache.json
+macro_engine/data/cache/
+
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# Node.js
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs & Telemetry
+*.log
+logs/
+runtime-logs/
+telemetry/
+
+# Test output & Coverage
+coverage/
+*.lcov
+test-output/
+demo-output/
+evidence/
+temp_*/
+smc_engine/tests/temp_*/
+
+# System & IDEs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.aider*
+.codex*

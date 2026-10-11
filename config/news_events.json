@@ -1,0 +1,78 @@
+{
+  "default_freeze_minutes_before": 15,
+  "default_freeze_minutes_after": 15,
+  "supported_currencies": ["USD", "EUR", "GBP", "ALL"],
+  "high_impact_definitions": [
+    {
+      "id": "FOMC_RATE_DECISION",
+      "name": "FOMC Faiz Kararı & Basın Toplantısı",
+      "currency": "USD",
+      "impact": "CRITICAL",
+      "affects_all_symbols": true,
+      "freeze_minutes_before": 15,
+      "freeze_minutes_after": 20
+    },
+    {
+      "id": "US_CPI",
+      "name": "ABD Tüketici Fiyat Endeksi (CPI / TÜFE)",
+      "currency": "USD",
+      "impact": "CRITICAL",
+      "affects_all_symbols": true,
+      "freeze_minutes_before": 15,
+      "freeze_minutes_after": 15
+    },
+    {
+      "id": "US_NFP",
+      "name": "ABD Tarım Dışı İstihdam (NFP / Non-Farm Payrolls)",
+      "currency": "USD",
+      "impact": "CRITICAL",
+      "affects_all_symbols": true,
+      "freeze_minutes_before": 15,
+      "freeze_minutes_after": 15
+    },
+    {
+      "id": "ECB_RATE_DECISION",
+      "name": "ECB Faiz Kararı & Basın Toplantısı",
+      "currency": "EUR",
+      "impact": "HIGH",
+      "affects_symbols": ["EURUSD", "EURGBP", "EURJPY"],
+      "freeze_minutes_before": 15,
+      "freeze_minutes_after": 15
+    },
+    {
+      "id": "US_CORE_PCE",
+      "name": "ABD Çekirdek PCE Fiyat Endeksi",
+      "currency": "USD",
+      "impact": "HIGH",
+      "affects_all_symbols": true,
+      "freeze_minutes_before": 15,
+      "freeze_minutes_after": 15
+    }
+  ],
+  "scheduled_events": [
+    {
+      "id": "US_CPI_2026_09_11",
+      "name": "ABD TÜFE (CPI) Enflasyon Raporu",
+      "event_time_utc": "2026-09-11T12:30:00Z",
+      "currency": "USD",
+      "impact": "CRITICAL",
+      "affects_all_symbols": true
+    },
+    {
+      "id": "FOMC_2026_09_16",
+      "name": "FOMC Faiz Kararı & Basın Toplantısı",
+      "event_time_utc": "2026-09-16T18:00:00Z",
+      "currency": "USD",
+      "impact": "CRITICAL",
+      "affects_all_symbols": true
+    },
+    {
+      "id": "US_NFP_2026_10_02",
+      "name": "ABD Tarım Dışı İstihdam (NFP)",
+      "event_time_utc": "2026-10-02T12:30:00Z",
+      "currency": "USD",
+      "impact": "CRITICAL",
+      "affects_all_symbols": true
+    }
+  ]
+}

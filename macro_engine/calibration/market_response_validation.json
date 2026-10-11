@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "evaluation_time_utc": "2026-09-17T09:59:30.367767+00:00",
+    "symbol": "EURUSD",
+    "total_matched_events": 474,
+    "tested_years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "spearman_rank_ic": {
+    "immediate_30m_1h": {
+      "mad": 0.3216,
+      "std": 0.2915,
+      "delta_ic_mad_std": 0.03
+    },
+    "one_hour": {
+      "mad": 0.312,
+      "std": 0.2856,
+      "delta_ic_mad_std": 0.0264
+    },
+    "four_hour": {
+      "mad": 0.2148,
+      "std": 0.2187,
+      "delta_ic_mad_std": -0.0039
+    }
+  },
+  "directional_hit_rate": {
+    "moderate_signals_abs_z_ge_1": {
+      "mad": {
+        "count": 176,
+        "immediate_hit_rate_pct": 68.2,
+        "one_hour_hit_rate_pct": 67.6
+      },
+      "std": {
+        "count": 120,
+        "immediate_hit_rate_pct": 62.5,
+        "one_hour_hit_rate_pct": 61.7
+      }
+    },
+    "extreme_signals_abs_z_ge_2": {
+      "mad": {
+        "count": 80,
+        "immediate_hit_rate_pct": 66.2
+      },
+      "std": {
+        "count": 49,
+        "immediate_hit_rate_pct": 63.3
+      }
+    }
+  },
+  "bucket_analysis": {
+    "mad": {
+      "1_strong_neg": {
+        "label": "1. Strong Neg (Z < -2.0)",
+        "count": 27,
+        "mean_usd_bps": -11.52,
+        "median_usd_bps": -11.88,
+        "pos_pct": 29.6,
+        "neg_pct": 70.4
+      },
+      "2_mod_neg": {
+        "label": "2. Mod Neg (-2.0 <= Z < -1.0)",
+        "count": 48,
+        "mean_usd_bps": -17.91,
+        "median_usd_bps": -9.19,
+        "pos_pct": 33.3,
+        "neg_pct": 66.7
+      },
+      "3_in_line": {
+        "label": "3. In-Line (-1.0 <= Z <= +1.0)",
+        "count": 298,
+        "mean_usd_bps": -0.67,
+        "median_usd_bps": -0.61,
+        "pos_pct": 49.3,
+        "neg_pct": 50.0
+      },
+      "4_mod_pos": {
+        "label": "4. Mod Pos (+1.0 < Z <= +2.0)",
+        "count": 48,
+        "mean_usd_bps": 23.32,
+        "median_usd_bps": 14.09,
+        "pos_pct": 72.9,
+        "neg_pct": 27.1
+      },
+      "5_strong_pos": {
+        "label": "5. Strong Pos (Z > +2.0)",
+        "count": 53,
+        "mean_usd_bps": 11.03,
+        "median_usd_bps": 6.95,
+        "pos_pct": 64.2,
+        "neg_pct": 35.8
+      }
+    },
+    "std": {
+      "1_strong_neg": {
+        "label": "1. Strong Neg (Z < -2.0)",
+        "count": 14,
+        "mean_usd_bps": -6.02,
+        "median_usd_bps": -7.4,
+        "pos_pct": 35.7,
+        "neg_pct": 64.3
+      },
+      "2_mod_neg": {
+        "label": "2. Mod Neg (-2.0 <= Z < -1.0)",
+        "count": 38,
+        "mean_usd_bps": -17.43,
+        "median_usd_bps": -5.27,
+        "pos_pct": 42.1,
+        "neg_pct": 57.9
+      },
+      "3_in_line": {
+        "label": "3. In-Line (-1.0 <= Z <= +1.0)",
+        "count": 354,
+        "mean_usd_bps": 0.62,
+        "median_usd_bps": -0.61,
+        "pos_pct": 49.4,
+        "neg_pct": 50.0
+      },
+      "4_mod_pos": {
+        "label": "4. Mod Pos (+1.0 < Z <= +2.0)",
+        "count": 33,
+        "mean_usd_bps": 15.58,
+        "median_usd_bps": 7.98,
+        "pos_pct": 66.7,
+        "neg_pct": 33.3
+      },
+      "5_strong_pos": {
+        "label": "5. Strong Pos (Z > +2.0)",
+        "count": 35,
+        "mean_usd_bps": 9.96,
+        "median_usd_bps": 4.24,
+        "pos_pct": 62.9,
+        "neg_pct": 37.1
+      }
+    }
+  },
+  "by_indicator": {
+    "core_cpi": {
+      "sample_count": 75,
+      "spearman_ic_mad": 0.449,
+      "spearman_ic_std": 0.4196,
+      "mad_signals_ge_1": 18,
+      "mad_hit_rate_ge_1": 83.3,
+      "std_signals_ge_1": 30,
+      "std_hit_rate_ge_1": 63.3
+    },
+    "cpi": {
+      "sample_count": 75,
+      "spearman_ic_mad": 0.5333,
+      "spearman_ic_std": 0.474,
+      "mad_signals_ge_1": 15,
+      "mad_hit_rate_ge_1": 80.0,
+      "std_signals_ge_1": 15,
+      "std_hit_rate_ge_1": 80.0
+    },
+    "gdp": {
+      "sample_count": 21,
+      "spearman_ic_mad": 0.2519,
+      "spearman_ic_std": 0.2273,
+      "mad_signals_ge_1": 14,
+      "mad_hit_rate_ge_1": 57.1,
+      "std_signals_ge_1": 9,
+      "std_hit_rate_ge_1": 66.7
+    },
+    "nfp": {
+      "sample_count": 76,
+      "spearman_ic_mad": 0.4545,
+      "spearman_ic_std": 0.3306,
+      "mad_signals_ge_1": 40,
+      "mad_hit_rate_ge_1": 75.0,
+      "std_signals_ge_1": 15,
+      "std_hit_rate_ge_1": 53.3
+    },
+    "pmi": {
+      "sample_count": 76,
+      "spearman_ic_mad": 0.1285,
+      "spearman_ic_std": 0.1411,
+      "mad_signals_ge_1": 22,
+      "mad_hit_rate_ge_1": 50.0,
+      "std_signals_ge_1": 20,
+      "std_hit_rate_ge_1": 50.0
+    },
+    "retail_sales": {
+      "sample_count": 75,
+      "spearman_ic_mad": 0.2423,
+      "spearman_ic_std": 0.2223,
+      "mad_signals_ge_1": 38,
+      "mad_hit_rate_ge_1": 68.4,
+      "std_signals_ge_1": 20,
+      "std_hit_rate_ge_1": 70.0
+    },
+    "unemployment": {
+      "sample_count": 76,
+      "spearman_ic_mad": 0.2612,
+      "spearman_ic_std": 0.2266,
+      "mad_signals_ge_1": 29,
+      "mad_hit_rate_ge_1": 62.1,
+      "std_signals_ge_1": 11,
+      "std_hit_rate_ge_1": 54.5
+    }
+  }
+}

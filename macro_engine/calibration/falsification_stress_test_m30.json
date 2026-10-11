@@ -1,0 +1,713 @@
+{
+  "metadata": {
+    "evaluation_time_utc": "2026-09-17T14:21:49.107118+00:00",
+    "sample_size_total_events": 288,
+    "sample_size_clustered_instants": 196,
+    "tested_horizons_minutes": [
+      30,
+      60,
+      240
+    ],
+    "simultaneous_duplicates_filtered": 92
+  },
+  "horse_race_4_models": {
+    "30m": {
+      "sign_surprise": {
+        "name": "Model 0: Sign(Surprise)",
+        "rank_ic": 0.3908,
+        "rank_ic_95ci": [
+          0.2864,
+          0.4937
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 252,
+        "directional_hit_rate_pct": 66.7,
+        "hit_rate_95ci": [
+          61.1,
+          72.2
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "raw_surprise": {
+        "name": "Model 1: Raw Surprise (A - F)",
+        "rank_ic": 0.3434,
+        "rank_ic_95ci": [
+          0.2401,
+          0.437
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 252,
+        "directional_hit_rate_pct": 66.7,
+        "hit_rate_95ci": [
+          61.1,
+          72.2
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "z_std": {
+        "name": "Model 2: Classic STD Z",
+        "rank_ic": 0.419,
+        "rank_ic_95ci": [
+          0.3169,
+          0.5188
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 35,
+        "directional_hit_rate_pct": 80.0,
+        "hit_rate_95ci": [
+          65.7,
+          91.4
+        ],
+        "hit_rate_pvalue": 0.001
+      },
+      "z_mad": {
+        "name": "Model 3: Robust MAD Z",
+        "rank_ic": 0.4177,
+        "rank_ic_95ci": [
+          0.3144,
+          0.515
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 90,
+        "directional_hit_rate_pct": 75.6,
+        "hit_rate_95ci": [
+          66.7,
+          84.4
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "deltas": {
+        "mad_minus_std_ic": -0.0013,
+        "mad_minus_std_95ci": [
+          -0.0475,
+          0.0441
+        ],
+        "significant_difference_std": false
+      }
+    },
+    "60m": {
+      "sign_surprise": {
+        "name": "Model 0: Sign(Surprise)",
+        "rank_ic": 0.3823,
+        "rank_ic_95ci": [
+          0.2748,
+          0.4847
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 252,
+        "directional_hit_rate_pct": 66.7,
+        "hit_rate_95ci": [
+          61.1,
+          72.2
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "raw_surprise": {
+        "name": "Model 1: Raw Surprise (A - F)",
+        "rank_ic": 0.3454,
+        "rank_ic_95ci": [
+          0.2442,
+          0.442
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 252,
+        "directional_hit_rate_pct": 66.7,
+        "hit_rate_95ci": [
+          61.1,
+          72.2
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "z_std": {
+        "name": "Model 2: Classic STD Z",
+        "rank_ic": 0.3932,
+        "rank_ic_95ci": [
+          0.2905,
+          0.4953
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 35,
+        "directional_hit_rate_pct": 74.3,
+        "hit_rate_95ci": [
+          60.0,
+          88.6
+        ],
+        "hit_rate_pvalue": 0.004
+      },
+      "z_mad": {
+        "name": "Model 3: Robust MAD Z",
+        "rank_ic": 0.4007,
+        "rank_ic_95ci": [
+          0.2968,
+          0.5004
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 90,
+        "directional_hit_rate_pct": 75.6,
+        "hit_rate_95ci": [
+          66.7,
+          84.4
+        ],
+        "hit_rate_pvalue": 0.0
+      },
+      "deltas": {
+        "mad_minus_std_ic": 0.0075,
+        "mad_minus_std_95ci": [
+          -0.0431,
+          0.0548
+        ],
+        "significant_difference_std": false
+      }
+    },
+    "240m": {
+      "sign_surprise": {
+        "name": "Model 0: Sign(Surprise)",
+        "rank_ic": 0.2266,
+        "rank_ic_95ci": [
+          0.1084,
+          0.3382
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 252,
+        "directional_hit_rate_pct": 61.9,
+        "hit_rate_95ci": [
+          56.3,
+          68.3
+        ],
+        "hit_rate_pvalue": 0.001
+      },
+      "raw_surprise": {
+        "name": "Model 1: Raw Surprise (A - F)",
+        "rank_ic": 0.1979,
+        "rank_ic_95ci": [
+          0.0827,
+          0.3076
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 252,
+        "directional_hit_rate_pct": 61.9,
+        "hit_rate_95ci": [
+          56.3,
+          68.3
+        ],
+        "hit_rate_pvalue": 0.001
+      },
+      "z_std": {
+        "name": "Model 2: Classic STD Z",
+        "rank_ic": 0.2497,
+        "rank_ic_95ci": [
+          0.1363,
+          0.3642
+        ],
+        "rank_ic_pvalue": 0.0,
+        "actionable_signal_count": 35,
+        "directional_hit_rate_pct": 65.7,
+        "hit_rate_95ci": [
+          51.4,
+          80.0
+        ],
+        "hit_rate_pvalue": 0.056
+      },
+      "z_mad": {
+        "name": "Model 3: Robust MAD Z",
+        "rank_ic": 0.2198,
+        "rank_ic_95ci": [
+          0.1006,
+          0.3366
+        ],
+        "rank_ic_pvalue": 0.001,
+        "actionable_signal_count": 90,
+        "directional_hit_rate_pct": 63.3,
+        "hit_rate_95ci": [
+          53.3,
+          72.2
+        ],
+        "hit_rate_pvalue": 0.008
+      },
+      "deltas": {
+        "mad_minus_std_ic": -0.0299,
+        "mad_minus_std_95ci": [
+          -0.0784,
+          0.0219
+        ],
+        "significant_difference_std": false
+      }
+    }
+  },
+  "clustered_de_duplicated_race": {
+    "30m": {
+      "sign_surprise": {
+        "rank_ic": 0.3723,
+        "rank_ic_95ci": [
+          0.2374,
+          0.4952
+        ],
+        "hit_count": 168,
+        "directional_hit_rate_pct": 66.1,
+        "hit_rate_95ci": [
+          58.9,
+          73.2
+        ]
+      },
+      "raw_surprise": {
+        "rank_ic": 0.3181,
+        "rank_ic_95ci": [
+          0.1837,
+          0.4402
+        ],
+        "hit_count": 189,
+        "directional_hit_rate_pct": 64.0,
+        "hit_rate_95ci": [
+          57.1,
+          70.9
+        ]
+      },
+      "z_std": {
+        "rank_ic": 0.3948,
+        "rank_ic_95ci": [
+          0.2655,
+          0.5112
+        ],
+        "hit_count": 27,
+        "directional_hit_rate_pct": 77.8,
+        "hit_rate_95ci": [
+          63.0,
+          92.6
+        ]
+      },
+      "z_mad": {
+        "rank_ic": 0.4308,
+        "rank_ic_95ci": [
+          0.3004,
+          0.5457
+        ],
+        "hit_count": 57,
+        "directional_hit_rate_pct": 73.7,
+        "hit_rate_95ci": [
+          61.4,
+          84.2
+        ]
+      }
+    },
+    "60m": {
+      "sign_surprise": {
+        "rank_ic": 0.3734,
+        "rank_ic_95ci": [
+          0.2384,
+          0.491
+        ],
+        "hit_count": 168,
+        "directional_hit_rate_pct": 67.3,
+        "hit_rate_95ci": [
+          59.5,
+          73.8
+        ]
+      },
+      "raw_surprise": {
+        "rank_ic": 0.3402,
+        "rank_ic_95ci": [
+          0.2068,
+          0.4573
+        ],
+        "hit_count": 189,
+        "directional_hit_rate_pct": 66.7,
+        "hit_rate_95ci": [
+          59.8,
+          73.5
+        ]
+      },
+      "z_std": {
+        "rank_ic": 0.3715,
+        "rank_ic_95ci": [
+          0.2373,
+          0.4893
+        ],
+        "hit_count": 27,
+        "directional_hit_rate_pct": 70.4,
+        "hit_rate_95ci": [
+          51.9,
+          85.2
+        ]
+      },
+      "z_mad": {
+        "rank_ic": 0.4197,
+        "rank_ic_95ci": [
+          0.2961,
+          0.5289
+        ],
+        "hit_count": 57,
+        "directional_hit_rate_pct": 73.7,
+        "hit_rate_95ci": [
+          61.4,
+          84.2
+        ]
+      }
+    },
+    "240m": {
+      "sign_surprise": {
+        "rank_ic": 0.2087,
+        "rank_ic_95ci": [
+          0.0666,
+          0.3446
+        ],
+        "hit_count": 168,
+        "directional_hit_rate_pct": 61.3,
+        "hit_rate_95ci": [
+          54.2,
+          68.5
+        ]
+      },
+      "raw_surprise": {
+        "rank_ic": 0.2057,
+        "rank_ic_95ci": [
+          0.0597,
+          0.342
+        ],
+        "hit_count": 189,
+        "directional_hit_rate_pct": 61.4,
+        "hit_rate_95ci": [
+          54.5,
+          68.3
+        ]
+      },
+      "z_std": {
+        "rank_ic": 0.2259,
+        "rank_ic_95ci": [
+          0.0846,
+          0.3581
+        ],
+        "hit_count": 27,
+        "directional_hit_rate_pct": 66.7,
+        "hit_rate_95ci": [
+          48.1,
+          81.5
+        ]
+      },
+      "z_mad": {
+        "rank_ic": 0.2252,
+        "rank_ic_95ci": [
+          0.0783,
+          0.3569
+        ],
+        "hit_count": 57,
+        "directional_hit_rate_pct": 68.4,
+        "hit_rate_95ci": [
+          56.1,
+          80.7
+        ]
+      }
+    }
+  },
+  "net_of_cost_analysis": {
+    "gross_0bps": {
+      "trade_count": 90,
+      "mean_gross_bps": 27.48,
+      "mean_net_bps": 27.48,
+      "net_win_rate_pct": 75.6,
+      "profit_factor": 8.74
+    },
+    "low_cost_10bps_1pip": {
+      "trade_count": 90,
+      "mean_gross_bps": 27.48,
+      "mean_net_bps": 17.48,
+      "net_win_rate_pct": 63.3,
+      "profit_factor": 3.64
+    },
+    "news_cost_15bps_1.5pips": {
+      "trade_count": 90,
+      "mean_gross_bps": 27.48,
+      "mean_net_bps": 12.48,
+      "net_win_rate_pct": 60.0,
+      "profit_factor": 2.47
+    },
+    "std_news_cost_15bps": {
+      "trade_count": 35,
+      "mean_gross_bps": 40.85,
+      "mean_net_bps": 25.85,
+      "net_win_rate_pct": 68.6,
+      "profit_factor": 5.04
+    }
+  },
+  "indicator_year_decomposition": {
+    "core_cpi": {
+      "total_n": 45,
+      "by_year": {
+        "2021": {
+          "n": 6,
+          "mad_ic": 0.8986,
+          "std_ic": 0.8986,
+          "mad_ge_1_signals": 3,
+          "std_ge_1_signals": 3
+        },
+        "2022": {
+          "n": 12,
+          "mad_ic": 0.693,
+          "std_ic": 0.693,
+          "mad_ge_1_signals": 7,
+          "std_ge_1_signals": 7
+        },
+        "2023": {
+          "n": 12,
+          "mad_ic": 0.3055,
+          "std_ic": 0.3055,
+          "mad_ge_1_signals": 0,
+          "std_ge_1_signals": 0
+        },
+        "2024": {
+          "n": 12,
+          "mad_ic": 0.7576,
+          "std_ic": 0.7576,
+          "mad_ge_1_signals": 0,
+          "std_ge_1_signals": 0
+        },
+        "2025": {
+          "n": 3,
+          "mad_ic": 0.866,
+          "std_ic": 0.866,
+          "mad_ge_1_signals": 0,
+          "std_ge_1_signals": 0
+        }
+      }
+    },
+    "cpi": {
+      "total_n": 45,
+      "by_year": {
+        "2021": {
+          "n": 6,
+          "mad_ic": 0.8286,
+          "std_ic": 0.8286,
+          "mad_ge_1_signals": 2,
+          "std_ge_1_signals": 2
+        },
+        "2022": {
+          "n": 12,
+          "mad_ic": 0.7359,
+          "std_ic": 0.7359,
+          "mad_ge_1_signals": 8,
+          "std_ge_1_signals": 8
+        },
+        "2023": {
+          "n": 12,
+          "mad_ic": 0.7901,
+          "std_ic": 0.7901,
+          "mad_ge_1_signals": 0,
+          "std_ge_1_signals": 0
+        },
+        "2024": {
+          "n": 12,
+          "mad_ic": 0.7192,
+          "std_ic": 0.7192,
+          "mad_ge_1_signals": 1,
+          "std_ge_1_signals": 1
+        },
+        "2025": {
+          "n": 3,
+          "mad_ic": 1.0,
+          "std_ic": 1.0,
+          "mad_ge_1_signals": 1,
+          "std_ge_1_signals": 1
+        }
+      }
+    },
+    "gdp": {
+      "total_n": 15,
+      "by_year": {
+        "2021": {
+          "n": 2,
+          "mad_ic": 0.0,
+          "std_ic": 0.0,
+          "mad_ge_1_signals": 2,
+          "std_ge_1_signals": 1
+        },
+        "2022": {
+          "n": 4,
+          "mad_ic": 0.6,
+          "std_ic": 0.6,
+          "mad_ge_1_signals": 3,
+          "std_ge_1_signals": 3
+        },
+        "2023": {
+          "n": 4,
+          "mad_ic": 0.2,
+          "std_ic": 0.2,
+          "mad_ge_1_signals": 2,
+          "std_ge_1_signals": 0
+        },
+        "2024": {
+          "n": 4,
+          "mad_ic": -0.2,
+          "std_ic": -0.2,
+          "mad_ge_1_signals": 3,
+          "std_ge_1_signals": 2
+        },
+        "2025": {
+          "n": 1,
+          "mad_ic": 0.0,
+          "std_ic": 0.0,
+          "mad_ge_1_signals": 0,
+          "std_ge_1_signals": 0
+        }
+      }
+    },
+    "nfp": {
+      "total_n": 46,
+      "by_year": {
+        "2021": {
+          "n": 6,
+          "mad_ic": 0.3714,
+          "std_ic": 0.3714,
+          "mad_ge_1_signals": 5,
+          "std_ge_1_signals": 0
+        },
+        "2022": {
+          "n": 12,
+          "mad_ic": 0.3497,
+          "std_ic": 0.3497,
+          "mad_ge_1_signals": 5,
+          "std_ge_1_signals": 0
+        },
+        "2023": {
+          "n": 12,
+          "mad_ic": 0.5664,
+          "std_ic": 0.5664,
+          "mad_ge_1_signals": 3,
+          "std_ge_1_signals": 0
+        },
+        "2024": {
+          "n": 12,
+          "mad_ic": 0.7413,
+          "std_ic": 0.7413,
+          "mad_ge_1_signals": 5,
+          "std_ge_1_signals": 0
+        },
+        "2025": {
+          "n": 4,
+          "mad_ic": 0.6,
+          "std_ic": 0.6,
+          "mad_ge_1_signals": 2,
+          "std_ge_1_signals": 0
+        }
+      }
+    },
+    "pmi": {
+      "total_n": 46,
+      "by_year": {
+        "2021": {
+          "n": 6,
+          "mad_ic": -0.2571,
+          "std_ic": -0.2571,
+          "mad_ge_1_signals": 0,
+          "std_ge_1_signals": 0
+        },
+        "2022": {
+          "n": 12,
+          "mad_ic": 0.5439,
+          "std_ic": 0.5439,
+          "mad_ge_1_signals": 2,
+          "std_ge_1_signals": 1
+        },
+        "2023": {
+          "n": 12,
+          "mad_ic": 0.6702,
+          "std_ic": 0.6702,
+          "mad_ge_1_signals": 1,
+          "std_ge_1_signals": 1
+        },
+        "2024": {
+          "n": 12,
+          "mad_ic": 0.3007,
+          "std_ic": 0.3007,
+          "mad_ge_1_signals": 4,
+          "std_ge_1_signals": 3
+        },
+        "2025": {
+          "n": 4,
+          "mad_ic": -0.2,
+          "std_ic": -0.2,
+          "mad_ge_1_signals": 0,
+          "std_ge_1_signals": 0
+        }
+      }
+    },
+    "retail_sales": {
+      "total_n": 45,
+      "by_year": {
+        "2021": {
+          "n": 6,
+          "mad_ic": -0.3714,
+          "std_ic": -0.3714,
+          "mad_ge_1_signals": 6,
+          "std_ge_1_signals": 0
+        },
+        "2022": {
+          "n": 12,
+          "mad_ic": 0.1646,
+          "std_ic": 0.193,
+          "mad_ge_1_signals": 2,
+          "std_ge_1_signals": 2
+        },
+        "2023": {
+          "n": 12,
+          "mad_ic": -0.028,
+          "std_ic": -0.014,
+          "mad_ge_1_signals": 4,
+          "std_ge_1_signals": 0
+        },
+        "2024": {
+          "n": 12,
+          "mad_ic": 0.6235,
+          "std_ic": 0.6235,
+          "mad_ge_1_signals": 2,
+          "std_ge_1_signals": 0
+        },
+        "2025": {
+          "n": 3,
+          "mad_ic": 0.5,
+          "std_ic": 0.5,
+          "mad_ge_1_signals": 1,
+          "std_ge_1_signals": 0
+        }
+      }
+    },
+    "unemployment": {
+      "total_n": 46,
+      "by_year": {
+        "2021": {
+          "n": 6,
+          "mad_ic": 0.6375,
+          "std_ic": 0.6375,
+          "mad_ge_1_signals": 4,
+          "std_ge_1_signals": 0
+        },
+        "2022": {
+          "n": 12,
+          "mad_ic": 0.3879,
+          "std_ic": 0.3879,
+          "mad_ge_1_signals": 3,
+          "std_ge_1_signals": 0
+        },
+        "2023": {
+          "n": 12,
+          "mad_ic": 0.3958,
+          "std_ic": 0.3958,
+          "mad_ge_1_signals": 7,
+          "std_ge_1_signals": 0
+        },
+        "2024": {
+          "n": 12,
+          "mad_ic": 0.5905,
+          "std_ic": 0.5905,
+          "mad_ge_1_signals": 2,
+          "std_ge_1_signals": 0
+        },
+        "2025": {
+          "n": 4,
+          "mad_ic": -0.2,
+          "std_ic": -0.2,
+          "mad_ge_1_signals": 0,
+          "std_ge_1_signals": 0
+        }
+      }
+    }
+  }
+}

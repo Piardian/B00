@@ -1,0 +1,69 @@
+{
+  "tests": [
+    {
+      "month": "Test 1: 2025 Mart (Q1)",
+      "trades": 0,
+      "win_rate": 0.0,
+      "tp2": 0,
+      "be": 0,
+      "sl": 0,
+      "time_exit": 0,
+      "net_r": 0.0,
+      "dollar": 0.0,
+      "vetos": {
+        "VETO_MACRO_RANGE": 0,
+        "VETO_DIRECTION_MISMATCH": 0,
+        "VETO_SAME_DAY_REENTRY": 0,
+        "VETO_OVEREXTENSION": 2,
+        "APPROVED": 0
+      }
+    },
+    {
+      "month": "Test 2: 2025 Temmuz (Q3)",
+      "trades": 1,
+      "win_rate": 0.0,
+      "tp2": 0,
+      "be": 0,
+      "sl": 1,
+      "time_exit": 0,
+      "net_r": -1.0,
+      "dollar": -200.0,
+      "vetos": {
+        "VETO_MACRO_RANGE": 5,
+        "VETO_DIRECTION_MISMATCH": 1,
+        "VETO_SAME_DAY_REENTRY": 31,
+        "VETO_OVEREXTENSION": 1,
+        "APPROVED": 1
+      }
+    },
+    {
+      "month": "Test 3: 2025 Ekim (Q4)",
+      "trades": 0,
+      "win_rate": 0.0,
+      "tp2": 0,
+      "be": 0,
+      "sl": 0,
+      "time_exit": 0,
+      "net_r": 0.0,
+      "dollar": 0.0,
+      "vetos": {
+        "VETO_MACRO_RANGE": 0,
+        "VETO_DIRECTION_MISMATCH": 1,
+        "VETO_SAME_DAY_REENTRY": 0,
+        "VETO_OVEREXTENSION": 1,
+        "APPROVED": 0
+      }
+    }
+  ],
+  "summary": {
+    "total_trades": 1,
+    "win_rate": 0.0,
+    "tp2_count": 0,
+    "be_count": 0,
+    "sl_count": 1,
+    "time_exit_count": 0,
+    "total_net_r": -1.0,
+    "total_dollar": -200.0,
+    "ending_balance": 9800.0
+  }
+}

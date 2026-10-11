@@ -1,0 +1,62 @@
+{
+  "tests": [
+    {
+      "month": "Test 1: 2024 Mart (Q1)",
+      "trades": 10,
+      "win_rate": 20.0,
+      "tp2": 1,
+      "be": 1,
+      "sl": 8,
+      "net_r": -6.0,
+      "dollar": -1200.0,
+      "vetos": {
+        "VETO_MACRO_RANGE": 22,
+        "VETO_DIRECTION_MISMATCH": 7,
+        "VETO_SAME_DAY_REENTRY": 295,
+        "APPROVED": 13
+      }
+    },
+    {
+      "month": "Test 2: 2024 Temmuz (Q3)",
+      "trades": 14,
+      "win_rate": 28.6,
+      "tp2": 3,
+      "be": 1,
+      "sl": 10,
+      "net_r": -5.0,
+      "dollar": -1000.0,
+      "vetos": {
+        "VETO_MACRO_RANGE": 25,
+        "VETO_DIRECTION_MISMATCH": 8,
+        "VETO_SAME_DAY_REENTRY": 348,
+        "APPROVED": 14
+      }
+    },
+    {
+      "month": "Test 3: 2024 Ekim (Q4)",
+      "trades": 10,
+      "win_rate": 50.0,
+      "tp2": 3,
+      "be": 2,
+      "sl": 4,
+      "net_r": 1.06,
+      "dollar": 212.0,
+      "vetos": {
+        "VETO_MACRO_RANGE": 31,
+        "VETO_DIRECTION_MISMATCH": 4,
+        "VETO_SAME_DAY_REENTRY": 168,
+        "APPROVED": 10
+      }
+    }
+  ],
+  "summary": {
+    "total_trades": 34,
+    "win_rate": 32.4,
+    "tp2_count": 7,
+    "be_count": 4,
+    "sl_count": 22,
+    "total_net_r": -9.94,
+    "total_dollar": -1988.0,
+    "ending_balance": 8012.0
+  }
+}

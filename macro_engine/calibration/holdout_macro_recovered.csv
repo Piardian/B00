@@ -1,0 +1,7 @@
+date,event_timestamp_utc,indicator_type,event,country,actual,forecast,previous,revision,unit,importance,calendar_id,ticker,source,source_url,provider,provider_endpoint,point_in_time
+2025-07-01,2025-07-01T14:00:00+00:00,pmi,ISM Manufacturing PMI,United States,49.0,48.8,48.5,,INDEX,High,,,ForexFactory / ISM,https://www.forexfactory.com/calendar?week=jun29.2025,forexfactory_web,,True
+2025-07-03,2025-07-03T12:30:00+00:00,nfp,Non-Farm Employment Change,United States,147000.0,111000.0,144000.0,,PERSONS,High,,,ForexFactory / BLS,https://www.bls.gov/news.release/empsit.nr0.htm,forexfactory_bls_verified,,True
+2025-07-03,2025-07-03T12:30:00+00:00,unemployment,Unemployment Rate,United States,4.1,4.3,4.2,,PERCENT,High,,,ForexFactory / BLS,https://www.bls.gov/news.release/empsit.nr0.htm,forexfactory_bls_verified,,True
+2025-07-15,2025-07-15T12:30:00+00:00,cpi,CPI m/m,United States,0.3,0.3,0.1,,PERCENT,High,,,ForexFactory / BLS,https://www.forexfactory.com/calendar?week=jul13.2025,forexfactory_web,,True
+2025-07-15,2025-07-15T12:30:00+00:00,core_cpi,Core CPI m/m,United States,0.2,0.3,0.1,,PERCENT,High,,,ForexFactory / BLS,https://www.forexfactory.com/calendar?week=jul13.2025,forexfactory_web,,True
+2025-07-17,2025-07-17T12:30:00+00:00,retail_sales,Retail Sales m/m,United States,0.6,0.1,-0.9,,PERCENT,High,,,ForexFactory / Census,https://www.forexfactory.com/calendar?week=jul13.2025,forexfactory_web,,True

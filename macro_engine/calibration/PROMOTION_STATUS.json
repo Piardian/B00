@@ -1,0 +1,18 @@
+{
+  "promotion_activation": false,
+  "frozen_mad_threshold": 1.0,
+  "holdout_windows": ["2025_H2", "2026_YTD"],
+  "execution_scenarios": ["CALM_10BP", "NEWS_30BP", "NEWS_50BP"],
+  "holdout_status": "BLOCKED_PENDING_DATA",
+  "execution_status": "BLOCKED_PENDING_M5_M1_DATA",
+  "incremental_smc_status": "BLOCKED_PENDING_COMPLETE_LEDGER",
+  "production_status": "NOT_PROMOTED",
+  "gate_readiness_checklist": {
+    "candidate_signals_logged": 162,
+    "confirmed_filled_trades_logged": 0,
+    "required_minimum_filled_trades": 50,
+    "statistical_significance_status": "INSUFFICIENT_DATA",
+    "causal_macro_ablation_status": "PENDING_COUNTERFACTUAL_FILLS",
+    "block_reason": "Zero confirmed filled trades in holdout dataset. Promotion strictly gated until minimum 50 verified trades are completed."
+  }
+}

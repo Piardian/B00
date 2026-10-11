@@ -1,0 +1,216 @@
+{
+  "mappings": {
+    "EURUSD": {
+      "macro_key": "EURUSD",
+      "base_currency": "EUR",
+      "quote_currency": "USD"
+    },
+    "GBPUSD": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "GBP",
+      "quote_currency": "USD",
+      "base_driver": "GBP",
+      "quote_driver": "USD"
+    },
+    "AUDUSD": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "AUD",
+      "quote_currency": "USD",
+      "base_driver": "AUD",
+      "quote_driver": "USD"
+    },
+    "NZDUSD": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "NZD",
+      "quote_currency": "USD",
+      "base_driver": "NZD",
+      "quote_driver": "USD"
+    },
+    "USDCAD": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "USD",
+      "quote_currency": "CAD",
+      "base_driver": "USD",
+      "quote_driver": "CAD"
+    },
+    "USDJPY": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "USD",
+      "quote_currency": "JPY",
+      "base_driver": "USD",
+      "quote_driver": "JPY"
+    },
+    "USDCHF": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "USD",
+      "quote_currency": "CHF",
+      "base_driver": "USD",
+      "quote_driver": "CHF"
+    },
+    "XAUUSD": {
+      "macro_key": "XAUUSD",
+      "base_currency": "XAU",
+      "quote_currency": "USD"
+    },
+    "NAS100": {
+      "macro_key": "SPX",
+      "base_currency": "NAS",
+      "quote_currency": "USD"
+    },
+    "BTCUSD": {
+      "macro_key": "BTC",
+      "base_currency": "BTC",
+      "quote_currency": "USD"
+    },
+    "ETHUSD": {
+      "macro_key": "BTC",
+      "base_currency": "ETH",
+      "quote_currency": "USD"
+    },
+    "LTCUSD": {
+      "macro_key": "BTC",
+      "base_currency": "LTC",
+      "quote_currency": "USD"
+    },
+    "SOLUSD": {
+      "macro_key": "SOL",
+      "base_currency": "SOL",
+      "quote_currency": "USD"
+    },
+    "SUIUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "SUI", "quote_currency": "USD" },
+    "AVAXUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "AVAX", "quote_currency": "USD" },
+    "NEARUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "NEAR", "quote_currency": "USD" },
+    "APTUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "APT", "quote_currency": "USD" },
+    "SEIUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "SEI", "quote_currency": "USD" },
+    "ARBUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "ARB", "quote_currency": "USD" },
+    "OPUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "OP", "quote_currency": "USD" },
+    "XRPUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "XRP", "quote_currency": "USD" },
+    "ADAUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "ADA", "quote_currency": "USD" },
+    "DASHUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "DASH", "quote_currency": "USD" },
+    "BCHUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "BCH", "quote_currency": "USD" },
+    "LINKUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "LINK", "quote_currency": "USD" },
+    "DOTUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "DOT", "quote_currency": "USD" },
+    "FETUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "FET", "quote_currency": "USD" },
+    "RENDERUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "RENDER", "quote_currency": "USD" },
+    "TAOUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "TAO", "quote_currency": "USD" },
+    "VIRTUALUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "VIRTUAL", "quote_currency": "USD" },
+    "WLDUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "WLD", "quote_currency": "USD" },
+    "ARKMUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "ARKM", "quote_currency": "USD" },
+    "IOUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "IO", "quote_currency": "USD" },
+    "UNIUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "UNI", "quote_currency": "USD" },
+    "AAVEUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "AAVE", "quote_currency": "USD" },
+    "PENDLEUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "PENDLE", "quote_currency": "USD" },
+    "INJUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "INJ", "quote_currency": "USD" },
+    "CHZUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "CHZ", "quote_currency": "USD" },
+    "RVNUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "RVN", "quote_currency": "USD" },
+    "GALAUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "GALA", "quote_currency": "USD" },
+    "SANDUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "SAND", "quote_currency": "USD" },
+    "DOGEUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "DOGE", "quote_currency": "USD" },
+    "PEPEUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "PEPE", "quote_currency": "USD" },
+    "SHIBUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "SHIB", "quote_currency": "USD" },
+    "WIFUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "WIF", "quote_currency": "USD" },
+    "BONKUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "BONK", "quote_currency": "USD" },
+    "FLOKIUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "FLOKI", "quote_currency": "USD" },
+    "PENGUUSD": { "macro_key": "BTC", "macro_type": "CRYPTO_ROTATION", "base_currency": "PENGU", "quote_currency": "USD" },
+    "AUDCAD": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "AUD",
+      "quote_currency": "CAD",
+      "base_driver": "AUD",
+      "quote_driver": "CAD"
+    },
+    "CADJPY": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "CAD",
+      "quote_currency": "JPY",
+      "base_driver": "CAD",
+      "quote_driver": "JPY"
+    },
+    "GBPJPY": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "GBP",
+      "quote_currency": "JPY",
+      "base_driver": "GBP",
+      "quote_driver": "JPY"
+    },
+    "AUDJPY": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "AUD",
+      "quote_currency": "JPY",
+      "base_driver": "AUD",
+      "quote_driver": "JPY"
+    },
+    "EURGBP": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "EUR",
+      "quote_currency": "GBP",
+      "base_driver": "EUR",
+      "quote_driver": "GBP"
+    },
+    "EURAUD": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "EUR",
+      "quote_currency": "AUD",
+      "base_driver": "EUR",
+      "quote_driver": "AUD"
+    },
+    "NZDCAD": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "NZD",
+      "quote_currency": "CAD",
+      "base_driver": "NZD",
+      "quote_driver": "CAD"
+    },
+    "EURJPY": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "EUR",
+      "quote_currency": "JPY",
+      "base_driver": "EUR",
+      "quote_driver": "JPY"
+    },
+    "EURCHF": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "EUR",
+      "quote_currency": "CHF",
+      "base_driver": "EUR",
+      "quote_driver": "CHF"
+    },
+    "GBPCHF": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "GBP",
+      "quote_currency": "CHF",
+      "base_driver": "GBP",
+      "quote_driver": "CHF"
+    },
+    "AUDCHF": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "AUD",
+      "quote_currency": "CHF",
+      "base_driver": "AUD",
+      "quote_driver": "CHF"
+    },
+    "CADCHF": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "CAD",
+      "quote_currency": "CHF",
+      "base_driver": "CAD",
+      "quote_driver": "CHF"
+    },
+    "NZDCHF": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "NZD",
+      "quote_currency": "CHF",
+      "base_driver": "NZD",
+      "quote_driver": "CHF"
+    },
+    "CHFJPY": {
+      "macro_type": "SYNTHETIC_CROSS",
+      "base_currency": "CHF",
+      "quote_currency": "JPY",
+      "base_driver": "CHF",
+      "quote_driver": "JPY"
+    }
+  },
+  "default_risk_multiplier": 1,
+  "max_gate_staleness_hours": 36
+}
