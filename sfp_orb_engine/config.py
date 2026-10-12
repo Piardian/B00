@@ -107,11 +107,19 @@ SFP_RR_TARGET_2 = 3.0          # TP2 Risk / Kazanc Orani (Min 3.0R: Kalan %50 An
 SFP_MIN_RR_TARGET_1 = 1.0      # Zorunlu Minimum TP1 RR Eşiği
 SFP_MIN_RR_TARGET_2 = 3.0      # Zorunlu Minimum TP2 RR Eşiği
 
+# --- ENTRY & İCRAAT PARAMETRELERİ (MODEL A: %50 CE SNIPER + iFVG + BREAKER) ---
+ENTRY_MODEL = os.getenv("ENTRY_MODEL", "MIDPOINT")  # "MIDPOINT" (%50 Consequent Encroachment) veya "CLOSE" (Market Kapanışı)
+LIMIT_EXPIRY_BARS = int(os.getenv("LIMIT_EXPIRY_BARS", "32"))  # 15 dakikalık 32 bar = 8 saatlik limit emir geçerlilik süresi
+REQUIRE_ENTRY_REACTION = True       # Slice-Through / Tepkisiz bölge delinmesi durumunda limiti iptal et
+REQUIRE_PRO_TREND_AAA = True        # Yalnızca 4H EMA50/200 Pro-Trend (Grade AAA) işlemlerine izin ver
+USE_IFVG_ENTRY = True               # Standart FVG yerine Inversion FVG (iFVG) %50 CE Limit girişi kullan
+REQUIRE_STRUCTURAL_BREAKER = True   # Sweep öncesi son zıt yönlü Order Block (Breaker) gövde kırılımı zorunlu
+
 # Toksik / Aşırı Sahte İğne Üreten Parite Filtresi (SFP Taramasından Muaf)
 EXCLUDED_SFP_SYMBOLS = ["GBP/JPY", "GBPJPY", "AUD/USD", "AUDUSD"]
 
-# MODEL 2: İzin Verilen Likidite Havuzları (Saf London Judas Seans Modeli - PDH/PDL Devre Dışı)
-SFP_ALLOWED_POOLS = ["ASIAN_HIGH", "ASIAN_LOW"]
+# MODEL 2: İzin Verilen Likidite Havuzları (PDH/PDL + ASIAN_HIGH/ASIAN_LOW)
+SFP_ALLOWED_POOLS = ["PDH", "PDL", "ASIAN_HIGH", "ASIAN_LOW"]
 
 # Enstrüman Bazlı Dinamik SL Tamponu (ATR Çarpanı)
 # İkincil likidite iğnelerini ve mikro stop avlarını önlemek için

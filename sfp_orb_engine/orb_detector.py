@@ -15,8 +15,20 @@ from .config import (
     SFP_RR_TARGET_2,
     round_price,
     WEEKEND_ORB_ENABLED,
+    ENTRY_MODEL,
+    is_crypto,
 )
 from .volume_anomaly import VolumeAnomalyDetector
+from .entry_mechanics import calculate_ce_entry
+
+
+def is_forex_symbol(symbol: str) -> bool:
+    clean = symbol.replace("/", "").replace("-", "").upper()
+    if is_crypto(symbol):
+        return False
+    if any(idx in clean for idx in ["NAS100", "QQQ", "SPY", "SPX", "US30", "GER40", "XAU", "GOLD", "SILVER", "XAG"]):
+        return False
+    return True
 
 
 class ORBDetector:
@@ -38,6 +50,10 @@ class ORBDetector:
         """
         Verilen veri setindeki son barlar icin aktif seansin ORB kirilimini tespit eder.
         """
+        # Geliştirme 5: ORB Yalnızca Forex Paritelerinde Aktiftir (Endeks ve Kriptolarda sahte açılış iğneleri nedeniyle VETO)
+        if not is_forex_symbol(symbol):
+            return None
+
         # Hafta Sonu Korumasi: Cumartesi ve Pazar gunleri kriptoda sahte kirilimlari onlemek icin ORB kesinlikle kapalidir!
         if datetime.now(timezone.utc).weekday() in [5, 6] and not WEEKEND_ORB_ENABLED:
             return None
@@ -89,6 +105,18 @@ class ORBDetector:
             orb_mid = (orb_high + orb_low) / 2.0
             orb_range = max(orb_high - orb_low, 1e-6)
 
+            # Geliştirme 3: Asya Seansı Sıkışma / Enerji Tüketim Filtresi (ORB İçin)
+            # Eğer Asya Seansı aralığı ATR'nin %70'ini aşıyorsa piyasa enerjisini tüketmiştir, ORB fakeout riski yüksektir.
+            if session_key == "LONDON":
+                asian_bars = today_df[(today_df["datetime"].dt.time >= time(0, 0)) & (today_df["datetime"].dt.time <= time(6, 0))]
+                if len(asian_bars) >= 4:
+                    asian_high = float(asian_bars["high"].max())
+                    asian_low = float(asian_bars["low"].min())
+                    asian_range = max(asian_high - asian_low, 0.0)
+                    atr_est = float((df["high"] - df["low"]).tail(14).mean())
+                    if atr_est > 0 and asian_range > (atr_est * 0.70):
+                        continue
+
             # ORB sonrasi olusan barlar (kirilim kontrolu)
             post_orb_bars = today_df[today_df["datetime"].dt.time > s_orb_end]
             if len(post_orb_bars) == 0:
@@ -124,11 +152,22 @@ class ORBDetector:
                 if (t_body / t_range) < 0.40 or t_close <= t_open:
                     continue
 
-                entry = t_close
-                sl = orb_mid if ORB_SL_MODE == "MIDPOINT" else orb_low
-                risk = max(entry - sl, orb_range * 0.2, entry * 0.0015)
-                tp1 = entry + (risk * SFP_RR_TARGET_1)
-                tp2 = entry + (risk * SFP_RR_TARGET_2)
+                ce_calc = calculate_ce_entry(
+                    direction="LONG",
+                    peak_or_valley=orb_mid if ORB_SL_MODE == "MIDPOINT" else orb_low,
+                    trigger_price=orb_high,
+                    close_price=t_close,
+                    orb_level=orb_high,
+                    atr=orb_range,
+                    entry_model=ENTRY_MODEL,
+                    tp1_r=SFP_RR_TARGET_1,
+                    tp2_r=SFP_RR_TARGET_2,
+                )
+                entry = ce_calc["entry_price"]
+                sl = ce_calc["stop_loss"]
+                risk = ce_calc["risk_distance"]
+                tp1 = ce_calc["tp1"]
+                tp2 = ce_calc["tp2"]
 
                 grade = "A+" if vol_ratio >= 1.8 else ("A" if vol_ratio >= self.min_vol_ratio else "B+")
 
@@ -142,6 +181,10 @@ class ORBDetector:
                     "grade": grade,
                     "datetime": trigger_bar["datetime"],
                     "entry": round_price(entry),
+                    "entry_model": ce_calc["entry_model"],
+                    "entry_source": ce_calc["entry_source"],
+                    "is_limit": ce_calc["is_limit"],
+                    "market_close_entry": round_price(t_close),
                     "stop_loss": round_price(sl),
                     "tp1": round_price(tp1),
                     "tp2": round_price(tp2),
@@ -170,11 +213,22 @@ class ORBDetector:
                 if (t_body / t_range) < 0.40 or t_close >= t_open:
                     continue
 
-                entry = t_close
-                sl = orb_mid if ORB_SL_MODE == "MIDPOINT" else orb_high
-                risk = max(sl - entry, orb_range * 0.2, entry * 0.0015)
-                tp1 = entry - (risk * SFP_RR_TARGET_1)
-                tp2 = entry - (risk * SFP_RR_TARGET_2)
+                ce_calc = calculate_ce_entry(
+                    direction="SHORT",
+                    peak_or_valley=orb_mid if ORB_SL_MODE == "MIDPOINT" else orb_high,
+                    trigger_price=orb_low,
+                    close_price=t_close,
+                    orb_level=orb_low,
+                    atr=orb_range,
+                    entry_model=ENTRY_MODEL,
+                    tp1_r=SFP_RR_TARGET_1,
+                    tp2_r=SFP_RR_TARGET_2,
+                )
+                entry = ce_calc["entry_price"]
+                sl = ce_calc["stop_loss"]
+                risk = ce_calc["risk_distance"]
+                tp1 = ce_calc["tp1"]
+                tp2 = ce_calc["tp2"]
 
                 grade = "A+" if vol_ratio >= 1.8 else ("A" if vol_ratio >= self.min_vol_ratio else "B+")
 
@@ -188,6 +242,10 @@ class ORBDetector:
                     "grade": grade,
                     "datetime": trigger_bar["datetime"],
                     "entry": round_price(entry),
+                    "entry_model": ce_calc["entry_model"],
+                    "entry_source": ce_calc["entry_source"],
+                    "is_limit": ce_calc["is_limit"],
+                    "market_close_entry": round_price(t_close),
                     "stop_loss": round_price(sl),
                     "tp1": round_price(tp1),
                     "tp2": round_price(tp2),

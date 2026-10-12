@@ -18,8 +18,18 @@ from .config import (
     get_asset_sl_buffer,
     SFP_ALLOWED_POOLS,
     round_price,
+    ENTRY_MODEL,
+    USE_IFVG_ENTRY,
+    REQUIRE_STRUCTURAL_BREAKER,
 )
 from .volume_anomaly import VolumeAnomalyDetector
+from .entry_mechanics import (
+    calculate_ce_entry,
+    detect_ifvg_short,
+    detect_ifvg_long,
+    detect_structural_breaker_short,
+    detect_structural_breaker_long,
+)
 
 
 class SFPDetector:
@@ -45,24 +55,28 @@ class SFPDetector:
 
     def _detect_trend(self, df: pd.DataFrame) -> Dict[str, Any]:
         """
-        15 dakikalık barlarda EMA-20 ve EMA-50 ile kısa/orta vadeli trend yapısını okur.
+        15 dakikalık barlarda EMA-20, EMA-50 ve HTF EMA-200 ile kısa/orta/uzun vadeli trend yapısını okur.
         """
         if len(df) < 25:
-            return {"trend": "NEUTRAL", "ema20": 0.0, "ema50": 0.0}
+            return {"trend": "NEUTRAL", "ema20": 0.0, "ema50": 0.0, "htf_bull": False, "htf_bear": False}
 
         close_series = df["close"]
         ema20 = float(close_series.ewm(span=20, adjust=False).mean().iloc[-1])
         ema50 = float(close_series.ewm(span=50, adjust=False).mean().iloc[-1])
+        ema200 = float(close_series.ewm(span=200, adjust=False).mean().iloc[-1]) if len(df) >= 50 else ema50
         curr_close = float(close_series.iloc[-1])
+
+        htf_bull = (curr_close > ema50) and (ema50 > ema200)
+        htf_bear = (curr_close < ema50) and (ema50 < ema200)
 
         # Boğa Trendi: Fiyat > EMA20 > EMA50
         if curr_close > ema20 > ema50:
-            return {"trend": "BULLISH", "ema20": ema20, "ema50": ema50}
+            return {"trend": "BULLISH", "ema20": ema20, "ema50": ema50, "htf_bull": htf_bull, "htf_bear": htf_bear}
         # Ayı Trendi: Fiyat < EMA20 < EMA50
         elif curr_close < ema20 < ema50:
-            return {"trend": "BEARISH", "ema20": ema20, "ema50": ema50}
+            return {"trend": "BEARISH", "ema20": ema20, "ema50": ema50, "htf_bull": htf_bull, "htf_bear": htf_bear}
         else:
-            return {"trend": "NEUTRAL", "ema20": ema20, "ema50": ema50}
+            return {"trend": "NEUTRAL", "ema20": ema20, "ema50": ema50, "htf_bull": htf_bull, "htf_bear": htf_bear}
 
     def _find_magnetic_targets(
         self,
@@ -496,6 +510,15 @@ class SFPDetector:
             if target["pool_type"] == "SWING_HIGH" and not (vol_info["is_anomaly"] or fvg_conf["has_confluence"]):
                 continue
 
+            # Geliştirme 1: Katı HTF Pro-Trend Kuralı (Güçlü Boğa Trendinde Tepe Short VETO)
+            if trend_info.get("htf_bull", False):
+                continue
+
+            # Geliştirme 4: Gerçek Yapısal Swing-Tabanlı MSS Teyidi (Sweep öncesi son 5-6 barın salınım dibi)
+            preceding_low = float(df["low"].iloc[max(0, curr_idx - 6):curr_idx].min())
+            if curr_close > preceding_low and not is_two_bar_sweep:
+                continue
+
             peak_high = max(curr_high, prev_high) if is_two_bar_sweep else curr_high
             upper_wick = peak_high - max(curr_open, curr_close)
             upper_wick_ratio = upper_wick / max(peak_high - curr_low, 1e-8)
@@ -508,9 +531,27 @@ class SFPDetector:
 
                 trend_alignment = "PRO_TREND" if market_trend == "BEARISH" else ("COUNTER_TREND" if market_trend == "BULLISH" else "NEUTRAL")
 
-                entry = curr_close
-                stop_loss = peak_high + (atr * sl_buffer)
-                risk = max(stop_loss - entry, atr * 0.2, entry * 0.0015)
+                fvg_tuple = (fvg_conf["fvg"]["top"], fvg_conf["fvg"]["bottom"]) if (fvg_conf.get("has_confluence") and fvg_conf.get("fvg")) else None
+                if USE_IFVG_ENTRY:
+                    ifvg_zone = detect_ifvg_short(curr_idx, df["high"].values, df["low"].values, df["close"].values, atr)
+                    if ifvg_zone is not None:
+                        fvg_tuple = ifvg_zone
+
+                ce_calc = calculate_ce_entry(
+                    direction="SHORT",
+                    peak_or_valley=peak_high,
+                    trigger_price=target_price,
+                    close_price=curr_close,
+                    fvg_range=fvg_tuple,
+                    atr=atr,
+                    sl_buffer_atr=sl_buffer,
+                    entry_model=ENTRY_MODEL,
+                    tp1_r=SFP_RR_TARGET_1,
+                    tp2_r=SFP_RR_TARGET_2,
+                )
+                entry = ce_calc["entry_price"]
+                stop_loss = ce_calc["stop_loss"]
+                risk = ce_calc["risk_distance"]
 
                 magnetic_tps = self._find_magnetic_targets("SHORT", entry, risk, atr, pools_data)
                 tp1 = magnetic_tps["tp1"]
@@ -559,6 +600,10 @@ class SFPDetector:
                     "fvg_zone": fvg_zone,
                     "datetime": curr_time,
                     "entry": round_price(entry),
+                    "entry_model": ce_calc["entry_model"],
+                    "entry_source": ce_calc["entry_source"],
+                    "is_limit": ce_calc["is_limit"],
+                    "market_close_entry": round_price(curr_close),
                     "stop_loss": round_price(stop_loss),
                     "tp1": round_price(tp1),
                     "tp2": round_price(tp2),
@@ -611,6 +656,15 @@ class SFPDetector:
             if target["pool_type"] == "SWING_LOW" and not (vol_info["is_anomaly"] or fvg_conf["has_confluence"]):
                 continue
 
+            # Geliştirme 1: Katı HTF Pro-Trend Kuralı (Güçlü Ayı Trendinde Dip Long VETO)
+            if trend_info.get("htf_bear", False):
+                continue
+
+            # Geliştirme 4: Gerçek Yapısal Swing-Tabanlı MSS Teyidi (Sweep öncesi son 5-6 barın salınım tepesi)
+            preceding_high = float(df["high"].iloc[max(0, curr_idx - 6):curr_idx].max())
+            if curr_close < preceding_high and not is_two_bar_sweep:
+                continue
+
             valley_low = min(curr_low, prev_low) if is_two_bar_sweep else curr_low
             lower_wick = min(curr_open, curr_close) - valley_low
             lower_wick_ratio = lower_wick / max(curr_high - valley_low, 1e-8)
@@ -622,9 +676,27 @@ class SFPDetector:
 
                 trend_alignment = "PRO_TREND" if market_trend == "BULLISH" else ("COUNTER_TREND" if market_trend == "BEARISH" else "NEUTRAL")
 
-                entry = curr_close
-                stop_loss = valley_low - (atr * sl_buffer)
-                risk = max(entry - stop_loss, atr * 0.2, entry * 0.0015)
+                fvg_tuple = (fvg_conf["fvg"]["bottom"], fvg_conf["fvg"]["top"]) if (fvg_conf.get("has_confluence") and fvg_conf.get("fvg")) else None
+                if USE_IFVG_ENTRY:
+                    ifvg_zone = detect_ifvg_long(curr_idx, df["high"].values, df["low"].values, df["close"].values, atr)
+                    if ifvg_zone is not None:
+                        fvg_tuple = ifvg_zone
+
+                ce_calc = calculate_ce_entry(
+                    direction="LONG",
+                    peak_or_valley=valley_low,
+                    trigger_price=target_price,
+                    close_price=curr_close,
+                    fvg_range=fvg_tuple,
+                    atr=atr,
+                    sl_buffer_atr=sl_buffer,
+                    entry_model=ENTRY_MODEL,
+                    tp1_r=SFP_RR_TARGET_1,
+                    tp2_r=SFP_RR_TARGET_2,
+                )
+                entry = ce_calc["entry_price"]
+                stop_loss = ce_calc["stop_loss"]
+                risk = ce_calc["risk_distance"]
 
                 magnetic_tps = self._find_magnetic_targets("LONG", entry, risk, atr, pools_data)
                 tp1 = magnetic_tps["tp1"]
@@ -673,6 +745,10 @@ class SFPDetector:
                     "fvg_zone": fvg_zone,
                     "datetime": curr_time,
                     "entry": round_price(entry),
+                    "entry_model": ce_calc["entry_model"],
+                    "entry_source": ce_calc["entry_source"],
+                    "is_limit": ce_calc["is_limit"],
+                    "market_close_entry": round_price(curr_close),
                     "stop_loss": round_price(stop_loss),
                     "tp1": round_price(tp1),
                     "tp2": round_price(tp2),

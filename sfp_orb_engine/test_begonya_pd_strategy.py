@@ -26,7 +26,13 @@ import pandas as pd
 import numpy as np
 import MetaTrader5 as mt5
 
-from .config import get_asset_sl_buffer, is_crypto
+from .config import (
+    get_asset_sl_buffer,
+    is_crypto,
+    ENTRY_MODEL,
+    REQUIRE_ENTRY_REACTION,
+)
+from .entry_mechanics import calculate_ce_entry, is_slice_through_candle
 from .macro_gated_3m_backtest import DailyMacroGateTable
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -40,9 +46,19 @@ TARGET_SYMBOLS = [
 
 
 class BegonyaPDRunner:
-    def __init__(self, start_dt: datetime, end_dt: datetime, initial_capital: float = 10000.0, risk_pct: float = 0.02):
+    def __init__(
+        self,
+        start_dt: datetime,
+        end_dt: datetime,
+        initial_capital: float = 10000.0,
+        risk_pct: float = 0.02,
+        entry_model: str = ENTRY_MODEL,
+        require_reaction: bool = REQUIRE_ENTRY_REACTION,
+    ):
         self.initial_capital = initial_capital
         self.risk_pct = risk_pct
+        self.entry_model = (entry_model or "midpoint").lower()
+        self.require_reaction = require_reaction
         self.utc_from = start_dt
         self.utc_to = end_dt
         self.macro_table = DailyMacroGateTable(self.utc_from.date(), self.utc_to.date())
@@ -205,6 +221,34 @@ class BegonyaPDRunner:
                 tp2 = p["tp2"]
                 status = p["status"]
                 p_dir = p["direction"]
+
+                if status == "PENDING_LIMIT":
+                    p["bars_waiting"] = p.get("bars_waiting", 0) + 1
+                    if p["bars_waiting"] >= p.get("max_wait_bars", 32):
+                        active_position = None
+                        continue
+
+                    is_long = (p_dir == "LONG")
+                    stop_hit_before = (c_low <= sl) if is_long else (c_high >= sl)
+                    reached_entry = (c_low <= entry and c_open >= sl) if is_long else (c_high >= entry and c_open <= sl)
+
+                    if stop_hit_before and not reached_entry:
+                        active_position = None
+                        continue
+
+                    if reached_entry:
+                        if self.require_reaction:
+                            z_low = p.get("zone_low", min(entry, sl))
+                            z_high = p.get("zone_high", max(entry, sl))
+                            if is_slice_through_candle(p_dir, c_open, c_high, c_low, c_close, z_low, z_high):
+                                active_position = None
+                                continue
+
+                        p["status"] = "OPEN"
+                        status = "OPEN"
+                    else:
+                        continue
+
                 p["bars_held"] += 1
 
                 closed = False
@@ -329,12 +373,32 @@ class BegonyaPDRunner:
 
                 if mss_ok:
                     has_fvg = (lows[entry_idx - 2] > highs[entry_idx]) and ((lows[entry_idx - 2] - highs[entry_idx]) >= c_atr * 0.10)
+                    fvg_low = highs[entry_idx] if has_fvg else None
+                    fvg_high = lows[entry_idx - 2] if has_fvg else None
+                    calc = calculate_ce_entry(
+                        direction="SHORT",
+                        curr_close=closes[entry_idx],
+                        sweep_extreme=peak,
+                        mss_trigger=mss_trigger,
+                        atr=c_atr,
+                        sl_buffer_atr=sl_buffer_atr,
+                        has_fvg=has_fvg,
+                        fvg_top=fvg_high,
+                        fvg_bottom=fvg_low,
+                        entry_model=self.entry_model,
+                    )
                     sfp_sig = {
                         "strategy": "SFP",
                         "direction": "SHORT",
                         "grade": "AAA" if has_fvg else "A+",
-                        "entry": closes[entry_idx],
-                        "sl": peak + (c_atr * sl_buffer_atr),
+                        "entry": calc["entry_price"],
+                        "sl": calc["stop_loss"],
+                        "tp1": calc["tp1"],
+                        "tp2": calc["tp2"],
+                        "risk_dist": calc["risk_dist"],
+                        "is_limit": calc["is_limit"],
+                        "zone_low": calc["zone_low"],
+                        "zone_high": calc["zone_high"],
                         "pool": pool_name,
                         "trigger_time": dts[entry_idx],
                         "trigger_dt": dt_objs[entry_idx],
@@ -358,12 +422,32 @@ class BegonyaPDRunner:
 
                 if mss_ok:
                     has_fvg = (highs[entry_idx - 2] < lows[entry_idx]) and ((lows[entry_idx] - highs[entry_idx - 2]) >= c_atr * 0.10)
+                    fvg_low = highs[entry_idx - 2] if has_fvg else None
+                    fvg_high = lows[entry_idx] if has_fvg else None
+                    calc = calculate_ce_entry(
+                        direction="LONG",
+                        curr_close=closes[entry_idx],
+                        sweep_extreme=trough,
+                        mss_trigger=mss_trigger,
+                        atr=c_atr,
+                        sl_buffer_atr=sl_buffer_atr,
+                        has_fvg=has_fvg,
+                        fvg_top=fvg_high,
+                        fvg_bottom=fvg_low,
+                        entry_model=self.entry_model,
+                    )
                     sfp_sig = {
                         "strategy": "SFP",
                         "direction": "LONG",
                         "grade": "AAA" if has_fvg else "A+",
-                        "entry": closes[entry_idx],
-                        "sl": trough - (c_atr * sl_buffer_atr),
+                        "entry": calc["entry_price"],
+                        "sl": calc["stop_loss"],
+                        "tp1": calc["tp1"],
+                        "tp2": calc["tp2"],
+                        "risk_dist": calc["risk_dist"],
+                        "is_limit": calc["is_limit"],
+                        "zone_low": calc["zone_low"],
+                        "zone_high": calc["zone_high"],
                         "pool": pool_name,
                         "trigger_time": dts[entry_idx],
                         "trigger_dt": dt_objs[entry_idx],
@@ -412,16 +496,11 @@ class BegonyaPDRunner:
 
                 entry_p = sfp_sig["entry"]
                 sl_p = sfp_sig["sl"]
-                risk_dist = abs(entry_p - sl_p)
+                tp1_p = sfp_sig["tp1"]
+                tp2_p = sfp_sig["tp2"]
+                risk_dist = sfp_sig["risk_dist"]
                 if risk_dist <= 1e-8:
                     continue
-
-                if direction == "LONG":
-                    tp1_p = entry_p + (risk_dist * 1.0)
-                    tp2_p = entry_p + (risk_dist * 2.0)
-                else:
-                    tp1_p = entry_p - (risk_dist * 1.0)
-                    tp2_p = entry_p - (risk_dist * 2.0)
 
                 active_position = {
                     "symbol": symbol,
@@ -436,8 +515,11 @@ class BegonyaPDRunner:
                     "closed_at": None,
                     "close_reason": None,
                     "r_result": 0.0,
-                    "status": "OPEN",
+                    "status": "OPEN" if not sfp_sig.get("is_limit", False) else "PENDING_LIMIT",
                     "bars_held": 0,
+                    "bars_waiting": 0,
+                    "zone_low": sfp_sig.get("zone_low", min(entry_p, sl_p)),
+                    "zone_high": sfp_sig.get("zone_high", max(entry_p, sl_p)),
                     "pool": sfp_sig["pool"],
                     "macro_gate": macro_gate,
                     "is_weekend": bool(is_weekend),
@@ -446,14 +528,14 @@ class BegonyaPDRunner:
         return trades, gate_stats
 
 
-def run_benchmark(year: int, require_15m_ema: bool = False):
+def run_benchmark(year: int, require_15m_ema: bool = False, entry_model: str = ENTRY_MODEL):
     s_dt = datetime(year, 1, 1, 0, 0, tzinfo=timezone.utc)
     if year == 2026:
         e_dt = datetime(2026, 10, 11, 23, 59, tzinfo=timezone.utc)
     else:
         e_dt = datetime(year, 12, 31, 23, 59, tzinfo=timezone.utc)
 
-    runner = BegonyaPDRunner(s_dt, e_dt)
+    runner = BegonyaPDRunner(s_dt, e_dt, entry_model=entry_model)
     all_trades = []
     veto_totals = {"VETO_MACRO_RANGE": 0, "VETO_DIRECTION_MISMATCH": 0, "VETO_MTF_PD_MISMATCH": 0, "APPROVED": 0}
 
@@ -473,11 +555,21 @@ def run_benchmark(year: int, require_15m_ema: bool = False):
     cnt = len(all_trades)
     wr = (tp2 + be) / cnt * 100 if cnt > 0 else 0.0
 
-    print(f"=== {year} YILI SONUÇLARI (15M EMA Şartı: {require_15m_ema}) ===")
+    print(f"=== {year} YILI SONUÇLARI (15M EMA Şartı: {require_15m_ema} | Model: {entry_model.upper()}) ===")
     print(f"Toplam İşlem: {cnt} | Win Rate: %{wr:.1f} | TP2: {tp2} | BE: {be} | SL: {sl} | Net R: {net_r:+.2f}R | Dolar: ${net_r*200:+,.0f}")
     print(f"Vetolar: {veto_totals}\n")
 
 
 if __name__ == "__main__":
-    run_benchmark(2026, require_15m_ema=False)
-    run_benchmark(2025, require_15m_ema=False)
+    import argparse
+    parser = argparse.ArgumentParser(description="Begonya PD Strategy Multi-Year Backtest")
+    parser.add_argument("--entry-model", type=str, choices=["midpoint", "close"], default=ENTRY_MODEL, help="Giriş modeli: midpoint (50%% CE) veya close")
+    parser.add_argument("--year", type=int, default=None, help="Yıl (2025, 2026 veya belirtilmezse her ikisi)")
+    parser.add_argument("--require-15m-ema", action="store_true", help="15M EMA trend teyidi şartı")
+    args = parser.parse_args()
+
+    if args.year:
+        run_benchmark(args.year, require_15m_ema=args.require_15m_ema, entry_model=args.entry_model)
+    else:
+        run_benchmark(2026, require_15m_ema=args.require_15m_ema, entry_model=args.entry_model)
+        run_benchmark(2025, require_15m_ema=args.require_15m_ema, entry_model=args.entry_model)

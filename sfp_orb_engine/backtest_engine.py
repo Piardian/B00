@@ -4,6 +4,7 @@ SFP (SMC P/D, FVG Confluence, Volume Anomaly) & ORB Seans Kırılımları
 Gerçek MT5 Broker M15 Verisi (2025-10-10 - 2026-10-10)
 """
 
+import sys
 import time
 import json
 import logging
@@ -13,23 +14,40 @@ from typing import Dict, Any, List, Optional
 import pandas as pd
 import numpy as np
 
+if hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 import MetaTrader5 as mt5
 
 from .config import (
     get_asset_sl_buffer,
     ORB_MIN_BREAKOUT_VOL_RATIO,
     DATA_DIR,
+    ENTRY_MODEL,
+    REQUIRE_ENTRY_REACTION,
 )
+from .entry_mechanics import calculate_ce_entry, is_slice_through_candle
 
 logger = logging.getLogger("Begonya00.Backtest")
 
 
 class BacktestEngine:
-    def __init__(self, symbols: Optional[List[str]] = None):
+    def __init__(
+        self,
+        symbols: Optional[List[str]] = None,
+        entry_model: str = ENTRY_MODEL,
+        require_reaction: bool = REQUIRE_ENTRY_REACTION,
+    ):
         self.symbols = symbols or [
             "EURUSD", "GBPUSD", "USDJPY", "AUDUSD", "USDCHF", "USDCAD", "NZDUSD",
             "EURJPY", "GBPJPY", "XAUUSD", "NAS100", "BTCUSD", "ETHUSD"
         ]
+        self.entry_model = (entry_model or "midpoint").lower()
+        self.require_reaction = require_reaction
 
     def fetch_historical_m15(self, symbol: str) -> Optional[pd.DataFrame]:
         """MT5 üzerinden son 1 yılın gerçek M15 barlarını çeker."""
@@ -153,6 +171,34 @@ class BacktestEngine:
                 tp2 = p["tp2"]
                 status = p["status"]
                 p_dir = p["direction"]
+
+                if status == "PENDING_LIMIT":
+                    p["bars_waiting"] = p.get("bars_waiting", 0) + 1
+                    if p["bars_waiting"] >= p.get("max_wait_bars", 32):
+                        active_position = None
+                        continue
+
+                    is_long = (p_dir == "LONG")
+                    stop_hit_before = (c_low <= sl) if is_long else (c_high >= sl)
+                    reached_entry = (c_low <= entry and c_open >= sl) if is_long else (c_high >= entry and c_open <= sl)
+
+                    if stop_hit_before and not reached_entry:
+                        active_position = None
+                        continue
+
+                    if reached_entry:
+                        if self.require_reaction:
+                            z_low = p.get("zone_low", min(entry, sl))
+                            z_high = p.get("zone_high", max(entry, sl))
+                            if is_slice_through_candle(p_dir, c_open, c_high, c_low, c_close, z_low, z_high):
+                                active_position = None
+                                continue
+
+                        p["status"] = "OPEN"
+                        status = "OPEN"
+                    else:
+                        continue
+
                 p["bars_held"] += 1
 
                 closed = False
@@ -262,25 +308,42 @@ class BacktestEngine:
                                 grade = "A"
 
                             peak = max(c_high, p_high) if is_two else c_high
-                            sl_p = peak + (c_atr * sl_buffer_atr)
-                            risk = max(sl_p - c_close, c_atr * 0.2)
-                            tp1_p = c_close - (risk * 1.5)
-                            tp2_p = c_close - (risk * 2.5)
+                            fvg_high = lows[i-2] if has_fvg else None
+                            fvg_low = c_high if has_fvg else None
+                            calc = calculate_ce_entry(
+                                direction="SHORT",
+                                curr_close=c_close,
+                                sweep_extreme=peak,
+                                mss_trigger=recent_sh,
+                                atr=c_atr,
+                                sl_buffer_atr=sl_buffer_atr,
+                                has_fvg=has_fvg,
+                                fvg_top=fvg_high,
+                                fvg_bottom=fvg_low,
+                                entry_model=self.entry_model,
+                            )
+                            sl_p = calc["stop_loss"]
+                            risk = calc["risk_dist"]
+                            tp1_p = calc["tp1"]
+                            tp2_p = calc["tp2"]
 
                             sfp_sig = {
                                 "symbol": symbol,
                                 "strategy": "SFP_VOLUME_ANOMALY",
                                 "direction": "SHORT",
                                 "grade": grade,
-                                "entry": c_close,
+                                "entry": calc["entry_price"],
                                 "original_sl": sl_p,
                                 "current_sl": sl_p,
                                 "tp1": tp1_p,
                                 "tp2": tp2_p,
                                 "risk_pips": round(risk, 5),
-                                "rr_ratio": 2.5,
-                                "status": "OPEN",
+                                "rr_ratio": round((calc["entry_price"] - tp2_p) / max(risk, 1e-8), 2),
+                                "status": "OPEN" if not calc["is_limit"] else "PENDING_LIMIT",
                                 "bars_held": 0,
+                                "bars_waiting": 0,
+                                "zone_low": calc["zone_low"],
+                                "zone_high": calc["zone_high"],
                                 "opened_at": c_time,
                             }
 
@@ -305,25 +368,42 @@ class BacktestEngine:
                                     grade = "A"
 
                                 valley = min(c_low, p_low) if is_two_l else c_low
-                                sl_p = valley - (c_atr * sl_buffer_atr)
-                                risk = max(c_close - sl_p, c_atr * 0.2)
-                                tp1_p = c_close + (risk * 1.5)
-                                tp2_p = c_close + (risk * 2.5)
+                                fvg_low = highs[i-2] if has_fvg else None
+                                fvg_high = c_low if has_fvg else None
+                                calc = calculate_ce_entry(
+                                    direction="LONG",
+                                    curr_close=c_close,
+                                    sweep_extreme=valley,
+                                    mss_trigger=recent_sl,
+                                    atr=c_atr,
+                                    sl_buffer_atr=sl_buffer_atr,
+                                    has_fvg=has_fvg,
+                                    fvg_top=fvg_high,
+                                    fvg_bottom=fvg_low,
+                                    entry_model=self.entry_model,
+                                )
+                                sl_p = calc["stop_loss"]
+                                risk = calc["risk_dist"]
+                                tp1_p = calc["tp1"]
+                                tp2_p = calc["tp2"]
 
                                 sfp_sig = {
                                     "symbol": symbol,
                                     "strategy": "SFP_VOLUME_ANOMALY",
                                     "direction": "LONG",
                                     "grade": grade,
-                                    "entry": c_close,
+                                    "entry": calc["entry_price"],
                                     "original_sl": sl_p,
                                     "current_sl": sl_p,
                                     "tp1": tp1_p,
                                     "tp2": tp2_p,
                                     "risk_pips": round(risk, 5),
-                                    "rr_ratio": 2.5,
-                                    "status": "OPEN",
+                                    "rr_ratio": round((tp2_p - calc["entry_price"]) / max(risk, 1e-8), 2),
+                                    "status": "OPEN" if not calc["is_limit"] else "PENDING_LIMIT",
                                     "bars_held": 0,
+                                    "bars_waiting": 0,
+                                    "zone_low": calc["zone_low"],
+                                    "zone_high": calc["zone_high"],
                                     "opened_at": c_time,
                                 }
 
@@ -338,11 +418,20 @@ class BacktestEngine:
                     body = abs(c_close - c_open) / bar_range
                     top_wick = (c_high - c_close) / bar_range
                     if body >= 0.40 and top_wick <= 0.35:
-                        sl_p = o_h - (o_range * 0.5)
-                        risk = max(c_close - sl_p, c_atr * 0.2)
-                        tp1_p = c_close + o_range
-                        tp2_p = c_close + (o_range * 2.0)
-                        rr = round((tp2_p - c_close) / risk, 2)
+                        calc = calculate_ce_entry(
+                            direction="LONG",
+                            curr_close=c_close,
+                            sweep_extreme=o_h - (o_range * 0.5),
+                            mss_trigger=o_h,
+                            atr=c_atr,
+                            sl_buffer_atr=sl_buffer_atr,
+                            entry_model=self.entry_model,
+                        )
+                        sl_p = calc["stop_loss"]
+                        risk = calc["risk_dist"]
+                        tp1_p = calc["tp1"]
+                        tp2_p = calc["tp2"]
+                        rr = round((tp2_p - calc["entry_price"]) / max(risk, 1e-8), 2)
                         grade = "A+" if trend == "BULLISH" else "A"
 
                         orb_sig = {
@@ -350,15 +439,18 @@ class BacktestEngine:
                             "strategy": "ORB_SESSION_BREAKOUT",
                             "direction": "LONG",
                             "grade": grade,
-                            "entry": c_close,
+                            "entry": calc["entry_price"],
                             "original_sl": sl_p,
                             "current_sl": sl_p,
                             "tp1": tp1_p,
                             "tp2": tp2_p,
                             "risk_pips": round(risk, 5),
                             "rr_ratio": rr,
-                            "status": "OPEN",
+                            "status": "OPEN" if not calc["is_limit"] else "PENDING_LIMIT",
                             "bars_held": 0,
+                            "bars_waiting": 0,
+                            "zone_low": calc["zone_low"],
+                            "zone_high": calc["zone_high"],
                             "opened_at": c_time,
                         }
 
@@ -367,11 +459,20 @@ class BacktestEngine:
                     body = abs(c_close - c_open) / bar_range
                     bot_wick = (c_close - c_low) / bar_range
                     if body >= 0.40 and bot_wick <= 0.35:
-                        sl_p = o_l + (o_range * 0.5)
-                        risk = max(sl_p - c_close, c_atr * 0.2)
-                        tp1_p = c_close - o_range
-                        tp2_p = c_close - (o_range * 2.0)
-                        rr = round((c_close - tp2_p) / risk, 2)
+                        calc = calculate_ce_entry(
+                            direction="SHORT",
+                            curr_close=c_close,
+                            sweep_extreme=o_l + (o_range * 0.5),
+                            mss_trigger=o_l,
+                            atr=c_atr,
+                            sl_buffer_atr=sl_buffer_atr,
+                            entry_model=self.entry_model,
+                        )
+                        sl_p = calc["stop_loss"]
+                        risk = calc["risk_dist"]
+                        tp1_p = calc["tp1"]
+                        tp2_p = calc["tp2"]
+                        rr = round((calc["entry_price"] - tp2_p) / max(risk, 1e-8), 2)
                         grade = "A+" if trend == "BEARISH" else "A"
 
                         orb_sig = {
@@ -379,15 +480,18 @@ class BacktestEngine:
                             "strategy": "ORB_SESSION_BREAKOUT",
                             "direction": "SHORT",
                             "grade": grade,
-                            "entry": c_close,
+                            "entry": calc["entry_price"],
                             "original_sl": sl_p,
                             "current_sl": sl_p,
                             "tp1": tp1_p,
                             "tp2": tp2_p,
                             "risk_pips": round(risk, 5),
                             "rr_ratio": rr,
-                            "status": "OPEN",
+                            "status": "OPEN" if not calc["is_limit"] else "PENDING_LIMIT",
                             "bars_held": 0,
+                            "bars_waiting": 0,
+                            "zone_low": calc["zone_low"],
+                            "zone_high": calc["zone_high"],
                             "opened_at": c_time,
                         }
 
@@ -548,9 +652,15 @@ class BacktestEngine:
 
 
 if __name__ == "__main__":
-    engine = BacktestEngine()
+    import argparse
+    parser = argparse.ArgumentParser(description="Begonya 00 - 1 Yıllık Portföy Backtest Motoru")
+    parser.add_argument("--entry-model", type=str, choices=["midpoint", "close"], default=ENTRY_MODEL, help="Giriş modeli: midpoint (50%% CE) veya close")
+    parser.add_argument("--no-reaction", action="store_true", help="Slice-through iptalini kapat")
+    args = parser.parse_args()
+
+    engine = BacktestEngine(entry_model=args.entry_model, require_reaction=not args.no_reaction)
     scorecard = engine.run_full_portfolio_backtest()
     print("\n" + "=" * 60)
-    print("🌺 BEGONYA 00 - 1 YILLIK PORTFÖY BACKTEST KARNESİ")
+    print(f"🌺 BEGONYA 00 - 1 YILLIK PORTFÖY BACKTEST KARNESİ (Model: {args.entry_model.upper()})")
     print("=" * 60)
     print(json.dumps(scorecard, indent=2, default=str))
