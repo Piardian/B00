@@ -6,5 +6,5 @@ echo ======================================================================
 echo  BEGONYA 00 (CIFT SIFIR) OTONOM SISTEMI BASLATILIYOR...
 echo  Mimari: Macro Multi-AGI Army + SFP & Hacim Anomalisi + ORB Motoru
 echo ======================================================================
-python orchestrator\start_begonya.py
+"C:\Users\piard\AppData\Local\Programs\Python\Python312\python.exe" orchestrator\start_begonya.py
 pause
