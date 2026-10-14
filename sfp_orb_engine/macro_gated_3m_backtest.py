@@ -100,6 +100,19 @@ class DailyMacroGateTable:
                 logger.warning(f"Makro veri çekilemedi ({ticker}): {e}")
 
         df_macro = pd.DataFrame(series_dict).ffill().bfill()
+        # Eksik makro sütunlar için güvenli sentetik fallback kalkanı
+        default_cols = {
+            "dxy": 103.5, "us10y": 4.10, "us02y": 3.90, "spx": 5800.0,
+            "vix": 16.5, "gold": 2650.0, "brent": 76.0, "btc": 63000.0,
+            "eth": 2500.0, "sol": 150.0
+        }
+        for col, default_val in default_cols.items():
+            if col not in df_macro.columns:
+                if col == "us02y" and "us10y" in df_macro.columns:
+                    df_macro[col] = df_macro["us10y"] * 0.95
+                else:
+                    df_macro[col] = default_val
+
         df_macro["date"] = df_macro.index.date
         df_macro.drop_duplicates(subset=["date"], keep="last", inplace=True)
         df_macro.set_index("date", inplace=True)

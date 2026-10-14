@@ -95,6 +95,8 @@ class Custom1MBacktestRunner:
         use_ifvg: bool = USE_IFVG_ENTRY,
         require_breaker: bool = REQUIRE_STRUCTURAL_BREAKER,
         months: int = 1,
+        start_date: Optional[str] = None,
+        end_date: Optional[str] = None,
     ):
         self.initial_capital = initial_capital
         self.risk_pct = risk_pct
@@ -105,15 +107,25 @@ class Custom1MBacktestRunner:
         self.use_ifvg = use_ifvg
         self.require_breaker = require_breaker
         self.months = months
-        self.utc_to = datetime(2026, 10, 11, 23, 59, tzinfo=timezone.utc)
-        if months == 3:
-            self.utc_from = datetime(2026, 7, 11, 0, 0, tzinfo=timezone.utc)
-        elif months == 6:
-            self.utc_from = datetime(2026, 4, 11, 0, 0, tzinfo=timezone.utc)
-        elif months == 12:
-            self.utc_from = datetime(2025, 10, 11, 0, 0, tzinfo=timezone.utc)
+        if start_date and end_date:
+            self.utc_from = pd.to_datetime(start_date)
+            if self.utc_from.tzinfo is None:
+                self.utc_from = self.utc_from.tz_localize(timezone.utc)
+            self.utc_to = pd.to_datetime(end_date)
+            if self.utc_to.tzinfo is None:
+                self.utc_to = self.utc_to.tz_localize(timezone.utc)
+            if len(str(end_date).strip()) == 10:
+                self.utc_to = self.utc_to.replace(hour=23, minute=59, second=59)
         else:
-            self.utc_from = datetime(2026, 9, 11, 0, 0, tzinfo=timezone.utc)
+            self.utc_to = datetime(2026, 10, 11, 23, 59, tzinfo=timezone.utc)
+            if months == 3:
+                self.utc_from = datetime(2026, 7, 11, 0, 0, tzinfo=timezone.utc)
+            elif months == 6:
+                self.utc_from = datetime(2026, 4, 11, 0, 0, tzinfo=timezone.utc)
+            elif months == 12:
+                self.utc_from = datetime(2025, 10, 11, 0, 0, tzinfo=timezone.utc)
+            else:
+                self.utc_from = datetime(2026, 9, 11, 0, 0, tzinfo=timezone.utc)
 
         if self.use_macro_gate:
             self.macro_table = DailyMacroGateTable(self.utc_from.date(), self.utc_to.date())
@@ -683,6 +695,8 @@ def run_full_portfolio_simulation(
     use_macro_gate: bool = True,
     months: int = 1,
     tier1_only: bool = False,
+    start_date: Optional[str] = None,
+    end_date: Optional[str] = None,
 ) -> Dict[str, Any]:
     runner = Custom1MBacktestRunner(
         initial_capital=10000.0,
@@ -691,10 +705,13 @@ def run_full_portfolio_simulation(
         require_reaction=require_reaction,
         use_macro_gate=use_macro_gate,
         months=months,
+        start_date=start_date,
+        end_date=end_date,
     )
     target_symbols = TIER1_SYMBOLS if tier1_only else SYMBOLS
+    period_title = f"{runner.utc_from.strftime('%Y-%m-%d')} - {runner.utc_to.strftime('%Y-%m-%d')}"
     logger.info("=" * 70)
-    logger.info(f"🌺 BEGONYA 00 - {runner.months} AYLIK KURUMSAL ÖZEL STRATEJİ & PORTFÖY TESTİ 🌺")
+    logger.info(f"🌺 BEGONYA 00 - ÖZEL STRATEJİ & PORTFÖY TESTİ ({period_title}) 🌺")
     logger.info(f"Evren: {'TIER-1 KURUMSAL (9 Parite)' if tier1_only else 'TAM EVREN (18 Parite)'}")
     logger.info(f"Entry Modeli: {runner.entry_model.upper()} | Reaksiyon Kalkanı: {'AÇIK' if runner.require_reaction else 'KAPALI'}")
     logger.info(f"Makro Kapı Yönetişimi: {'AÇIK (Günlük DXY/Yield/VIX Filtreli)' if runner.use_macro_gate else 'KAPALI'}")
@@ -854,13 +871,17 @@ def run_full_portfolio_simulation(
 
     print(json.dumps(summary, indent=2, ensure_ascii=False))
 
-    out_file = Path("data") / f"custom_{runner.months}m_backtest_result.json"
+    if start_date and end_date:
+        out_file = Path("data") / f"custom_{start_date}_{end_date}_backtest_result.json"
+    else:
+        out_file = Path("data") / f"custom_{runner.months}m_backtest_result.json"
     out_file.parent.mkdir(parents=True, exist_ok=True)
     out_file.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
 
     # Geriye dönük uyumluluk için varsayılan dosyayı da güncelle
-    legacy_file = Path("data") / "custom_1m_backtest_result.json"
-    legacy_file.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    if runner.months == 1 and not (start_date and end_date):
+        legacy_file = Path("data") / "custom_1m_backtest_result.json"
+        legacy_file.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
     return summary
 
 
@@ -868,6 +889,8 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="Begonya 00 - Kurumsal Özel Strateji & Portföy Testi")
     parser.add_argument("--months", type=int, default=1, choices=[1, 3, 6, 12], help="Test periyodu (ay sayısı: 1, 3, 6, 12)")
+    parser.add_argument("--start-date", type=str, default=None, help="Özel başlangıç tarihi (YYYY-MM-DD)")
+    parser.add_argument("--end-date", type=str, default=None, help="Özel bitiş tarihi (YYYY-MM-DD)")
     parser.add_argument("--entry-model", choices=["midpoint", "close"], default=ENTRY_MODEL, help="Giriş modeli: midpoint (50% CE) veya close (Market Kapanış)")
     parser.add_argument("--tier1", action="store_true", help="Yalnızca Tier-1 Kurumsal 9 Parite Evrenini test et")
     parser.add_argument("--no-reaction", action="store_true", help="Reaksiyon kalkanını devre dışı bırak")
@@ -879,4 +902,6 @@ if __name__ == "__main__":
         use_macro_gate=not args.no_macro,
         months=args.months,
         tier1_only=args.tier1,
+        start_date=args.start_date,
+        end_date=args.end_date,
     )
