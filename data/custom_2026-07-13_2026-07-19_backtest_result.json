@@ -1,0 +1,67 @@
+{
+  "period": "2026-07-13 - 2026-07-19",
+  "universe": "FULL_UNIVERSE_18",
+  "entry_model": "MIDPOINT",
+  "macro_gate": "ENABLED",
+  "initial_capital": 10000.0,
+  "risk_percentage": "%2.0",
+  "total_trades": 1,
+  "tp2_hits": 1,
+  "be_hits": 0,
+  "sl_hits": 0,
+  "time_exits": 0,
+  "win_rate": "%100.0",
+  "tp2_rate": "%100.0",
+  "total_net_r": "2.0R",
+  "time_travel_trades": 0,
+  "fixed_model": {
+    "risk_per_trade": "$200.00",
+    "ending_balance": "$10,400.00",
+    "net_profit_dollar": "$+400.00",
+    "net_return_pct": "%+4.0"
+  },
+  "compounding_model": {
+    "ending_balance": "$10,400.00",
+    "net_profit_dollar": "$+400.00",
+    "net_return_pct": "%+4.0",
+    "max_drawdown_pct": "%0.00"
+  },
+  "strategy_breakdown": {
+    "SFP_INSTITUTIONAL": {
+      "trades": 1,
+      "wins": 1,
+      "win_rate": "%100.0",
+      "net_r": "2.0R"
+    },
+    "ORB_LONDON_FOREX_ONLY": {
+      "trades": 0,
+      "wins": 0,
+      "win_rate": "0%",
+      "net_r": "0R"
+    }
+  },
+  "top_performing_symbols": {
+    "SP500": {
+      "trades": 1,
+      "wins": 1,
+      "win_rate": 100.0,
+      "net_r": 2.0
+    }
+  },
+  "trade_log": [
+    {
+      "idx": 1,
+      "date": "2026-07-13 11:00",
+      "closed_at": "2026-07-13 17:15",
+      "symbol": "SP500",
+      "strategy": "SFP_IFVG_BREAKER",
+      "direction": "LONG",
+      "reason": "TP2_HIT",
+      "r_result": 2.0,
+      "dollar_pnl_fixed": 400.0,
+      "dollar_pnl_dyn": 400.0,
+      "balance_fixed": 10400.0,
+      "balance_dyn": 10400.0
+    }
+  ]
+}
