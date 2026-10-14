@@ -300,6 +300,17 @@ class BegonyaEngine:
         logger.info(f"Tarama Aralığı: {SCAN_INTERVAL_SECONDS} sn | 0 API Maliyeti Modu")
         logger.info("=" * 65)
 
+        # 1. Telegram ONLINE Bildirimi Gönder
+        try:
+            self.notifier.send_status_update(
+                status="ONLINE",
+                details="🟢 <b>Begonya 00 Canlı Tarama Motoru Aktif Edildi.</b>\n"
+                        f"🎯 <b>Evren:</b> <code>{len(self.symbols)} Enstrüman</code> ({PRIMARY_TIMEFRAME})\n"
+                        "🛡️ 4H Trend, 1M iFVG/Breaker ve Makro Kapı Filtreleri Nöbette."
+            )
+        except Exception as e:
+            logger.warning(f"Telegram ONLINE bildirimi hatası: {e}")
+
         try:
             RUNTIME_LOCK_FILE.write_text(json.dumps({"pid": sys.platform, "started_at": datetime.now().isoformat()}), encoding="utf-8")
         except Exception:
@@ -312,22 +323,32 @@ class BegonyaEngine:
         signal.signal(signal.SIGINT, sig_handler)
         signal.signal(signal.SIGTERM, sig_handler)
 
-        while self._is_running:
-            start_t = time.time()
-            try:
-                findings = self.scan_universe()
-                perf = self.outcome_tracker.get_performance_stats()
-                if perf["total_trades"] > 0:
-                    logger.info(f"📊 Performans Durumu: {perf['total_trades']} İşlem | Win-Rate: %{perf['win_rate']} | Net R: {perf['total_r']}R")
-            except Exception as e:
-                logger.error(f"Döngü hatası: {e}")
-
-            elapsed = time.time() - start_t
-            sleep_time = max(1.0, SCAN_INTERVAL_SECONDS - elapsed)
-            time.sleep(sleep_time)
-
         try:
-            RUNTIME_LOCK_FILE.unlink(missing_ok=True)
-        except Exception:
-            pass
-        logger.info("Begonya 00 motoru güvenle sonlandırıldı.")
+            while self._is_running:
+                start_t = time.time()
+                try:
+                    findings = self.scan_universe()
+                    perf = self.outcome_tracker.get_performance_stats()
+                    if perf["total_trades"] > 0:
+                        logger.info(f"📊 Performans Durumu: {perf['total_trades']} İşlem | Win-Rate: %{perf['win_rate']} | Net R: {perf['total_r']}R")
+                except Exception as e:
+                    logger.error(f"Döngü hatası: {e}")
+
+                elapsed = time.time() - start_t
+                sleep_time = max(1.0, SCAN_INTERVAL_SECONDS - elapsed)
+                time.sleep(sleep_time)
+        finally:
+            try:
+                RUNTIME_LOCK_FILE.unlink(missing_ok=True)
+            except Exception:
+                pass
+            logger.info("Begonya 00 motoru güvenle sonlandırıldı.")
+            # 2. Telegram OFFLINE Bildirimi Gönder
+            try:
+                self.notifier.send_status_update(
+                    status="OFFLINE",
+                    details="🔴 <b>Begonya 00 Canlı Motoru Kapatıldı / Çevrimdışı.</b>\n"
+                            "⚠️ Otonom tarama ve canlı işlem takibi durduruldu."
+                )
+            except Exception as e:
+                logger.warning(f"Telegram OFFLINE bildirimi hatası: {e}")

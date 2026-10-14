@@ -218,25 +218,45 @@ class TelegramNotifier:
                 "parse_mode": "HTML",
             }
             resp = requests.post(url, json=payload, timeout=15)
-            return resp.status_code == 200
-        except Exception:
-            return False
-
-        # 3. Metin olarak gonderme (Fallback)
-        try:
-            url = f"https://api.telegram.org/bot{self.token}/sendMessage"
-            payload = {
-                "chat_id": self.chat_id,
-                "text": caption,
-                "parse_mode": "HTML",
-            }
-            resp = requests.post(url, json=payload, timeout=15)
             if resp.status_code == 200:
-                logger.info(f"✅ Telegram metin sinyali gonderildi: {signal.get('symbol')}")
                 return True
             else:
                 logger.error(f"sendMessage basarisiz: {resp.text}")
+                return False
         except Exception as e:
             logger.error(f"Telegram sendMessage hatasi: {e}")
+            return False
 
-        return False
+    def send_status_update(self, status: str, details: Optional[str] = None) -> bool:
+        """
+        Sistem acildiginda (ONLINE) veya kapandiginda (OFFLINE) Telegram'a durum mesaji gonderir.
+        """
+        if not self.is_configured():
+            return False
+
+        status_upper = status.upper()
+        now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+        if status_upper == "ONLINE":
+            icon = "🟢"
+            status_text = "ÇEVRİMİÇİ (ONLINE)"
+            desc = details or "Sistem başlatıldı, otonom koruma kalkanları ve canlı tarama nöbette."
+        elif status_upper == "OFFLINE":
+            icon = "🔴"
+            status_text = "ÇEVRİMDİŞI (OFFLINE)"
+            desc = details or "Sistem kapatıldı / sonlandırıldı. Otonom tarama durduruldu."
+        else:
+            icon = "ℹ️"
+            status_text = status_upper
+            desc = details or ""
+
+        lines = [
+            "🌺 <b>BEGONYA 00 | SİSTEM DURUM BİLDİRİMİ</b>",
+            "━━━━━━━━━━━━━━━━━━━━━━",
+            f"<b>DURUM:</b> {icon} <b>{status_text}</b>",
+            f"ℹ️ <b>BİLGİ:</b> {desc}",
+            "━━━━━━━━━━━━━━━━━━━━━━",
+            f"⏰ <i>{now_str} TRT</i>",
+        ]
+        msg = "\n".join(lines)
+        return self._send_text_fallback(msg)
