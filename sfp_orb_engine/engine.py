@@ -219,10 +219,10 @@ class BegonyaEngine:
             logger.info(f"🛡️ Karşı-Trend Engeli: {symbol} {strategy} {direction} ana trende zıt olduğu için elendi.")
             return
 
-        # 0d. Yetersiz Risk Mesafesi Koruması (Memecoin / Sıfır Risk İğne Stop Engeli)
+        # 0d. Yetersiz Risk Mesafesi Koruması (Sıfır Risk / Hatalı İğne Stop Engeli)
         entry_val = float(candidate.get("entry", 0.0))
         risk_val = float(candidate.get("risk_pips", 0.0))
-        if entry_val > 0 and (risk_val <= 0 or (risk_val / entry_val) < 0.0015):
+        if entry_val <= 0 or risk_val <= 0 or (risk_val / entry_val) < 0.00002:
             logger.info(f"🛡️ Yetersiz Risk Mesafesi ({symbol} risk={risk_val}, entry={entry_val}). Elendi.")
             return
 

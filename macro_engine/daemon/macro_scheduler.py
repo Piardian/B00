@@ -40,6 +40,9 @@ logging.basicConfig(
 logger = logging.getLogger("MacroDaemon")
 
 STATE_FILE = Path(__file__).parent / "scheduler_state.json"
+GLOBAL_STATE_DIR = Path(os.environ.get("LOCALAPPDATA", str(Path.home() / ".begonya"))) / "Begonya"
+GLOBAL_STATE_FILE = GLOBAL_STATE_DIR / "macro_scheduler_global_state.json"
+GLOBAL_BRIEFING_LOCK = GLOBAL_STATE_DIR / "morning_briefing_global.lock"
 
 
 class MacroEventScheduler:
@@ -52,13 +55,23 @@ class MacroEventScheduler:
         self.last_calendar_fetch = 0.0
 
     def _load_state(self) -> dict:
+        local_state = {}
         try:
             if self.state_file.exists():
                 with open(self.state_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
+                    local_state = json.load(f)
         except Exception as e:
             logger.warning(f"State dosyası okunamadı: {e}")
-        return {
+
+        global_state = {}
+        try:
+            if GLOBAL_STATE_FILE.exists():
+                with open(GLOBAL_STATE_FILE, "r", encoding="utf-8") as f:
+                    global_state = json.load(f)
+        except Exception:
+            pass
+
+        base = {
             "last_morning_briefing_date": "",
             "last_london_session_date": "",
             "last_ny_session_date": "",
@@ -66,13 +79,29 @@ class MacroEventScheduler:
             "last_cycle_timestamp": 0.0,
             "executed_news_events": []
         }
+        base.update(local_state)
+
+        today_str = datetime.datetime.now().strftime("%Y-%m-%d")
+        if global_state.get("last_morning_briefing_date") == today_str:
+            base["last_morning_briefing_date"] = today_str
+        if global_state.get("last_daily_close_date") == today_str:
+            base["last_daily_close_date"] = today_str
+
+        return base
 
     def _save_state(self, state: dict):
         try:
             with open(self.state_file, "w", encoding="utf-8") as f:
                 json.dump(state, f, indent=2, ensure_ascii=False)
         except Exception as e:
-            logger.warning(f"State dosyası yazılamadı: {e}")
+            logger.warning(f"Local state dosyası yazılamadı: {e}")
+
+        try:
+            GLOBAL_STATE_DIR.mkdir(parents=True, exist_ok=True)
+            with open(GLOBAL_STATE_FILE, "w", encoding="utf-8") as f:
+                json.dump(state, f, indent=2, ensure_ascii=False)
+        except Exception as e:
+            logger.debug(f"Global state dosyası yazılamadı: {e}")
 
     def run_cycle(self, trigger_source: str = "Manual / Scheduled"):
         """Tam makro analiz döngüsünü çalıştırır ve atomik kapıyı günceller."""
@@ -105,6 +134,7 @@ class MacroEventScheduler:
         """Atomik dosya kilidi edinir; eski/donmuş kilitleri temizler."""
         for _ in range(2):
             try:
+                lock_path.parent.mkdir(parents=True, exist_ok=True)
                 fd = os.open(str(lock_path), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
                 with os.fdopen(fd, "w", encoding="utf-8") as f:
                     f.write(f"{os.getpid()}:{time.time()}")
@@ -149,8 +179,17 @@ class MacroEventScheduler:
 
         lock_path = self.state_file.parent / "morning_briefing.lock"
         if not self._acquire_file_lock(lock_path, max_age_seconds=900):
-            logger.info("ℹ️ [SABAH BÜLTENİ] Başka bir işlem sabah bültenini hazırlıyor. Mükerrer çalıştırma atlandı.")
+            logger.info("ℹ️ [SABAH BÜLTENİ] Başka bir yerel işlem sabah bültenini hazırlıyor. Mükerrer çalıştırma atlandı.")
             return False
+
+        if not self._acquire_file_lock(GLOBAL_BRIEFING_LOCK, max_age_seconds=900):
+            logger.info("ℹ️ [SABAH BÜLTENİ] Sistem çapında başka bir süreç (Begonya / B00) sabah bültenini hazırlıyor. Mükerrer çalıştırma atlandı.")
+            self._release_file_lock(lock_path)
+            return False
+
+        state = self._load_state()
+        state["last_morning_briefing_date"] = today_str
+        self._save_state(state)
 
         try:
             logger.info("☀️ [SABAH BÜLTENİ] 09:00 Makro Analizi ve Telegram Raporlama Başlatıldı...")
@@ -164,26 +203,17 @@ class MacroEventScheduler:
             msg = format_morning_briefing(result, events)
             sent = send_telegram_message(msg)
             if sent:
-                state = self._load_state()
-                state["last_morning_briefing_date"] = today_str
-                self._save_state(state)
                 logger.info("☀️ [SABAH BÜLTENİ] Telegram Sabah Makro Bülteni Başarıyla Gönderildi!")
             else:
-                logger.warning("⚠️ [SABAH BÜLTENİ] Telegram bülteni gönderilemedi! Tarih kilidi serbest bırakılıyor.")
-                state = self._load_state()
-                if state.get("last_morning_briefing_date") == today_str:
-                    state["last_morning_briefing_date"] = ""
-                    self._save_state(state)
+                logger.warning("⚠️ [SABAH BÜLTENİ] Telegram bülteni gönderiminde kısmi veya tam aksaklık oldu. Mükerrer fırtınayı önlemek için tarih kilidi korunuyor.")
             return sent
         except Exception as e:
             logger.error(f"❌ [SABAH BÜLTENİ] Beklenmeyen hata oluştu: {e}", exc_info=True)
-            state = self._load_state()
-            if state.get("last_morning_briefing_date") == today_str:
-                state["last_morning_briefing_date"] = ""
-                self._save_state(state)
             return False
         finally:
             self._release_file_lock(lock_path)
+            self._release_file_lock(GLOBAL_BRIEFING_LOCK)
+
 
     def _get_calendar_events_cached(self, ttl_seconds: int = 300) -> list:
         """Ekonomik takvim olaylarını 5 dakika önbellekli olarak çeker."""

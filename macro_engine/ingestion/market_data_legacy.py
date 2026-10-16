@@ -66,6 +66,45 @@ class MarketDataIngestion:
                     continue
                 except Exception as nz_err:
                     logger.warning("NZ02Y RBNZ verisi çekilemedi: %s", nz_err)
+            elif name == "US02Y":
+                try:
+                    import datetime as dt
+                    from ingestion.fred_data import FredDataIngestion
+                    fred = FredDataIngestion()
+                    today = dt.date.today()
+                    obs = fred._get_observations("DGS2", today - dt.timedelta(days=90), today)
+                    rows = sorted(obs, key=lambda x: x[0])
+                    if len(rows) >= 6:
+                        value = float(rows[-1][1])
+                        prev_val = float(rows[-2][1]) if len(rows) > 1 else value
+                        val_5d_ago = float(rows[-6][1]) if len(rows) >= 6 else float(rows[0][1])
+                        month_ago_val = float(rows[-21][1]) if len(rows) >= 21 else float(rows[0][1])
+                        pct_change_daily = round(((value - prev_val) / prev_val) * 100, 2) if prev_val else 0.0
+                        pct_change_5d = round(((value - val_5d_ago) / val_5d_ago) * 100, 2) if val_5d_ago else 0.0
+                        pct_change_4w = round(((value - month_ago_val) / month_ago_val) * 100, 2) if month_ago_val else 0.0
+
+                        history_close = [float(r[1]) for r in rows]
+                        window_60d = history_close[-60:]
+                        pct_rank_60d = round((sum(1 for x in window_60d if x <= value) / len(window_60d)) * 100, 1)
+
+                        results[name] = {
+                            "value": round(value, 4),
+                            "prev": round(prev_val, 4),
+                            "val_5d_ago": round(val_5d_ago, 4),
+                            "month_ago": round(month_ago_val, 4),
+                            "change_pct": pct_change_daily,
+                            "change_pct_5d": pct_change_5d,
+                            "change_pct_4w": pct_change_4w,
+                            "pct_rank_60d": pct_rank_60d,
+                            "history_close": history_close,
+                            "source": "FRED API (DGS2)",
+                            "observation_date": rows[-1][0].isoformat(),
+                            "status": "AVAILABLE",
+                            "fallback_used": False,
+                        }
+                        continue
+                except Exception as us2y_err:
+                    logger.warning("US02Y FRED verisi çekilemedi: %s", us2y_err)
 
             if name in ("CA02Y", "GB02Y", "DE02Y", "AU02Y", "NZ02Y"):
                 # Merkez bankası API'si ve önbellek kullanılamadıysa; yfinance'de 404 delisted hatası üretmek yerine güvenli fallback atanır
@@ -80,7 +119,7 @@ class MarketDataIngestion:
                 t = yf.Ticker(ticker)
                 # 3 aylık günlük veriyi al (60 günlük dinamik yüzdelik dilim ve trend için)
                 hist = t.history(period="3mo", interval="1d")
-                if not hist.empty and len(hist) >= 1:
+                if not hist.empty and len(hist) >= 6 and float(hist['Close'].iloc[-1]) > 0:
                     current_val = float(hist['Close'].iloc[-1])
                     prev_val = float(hist['Close'].iloc[-2]) if len(hist) > 1 else current_val
                     val_5d_ago = float(hist['Close'].iloc[-6]) if len(hist) >= 6 else float(hist['Close'].iloc[0])

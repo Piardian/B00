@@ -192,6 +192,8 @@ class MarketDataProvider:
             yf_symbol = "GC=F"
         elif symbol in ["QQQ", "SPY"]:
             yf_symbol = symbol
+        elif symbol in ["NAS100", "US100", "NDX"]:
+            yf_symbol = "NQ=F"
         elif "BTC" in symbol:
             yf_symbol = "BTC-USD"
         elif "ETH" in symbol:

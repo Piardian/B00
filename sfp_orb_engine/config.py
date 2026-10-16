@@ -183,8 +183,8 @@ def is_session_active_for_scan(symbol: str, dt_utc: Optional[datetime] = None) -
     else:
         if crypto:
             return False  # Kriptolar hafta içi taranmaz (yalnızca hafta sonu)
-        # Forex & Endeksler: YALNIZCA LONDRA SEANSI (07:00 - 11:00 UTC)
-        return 7 <= hour <= 11
+        # Forex & Endeksler: Londra (07:00 - 11:00 UTC) ve New York (13:00 - 17:00 UTC) Seansları
+        return (7 <= hour <= 11) or (13 <= hour <= 17)
 
 def is_market_open(symbol: str, dt_utc: Optional[datetime] = None) -> bool:
     """
