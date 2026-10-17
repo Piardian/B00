@@ -18,7 +18,7 @@ class MarketDataIngestion(_LegacyMarketDataIngestion):
         # Core macro inputs must never fall back to fixed values.
         # Relative-value feeds are optional: their absence is surfaced to the
         # metrics layer, which must not manufacture directional FX gates.
-        if name in RELATIVE_VALUE_MARKET_FIELDS:
+        if name in RELATIVE_VALUE_MARKET_FIELDS or name not in REQUIRED_MARKET_FIELDS:
             return dict(super()._get_fallback_price(name))
         raise DataUnavailableError(
             f"Market data unavailable for {name}; synthetic fallback is disabled."

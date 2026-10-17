@@ -26,8 +26,8 @@ class OutcomeTracker:
         self.closed_trades = self._load_json(CLOSED_LEDGER_FILE)
 
     def has_active_trade(self, symbol: str) -> bool:
-        """Belirtilen sembol icin su an aktif acik (OPEN veya TP1_HIT) pozisyon var mi?"""
-        return any(t.get("symbol") == symbol and t.get("status") in ["OPEN", "TP1_HIT"] for t in self.active_trades)
+        """Belirtilen sembol icin su an aktif acik (OPEN, TP1_HIT veya TRAILING_ACTIVE) pozisyon var mi?"""
+        return any(t.get("symbol") == symbol and t.get("status") in ["OPEN", "TP1_HIT", "TRAILING_ACTIVE"] for t in self.active_trades)
 
     def _load_json(self, path: Path) -> List[Dict[str, Any]]:
         if path.exists():
@@ -130,6 +130,9 @@ class OutcomeTracker:
 
             event_type = ""
             event_details = ""
+            risk_dist = float(trade.get("risk_pips", 0.0))
+            if risk_dist <= 0:
+                risk_dist = abs(entry - float(trade.get("original_sl", entry)))
 
             # 1. LONG ISLEM KONTROLU
             if direction == "LONG":
@@ -141,6 +144,20 @@ class OutcomeTracker:
                     event_type = "TP2_HIT"
                     event_details = f"+{full_win_r}R Net Kâr Alındı! (%50 @ {tp1_r}R + %50 @ {tp2_r}R)"
 
+                # İZ SÜREN STOP (TRAILING SL): Fiyat TP1 ile TP2 arasinda +1.5R'a ulastiysa Stop'u +0.75R'a cek
+                elif status == "TP1_HIT" and risk_dist > 0 and eval_high >= (entry + (risk_dist * 1.5)):
+                    trail_sl = round_price(entry + (risk_dist * 0.75))
+                    if trail_sl > current_sl:
+                        trade["current_sl"] = trail_sl
+                        trade["status"] = "TRAILING_ACTIVE"
+                        trade["trailing_r"] = 0.75
+                        self._save_json(ACTIVE_TRADES_FILE, self.active_trades)
+                        self._notify_lifecycle(
+                            trade,
+                            event_type="TRAILING_SL",
+                            details=f"Fiyat +1.5R hedefine yaklaştı! Kârı kilitlemek için Stop {trail_sl} (+0.75R) seviyesine çekildi."
+                        )
+
                 # TP1 Vuruldu mu? (Kısmi Kâr & Break-Even)
                 elif eval_high >= tp1 and status == "OPEN":
                     trade["status"] = "TP1_HIT"
@@ -150,13 +167,18 @@ class OutcomeTracker:
                     self._notify_lifecycle(
                         trade,
                         event_type="TP1",
-                        details=f"Pozisyonun %50'si kapatıldı (+{be_r}R cepte), Stop Giriş Fiyatına (BE) çekildi!"
+                        details=f"Pozisyonun %50'si kapatıldı (+{be_r}R cepte), Stop Giriş Fiyatına ({entry}) çekildi!"
                     )
 
                 # SL Vuruldu mu?
                 elif eval_low <= current_sl:
                     closed = True
-                    if status == "TP1_HIT":
+                    if status == "TRAILING_ACTIVE":
+                        close_reason = "TRAILING_STOP"
+                        r_result = round(be_r + (float(trade.get("trailing_r", 0.75)) * 0.5), 2)
+                        event_type = "TRAILING_STOP"
+                        event_details = f"İz süren kâr stopu tetiklendi. Kalan parça kârla kapatıldı! Net: +{r_result}R"
+                    elif status == "TP1_HIT":
                         close_reason = "BREAK_EVEN"
                         r_result = be_r  # TP1'de alınan %50 kâr cepte kaldı
                         event_type = "BREAK_EVEN"
@@ -176,6 +198,20 @@ class OutcomeTracker:
                     event_type = "TP2_HIT"
                     event_details = f"+{full_win_r}R Net Kâr Alındı! (%50 @ {tp1_r}R + %50 @ {tp2_r}R)"
 
+                # İZ SÜREN STOP (TRAILING SL): Fiyat TP1 ile TP2 arasinda +1.5R'a ulastiysa Stop'u +0.75R kâra indir
+                elif status == "TP1_HIT" and risk_dist > 0 and eval_low <= (entry - (risk_dist * 1.5)):
+                    trail_sl = round_price(entry - (risk_dist * 0.75))
+                    if trail_sl < current_sl:
+                        trade["current_sl"] = trail_sl
+                        trade["status"] = "TRAILING_ACTIVE"
+                        trade["trailing_r"] = 0.75
+                        self._save_json(ACTIVE_TRADES_FILE, self.active_trades)
+                        self._notify_lifecycle(
+                            trade,
+                            event_type="TRAILING_SL",
+                            details=f"Fiyat +1.5R hedefine yaklaştı! Kârı kilitlemek için Stop {trail_sl} (+0.75R) seviyesine indirildi."
+                        )
+
                 elif eval_low <= tp1 and status == "OPEN":
                     trade["status"] = "TP1_HIT"
                     trade["tp1_hit_at"] = datetime.now().isoformat()
@@ -184,12 +220,17 @@ class OutcomeTracker:
                     self._notify_lifecycle(
                         trade,
                         event_type="TP1",
-                        details=f"Pozisyonun %50'si kapatıldı (+{be_r}R cepte), Stop Giriş Fiyatına (BE) çekildi!"
+                        details=f"Pozisyonun %50'si kapatıldı (+{be_r}R cepte), Stop Giriş Fiyatına ({entry}) çekildi!"
                     )
 
                 elif eval_high >= current_sl:
                     closed = True
-                    if status == "TP1_HIT":
+                    if status == "TRAILING_ACTIVE":
+                        close_reason = "TRAILING_STOP"
+                        r_result = round(be_r + (float(trade.get("trailing_r", 0.75)) * 0.5), 2)
+                        event_type = "TRAILING_STOP"
+                        event_details = f"İz süren kâr stopu tetiklendi. Kalan parça kârla kapatıldı! Net: +{r_result}R"
+                    elif status == "TP1_HIT":
                         close_reason = "BREAK_EVEN"
                         r_result = be_r
                         event_type = "BREAK_EVEN"
@@ -228,20 +269,26 @@ class OutcomeTracker:
         ]
 
         sl_count = sum(1 for t in month_closed if t.get("close_reason") == "STOP_LOSS")
-        be_count = sum(1 for t in month_closed if t.get("close_reason") == "BREAK_EVEN")
+        be_count = sum(1 for t in month_closed if t.get("close_reason") in ["BREAK_EVEN", "TRAILING_STOP"])
         tp2_count = sum(1 for t in month_closed if t.get("close_reason") == "TP2_HIT")
 
         active_tp1 = sum(
             1 for t in self.active_trades
-            if t.get("status") == "TP1_HIT" and (t.get("opened_at", ""))[:7] == month_key
+            if t.get("status") in ["TP1_HIT", "TRAILING_ACTIVE"] and (t.get("opened_at", ""))[:7] == month_key
         )
         closed_tp1 = sum(
             1 for t in month_closed
-            if t.get("close_reason") in ["BREAK_EVEN", "TP2_HIT"] or t.get("tp1_hit") or t.get("tp1_hit_at")
+            if t.get("close_reason") in ["BREAK_EVEN", "TP2_HIT", "TRAILING_STOP"] or t.get("tp1_hit") or t.get("tp1_hit_at")
         )
         tp1_count = active_tp1 + closed_tp1
 
-        net_r = sum(float(t.get("r_result", 0.0)) for t in month_closed)
+        closed_net_r = sum(float(t.get("r_result", 0.0)) for t in month_closed)
+        active_locked_r = sum(
+            round(float(t.get("tp1_r", 1.0)) * 0.5, 2)
+            for t in self.active_trades
+            if t.get("status") in ["TP1_HIT", "TRAILING_ACTIVE"] and (t.get("opened_at", ""))[:7] == month_key
+        )
+        total_r = round(closed_net_r + active_locked_r, 2)
 
         tr_months = {
             1: "Ocak", 2: "Şubat", 3: "Mart", 4: "Nisan", 5: "Mayıs", 6: "Haziran",
@@ -256,7 +303,9 @@ class OutcomeTracker:
             "tp2_count": tp2_count,
             "be_count": be_count,
             "sl_count": sl_count,
-            "net_r": round(net_r, 2),
+            "net_r": round(closed_net_r, 2),
+            "active_locked_r": round(active_locked_r, 2),
+            "total_r": total_r,
         }
 
     def _notify_lifecycle(self, trade: Dict[str, Any], event_type: str, details: str):
@@ -272,6 +321,10 @@ class OutcomeTracker:
         # Olay tipine gore baslik ve sira belirle
         if event_type == "TP1":
             title = f"🎉 HEDEF 1 (TP1) VURULDU! (Bu Ayın {counters['tp1_count']}. TP'si)"
+        elif event_type == "TRAILING_SL":
+            title = f"📈 İZ SÜREN STOP AKTİF! (Kâr Koruma)"
+        elif event_type == "TRAILING_STOP":
+            title = f"🏆 İZ SÜREN STOPLA KAPANDI! (+{trade.get('r_result')}R)"
         elif event_type == "TP2_HIT":
             title = f"🏆 TAM KAZANÇ (TP2)! (Bu Ayın {counters['tp2_count']}. Tam Hedefi)"
         elif event_type == "BREAK_EVEN":
@@ -281,19 +334,34 @@ class OutcomeTracker:
         else:
             title = event_type
 
+        curr_sl = trade.get("current_sl", trade.get("original_sl", 0.0))
+        entry_p = trade.get("entry", 0.0)
+        tp1_p = trade.get("tp1", 0.0)
+        tp2_p = trade.get("tp2", 0.0)
+        st = trade.get("status", "OPEN")
+
+        if st == "TRAILING_ACTIVE":
+            sl_badge = f"🔒 Kilitli Kârda (+{trade.get('trailing_r', 0.75)}R)"
+        elif st == "TP1_HIT":
+            sl_badge = "🛡️ 0 Risk (Girişte / Başabaş)"
+        else:
+            sl_badge = "⚠️ Başlangıç SL"
+
         lines = [
             "🌺 <b>BEGONYA 00 | İŞLEM GÜNCELLEMESİ</b>",
             "━━━━━━━━━━━━━━━━━━━━━━",
             f"<b>DURUM:</b> {title}",
             f"🎯 <b>ENSTRÜMAN:</b> <code>{trade['symbol']}</code> ({trade['direction']})",
-            f"📌 <b>GİRİŞ:</b> <code>{trade['entry']}</code>",
+            f"📌 <b>GİRİŞ:</b> <code>{entry_p}</code> | <b>GÜNCEL SL:</b> <code>{curr_sl}</code> ({sl_badge})",
+            f"🎯 <b>HEDEF 1:</b> <code>{tp1_p}</code> | <b>HEDEF 2 (TP2):</b> <code>{tp2_p}</code>",
             f"ℹ️ <b>AÇIKLAMA:</b> {details}",
             "━━━━━━━━━━━━━━━━━━━━━━",
-            f"📊 <b>AYLIK SAYAÇ ({counters['month_display']}):</b>",
+            f"📊 <b>AYLIK RESMİ SAYAÇ ({counters['month_display']}):</b>",
             f"🎯 <b>TP (Hedef):</b> <code>{counters['tp1_count']}</code> (Tam TP2: <code>{counters['tp2_count']}</code>)",
-            f"🛡️ <b>BE (Başabaş):</b> <code>{counters['be_count']}</code>",
+            f"🛡️ <b>BE / Kâr Stopu:</b> <code>{counters['be_count']}</code>",
             f"🛑 <b>SL (Stop Loss):</b> <code>{counters['sl_count']}</code>",
-            f"📈 <b>Aylık Net Kasa:</b> <code>{counters['net_r']:+.2f}R</code>",
+            f"📈 <b>Kapanan Net Kasa:</b> <code>{counters['net_r']:+.2f}R</code>",
+            f"🔒 <b>Açık Kilitli Kâr Dahil:</b> <code>{counters['total_r']:+.2f}R</code>",
             "━━━━━━━━━━━━━━━━━━━━━━",
             f"⏰ <i>{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} TRT</i>",
         ]
