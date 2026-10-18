@@ -43,24 +43,34 @@ def calculate_ce_entry(
 
     if model == "midpoint":
         if direction == "SHORT":
+            # 1. FVG Kontrolü: Yalnızca güncel bar kapanışına makul mesafedeyse kullanılır!
+            # Fiyat FVG'yi delip saatler önce geçmişse asla eski FVG giriş seviyesi olarak kullanılamaz!
+            is_fvg_valid_and_near = False
             if fvg_range is not None and len(fvg_range) == 2 and fvg_range[0] > fvg_range[1]:
                 fvg_top, fvg_bottom = fvg_range
-                entry_price = (fvg_top + fvg_bottom) / 2.0
-                zone_high = max(fvg_top, peak_or_valley)
-                zone_low = min(fvg_bottom, close_price)
-                entry_source = "FVG_50_CE"
-            elif orb_level is not None:
-                entry_price = (orb_level + close_price) / 2.0
-                zone_high = max(orb_level, close_price)
-                zone_low = min(orb_level, close_price)
-                entry_source = "ORB_RETEST_MIDPOINT"
-            else:
-                # SFP Süpürme fitili orta noktası: (Tepe + Kırılan Seviye) / 2
-                ref_low = min(trigger_price, close_price)
-                entry_price = (peak_or_valley + ref_low) / 2.0
-                zone_high = peak_or_valley
-                zone_low = ref_low
-                entry_source = "SWEEP_WICK_50_CE"
+                cand_entry = (fvg_top + fvg_bottom) / 2.0
+                max_dev = (atr * 0.8) if atr > 0 else (close_price * 0.0025)
+                # FVG orta noktası güncel fiyata yakınsa ve güncel fiyat FVG'nin çok altında değilse
+                if abs(cand_entry - close_price) <= max_dev and close_price <= fvg_top:
+                    is_fvg_valid_and_near = True
+                    entry_price = cand_entry
+                    zone_high = max(fvg_top, peak_or_valley)
+                    zone_low = min(fvg_bottom, close_price)
+                    entry_source = "FVG_50_CE"
+
+            if not is_fvg_valid_and_near:
+                if orb_level is not None:
+                    entry_price = (orb_level + close_price) / 2.0
+                    zone_high = max(orb_level, close_price)
+                    zone_low = min(orb_level, close_price)
+                    entry_source = "ORB_RETEST_MIDPOINT"
+                else:
+                    # SFP Süpürme fitili orta noktası: (Tepe + Kırılan Seviye veya Kapanış) / 2
+                    ref_low = min(trigger_price, close_price)
+                    entry_price = (peak_or_valley + ref_low) / 2.0
+                    zone_high = peak_or_valley
+                    zone_low = ref_low
+                    entry_source = "SWEEP_WICK_50_CE"
 
             # Dinamik Stop Tamponu: Pariteye özel kalibre edilmiş ATR tamponu
             zone_width = abs(zone_high - entry_price)
@@ -68,38 +78,67 @@ def calculate_ce_entry(
             dyn_buffer = max(dyn_buffer, zone_width * 0.15, (atr * 0.10) if atr > 0 else (entry_price * 0.0005))
 
             stop_loss = max(peak_or_valley, entry_price) + dyn_buffer
-            risk_dist = max(stop_loss - entry_price, (atr * 0.15) if atr > 0 else (entry_price * 0.0005))
+            risk_dist = max(stop_loss - entry_price, (atr * 0.20) if atr > 0 else (entry_price * 0.0010))
             tp1 = entry_price - (risk_dist * tp1_r)
             tp2 = entry_price - (risk_dist * tp2_r)
 
+            # Hedef & Giriş Mantık Kalkanı (Sanity Guard):
+            # SHORT pozisyonda hedefler (TP1/TP2) kesinlikle güncel fiyatın ALTINDA olmalıdır!
+            if tp1 >= close_price or tp2 >= close_price or entry_price < close_price:
+                ref_low = min(trigger_price, close_price)
+                entry_price = (peak_or_valley + ref_low) / 2.0
+                stop_loss = max(peak_or_valley, entry_price) + dyn_buffer
+                risk_dist = max(stop_loss - entry_price, (atr * 0.20) if atr > 0 else (entry_price * 0.0010))
+                tp1 = entry_price - (risk_dist * tp1_r)
+                tp2 = entry_price - (risk_dist * tp2_r)
+                entry_source = "SWEEP_WICK_50_CE_FALLBACK"
+
         else:  # LONG
+            is_fvg_valid_and_near = False
             if fvg_range is not None and len(fvg_range) == 2 and fvg_range[1] > fvg_range[0]:
                 fvg_bottom, fvg_top = fvg_range
-                entry_price = (fvg_top + fvg_bottom) / 2.0
-                zone_high = max(fvg_top, close_price)
-                zone_low = min(fvg_bottom, peak_or_valley)
-                entry_source = "FVG_50_CE"
-            elif orb_level is not None:
-                entry_price = (orb_level + close_price) / 2.0
-                zone_high = max(orb_level, close_price)
-                zone_low = min(orb_level, close_price)
-                entry_source = "ORB_RETEST_MIDPOINT"
-            else:
-                # SFP Süpürme fitili orta noktası: (Dip + Kırılan Seviye) / 2
-                ref_high = max(trigger_price, close_price)
-                entry_price = (peak_or_valley + ref_high) / 2.0
-                zone_high = ref_high
-                zone_low = peak_or_valley
-                entry_source = "SWEEP_WICK_50_CE"
+                cand_entry = (fvg_top + fvg_bottom) / 2.0
+                max_dev = (atr * 0.8) if atr > 0 else (close_price * 0.0025)
+                if abs(cand_entry - close_price) <= max_dev and close_price >= fvg_bottom:
+                    is_fvg_valid_and_near = True
+                    entry_price = cand_entry
+                    zone_high = max(fvg_top, close_price)
+                    zone_low = min(fvg_bottom, peak_or_valley)
+                    entry_source = "FVG_50_CE"
+
+            if not is_fvg_valid_and_near:
+                if orb_level is not None:
+                    entry_price = (orb_level + close_price) / 2.0
+                    zone_high = max(orb_level, close_price)
+                    zone_low = min(orb_level, close_price)
+                    entry_source = "ORB_RETEST_MIDPOINT"
+                else:
+                    # SFP Süpürme fitili orta noktası: (Dip + Kırılan Seviye veya Kapanış) / 2
+                    ref_high = max(trigger_price, close_price)
+                    entry_price = (peak_or_valley + ref_high) / 2.0
+                    zone_high = ref_high
+                    zone_low = peak_or_valley
+                    entry_source = "SWEEP_WICK_50_CE"
 
             zone_width = abs(entry_price - zone_low)
             dyn_buffer = (atr * sl_buffer_atr) if atr > 0 else (entry_price * 0.0015)
             dyn_buffer = max(dyn_buffer, zone_width * 0.15, (atr * 0.10) if atr > 0 else (entry_price * 0.0005))
 
             stop_loss = min(peak_or_valley, entry_price) - dyn_buffer
-            risk_dist = max(entry_price - stop_loss, (atr * 0.15) if atr > 0 else (entry_price * 0.0005))
+            risk_dist = max(entry_price - stop_loss, (atr * 0.20) if atr > 0 else (entry_price * 0.0010))
             tp1 = entry_price + (risk_dist * tp1_r)
             tp2 = entry_price + (risk_dist * tp2_r)
+
+            # Hedef & Giriş Mantık Kalkanı (Sanity Guard):
+            # LONG pozisyonda hedefler (TP1/TP2) kesinlikle güncel fiyatın ÜSTÜNDE olmalıdır!
+            if tp1 <= close_price or tp2 <= close_price or entry_price > close_price:
+                ref_high = max(trigger_price, close_price)
+                entry_price = (peak_or_valley + ref_high) / 2.0
+                stop_loss = min(peak_or_valley, entry_price) - dyn_buffer
+                risk_dist = max(entry_price - stop_loss, (atr * 0.20) if atr > 0 else (entry_price * 0.0010))
+                tp1 = entry_price + (risk_dist * tp1_r)
+                tp2 = entry_price + (risk_dist * tp2_r)
+                entry_source = "SWEEP_WICK_50_CE_FALLBACK"
 
         return {
             "entry_price": round(entry_price, 6),
@@ -216,15 +255,16 @@ def detect_ifvg_short(
     lows,
     closes,
     c_atr: float,
-    lookback: int = 30,
+    lookback: int = 6,
     min_atr_mult: float = 0.08,
 ) -> Optional[Tuple[float, float]]:
     """
     Bearish Inversion FVG (iFVG) Tespiti:
-    Son `lookback` bar içinde oluşmuş yükseliş yönlü (Bullish) bir FVG'nin
+    Son `lookback` (en fazla 6 bar) içinde oluşmuş yükseliş yönlü (Bullish) bir FVG'nin
     bar `i` kapanışı ile aşağı yönlü kırılıp (invert edilip) dirence dönüşmesini tespit eder.
     Dönüş: (fvg_top, fvg_bottom) -> SHORT için fvg_top > fvg_bottom
     """
+    curr_c = float(closes[i])
     for k in range(i - 1, max(2, i - lookback), -1):
         if lows[k] > highs[k - 2]:
             gap_size = float(lows[k] - highs[k - 2])
@@ -232,7 +272,9 @@ def detect_ifvg_short(
                 fvg_top = float(lows[k])
                 fvg_bot = float(highs[k - 2])
                 if closes[i] < fvg_bot and closes[k] >= fvg_bot:
-                    return (fvg_top, fvg_bot)
+                    # Yalnızca güncel muma yakınsa (fiyat kopup gitmemişse) geçerlidir!
+                    if abs((fvg_top + fvg_bot) / 2.0 - curr_c) <= c_atr * 1.0:
+                        return (fvg_top, fvg_bot)
     return None
 
 
@@ -242,23 +284,25 @@ def detect_ifvg_long(
     lows,
     closes,
     c_atr: float,
-    lookback: int = 30,
+    lookback: int = 6,
     min_atr_mult: float = 0.08,
 ) -> Optional[Tuple[float, float]]:
     """
     Bullish Inversion FVG (iFVG) Tespiti:
-    Son `lookback` bar içinde oluşmuş düşüş yönlü (Bearish) bir FVG'nin
+    Son `lookback` (en fazla 6 bar) içinde oluşmuş düşüş yönlü (Bearish) bir FVG'nin
     bar `i` kapanışı ile yukarı yönlü kırılıp (invert edilip) desteğe dönüşmesini tespit eder.
-    Dönüş: (fvg_bottom, fvg_top) -> LONG için fvg_top > fvg_bottom
+    Dönüş: (fvg_bottom, fvg_top) -> LONG için fvg_bottom < fvg_top
     """
+    curr_c = float(closes[i])
     for k in range(i - 1, max(2, i - lookback), -1):
-        if lows[k - 2] > highs[k]:
+        if highs[k] < lows[k - 2]:
             gap_size = float(lows[k - 2] - highs[k])
             if gap_size >= c_atr * min_atr_mult:
-                fvg_top = float(lows[k - 2])
                 fvg_bot = float(highs[k])
+                fvg_top = float(lows[k - 2])
                 if closes[i] > fvg_top and closes[k] <= fvg_top:
-                    return (fvg_bot, fvg_top)
+                    if abs((fvg_top + fvg_bot) / 2.0 - curr_c) <= c_atr * 1.0:
+                        return (fvg_bot, fvg_top)
     return None
 
 

@@ -2,6 +2,7 @@ import datetime as dt
 import unittest
 
 from core.deterministic_controls import (
+    calculate_surprise_momentum,
     chronological_split,
     event_freeze_status,
     fit_surprise_sigmas,
@@ -128,6 +129,18 @@ class DeterministicControlsTests(unittest.TestCase):
         self.assertEqual(result["gate"], "DEFENSIVE_HOLD")
         result = resolve_execution_gate("LONG_ONLY")
         self.assertEqual(result["gate"], "LONG_ONLY")
+
+    def test_calculate_surprise_momentum(self):
+        as_of = dt.date(2025, 1, 15)
+        events = [
+            {"date": "2025-01-14", "indicator_type": "nfp", "actual": 250, "forecast": 180},
+            {"date": "2025-01-10", "indicator_type": "cpi", "actual": 3.2, "forecast": 2.9},
+        ]
+        sigmas = {"nfp": 50.0, "cpi": 0.2}
+        result = calculate_surprise_momentum(events, sigmas, as_of, lookback_days=14)
+        self.assertEqual(result["sample_count"], 2)
+        self.assertGreater(result["surprise_momentum_score"], 1.0)
+        self.assertEqual(result["regime"], "RESILIENT_SURPRISE")
 
 
 if __name__ == "__main__":

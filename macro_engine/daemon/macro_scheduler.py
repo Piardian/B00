@@ -24,7 +24,7 @@ import asyncio
 from graph.macro_graph import MacroWorkflowEngine
 from ingestion.calendar_event import CalendarEventIngestion
 from gateways.telegram_notifier import send_telegram_message, format_morning_briefing
-from config import BIAS_GATE_FILE
+from config import BIAS_GATE_FILE, ENABLE_MACRO_TELEGRAM_NOTIFICATIONS
 
 if sys.stdout.encoding != 'utf-8':
     try:
@@ -61,8 +61,9 @@ class MacroEventScheduler:
                 with open(self.state_file, "r", encoding="utf-8") as f:
                     local_state = json.load(f)
         except Exception as e:
-            logger.warning(f"State dosyası okunamadı: {e}")
+            logger.warning(f"Local state dosyası okunamadı: {e}")
 
+        # Global sistem seviyesindeki state'i de oku ve senkronize et
         global_state = {}
         try:
             if GLOBAL_STATE_FILE.exists():
@@ -81,6 +82,7 @@ class MacroEventScheduler:
         }
         base.update(local_state)
 
+        # Global state'deki güncel tarihleri birleştir (farklı dizinlerdeki süreçler birbirini görsün)
         today_str = datetime.datetime.now().strftime("%Y-%m-%d")
         if global_state.get("last_morning_briefing_date") == today_str:
             base["last_morning_briefing_date"] = today_str
@@ -96,6 +98,7 @@ class MacroEventScheduler:
         except Exception as e:
             logger.warning(f"Local state dosyası yazılamadı: {e}")
 
+        # Global state'e de yaz
         try:
             GLOBAL_STATE_DIR.mkdir(parents=True, exist_ok=True)
             with open(GLOBAL_STATE_FILE, "w", encoding="utf-8") as f:
@@ -169,9 +172,8 @@ class MacroEventScheduler:
             logger.info(f"ℹ️ [SABAH BÜLTENİ] Bugünün ({today_str}) bülteni zaten gönderilmiş veya işlemde. Mükerrer gönderim engellendi.")
             return True
 
-        from config import ENABLE_MACRO_TELEGRAM_NOTIFICATIONS
         if not ENABLE_MACRO_TELEGRAM_NOTIFICATIONS:
-            logger.info("🔕 [SABAH BÜLTENİ] Begonya 00 için sabah bülteni/gündem Telegram bildirimleri kapalı. Telegram gönderimi atlandı.")
+            logger.info("🔕 [SABAH BÜLTENİ] Sabah bülteni Telegram bildirimleri kapalı. Telegram gönderimi atlandı.")
             state = self._load_state()
             state["last_morning_briefing_date"] = today_str
             self._save_state(state)
@@ -187,6 +189,8 @@ class MacroEventScheduler:
             self._release_file_lock(lock_path)
             return False
 
+        # ÖNLEYİCİ KİLİT: Başlatıldığı an bugünün tarihini derhal kaydet.
+        # Bu sayede analizin süresi boyunca başka hiçbir işlem araya giremez.
         state = self._load_state()
         state["last_morning_briefing_date"] = today_str
         self._save_state(state)

@@ -60,7 +60,9 @@ class ExecutionBiasBridge:
             return False, f"Gate is stale: age={age_minutes:.1f} minutes."
         return True, "ok"
 
-    def is_trade_allowed(self, symbol: str, requested_action: str) -> Tuple[bool, str]:
+    def is_trade_allowed(
+        self, symbol: str, requested_action: str, allow_neutral_range: bool = False
+    ) -> Tuple[bool, str]:
         data = self.load_gate_data()
         valid, reason = self._validate_gate_contract(data)
         if not valid:
@@ -77,16 +79,61 @@ class ExecutionBiasBridge:
             return req_upper in {"BUY", "LONG"}, f"Deterministic gate for {sym_key}: LONG_ONLY"
         if allowed_bias == "SHORT_ONLY":
             return req_upper in {"SELL", "SHORT"}, f"Deterministic gate for {sym_key}: SHORT_ONLY"
+        if allowed_bias in {"NEUTRAL_RANGE", "NEUTRAL_ALL"} and allow_neutral_range:
+            return req_upper in {"BUY", "LONG", "SELL", "SHORT"}, (
+                f"Deterministic gate for {sym_key}: {allowed_bias} (range mode allowed at 0.50x risk)"
+            )
         if allowed_bias in {"DEFENSIVE_HOLD", "NO_TRADE", "REDUCE_ONLY", "NEUTRAL_RANGE", "NEUTRAL_ALL"}:
             return False, f"Deterministic gate for {sym_key}: {allowed_bias}; new trade denied."
         return False, f"Unknown deterministic gate {allowed_bias}; trade denied."
+
+    def evaluate_trade_with_sizing(
+        self, symbol: str, requested_action: str, allow_neutral_range: bool = True
+    ) -> Dict[str, Any]:
+        """Return both trade permission and conviction-adjusted risk multiplier (0.50x in NEUTRAL_RANGE)."""
+        data = self.load_gate_data()
+        valid, reason = self._validate_gate_contract(data)
+        if not valid:
+            return {
+                "allowed": False,
+                "gate": "NO_TRADE",
+                "risk_multiplier": 0.0,
+                "reason": f"Macro execution gate fail-closed: {reason}",
+            }
+        sym_key = symbol.upper()
+        gates = data["deterministic_execution_bias_gates"]
+        allowed_bias = gates.get(sym_key, "NO_TRADE")
+        base_mult = float(data.get("recommended_risk_multiplier", 1.0) or 1.0)
+        conv_map = data.get("gate_conviction_multipliers", {}) or {}
+        allowed, msg = self.is_trade_allowed(sym_key, requested_action, allow_neutral_range=allow_neutral_range)
+        if not allowed:
+            return {
+                "allowed": False,
+                "gate": allowed_bias,
+                "risk_multiplier": 0.0,
+                "reason": msg,
+            }
+        if sym_key in conv_map and isinstance(conv_map[sym_key], (int, float)):
+            mult = round(float(conv_map[sym_key]) * base_mult, 3)
+        elif allowed_bias in {"NEUTRAL_RANGE", "NEUTRAL_ALL"}:
+            mult = round(0.50 * base_mult, 3)
+        else:
+            mult = round(1.00 * base_mult, 3)
+        return {
+            "allowed": True,
+            "gate": allowed_bias,
+            "risk_multiplier": mult,
+            "reason": msg,
+        }
 
     def get_risk_profile(self) -> Dict[str, Any]:
         data = self.load_gate_data()
         return {
             "capital_preservation_mode": data.get("capital_preservation_mode", False),
             "recommended_risk_multiplier": data.get("recommended_risk_multiplier", 1.0),
+            "gate_conviction_multipliers": data.get("gate_conviction_multipliers", {}),
             "volatility_risk_score": data.get("volatility_risk_score"),
             "primary_regime": data.get("primary_regime", "Unknown"),
             "deterministic_gate_source": data.get("deterministic_gate_source"),
         }
+

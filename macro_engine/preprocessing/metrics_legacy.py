@@ -625,6 +625,15 @@ class MacroMetricsCalculator:
 
         # 17. Ayrışmış Döngü Teşhisi (US Exceptionalism vs Küresel İmalat Yavaşlaması)
         is_labor_strong = (unemp_rate <= 4.3 and nfp_val >= 150.0 and icsa <= 240.0)
+        diag_label = (
+            "Late-Cycle Overheating with Global Divergence"
+            if is_labor_strong and brent >= 80.0
+            else "Stagflation"
+            if not is_labor_strong and brent >= 80.0
+            else "Reflationary Growth"
+            if is_labor_strong
+            else "Deflationary Slowdown"
+        )
         cycle_diagnosis = {
             "unemployment_rate": unemp_rate,
             "nfp_value": nfp_val,
@@ -632,15 +641,8 @@ class MacroMetricsCalculator:
             "is_labor_strong": is_labor_strong,
             "us_domestic_cycle": "Late-Cycle Domestic Resilience (US Exceptionalism - Tüketim & Hizmet Canlı)",
             "global_macro_cycle": "Manufacturing Slowdown / Contractionary Pressure (Küresel Sanayi Zayıf)",
-            "regime_diagnosis": (
-                "Late-Cycle Overheating with Global Divergence"
-                if is_labor_strong and brent >= 80.0
-                else "Stagflation"
-                if not is_labor_strong and brent >= 80.0
-                else "Reflationary Growth"
-                if is_labor_strong
-                else "Deflationary Slowdown"
-            ),
+            "regime_diagnosis": diag_label,
+            "primary_regime": diag_label,
             "rationale": (
                 f"ABD iç piyasasında işsizlik %{unemp_rate} ve NFP {nfp_val}K (haftalık başvurular {icsa:.0f}K) ile hizmetler canlıdır; "
                 f"fakat Bakır/Altın rasyosundaki %{ratio_delta_4w_pct:+.2f}'lik düşüş küresel sanayinin yavaşladığını göstermektedir. "
@@ -861,47 +863,77 @@ class MacroMetricsCalculator:
             "summary": "Sistemik stres ve güvenli liman alımları" if chf_score > 0 else ("Düşük oynaklıkta SNB faiz dezavantajı (Zayıf CHF)" if chf_score < 0 else "Dengeli CHF")
         }
 
-        # D) Sentetik Çapraz & Majör Kur Kapıları (Relative Value Matrix)
-        # Dengeli emtia-emtia veya aynı coğrafi bölge kurları için 2 puan ayrışma gerekirken,
-        # Dolar Majörleri, Yen ve Frank gibi belirgin makro/carry ayrışması olan paritelerde
-        # 1 puanlık net makro avantaj da yönlü kapıyı açar.
-        high_threshold_pairs = {"AUDCAD", "NZDCAD", "EURGBP", "EURAUD"}
+        # D) Sürekli (Continuous) Göreli Değer Puanları + Sentetik Çapraz & Majör Kur Kapıları
+        # [-1, 0, +1] tam sayı basamaklarının yanında tahvil spread büyüklüğü (bps), emtia RoC ve VIX'i
+        # sürekli (tanh) ölçekte puanlar; böylece iki faktörlü güçlü ayrışmalarda basamak kaybı önlenir.
+        risk_appetite_cont = math.tanh((18.0 - float(vix_val)) / 6.0)
+        safehaven_cont = math.tanh((float(vix_val) - 19.5) / 5.0) + (0.6 if fast_stress_override else 0.0)
+        continuous_currency_scores = {
+            "CAD": round(math.tanh(sig_delta_ca_us / 10.0) + 0.7 * math.tanh(brent_roc_20d / 5.0) + 0.3 * risk_appetite_cont, 3),
+            "AUD": round(math.tanh(sig_delta_au_us / 10.0) + 0.5 * math.tanh((ratio_delta_4w_pct + iron_ore_roc_20d / 2.0) / 4.0) + 0.3 * risk_appetite_cont, 3),
+            "NZD": round(math.tanh(-sig_delta_au_nz / 10.0) + 0.6 * math.tanh(dairy_roc_20d / 4.0) + 0.3 * risk_appetite_cont, 3),
+            "JPY": round(math.tanh(-delta_02y_5d_bps / 8.0) + 0.8 * safehaven_cont, 3),
+            "EUR": round((-1.2 if eurusd_energy_penalty else 0.0) + math.tanh(sig_delta_de_us / 10.0), 3),
+            "GBP": round(math.tanh(sig_delta_gb_us / 10.0) + 0.25 * risk_appetite_cont, 3),
+            "USD": round(math.tanh(delta_02y_5d_bps / 8.0) + 0.8 * math.tanh(float(dxy_data.get("change_pct_5d", 0) or 0.0) / 0.8), 3),
+            "CHF": round(0.9 * safehaven_cont + 0.3 * math.tanh(float(gold_data.get("change_pct_5d", 0) or 0.0) / 1.5), 3),
+        }
+        for _cur_k, _cont_v in continuous_currency_scores.items():
+            if _cur_k in cross_currency_breakdown:
+                cross_currency_breakdown[_cur_k]["continuous_score"] = _cont_v
 
-        def _calc_cross_bias(base_s: int, quote_s: int, pair_sym: str = "") -> str:
+        high_threshold_pairs = {"AUDCAD", "NZDCAD", "EURGBP", "EURAUD"}
+        pair_yield_spread_deltas = {
+            "AUDCAD": sig_delta_au_ca,
+            "NZDCAD": -sig_delta_au_nz - sig_delta_ca_us,
+            "EURGBP": sig_delta_de_us - sig_delta_gb_us,
+            "EURAUD": sig_delta_de_us - sig_delta_au_us,
+        }
+
+        def _calc_cross_bias(base_s: int, quote_s: int, pair_sym: str = "", base_ccy: str = "", quote_ccy: str = "") -> str:
             diff = base_s - quote_s
             threshold = 2 if pair_sym in high_threshold_pairs else 1
             if diff >= threshold:
                 return "LONG_ONLY"
             if diff <= -threshold:
                 return "SHORT_ONLY"
+            # High-threshold çiftlerde 1 puanlık tam sayı farkı, ancak hem 2Y faiz makası ivmesi (>= 8 bps)
+            # hem de sürekli göreli değer makası (>= 1.25) aynı yönde teyitliyse kapıyı açar.
+            if pair_sym in high_threshold_pairs and abs(diff) == 1 and base_ccy and quote_ccy:
+                cont_diff = continuous_currency_scores.get(base_ccy, 0.0) - continuous_currency_scores.get(quote_ccy, 0.0)
+                sp_delta = pair_yield_spread_deltas.get(pair_sym, 0.0)
+                if diff == 1 and cont_diff >= 1.25 and sp_delta >= 8.0:
+                    return "LONG_ONLY"
+                if diff == -1 and cont_diff <= -1.25 and sp_delta <= -8.0:
+                    return "SHORT_ONLY"
             return "NEUTRAL_RANGE"
 
         cross_gates = {
             # Çapraz Kurlar
-            "AUDCAD": _calc_cross_bias(aud_score, cad_score, "AUDCAD"),
-            "CADJPY": _calc_cross_bias(cad_score, jpy_score, "CADJPY"),
-            "GBPJPY": _calc_cross_bias(gbp_score, jpy_score, "GBPJPY"),
-            "AUDJPY": _calc_cross_bias(aud_score, jpy_score, "AUDJPY"),
-            "EURGBP": _calc_cross_bias(eur_score, gbp_score, "EURGBP"),
-            "EURAUD": _calc_cross_bias(eur_score, aud_score, "EURAUD"),
-            "NZDCAD": _calc_cross_bias(nzd_score, cad_score, "NZDCAD"),
-            "EURJPY": _calc_cross_bias(eur_score, jpy_score, "EURJPY"),
+            "AUDCAD": _calc_cross_bias(aud_score, cad_score, "AUDCAD", "AUD", "CAD"),
+            "CADJPY": _calc_cross_bias(cad_score, jpy_score, "CADJPY", "CAD", "JPY"),
+            "GBPJPY": _calc_cross_bias(gbp_score, jpy_score, "GBPJPY", "GBP", "JPY"),
+            "AUDJPY": _calc_cross_bias(aud_score, jpy_score, "AUDJPY", "AUD", "JPY"),
+            "EURGBP": _calc_cross_bias(eur_score, gbp_score, "EURGBP", "EUR", "GBP"),
+            "EURAUD": _calc_cross_bias(eur_score, aud_score, "EURAUD", "EUR", "AUD"),
+            "NZDCAD": _calc_cross_bias(nzd_score, cad_score, "NZDCAD", "NZD", "CAD"),
+            "EURJPY": _calc_cross_bias(eur_score, jpy_score, "EURJPY", "EUR", "JPY"),
 
             # Dolar Majörleri (SMC Universe Entegrasyonu)
-            "USDCAD": _calc_cross_bias(usd_score, cad_score, "USDCAD"),
-            "USDJPY": _calc_cross_bias(usd_score, jpy_score, "USDJPY"),
-            "GBPUSD": _calc_cross_bias(gbp_score, usd_score, "GBPUSD"),
-            "AUDUSD": _calc_cross_bias(aud_score, usd_score, "AUDUSD"),
-            "NZDUSD": _calc_cross_bias(nzd_score, usd_score, "NZDUSD"),
-            "USDCHF": _calc_cross_bias(usd_score, chf_score, "USDCHF"),
+            "USDCAD": _calc_cross_bias(usd_score, cad_score, "USDCAD", "USD", "CAD"),
+            "USDJPY": _calc_cross_bias(usd_score, jpy_score, "USDJPY", "USD", "JPY"),
+            "GBPUSD": _calc_cross_bias(gbp_score, usd_score, "GBPUSD", "GBP", "USD"),
+            "AUDUSD": _calc_cross_bias(aud_score, usd_score, "AUDUSD", "AUD", "USD"),
+            "NZDUSD": _calc_cross_bias(nzd_score, usd_score, "NZDUSD", "NZD", "USD"),
+            "USDCHF": _calc_cross_bias(usd_score, chf_score, "USDCHF", "USD", "CHF"),
 
             # CHF Çaprazları (SMC Universe Entegrasyonu)
-            "EURCHF": _calc_cross_bias(eur_score, chf_score, "EURCHF"),
-            "GBPCHF": _calc_cross_bias(gbp_score, chf_score, "GBPCHF"),
-            "AUDCHF": _calc_cross_bias(aud_score, chf_score, "AUDCHF"),
-            "CADCHF": _calc_cross_bias(cad_score, chf_score, "CADCHF"),
-            "NZDCHF": _calc_cross_bias(nzd_score, chf_score, "NZDCHF"),
-            "CHFJPY": _calc_cross_bias(chf_score, jpy_score, "CHFJPY"),
+            "EURCHF": _calc_cross_bias(eur_score, chf_score, "EURCHF", "EUR", "CHF"),
+            "GBPCHF": _calc_cross_bias(gbp_score, chf_score, "GBPCHF", "GBP", "CHF"),
+            "AUDCHF": _calc_cross_bias(aud_score, chf_score, "AUDCHF", "AUD", "CHF"),
+            "CADCHF": _calc_cross_bias(cad_score, chf_score, "CADCHF", "CAD", "CHF"),
+            "NZDCHF": _calc_cross_bias(nzd_score, chf_score, "NZDCHF", "NZD", "CHF"),
+            "CHFJPY": _calc_cross_bias(chf_score, jpy_score, "CHFJPY", "CHF", "JPY"),
         }
 
         # E) SOL / Kripto Göreli Güç & 4H CHoCH (Market Structure Shift) Kalkanı
@@ -982,6 +1014,7 @@ class MacroMetricsCalculator:
                 "AUD": aud_score, "CAD": cad_score, "NZD": nzd_score,
                 "JPY": jpy_score, "EUR": eur_score, "GBP": gbp_score, "USD": usd_score, "CHF": chf_score
             },
+            "continuous_currency_scores": continuous_currency_scores,
             "currency_breakdown": cross_currency_breakdown,
             "sol_btc_analysis": {
                 "sol_btc_ratio": sol_btc_current,
@@ -1029,6 +1062,7 @@ class MacroMetricsCalculator:
             "sol_btc_4h_structure_broken": sol_btc_4h_structure_broken,
             "sol_btc_structure_bullish": sol_btc_structure_bullish,
             "cross_currency_scores": cross_pairs_analysis["currency_scores"],
+            "continuous_currency_scores": continuous_currency_scores,
             "cross_currency_breakdown": cross_currency_breakdown,
             "cross_pair_gates": cross_gates,
             "copper_gold_delta_4w_pct": ratio_delta_4w_pct,

@@ -12,7 +12,7 @@ if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
 import html
-from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, ENABLE_MACRO_TELEGRAM_NOTIFICATIONS
+from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 
 logger = logging.getLogger("TelegramNotifier")
 
@@ -52,46 +52,8 @@ def _fmt(value: Any, spec: str = "") -> str:
         return html.escape(str(value))
 
 
-def send_telegram_message(text: str, parse_mode: str = "HTML") -> bool:
-    """Telegram Bot API üzerinden belirtilen CHAT_ID'ye mesaj gönderir."""
-    if not ENABLE_MACRO_TELEGRAM_NOTIFICATIONS:
-        logger.info("[TelegramNotifier] 🔕 Begonya 00 için Makro Bülten / Gündem bildirimleri devre dışı bırakıldı (Atlandı).")
-        return True
-
-    token = TELEGRAM_BOT_TOKEN
-    chat_id = TELEGRAM_CHAT_ID
-
-    if not token or not chat_id:
-        logger.warning("[TelegramNotifier] TELEGRAM_BOT_TOKEN veya TELEGRAM_CHAT_ID ayarlanmamış!")
-        return False
-
-    # Telegram 4096 karakter limiti: Metin 3800'ü aşarsa mantıksal bloktan bölüp ilet
-    if len(text) > 3800:
-        logger.info(f"[TelegramNotifier] Mesaj uzunluğu ({len(text)} karakter) limiti aşıyor, akıllı parçaya bölünüyor...")
-        split_marker = "\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n💡 <b>EYLEM PLANI"
-        if split_marker in text:
-            parts = text.split(split_marker, 1)
-            part1 = parts[0] + "\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n<i>(Devamı Aşağıda ⬇️)</i>"
-            part2 = "🌺 <b>BEGONYA | STRATEJİ & EYLEM PLANI (DEVAM)</b>\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n💡 <b>EYLEM PLANI" + parts[1]
-            return send_telegram_message(part1, parse_mode=parse_mode) and send_telegram_message(part2, parse_mode=parse_mode)
-        else:
-            for sec_marker in [
-                "\n📝 <b>BAŞ STRATEJİST RAPORU:",
-                "\n🔄 <b>KRİPTO SERMAYE AKIŞI",
-                "\n🌐 <b>GÜNÜN ÇAPRAZ KUR",
-            ]:
-                idx = text.find(sec_marker)
-                if 800 < idx <= 3700:
-                    part1 = text[:idx] + "\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n<i>(Devamı Aşağıda ⬇️)</i>"
-                    part2 = "🌺 <b>BEGONYA | GÜNLÜK MAKRO BÜLTEN (DEVAM)</b>" + text[idx:]
-                    return send_telegram_message(part1, parse_mode=parse_mode) and send_telegram_message(part2, parse_mode=parse_mode)
-            split_idx = text.rfind("\n\n", 0, 3500)
-            if split_idx == -1:
-                split_idx = 3500
-            part1 = text[:split_idx]
-            part2 = text[split_idx:]
-            return send_telegram_message(part1, parse_mode=parse_mode) and send_telegram_message(part2, parse_mode=parse_mode)
-
+def _send_single_telegram_chunk(token: str, chat_id: str, text: str, parse_mode: str = "HTML", max_retries: int = 3) -> bool:
+    """Tek bir mesaj parçasını iletir; 429 flood control ve geçici hataları yönetir."""
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     payload = {
         "chat_id": chat_id,
@@ -99,41 +61,143 @@ def send_telegram_message(text: str, parse_mode: str = "HTML") -> bool:
         "parse_mode": parse_mode,
         "disable_web_page_preview": True
     }
+    
+    current_parse_mode = parse_mode
+    current_text = text
 
-    try:
-        data = json.dumps(payload).encode("utf-8")
-        req = urllib.request.Request(
-            url,
-            data=data,
-            headers={"Content-Type": "application/json"}
-        )
-        with urllib.request.urlopen(req, timeout=15) as response:
-            res_json = json.loads(response.read().decode("utf-8"))
-            if res_json.get("ok"):
-                logger.info("[TelegramNotifier] ✅ Telegram mesajı başarıyla iletildi.")
-                return True
+    for attempt in range(max_retries):
+        payload["parse_mode"] = current_parse_mode
+        payload["text"] = current_text
+        try:
+            data = json.dumps(payload).encode("utf-8")
+            req = urllib.request.Request(
+                url,
+                data=data,
+                headers={"Content-Type": "application/json"}
+            )
+            with urllib.request.urlopen(req, timeout=15) as response:
+                res_json = json.loads(response.read().decode("utf-8"))
+                if res_json.get("ok"):
+                    logger.info("[TelegramNotifier] ✅ Telegram mesajı başarıyla iletildi.")
+                    return True
+                else:
+                    logger.error(f"[TelegramNotifier] ❌ Telegram API hatası: {res_json}")
+        except urllib.error.HTTPError as he:
+            err_body = he.read().decode("utf-8", errors="ignore")
+            logger.error(f"[TelegramNotifier] ❌ Telegram HTTPError {he.code}: {err_body}")
+            if he.code == 429:
+                try:
+                    err_json = json.loads(err_body)
+                    retry_after = int(err_json.get("parameters", {}).get("retry_after", 3))
+                except Exception:
+                    retry_after = 3
+                logger.warning(f"[TelegramNotifier] ⚠️ Telegram 429 Rate Limit. {retry_after + 1}s bekleniyor (Deneme {attempt+1}/{max_retries})...")
+                import time
+                time.sleep(retry_after + 1)
+                continue
+            elif "can't parse entities" in err_body and current_parse_mode != "":
+                logger.info("[TelegramNotifier] 🔄 Format hatası nedeniyle düz metin olarak deneniyor...")
+                import re
+                current_text = html.unescape(re.sub(r'<[^>]+>', '', current_text))
+                current_parse_mode = ""
+                import time
+                time.sleep(0.5)
+                continue
+            elif "message is too long" in err_body:
+                logger.warning("[TelegramNotifier] ⚠️ Mesaj uzunluğu hatası alındı, alt parçaya bölünüyor...")
+                half = len(current_text) // 2
+                split_idx = current_text.rfind("\n", 0, half)
+                if split_idx == -1:
+                    split_idx = half
+                c1 = current_text[:split_idx]
+                c2 = current_text[split_idx:]
+                r1 = _send_single_telegram_chunk(token, chat_id, c1, parse_mode=current_parse_mode, max_retries=2)
+                import time
+                time.sleep(1.2)
+                r2 = _send_single_telegram_chunk(token, chat_id, c2, parse_mode=current_parse_mode, max_retries=2)
+                return r1 and r2
+            return False
+        except Exception as e:
+            logger.error(f"[TelegramNotifier] ❌ Telegram mesajı gönderilirken istisna: {e}")
+            if attempt < max_retries - 1:
+                import time
+                time.sleep(2)
+                continue
+            return False
+    return False
+
+
+def split_text_into_chunks(text: str, max_chunk_len: int = 3700) -> List[str]:
+    """Metni mantıksal Telegram başlıklarına göre 3700 karakteri aşmayacak parçalara böler."""
+    if len(text) <= max_chunk_len:
+        return [text]
+
+    chunks = []
+    remaining = text
+
+    split_markers = [
+        "\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n💡 <b>EYLEM PLANI",
+        "\n📝 <b>BAŞ STRATEJİST RAPORU:",
+        "\n🔄 <b>KRİPTO SERMAYE AKIŞI",
+        "\n🌐 <b>GÜNÜN ÇAPRAZ KUR",
+        "\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n",
+        "\n\n",
+        "\n"
+    ]
+
+    while len(remaining) > max_chunk_len:
+        cut_idx = -1
+        for marker in split_markers:
+            idx = remaining.rfind(marker, 0, max_chunk_len)
+            if idx != -1 and idx > 800:
+                cut_idx = idx
+                break
+        
+        if cut_idx == -1:
+            cut_idx = max_chunk_len
+
+        chunk = remaining[:cut_idx].strip()
+        if chunk:
+            chunks.append(chunk)
+        remaining = remaining[cut_idx:].strip()
+
+    if remaining:
+        chunks.append(remaining)
+
+    total_parts = len(chunks)
+    if total_parts > 1:
+        formatted_chunks = []
+        for i, chunk in enumerate(chunks, 1):
+            if i == 1:
+                chunk += f"\n\n<i>(Bölüm 1/{total_parts} | Devamı Aşağıda ⬇️)</i>"
             else:
-                logger.error(f"[TelegramNotifier] ❌ Telegram API hatası: {res_json}")
-                return False
-    except urllib.error.HTTPError as he:
-        err_body = he.read().decode("utf-8", errors="ignore")
-        logger.error(f"[TelegramNotifier] ❌ Telegram HTTPError {he.code}: {err_body}")
-        if "can't parse entities" in err_body and parse_mode != "":
-            logger.info("[TelegramNotifier] 🔄 Format hatası nedeniyle düz metin olarak tekrar deneniyor...")
-            import re
-            plain_text = html.unescape(re.sub(r'<[^>]+>', '', text))
-            return send_telegram_message(plain_text, parse_mode="")
-        elif "message is too long" in err_body:
-            logger.warning("[TelegramNotifier] ⚠️ Mesaj uzunluğu hatası alındı, zorla ikiye bölünüyor...")
-            half = len(text) // 2
-            split_idx = text.rfind("\n", 0, half)
-            if split_idx == -1:
-                split_idx = half
-            return send_telegram_message(text[:split_idx], parse_mode=parse_mode) and send_telegram_message(text[split_idx:], parse_mode=parse_mode)
+                chunk = f"🌺 <b>BEGONYA | GÜNLÜK MAKRO BÜLTEN (Bölüm {i}/{total_parts})</b>\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n" + chunk
+            formatted_chunks.append(chunk)
+        return formatted_chunks
+    return chunks
+
+
+def send_telegram_message(text: str, parse_mode: str = "HTML") -> bool:
+    """Telegram Bot API üzerinden belirtilen CHAT_ID'ye mesaj gönderir."""
+    token = TELEGRAM_BOT_TOKEN
+    chat_id = TELEGRAM_CHAT_ID
+
+    if not token or not chat_id:
+        logger.warning("[TelegramNotifier] TELEGRAM_BOT_TOKEN veya TELEGRAM_CHAT_ID ayarlanmamış!")
         return False
-    except Exception as e:
-        logger.error(f"[TelegramNotifier] ❌ Telegram mesajı gönderilirken istisna: {e}")
-        return False
+
+    chunks = split_text_into_chunks(text, max_chunk_len=3700)
+    import time
+    all_ok = True
+    for i, chunk in enumerate(chunks):
+        if i > 0:
+            time.sleep(1.5)
+        sent = _send_single_telegram_chunk(token, chat_id, chunk, parse_mode=parse_mode)
+        if not sent:
+            all_ok = False
+            logger.error(f"[TelegramNotifier] ❌ Mesaj parçası {i+1}/{len(chunks)} iletilemedi!")
+    return all_ok
+
 
 
 REGIME_TR_MAP = {
@@ -531,7 +595,7 @@ def format_morning_briefing(pipeline_result: Dict[str, Any], upcoming_events: Op
     # NZDCAD radar notu (GDT bayat koruması devredeyse AU-NZ makasını göster)
     if cross_data_quality.get("status") == "UNAVAILABLE":
         nzdcad_subtext = "Relative-value verisi eksik; yönlü NZDCAD kapısı devre dışı."
-    elif abs(dairy_roc) <= 0.01 and au_nz_delta != 0.0:
+    elif isinstance(dairy_roc, (int, float)) and isinstance(au_nz_delta, (int, float)) and abs(dairy_roc) <= 0.01 and au_nz_delta != 0.0:
         nzdcad_subtext = f"GDT: Yatay | AU-NZ 2Y Δ: {au_nz_delta:+.1f} bps"
     else:
         nzdcad_subtext = f"GDT Süt İndeksi: %{dairy_roc:+.1f} | Petrol: %{brent_roc:+.1f}"

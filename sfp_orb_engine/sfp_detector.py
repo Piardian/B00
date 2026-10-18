@@ -85,10 +85,12 @@ class SFPDetector:
         risk: float,
         atr: float,
         pools_data: Dict[str, Any],
+        curr_close: Optional[float] = None,
     ) -> Dict[str, Any]:
         """
         Fiyat hareketinin önündeki en yakın karşı likidite havuzunu (Opposing Pool) bularak
         sabit RR yerine hedefleri yapısal/manyetik seviyelere kenetler.
+        Hedeflerin kesinlikle hem entry hem de o anki fiyatın (curr_close) önünde olduğunu garanti eder.
         """
         default_tp1 = entry - (risk * SFP_RR_TARGET_1) if direction == "SHORT" else entry + (risk * SFP_RR_TARGET_1)
         default_tp2 = entry - (risk * SFP_RR_TARGET_2) if direction == "SHORT" else entry + (risk * SFP_RR_TARGET_2)
@@ -103,12 +105,16 @@ class SFPDetector:
         opposing_candidates = []
         if direction == "SHORT":
             # Hedef aşağıda: Karşı dipler (PDL, Asya Dibi, Swing Lows)
-            if pools_data.get("pdl") and pools_data["pdl"]["price"] < entry:
+            # cand['price'] kesinlikle hem entry hem de o anki fiyatın altında olmalıdır!
+            opposing_cutoff = min(entry, curr_close) if curr_close is not None else entry
+            min_dist = atr * 0.15
+
+            if pools_data.get("pdl") and pools_data["pdl"]["price"] < opposing_cutoff - min_dist:
                 opposing_candidates.append(pools_data["pdl"])
-            if pools_data.get("asian_low") and pools_data["asian_low"]["price"] < entry:
+            if pools_data.get("asian_low") and pools_data["asian_low"]["price"] < opposing_cutoff - min_dist:
                 opposing_candidates.append(pools_data["asian_low"])
             for sl in pools_data.get("swing_lows", []):
-                if sl["price"] < entry:
+                if sl["price"] < opposing_cutoff - min_dist:
                     opposing_candidates.append(sl)
 
             # En yakından en uzağa sırala (fiyat yüksekten düşüğe)
@@ -133,12 +139,15 @@ class SFPDetector:
 
         elif direction == "LONG":
             # Hedef yukarıda: Karşı tepeler (PDH, Asya Zirvesi, Swing Highs)
-            if pools_data.get("pdh") and pools_data["pdh"]["price"] > entry:
+            opposing_cutoff = max(entry, curr_close) if curr_close is not None else entry
+            min_dist = atr * 0.15
+
+            if pools_data.get("pdh") and pools_data["pdh"]["price"] > opposing_cutoff + min_dist:
                 opposing_candidates.append(pools_data["pdh"])
-            if pools_data.get("asian_high") and pools_data["asian_high"]["price"] > entry:
+            if pools_data.get("asian_high") and pools_data["asian_high"]["price"] > opposing_cutoff + min_dist:
                 opposing_candidates.append(pools_data["asian_high"])
             for sh in pools_data.get("swing_highs", []):
-                if sh["price"] > entry:
+                if sh["price"] > opposing_cutoff + min_dist:
                     opposing_candidates.append(sh)
 
             # En yakından en uzağa sırala (fiyat düşükten yükseğe)
@@ -553,10 +562,15 @@ class SFPDetector:
                 stop_loss = ce_calc["stop_loss"]
                 risk = ce_calc["risk_distance"]
 
-                magnetic_tps = self._find_magnetic_targets("SHORT", entry, risk, atr, pools_data)
+                magnetic_tps = self._find_magnetic_targets("SHORT", entry, risk, atr, pools_data, curr_close=curr_close)
                 tp1 = magnetic_tps["tp1"]
                 tp2 = magnetic_tps["tp2"]
                 rr_ratio = magnetic_tps["rr_ratio"]
+
+                # Katı Hedef ve Seviye Tutarlılık Kalkanı (Sanity Filter):
+                # SHORT işlemde hedefler güncel fiyattan yukarıda olamaz; giriş fiyattan kopuk olamaz!
+                if tp1 >= curr_close or tp2 >= curr_close or (entry - curr_close) > atr * 1.5:
+                    continue
 
                 setup_type = "BEARISH_SFP_2BAR" if (is_two_bar_sweep and not is_single_bar_sweep) else "BEARISH_SFP"
                 pool_prefix = "2-Mumlu " if is_two_bar_sweep and not is_single_bar_sweep else ""
@@ -698,10 +712,15 @@ class SFPDetector:
                 stop_loss = ce_calc["stop_loss"]
                 risk = ce_calc["risk_distance"]
 
-                magnetic_tps = self._find_magnetic_targets("LONG", entry, risk, atr, pools_data)
+                magnetic_tps = self._find_magnetic_targets("LONG", entry, risk, atr, pools_data, curr_close=curr_close)
                 tp1 = magnetic_tps["tp1"]
                 tp2 = magnetic_tps["tp2"]
                 rr_ratio = magnetic_tps["rr_ratio"]
+
+                # Katı Hedef ve Seviye Tutarlılık Kalkanı (Sanity Filter):
+                # LONG işlemde hedefler güncel fiyattan aşağıda olamaz; giriş fiyattan kopuk olamaz!
+                if tp1 <= curr_close or tp2 <= curr_close or (curr_close - entry) > atr * 1.5:
+                    continue
 
                 setup_type = "BULLISH_SFP_2BAR" if (is_two_bar_sweep and not is_single_bar_sweep) else "BULLISH_SFP"
                 pool_prefix = "2-Mumlu " if is_two_bar_sweep and not is_single_bar_sweep else ""

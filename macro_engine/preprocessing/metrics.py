@@ -217,9 +217,14 @@ class MacroMetricsCalculator(_LegacyMacroMetricsCalculator):
                     currency: 0
                     for currency in ("AUD", "CAD", "NZD", "JPY", "EUR", "GBP", "USD", "CHF")
                 }
+                cross["continuous_currency_scores"] = {
+                    currency: 0.0
+                    for currency in ("AUD", "CAD", "NZD", "JPY", "EUR", "GBP", "USD", "CHF")
+                }
                 cross["currency_breakdown"] = {
                     currency: {
                         "score": 0,
+                        "continuous_score": 0.0,
                         "summary": "UNAVAILABLE: relative-value input missing",
                     }
                     for currency in ("AUD", "CAD", "NZD", "JPY", "EUR", "GBP", "USD", "CHF")
@@ -246,6 +251,7 @@ class MacroMetricsCalculator(_LegacyMacroMetricsCalculator):
 
             r.setdefault("regime_state", {})["cross_pair_gates"] = dict(cross["cross_gates"])
             r["regime_state"]["cross_currency_scores"] = dict(cross.get("currency_scores", {}))
+            r["regime_state"]["continuous_currency_scores"] = dict(cross.get("continuous_currency_scores", {}))
             r["regime_state"]["cross_currency_breakdown"] = dict(cross.get("currency_breakdown", {}))
 
         curve_consistency = {}
@@ -366,6 +372,7 @@ class MacroMetricsCalculator(_LegacyMacroMetricsCalculator):
             ),
             "global_macro_cycle": global_cycle,
             "regime_diagnosis": regime_diagnosis,
+            "primary_regime": regime_diagnosis,
             "rationale": (
                 f"UNRATE={unemp_rate}, ICSA={claims_k}K; "
                 f"PAYEMS MoM change={payroll_change_k}K; "

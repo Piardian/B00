@@ -4,7 +4,8 @@ import asyncio
 import datetime as dt
 from typing import Any, Dict, List, Optional, Mapping
 
-from core.deterministic_controls import resolve_execution_gate
+from pathlib import Path
+from core.deterministic_controls import compute_net_macro_conviction, resolve_execution_gate
 from graph.macro_graph_legacy import MacroWorkflowEngine as _LegacyMacroWorkflowEngine
 from graph.macro_graph_legacy import MacroGraphState, save_macro_gate_atomic
 from config import BIAS_GATE_FILE
@@ -168,28 +169,36 @@ class MacroWorkflowEngine(_LegacyMacroWorkflowEngine):
             xau_bullish.append(f"NFCI={float(nfci):+.2f}")
         if bear_steepening:
             xau_bearish.append("bear_steepening")
-        if isinstance(delta_10y_5d, (int, float)) and float(delta_10y_5d) >= 10.0:
-            xau_bearish.append(f"10Y_5d={float(delta_10y_5d):+.1f}bps")
+        if isinstance(delta_10y_5d, (int, float)):
+            if float(delta_10y_5d) >= 10.0:
+                xau_bearish.append(f"10Y_5d={float(delta_10y_5d):+.1f}bps")
+            elif float(delta_10y_5d) <= -5.0:
+                xau_bullish.append(f"10Y_falling_5d={float(delta_10y_5d):+.1f}bps")
         xau_has_stress = bear_steepening or (isinstance(delta_10y_5d, (int, float)) and float(delta_10y_5d) >= 10.0)
         xau_liquidity_support = (
             isinstance(liquidity_delta, (int, float)) and float(liquidity_delta) >= 20.0
             and isinstance(nfci, (int, float)) and float(nfci) <= -0.30
         )
+        xau_net_margin = len(xau_bullish) - len(xau_bearish)
 
         if gold_short:
             xau_base = "SHORT_ONLY"
-        elif len(xau_bullish) >= 2 and (not xau_bearish or (not xau_has_stress and xau_liquidity_support)):
+        elif len(xau_bullish) >= 2 and not xau_has_stress and (
+            not xau_bearish or xau_liquidity_support or xau_net_margin >= 1
+        ):
             xau_base = "LONG_ONLY"
         else:
             xau_base = "NEUTRAL_RANGE"
         evidence["XAUUSD"] = {
             "bullish_factors": xau_bullish,
             "bearish_factors": xau_bearish,
+            "net_factor_margin": xau_net_margin,
             "minimum_for_long_only": 2,
         }
 
-        # BTC: "no stress" is not enough. Require at least two independent
-        # macro supports for LONG_ONLY and reject when clear bearish evidence exists.
+        # BTC: Require at least two independent macro supports for LONG_ONLY.
+        # When real yields are >=1.90% structurally, allow net factor margin >= +1
+        # (e.g. 3 bullish vs 1 bearish) or strong liquidity support to unlock LONG_ONLY.
         btc_bullish = []
         btc_bearish = []
         if isinstance(real_yield, (int, float)):
@@ -211,8 +220,11 @@ class MacroWorkflowEngine(_LegacyMacroWorkflowEngine):
             )
         if bear_steepening:
             btc_bearish.append("bear_steepening")
-        if isinstance(delta_10y_5d, (int, float)) and float(delta_10y_5d) >= 10.0:
-            btc_bearish.append(f"10Y_5d:{float(delta_10y_5d):+.1f}bps")
+        if isinstance(delta_10y_5d, (int, float)):
+            if float(delta_10y_5d) >= 10.0:
+                btc_bearish.append(f"10Y_5d:{float(delta_10y_5d):+.1f}bps")
+            elif float(delta_10y_5d) <= -5.0:
+                btc_bullish.append(f"10Y_falling_5d:{float(delta_10y_5d):+.1f}bps")
         if isinstance(credit_stress, str) and "Distress" in credit_stress:
             btc_bearish.append("credit_distress")
 
@@ -225,21 +237,27 @@ class MacroWorkflowEngine(_LegacyMacroWorkflowEngine):
             isinstance(liquidity_delta, (int, float)) and float(liquidity_delta) >= 20.0
             and isinstance(nfci, (int, float)) and float(nfci) <= -0.30
         )
+        btc_net_margin = len(btc_bullish) - len(btc_bearish)
 
         legacy_btc = metrics.get("btc_decoupling_analysis", {}).get(
             "recommended_btc_gate", "DEFENSIVE_HOLD"
         )
         if fast_stress:
             btc_base = "DEFENSIVE_HOLD"
-        elif "SHORT_ONLY" in str(legacy_btc).upper() and bear_steepening:
+        elif ("SHORT_ONLY" in str(legacy_btc).upper() and bear_steepening) or (
+            len(btc_bearish) >= 3 and len(btc_bullish) == 0
+        ):
             btc_base = "SHORT_ONLY"
-        elif len(btc_bullish) >= 2 and (not btc_bearish or (not has_severe_btc_risk and btc_liquidity_support)):
+        elif len(btc_bullish) >= 2 and not has_severe_btc_risk and (
+            not btc_bearish or btc_liquidity_support or btc_net_margin >= 1
+        ):
             btc_base = "LONG_ONLY"
         else:
             btc_base = "NEUTRAL_RANGE"
         evidence["BTC"] = {
             "bullish_factors": btc_bullish,
             "bearish_factors": btc_bearish,
+            "net_factor_margin": btc_net_margin,
             "legacy_recommendation": legacy_btc,
             "minimum_for_long_only": 2,
         }
@@ -302,6 +320,7 @@ class MacroWorkflowEngine(_LegacyMacroWorkflowEngine):
             "energy_penalty": energy_penalty,
             "bullish_factors": eur_bullish,
             "bearish_factors": eur_bearish,
+            "net_factor_margin": len(eur_bullish) - len(eur_bearish),
         }
 
         # Work on a private copy so gate construction never mutates input metrics.
@@ -351,7 +370,7 @@ class MacroWorkflowEngine(_LegacyMacroWorkflowEngine):
         )
         hy_oas = credit.get("hy_oas_spread_pct")
         cycle = metrics.get("cycle_diagnosis", {})
-        cycle_regime = str(cycle.get("primary_regime", ""))
+        cycle_regime = str(cycle.get("primary_regime") or cycle.get("regime_diagnosis") or "")
 
         spx_bullish = []
         spx_bearish = []
@@ -368,7 +387,7 @@ class MacroWorkflowEngine(_LegacyMacroWorkflowEngine):
         if isinstance(liquidity_delta, (int, float)) and float(liquidity_delta) > 0:
             spx_bullish.append(f"net_liquidity_expansion:{float(liquidity_delta):+.1f}B")
 
-        if "Reflationary" in cycle_regime or "Goldilocks" in cycle_regime or "Recovery" in cycle_regime:
+        if any(term in cycle_regime for term in ("Reflationary", "Goldilocks", "Recovery", "Overheating")):
             spx_bullish.append(f"regime:{cycle_regime}")
         elif "Stagflation" in cycle_regime or "Deflationary" in cycle_regime:
             spx_bearish.append(f"regime:{cycle_regime}")
@@ -384,6 +403,7 @@ class MacroWorkflowEngine(_LegacyMacroWorkflowEngine):
             "gate_basis": "equity_regime: credit spreads + NFCI + liquidity + cycle",
             "bullish_factors": spx_bullish,
             "bearish_factors": spx_bearish,
+            "net_factor_margin": len(spx_bullish) - len(spx_bearish),
             "equity_short_allowed": spx_allowed,
         }
 
@@ -450,8 +470,25 @@ class MacroWorkflowEngine(_LegacyMacroWorkflowEngine):
                 base_gates["SOL"] = rot_gate
                 reasons["SOL"] = str(sol_rot.get("rationale", "8-factor crypto rotation"))
 
+        # Her varlık için deterministik kanaat/risk çarpanı (NEUTRAL_RANGE = 0.50x, Yönlü = 1.00x / 1.15x)
+        conviction_multipliers: Dict[str, float] = {}
+        cont_scores = cross_analysis.get("continuous_currency_scores", {}) or {}
+        for symbol, gate_val in resolved.items():
+            ev_item = evidence.get(symbol, {})
+            if isinstance(ev_item, Mapping) and ("bullish_factors" in ev_item or "bearish_factors" in ev_item):
+                b_cnt = len(ev_item.get("bullish_factors", []))
+                s_cnt = len(ev_item.get("bearish_factors", []))
+            elif len(symbol) == 6 and symbol[:3] in cont_scores and symbol[3:6] in cont_scores:
+                c_diff = abs(float(cont_scores.get(symbol[:3], 0.0)) - float(cont_scores.get(symbol[3:6], 0.0)))
+                b_cnt = 2 if c_diff >= 1.25 else 1
+                s_cnt = 0
+            else:
+                b_cnt, s_cnt = 1, 0
+            conviction_multipliers[symbol] = compute_net_macro_conviction(b_cnt, s_cnt, gate_val)
+
         return {
             "execution_bias_gates": resolved,
+            "gate_conviction_multipliers": conviction_multipliers,
             "gate_reasons": reasons,
             "base_gates": base_gates,
             "evidence": evidence,
@@ -499,6 +536,7 @@ class MacroWorkflowEngine(_LegacyMacroWorkflowEngine):
             "recommended_risk_multiplier": final_dict.get("recommended_risk_multiplier", 1.0),
             "execution_bias_gates": deterministic["execution_bias_gates"],
             "deterministic_execution_bias_gates": deterministic["execution_bias_gates"],
+            "gate_conviction_multipliers": deterministic.get("gate_conviction_multipliers", {}),
             "deterministic_base_gates": deterministic.get("base_gates", {}),
             "deterministic_gate_evidence": deterministic.get("evidence", {}),
             "deterministic_gate_reasons": deterministic.get("gate_reasons", {}),
@@ -517,6 +555,21 @@ class MacroWorkflowEngine(_LegacyMacroWorkflowEngine):
             "data_quality": metrics.get("data_quality", {}),
         }
         save_macro_gate_atomic(payload, BIAS_GATE_FILE)
+        # Merkezi Senkronizasyon: Hem kendi shared/ klasörüne hem de kardeş projelerin shared/ klasörlerine atomik yaz
+        sync_targets = [
+            Path(__file__).resolve().parent.parent.parent / "shared" / "macro_bias_gate.json",
+            Path(r"c:\Users\piard\Desktop\Begonya00\shared\macro_bias_gate.json"),
+            Path(r"C:\Users\piard\.gemini\antigravity\scratch\Begonya\shared\macro_bias_gate.json"),
+        ]
+        seen_paths = {str(BIAS_GATE_FILE.resolve()).casefold()}
+        for target_p in sync_targets:
+            try:
+                norm_p = str(target_p.resolve()).casefold()
+                if norm_p not in seen_paths and target_p.parent.exists():
+                    save_macro_gate_atomic(payload, target_p)
+                    seen_paths.add(norm_p)
+            except Exception:
+                pass
         return {}
 
     def run_pipeline(

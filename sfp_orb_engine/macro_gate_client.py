@@ -61,6 +61,7 @@ class MacroGateClient:
                 "risk_multiplier": float(raw.get("recommended_risk_multiplier", 1.0)),
                 "execution_bias_gates": raw.get("execution_bias_gates", {}),
                 "deterministic_bias_gates": raw.get("deterministic_execution_bias_gates", {}),
+                "gate_conviction_multipliers": raw.get("gate_conviction_multipliers", {}),
             }
         except Exception as e:
             logger.error(f"Makro kapı JSON okuma hatası: {e}")
@@ -81,8 +82,9 @@ class MacroGateClient:
         norm_sym = self._normalize_symbol(symbol)
         gates = state.get("execution_bias_gates", {})
         det_gates = state.get("deterministic_bias_gates", {})
+        conv_map = state.get("gate_conviction_multipliers", {}) or {}
 
-        gate_bias = gates.get(norm_sym) or det_gates.get(norm_sym) or "NEUTRAL_RANGE"
+        gate_bias = det_gates.get(norm_sym) or gates.get(norm_sym) or "NEUTRAL_RANGE"
         regime = state.get("primary_regime", "Unknown")
         risk_mult = state.get("risk_multiplier", 1.0)
         cap_pres = state.get("capital_preservation_mode", False)
@@ -98,16 +100,22 @@ class MacroGateClient:
                 "risk_multiplier": 0.0,
             }
 
-        # 2. VETO Kontrolü
-        if gate_bias in ["VETO", "CASH"]:
+        # 2. VETO / NO_TRADE / DEFENSIVE_HOLD Kontrolü
+        if gate_bias in ["VETO", "CASH", "NO_TRADE", "DEFENSIVE_HOLD", "REDUCE_ONLY"]:
             return {
                 "allowed": False,
                 "decision": "VETO_MACRO",
-                "reason": f"Makro kapı {norm_sym} için VETO seviyesinde.",
+                "reason": f"Makro kapı {norm_sym} için {gate_bias} savunma seviyesinde.",
                 "gate_bias": gate_bias,
                 "regime": regime,
                 "risk_multiplier": 0.0,
             }
+
+        effective_mult = (
+            round(risk_mult * 0.50, 3)
+            if gate_bias == "NEUTRAL_RANGE"
+            else round(risk_mult * float(conv_map.get(norm_sym, 1.0)), 3)
+        )
 
         # 3. Yönsel İzin Kontrolü
         if direction.upper() == "LONG":
@@ -115,10 +123,10 @@ class MacroGateClient:
                 return {
                     "allowed": True,
                     "decision": "APPROVED",
-                    "reason": f"Makro rejim ({regime}) LONG yönüyle uyumlu ({gate_bias}).",
+                    "reason": f"Makro rejim ({regime}) LONG yönüyle uyumlu ({gate_bias}, Risk: {effective_mult}x).",
                     "gate_bias": gate_bias,
                     "regime": regime,
-                    "risk_multiplier": risk_mult,
+                    "risk_multiplier": effective_mult,
                 }
             else:
                 return {
@@ -135,10 +143,10 @@ class MacroGateClient:
                 return {
                     "allowed": True,
                     "decision": "APPROVED",
-                    "reason": f"Makro rejim ({regime}) SHORT yönüyle uyumlu ({gate_bias}).",
+                    "reason": f"Makro rejim ({regime}) SHORT yönüyle uyumlu ({gate_bias}, Risk: {effective_mult}x).",
                     "gate_bias": gate_bias,
                     "regime": regime,
-                    "risk_multiplier": risk_mult,
+                    "risk_multiplier": effective_mult,
                 }
             else:
                 return {

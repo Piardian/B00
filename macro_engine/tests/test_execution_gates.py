@@ -247,3 +247,70 @@ class ExecutionGateTests(unittest.TestCase):
         gates = MacroWorkflowEngine._build_deterministic_gates(metrics)
         self.assertEqual(gates["execution_bias_gates"]["BTC"], "LONG_ONLY")
 
+    def test_xau_and_btc_unlock_on_net_bullish_margin_despite_elevated_real_yield(self):
+        metrics = {
+            "real_yield_info": {"real_yield_pct": 1.95},
+            "dxy_trend_analysis": {"delta_20d_pct": -1.80},
+            "liquidity_dynamics": {"delta_liquidity_billion": 12.0},
+            "financial_conditions_analysis": {"nfci_value": -0.45},
+            "yield_curve": {"regime": "Range-bound Slope", "delta_10y_5d_bps": -2.0},
+            "t0_fast_stress_analysis": {"fast_stress_override": False},
+            "gold_fiscal_dominance": {"gold_short_allowed": False},
+            "cross_pairs_analysis": {"event_freeze": {"active": False}, "cross_gates": {}},
+            "btc_decoupling_analysis": {"recommended_btc_gate": "LONG_ONLY_ALLOWED_IF_DEBASEMENT"},
+            "equity_short_regime": {"equity_short_allowed": False},
+        }
+        gates = MacroWorkflowEngine._build_deterministic_gates(metrics)
+        self.assertEqual(gates["execution_bias_gates"]["XAUUSD"], "LONG_ONLY")
+        self.assertEqual(gates["execution_bias_gates"]["BTC"], "LONG_ONLY")
+        self.assertGreaterEqual(gates["evidence"]["XAUUSD"]["net_factor_margin"], 1)
+        self.assertEqual(gates["gate_conviction_multipliers"]["XAUUSD"], 1.15)
+
+    def test_spx_recognizes_regime_diagnosis_key_from_metrics_calculator(self):
+        metrics = {
+            "equity_short_regime": {"equity_short_allowed": False},
+            "credit_spread_analysis": {"hy_oas_spread_pct": 3.80, "stress_level": "Sakin"},
+            "financial_conditions_analysis": {"nfci_value": -0.40},
+            "liquidity_dynamics": {"delta_liquidity_billion": 0.0},
+            "cycle_diagnosis": {"regime_diagnosis": "Reflationary Growth"},
+            "t0_fast_stress_analysis": {"fast_stress_override": False},
+            "cross_pairs_analysis": {"event_freeze": {"active": False}, "cross_gates": {}},
+            "btc_decoupling_analysis": {"recommended_btc_gate": "NEUTRAL_RANGE"},
+            "gold_fiscal_dominance": {"gold_short_allowed": False},
+        }
+        gates = MacroWorkflowEngine._build_deterministic_gates(metrics)
+        self.assertEqual(gates["execution_bias_gates"]["SPX"], "LONG_ONLY")
+        self.assertIn("regime:Reflationary Growth", gates["evidence"]["SPX"]["bullish_factors"])
+
+    def test_bridge_evaluate_trade_with_sizing_scales_neutral_range_to_half_risk(self):
+        tmp, path = self._write_gate({
+            "timestamp": dt.datetime.now(dt.timezone.utc).isoformat(),
+            "deterministic_gate_source": "deterministic_metrics_only",
+            "recommended_risk_multiplier": 1.0,
+            "deterministic_execution_bias_gates": {
+                "XAUUSD": "NEUTRAL_RANGE",
+                "EURUSD": "SHORT_ONLY",
+            },
+            "gate_conviction_multipliers": {
+                "XAUUSD": 0.50,
+                "EURUSD": 1.15,
+            },
+        })
+        try:
+            bridge = ExecutionBiasBridge(path)
+            self.assertFalse(bridge.is_trade_allowed("XAUUSD", "BUY", allow_neutral_range=False)[0])
+            self.assertTrue(bridge.is_trade_allowed("XAUUSD", "BUY", allow_neutral_range=True)[0])
+            res_range = bridge.evaluate_trade_with_sizing("XAUUSD", "BUY", allow_neutral_range=True)
+            self.assertTrue(res_range["allowed"])
+            self.assertEqual(res_range["risk_multiplier"], 0.50)
+            res_dir = bridge.evaluate_trade_with_sizing("EURUSD", "SELL", allow_neutral_range=True)
+            self.assertTrue(res_dir["allowed"])
+            self.assertEqual(res_dir["risk_multiplier"], 1.15)
+        finally:
+            tmp.cleanup()
+
+
+if __name__ == "__main__":
+    unittest.main(verbosity=2)
+
+

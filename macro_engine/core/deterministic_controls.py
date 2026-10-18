@@ -314,3 +314,80 @@ def resolve_execution_gate(
         "precedence": ["EVENT_FREEZE", "SYSTEMIC_STRESS", "BASE_BIAS"],
         "source": "deterministic_metrics_only",
     }
+
+
+def calculate_surprise_momentum(
+    events: Iterable[Mapping[str, Any]],
+    sigmas: Mapping[str, float],
+    as_of: dt.date,
+    lookback_days: int = 14,
+    decay_half_life_days: float = 7.0,
+) -> Dict[str, Any]:
+    """Calculate exponential decay-weighted cumulative economic surprise momentum (Citi Surprise Index style).
+
+    Positive momentum indicates macroeconomic data consistently beats expectations.
+    """
+    total_weighted_z = 0.0
+    total_weight = 0.0
+    count = 0
+
+    for ev in events:
+        actual = ev.get("actual")
+        forecast = ev.get("forecast")
+        if actual in (None, "") or forecast in (None, ""):
+            continue
+        raw_date = ev.get("date")
+        if not raw_date:
+            continue
+        try:
+            ev_date = raw_date if isinstance(raw_date, dt.date) else dt.date.fromisoformat(str(raw_date)[:10])
+        except Exception:
+            continue
+        age_days = (as_of - ev_date).days
+        if age_days < 0 or age_days > lookback_days:
+            continue
+        kind = str(ev.get("indicator_type", "generic")).lower()
+        sigma = sigmas.get(kind, 1.0)
+        try:
+            z = signed_surprise_zscore(kind, float(actual), float(forecast), sigma)
+        except Exception:
+            continue
+        weight = math.exp(-0.69315 * (age_days / decay_half_life_days))
+        total_weighted_z += z * weight
+        total_weight += weight
+        count += 1
+
+    momentum_score = round(total_weighted_z / total_weight, 2) if total_weight > 0 else 0.0
+    regime = (
+        "RESILIENT_SURPRISE"
+        if momentum_score >= 0.75
+        else ("DISAPPOINTMENT" if momentum_score <= -0.75 else "NEUTRAL")
+    )
+    return {
+        "surprise_momentum_score": momentum_score,
+        "sample_count": count,
+        "regime": regime,
+    }
+
+
+def compute_net_macro_conviction(
+    bullish_count: int,
+    bearish_count: int,
+    resolved_gate: str,
+    base_risk_multiplier: float = 1.0,
+) -> float:
+    """Compute a deterministic risk/conviction multiplier for execution sizing.
+
+    - NO_TRADE / DEFENSIVE_HOLD / REDUCE_ONLY -> 0.0
+    - NEUTRAL_RANGE / NEUTRAL_ALL -> 0.50 * base_risk_multiplier (range regime half-risk)
+    - LONG_ONLY / SHORT_ONLY -> 1.00 * base_risk_multiplier (or 1.15x when net factor margin >= 2)
+    """
+    gate = str(resolved_gate).upper()
+    if gate in {"NO_TRADE", "DEFENSIVE_HOLD", "REDUCE_ONLY"}:
+        return 0.0
+    if gate in {"NEUTRAL_RANGE", "NEUTRAL_ALL"}:
+        return round(0.50 * float(base_risk_multiplier), 3)
+    net_margin = abs(int(bullish_count) - int(bearish_count))
+    boost = 1.15 if net_margin >= 2 else 1.00
+    return round(min(1.25, boost * float(base_risk_multiplier)), 3)
+
