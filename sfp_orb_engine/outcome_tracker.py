@@ -26,8 +26,8 @@ class OutcomeTracker:
         self.closed_trades = self._load_json(CLOSED_LEDGER_FILE)
 
     def has_active_trade(self, symbol: str) -> bool:
-        """Belirtilen sembol icin su an aktif acik (OPEN, TP1_HIT veya TRAILING_ACTIVE) pozisyon var mi?"""
-        return any(t.get("symbol") == symbol and t.get("status") in ["OPEN", "TP1_HIT", "TRAILING_ACTIVE"] for t in self.active_trades)
+        """Belirtilen sembol icin su an aktif (PENDING_LIMIT, OPEN, TP1_HIT veya TRAILING_ACTIVE) pozisyon var mi?"""
+        return any(t.get("symbol") == symbol and t.get("status") in ["PENDING_LIMIT", "OPEN", "TP1_HIT", "TRAILING_ACTIVE"] for t in self.active_trades)
 
     def _load_json(self, path: Path) -> List[Dict[str, Any]]:
         if path.exists():
@@ -72,7 +72,7 @@ class OutcomeTracker:
             "tp1_r": float(signal.get("tp1_r", 1.0)),
             "risk_pips": risk_pips,
             "rr_ratio": rr,
-            "status": "OPEN",  # "OPEN", "TP1_HIT", "CLOSED"
+            "status": "PENDING_LIMIT",  # "PENDING_LIMIT", "OPEN", "TP1_HIT", "TRAILING_ACTIVE", "CLOSED"
             "entry_candle_time": entry_candle_time,
             "opened_at": datetime.now().isoformat(),
             "last_checked_at": datetime.now().isoformat(),
@@ -80,7 +80,7 @@ class OutcomeTracker:
 
         self.active_trades.append(trade)
         self._save_json(ACTIVE_TRADES_FILE, self.active_trades)
-        logger.info(f"📝 Yeni islem takibe alindi: {trade_id} ({symbol} {direction}) [Giris Mum: {entry_candle_time}]")
+        logger.info(f"📝 Yeni emir limit takibe alindi (Retest Bekleniyor): {trade_id} ({symbol} {direction} @ {entry})")
 
     def check_trade_progress(self, symbol: str, current_bar: Dict[str, Any]):
         """
@@ -122,6 +122,58 @@ class OutcomeTracker:
             closed = False
             close_reason = ""
             r_result = 0.0
+
+            # 0. EĞER EMİR HENÜZ LİMİT BEKLEMEDEYSE (PENDING_LIMIT):
+            # Fiyatın entry seviyesine retest verip vermediği kontrol edilir.
+            # Retest vermeden TP1'e uçup giden işlemler 'EXPIRED_NO_FILL' (0.0R) olarak kapatılır!
+            if status == "PENDING_LIMIT":
+                is_filled = False
+                if direction == "LONG":
+                    if eval_low <= entry:
+                        is_filled = True
+                    elif eval_high >= tp1:
+                        closed = True
+                        close_reason = "EXPIRED_NO_FILL"
+                        r_result = 0.0
+                        logger.info(f"⏳ Retest vermeden TP1'e gitti, emir iptal edildi: {trade['id']}")
+                else:  # SHORT
+                    if eval_high >= entry:
+                        is_filled = True
+                    elif eval_low <= tp1:
+                        closed = True
+                        close_reason = "EXPIRED_NO_FILL"
+                        r_result = 0.0
+                        logger.info(f"⏳ Retest vermeden TP1'e gitti, emir iptal edildi: {trade['id']}")
+
+                # 4 saat (16 bar) boyunca dolmadıysa zaman aşımıyla iptal et
+                if not is_filled and not closed:
+                    try:
+                        opened_dt = datetime.fromisoformat(trade.get("opened_at", ""))
+                        if (datetime.now() - opened_dt).total_seconds() > 14400:
+                            closed = True
+                            close_reason = "TIMEOUT_NO_FILL"
+                            r_result = 0.0
+                            logger.info(f"⏱️ Retest zaman aşımı (4 saat dolmadı): {trade['id']}")
+                    except Exception:
+                        pass
+
+                if is_filled:
+                    trade["status"] = "OPEN"
+                    trade["filled_at"] = datetime.now().isoformat()
+                    status = "OPEN"
+                    logger.info(f"🎯 Emir Dolduruldu (Retest Fill Gerçekleşti): {trade['id']} @ {entry}")
+                    self._save_json(ACTIVE_TRADES_FILE, self.active_trades)
+                elif closed:
+                    trade["status"] = "CLOSED"
+                    trade["close_reason"] = close_reason
+                    trade["r_result"] = r_result
+                    trade["closed_at"] = datetime.now().isoformat()
+                    self.closed_trades.append(trade)
+                    self._save_json(CLOSED_LEDGER_FILE, self.closed_trades)
+                    continue
+                else:
+                    remaining_trades.append(trade)
+                    continue
 
             tp1_r = float(trade.get("tp1_r", 1.0))
             tp2_r = float(trade.get("rr_ratio", 3.0))

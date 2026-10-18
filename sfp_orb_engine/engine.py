@@ -165,6 +165,23 @@ class BegonyaEngine:
         if not is_session_active_for_scan(symbol):
             return None
 
+        # 3c. Bayat Mum (Stale Candle) Kalkanı:
+        # Son mum zamanı güncel UTC saatinden 45 dakikadan daha eskiyse sinyal taranmaz!
+        # Böylece gecikmeli veri sağlayıcılarından kaynaklanan hayali/geçmiş sinyaller engellenir.
+        try:
+            raw_dt = last_bar_dict.get("datetime")
+            if raw_dt is not None:
+                last_dt = pd.to_datetime(raw_dt)
+                if getattr(last_dt, "tzinfo", None) is None:
+                    last_dt = last_dt.tz_localize("UTC") if hasattr(last_dt, "tz_localize") else last_dt.replace(tzinfo=timezone.utc)
+                now_utc = datetime.now(timezone.utc)
+                age_minutes = (now_utc - last_dt).total_seconds() / 60.0
+                if age_minutes > 45.0:
+                    logger.warning(f"⚠️ Bayat Veri Reddedildi: {symbol} son bar {age_minutes:.1f} dk eski ({last_dt}). Tarama atlandı.")
+                    return None
+        except Exception as e:
+            logger.debug(f"Bayat mum kontrolü esnasında hata: {e}")
+
         # 4. SFP + Hacim/ATR Anomalisi Taraması (PDH/PDL Öncelikli)
         sfp_res = self.sfp_detector.detect_sfp(df, symbol)
         if sfp_res:
