@@ -63,6 +63,7 @@ Thumbs.db
 
 data/*.sqlite3*
 data/*.csv
+!data/forex_gold_verified_trades.csv
 data/exact_replay_*
 data/execution_backfill_*
 data/full_2025_study/
