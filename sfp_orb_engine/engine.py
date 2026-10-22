@@ -8,6 +8,7 @@ import json
 import logging
 import signal
 import sys
+import os
 from pathlib import Path
 from typing import Dict, Any, List, Optional
 from datetime import datetime, timezone
@@ -41,6 +42,9 @@ from .chart_renderer import ChartRenderer
 from .telegram_notifier import TelegramNotifier
 from .news_guard import NewsGuard
 from .outcome_tracker import OutcomeTracker
+from .execution_policy import completed_bars, higher_timeframe_trend, validate_signal, risk_rejection, utc_time
+from . import config
+from .execution_observer import ExecutionObserver
 
 logging.basicConfig(
     level=logging.INFO,
@@ -67,6 +71,20 @@ class BegonyaEngine:
         self.outcome_tracker = OutcomeTracker(notifier=self.notifier)
         self.signal_history = self._load_history()
         self._is_running = True
+        try:
+            self.diagnostics = ExecutionObserver()
+            self._observe("archive_trades", self.outcome_tracker.closed_trades)
+        except Exception as exc:
+            self.diagnostics = None
+            logger.warning("Passive observation unavailable: %s", exc)
+
+    def _observe(self, method, *args):
+        observer = getattr(self, "diagnostics", None)
+        if observer is not None:
+            try:
+                return getattr(observer, method)(*args)
+            except Exception as exc:
+                logger.warning("Passive observation failed (%s): %s", method, exc)
 
     def _load_history(self) -> Dict[str, Any]:
         if HISTORY_FILE.exists():
@@ -108,7 +126,7 @@ class BegonyaEngine:
         }
         self.signal_history[key] = record
 
-        candle_time = signal_data.get("candle_time") or signal_data.get("timestamp")
+        candle_time = signal_data.get("candle_time") or signal_data.get("datetime") or signal_data.get("timestamp")
         if candle_time:
             candle_key = f"{symbol}_{strategy}_{direction}_{candle_time}"
             self.signal_history[candle_key] = record
@@ -133,36 +151,50 @@ class BegonyaEngine:
         Tek bir sembol icin barlari ceker, haber kontrolu yapar, SFP & ORB tarar
         ve acik islemlerin kâr/zarar takibini gerceklestirir.
         """
-        # 0. Toksik / Fazla Gürültü Üreten Parite Filtresi (GBPJPY, ETHUSD vb.)
+        # Lifecycle tracking always precedes news, session and entry exclusions.
+        active = self.outcome_tracker.has_active_trade(symbol)
+        scanning = is_market_open(symbol) and is_session_active_for_scan(symbol)
+        observing = bool(self._observe("needs_capture", symbol))
+        if not active and not scanning and not observing:
+            return None
+        if active or scanning or observing:
+            micro = completed_bars(self.data_provider.fetch_candles(symbol, interval="1m", outputsize=1000), 1)
+            self._observe("archive_bars", symbol, "1m", micro)
+            if micro.empty:
+                self._log_telemetry("TRACKING_DATA_UNAVAILABLE", {"symbol": symbol})
+                return None
+            if active:
+                trades = [t for t in self.outcome_tracker.active_trades if t["symbol"] == symbol]
+                cursors = [utc_time(t.get("last_processed_bar") or t["opened_at"],
+                                    legacy_local=not bool(t.get("last_processed_bar"))) for t in trades]
+                replay = micro[micro.datetime >= min(cursors)]
+                for bar in replay.to_dict(orient="records"):
+                    self.outcome_tracker.check_trade_progress(symbol, bar)
+                    self._observe("archive_trades", trades)
+                    if any(t.get("tracking_gap_at") for t in trades) or not self.outcome_tracker.has_active_trade(symbol):
+                        break
+            if self.outcome_tracker.has_active_trade(symbol):
+                return None
+            if (pd.Timestamp.now(tz="UTC") - micro.iloc[-1].datetime).total_seconds() > 180:
+                return None
+        if not scanning:
+            return None
         clean_sym = symbol.replace("/", "").replace("-", "").upper()
-        if any(clean_sym == ex.replace("/", "").replace("-", "").upper() for ex in EXCLUDED_SFP_SYMBOLS):
+        if clean_sym in {ex.replace("/", "").replace("-", "").upper() for ex in EXCLUDED_SFP_SYMBOLS}:
             return None
-
-        # 0b. Hafta Sonu & Kapalı Piyasa Koruması (Hafta sonu kapalı forex/hisse taranmaz)
-        if not is_market_open(symbol):
-            return None
-
-        # 1. Kritik Haber Kalkanı (News Guard)
         news_check = self.news_guard.check_freeze(symbol)
         if news_check["is_frozen"]:
-            logger.warning(f"🛡️ Haber Kalkanı Devrede: {symbol} - {news_check['reason']}")
             return None
-
-        # 2. Canlı Bar Verisini Çek
-        df = self.data_provider.fetch_candles(symbol, interval=PRIMARY_TIMEFRAME, outputsize=70)
-        if df is None or len(df) < 25:
+        df = completed_bars(self.data_provider.fetch_candles(symbol, interval=PRIMARY_TIMEFRAME, outputsize=300), 15)
+        self._observe("archive_bars", symbol, "15m", df)
+        if len(df) < 25:
             return None
-
-        # 3. Açık İşlemlerin TP1 / TP2 / SL Takibi (Outcome Tracker)
         last_bar_dict = df.iloc[-1].to_dict()
-        self.outcome_tracker.check_trade_progress(symbol, last_bar_dict)
-
-        # 3a. AKTİF POZİSYON KORUMASI: Bu paritede açık işlem sürerken mükerrer yeni işlem taranmaz!
-        if self.outcome_tracker.has_active_trade(symbol):
-            return None
-
-        # 3b. Seans Taraması Kontrolü (Hafta İçi: Yalnızca Forex Londra 07-11 UTC / Hafta Sonu: Kripto 07-11 ve 13-17 UTC)
-        if not is_session_active_for_scan(symbol):
+        hourly = self.data_provider.fetch_candles(symbol, interval="1h", outputsize=1000)
+        self._observe("archive_bars", symbol, "1h", hourly)
+        htf_trend = higher_timeframe_trend(hourly, df.iloc[-1].datetime + pd.Timedelta(minutes=15))
+        if config.REQUIRE_PRO_TREND_AAA and htf_trend not in {"BULLISH", "BEARISH"}:
+            self._log_telemetry("HTF_NOT_READY", {"symbol": symbol, "trend": htf_trend})
             return None
 
         # 3c. Bayat Mum (Stale Candle) Kalkanı:
@@ -183,7 +215,7 @@ class BegonyaEngine:
             logger.debug(f"Bayat mum kontrolü esnasında hata: {e}")
 
         # 4. SFP + Hacim/ATR Anomalisi Taraması (PDH/PDL Öncelikli)
-        sfp_res = self.sfp_detector.detect_sfp(df, symbol)
+        sfp_res = self.sfp_detector.detect_sfp(df, symbol, htf_trend=htf_trend)
         if sfp_res:
             pool_lbl = sfp_res.get("pool_label", "Swing")
             logger.info(f"🎯 SFP Tespit Edildi: {symbol} -> {sfp_res['direction']} [{sfp_res['grade']} | {pool_lbl}]")
@@ -199,6 +231,11 @@ class BegonyaEngine:
         if not is_weekend or WEEKEND_ORB_ENABLED:
             orb_res = self.orb_detector.detect_orb(df, symbol)
             if orb_res:
+                orb_res["htf_trend"] = htf_trend
+                expected = "BULLISH" if orb_res["direction"] == "LONG" else "BEARISH"
+                if htf_trend == expected:
+                    orb_res["grade"] = "AAA (HTF ORB)"
+                    orb_res["trend_alignment"] = "PRO_TREND"
                 logger.info(f"⚡ ORB Kırılımı Tespit Edildi: {symbol} -> {orb_res['direction']} [{orb_res['grade']}]")
                 self._process_candidate(df, orb_res)
                 return orb_res
@@ -209,6 +246,11 @@ class BegonyaEngine:
         symbol = candidate["symbol"]
         strategy = candidate["strategy"]
         direction = candidate["direction"]
+
+        rejection = validate_signal(candidate)
+        if rejection:
+            self._log_telemetry("ENTRY_POLICY_REJECTED", {"symbol": symbol, "reason": rejection})
+            return
 
         # 0. Mum Bayatlık Kontrolü (45 dakikadan eski tetikleyici mumlar elenir)
         candle_dt = candidate.get("candle_time") or candidate.get("datetime")
@@ -250,7 +292,7 @@ class BegonyaEngine:
             return
 
         # 2. Cooldown ve Tekrarlayan Mum Kontrolü (Aynı muma 2. kez sinyal atılmaz)
-        candle_time_str = str(candidate.get("candle_time") or candidate.get("timestamp") or "")
+        candle_time_str = str(candidate.get("candle_time") or candidate.get("datetime") or candidate.get("timestamp") or "")
         if self._is_on_cooldown(symbol, strategy, direction, candle_time=candle_time_str):
             logger.info(f"⏳ Cooldown aktif ({symbol} {strategy} {direction}). Bildirim atlanıyor.")
             return
@@ -262,6 +304,12 @@ class BegonyaEngine:
                 f"🛡️ Makro Kapı Engeli: {symbol} {direction} VETO edildi. Sebep: {macro_eval['reason']}"
             )
             self._log_telemetry("MACRO_VETO", {"signal": candidate, "macro_eval": macro_eval})
+            return
+
+        rejection = risk_rejection(self.outcome_tracker.closed_trades, self.outcome_tracker.active_trades,
+                                   symbol, float(macro_eval["risk_multiplier"]))
+        if rejection:
+            self._log_telemetry("RISK_LIMIT_REJECTED", {"symbol": symbol, "reason": rejection})
             return
 
         logger.info(f"✅ Makro Kapı Onayı Alındı: {symbol} | Risk Çarpanı: {macro_eval['risk_multiplier']}x")
@@ -285,7 +333,8 @@ class BegonyaEngine:
         )
 
         # 6. Canlı İşlem Takipçisine (Outcome Tracker) Kaydet
-        self.outcome_tracker.register_trade(candidate)
+        self.outcome_tracker.register_trade(candidate, macro_eval)
+        self._observe("archive_trades", self.outcome_tracker.active_trades)
 
         # 7. Geçmişe Kaydetme ve Telemetri
         self._record_signal_in_history(symbol, strategy, direction, candidate)
@@ -299,8 +348,9 @@ class BegonyaEngine:
 
     def scan_universe(self) -> List[Dict[str, Any]]:
         """Aktif tüm evreni bir kere tarar."""
+        self._observe("archive_macro", config.MACRO_GATE_FILE)
         findings = []
-        for symbol in self.symbols:
+        for symbol in dict.fromkeys(self.symbols + [t["symbol"] for t in self.outcome_tracker.active_trades]):
             try:
                 res = self.scan_symbol(symbol)
                 if res:
@@ -317,19 +367,28 @@ class BegonyaEngine:
         logger.info(f"Tarama Aralığı: {SCAN_INTERVAL_SECONDS} sn | 0 API Maliyeti Modu")
         logger.info("=" * 65)
 
+        self._log_telemetry("EXECUTION_POLICY_ACTIVE", {
+            "version": "confirmed-v2", "pid": os.getpid(),
+            "daily_loss_limit_r": config.MAX_DAILY_LOSS_R,
+            "consecutive_stop_limit": config.MAX_CONSECUTIVE_STOPS,
+            "open_risk_limit_r": config.MAX_OPEN_RISK_R,
+            "currency_risk_limit_r": config.MAX_CURRENCY_RISK_R,
+            "tracking_timeframe": "1m_closed", "htf": "4h_closed_ema50_200",
+            "passive_observer_enabled": getattr(self, "diagnostics", None) is not None,
+        })
         # 1. Telegram ONLINE Bildirimi Gönder
         try:
             self.notifier.send_status_update(
                 status="ONLINE",
                 details="🟢 <b>Begonya 00 Canlı Tarama Motoru Aktif Edildi.</b>\n"
                         f"🎯 <b>Evren:</b> <code>{len(self.symbols)} Enstrüman</code> ({PRIMARY_TIMEFRAME})\n"
-                        "🛡️ 4H Trend, 1M iFVG/Breaker ve Makro Kapı Filtreleri Nöbette."
+                        "🛡️ 4H trend, 15M iFVG/Breaker, 1M giriş tepkisi ve risk sınırları aktif."
             )
         except Exception as e:
             logger.warning(f"Telegram ONLINE bildirimi hatası: {e}")
 
         try:
-            RUNTIME_LOCK_FILE.write_text(json.dumps({"pid": sys.platform, "started_at": datetime.now().isoformat()}), encoding="utf-8")
+            RUNTIME_LOCK_FILE.write_text(json.dumps({"pid": os.getpid(), "started_at": datetime.now().isoformat()}), encoding="utf-8")
         except Exception:
             pass
 

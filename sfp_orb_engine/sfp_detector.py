@@ -124,14 +124,14 @@ class SFPDetector:
                 p_dist = entry - cand["price"]
                 p_rr = p_dist / risk if risk > 0 else 0
 
-                # TP1 aralığı (Zorunlu Minimum 1.0R): Dönüş olabilecek ilk likidite havuzunun hemen önüne koy
-                if 1.0 <= p_rr <= 1.8 and tp1_note.startswith("Standart"):
+                # TP1 aralığı (Zorunlu Minimum 1.0R, max 1.9R): Dönüş olabilecek ilk likidite havuzunun hemen önüne koy
+                if 1.0 <= p_rr < 2.0 and tp1_note.startswith("Standart"):
                     tp1 = cand["price"] + (atr * 0.05)
                     tp1_r = round(p_rr, 2)
                     tp1_note = f"Manyetik Likidite ({cand['pool_label']} {round(p_rr, 2)}R)"
 
-                # TP2 aralığı (Zorunlu Minimum 3.0R): Ana hedef havuzunun hemen önüne koy
-                elif p_rr >= 3.0 and tp2_note.startswith("Standart"):
+                # TP2 aralığı (Zorunlu Minimum 3.0R): 1:3R veya daha fazla likidite havuzunu ana hedef olarak al
+                elif p_rr - atr * 0.05 / risk >= SFP_MIN_RR_TARGET_2 and tp2_note.startswith("Standart"):
                     tp2 = cand["price"] + (atr * 0.05)
                     default_rr = round(p_rr, 2)
                     tp2_note = f"Manyetik Likidite ({cand['pool_label']} {round(p_rr, 2)}R)"
@@ -157,14 +157,14 @@ class SFPDetector:
                 p_dist = cand["price"] - entry
                 p_rr = p_dist / risk if risk > 0 else 0
 
-                # TP1 aralığı (Zorunlu Minimum 1.0R):
-                if 1.0 <= p_rr <= 1.8 and tp1_note.startswith("Standart"):
+                # TP1 aralığı (Zorunlu Minimum 1.0R, max 1.9R):
+                if 1.0 <= p_rr < 2.0 and tp1_note.startswith("Standart"):
                     tp1 = cand["price"] - (atr * 0.05)
                     tp1_r = round(p_rr, 2)
                     tp1_note = f"Manyetik Likidite ({cand['pool_label']} {round(p_rr, 2)}R)"
 
-                # TP2 aralığı (Zorunlu Minimum 3.0R):
-                elif p_rr >= 3.0 and tp2_note.startswith("Standart"):
+                # TP2 aralığı (Zorunlu Minimum 3.0R): 1:3R veya daha fazla likidite havuzunu ana hedef olarak al
+                elif p_rr - atr * 0.05 / risk >= SFP_MIN_RR_TARGET_2 and tp2_note.startswith("Standart"):
                     tp2 = cand["price"] - (atr * 0.05)
                     default_rr = round(p_rr, 2)
                     tp2_note = f"Manyetik Likidite ({cand['pool_label']} {round(p_rr, 2)}R)"
@@ -420,11 +420,90 @@ class SFPDetector:
             "fvg": None,
         }
 
-    def detect_sfp(self, df: pd.DataFrame, symbol: str) -> Optional[Dict[str, Any]]:
+    def _detect_confirmed_sfp(self, df, symbol, htf_trend):
+        from .strict_setup import confirm_structure
+        from . import config
+        if len(df) < 30:
+            return None
+        expected = {"BULLISH": "LONG", "BEARISH": "SHORT"}.get(htf_trend)
+        if config.REQUIRE_PRO_TREND_AAA and expected is None:
+            return None
+        highs, lows = df.high.values, df.low.values
+        opens, closes = df.open.values, df.close.values
+        i = len(df) - 1
+        atr = self._calculate_atr(df)
+        vol = self.volume_detector.analyze(df, target_index=i)
+        for direction in ([expected] if expected else ["LONG", "SHORT"]):
+            long = direction == "LONG"
+            for j in range(i - 1, max(24, i - 4), -1):
+                # Pools are known at sweep time, never inferred from future candles.
+                pools = self.find_pivots_and_pools(df.iloc[:j+1])
+                names = ("pdl", "asian_low") if long else ("pdh", "asian_high")
+                rng = max(highs[j] - lows[j], 1e-10)
+                wick = (min(opens[j], closes[j]) - lows[j]) if long else (highs[j] - max(opens[j], closes[j]))
+                if wick / rng < self.min_wick_ratio:
+                    continue
+                for name in names:
+                    pool = pools.get(name)
+                    if not pool or pool["pool_type"] not in SFP_ALLOWED_POOLS:
+                        continue
+                    if name.startswith("asian") and not 7 <= df.iloc[j].datetime.hour <= 11:
+                        continue
+                    level = pool["price"]
+                    swept = lows[j] < level < closes[j] if long else closes[j] < level < highs[j]
+                    if not swept:
+                        continue
+                    extreme = lows[j] if long else highs[j]
+                    if any((lows[m] < extreme if long else highs[m] > extreme) for m in range(j+1, i+1)):
+                        continue
+                    trigger = max(highs[j], highs[j-1]) if long else min(lows[j], lows[j-1])
+                    if any((closes[m] > trigger if long else closes[m] < trigger) for m in range(j+1, i)):
+                        continue
+                    if not (closes[i] > trigger if long else closes[i] < trigger):
+                        continue
+                    if abs(closes[i] - opens[i]) / max(highs[i] - lows[i], 1e-10) < 0.35:
+                        continue
+                    confirmation = confirm_structure(direction, j, i, highs, lows, opens, closes, atr,
+                                                     config.REQUIRE_STRUCTURAL_BREAKER, config.USE_IFVG_ENTRY)
+                    if confirmation is None:
+                        continue
+                    ce = calculate_ce_entry(direction=direction, peak_or_valley=extreme,
+                        trigger_price=trigger, close_price=closes[i], fvg_range=confirmation["zone"],
+                        atr=atr, sl_buffer_atr=get_asset_sl_buffer(symbol), entry_model=ENTRY_MODEL,
+                        tp1_r=SFP_RR_TARGET_1, tp2_r=SFP_RR_TARGET_2)
+                    if config.USE_IFVG_ENTRY and ce["entry_source"] != "FVG_50_CE":
+                        continue
+                    entry, sl = ce["entry_price"], ce["stop_loss"]
+                    risk = abs(entry - sl)
+                    sign = 1 if long else -1
+                    return {
+                        "strategy": "SFP_IFVG_BREAKER", "setup_type": "CONFIRMED_SFP",
+                        "symbol": symbol, "direction": direction, "grade": "AAA",
+                        "timeframe": "15m", "datetime": df.iloc[i].datetime,
+                        "htf_trend": htf_trend, "trend_alignment": "PRO_TREND" if expected else "NEUTRAL",
+                        "entry": entry, "stop_loss": sl, "risk_pips": risk,
+                        "tp1": entry + sign * risk * SFP_RR_TARGET_1,
+                        "tp2": entry + sign * risk * SFP_RR_TARGET_2,
+                        "tp1_r": SFP_RR_TARGET_1, "rr_ratio": SFP_RR_TARGET_2,
+                        "tp1_note": f"Standart {SFP_RR_TARGET_1}R", "tp2_note": f"Standart {SFP_RR_TARGET_2}R",
+                        "entry_model": ce["entry_model"], "entry_source": ce["entry_source"],
+                        "is_limit": ce["is_limit"], "zone_low": ce["zone_low"], "zone_high": ce["zone_high"],
+                        "breaker_confirmed": confirmation["breaker_confirmed"],
+                        "ifvg_confirmed": confirmation["ifvg_confirmed"],
+                        "volume_analysis": vol, "atr": atr, "swept_level": level,
+                        "pool_type": pool["pool_type"], "pool_label": pool["pool_label"],
+                        "sweep_wick_ratio": wick / rng, "market_close_entry": float(closes[i]),
+                    }
+        return None
+
+    def detect_sfp(self, df: pd.DataFrame, symbol: str, htf_trend: str = "UNKNOWN") -> Optional[Dict[str, Any]]:
         """
         Son bar icin SFP yapisini ve supurulen likidite havuzunu analiz eder.
         SMC Dealing Range (P/D), FVG Confluence, Mum Kapanis Anatomisi (CLV) ve 2-Bar Kurumsal Pencere teyitlidir.
         """
+        from . import config
+        if config.REQUIRE_STRUCTURAL_BREAKER or config.USE_IFVG_ENTRY or config.REQUIRE_PRO_TREND_AAA:
+            return self._detect_confirmed_sfp(df, symbol, htf_trend)
         if len(df) < 25:
             return None
 

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import datetime as dt
+import calendar
 from typing import Any, Dict, Mapping, Optional
 
 from data_quality import DataUnavailableError, REQUIRED_ECONOMIC_FRED_FIELDS
@@ -90,7 +91,26 @@ def _freshness(fred: Mapping[str, Any], as_of: Optional[dt.date]) -> Dict[str, i
     dates = metadata.get("economic_observation_dates", {}) if isinstance(metadata, Mapping) else {}
     ages: Dict[str, int] = {}
     for field, raw_date in dates.items():
+        if raw_date == "UNAVAILABLE" and field not in REQUIRED_ECONOMIC_FRED_FIELDS and fred.get(field) is None:
+            continue
         observation_date = dt.date.fromisoformat(str(raw_date))
+        if observation_date>as_of:
+            raise DataUnavailableError(f'Future economic observation for {field}: {observation_date}')
+        frequency = FREQUENCIES.get(field, "monthly")
+        # FRED monthly/quarterly observations use reference-period STARTS.
+        # Freshness is measured after that period ended; availability is
+        # separately constrained by the ingestion vintage, never by this date.
+        if observation_date.day == 1 and frequency in {"monthly", "quarterly"}:
+            month = observation_date.month
+            if frequency == "quarterly" and month in {1, 4, 7, 10}:
+                month += 2
+            observation_date = observation_date.replace(month=month, day=calendar.monthrange(observation_date.year, month)[1])
+        published=metadata.get('economic_publication_dates',{}).get(field)
+        if published is not None:
+            publication_date=dt.date.fromisoformat(str(published))
+            if publication_date<dt.date.fromisoformat(str(raw_date)):
+                raise DataUnavailableError('Publication predates economic observation for '+field)
+            observation_date=publication_date
         age = (as_of - observation_date).days
         allowed = MAX_AGE_DAYS[FREQUENCIES.get(field, "monthly")]
         if age < 0:

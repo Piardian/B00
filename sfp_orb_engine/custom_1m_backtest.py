@@ -56,6 +56,8 @@ from .entry_mechanics import (
     detect_structural_breaker_long,
 )
 from .macro_gated_3m_backtest import DailyMacroGateTable
+from .strict_setup import confirm_structure
+from .execution_policy import higher_timeframe_features
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 logger = logging.getLogger("Begonya00.Custom1MBacktest")
@@ -137,7 +139,7 @@ class Custom1MBacktestRunner:
             logger.error("MT5 başlatılamadı!")
             return None
 
-        warmup_from = self.utc_from - timedelta(days=25)
+        warmup_from = self.utc_from - timedelta(days=65)
         rates = mt5.copy_rates_range(symbol, mt5.TIMEFRAME_M15, warmup_from, self.utc_to)
         if rates is None or len(rates) < 500:
             return None
@@ -165,9 +167,11 @@ class Custom1MBacktestRunner:
         df["ash"] = df["date"].map(ash_map).fillna(0.0)
         df["asl"] = df["date"].map(asl_map).fillna(0.0)
 
-        # 3. Yüksek Zaman Dilimi Trendi (4 Saatlik Eşdeğeri: 200 ve 800 barlık EMA)
-        df["htf_ema50"] = df["close"].ewm(span=200, adjust=False).mean()
-        df["htf_ema200"] = df["close"].ewm(span=800, adjust=False).mean()
+        # 3. Yüksek Zaman Dilimi Trendi (Kapanmış gerçek 4H mumları: EMA50/200)
+        features = higher_timeframe_features(df, source_minutes=15)
+        decision_times = pd.DataFrame({"available_at": pd.to_datetime(df["datetime"], utc=True) + pd.Timedelta(minutes=15)})
+        aligned = pd.merge_asof(decision_times, features, on="available_at", direction="backward")
+        df["htf_trend"] = aligned["trend"].fillna("UNKNOWN").to_numpy()
 
         # 4. ATR (14)
         tr = np.maximum(
@@ -203,8 +207,7 @@ class Custom1MBacktestRunner:
         ashs = df["ash"].values
         asls = df["asl"].values
         atrs = df["atr"].values
-        ema50s = df["htf_ema50"].values
-        ema200s = df["htf_ema200"].values
+        htf_trends = df["htf_trend"].values
         weekdays = df["weekday"].values
         hours = df["hour"].values
         minutes = df["minute"].values
@@ -382,8 +385,8 @@ class Custom1MBacktestRunner:
                 continue
 
             # 1. DÜZELTME: Sıkı 4H Trend Uyumu (Grade AAA Zorunluluğu)
-            htf_bull = (c_close > ema50s[i] > ema200s[i])
-            htf_bear = (c_close < ema50s[i] < ema200s[i])
+            htf_bull = htf_trends[i] == "BULLISH"
+            htf_bear = htf_trends[i] == "BEARISH"
             if self.require_pro_trend:
                 allow_short = htf_bear
                 allow_long = htf_bull
@@ -448,14 +451,12 @@ class Custom1MBacktestRunner:
                             b_disp = abs(closes[i] - opens[i]) / bar_rng
                             if b_disp >= 0.35:
                                 # 2. DÜZELTME: Yapısal Breaker Kırılımı Teyidi
-                                if self.require_breaker and not detect_structural_breaker_short(j, i, highs, lows, opens, closes):
+                                confirmation = confirm_structure("SHORT", j, i, highs, lows, opens, closes,
+                                    c_atr, self.require_breaker, self.use_ifvg)
+                                if confirmation is None:
                                     continue
-
-                                # 2. DÜZELTME: Inversion FVG (iFVG) %50 CE Giriş Bölgesi
-                                target_zone = None
-                                if self.use_ifvg:
-                                    target_zone = detect_ifvg_short(i, highs, lows, closes, c_atr)
-                                else:
+                                target_zone = confirmation["zone"]
+                                if not self.use_ifvg:
                                     has_fvg = (lows[i-2] > highs[i]) and ((lows[i-2] - highs[i]) >= c_atr * 0.08)
                                     if has_fvg:
                                         target_zone = (float(lows[i-2]), float(highs[i]))
@@ -530,14 +531,12 @@ class Custom1MBacktestRunner:
                             b_disp = abs(closes[i] - opens[i]) / bar_rng
                             if b_disp >= 0.35:
                                 # 2. DÜZELTME: Yapısal Breaker Kırılımı Teyidi
-                                if self.require_breaker and not detect_structural_breaker_long(j, i, highs, lows, opens, closes):
+                                confirmation = confirm_structure("LONG", j, i, highs, lows, opens, closes,
+                                    c_atr, self.require_breaker, self.use_ifvg)
+                                if confirmation is None:
                                     continue
-
-                                # 2. DÜZELTME: Inversion FVG (iFVG) %50 CE Giriş Bölgesi
-                                target_zone = None
-                                if self.use_ifvg:
-                                    target_zone = detect_ifvg_long(i, highs, lows, closes, c_atr)
-                                else:
+                                target_zone = confirmation["zone"]
+                                if not self.use_ifvg:
                                     has_fvg = (lows[i] > highs[i-2]) and ((lows[i] - highs[i-2]) >= c_atr * 0.08)
                                     if has_fvg:
                                         target_zone = (float(highs[i-2]), float(lows[i]))

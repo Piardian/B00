@@ -17,7 +17,10 @@ from preprocessing.metrics_legacy import MacroMetricsCalculator as _LegacyMacroM
 @contextmanager
 def _fixed_legacy_date(as_of_date: Optional[dt.date], as_of_datetime: Optional[dt.datetime]=None, state: Optional[Mapping[str,Any]]=None):
     legacy=__import__("preprocessing.metrics_legacy",fromlist=["datetime"]); od,ot,og=legacy.datetime.date,legacy.datetime.datetime,legacy.BIAS_GATE_FILE
-    d=as_of_date or (as_of_datetime.date() if as_of_datetime else dt.date.today()); t=as_of_datetime or dt.datetime.combine(d,dt.time.min,tzinfo=dt.timezone.utc)
+    d=as_of_date or (as_of_datetime.date() if as_of_datetime else dt.date.today())
+    # Live calls do not pass as_of. Preserve their actual intraday time;
+    # midnight would disable the intraday economic-event circuit breaker.
+    t=as_of_datetime or (dt.datetime.combine(d,dt.time.min,tzinfo=dt.timezone.utc) if as_of_date is not None else dt.datetime.now(dt.timezone.utc))
     class FD(od):
         @classmethod
         def today(cls): return d
@@ -92,7 +95,17 @@ class MacroMetricsCalculator(_LegacyMacroMetricsCalculator):
             if n in fred_data and fred_data[n] is not None:validate_numeric_range(n,fred_data[n],lo,hi)
     def _validate_fred_freshness(self,fred_data:Dict[str,Any],as_of:Optional[dt.date])->Dict[str,int]:
         if as_of is None:return {}
-        obs=fred_data.get("data_quality",{}).get("observation_dates",{});return {f:validate_freshness(f,dt.date.fromisoformat(str(v)),as_of,self.FRED_FREQUENCIES.get(f,"unknown"),self.FRED_MAX_AGE_DAYS.get(f)) for f,v in obs.items()}
+        quality=fred_data.get('data_quality',{})
+        obs=quality.get('observation_dates',{});published=quality.get('publication_dates',{})
+        ages={}
+        for field,value in obs.items():
+            reference=dt.date.fromisoformat(str(value))
+            if reference>as_of:raise DataUnavailableError('Future observation detected for '+field)
+            date=dt.date.fromisoformat(published[field]) if field in published else reference
+            if date<reference:raise DataUnavailableError('Publication predates reference observation for '+field)
+            allowance=None if field in published else self.FRED_MAX_AGE_DAYS.get(field)
+            ages[field]=validate_freshness(field,date,as_of,self.FRED_FREQUENCIES.get(field,'unknown'),allowance)
+        return ages
     def process_all_macro_data(self,market_data:Dict[str,Any],fred_data:Dict[str,Any],calendar_events:List[Dict[str,Any]],as_of_date:Optional[dt.date]=None,as_of_datetime:Optional[dt.datetime]=None,previous_regime_state:Optional[Mapping[str,Any]]=None,now_utc:Optional[dt.datetime]=None)->Dict[str,Any]:
         core_market_fields = set(REQUIRED_MARKET_FIELDS)
         missing_market = sorted(name for name in core_market_fields if name not in market_data)

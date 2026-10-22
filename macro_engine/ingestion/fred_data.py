@@ -1,4 +1,5 @@
 from __future__ import annotations
+from pathlib import Path
 
 import datetime as dt
 import json
@@ -93,6 +94,42 @@ class FredDataIngestion:
         self.api_key = api_key
         self.timeout = timeout
 
+    @property
+    def _cache_path(self) -> Path:
+        p = Path(__file__).resolve().parent.parent / "data" / "cache" / "fred_observations_cache.json"
+        p.parent.mkdir(parents=True, exist_ok=True)
+        return p
+
+    def _load_from_cache(self, series_id: str) -> Optional[List[Tuple[dt.date, float]]]:
+        if not self._cache_path.exists():
+            return None
+        try:
+            raw = json.loads(self._cache_path.read_text(encoding="utf-8"))
+            items = raw.get(series_id)
+            if not items:
+                for k, v in getattr(self, "FRED_SERIES", {}).items():
+                    if v == series_id and k in raw:
+                        items = raw[k]
+                        break
+            if items and len(items) >= 6:
+                return [(dt.date.fromisoformat(d), float(v)) for d, v in items]
+        except Exception:
+            return None
+        return None
+
+    def _save_to_cache(self, series_id: str, rows: List[Tuple[dt.date, float]]):
+        try:
+            raw = {}
+            if self._cache_path.exists():
+                try:
+                    raw = json.loads(self._cache_path.read_text(encoding="utf-8"))
+                except Exception:
+                    raw = {}
+            raw[series_id] = [[d.isoformat(), v] for d, v in rows]
+            self._cache_path.write_text(json.dumps(raw, indent=2), encoding="utf-8")
+        except Exception:
+            pass
+
     def _get_observations(
         self,
         series_id: str,
@@ -148,6 +185,10 @@ class FredDataIngestion:
                 masked_msg = _mask_api_key(str(exc), self.api_key)
                 raise DataUnavailableError(f"FRED request failed for {series_id}: {masked_msg}") from None
         except Exception as exc:
+            cached = self._load_from_cache(series_id)
+            if cached and len(cached) >= 6:
+                logger.warning("FRED API unreachable/maintenance: %s için yerel önbellek (%d gözlem) kullanılıyor.", series_id, len(cached))
+                return cached
             masked_msg = _mask_api_key(str(exc), self.api_key)
             raise DataUnavailableError(
                 f"FRED request failed for {series_id}: {masked_msg}"
@@ -166,9 +207,13 @@ class FredDataIngestion:
             rows.append((date, value))
 
         if not rows:
+            cached = self._load_from_cache(series_id)
+            if cached and len(cached) >= 6:
+                return cached
             raise DataUnavailableError(
                 f"FRED returned no numeric observations for {series_id}"
             )
+        self._save_to_cache(series_id, rows)
         return rows
 
     def _current_and_4w(
@@ -178,9 +223,14 @@ class FredDataIngestion:
         units: Optional[str] = None,
     ) -> Tuple[float, float, dt.date, dt.date]:
         target = as_of - dt.timedelta(days=28)
+        # GDP observations are dated at the start of the reference quarter.
+        # At the beginning of a new quarter the latest released quarter can be
+        # more than 118 days old; a daily-series window must not discard it.
+        monthly_series = {"M2SL", "IRLTLT01DEM156N", "CPIAUCSL", "CPILFESL", "PCEPI", "PCEPILFE", "PAYEMS", "UNRATE", "CES0500000003", "INDPRO", "RSAFS", "CP0000EZ19M086NEST"}
+        lookback_days = 365 if series_id == "A191RL1Q225SBEA" or series_id in monthly_series else 90
         rows = self._get_observations(
             series_id,
-            target - dt.timedelta(days=90),
+            target - dt.timedelta(days=lookback_days),
             as_of,
             realtime_end=as_of,
             units=units,

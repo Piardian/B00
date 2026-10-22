@@ -89,6 +89,11 @@ class MacroGateClient:
         risk_mult = state.get("risk_multiplier", 1.0)
         cap_pres = state.get("capital_preservation_mode", False)
 
+        if not state.get("active") or gate_bias == "NEUTRAL_RANGE":
+            return {"allowed": False, "decision": "VETO_NEUTRAL_OR_UNAVAILABLE",
+                    "reason": "Yönlü ve okunabilir makro kapı gerekli.",
+                    "gate_bias": gate_bias, "regime": regime, "risk_multiplier": 0.0}
+
         # 1. Sermaye Koruma Modu Kontrolü
         if cap_pres:
             return {

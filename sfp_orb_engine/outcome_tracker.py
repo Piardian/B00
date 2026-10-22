@@ -7,11 +7,14 @@ import json
 import time
 import logging
 from typing import Dict, Any, List, Optional
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from .config import DATA_DIR, NOTIFY_TRADE_LIFECYCLE, is_market_open, round_price, is_crypto
 from .telegram_notifier import TelegramNotifier
+from . import config
+from .execution_policy import utc_time, risk_rejection, NO_FILL_REASONS, TRT
+from .entry_mechanics import is_slice_through_candle, evaluate_entry_candle_reaction
 
 logger = logging.getLogger("Begonya00.OutcomeTracker")
 
@@ -53,20 +56,30 @@ class OutcomeTracker:
 
     def _save_json(self, path: Path, data: Any):
         try:
+            import os
+            import time
+            tmp_path = path.with_suffix(".tmp")
+            tmp_path.write_text(json.dumps(data, indent=2, default=str), encoding="utf-8")
+            for attempt in range(5):
+                try:
+                    os.replace(tmp_path, path)
+                    return
+                except PermissionError:
+                    time.sleep(0.05)
             path.write_text(json.dumps(data, indent=2, default=str), encoding="utf-8")
         except Exception as e:
             logger.warning(f"Dosya kaydedilemedi ({path}): {e}")
 
-    def register_trade(self, signal: Dict[str, Any]):
+    def register_trade(self, signal: Dict[str, Any], macro_eval=None):
         """Yeni acilan sinyali canli takip listesine ekler."""
         symbol = signal.get("symbol")
         strategy = signal.get("strategy")
         direction = signal.get("direction")
-        entry = round_price(float(signal.get("entry", 0.0)))
-        sl = round_price(float(signal.get("stop_loss", 0.0)))
-        tp1 = round_price(float(signal.get("tp1", 0.0)))
-        tp2 = round_price(float(signal.get("tp2", 0.0)))
-        risk_pips = round_price(float(signal.get("risk_pips", 0.0)))
+        entry = float(signal.get("entry", 0.0))
+        sl = float(signal.get("stop_loss", 0.0))
+        tp1 = float(signal.get("tp1", 0.0))
+        tp2 = float(signal.get("tp2", 0.0))
+        risk_pips = float(signal.get("risk_pips", 0.0))
         rr = float(signal.get("rr_ratio", 2.5))
         entry_candle_time = str(signal.get("datetime") or signal.get("candle_time") or "")
 
@@ -83,12 +96,17 @@ class OutcomeTracker:
             "current_sl": sl,
             "tp1": tp1,
             "tp2": tp2,
-            "tp1_r": float(signal.get("tp1_r", 1.0)),
-            "risk_pips": risk_pips,
-            "rr_ratio": rr,
+            "tp1_r": abs(tp1-entry)/abs(entry-sl),
+            "risk_pips": abs(entry - sl),
+            "risk_multiplier": float((macro_eval or {}).get("risk_multiplier", 1.0)),
+            "gate_bias": (macro_eval or {}).get("gate_bias"),
+            "policy_version": "confirmed-v2",
+            "zone_low": float(signal.get("zone_low", min(entry, sl))),
+            "zone_high": float(signal.get("zone_high", max(entry, sl))),
+            "rr_ratio": abs(tp2-entry)/abs(entry-sl),
             "status": "PENDING_LIMIT",  # "PENDING_LIMIT", "OPEN", "TP1_HIT", "TRAILING_ACTIVE", "CLOSED"
             "entry_candle_time": entry_candle_time,
-            "opened_at": datetime.now().isoformat(),
+            "opened_at": datetime.now(timezone.utc).isoformat(),
             "last_checked_at": datetime.now().isoformat(),
         }
 
@@ -97,250 +115,117 @@ class OutcomeTracker:
         logger.info(f"📝 Yeni emir limit takibe alindi (Retest Bekleniyor): {trade_id} ({symbol} {direction} @ {entry})")
 
     def check_trade_progress(self, symbol: str, current_bar: Dict[str, Any]):
+        """Consume each completed UTC 1m bar once. Ambiguous OHLC exits use stop first.
+
+        A reaction-confirmed fill becomes active at bar close. No earlier wick in
+        that same bar can then be claimed as a profit or a stop after the fill.
         """
-        Gelen son bar ile sembolun acik pozisyonlarini kontrol eder.
-        Giris mumu icindeyken gecmis fitillere (hayali stoplara) carpilmamasi icin
-        anlik close fiyatindan degerlendirme yapilir.
-        """
-        if not is_market_open(symbol):
+        bar_time = utc_time(current_bar["datetime"])
+        event_time = bar_time + timedelta(minutes=1)
+        if event_time > datetime.now(timezone.utc):
             return
-
-        high = float(current_bar.get("high", 0.0))
-        low = float(current_bar.get("low", 0.0))
-        close = float(current_bar.get("close", 0.0))
-        bar_dt_str = str(current_bar.get("datetime") or "")
-
-        remaining_trades = []
-
+        high, low, close, open_p = (float(current_bar[k]) for k in ("high", "low", "close", "open"))
+        remaining = []
         for trade in self.active_trades:
-            if trade["symbol"] != symbol or trade["status"] == "CLOSED":
-                remaining_trades.append(trade)
+            if trade["symbol"] != symbol:
+                remaining.append(trade)
                 continue
-
-            direction = trade["direction"]
-            entry = trade["entry"]
-            current_sl = trade["current_sl"]
-            tp1 = trade["tp1"]
-            tp2 = trade["tp2"]
+            opened = utc_time(trade["opened_at"], legacy_local=True)
+            last = trade.get("last_processed_bar")
+            if bar_time < opened or (last and bar_time <= utc_time(last)):
+                remaining.append(trade)
+                continue
+            # Require an uninterrupted history, allowing only known market closure.
+            expected = utc_time(last) + timedelta(minutes=1) if last else opened.replace(second=0, microsecond=0) + timedelta(minutes=1)
+            if not last and opened.second == 0 and opened.microsecond == 0:
+                expected = opened
+            while expected < bar_time and not is_market_open(symbol, expected):
+                expected += timedelta(minutes=1)
+            if expected < bar_time:
+                trade["tracking_gap_at"] = expected.isoformat()
+                logger.warning("Missing 1m history for %s at %s; awaiting backfill", trade["id"], expected)
+                remaining.append(trade)
+                continue
+            trade.pop("tracking_gap_at", None)
+            trade["last_processed_bar"] = bar_time.isoformat()
+            trade["last_checked_at"] = event_time.isoformat()
+            long = trade["direction"] == "LONG"
+            entry, sl = trade["entry"], trade["current_sl"]
+            risk = abs(entry - trade["original_sl"])
+            spread = entry * get_friction_config(symbol)["spread_ratio"]
             status = trade["status"]
-            entry_candle_time = trade.get("entry_candle_time", "")
-
-            # HAYALI STOP KORUMASI:
-            # Eger henuz islemin acildigi giris mumu devam ediyorsa, islemin acilisindan once
-            # olusmus gecmis fitillere (high/low) bakilmaz; anlik canli fiyata (close) bakilir!
-            is_entry_bar = bool(entry_candle_time and bar_dt_str == entry_candle_time)
-            eval_high = close if is_entry_bar else high
-            eval_low = close if is_entry_bar else low
-
-            trade["last_checked_at"] = datetime.now().isoformat()
-            closed = False
-            close_reason = ""
-            r_result = 0.0
-
-            # Gerçekçi Borsa İcra Kalkanı (Real-World Friction Model)
-            friction = get_friction_config(symbol)
-            spread_buf = entry * friction["spread_ratio"]
-            fee_r = friction["fee_r"]
-
-            # 0. EĞER EMİR HENÜZ LİMİT BEKLEMEDEYSE (PENDING_LIMIT):
-            # Fiyatın entry seviyesine retest verip vermediği kontrol edilir.
-            # Spread tamponu eklenir: Alışta Ask, Satışta Bid emri dolduracak kadar derinleşmelidir!
+            reason = None
+            gross = 0.0
             if status == "PENDING_LIMIT":
-                is_filled = False
-                if direction == "LONG":
-                    if eval_low <= (entry - spread_buf):
-                        is_filled = True
-                    elif eval_high >= (tp1 + spread_buf):
-                        closed = True
-                        close_reason = "EXPIRED_NO_FILL"
-                        r_result = 0.0
-                        logger.info(f"⏳ Retest vermeden TP1'e gitti, emir iptal edildi: {trade['id']}")
-                else:  # SHORT
-                    if eval_high >= (entry + spread_buf):
-                        is_filled = True
-                    elif eval_low <= (tp1 - spread_buf):
-                        closed = True
-                        close_reason = "EXPIRED_NO_FILL"
-                        r_result = 0.0
-                        logger.info(f"⏳ Retest vermeden TP1'e gitti, emir iptal edildi: {trade['id']}")
-
-                # 4 saat (16 bar) boyunca dolmadıysa zaman aşımıyla iptal et
-                if not is_filled and not closed:
-                    try:
-                        opened_dt = datetime.fromisoformat(trade.get("opened_at", ""))
-                        if (datetime.now() - opened_dt).total_seconds() > 14400:
-                            closed = True
-                            close_reason = "TIMEOUT_NO_FILL"
-                            r_result = 0.0
-                            logger.info(f"⏱️ Retest zaman aşımı (4 saat dolmadı): {trade['id']}")
-                    except Exception:
-                        pass
-
-                if is_filled:
-                    trade["status"] = "OPEN"
-                    trade["filled_at"] = datetime.now().isoformat()
-                    status = "OPEN"
-                    logger.info(f"🎯 Emir Dolduruldu (Spread Aşımı ile Fill): {trade['id']} @ {entry}")
-                    self._save_json(ACTIVE_TRADES_FILE, self.active_trades)
-                elif closed:
-                    trade["status"] = "CLOSED"
-                    trade["close_reason"] = close_reason
-                    trade["r_result"] = 0.0
-                    trade["gross_r"] = 0.0
-                    trade["net_r"] = 0.0
-                    trade["fee_r"] = 0.0
-                    trade["closed_at"] = datetime.now().isoformat()
-                    self.closed_trades.append(trade)
-                    self._save_json(CLOSED_LEDGER_FILE, self.closed_trades)
-                    continue
-                else:
-                    remaining_trades.append(trade)
-                    continue
-
-            tp1_r = float(trade.get("tp1_r", 1.0))
-            tp2_r = float(trade.get("rr_ratio", 3.0))
-            be_r = round(tp1_r * 0.5, 2)
-            full_win_r = round((tp1_r * 0.5) + (tp2_r * 0.5), 2)
-
-            event_type = ""
-            event_details = ""
-            risk_dist = float(trade.get("risk_pips", 0.0))
-            if risk_dist <= 0:
-                risk_dist = abs(entry - float(trade.get("original_sl", entry)))
-
-            # 1. LONG ISLEM KONTROLU (Çıkış Bid fiyatındandır, TP'nin spread kadar üzerine çıkılması gerekir)
-            if direction == "LONG":
-                # TP2 Vuruldu mu? (Tam Kazanç)
-                if eval_high >= (tp2 + spread_buf):
-                    closed = True
-                    close_reason = "TP2_HIT"
-                    r_result = full_win_r
-                    event_type = "TP2_HIT"
-                    event_details = f"+{full_win_r}R Brüt | Net Ele Geçen: +{round(full_win_r - fee_r, 2)}R (%50 @ {tp1_r}R + %50 @ {tp2_r}R)"
-
-                # İZ SÜREN STOP (TRAILING SL): Fiyat TP1 ile TP2 arasında +1.5R'a ulaştıysa Stop'u +0.75R'a çek
-                elif status == "TP1_HIT" and risk_dist > 0 and eval_high >= (entry + (risk_dist * 1.5) + spread_buf):
-                    trail_sl = round_price(entry + (risk_dist * 0.75))
-                    if trail_sl > current_sl:
-                        trade["current_sl"] = trail_sl
-                        trade["status"] = "TRAILING_ACTIVE"
-                        trade["trailing_r"] = 0.75
-                        self._save_json(ACTIVE_TRADES_FILE, self.active_trades)
-                        self._notify_lifecycle(
-                            trade,
-                            event_type="TRAILING_SL",
-                            details=f"Fiyat +1.5R hedefine yaklaştı! Kârı kilitlemek için Stop {trail_sl} (+0.75R) seviyesine çekildi."
-                        )
-
-                # TP1 Vuruldu mu? (Kısmi Kâr & Break-Even)
-                elif eval_high >= (tp1 + spread_buf) and status == "OPEN":
-                    trade["status"] = "TP1_HIT"
-                    trade["tp1_hit_at"] = datetime.now().isoformat()
-                    trade["current_sl"] = entry  # Stop'u başabaşa çek
-                    self._save_json(ACTIVE_TRADES_FILE, self.active_trades)
-                    self._notify_lifecycle(
-                        trade,
-                        event_type="TP1",
-                        details=f"Pozisyonun %50'si kapatıldı (Brüt: +{be_r}R / Net: +{round(be_r - (fee_r * 0.5), 2)}R cepte), Stop Giriş Fiyatına ({entry}) çekildi!"
-                    )
-
-                # SL Vuruldu mu?
-                elif eval_low <= current_sl:
-                    closed = True
-                    if status == "TRAILING_ACTIVE":
-                        close_reason = "TRAILING_STOP"
-                        r_result = round(be_r + (float(trade.get("trailing_r", 0.75)) * 0.5), 2)
-                        event_type = "TRAILING_STOP"
-                        event_details = f"İz süren kâr stopu tetiklendi. Brüt: +{r_result}R | Net: +{round(r_result - fee_r, 2)}R"
-                    elif status == "TP1_HIT":
-                        close_reason = "BREAK_EVEN"
-                        r_result = be_r  # TP1'de alınan %50 kâr cepte kaldı
-                        event_type = "BREAK_EVEN"
-                        event_details = f"TP1 sonrası kalan parça girişte kapandı. Brüt: +{be_r}R | Net Ele Geçen: +{round(be_r - fee_r, 2)}R"
+                others = [t for t in self.active_trades if t is not trade]
+                rejection = risk_rejection(self.closed_trades, others, symbol,
+                    float(trade.get("risk_multiplier", 1.0)), event_time)
+                touched = low <= entry - spread if long else high >= entry + spread
+                expired = event_time >= opened + timedelta(minutes=15 * config.LIMIT_EXPIRY_BARS)
+                if rejection:
+                    reason = "RISK_LIMIT_CANCELLED"
+                    trade["risk_rejection"] = rejection
+                elif expired:
+                    reason = "TIMEOUT_NO_FILL"
+                elif touched:
+                    zone_low = trade.get("zone_low", min(entry, sl))
+                    zone_high = trade.get("zone_high", max(entry, sl))
+                    stop_touched = low <= sl if long else high >= sl
+                    invalid = config.REQUIRE_ENTRY_REACTION and (
+                        stop_touched or is_slice_through_candle(trade["direction"], open_p, high, low, close, zone_low, zone_high)
+                        or not evaluate_entry_candle_reaction(trade["direction"], open_p, high, low, close, zone_low, zone_high))
+                    if invalid:
+                        reason = "ENTRY_REACTION_REJECTED"
                     else:
-                        close_reason = "STOP_LOSS"
-                        r_result = -1.0
-                        event_type = "STOP_LOSS"
-                        event_details = f"-1.00R Brüt Kayıp | Net: -{round(1.0 + fee_r, 2)}R ({trade['risk_pips']} pip + komisyon/slipaj)"
-
-            # 2. SHORT ISLEM KONTROLU (Çıkış Ask fiyatındandır, TP'nin spread kadar altına inilmesi gerekir)
-            elif direction == "SHORT":
-                if eval_low <= (tp2 - spread_buf):
-                    closed = True
-                    close_reason = "TP2_HIT"
-                    r_result = full_win_r
-                    event_type = "TP2_HIT"
-                    event_details = f"+{full_win_r}R Brüt | Net Ele Geçen: +{round(full_win_r - fee_r, 2)}R (%50 @ {tp1_r}R + %50 @ {tp2_r}R)"
-
-                # İZ SÜREN STOP (TRAILING SL): Fiyat TP1 ile TP2 arasında +1.5R'a ulaştıysa Stop'u +0.75R kâra indir
-                elif status == "TP1_HIT" and risk_dist > 0 and eval_low <= (entry - (risk_dist * 1.5) - spread_buf):
-                    trail_sl = round_price(entry - (risk_dist * 0.75))
-                    if trail_sl < current_sl:
-                        trade["current_sl"] = trail_sl
-                        trade["status"] = "TRAILING_ACTIVE"
-                        trade["trailing_r"] = 0.75
-                        self._save_json(ACTIVE_TRADES_FILE, self.active_trades)
-                        self._notify_lifecycle(
-                            trade,
-                            event_type="TRAILING_SL",
-                            details=f"Fiyat +1.5R hedefine yaklaştı! Kârı kilitlemek için Stop {trail_sl} (+0.75R) seviyesine indirildi."
-                        )
-
-                elif eval_low <= (tp1 - spread_buf) and status == "OPEN":
-                    trade["status"] = "TP1_HIT"
-                    trade["tp1_hit_at"] = datetime.now().isoformat()
-                    trade["current_sl"] = entry
-                    self._save_json(ACTIVE_TRADES_FILE, self.active_trades)
-                    self._notify_lifecycle(
-                        trade,
-                        event_type="TP1",
-                        details=f"Pozisyonun %50'si kapatıldı (Brüt: +{be_r}R / Net: +{round(be_r - (fee_r * 0.5), 2)}R cepte), Stop Giriş Fiyatına ({entry}) çekildi!"
-                    )
-
-                elif eval_high >= current_sl:
-                    closed = True
-                    if status == "TRAILING_ACTIVE":
-                        close_reason = "TRAILING_STOP"
-                        r_result = round(be_r + (float(trade.get("trailing_r", 0.75)) * 0.5), 2)
-                        event_type = "TRAILING_STOP"
-                        event_details = f"İz süren kâr stopu tetiklendi. Brüt: +{r_result}R | Net: +{round(r_result - fee_r, 2)}R"
-                    elif status == "TP1_HIT":
-                        close_reason = "BREAK_EVEN"
-                        r_result = be_r
-                        event_type = "BREAK_EVEN"
-                        event_details = f"TP1 sonrası kalan parça girişte kapandı. Brüt: +{be_r}R | Net Ele Geçen: +{round(be_r - fee_r, 2)}R"
-                    else:
-                        close_reason = "STOP_LOSS"
-                        r_result = -1.0
-                        event_type = "STOP_LOSS"
-                        event_details = f"-1.00R Brüt Kayıp | Net: -{round(1.0 + fee_r, 2)}R ({trade['risk_pips']} pip + komisyon/slipaj)"
-
-            if closed:
-                gross_r = r_result
-                if close_reason in ["INVALID_GHOST_SIGNAL", "EXPIRED_NO_FILL", "TIMEOUT_NO_FILL"]:
-                    fee_applied = 0.0
-                    net_r = 0.0
-                else:
-                    fee_applied = fee_r
-                    net_r = round(gross_r - fee_applied, 2)
-
-                trade["status"] = "CLOSED"
-                trade["close_reason"] = close_reason
-                trade["r_result"] = gross_r
-                trade["gross_r"] = gross_r
-                trade["net_r"] = net_r
-                trade["fee_r"] = fee_applied
-                trade["closed_at"] = datetime.now().isoformat()
-                self.closed_trades.append(trade)
-                self._save_json(CLOSED_LEDGER_FILE, self.closed_trades)
-                logger.info(f"🏁 Islem kapandi: {trade['id']} -> {close_reason} (Brüt: {gross_r:+.2f}R | Net: {net_r:+.2f}R)")
-                if event_type:
-                    self._notify_lifecycle(trade, event_type=event_type, details=event_details)
+                        trade["status"] = "OPEN"
+                        trade["filled_at"] = event_time.isoformat()
+                        trade["fill_model"] = "REACTION_CONFIRMED_AT_BAR_CLOSE"
+                        if not config.REQUIRE_ENTRY_REACTION and stop_touched:
+                            reason, gross = "STOP_LOSS", -1.0
+                elif (high >= trade["tp1"] + spread if long else low <= trade["tp1"] - spread):
+                    reason = "EXPIRED_NO_FILL"
             else:
-                remaining_trades.append(trade)
+                # OHLC cannot establish ordering. Use the stop already in force
+                # at bar open before targets or a newly tightened stop.
+                stop_hit = low <= sl if long else high >= sl
+                tp2_hit = high >= trade["tp2"] + spread if long else low <= trade["tp2"] - spread
+                tp1_hit = high >= trade["tp1"] + spread if long else low <= trade["tp1"] - spread
+                tp1_r = abs(trade["tp1"] - entry) / risk
+                if stop_hit:
+                    if status == "OPEN":
+                        reason, gross = "STOP_LOSS", -1.0
+                    else:
+                        reason = "TRAILING_STOP" if status == "TRAILING_ACTIVE" else "BREAK_EVEN"
+                        gross = 0.5 * tp1_r + 0.5 * ((sl - entry) if long else (entry - sl)) / risk
+                    trade["ambiguous_exit_bar"] = bool(tp2_hit or tp1_hit)
+                elif tp2_hit:
+                    reason = "TP2_HIT"
+                    gross = 0.5 * tp1_r + 0.5 * abs(trade["tp2"] - entry) / risk
+                elif tp1_hit and status == "OPEN":
+                    trade.update(status="TP1_HIT", current_sl=entry, tp1_hit_at=event_time.isoformat())
+                    self._notify_lifecycle(trade, "TP1", "Kapanmış 1m mumda TP1 teyit edildi; kalan yarının stopu girişte.")
+                elif status == "TP1_HIT" and (high >= entry + 1.5*risk + spread if long else low <= entry - 1.5*risk - spread):
+                    trade.update(status="TRAILING_ACTIVE", current_sl=entry + (0.75*risk if long else -0.75*risk), trailing_r=0.75)
+                    self._notify_lifecycle(trade, "TRAILING_SL", "Kalan yarının stopu +0.75R seviyesinde; sonraki mumdan itibaren geçerli.")
+            if reason:
+                self._close_trade(trade, reason, gross, event_time)
+            else:
+                remaining.append(trade)
+        self.active_trades = remaining
+        self._save_json(ACTIVE_TRADES_FILE, remaining)
 
-        self.active_trades = remaining_trades
-        self._save_json(ACTIVE_TRADES_FILE, self.active_trades)
+    def _close_trade(self, trade, reason, gross, event_time):
+        fee = 0.0 if reason in NO_FILL_REASONS else get_friction_config(trade["symbol"])["fee_r"]
+        net = round(gross - fee, 6)
+        multiplier = float(trade.get("risk_multiplier", 1.0))
+        trade.update(status="CLOSED", close_reason=reason, r_result=round(gross, 6),
+                     gross_r=round(gross, 6), net_r=net, fee_r=fee,
+                     weighted_net_r=round(net * multiplier, 6), closed_at=event_time.isoformat())
+        self.closed_trades.append(trade)
+        self._save_json(CLOSED_LEDGER_FILE, self.closed_trades)
+        logger.info("Trade closed: %s -> %s (%+.3fR)", trade["id"], reason, net)
+        if reason not in NO_FILL_REASONS:
+            self._notify_lifecycle(trade, reason, f"Net sonuç: {net:+.3f}R; risk çarpanlı: {net * multiplier:+.3f}R")
 
     def get_monthly_counters(self, current_dt: Optional[datetime] = None) -> Dict[str, Any]:
         """O anki aya ait TP1, TP2, BE ve SL sayaclarini hem Brut hem de Net R performansini dondurur."""
@@ -350,7 +235,7 @@ class OutcomeTracker:
 
         month_closed = [
             t for t in self.closed_trades
-            if (t.get("closed_at") or t.get("opened_at", ""))[:7] == month_key
+            if utc_time(t.get("closed_at") or t["opened_at"], legacy_local=True).astimezone(TRT).strftime("%Y-%m") == month_key
         ]
 
         sl_count = sum(1 for t in month_closed if t.get("close_reason") == "STOP_LOSS")
@@ -359,7 +244,7 @@ class OutcomeTracker:
 
         active_tp1 = sum(
             1 for t in self.active_trades
-            if t.get("status") in ["TP1_HIT", "TRAILING_ACTIVE"] and (t.get("opened_at", ""))[:7] == month_key
+            if t.get("status") in ["TP1_HIT", "TRAILING_ACTIVE"] and utc_time(t["opened_at"], legacy_local=True).astimezone(TRT).strftime("%Y-%m") == month_key
         )
         closed_tp1 = sum(
             1 for t in month_closed
@@ -367,19 +252,19 @@ class OutcomeTracker:
         )
         tp1_count = active_tp1 + closed_tp1
 
-        valid_closed = [t for t in month_closed if t.get("close_reason") not in ["INVALID_GHOST_SIGNAL", "EXPIRED_NO_FILL", "TIMEOUT_NO_FILL"]]
+        valid_closed = [t for t in month_closed if t.get("close_reason") not in NO_FILL_REASONS]
         closed_gross_r = sum(float(t.get("gross_r", t.get("r_result", 0.0))) for t in valid_closed)
         closed_net_r = sum(float(t.get("net_r", float(t.get("r_result", 0.0)) - 0.08)) for t in valid_closed)
 
         active_locked_gross_r = sum(
             round(float(t.get("tp1_r", 1.0)) * 0.5, 2)
             for t in self.active_trades
-            if t.get("status") in ["TP1_HIT", "TRAILING_ACTIVE"] and (t.get("opened_at", ""))[:7] == month_key
+            if t.get("status") in ["TP1_HIT", "TRAILING_ACTIVE"] and utc_time(t["opened_at"], legacy_local=True).astimezone(TRT).strftime("%Y-%m") == month_key
         )
         active_locked_net_r = sum(
             round((float(t.get("tp1_r", 1.0)) * 0.5) - 0.04, 2)
             for t in self.active_trades
-            if t.get("status") in ["TP1_HIT", "TRAILING_ACTIVE"] and (t.get("opened_at", ""))[:7] == month_key
+            if t.get("status") in ["TP1_HIT", "TRAILING_ACTIVE"] and utc_time(t["opened_at"], legacy_local=True).astimezone(TRT).strftime("%Y-%m") == month_key
         )
 
         total_gross_r = round(closed_gross_r + active_locked_gross_r, 2)
@@ -400,6 +285,8 @@ class OutcomeTracker:
             "sl_count": sl_count,
             "gross_r": round(closed_gross_r, 2),
             "net_r": round(closed_net_r, 2),
+            "weighted_net_r": round(sum(t["weighted_net_r"] for t in valid_closed if "weighted_net_r" in t), 6),
+            "weighted_trade_count": sum("weighted_net_r" in t for t in valid_closed),
             "total_gross_r": total_gross_r,
             "total_net_r": total_net_r,
         }
@@ -456,9 +343,9 @@ class OutcomeTracker:
             f"🎯 <b>TP (Hedef):</b> <code>{counters['tp1_count']}</code> (Tam TP2: <code>{counters['tp2_count']}</code>)",
             f"🛡️ <b>BE / Kâr Stopu:</b> <code>{counters['be_count']}</code>",
             f"🛑 <b>SL (Stop Loss):</b> <code>{counters['sl_count']}</code>",
-            f"📈 <b>Brüt Kasa:</b> <code>{counters['gross_r']:+.2f}R</code>",
-            f"💰 <b>Net Kasa (Komisyon & Spread Düşülmüş):</b> <code>{counters['net_r']:+.2f}R</code>",
-            f"🔒 <b>Açık Kilitli Dahil Net Kasa:</b> <code>{counters['total_net_r']:+.2f}R</code>",
+            f"📈 <b>Brüt Sonuç (işlem R toplamı):</b> <code>{counters['gross_r']:+.2f}R</code>",
+            f"💰 <b>Net Sonuç (işlem R toplamı):</b> <code>{counters['net_r']:+.2f}R</code>",
+            f"🔒 <b>Açık Kilitli Dahil Net Sonuç:</b> <code>{counters['total_net_r']:+.2f}R</code>",
             "━━━━━━━━━━━━━━━━━━━━━━",
             f"⏰ <i>{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} TRT</i>",
         ]
@@ -472,13 +359,14 @@ class OutcomeTracker:
 
     def get_performance_stats(self) -> Dict[str, Any]:
         """Kapanmis tum islemlerin Win-Rate ve R istatistiklerini hesaplar."""
-        total = len(self.closed_trades)
+        valid = [t for t in self.closed_trades if t.get("close_reason") not in NO_FILL_REASONS]
+        total = len(valid)
         if total == 0:
             return {"total_trades": 0, "win_rate": 0.0, "total_r": 0.0}
 
-        wins = sum(1 for t in self.closed_trades if t.get("r_result", 0.0) > 0)
-        losses = sum(1 for t in self.closed_trades if t.get("r_result", 0.0) < 0)
-        total_r = sum(t.get("r_result", 0.0) for t in self.closed_trades)
+        wins = sum(1 for t in valid if t.get("r_result", 0.0) > 0)
+        losses = sum(1 for t in valid if t.get("r_result", 0.0) < 0)
+        total_r = sum(t.get("net_r", t.get("r_result", 0.0)) for t in valid)
         win_rate = round((wins / total) * 100, 1)
 
         return {

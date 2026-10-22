@@ -53,6 +53,7 @@ class MarketDataProvider:
         4. TwelveData Fallback
         """
         clean_sym = self._normalize_symbol(symbol)
+        required = min(outputsize, 800 if interval == "1h" else (200 if interval == "15m" else 500))
 
         # 1. Kripto Pariteleri: Canlı Binance API (Anlık, taze, 0 kredi maliyeti)
         if is_crypto(symbol) or is_crypto(clean_sym):
@@ -63,12 +64,12 @@ class MarketDataProvider:
 
         # 2. Begonya Paylaşımlı Canlı JSON Dosyası (Disk Okuması - Taze ise 0 Kredi)
         df_shared = self._load_from_shared_cache(clean_sym, interval, outputsize)
-        if df_shared is not None and len(df_shared) >= 20:
+        if df_shared is not None and len(df_shared) >= required:
             return df_shared
 
         # 3. Yahoo Finance Fallback (Tamamen Ücretsiz - 0 Kredi)
         df_yf = self._fetch_yfinance(symbol, interval, outputsize)
-        if df_yf is not None and len(df_yf) >= 20:
+        if df_yf is not None and len(df_yf) >= required:
             self._save_local_cache(clean_sym, interval, df_yf)
             return df_yf
 
@@ -192,7 +193,11 @@ class MarketDataProvider:
             yf_symbol = "GC=F"
         elif symbol in ["QQQ", "SPY"]:
             yf_symbol = symbol
-        elif symbol in ["NAS100", "US100", "NDX"]:
+        elif symbol == "NAS100":
+            # Both shared producers register logical NAS100 as QQQ. A fallback
+            # must keep that instrument; NQ=F has a different price scale.
+            yf_symbol = "QQQ"
+        elif symbol in ["US100", "NDX"]:
             yf_symbol = "NQ=F"
         elif "BTC" in symbol:
             yf_symbol = "BTC-USD"
@@ -203,7 +208,7 @@ class MarketDataProvider:
 
         if interval in ["1m", "1min"]:
             yf_interval = "1m"
-            period = "1d"
+            period = "7d"
         elif interval in ["5m", "5min"]:
             yf_interval = "5m"
             period = "5d"
@@ -212,7 +217,7 @@ class MarketDataProvider:
             period = "5d"
         else:
             yf_interval = "1h"
-            period = "1mo"
+            period = "1y"
 
         try:
             ticker = yf.Ticker(yf_symbol)
@@ -228,7 +233,7 @@ class MarketDataProvider:
                     "Close": "close",
                     "Volume": "volume",
                 })
-                hist["datetime"] = pd.to_datetime(hist["datetime"]).dt.tz_localize(None)
+                hist["datetime"] = pd.to_datetime(hist["datetime"], utc=True).dt.tz_localize(None)
                 if hist["volume"].sum() == 0:
                     hist["volume"] = ((hist["high"] - hist["low"]) * 100000).clip(lower=100.0).round(1)
                 return hist[["datetime", "open", "high", "low", "close", "volume"]]

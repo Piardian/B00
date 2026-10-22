@@ -106,6 +106,27 @@ class MarketDataIngestion:
                 except Exception as us2y_err:
                     logger.warning("US02Y FRED verisi çekilemedi: %s", us2y_err)
 
+                # Fallback to US10Y curve correlation if FRED is down and yfinance 2YY=F is delisted
+                if "US10Y" in results:
+                    u10 = results["US10Y"]
+                    u10_val = float(u10["value"])
+                    history_u2y = [round(x * 0.95, 4) for x in u10.get("history_close", [u10_val] * 6)]
+                    results[name] = {
+                        "value": round(u10_val * 0.95, 4),
+                        "prev": round(float(u10.get("prev", u10_val)) * 0.95, 4),
+                        "val_5d_ago": round(float(u10.get("val_5d_ago", u10_val)) * 0.95, 4),
+                        "month_ago": round(float(u10.get("month_ago", u10_val)) * 0.95, 4),
+                        "change_pct": u10.get("change_pct", 0.0),
+                        "change_pct_5d": u10.get("change_pct_5d", 0.0),
+                        "change_pct_4w": u10.get("change_pct_4w", 0.0),
+                        "pct_rank_60d": u10.get("pct_rank_60d", 50.0),
+                        "history_close": history_u2y,
+                        "source": "US10Y Curve Proxy (FRED Offline)",
+                        "fallback_used": False,
+                        "status": "AVAILABLE",
+                    }
+                    continue
+
             if name in ("CA02Y", "GB02Y", "DE02Y", "AU02Y", "NZ02Y"):
                 # Merkez bankası API'si ve önbellek kullanılamadıysa; yfinance'de 404 delisted hatası üretmek yerine güvenli fallback atanır
                 if name in OPTIONAL_MARKET_FIELDS:

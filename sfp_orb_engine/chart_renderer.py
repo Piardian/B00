@@ -106,7 +106,7 @@ class ChartRenderer:
             ax_main.axhline(tp2, color="#10b981", linestyle="--", linewidth=1.5, alpha=0.9, zorder=4)
 
             # SFP Likidite Seviyesi & FVG Dengesizlik Bölgesi
-            if strategy == "SFP_VOLUME_ANOMALY":
+            if strategy.startswith("SFP"):
                 swept_lvl = signal.get("swept_level")
                 if swept_lvl:
                     ax_main.axhline(swept_lvl, color="#f59e0b", linestyle="-.", linewidth=1.2, alpha=0.85, zorder=3)

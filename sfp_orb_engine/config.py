@@ -89,7 +89,7 @@ def load_all_universe_symbols() -> list:
         "EUR/JPY", "GBP/JPY", "XAU/USD", "QQQ", "SPY", "BTC/USD", "ETH/USD", "SOL/USD"
     ]
 
-ACTIVE_SYMBOLS = load_all_universe_symbols()
+ACTIVE_SYMBOLS = ["EUR/USD", "GBP/USD", "XAU/USD"]
 
 # --- ZAMAN DILIMLERI (TERCIH 2: BEGONYA ILE %100 SENKRON 15 DAKIKA) ---
 PRIMARY_TIMEFRAME = "15m"       # Islem tetikleme zaman dilimi (Begonya ile tam eszamanli)
@@ -102,18 +102,24 @@ SFP_SWING_LOOKBACK = 15        # Swing High / Low tespit penceresi (bar sayisi)
 SFP_MAX_SWEEP_BARS = 3         # Sweep'ten sonra kapanisin seviye icine donmesi icin maksimum bar
 SFP_MIN_WICK_RATIO = 0.45      # Mumun fitil / toplam aralik orani (min red teyidi: %45 - Pin-bar / Hammer teyidi)
 SFP_SL_BUFFER_ATR = 0.15       # Stop Loss'a eklenecek ATR carpan tamponu (varsayilan)
-SFP_RR_TARGET_1 = 1.0          # TP1 Risk / Kazanc Orani (Min 1.0R: %50 Kâr Al + BE)
-SFP_RR_TARGET_2 = 3.0          # TP2 Risk / Kazanc Orani (Min 3.0R: Kalan %50 Ana Likidite Hedefi)
-SFP_MIN_RR_TARGET_1 = 1.0      # Zorunlu Minimum TP1 RR Eşiği
-SFP_MIN_RR_TARGET_2 = 3.0      # Zorunlu Minimum TP2 RR Eşiği
+SFP_RR_TARGET_1 = 1.2          # TP1 Risk / Kazanc Orani (1.2R: %50 Kâr Al + BE)
+SFP_RR_TARGET_2 = 2.0          # TP2 Risk / Kazanc Orani (2.0R: Kalan %50 Ana Hedef)
+SFP_MIN_RR_TARGET_1 = 1.2      # Zorunlu Minimum TP1 RR Eşiği
+SFP_MIN_RR_TARGET_2 = 2.0      # Zorunlu Minimum TP2 RR Eşiği
 
 # --- ENTRY & İCRAAT PARAMETRELERİ (MODEL A: %50 CE SNIPER + iFVG + BREAKER) ---
 ENTRY_MODEL = os.getenv("ENTRY_MODEL", "MIDPOINT")  # "MIDPOINT" (%50 Consequent Encroachment) veya "CLOSE" (Market Kapanışı)
-LIMIT_EXPIRY_BARS = int(os.getenv("LIMIT_EXPIRY_BARS", "32"))  # 15 dakikalık 32 bar = 8 saatlik limit emir geçerlilik süresi
+LIMIT_EXPIRY_BARS = int(os.getenv("LIMIT_EXPIRY_BARS", "16"))  # 15 dakikalık 16 bar = 4 saatlik limit emir geçerlilik süresi
 REQUIRE_ENTRY_REACTION = True       # Slice-Through / Tepkisiz bölge delinmesi durumunda limiti iptal et
 REQUIRE_PRO_TREND_AAA = True        # Yalnızca 4H EMA50/200 Pro-Trend (Grade AAA) işlemlerine izin ver
 USE_IFVG_ENTRY = True               # Standart FVG yerine Inversion FVG (iFVG) %50 CE Limit girişi kullan
 REQUIRE_STRUCTURAL_BREAKER = True   # Sweep öncesi son zıt yönlü Order Block (Breaker) gövde kırılımı zorunlu
+
+# Conservative operational limits; these are not fitted to historical returns.
+MAX_DAILY_LOSS_R = 3.0
+MAX_CONSECUTIVE_STOPS = 3
+MAX_OPEN_RISK_R = 3.0
+MAX_CURRENCY_RISK_R = 2.0
 
 # Toksik / Aşırı Sahte İğne Üreten Parite Filtresi (SFP Taramasından Muaf)
 EXCLUDED_SFP_SYMBOLS = ["GBP/JPY", "GBPJPY", "AUD/USD", "AUDUSD"]

@@ -60,3 +60,13 @@ smc_engine/tests/temp_*/
 Thumbs.db
 .aider*
 .codex*
+
+data/*.sqlite3*
+data/*.csv
+data/exact_replay_*
+data/execution_backfill_*
+data/full_2025_study/
+data/nas100_feed_alignment_*
+data/weekend_profit_forensics_*
+data/execution_quality_*
+scratch/
