@@ -37,7 +37,8 @@ def test_provider_cannot_expose_future_completed_candles():
 
 @pytest.mark.parametrize('minimize_memory', [False, True])
 @pytest.mark.parametrize('use_candidate_index', [False, True])
-def test_replay_uses_live_ledger_and_never_changes_production_files(tmp_path, monkeypatch, minimize_memory, use_candidate_index):
+@pytest.mark.parametrize('cost_multiplier', [1., 1.5, 2.])
+def test_replay_uses_live_ledger_and_never_changes_production_files(tmp_path, monkeypatch, minimize_memory, use_candidate_index, cost_multiplier):
     # Synthetic data is strictly a harness unit test, not a historical return.
     from sfp_orb_engine import engine as engine_module
     from sfp_orb_engine import outcome_tracker as tracker_module
@@ -53,21 +54,22 @@ def test_replay_uses_live_ledger_and_never_changes_production_files(tmp_path, mo
             df.loc[df.datetime == start + pd.Timedelta(minutes=1), "high"] = 103.1
         df.to_csv(data / f"EURUSD_{tf}.csv", index=False)
     candidate = dict(symbol="EUR/USD", direction="LONG", strategy="SFP_IFVG_BREAKER", grade="AAA",
-                     datetime=start-pd.Timedelta(minutes=15), entry=100., stop_loss=99., tp1=101., tp2=103.,
+                     datetime=start-pd.Timedelta(minutes=15), entry=100., stop_loss=99., tp1=101.2, tp2=103.,
                      risk_pips=1., htf_trend="BULLISH", breaker_confirmed=True, ifvg_confirmed=True,
                      entry_source="FVG_50_CE", zone_low=99.5, zone_high=100.5)
     gates = [{"available_at": start.to_pydatetime(), "provenance": "UNIT_TEST_ONLY",
-              "gate": {"execution_bias_gates": {"EURUSD": "LONG_ONLY"}, "recommended_risk_multiplier": .5}}]
+              "gate": {"timestamp": start.isoformat(), "execution_bias_gates": {"EURUSD": "LONG_ONLY"}, "recommended_risk_multiplier": .5}}]
     ledger_path = tracker_module.CLOSED_LEDGER_FILE
     before = ledger_path.read_bytes() if ledger_path.exists() else None
     monkeypatch.setattr(replay, "bounds", lambda month: (start, end))
     monkeypatch.setattr(engine_module, "higher_timeframe_trend", lambda *a: "BULLISH")
     monkeypatch.setattr(SFPDetector, "detect_sfp", lambda *a, **kw: candidate.copy())
     candidate_index = {('EUR/USD', start.floor('15min'))} if use_candidate_index else None
-    result = replay.replay_month("unit-test", ["EUR/USD"], data, gates, tmp_path / "run", minimize_memory=minimize_memory, candidate_index=candidate_index)
+    result = replay.replay_month("unit-test", ["EUR/USD"], data, gates, tmp_path / "run", minimize_memory=minimize_memory, candidate_index=candidate_index, friction_multiplier=cost_multiplier)
     assert result["closed_filled_trades"] == 1
-    assert result["net_r"] == 1.92
-    assert result["weighted_net_r"] == .96
+    assert result["net_r"] == pytest.approx(2.1 - .08*cost_multiplier)
+    assert result["weighted_net_r"] == pytest.approx((2.1 - .08*cost_multiplier)*.5)
+    assert result['friction_assumptions']['broker_costs_verified'] is False
     assert tracker_module.CLOSED_LEDGER_FILE == ledger_path
     assert (ledger_path.read_bytes() if ledger_path.exists() else None) == before
     saved = json.loads((tmp_path / "run/state/closed.json").read_text())

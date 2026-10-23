@@ -21,15 +21,18 @@ from sfp_orb_engine.execution_policy import validate_signal
 def main():
     p=argparse.ArgumentParser();p.add_argument('--root',type=Path,required=True)
     p.add_argument('--month',required=True);p.add_argument('--output',type=Path,required=True)
-    p.add_argument('--offline-models',action='store_true');args=p.parse_args()
+    p.add_argument('--offline-models',action='store_true')
+    p.add_argument('--candidate-index',type=Path)
+    p.add_argument('--cost-multiplier',type=float,choices=[1.,1.5,2.],default=1.);args=p.parse_args()
     for name in ['Begonya00.Engine','Begonya00.OutcomeTracker','google_genai.models','httpx']:
         logging.getLogger(name).setLevel(logging.ERROR)
     sources=source_hashes();index=set();indexed=[]
     relevant={'engine','sfp_detector','entry_mechanics','strict_setup','execution_policy','orb_detector','config','volume_anomaly'}
     # The remaining crypto symbols cannot receive a directional execution gate:
     # the current export emits BTC and SOL only. Assert this on every read below.
-    for path in (args.root/'candidate_index_utc').glob('*.json'):
+    for path in (args.candidate_index or args.root/'candidate_index_utc').glob('*.json'):
         body=json.loads(path.read_text());symbol=body['symbol'];clean=symbol.replace('/','')
+        if symbol not in ACTIVE_SYMBOLS:continue
         for name in relevant:
             if body['source_sha256'][name]!=sources[name]:raise RuntimeError('Detector source changed: '+name)
         for tf in ('15m','1h'):
@@ -54,7 +57,7 @@ def main():
     from calibration.build_full_macro_archive import execute_job
     prepared={}
     class ActualArchiveClient(MacroGateClient):
-        def __init__(self,clock,gate_path):super().__init__(gate_path);self.clock=clock;self.execution_engine=None
+        def __init__(self,clock,gate_path):super().__init__(gate_path,now=lambda:clock.current);self.clock=clock;self.execution_engine=None
         def bind_engine(self,engine):self.execution_engine=engine
         def evaluate_gate(self,symbol,direction):
             now=pd.Timestamp(self.clock.current);ix=bisect.bisect_right(times,now)-1
@@ -107,8 +110,18 @@ def main():
     args.output.parent.mkdir(parents=True,exist_ok=True)
     from scripts.historical_news_events import build_news_input
     historical_news=build_news_input(args.root,ROOT/'config/news_events.json')
-    result=replay_month(args.month,ACTIVE_SYMBOLS,args.root/'prices_utc',[],args.output,
-                        macro_client_factory=ActualArchiveClient,candidate_index=index,market_calendar=broker_market_is_open,news_file=historical_news,frame_symbols=set(indexed),minimize_memory=True)
+    try:
+        result=replay_month(args.month,ACTIVE_SYMBOLS,args.root/'prices_utc',[],args.output,
+                            macro_client_factory=ActualArchiveClient,candidate_index=index,market_calendar=broker_market_is_open,news_file=historical_news,frame_symbols=set(indexed),minimize_memory=True,friction_multiplier=args.cost_multiplier)
+    except Exception as exc:
+        args.output.mkdir(parents=True,exist_ok=True)
+        (args.output/'macro_reads.json').write_text(json.dumps(reads,indent=2))
+        (args.output/'failure.json').write_text(json.dumps({
+            'month':args.month,'status':'INCOMPLETE_NO_MONTHLY_RETURN','metrics':None,
+            'paper_cost_multiplier':args.cost_multiplier,'broker_costs_verified':False,
+            'reason':str(exc),'source_sha256':sources,'indexed_symbols':indexed,
+            'monthly_return_must_not_be_inferred_from_partial_ledger':True},indent=2))
+        raise
     result['scope']='Full current entry and lifecycle engine on real historical quote data and recomputed production macro outputs; not an original 2025 archive or broker order execution'
     result['macro_inference_assumption']='Only snapshots actually consumed by possible entries are inferred; unused outputs omitted with no regime-state carry. Current model/service routing, not historical outages.'
     result['source_sha256']=sources;result['indexed_symbols']=indexed

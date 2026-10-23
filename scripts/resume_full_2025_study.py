@@ -17,6 +17,8 @@ def main():
     parser.add_argument('--research-env',type=Path)
     parser.add_argument('--check-setup',action='store_true',help='Validate local configuration without API calls')
     parser.add_argument('--months',nargs='+',choices=MONTHS)
+    parser.add_argument('--candidate-index',type=Path,help='Validated index for the current active universe')
+    parser.add_argument('--cost-multiplier',type=float,choices=[1.,1.5,2.],default=1.)
     args=parser.parse_args();root=args.root.resolve()
     scope_path=root/'requested_scope.json'
     scope_config=json.loads(scope_path.read_text()) if scope_path.exists() else {}
@@ -34,6 +36,10 @@ def main():
         print(json.dumps({'status':'LOCAL_SETUP_CHECKED',**profile,'api_calls_made':0}));return 0
     quota_path=root/('research_model_quota.json' if args.research_env else 'model_quota_all_keys.json')
     quota=json.loads(quota_path.read_text()) if quota_path.exists() else {}
+    if args.research_env and str(quota.get('project_number','')) != str(profile.get('research_project_id','')):
+        # Quotas belong to a project. An old research project's exhausted
+        # counter must not block a newly supplied project credential.
+        quota={}
     observed=dt.datetime.fromisoformat(quota['observed_at_utc']) if quota else None
     delays=[int(float(row.get('retry_delay','0s').rstrip('s'))) for row in quota.get('results',[]) if row.get('http_status')==429]
     reset=observed+dt.timedelta(seconds=max(delays)) if observed and delays else None
@@ -60,7 +66,8 @@ def main():
                         metrics.get(field)==hashlib.sha256((root/path).read_bytes()).hexdigest()
                         for field,path in [('price_provenance_sha256','prices_utc/provenance.json'),
                                            ('calendar_provenance_sha256','calendar_primary_manifest.json')])
-                    if not source_matches or not provenance_matches:
+                    cost_matches=metrics.get('friction_assumptions',{}).get('multiplier')==args.cost_multiplier
+                    if not source_matches or not provenance_matches or not cost_matches:
                         status['months'][month]={'status':'SOURCE_OR_INPUT_CHANGED_REPLAY_REQUIRED','metrics':None}
     if reset and dt.datetime.now(dt.timezone.utc)<reset and not args.offline_models and not args.retry_provider_now:
         previous_path=root/'resume_status.json'
@@ -75,6 +82,8 @@ def main():
     for month in dict.fromkeys(args.months):
         output=attempts/month;log=attempts/(month+'.log')
         command=[sys.executable,'-u',str(ROOT/'scripts/run_indexed_2025_replay.py'),'--root',str(root),'--month',month,'--output',str(output)]
+        if args.candidate_index:command.extend(['--candidate-index',str(args.candidate_index.resolve())])
+        command.extend(['--cost-multiplier',str(args.cost_multiplier)])
         if args.offline_models:command.append('--offline-models')
         status['status']='RUNNING';status['current_month']=month;status['background_replay_running']=True
         (root/'resume_status.json').write_text(json.dumps(status,indent=2))

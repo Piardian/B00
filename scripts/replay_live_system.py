@@ -10,6 +10,7 @@ from contextlib import ExitStack
 from datetime import datetime, timezone, timedelta
 import hashlib
 import json
+import math
 from pathlib import Path
 import sys
 from types import SimpleNamespace
@@ -76,7 +77,7 @@ def load_gates(path):
 def source_hashes():
     names = ["engine", "outcome_tracker", "sfp_detector", "entry_mechanics", "strict_setup",
              "execution_policy", "orb_detector", "macro_gate_client", "news_guard", "config", "data_provider", "volume_anomaly",
-             "execution_observer"]
+             "execution_observer", "orb_session_context"]
     return {name: hashlib.sha256((ROOT / "sfp_orb_engine" / f"{name}.py").read_bytes()).hexdigest() for name in names}
 
 
@@ -195,7 +196,7 @@ class NullNotifier:
         return False
 
 
-def replay_month(month, symbols, data_root, gates, output, macro_client_factory=None, candidate_index=None, market_calendar=None, news_file=None, frame_symbols=None, minimize_memory=False):
+def replay_month(month, symbols, data_root, gates, output, macro_client_factory=None, candidate_index=None, market_calendar=None, news_file=None, frame_symbols=None, minimize_memory=False, friction_multiplier=1.0):
     """Use original engine methods with injected historical IO and time only."""
     from sfp_orb_engine import engine as engine_module, outcome_tracker as tracker_module
     from sfp_orb_engine import execution_policy, news_guard, orb_detector
@@ -204,6 +205,8 @@ def replay_month(month, symbols, data_root, gates, output, macro_client_factory=
     from sfp_orb_engine.macro_gate_client import MacroGateClient
     from sfp_orb_engine.news_guard import NewsGuard
 
+    if not math.isfinite(friction_multiplier) or friction_multiplier < 1:
+        raise ValueError('Cost stress multiplier must be finite and at least one')
     start, end = bounds(month)
     clock = Clock(start)
     frames = {}
@@ -223,6 +226,11 @@ def replay_month(month, symbols, data_root, gates, output, macro_client_factory=
     state.mkdir()
     gate_path = state / "macro_gate.json"
     with ExitStack() as stack:
+        if friction_multiplier != 1.0:
+            original_friction = tracker_module.get_friction_config
+            def stressed_friction(symbol):
+                return {key: value * friction_multiplier for key, value in original_friction(symbol).items()}
+            stack.enter_context(patch.object(tracker_module, 'get_friction_config', stressed_friction))
         for module in (engine_module, tracker_module, execution_policy, news_guard, orb_detector, config):
             stack.enter_context(patch.object(module, "datetime", clock.datetime_type()))
         stack.enter_context(patch.object(engine_module, "pd", clock.pandas_proxy()))
@@ -243,7 +251,7 @@ def replay_month(month, symbols, data_root, gates, output, macro_client_factory=
         engine.data_provider = HistoricalProvider(frames, clock)
         engine.sfp_detector = SFPDetector()
         engine.orb_detector = ORBDetector()
-        engine.macro_client = macro_client_factory(clock,gate_path) if macro_client_factory else MacroGateClient(gate_path)
+        engine.macro_client = macro_client_factory(clock,gate_path) if macro_client_factory else MacroGateClient(gate_path, now=lambda: clock.current)
         engine.news_guard = NewsGuard(news_file=news_file)
         engine.notifier = NullNotifier()
         engine.chart_renderer = SimpleNamespace(render_signal_chart=lambda *args, **kwargs: None)
@@ -282,6 +290,8 @@ def replay_month(month, symbols, data_root, gates, output, macro_client_factory=
         active = engine.outcome_tracker.active_trades
         filled = [t for t in closed if t.get("close_reason") not in NO_FILL_REASONS]
         result = {"month": month, "status": "REPLAY_COMPLETED",
+                  "friction_assumptions": {"multiplier": friction_multiplier,
+                      "model": "CONSTANT_RATIO_SPREAD_FIXED_R_FEE_PAPER_ONLY", "broker_costs_verified": False},
                   "closed_filled_trades": len(filled), "net_r": sum(t["net_r"] for t in filled),
                   "weighted_net_r": sum(t["weighted_net_r"] for t in filled),
                   "wins": sum(t["net_r"] > 0 for t in filled),

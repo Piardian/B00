@@ -1,0 +1,1221 @@
+{
+  "commit": "044e4b3219038ec9965c182fff40b423d856edd1",
+  "scope": "Audit of a separate candidate simulator; not a full original-engine or historical-macro backtest.",
+  "source_csv_reproduced": true,
+  "recorded_ledger": {
+    "n": 343,
+    "wins": 201,
+    "losses": 142,
+    "gross_r": 82.60000000000001,
+    "cost_r": 49.8886,
+    "net_r": 32.711400000000005,
+    "win_rate_pct": 58.60058309037901,
+    "profit_factor": 1.1964221592662734,
+    "expectancy_r": 0.09536851311953354,
+    "t": 1.5543117839830276,
+    "p_two_sided_iid": 0.12103493339505661,
+    "ci95_mean_iid_r": [
+      -0.025316847945504303,
+      0.2160538741845714
+    ],
+    "closed_equity_max_drawdown_r": 14.6748,
+    "by_symbol": {
+      "EURUSD": {
+        "n": 132,
+        "net_r": 3.6612999999999984
+      },
+      "GBPUSD": {
+        "n": 110,
+        "net_r": 13.6543
+      },
+      "XAUUSD": {
+        "n": 101,
+        "net_r": 15.3958
+      }
+    },
+    "by_year": {
+      "2024": {
+        "n": 22,
+        "net_r": 0.9546000000000001
+      },
+      "2025": {
+        "n": 190,
+        "net_r": 25.564199999999996
+      },
+      "2026": {
+        "n": 131,
+        "net_r": 6.1926000000000005
+      }
+    },
+    "close_reasons": {
+      "TP2_HIT": 104,
+      "SAME_BAR_STOP_LOSS": 100,
+      "BREAK_EVEN": 97,
+      "STOP_LOSS": 42
+    }
+  },
+  "model_assumptions": {
+    "candidate_tp1_r": 1.2,
+    "candidate_tp2_r": 2.0,
+    "candidate_buffer_atr": 0.1,
+    "execution_bars_minutes": 15,
+    "macro_gates_replayed": false,
+    "live_entry_detector_called": false,
+    "live_outcome_tracker_called": false
+  },
+  "frozen_fill_cost_sensitivity": {
+    "1.0": {
+      "n": 343,
+      "wins": 201,
+      "losses": 142,
+      "gross_r": 82.60000000000001,
+      "cost_r": 49.8886,
+      "net_r": 32.71140000000001,
+      "win_rate_pct": 58.60058309037901,
+      "profit_factor": 1.1964221592662734,
+      "expectancy_r": 0.09536851311953357,
+      "t": 1.554311783983028,
+      "p_two_sided_iid": 0.1210349333950565,
+      "ci95_mean_iid_r": [
+        -0.025316847945504276,
+        0.2160538741845714
+      ],
+      "closed_equity_max_drawdown_r": 14.674799999999996,
+      "by_symbol": {
+        "EURUSD": {
+          "n": 132,
+          "net_r": 3.661300000000003
+        },
+        "GBPUSD": {
+          "n": 110,
+          "net_r": 13.654300000000001
+        },
+        "XAUUSD": {
+          "n": 101,
+          "net_r": 15.395800000000005
+        }
+      },
+      "by_year": {
+        "2024": {
+          "n": 22,
+          "net_r": 0.9545999999999999
+        },
+        "2025": {
+          "n": 190,
+          "net_r": 25.5642
+        },
+        "2026": {
+          "n": 131,
+          "net_r": 6.192600000000006
+        }
+      },
+      "close_reasons": {
+        "TP2_HIT": 104,
+        "SAME_BAR_STOP_LOSS": 100,
+        "BREAK_EVEN": 97,
+        "STOP_LOSS": 42
+      }
+    },
+    "1.5": {
+      "n": 343,
+      "wins": 200,
+      "losses": 143,
+      "gross_r": 82.60000000000001,
+      "cost_r": 74.8329,
+      "net_r": 7.767100000000008,
+      "win_rate_pct": 58.309037900874635,
+      "profit_factor": 1.0434391119229236,
+      "expectancy_r": 0.022644606413994194,
+      "t": 0.3644217114961992,
+      "p_two_sided_iid": 0.7157683402700772,
+      "ci95_mean_iid_r": [
+        -0.09957707532944955,
+        0.14486628815743793
+      ],
+      "closed_equity_max_drawdown_r": 17.27314999999999,
+      "by_symbol": {
+        "EURUSD": {
+          "n": 132,
+          "net_r": -8.808049999999996
+        },
+        "GBPUSD": {
+          "n": 110,
+          "net_r": 5.981449999999999
+        },
+        "XAUUSD": {
+          "n": 101,
+          "net_r": 10.593700000000002
+        }
+      },
+      "by_year": {
+        "2024": {
+          "n": 22,
+          "net_r": -0.9681000000000006
+        },
+        "2025": {
+          "n": 190,
+          "net_r": 13.04630000000001
+        },
+        "2026": {
+          "n": 131,
+          "net_r": -4.311099999999999
+        }
+      },
+      "close_reasons": {
+        "TP2_HIT": 104,
+        "SAME_BAR_STOP_LOSS": 100,
+        "BREAK_EVEN": 97,
+        "STOP_LOSS": 42
+      }
+    },
+    "2.0": {
+      "n": 343,
+      "wins": 200,
+      "losses": 143,
+      "gross_r": 82.60000000000001,
+      "cost_r": 99.7772,
+      "net_r": -17.177199999999992,
+      "win_rate_pct": 58.309037900874635,
+      "profit_factor": 0.9101950934897037,
+      "expectancy_r": -0.05007930029154516,
+      "t": -0.7948300859828576,
+      "p_two_sided_iid": 0.42726357792778524,
+      "ci95_mean_iid_r": [
+        -0.1740079382595601,
+        0.07384933767646978
+      ],
+      "closed_equity_max_drawdown_r": 31.065199999999997,
+      "by_symbol": {
+        "EURUSD": {
+          "n": 132,
+          "net_r": -21.277399999999993
+        },
+        "GBPUSD": {
+          "n": 110,
+          "net_r": -1.6913999999999958
+        },
+        "XAUUSD": {
+          "n": 101,
+          "net_r": 5.791600000000001
+        }
+      },
+      "by_year": {
+        "2024": {
+          "n": 22,
+          "net_r": -2.890799999999999
+        },
+        "2025": {
+          "n": 190,
+          "net_r": 0.5284000000000066
+        },
+        "2026": {
+          "n": 131,
+          "net_r": -14.814799999999996
+        }
+      },
+      "close_reasons": {
+        "TP2_HIT": 104,
+        "SAME_BAR_STOP_LOSS": 100,
+        "BREAK_EVEN": 97,
+        "STOP_LOSS": 42
+      }
+    }
+  },
+  "controlled_reruns": {
+    "warmup_200_h4_only": {
+      "n": 314,
+      "wins": 183,
+      "losses": 131,
+      "gross_r": 74.80000000000001,
+      "cost_r": 45.04039999999999,
+      "net_r": 29.759600000000006,
+      "win_rate_pct": 58.28025477707006,
+      "profit_factor": 1.1942301893639269,
+      "expectancy_r": 0.09477579617834397,
+      "t": 1.4737191275989479,
+      "p_two_sided_iid": 0.14156220961030974,
+      "ci95_mean_iid_r": [
+        -0.031759987467770395,
+        0.22131157982445834
+      ],
+      "closed_equity_max_drawdown_r": 14.674800000000001,
+      "by_symbol": {
+        "EURUSD": {
+          "n": 125,
+          "net_r": 0.26399999999999935
+        },
+        "GBPUSD": {
+          "n": 98,
+          "net_r": 15.204900000000002
+        },
+        "XAUUSD": {
+          "n": 91,
+          "net_r": 14.2907
+        }
+      },
+      "by_year": {
+        "2025": {
+          "n": 183,
+          "net_r": 23.566999999999997
+        },
+        "2026": {
+          "n": 131,
+          "net_r": 6.1926000000000005
+        }
+      },
+      "close_reasons": {
+        "TP2_HIT": 96,
+        "SAME_BAR_STOP_LOSS": 92,
+        "BREAK_EVEN": 87,
+        "STOP_LOSS": 39
+      }
+    },
+    "broker_clock_to_utc_only": {
+      "n": 337,
+      "wins": 196,
+      "losses": 141,
+      "gross_r": 70.6,
+      "cost_r": 48.2128,
+      "net_r": 22.3872,
+      "win_rate_pct": 58.160237388724035,
+      "profit_factor": 1.135840456393643,
+      "expectancy_r": 0.06643086053412463,
+      "t": 1.0897635150425926,
+      "p_two_sided_iid": 0.27659826928633063,
+      "ci95_mean_iid_r": [
+        -0.0534784422510787,
+        0.18634016331932796
+      ],
+      "closed_equity_max_drawdown_r": 11.0778,
+      "by_symbol": {
+        "EURUSD": {
+          "n": 129,
+          "net_r": 5.581999999999997
+        },
+        "GBPUSD": {
+          "n": 105,
+          "net_r": 9.925000000000002
+        },
+        "XAUUSD": {
+          "n": 103,
+          "net_r": 6.8801999999999985
+        }
+      },
+      "by_year": {
+        "2024": {
+          "n": 22,
+          "net_r": 0.06100000000000061
+        },
+        "2025": {
+          "n": 187,
+          "net_r": 12.297799999999997
+        },
+        "2026": {
+          "n": 128,
+          "net_r": 10.028400000000001
+        }
+      },
+      "close_reasons": {
+        "BREAK_EVEN": 102,
+        "SAME_BAR_STOP_LOSS": 99,
+        "TP2_HIT": 94,
+        "STOP_LOSS": 42
+      }
+    },
+    "clock_and_warmup": {
+      "n": 310,
+      "wins": 180,
+      "losses": 130,
+      "gross_r": 66.0,
+      "cost_r": 43.723499999999994,
+      "net_r": 22.276500000000002,
+      "win_rate_pct": 58.06451612903226,
+      "profit_factor": 1.1470560082279804,
+      "expectancy_r": 0.07185967741935484,
+      "t": 1.1270653172844338,
+      "p_two_sided_iid": 0.2605893222407922,
+      "ci95_mean_iid_r": [
+        -0.05359551397081358,
+        0.19731486880952326
+      ],
+      "closed_equity_max_drawdown_r": 11.0778,
+      "by_symbol": {
+        "EURUSD": {
+          "n": 122,
+          "net_r": 2.094400000000001
+        },
+        "GBPUSD": {
+          "n": 93,
+          "net_r": 11.3828
+        },
+        "XAUUSD": {
+          "n": 95,
+          "net_r": 8.799299999999997
+        }
+      },
+      "by_year": {
+        "2025": {
+          "n": 182,
+          "net_r": 12.248099999999999
+        },
+        "2026": {
+          "n": 128,
+          "net_r": 10.028400000000001
+        }
+      },
+      "close_reasons": {
+        "BREAK_EVEN": 92,
+        "SAME_BAR_STOP_LOSS": 91,
+        "TP2_HIT": 88,
+        "STOP_LOSS": 39
+      }
+    },
+    "all_costs_1.5x_rerun": {
+      "n": 343,
+      "wins": 199,
+      "losses": 143,
+      "gross_r": 82.0,
+      "cost_r": 74.84740000000001,
+      "net_r": 7.152699999999999,
+      "win_rate_pct": 58.01749271137027,
+      "profit_factor": 1.039752769972256,
+      "expectancy_r": 0.020853352769679298,
+      "t": 0.3346009803122403,
+      "p_two_sided_iid": 0.7381312140852695,
+      "ci95_mean_iid_r": [
+        -0.10173138522273191,
+        0.14343809076209052
+      ],
+      "closed_equity_max_drawdown_r": 16.2735,
+      "by_symbol": {
+        "EURUSD": {
+          "n": 132,
+          "net_r": -8.807799999999999
+        },
+        "GBPUSD": {
+          "n": 110,
+          "net_r": 5.981499999999999
+        },
+        "XAUUSD": {
+          "n": 101,
+          "net_r": 9.979000000000003
+        }
+      },
+      "by_year": {
+        "2024": {
+          "n": 22,
+          "net_r": -0.9683000000000004
+        },
+        "2025": {
+          "n": 190,
+          "net_r": 12.432100000000005
+        },
+        "2026": {
+          "n": 131,
+          "net_r": -4.3111
+        }
+      },
+      "close_reasons": {
+        "TP2_HIT": 105,
+        "SAME_BAR_STOP_LOSS": 100,
+        "BREAK_EVEN": 95,
+        "STOP_LOSS": 43
+      }
+    },
+    "all_costs_2.0x_rerun": {
+      "n": 342,
+      "wins": 198,
+      "losses": 144,
+      "gross_r": 79.4,
+      "cost_r": 98.89850000000001,
+      "net_r": -19.4985,
+      "win_rate_pct": 57.89473684210527,
+      "profit_factor": 0.8986770886596909,
+      "expectancy_r": -0.05701315789473684,
+      "t": -0.9018403534958718,
+      "p_two_sided_iid": 0.36777821773382385,
+      "ci95_mean_iid_r": [
+        -0.18136083516811755,
+        0.06733451937864385
+      ],
+      "closed_equity_max_drawdown_r": 31.06630000000002,
+      "by_symbol": {
+        "EURUSD": {
+          "n": 132,
+          "net_r": -21.277299999999997
+        },
+        "GBPUSD": {
+          "n": 110,
+          "net_r": -1.6923999999999995
+        },
+        "XAUUSD": {
+          "n": 100,
+          "net_r": 3.471199999999997
+        }
+      },
+      "by_year": {
+        "2024": {
+          "n": 22,
+          "net_r": -2.8913999999999995
+        },
+        "2025": {
+          "n": 189,
+          "net_r": -1.7917000000000014
+        },
+        "2026": {
+          "n": 131,
+          "net_r": -14.815399999999997
+        }
+      },
+      "close_reasons": {
+        "TP2_HIT": 103,
+        "SAME_BAR_STOP_LOSS": 100,
+        "BREAK_EVEN": 96,
+        "STOP_LOSS": 43
+      }
+    }
+  },
+  "data": {
+    "EURUSD": {
+      "rows": 47000,
+      "first": "2024-12-02 00:00:00+00:00",
+      "last": "2026-10-21 23:45:00+00:00",
+      "zero_spread_fraction": 0.955063829787234,
+      "median_spread_points": 0.0
+    },
+    "GBPUSD": {
+      "rows": 47001,
+      "first": "2024-12-02 00:00:00+00:00",
+      "last": "2026-10-21 23:45:00+00:00",
+      "zero_spread_fraction": 0.9505116912406119,
+      "median_spread_points": 0.0
+    },
+    "XAUUSD": {
+      "rows": 44717,
+      "first": "2024-12-02 01:00:00+00:00",
+      "last": "2026-10-21 23:45:00+00:00",
+      "zero_spread_fraction": 0.0,
+      "median_spread_points": 27.0
+    }
+  },
+  "source_hashes": {
+    "C:\\Users\\piard\\Desktop\\Begonya00\\scripts\\review_forex_gold_edge.py": "57e2b838251c987b3a694557f04302633a86dbd9070c9fee304b34f5ddf08b19",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\scripts\\audit_forex_gold_hardened.py": "07023ba4482e9ad1403b877d6dfa471bf5d4f3bf2c23cdcda5844f2929c25576",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\data\\forex_gold_verified_trades.csv": "44af99976a236d444f77d64f0fd91149a7fcccc1a1aa37d9ca6f9f9b6741a2ae",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\docs\\FOREX_GOLD_AUDIT_REPORT.md": "5984aa11723c2f5097ff768571954e9f42d33fc9491c3ae96c6e6ee52a465758",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\sfp_orb_engine\\config.py": "b4a800e7871b14a8d51564dda348ecf316efbdd1d912c2aca0c7fbda867da623",
+    "C:\\Users\\piard\\Desktop\\MegalordProject\\audit\\raw-validation-2026-10-22\\data\\mt5_EURUSD_M15.parquet": "5ba1296ddfbd79b521dd0199e447bf7a70954999b440c958086a5c16d99885c0",
+    "C:\\Users\\piard\\Desktop\\MegalordProject\\audit\\raw-validation-2026-10-22\\data\\mt5_GBPUSD_M15.parquet": "b7bf15bc5d7119417f214d5f23ebda031b7fd1cc1cf19b3a60190b963b948366",
+    "C:\\Users\\piard\\Desktop\\MegalordProject\\audit\\raw-validation-2026-10-22\\data\\mt5_XAUUSD_M15.parquet": "d82691fb58dbd10622d707e8fad79fbd0d121354d462ca2c0788cf611a6f136e",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\EURUSD_1m.csv.gz": "accd55f5f6d2d996489f6549040e4e78c88ca3a2c2528d941843fe02d6c7b30c",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\GBPUSD_1m.csv.gz": "2ede9d4387615552fa24a32a42850b18d9b1a974bfdae47353c67f0835b89dc4",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\XAUUSD_1m.csv.gz": "9e8ff1810df4b8896662efe05631a15a3b0aec0a3e9b4d2333ebb38786081fc1"
+  },
+  "publisher_bootstrap_recomputed": {
+    "percentile_total_r_95": [
+      -11.869805,
+      77.12235749999999
+    ],
+    "fraction_nonpositive": 0.0766,
+    "note": "Resamples observed five-active-date blocks; nonpositive fraction is not posterior probability that an edge is absent."
+  },
+  "execution_diagnostics": {
+    "same_fill_bar_tp2_ids": [
+      "TR_0003",
+      "TR_0014",
+      "TR_0019",
+      "TR_0021",
+      "TR_0025",
+      "TR_0028",
+      "TR_0031",
+      "TR_0039",
+      "TR_0042",
+      "TR_0043",
+      "TR_0048",
+      "TR_0055",
+      "TR_0062",
+      "TR_0063",
+      "TR_0069",
+      "TR_0081",
+      "TR_0082",
+      "TR_0090",
+      "TR_0091",
+      "TR_0096",
+      "TR_0100",
+      "TR_0103",
+      "TR_0112",
+      "TR_0148",
+      "TR_0161",
+      "TR_0162",
+      "TR_0177",
+      "TR_0187",
+      "TR_0191",
+      "TR_0194",
+      "TR_0197",
+      "TR_0198",
+      "TR_0210",
+      "TR_0214",
+      "TR_0215",
+      "TR_0222",
+      "TR_0223",
+      "TR_0224",
+      "TR_0227",
+      "TR_0229",
+      "TR_0240",
+      "TR_0247",
+      "TR_0271",
+      "TR_0275",
+      "TR_0284",
+      "TR_0285",
+      "TR_0290",
+      "TR_0294",
+      "TR_0296",
+      "TR_0317",
+      "TR_0328",
+      "TR_0331",
+      "TR_0340"
+    ],
+    "trades_before_200_h4_observations": [
+      "TR_0001",
+      "TR_0002",
+      "TR_0003",
+      "TR_0004",
+      "TR_0005",
+      "TR_0006",
+      "TR_0007",
+      "TR_0008",
+      "TR_0009",
+      "TR_0010",
+      "TR_0011",
+      "TR_0012",
+      "TR_0013",
+      "TR_0014",
+      "TR_0015",
+      "TR_0016",
+      "TR_0017",
+      "TR_0018",
+      "TR_0019",
+      "TR_0020",
+      "TR_0021",
+      "TR_0022",
+      "TR_0023",
+      "TR_0024",
+      "TR_0025",
+      "TR_0026",
+      "TR_0027",
+      "TR_0028",
+      "TR_0029"
+    ],
+    "spread_at_fill_differs_from_spread_used_at_exit": 0,
+    "slice_cancellations": [
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2025-01-06 10:30:00",
+        "bar_at": "2025-01-06 10:45:00",
+        "direction": "SHORT",
+        "entry": 1.03394,
+        "original_sl": 1.03446,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2025-02-11 16:00:00",
+        "bar_at": "2025-02-11 16:15:00",
+        "direction": "SHORT",
+        "entry": 1.03274,
+        "original_sl": 1.03305,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2025-02-17 10:00:00",
+        "bar_at": "2025-02-17 10:15:00",
+        "direction": "LONG",
+        "entry": 1.04785,
+        "original_sl": 1.0475,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2025-03-14 10:00:00",
+        "bar_at": "2025-03-14 10:30:00",
+        "direction": "LONG",
+        "entry": 1.08391,
+        "original_sl": 1.08322,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2025-05-27 08:30:00",
+        "bar_at": "2025-05-27 09:45:00",
+        "direction": "LONG",
+        "entry": 1.1372,
+        "original_sl": 1.1366,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2025-07-08 13:45:00",
+        "bar_at": "2025-07-08 14:45:00",
+        "direction": "LONG",
+        "entry": 1.17255,
+        "original_sl": 1.17225,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2025-08-14 11:00:00",
+        "bar_at": "2025-08-14 11:45:00",
+        "direction": "LONG",
+        "entry": 1.16764,
+        "original_sl": 1.16719,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2025-09-18 08:45:00",
+        "bar_at": "2025-09-18 09:00:00",
+        "direction": "LONG",
+        "entry": 1.17882,
+        "original_sl": 1.17847,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2025-11-07 11:45:00",
+        "bar_at": "2025-11-07 12:00:00",
+        "direction": "SHORT",
+        "entry": 1.15403,
+        "original_sl": 1.15429,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2025-12-09 16:30:00",
+        "bar_at": "2025-12-09 17:00:00",
+        "direction": "LONG",
+        "entry": 1.16306,
+        "original_sl": 1.16274,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2025-12-17 07:45:00",
+        "bar_at": "2025-12-17 08:00:00",
+        "direction": "LONG",
+        "entry": 1.1727,
+        "original_sl": 1.17244,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2026-03-09 08:30:00",
+        "bar_at": "2026-03-09 08:45:00",
+        "direction": "SHORT",
+        "entry": 1.15576,
+        "original_sl": 1.15643,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2026-03-10 10:00:00",
+        "bar_at": "2026-03-10 10:15:00",
+        "direction": "SHORT",
+        "entry": 1.16356,
+        "original_sl": 1.16424,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2026-08-06 17:45:00",
+        "bar_at": "2026-08-06 18:00:00",
+        "direction": "LONG",
+        "entry": 1.15327,
+        "original_sl": 1.15298,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2026-08-24 10:15:00",
+        "bar_at": "2026-08-24 10:30:00",
+        "direction": "LONG",
+        "entry": 1.16731,
+        "original_sl": 1.16701,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2026-09-08 09:30:00",
+        "bar_at": "2026-09-08 09:45:00",
+        "direction": "LONG",
+        "entry": 1.1623,
+        "original_sl": 1.16207,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "EURUSD",
+        "signal_at": "2026-10-02 09:45:00",
+        "bar_at": "2026-10-02 10:00:00",
+        "direction": "SHORT",
+        "entry": 1.12602,
+        "original_sl": 1.12626,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2025-01-06 09:45:00",
+        "bar_at": "2025-01-06 10:00:00",
+        "direction": "SHORT",
+        "entry": 1.24547,
+        "original_sl": 1.24575,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2025-06-03 14:00:00",
+        "bar_at": "2025-06-03 14:15:00",
+        "direction": "LONG",
+        "entry": 1.35048,
+        "original_sl": 1.35023,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2025-08-06 13:15:00",
+        "bar_at": "2025-08-06 13:30:00",
+        "direction": "SHORT",
+        "entry": 1.33106,
+        "original_sl": 1.33155,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2025-08-28 10:45:00",
+        "bar_at": "2025-08-28 11:00:00",
+        "direction": "LONG",
+        "entry": 1.34933,
+        "original_sl": 1.3487,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2025-09-12 09:00:00",
+        "bar_at": "2025-09-12 09:15:00",
+        "direction": "LONG",
+        "entry": 1.35514,
+        "original_sl": 1.35476,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2025-09-17 09:45:00",
+        "bar_at": "2025-09-17 10:00:00",
+        "direction": "LONG",
+        "entry": 1.36374,
+        "original_sl": 1.36342,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2025-10-27 12:15:00",
+        "bar_at": "2025-10-27 12:30:00",
+        "direction": "SHORT",
+        "entry": 1.33348,
+        "original_sl": 1.33389,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2025-11-20 09:30:00",
+        "bar_at": "2025-11-20 09:45:00",
+        "direction": "SHORT",
+        "entry": 1.3065,
+        "original_sl": 1.30668,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2025-12-24 16:30:00",
+        "bar_at": "2025-12-24 16:45:00",
+        "direction": "LONG",
+        "entry": 1.35026,
+        "original_sl": 1.35001,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2025-12-30 16:45:00",
+        "bar_at": "2025-12-30 17:00:00",
+        "direction": "LONG",
+        "entry": 1.34738,
+        "original_sl": 1.34702,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2026-01-07 09:30:00",
+        "bar_at": "2026-01-07 09:45:00",
+        "direction": "LONG",
+        "entry": 1.34972,
+        "original_sl": 1.34933,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2026-03-19 16:15:00",
+        "bar_at": "2026-03-19 16:45:00",
+        "direction": "SHORT",
+        "entry": 1.3312,
+        "original_sl": 1.33233,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2026-04-06 09:45:00",
+        "bar_at": "2026-04-06 10:30:00",
+        "direction": "SHORT",
+        "entry": 1.32228,
+        "original_sl": 1.32274,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2026-06-25 11:00:00",
+        "bar_at": "2026-06-25 11:15:00",
+        "direction": "SHORT",
+        "entry": 1.31868,
+        "original_sl": 1.31896,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "GBPUSD",
+        "signal_at": "2026-08-03 16:45:00",
+        "bar_at": "2026-08-03 17:00:00",
+        "direction": "LONG",
+        "entry": 1.3452,
+        "original_sl": 1.34464,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2024-12-12 15:15:00",
+        "bar_at": "2024-12-12 15:45:00",
+        "direction": "LONG",
+        "entry": 2704.68,
+        "original_sl": 2701.01993,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2024-12-31 10:15:00",
+        "bar_at": "2024-12-31 10:30:00",
+        "direction": "SHORT",
+        "entry": 2614.085,
+        "original_sl": 2615.28693,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-01-17 09:45:00",
+        "bar_at": "2025-01-17 11:15:00",
+        "direction": "LONG",
+        "entry": 2709.545,
+        "original_sl": 2708.31879,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-01-27 16:30:00",
+        "bar_at": "2025-01-27 17:00:00",
+        "direction": "LONG",
+        "entry": 2749.205,
+        "original_sl": 2744.3935,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-03-06 09:30:00",
+        "bar_at": "2025-03-06 09:45:00",
+        "direction": "LONG",
+        "entry": 2913.315,
+        "original_sl": 2911.104,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-04-03 13:00:00",
+        "bar_at": "2025-04-03 13:15:00",
+        "direction": "LONG",
+        "entry": 3115.495,
+        "original_sl": 3111.05957,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-04-17 17:00:00",
+        "bar_at": "2025-04-17 17:15:00",
+        "direction": "LONG",
+        "entry": 3308.655,
+        "original_sl": 3303.94514,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-04-22 16:00:00",
+        "bar_at": "2025-04-22 16:30:00",
+        "direction": "LONG",
+        "entry": 3431.825,
+        "original_sl": 3419.28971,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-05-22 13:30:00",
+        "bar_at": "2025-05-22 13:45:00",
+        "direction": "LONG",
+        "entry": 3294.955,
+        "original_sl": 3289.95179,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-07-16 15:45:00",
+        "bar_at": "2025-07-16 16:30:00",
+        "direction": "LONG",
+        "entry": 3332.68,
+        "original_sl": 3330.56836,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-07-23 16:30:00",
+        "bar_at": "2025-07-23 18:45:00",
+        "direction": "LONG",
+        "entry": 3408.92,
+        "original_sl": 3404.99386,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-08-01 15:15:00",
+        "bar_at": "2025-08-01 15:30:00",
+        "direction": "SHORT",
+        "entry": 3302.595,
+        "original_sl": 3304.39914,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-08-05 08:15:00",
+        "bar_at": "2025-08-05 09:30:00",
+        "direction": "LONG",
+        "entry": 3368.495,
+        "original_sl": 3367.39721,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-08-11 10:45:00",
+        "bar_at": "2025-08-11 12:00:00",
+        "direction": "LONG",
+        "entry": 3358.525,
+        "original_sl": 3356.549,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-09-09 17:30:00",
+        "bar_at": "2025-09-09 18:00:00",
+        "direction": "LONG",
+        "entry": 3641.38,
+        "original_sl": 3635.27157,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-10-21 17:00:00",
+        "bar_at": "2025-10-21 17:15:00",
+        "direction": "LONG",
+        "entry": 4173.415,
+        "original_sl": 4163.06164,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2025-12-24 16:30:00",
+        "bar_at": "2025-12-24 16:45:00",
+        "direction": "LONG",
+        "entry": 4474.905,
+        "original_sl": 4468.17093,
+        "same_bar_stop_touched": true
+      },
+      {
+        "symbol": "XAUUSD",
+        "signal_at": "2026-09-29 08:45:00",
+        "bar_at": "2026-09-29 09:00:00",
+        "direction": "SHORT",
+        "entry": 4141.875,
+        "original_sl": 4145.57786,
+        "same_bar_stop_touched": true
+      }
+    ]
+  },
+  "m1_same_bar_profit_checks": [
+    {
+      "trade_id": "TR_0028",
+      "symbol": "EURUSD",
+      "direction": "SHORT",
+      "entry": 1.02706,
+      "tp2": 1.02603,
+      "credited_net_r": 1.4846,
+      "fill_bar_broker_label": "2025-01-14 10:45:00+00:00",
+      "first_possible_fill_minute_utc": "2025-01-14 08:45:00+00:00",
+      "tp2_minutes_before_fill_utc": [],
+      "tp2_occurs_only_before_first_possible_fill": false,
+      "full_m1_coverage_and_m15_geometry_match": true
+    },
+    {
+      "trade_id": "TR_0103",
+      "symbol": "EURUSD",
+      "direction": "LONG",
+      "entry": 1.14277,
+      "tp2": 1.1435,
+      "credited_net_r": 1.4333,
+      "fill_bar_broker_label": "2025-06-06 10:00:00+00:00",
+      "first_possible_fill_minute_utc": "2025-06-06 07:03:00+00:00",
+      "tp2_minutes_before_fill_utc": [
+        "2025-06-06 07:00:00+00:00"
+      ],
+      "tp2_occurs_only_before_first_possible_fill": true,
+      "full_m1_coverage_and_m15_geometry_match": true
+    },
+    {
+      "trade_id": "TR_0112",
+      "symbol": "EURUSD",
+      "direction": "LONG",
+      "entry": 1.16019,
+      "tp2": 1.16076,
+      "credited_net_r": 1.3857,
+      "fill_bar_broker_label": "2025-06-25 10:30:00+00:00",
+      "first_possible_fill_minute_utc": "2025-06-25 07:37:00+00:00",
+      "tp2_minutes_before_fill_utc": [
+        "2025-06-25 07:30:00+00:00"
+      ],
+      "tp2_occurs_only_before_first_possible_fill": false,
+      "full_m1_coverage_and_m15_geometry_match": true
+    },
+    {
+      "trade_id": "TR_0187",
+      "symbol": "EURUSD",
+      "direction": "SHORT",
+      "entry": 1.15399,
+      "tp2": 1.15298,
+      "credited_net_r": 1.4824,
+      "fill_bar_broker_label": "2025-11-06 17:45:00+00:00",
+      "first_possible_fill_minute_utc": "2025-11-06 15:56:00+00:00",
+      "tp2_minutes_before_fill_utc": [
+        "2025-11-06 15:45:00+00:00"
+      ],
+      "tp2_occurs_only_before_first_possible_fill": true,
+      "full_m1_coverage_and_m15_geometry_match": true
+    },
+    {
+      "trade_id": "TR_0194",
+      "symbol": "EURUSD",
+      "direction": "SHORT",
+      "entry": 1.15447,
+      "tp2": 1.15371,
+      "credited_net_r": 1.4421,
+      "fill_bar_broker_label": "2025-11-21 10:00:00+00:00",
+      "first_possible_fill_minute_utc": "2025-11-21 08:10:00+00:00",
+      "tp2_minutes_before_fill_utc": [
+        "2025-11-21 08:01:00+00:00",
+        "2025-11-21 08:02:00+00:00",
+        "2025-11-21 08:03:00+00:00",
+        "2025-11-21 08:04:00+00:00",
+        "2025-11-21 08:05:00+00:00",
+        "2025-11-21 08:06:00+00:00",
+        "2025-11-21 08:07:00+00:00"
+      ],
+      "tp2_occurs_only_before_first_possible_fill": true,
+      "full_m1_coverage_and_m15_geometry_match": true
+    },
+    {
+      "trade_id": "TR_0197",
+      "symbol": "EURUSD",
+      "direction": "SHORT",
+      "entry": 1.15574,
+      "tp2": 1.15458,
+      "credited_net_r": 1.4966,
+      "fill_bar_broker_label": "2025-11-25 15:30:00+00:00",
+      "first_possible_fill_minute_utc": "2025-11-25 13:30:00+00:00",
+      "tp2_minutes_before_fill_utc": [],
+      "tp2_occurs_only_before_first_possible_fill": false,
+      "full_m1_coverage_and_m15_geometry_match": true
+    },
+    {
+      "trade_id": "TR_0025",
+      "symbol": "GBPUSD",
+      "direction": "SHORT",
+      "entry": 1.25456,
+      "tp2": 1.25309,
+      "credited_net_r": 1.5189,
+      "fill_bar_broker_label": "2025-01-06 14:15:00+00:00",
+      "first_possible_fill_minute_utc": "2025-01-06 12:17:00+00:00",
+      "tp2_minutes_before_fill_utc": [],
+      "tp2_occurs_only_before_first_possible_fill": false,
+      "full_m1_coverage_and_m15_geometry_match": true
+    },
+    {
+      "trade_id": "TR_0191",
+      "symbol": "GBPUSD",
+      "direction": "SHORT",
+      "entry": 1.31779,
+      "tp2": 1.31703,
+      "credited_net_r": 1.4421,
+      "fill_bar_broker_label": "2025-11-17 13:45:00+00:00",
+      "first_possible_fill_minute_utc": "2025-11-17 11:52:00+00:00",
+      "tp2_minutes_before_fill_utc": [
+        "2025-11-17 11:45:00+00:00",
+        "2025-11-17 11:46:00+00:00",
+        "2025-11-17 11:47:00+00:00",
+        "2025-11-17 11:48:00+00:00",
+        "2025-11-17 11:49:00+00:00"
+      ],
+      "tp2_occurs_only_before_first_possible_fill": true,
+      "full_m1_coverage_and_m15_geometry_match": true
+    },
+    {
+      "trade_id": "TR_0031",
+      "symbol": "XAUUSD",
+      "direction": "LONG",
+      "entry": 2760.075,
+      "tp2": 2761.36571,
+      "credited_net_r": 1.1506,
+      "fill_bar_broker_label": "2025-01-29 08:30:00+00:00",
+      "first_possible_fill_minute_utc": "2025-01-29 06:32:00+00:00",
+      "tp2_minutes_before_fill_utc": [],
+      "tp2_occurs_only_before_first_possible_fill": false,
+      "full_m1_coverage_and_m15_geometry_match": true
+    },
+    {
+      "trade_id": "TR_0100",
+      "symbol": "XAUUSD",
+      "direction": "LONG",
+      "entry": 3351.825,
+      "tp2": 3358.55329,
+      "credited_net_r": 1.5049,
+      "fill_bar_broker_label": "2025-06-03 16:30:00+00:00",
+      "first_possible_fill_minute_utc": "2025-06-03 13:35:00+00:00",
+      "tp2_minutes_before_fill_utc": [
+        "2025-06-03 13:30:00+00:00"
+      ],
+      "tp2_occurs_only_before_first_possible_fill": true,
+      "full_m1_coverage_and_m15_geometry_match": true
+    }
+  ],
+  "operational_checks": {
+    "year_2000_gate_with_direction_approved": true,
+    "note": "Isolated temporary file; production gate was not changed."
+  }
+}

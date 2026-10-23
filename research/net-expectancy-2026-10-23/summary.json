@@ -1,0 +1,391 @@
+{
+  "scope": "EXIT_FILTER_RESEARCH_ON_ARCHIVED_BASELINE_NOT_CURRENT_CONCURRENT_LONDON_CHANGES",
+  "cost_multiplier": 1.5,
+  "real_broker_costs_verified": false,
+  "live_promotion_allowed": false,
+  "validated_positive_edge_found": false,
+  "source_protocol": "data/full_2025_study/validation_protocol_20261023_final/protocol.json",
+  "variants": [
+    {
+      "variant": "baseline",
+      "month": "2025-01",
+      "status": "COMPLETED",
+      "n": 3,
+      "net_r": -2.293333,
+      "weighted_net_r": -1.715213,
+      "stops": 1,
+      "wins": 0,
+      "tp2": 0,
+      "result_sha256": "669f7415c3b78f503252162affac1e40013f08b0fa3c598021a4e8ca551c8a34"
+    },
+    {
+      "variant": "baseline",
+      "month": "2025-11",
+      "status": "COMPLETED",
+      "n": 1,
+      "net_r": -0.590653,
+      "weighted_net_r": -0.509143,
+      "stops": 0,
+      "wins": 0,
+      "tp2": 0,
+      "result_sha256": "3a178df1d2994d8c82bbcfb4d2ce238fdedd1a0ba6606140ce66468eb6b269a4"
+    },
+    {
+      "variant": "target_3r",
+      "month": "2025-01",
+      "status": "COMPLETED",
+      "n": 3,
+      "net_r": -2.293333,
+      "weighted_net_r": -1.715213,
+      "stops": 1,
+      "wins": 0,
+      "tp2": 0,
+      "result_sha256": "a353c78e15eac9f4ee9d560a1a52efc2b5a457014951a155901f531ece87e361"
+    },
+    {
+      "variant": "target_3r",
+      "month": "2025-11",
+      "status": "COMPLETED",
+      "n": 1,
+      "net_r": -0.590653,
+      "weighted_net_r": -0.509143,
+      "stops": 0,
+      "wins": 0,
+      "tp2": 0,
+      "result_sha256": "c7546410d248bef31fc658be913c290c510797ab77d8e7fa5b77a91f3eba6d21"
+    },
+    {
+      "variant": "half_structural_buffer",
+      "month": "2025-01",
+      "status": "COMPLETED",
+      "n": 3,
+      "net_r": -2.478096,
+      "weighted_net_r": -1.878101,
+      "stops": 1,
+      "wins": 0,
+      "tp2": 0,
+      "result_sha256": "90cdf787def6222b57316b145e4be36d5424230b73cfeb5f016defa9836d22d4"
+    },
+    {
+      "variant": "half_structural_buffer",
+      "month": "2025-11",
+      "status": "COMPLETED",
+      "n": 1,
+      "net_r": -0.631943,
+      "weighted_net_r": -0.544735,
+      "stops": 0,
+      "wins": 0,
+      "tp2": 0,
+      "result_sha256": "f51f1deb8bba0618fe60083a692d862ecce4fa2e4546c78f4b5a682cdddd3c38"
+    },
+    {
+      "variant": "spread_risk_cap",
+      "month": "2025-01",
+      "status": "COMPLETED",
+      "n": 0,
+      "net_r": 0,
+      "weighted_net_r": 0,
+      "stops": 0,
+      "wins": 0,
+      "tp2": 0,
+      "result_sha256": "1d3e03411c902ac2471f6f715a35b1c5c969a13bd72644839f6c50a4cb6aa4fb"
+    },
+    {
+      "variant": "spread_risk_cap",
+      "month": "2025-11",
+      "status": "COMPLETED",
+      "n": 0,
+      "net_r": 0,
+      "weighted_net_r": 0,
+      "stops": 0,
+      "wins": 0,
+      "tp2": 0,
+      "result_sha256": "f57cfe05a32417c8bb1d9f2bd04f656fe316790b4a544584408f523feb424189"
+    },
+    {
+      "variant": "target_grid_consistency",
+      "month": "2025-01",
+      "status": "COMPLETED",
+      "n": 3,
+      "net_r": -2.293333,
+      "weighted_net_r": -1.715213,
+      "stops": 1,
+      "wins": 0,
+      "tp2": 0,
+      "result_sha256": "37cb296fbbaeed29f74fd9d19cd07170da39f56d97b742317eb9a63158c2fe4b"
+    },
+    {
+      "variant": "target_grid_consistency",
+      "month": "2025-11",
+      "status": "COMPLETED",
+      "n": 1,
+      "net_r": -0.590653,
+      "weighted_net_r": -0.509143,
+      "stops": 0,
+      "wins": 0,
+      "tp2": 0,
+      "result_sha256": "362df212ee080c07cbf990076818bf30377ac95a09c6b1d12f0febc7b8ade2b8"
+    }
+  ],
+  "quality_diagnostics": {
+    "scope": "Candidate arithmetic diagnostics, not additional trades or PnL",
+    "by_symbol": {
+      "EUR/USD": {
+        "before": {
+          "TP1_BELOW_MINIMUM": 9,
+          "VALID": 6,
+          "HTF_TREND_REQUIRED": 8
+        },
+        "after_target_arithmetic_only": {
+          "VALID": 11,
+          "HTF_TREND_REQUIRED": 12
+        },
+        "examples": [
+          {
+            "window": "2025-01-02T15:00:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "VALID",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.0288,
+            "new_tp1": 1.02878
+          },
+          {
+            "window": "2025-01-03T15:15:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "VALID",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.0282,
+            "new_tp1": 1.02816
+          },
+          {
+            "window": "2025-01-08T15:15:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.0319,
+            "new_tp1": 1.03192
+          },
+          {
+            "window": "2025-01-17T16:45:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.0308,
+            "new_tp1": 1.03088
+          },
+          {
+            "window": "2025-11-03T16:00:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.1533,
+            "new_tp1": 1.15332
+          },
+          {
+            "window": "2025-11-04T14:15:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "VALID",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.1478,
+            "new_tp1": 1.14774
+          },
+          {
+            "window": "2025-11-18T16:00:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "VALID",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.1574,
+            "new_tp1": 1.15726
+          },
+          {
+            "window": "2025-11-21T15:30:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "VALID",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.1503,
+            "new_tp1": 1.1502
+          },
+          {
+            "window": "2025-11-28T15:00:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.1593,
+            "new_tp1": 1.1594
+          }
+        ],
+        "price_step_reference": 1e-05,
+        "broker_execution_grid_certified": false
+      },
+      "GBP/USD": {
+        "before": {
+          "VALID": 9,
+          "HTF_TREND_REQUIRED": 8,
+          "TP2_BELOW_MINIMUM": 1,
+          "TP1_BELOW_MINIMUM": 14
+        },
+        "after_target_arithmetic_only": {
+          "VALID": 14,
+          "HTF_TREND_REQUIRED": 18
+        },
+        "examples": [
+          {
+            "window": "2025-01-03T16:30:00+00:00",
+            "before": "TP2_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.2425,
+            "new_tp1": 1.2425
+          },
+          {
+            "window": "2025-01-06T17:15:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "VALID",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.2484,
+            "new_tp1": 1.2483
+          },
+          {
+            "window": "2025-01-09T16:15:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "VALID",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.2275,
+            "new_tp1": 1.22744
+          },
+          {
+            "window": "2025-01-14T15:45:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.2237,
+            "new_tp1": 1.22378
+          },
+          {
+            "window": "2025-01-17T15:00:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.2206,
+            "new_tp1": 1.22074
+          },
+          {
+            "window": "2025-01-17T17:30:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "VALID",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.216,
+            "new_tp1": 1.21596
+          },
+          {
+            "window": "2025-01-21T14:15:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.2308,
+            "new_tp1": 1.23092
+          },
+          {
+            "window": "2025-11-03T14:30:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "VALID",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.3111,
+            "new_tp1": 1.31104
+          },
+          {
+            "window": "2025-11-03T15:15:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.3142,
+            "new_tp1": 1.31426
+          },
+          {
+            "window": "2025-11-05T15:30:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.3059,
+            "new_tp1": 1.30596
+          },
+          {
+            "window": "2025-11-11T14:45:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.3188,
+            "new_tp1": 1.31886
+          },
+          {
+            "window": "2025-11-12T15:30:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.3121,
+            "new_tp1": 1.3122
+          },
+          {
+            "window": "2025-11-19T14:15:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "VALID",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.3106,
+            "new_tp1": 1.31058
+          },
+          {
+            "window": "2025-11-20T14:30:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.3155,
+            "new_tp1": 1.31556
+          },
+          {
+            "window": "2025-11-21T17:00:00+00:00",
+            "before": "TP1_BELOW_MINIMUM",
+            "after": "HTF_TREND_REQUIRED",
+            "entry_unchanged": true,
+            "stop_unchanged": true,
+            "old_tp1": 1.311,
+            "new_tp1": 1.31114
+          }
+        ],
+        "price_step_reference": 1e-05,
+        "broker_execution_grid_certified": false
+      },
+      "XAU/USD": {
+        "before": {},
+        "after_target_arithmetic_only": {},
+        "examples": [],
+        "price_step_reference": 0.01,
+        "broker_execution_grid_certified": false
+      }
+    },
+    "rounding_patch_live": false
+  },
+  "experiment_sha256": "92822832ad8f20663d28607bb01f9da8d9339194edcdefed2eef2bd33ea0e03e"
+}

@@ -19,6 +19,10 @@ TELEMETRY_DIR = BASE_DIR / "telemetry"
 SHARED_DIR = BASE_DIR / "shared"
 CONFIG_DIR = BASE_DIR / "config"
 MACRO_GATE_FILE = SHARED_DIR / "macro_bias_gate.json"
+# Scheduler refreshes every four hours during sessions; allow one hour for
+# inference/retries. Expired decisions must never authorize new entries.
+MACRO_GATE_MAX_AGE_SECONDS = 5 * 3600
+EXECUTION_POLICY_VERSION = "passive-limit-v3"
 SYMBOL_MAP_FILE = CONFIG_DIR / "symbol_map.json"
 
 for d in [DATA_DIR, EVIDENCE_DIR, TELEMETRY_DIR]:
@@ -280,6 +284,9 @@ ORB_RANGE_MINUTES = 15         # Acilis araligini belirleyen ilk dakika sayisi (
 ORB_SESSIONS = {
     "LONDON": {
         "name": "Londra Seansı",
+        "timezone": "Europe/London",
+        "open_local": "08:00",
+        "close_local": "16:30",
         "open_utc": "07:00",
         "close_utc": "15:30",
         "orb_window_end_utc": "07:15",
@@ -301,6 +308,8 @@ ORB_SESSIONS = {
 WEEKEND_ORB_ENABLED = False        # Hafta sonu kripto yatay bandında sahte kırılımları önlemek için ORB kapalı, yalnızca SFP aktif!
 ORB_MIN_BREAKOUT_VOL_RATIO = 2.0    # Kırılım mumu için minimum kurumsal hacim katı (min 2.0x)
 ORB_SL_MODE = "MIDPOINT"            # "MIDPOINT" (Range %50) veya "OPPOSITE" (Karsi bant)
+ORB_LONDON_ATR_DAYS = 14            # Completed UTC daily true ranges from H1 history
+ORB_LONDON_MAX_ASIA_ATR_RATIO = 0.70 # Research hypothesis, not a fitted threshold
 ORB_TP1_MULT = 1.0                  # Range yuksekligi x 1.0
 ORB_TP2_MULT = 2.0                  # Range yuksekligi x 2.0
 

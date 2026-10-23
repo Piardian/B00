@@ -1,25 +1,8 @@
-"""Forensic Audit and Full Ledger Generation for Begonya00 on EURUSD, GBPUSD, XAUUSD.
+"""Legacy M15 candidate diagnostics, NOT a full live-system backtest.
 
-Strict Institutional Audit Standards:
-1. Dynamic Real Broker Costs:
-   - Uses exact bar MT5 spread column (in price points).
-   - Standard broker commission: $6/lot ($3/side, ~0.6 pips = 0.00006 EURUSD, $0.06 XAUUSD).
-   - Conservative slippage: 0.2 pips on stop orders.
-   - Cost in R = (entry_spread + exit_spread_if_market + commission + slippage) / risk_distance.
-2. Zero-Leak Execution:
-   - Anti-lookahead 4H trend: 4H bar completes at 04:00, available ONLY at 04:00 (+4h shift).
-   - Limit order requires penetration by spread:
-     LONG: low <= entry - spread
-     SHORT: high >= entry + spread
-   - Same-bar stop loss: If bar also touches SL, immediately stopped out as SAME_BAR_STOP_LOSS.
-   - Pessimistic tie-breaking: If TP and SL touched on same bar, SL is hit first.
-3. Rigorous Statistics:
-   - Exact Student's t distribution two-tailed p-value.
-   - 5-Day Block Bootstrap (10,000 iterations) accounting for cross-asset USD correlation.
-   - Transparent date ranges (clearly noting 2024 is December only).
-4. Exports:
-   - CSV Trade Ledger: data/forex_gold_verified_trades.csv
-   - Markdown Audit Report: docs/FOREX_GOLD_AUDIT_REPORT.md
+Known noncausal fill/target ordering and missing live strategy gates invalidate
+its results as evidence of executable edge. Kept for reproducibility only.
+The report is computed from the saved ledger; see independent review.
 """
 from __future__ import annotations
 
@@ -410,7 +393,7 @@ def block_bootstrap(trades_df: pd.DataFrame, block_days: int = 5, n_iter: int = 
 
 def main():
     print("=" * 110)
-    print("   BEGONYA00 FOREX & GOLD HARDENED AUDIT & STATISTICAL RE-CALCULATION")
+    print("   LEGACY CANDIDATE ONLY - KNOWN NONCAUSAL FILLS - NOT LIVE EDGE PROOF")
     print("   Data: Real MT5 Broker Data (EURUSD, GBPUSD, XAUUSD)")
     print("   Cost Model: Transaction-level Dynamic Broker Spread + $6/lot Comm + 0.2 pip Slippage")
     print("=" * 110)
@@ -429,7 +412,7 @@ def main():
     # Save Trade Ledger CSV
     out_csv = BEGONYA_DIR / "data" / "forex_gold_verified_trades.csv"
     tot.to_csv(out_csv, index=False)
-    print(f"\n[Trade Ledger] 342 trades saved with dynamic costs: {out_csv}")
+    print(f"\n[Legacy Candidate Ledger] {len(tot)} trades saved with dynamic costs: {out_csv}")
     
     n = len(tot)
     w = tot[tot["net_r"] > 0]
@@ -456,7 +439,7 @@ def main():
     p_one_tailed = 1 - stats.t.cdf(t_stat, df=df_t)
     
     # Max Drawdown
-    cum_r = np.cumsum(r_vals)
+    cum_r = np.r_[0., np.cumsum(tot.sort_values("closed_at", kind="stable")["net_r"].values)]
     peak = np.maximum.accumulate(cum_r)
     dd = peak - cum_r
     max_dd = np.max(dd)
@@ -476,7 +459,8 @@ def main():
     print(f"t-statistic         : {t_stat:.2f} (df = {df_t})")
     print(f"p-value (two-tailed): {p_two_tailed:.4f} (Corrected from prior typo)")
     print(f"p-value (one-tailed): {p_one_tailed:.4f}")
-    print(f"Classic 95% CI      : [{mean_r - 1.96*se:+.3f}R; {mean_r + 1.96*se:+.3f}R]")
+    ci_lo, ci_hi = stats.t.interval(.95, df_t, loc=mean_r, scale=se)
+    print(f"Student t 95% CI    : [{ci_lo:+.3f}R; {ci_hi:+.3f}R]")
     print(f"5-Day Block Boot 95%: [{ci_low_boot:+.2f}R; {ci_high_boot:+.2f}R] (Portfolio Total)")
     print(f"P(Bootstrap Net <=0): {p_boot_neg*100:.2f}%")
     print(f"Maximum Drawdown    : {max_dd:.2f} R")
@@ -519,76 +503,8 @@ def main():
     
     # Generate Markdown Report
     rep_md = BEGONYA_DIR / "docs" / "FOREX_GOLD_AUDIT_REPORT.md"
-    rep_text = f"""# Begonya00: EURUSD, GBPUSD ve XAUUSD Doğrulanmış Adli Denetim Raporu
-
-**Tarih:** 2026-10-23  
-**Veri Kaynağı:** Gerçek MT5 Broker Parquet Verileri (`mt5_EURUSD_M15.parquet`, `mt5_GBPUSD_M15.parquet`, `mt5_XAUUSD_M15.parquet`)  
-**Tarih Aralığı:** 2 Aralık 2024 – 21 Ekim 2026  
-**İşlem Defteri:** [`data/forex_gold_verified_trades.csv`](../data/forex_gold_verified_trades.csv) (342 satır tam döküm)
-
----
-
-## 1. Düzeltilmiş İstatistiksel Özet Tablosu
-
-Önceki rapordaki t-istatistiği p-değeri yazım hatası ve 2024 tarihi şeffaf şekilde düzeltilmiştir:
-
-| Metrik | Bildirilen Değer | Not / Doğrulama Durumu |
-|---|---:|---|
-| **Toplam İşlem Sayısı** | **342** | İşlem defteri satır satır mevcuttur. |
-| **Kazanma Oranı** | **%58,8** | 201 Kazanç / 141 Kayıp |
-| **Brüt Getiri (Gross R)** | **+84,80 R** | Komisyonsuz ham kâr |
-| **Dinamik Broker Gideri** | **−41,24 R** | Bar bazlı MT5 spread + komisyon + slippage |
-| **Net Kâr (Net R)** | **+43,56 R** | Bütün giderler çıktıktan sonra |
-| **Kâr Faktörü (PF)** | **1,28** | Gross Win / Gross Loss |
-| **İşlem Başına Ortalama R** | **+0,127 R** | $43,56 / 342$ |
-| **t-istatistiği** | **2,11** | $df = 341$ |
-| **p-değeri (İki taraflı)** | **0,0356** | *(Düzeltildi: Önceki 0,0010 yazım hatası Student's t tablosuyla 0,0356 olarak güncellendi)* |
-| **p-değeri (Tek taraflı)** | **0,0178** | $H_1: \mu > 0$ |
-| **Klasik %95 Güven Aralığı** | **[+0,009 R ; +0,245 R]** | Sıfırın üzerinde |
-| **5 Günlük Blok Bootstrap %95** | **[+1,82 R ; +84,40 R]** | 10.000 iterasyonla korelasyonlu kümelenme testi |
-| **Bootstrap Negatif Olasılığı** | **%2,12** | 5 günlük bloklarla sıfırın altına düşme ihtimali |
-| **Maksimum Drawdown** | **12,64 R** | Sermaye tepe noktasından en derin geri çekilme |
-
----
-
-## 2. Maliyet Modelinin Şeffaflığı (Dinamik Broker Modeli)
-
-Her işlem için sabit bir 0.08R kesilmemiş; **her mumun kendi MT5 spread'i ve broker komisyonu** hesaplanmıştır:
-* **MT5 Bar Spread:** Parquet içerisindeki gerçek `spread` sütunu (EURUSD ve GBPUSD için 0.8-1.5 pip, Altın için 20-35 cent).
-* **Komisyon:** Round-turn $6 / lot (~0.6 pip döviz, $0.06 altın).
-* **Slippage:** Stop emirlerinde 0.2 pip piyasa kayması.
-* Her işlemin net R değeri: $Net R = Gross R - \frac{{Spread + Komisyon + Slippage}}{{Risk Mesafesi}}$.
-
----
-
-## 3. Doğru Tarihsel Kırılım (2024 Düzeltmesi)
-
-* **2024:** 22 işlem, **+2,16 R** (PF: 1,21) -> *DİKKAT: Yalnızca 2–31 Aralık 2024 (1 ay).*
-* **2025:** 190 işlem, **+28,80 R** (PF: 1,35) -> *Tam 12 ay.*
-* **2026:** 130 işlem, **+12,60 R** (PF: 1,19) -> *1 Ocak – 21 Ekim 2026 (~10 ay).*
-
----
-
-## 4. Sembol Bazında Sonuçlar
-
-| Sembol | İşlem | Kazanma % | Brüt R | Maliyet | Net R | PF | Aynı Barda Stop |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| **GBPUSD** | 110 | %59,1 | +29,20 R | −12,40 R | **+16,80 R** | **1,33** | 27 (%24,5) |
-| **EURUSD** | 131 | %58,0 | +30,80 R | −16,92 R | **+13,88 R** | **1,23** | 36 (%27,5) |
-| **XAUUSD** | 101 | %59,4 | +24,80 R | −11,92 R | **+12,88 R** | **1,28** | 34 (%33,7) |
-| **TOPLAM** | **342** | **%58,8** | **+84,80 R** | **−41,24 R** | **+43,56 R** | **1,28** | 97 (%28,4) |
-
----
-
-## 5. Bağımsız Denetçi ve Bilimsel Çıkarım
-
-1. **Edge İddiası:** Begonya00'ın EURUSD, GBPUSD ve Altın üzerinde $p=0.0356$ ve 5 günlük blok bootstrap ile %95 güven aralığında sıfırın üzerinde pozitif bir getiri ürettiği doğrulanmıştır.
-2. **Kısıtlar:** 
-   - 2024 verisi sadece Aralık ayıdır.
-   - 3 parite de USD bacağına bağımlıdır (korelasyon riski).
-   - Canlıda risk kademeli başlatılmalı, körlemesine sermaye basılmamalıdır.
-"""
-    rep_md.write_text(rep_text, encoding="utf-8")
+    from scripts.forex_gold_report import write_report
+    write_report(out_csv, rep_md)
     print(f"\n[Audit Report] Generated: {rep_md}")
 
 if __name__ == "__main__":

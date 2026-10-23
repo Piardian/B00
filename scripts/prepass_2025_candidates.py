@@ -22,7 +22,7 @@ from sfp_orb_engine.orb_detector import ORBDetector
 from sfp_orb_engine.execution_policy import completed_bars, higher_timeframe_trend
 
 
-def prepass(symbol, root, output):
+def prepass(symbol, root, output, months=('2025-01','2025-06','2025-11')):
     clean = symbol.replace('/', '')
     target = output / (clean + '.json')
     hashes = source_hashes()
@@ -30,7 +30,7 @@ def prepass(symbol, root, output):
     if target.exists():
         try:
             previous=json.loads(target.read_text())
-            if previous['source_sha256']==hashes and previous.get('input_sha256')==input_hashes:return
+            if previous['source_sha256']==hashes and previous.get('input_sha256')==input_hashes and previous.get('months')==list(months):return
         except (ValueError,KeyError):pass
     frames = {}
     for tf in ('15m', '1h'):
@@ -45,7 +45,7 @@ def prepass(symbol, root, output):
     count = 0
     started = time.monotonic()
     cache = {}
-    for month in ('2025-01','2025-06','2025-11'):
+    for month in months:
         start = pd.Timestamp(month+'-01',tz='UTC')
         end = start+pd.offsets.MonthBegin(1)
         for now in pd.date_range(start,end,freq='15min',inclusive='left'):
@@ -67,7 +67,7 @@ def prepass(symbol, root, output):
             candidate=sfp.detect_sfp(df,symbol,htf_trend=trend)
             if candidate is None and (now.weekday()<5 or config.WEEKEND_ORB_ENABLED):
                 with patch.object(orb_detector,'datetime',clock.datetime_type()):
-                    candidate=orb.detect_orb(df,symbol)
+                    candidate=orb.detect_orb(df,symbol,hourly_history=hourly,as_of=clock.current)
                 if candidate:
                     candidate['htf_trend']=trend
                     expected='BULLISH' if candidate['direction']=='LONG' else 'BEARISH'
@@ -78,7 +78,7 @@ def prepass(symbol, root, output):
                 candidates.append({'window_start':now.isoformat(),'signal':candidate})
     temporary=target.with_name(target.name+'.partial')
     temporary.write_text(json.dumps({'symbol':symbol,'scope':'ORIGINAL_DETECTOR_INDEX_NOT_BACKTEST',
-        'source_sha256':hashes,'input_sha256':input_hashes,'tested_windows':count,'candidates':candidates},default=str,indent=2))
+        'source_sha256':hashes,'input_sha256':input_hashes,'months':list(months),'tested_windows':count,'candidates':candidates},default=str,indent=2))
     temporary.replace(target)
     print('INDEX',symbol,'candidates',len(candidates),'seconds',round(time.monotonic()-started),flush=True)
 
@@ -86,10 +86,11 @@ def prepass(symbol, root, output):
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--data-root',type=Path,required=True)
     parser.add_argument('--output',type=Path,required=True);parser.add_argument('--symbols',nargs='+')
+    parser.add_argument('--months',nargs='+',default=['2025-01','2025-06','2025-11'])
     args=parser.parse_args();args.output.mkdir(parents=True,exist_ok=True)
     for symbol in args.symbols or config.ACTIVE_SYMBOLS:
         if symbol in config.EXCLUDED_SFP_SYMBOLS:continue
-        prepass(symbol,args.data_root,args.output)
+        prepass(symbol,args.data_root,args.output,args.months)
 
 
 if __name__=='__main__':main()

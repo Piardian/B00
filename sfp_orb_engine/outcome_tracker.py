@@ -100,7 +100,7 @@ class OutcomeTracker:
             "risk_pips": abs(entry - sl),
             "risk_multiplier": float((macro_eval or {}).get("risk_multiplier", 1.0)),
             "gate_bias": (macro_eval or {}).get("gate_bias"),
-            "policy_version": "confirmed-v2",
+            "policy_version": config.EXECUTION_POLICY_VERSION,
             "zone_low": float(signal.get("zone_low", min(entry, sl))),
             "zone_high": float(signal.get("zone_high", max(entry, sl))),
             "rr_ratio": abs(tp2-entry)/abs(entry-sl),
@@ -117,8 +117,9 @@ class OutcomeTracker:
     def check_trade_progress(self, symbol: str, current_bar: Dict[str, Any]):
         """Consume each completed UTC 1m bar once. Ambiguous OHLC exits use stop first.
 
-        A reaction-confirmed fill becomes active at bar close. No earlier wick in
-        that same bar can then be claimed as a profit or a stop after the fill.
+        A penetrated resting limit is filled before reaction is evaluated.
+        On its fill bar, stop has priority and targets are not credited. Failed
+        reaction without a stop exits at close rather than erasing the fill.
         """
         bar_time = utc_time(current_bar["datetime"])
         event_time = bar_time + timedelta(minutes=1)
@@ -168,20 +169,29 @@ class OutcomeTracker:
                 elif expired:
                     reason = "TIMEOUT_NO_FILL"
                 elif touched:
+                    # A resting limit cannot be cancelled retroactively after
+                    # observing the fill candle's close. Record its penetration
+                    # before evaluating stop/reaction. Targets in this candle
+                    # remain uncredited because OHLC cannot establish ordering.
+                    trade["status"] = "OPEN"
+                    trade["filled_at"] = event_time.isoformat()
+                    trade["fill_bar_started_at"] = bar_time.isoformat()
+                    trade["fill_time_precision"] = "ONE_MINUTE_BAR"
+                    trade["fill_model"] = "PASSIVE_LIMIT_PENETRATION_OHLC_CONSERVATIVE"
                     zone_low = trade.get("zone_low", min(entry, sl))
                     zone_high = trade.get("zone_high", max(entry, sl))
                     stop_touched = low <= sl if long else high >= sl
                     invalid = config.REQUIRE_ENTRY_REACTION and (
                         stop_touched or is_slice_through_candle(trade["direction"], open_p, high, low, close, zone_low, zone_high)
                         or not evaluate_entry_candle_reaction(trade["direction"], open_p, high, low, close, zone_low, zone_high))
-                    if invalid:
-                        reason = "ENTRY_REACTION_REJECTED"
-                    else:
-                        trade["status"] = "OPEN"
-                        trade["filled_at"] = event_time.isoformat()
-                        trade["fill_model"] = "REACTION_CONFIRMED_AT_BAR_CLOSE"
-                        if not config.REQUIRE_ENTRY_REACTION and stop_touched:
-                            reason, gross = "STOP_LOSS", -1.0
+                    if stop_touched:
+                        reason, gross = "STOP_LOSS", -1.0
+                    elif invalid:
+                        # Reaction is only known now: flatten the filled trade
+                        # at this close, with normal transaction costs.
+                        reason = "ENTRY_REACTION_EXIT_FILLED"
+                        gross = ((close - entry) if long else (entry - close)) / risk
+                        trade["exit_price"] = close
                 elif (high >= trade["tp1"] + spread if long else low <= trade["tp1"] - spread):
                     reason = "EXPIRED_NO_FILL"
             else:

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "TR_0028",
+    "symbol": "EURUSD",
+    "bar": "2025-01-14 10:45:00+00:00",
+    "first_fill": "2025-01-14 10:45:00+00:00",
+    "target_before_fill": false,
+    "target_from_fill_minute_onward": true,
+    "tp2_only_before_fill": false,
+    "ohlc_error": 0.0
+  },
+  {
+    "id": "TR_0103",
+    "symbol": "EURUSD",
+    "bar": "2025-06-06 10:00:00+00:00",
+    "first_fill": "2025-06-06 10:03:00+00:00",
+    "target_before_fill": true,
+    "target_from_fill_minute_onward": false,
+    "tp2_only_before_fill": true,
+    "ohlc_error": 0.0
+  },
+  {
+    "id": "TR_0112",
+    "symbol": "EURUSD",
+    "bar": "2025-06-25 10:30:00+00:00",
+    "first_fill": "2025-06-25 10:37:00+00:00",
+    "target_before_fill": true,
+    "target_from_fill_minute_onward": true,
+    "tp2_only_before_fill": false,
+    "ohlc_error": 0.0
+  },
+  {
+    "id": "TR_0187",
+    "symbol": "EURUSD",
+    "bar": "2025-11-06 17:45:00+00:00",
+    "first_fill": "2025-11-06 17:56:00+00:00",
+    "target_before_fill": true,
+    "target_from_fill_minute_onward": false,
+    "tp2_only_before_fill": true,
+    "ohlc_error": 0.0
+  },
+  {
+    "id": "TR_0194",
+    "symbol": "EURUSD",
+    "bar": "2025-11-21 10:00:00+00:00",
+    "first_fill": "2025-11-21 10:10:00+00:00",
+    "target_before_fill": true,
+    "target_from_fill_minute_onward": false,
+    "tp2_only_before_fill": true,
+    "ohlc_error": 0.0
+  },
+  {
+    "id": "TR_0197",
+    "symbol": "EURUSD",
+    "bar": "2025-11-25 15:30:00+00:00",
+    "first_fill": "2025-11-25 15:30:00+00:00",
+    "target_before_fill": false,
+    "target_from_fill_minute_onward": true,
+    "tp2_only_before_fill": false,
+    "ohlc_error": 0.0
+  },
+  {
+    "id": "TR_0025",
+    "symbol": "GBPUSD",
+    "bar": "2025-01-06 14:15:00+00:00",
+    "first_fill": "2025-01-06 14:17:00+00:00",
+    "target_before_fill": false,
+    "target_from_fill_minute_onward": true,
+    "tp2_only_before_fill": false,
+    "ohlc_error": 2.220446049250313e-16
+  },
+  {
+    "id": "TR_0191",
+    "symbol": "GBPUSD",
+    "bar": "2025-11-17 13:45:00+00:00",
+    "first_fill": "2025-11-17 13:52:00+00:00",
+    "target_before_fill": true,
+    "target_from_fill_minute_onward": false,
+    "tp2_only_before_fill": true,
+    "ohlc_error": 2.220446049250313e-16
+  },
+  {
+    "id": "TR_0031",
+    "symbol": "XAUUSD",
+    "bar": "2025-01-29 08:30:00+00:00",
+    "first_fill": "2025-01-29 08:32:00+00:00",
+    "target_before_fill": false,
+    "target_from_fill_minute_onward": true,
+    "tp2_only_before_fill": false,
+    "ohlc_error": 0.0
+  },
+  {
+    "id": "TR_0100",
+    "symbol": "XAUUSD",
+    "bar": "2025-06-03 16:30:00+00:00",
+    "first_fill": "2025-06-03 16:35:00+00:00",
+    "target_before_fill": true,
+    "target_from_fill_minute_onward": false,
+    "tp2_only_before_fill": true,
+    "ohlc_error": 0.0
+  }
+]

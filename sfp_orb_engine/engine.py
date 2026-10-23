@@ -229,7 +229,8 @@ class BegonyaEngine:
         dt_utc = datetime.now(timezone.utc)
         is_weekend = dt_utc.weekday() in [5, 6]
         if not is_weekend or WEEKEND_ORB_ENABLED:
-            orb_res = self.orb_detector.detect_orb(df, symbol)
+            orb_res = self.orb_detector.detect_orb(df, symbol, hourly_history=hourly,
+                as_of=datetime.now(timezone.utc))
             if orb_res:
                 orb_res["htf_trend"] = htf_trend
                 expected = "BULLISH" if orb_res["direction"] == "LONG" else "BEARISH"
@@ -368,7 +369,7 @@ class BegonyaEngine:
         logger.info("=" * 65)
 
         self._log_telemetry("EXECUTION_POLICY_ACTIVE", {
-            "version": "confirmed-v2", "pid": os.getpid(),
+            "version": config.EXECUTION_POLICY_VERSION, "pid": os.getpid(),
             "daily_loss_limit_r": config.MAX_DAILY_LOSS_R,
             "consecutive_stop_limit": config.MAX_CONSECUTIVE_STOPS,
             "open_risk_limit_r": config.MAX_OPEN_RISK_R,

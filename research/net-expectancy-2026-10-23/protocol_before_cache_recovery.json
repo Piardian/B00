@@ -1,0 +1,26 @@
+{
+  "frozen_at_utc": "2026-10-23T08:58:32.459906+00:00",
+  "experiment_sha256": "a8fb4d0803fc7703a96da7f474eb2128e55b04ed69d8a5391407931147ccba10",
+  "months": [
+    "2025-01",
+    "2025-11"
+  ],
+  "both_periods_previously_observed": true,
+  "primary_paper_cost_multiplier": 1.5,
+  "real_broker_costs_verified": false,
+  "baseline": "Original entries and gates; TP1=1.2R TP2=2R; passive-limit-v3",
+  "hypotheses": {
+    "target_3r": "Only extend TP2 to 3R; retain entry, stop, TP1 and original trailing",
+    "half_structural_buffer": "Halve only the margin outside the existing structure; retain entry and price targets; normalize fee R inversely to stop distance",
+    "spread_risk_cap": "Reject when stressed modeled spread exceeds 25% of stop distance; no alternative entries"
+  },
+  "selection_rule": "Report every declared variant; do not optimize parameters after results; no winner or promotion from a four-trade reference",
+  "entry_mechanism_unchanged": true,
+  "macro_news_and_risk_gates_preserved": true,
+  "paid_api_use": false,
+  "new_model_api_calls": false,
+  "live_promotion_allowed": false,
+  "isolation_revision_at_utc": "2026-10-23T09:04:30.981709+00:00",
+  "isolation_reason": "Live workspace engine/orb/config/replay changed concurrently; restart same predeclared hypotheses against archived baseline source copies; old partial runs excluded.",
+  "baseline_source_protocol": "data/full_2025_study/validation_protocol_20261023_final/protocol.json"
+}

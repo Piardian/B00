@@ -16,7 +16,7 @@ from sfp_orb_engine.sfp_detector import SFPDetector
 
 def signal(**changes):
     data = dict(symbol="EUR/USD", direction="LONG", strategy="SFP_IFVG_BREAKER",
-                grade="AAA", entry=100., stop_loss=99., tp1=101., tp2=103.,
+                grade="AAA", entry=100., stop_loss=99., tp1=101.2, tp2=103.,
                 htf_trend="BULLISH", breaker_confirmed=True, ifvg_confirmed=True,
                 entry_source="FVG_50_CE", zone_low=99.5, zone_high=100.5,
                 datetime="2000-01-03T07:00:00Z")
@@ -50,7 +50,7 @@ def test_signal_requires_actual_levels_and_confirmations():
         ({"breaker_confirmed": False}, "BREAKER_REQUIRED"),
         ({"ifvg_confirmed": False}, "IFVG_REQUIRED"),
         ({"entry_source": "SWEEP_WICK_50_CE"}, "IFVG_ENTRY_REQUIRED"),
-        ({"tp2": 102.99, "rr_ratio": 3}, "TP2_BELOW_MINIMUM"),
+        ({"tp2": 101.99, "rr_ratio": 3}, "TP2_BELOW_MINIMUM"),
         ({"tp1": 99}, "INVALID_LEVEL_ORDER"),
         ({"entry": float("nan")}, "INVALID_PRICES"),
     ]:
@@ -70,7 +70,9 @@ def test_macro_neutral_missing_and_corrupt_are_vetoed(tmp_path):
     assert not client.evaluate_gate("EUR/USD", "LONG")["allowed"]
     path.write_text('{"execution_bias_gates":{"EURUSD":"NEUTRAL_RANGE"}}')
     assert not client.evaluate_gate("EUR/USD", "LONG")["allowed"]
-    path.write_text('{"execution_bias_gates":{"EURUSD":"LONG_ONLY"}}')
+    import json
+    path.write_text(json.dumps({"timestamp": datetime.now(timezone.utc).isoformat(),
+                               "execution_bias_gates":{"EURUSD":"LONG_ONLY"}}))
     assert client.evaluate_gate("EUR/USD", "LONG")["allowed"]
     assert not client.evaluate_gate("EUR/USD", "SHORT")["allowed"]
 
@@ -95,15 +97,27 @@ def test_fill_is_not_closed_using_earlier_wicks_and_duplicate_is_ignored(tracker
     assert tracker.active_trades[0]["status"] == "OPEN"
     tracker.check_trade_progress("EUR/USD", bar(2, low=99.5, high=103.1))
     assert tracker.closed_trades[0]["close_reason"] == "TP2_HIT"
-    assert tracker.closed_trades[0]["net_r"] == pytest.approx(1.92)
-    assert tracker.closed_trades[0]["weighted_net_r"] == pytest.approx(.96)
+    assert tracker.closed_trades[0]["net_r"] == pytest.approx(2.02)
+    assert tracker.closed_trades[0]["weighted_net_r"] == pytest.approx(1.01)
 
 
-def test_slice_through_cancels_without_inventing_a_filled_stop(tracker):
+def test_slice_through_cannot_erase_a_filled_stop(tracker):
     tracker.check_trade_progress("EUR/USD", bar(open=100.5, high=100.6, low=98.8, close=98.9))
-    assert tracker.closed_trades[0]["close_reason"] == "ENTRY_REACTION_REJECTED"
-    assert tracker.closed_trades[0]["net_r"] == 0
-    assert tracker.get_performance_stats()["total_trades"] == 0
+    assert tracker.closed_trades[0]["close_reason"] == "STOP_LOSS"
+    assert tracker.closed_trades[0]["net_r"] == pytest.approx(-1.08)
+    assert tracker.closed_trades[0]["filled_at"]
+    assert tracker.get_performance_stats()["total_trades"] == 1
+
+
+def test_failed_reaction_exits_filled_position_and_pays_costs(tracker, monkeypatch):
+    import sfp_orb_engine.outcome_tracker as module
+    monkeypatch.setattr(module, 'evaluate_entry_candle_reaction', lambda *a: False)
+    tracker.check_trade_progress("EUR/USD", bar(close=99.8))
+    trade = tracker.closed_trades[0]
+    assert trade['close_reason'] == 'ENTRY_REACTION_EXIT_FILLED'
+    assert trade['gross_r'] == pytest.approx(-.2)
+    assert trade['net_r'] == pytest.approx(-.28)
+    assert tracker.get_performance_stats()['total_trades'] == 1
 
 
 def test_stop_wins_over_target_when_ohlc_order_is_unknown(tracker):

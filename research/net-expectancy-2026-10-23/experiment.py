@@ -1,0 +1,119 @@
+"""Isolated hypotheses on real detector entries and the original full replay.
+
+No broker calls, invented entries, gate bypass or live configuration changes.
+"""
+from pathlib import Path
+import argparse
+import hashlib
+import json
+import sys
+from unittest.mock import patch
+
+PROJECT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parent/'frozen_workspace'
+sys.path.insert(0, str(ROOT))
+from scripts import run_indexed_2025_replay as runner
+from sfp_orb_engine.engine import BegonyaEngine
+from sfp_orb_engine import outcome_tracker as tracking
+from price_rules import normalize_targets
+
+
+def transform(signal, variant):
+    s = dict(signal)
+    entry, sl = float(s['entry']), float(s['stop_loss'])
+    risk = abs(entry-sl)
+    sign = 1 if s['direction'] == 'LONG' else -1
+    if variant == 'target_grid_consistency':
+        # Recorded quote precision, not certified historical execution tick size.
+        steps = {'EUR/USD':.00001,'GBP/USD':.00001,'XAU/USD':.01}
+        s = normalize_targets(s, steps[s['symbol']])
+        s['tp1_r'] = abs(s['tp1']-entry)/risk
+        s['rr_ratio'] = abs(s['tp2']-entry)/risk
+    elif variant == 'target_3r':
+        s['tp2'] = entry + sign*3*risk
+        s['rr_ratio'] = 3.
+    elif variant == 'half_structural_buffer':
+        if s['strategy'].startswith('ORB'):
+            anchor = (float(s['orb_high'])+float(s['orb_low']))/2
+        else:
+            anchor = float(s['zone_low'] if sign == 1 else s['zone_high'])
+        stop = (anchor+sl)/2
+        if not (sl < stop < entry if sign == 1 else entry < stop < sl):
+            return None, 'NO_VALID_STRUCTURAL_BUFFER_REDUCTION'
+        s['_research_original_risk'] = risk
+        s['stop_loss'] = stop
+        s['risk_pips'] = abs(entry-stop)
+        # Keep the actual price targets unchanged: isolate the stop hypothesis.
+        s['tp1_r'] = abs(float(s['tp1'])-entry)/s['risk_pips']
+        s['rr_ratio'] = abs(float(s['tp2'])-entry)/s['risk_pips']
+    elif variant == 'spread_risk_cap':
+        # Baseline paper spread only; not an account-verified broker spread.
+        spread = entry*tracking.get_friction_config(s['symbol'])['spread_ratio']
+        if spread/risk > .25:
+            return None, 'MODELED_SPREAD_EXCEEDS_QUARTER_STOP_DISTANCE'
+    else:
+        raise ValueError('Unknown experiment')
+    assert s['entry'] == signal['entry']
+    return s, None
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--variant', choices=['target_3r','half_structural_buffer','spread_risk_cap','target_grid_consistency'], required=True)
+    parser.add_argument('--month', choices=['2025-01','2025-11'], required=True)
+    args = parser.parse_args()
+    directory = Path(__file__).resolve().parent
+    protocol = json.loads((directory/'protocol.json').read_text())
+    digest = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+    if protocol['experiment_sha256'] != digest:
+        raise RuntimeError('Experiment changed after declaration')
+    output = directory/'frozen_runs'/args.variant/args.month
+    rejects = {}
+    original_process = BegonyaEngine._process_candidate
+    original_register = tracking.OutcomeTracker.register_trade
+    original_close = tracking.OutcomeTracker._close_trade
+
+    def process(engine, frame, candidate):
+        revised, reason = transform(candidate, args.variant)
+        if reason:
+            key = str((candidate['symbol'],candidate.get('datetime'),candidate['strategy']))
+            rejects[key] = reason
+            return None
+        return original_process(engine, frame, revised)
+
+    def register(tracker, signal, macro_eval=None):
+        original_register(tracker, signal, macro_eval)
+        if '_research_original_risk' in signal:
+            tracker.active_trades[-1]['research_original_risk'] = signal['_research_original_risk']
+            tracker._save_json(tracking.ACTIVE_TRADES_FILE, tracker.active_trades)
+
+    def close(tracker, trade, reason, gross, event_time):
+        ratio = trade.get('research_original_risk', trade['risk_pips'])/trade['risk_pips']
+        current_friction = tracking.get_friction_config
+        def normalized(symbol):
+            conf = dict(current_friction(symbol))
+            if symbol == trade['symbol']:
+                conf['fee_r'] *= ratio
+            return conf
+        # A smaller stop must not receive an artificially cheaper cash fee.
+        with patch.object(tracking, 'get_friction_config', normalized):
+            return original_close(tracker, trade, reason, gross, event_time)
+
+    sys.argv = ['original-replay', '--root',str(PROJECT/'data/full_2025_study'),
+                '--month',args.month,'--output',str(output),
+                '--candidate-index',str(PROJECT/'data/full_2025_study/candidate_index_validation_20261023'),
+                '--cost-multiplier','1.5','--offline-models']
+    with patch.object(BegonyaEngine,'_process_candidate',process), \
+         patch.object(tracking.OutcomeTracker,'register_trade',register), \
+         patch.object(tracking.OutcomeTracker,'_close_trade',close):
+        runner.main()
+    result_path = output/'result.json'
+    result = json.loads(result_path.read_text())
+    result.update(scope='RESEARCH_EXIT_OR_FILTER_VARIANT_ON_ORIGINAL_ENTRIES_NOT_LIVE_BASELINE',
+                  research_variant=args.variant,experiment_sha256=digest,
+                  research_rejections=rejects,live_promotion_allowed=False)
+    result_path.write_text(json.dumps(result,indent=2))
+
+
+if __name__ == '__main__':
+    main()

@@ -7,6 +7,10 @@ import time
 from unittest.mock import patch
 
 
+class ResearchDailyQuotaExhausted(BaseException):
+    """Stop an explicitly bounded research run before router fallback/retries."""
+
+
 @contextmanager
 def record_provider_outcomes(root, router):
     from core import key_manager
@@ -37,6 +41,10 @@ def record_provider_outcomes(root, router):
                 record.update(status='ERROR', code=getattr(error, 'code', None),
                               error_type=type(error).__name__, message=str(error),
                               details=getattr(error, 'details', None))
+                if (os.environ.get('BEGONYA_RESEARCH_STOP_ON_DAILY_QUOTA') == '1'
+                        and str(getattr(error, 'code', '')) == '429'
+                        and 'perday' in str(error).lower()):
+                    raise ResearchDailyQuotaExhausted('Provider daily free quota exhausted') from None
                 raise
             finally:
                 record['elapsed_seconds'] = round(time.time()-started, 3)

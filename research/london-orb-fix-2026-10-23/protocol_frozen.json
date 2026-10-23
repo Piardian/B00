@@ -1,0 +1,55 @@
+{
+  "frozen_utc": "2026-10-23T09:02:58.049034+00:00",
+  "declaration": {
+    "symbols": [
+      "EUR/USD",
+      "GBP/USD",
+      "USD/JPY",
+      "USD/CAD",
+      "USD/CHF",
+      "NZD/USD"
+    ],
+    "months": [
+      "2025-01",
+      "2025-06",
+      "2025-11"
+    ],
+    "parameters": "London08:00-16:30local;halfopenfirst15min;Asia00:00-06:00UTC;max70%ofSMA14completedUTCdailyTRfromH1;daily>=20H1bars;15validdaysneeded;minvolume2xhardveto",
+    "status": "Daily ATR normalization is an explicit new hypothesis, not guaranteed bugfix alpha; no parameter search; candidate counts only,not PnL/fullengine",
+    "sample": "Same previously examined three months,NOT OOS; repeat scans not independent trades",
+    "sources": {
+      "C:\\Users\\piard\\Desktop\\Begonya00\\sfp_orb_engine\\orb_detector.py": "6f936359c5df21e15affe2d1c0be5397a6564b45d1aaaa487ddbabe91ca637b9",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\sfp_orb_engine\\orb_session_context.py": "f28fe01ecd0f56df64ed3c0bdc6900c980d87892b727e2c64cd0b149c6bf8efb",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\sfp_orb_engine\\config.py": "34c5300339258340853366d5e72044db44d94ee79ebc8649a6e6f1b4959940e3",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\sfp_orb_engine\\engine.py": "b77a61159e69fdca88c91ac9d5288a177f1ae2733c78191e80599416a82cb7b2",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\sfp_orb_engine\\entry_mechanics.py": "a89813719b68e2be8da16a73432b296d03855e48d56bd7f99eba7b9ed5155ba5",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\sfp_orb_engine\\volume_anomaly.py": "7fe0308d123bc92399dcf3fd1e6af8e3d0ec22cb214b70a557ef1ec0f9a66f50",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\scripts\\prepass_2025_candidates.py": "1f926f205bf795950eacf0eb82eada16c3e280ba2d3739353a181dc03fd0d70c",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\scripts\\replay_live_system.py": "d0406878dc4ee444f543d21847a7cbe4146de2ecd07b9e7ef2775d430534669d",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\tests\\test_london_orb_context.py": "da4a06eca54065d3e75153755680d3a5ce98b54c8b78f6d41431464b98b7265e",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-orb-fix-2026-10-23\\validate.py": "3008f281e45a06a6b2880b2b1ee32bc942657e689a6f6d7d0e7a1f0b4d9e9976"
+    },
+    "before": {
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-orb-fix-2026-10-23\\before\\config.py": "d386b28d294ff7560ae7040d20b8b8349af6a60a16a7e2d551a4b949cc4d4d8f",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-orb-fix-2026-10-23\\before\\engine.py": "03bae69bb314243ba8e0775685226271c8365148496e0003c15dabcf0b87322d",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-orb-fix-2026-10-23\\before\\orb_detector.py": "641b76e23a045205c266ba1b25accf583ecd82e30ea2a508f11b9b8164249b9a",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-orb-fix-2026-10-23\\before\\prepass_2025_candidates.py": "34dc8313f5309b984aff2cb86e7e77924a0128e9545d0c0ccf4e23512f985aa8",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-orb-fix-2026-10-23\\before\\replay_live_system.py": "a3aab4de3a12d73824daa6fca230405b1ca8211d58c675b3a5c5513e885829fc"
+    },
+    "inputs": {
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\EURUSD_15m.csv.gz": "80f2c5b2b133681bb3ee567a44538496f6fa1208686689fa9787b58e4a89d2b8",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\EURUSD_1h.csv.gz": "340383461fca806055acb903d3401a4a0005033b5281b91bec8cafb73b3afad0",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\GBPUSD_15m.csv.gz": "6cec42d96184a5228f5eb34e272c9d4c30ca5b76a6f4e1de9c0bcbbe6d9dd4ef",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\GBPUSD_1h.csv.gz": "de38aa0c2ccdb7e691bbf611e6eccd4429429673fa9ed264599192aa6879fa34",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\USDJPY_15m.csv.gz": "d78624f9c1c0ae93340a5b3ed8bba57797fbb8062ad4b544dd43a2b45306b62e",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\USDJPY_1h.csv.gz": "7a5ebbf59bb1a0cf5378a448025634fe748f1ed5f4105d8686c99b1e349dcbb1",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\USDCAD_15m.csv.gz": "68b13f3cf8d925baeaeed75d93620a6c311f8b6bf76e70820e5de6a8d144fec6",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\USDCAD_1h.csv.gz": "2a093fe16f186629749345ec575bf0d2a9ed327451c28a76737a9063d3edcab5",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\USDCHF_15m.csv.gz": "17c85639b790fb3668d55eb61e3fca7d22e0d83a31b2b3005b137fb671298718",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\USDCHF_1h.csv.gz": "bad29c73cd65bfe142ec1444393dc607b1784bf7e2b876c3ac8e8f02d1088e8d",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\NZDUSD_15m.csv.gz": "94ba160598de9ba0e39ca1211c8e7a5365ba4adc5a1f8b7e636e33b4df0b1002",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\NZDUSD_1h.csv.gz": "2f2e5eab8db77387f67f43550f8beb9d82f6645af6041008d66527d6cea9ef88"
+    },
+    "live_approved": false
+  }
+}

@@ -17,7 +17,10 @@ from .config import (
     WEEKEND_ORB_ENABLED,
     ENTRY_MODEL,
     is_crypto,
+    ORB_LONDON_ATR_DAYS,
+    ORB_LONDON_MAX_ASIA_ATR_RATIO,
 )
+from .orb_session_context import london_context
 from .volume_anomaly import VolumeAnomalyDetector
 from .entry_mechanics import calculate_ce_entry
 
@@ -46,7 +49,7 @@ class ORBDetector:
         parts = t_str.split(":")
         return time(int(parts[0]), int(parts[1]))
 
-    def detect_orb(self, df: pd.DataFrame, symbol: str) -> Optional[Dict[str, Any]]:
+    def detect_orb(self, df: pd.DataFrame, symbol: str, *, hourly_history=None, as_of=None) -> Optional[Dict[str, Any]]:
         """
         Verilen veri setindeki son barlar icin aktif seansin ORB kirilimini tespit eder.
         """
@@ -55,15 +58,19 @@ class ORBDetector:
             return None
 
         # Hafta Sonu Korumasi: Cumartesi ve Pazar gunleri kriptoda sahte kirilimlari onlemek icin ORB kesinlikle kapalidir!
-        if datetime.now(timezone.utc).weekday() in [5, 6] and not WEEKEND_ORB_ENABLED:
+        scan_time = pd.Timestamp(as_of if as_of is not None else datetime.now(timezone.utc))
+        scan_time = scan_time.tz_localize('UTC') if scan_time.tzinfo is None else scan_time.tz_convert('UTC')
+        if scan_time.weekday() in [5, 6] and not WEEKEND_ORB_ENABLED:
             return None
 
         if len(df) < 15:
             return None
 
         df = df.copy()
-        if not pd.api.types.is_datetime64_any_dtype(df["datetime"]):
-            df["datetime"] = pd.to_datetime(df["datetime"])
+        df["datetime"] = pd.to_datetime(df["datetime"], utc=True)
+        df = df[df.datetime + pd.Timedelta(minutes=15) <= scan_time]
+        if len(df) < 15:
+            return None
 
         last_bar = df.iloc[-1]
         last_dt = last_bar["datetime"]
@@ -77,6 +84,16 @@ class ORBDetector:
 
         # Hangi seanstayiz?
         for session_key, session_cfg in ORB_SESSIONS.items():
+            context = None
+            if session_key == "LONDON":
+                context = london_context(df, hourly_history, session_cfg, self.range_minutes, scan_time,
+                    ORB_LONDON_MAX_ASIA_ATR_RATIO, ORB_LONDON_ATR_DAYS)
+                if context is None:
+                    continue
+                orb_bars = context['orb']
+                post_orb_bars = context['post']
+            else:
+                orb_bars = None
             s_open = self._parse_session_time(session_cfg["open_utc"])
             s_close = self._parse_session_time(session_cfg["close_utc"])
             s_orb_end = self._parse_session_time(session_cfg["orb_window_end_utc"])
@@ -88,11 +105,13 @@ class ORBDetector:
             else:  # Geceyi asan seans
                 is_in_session = (current_time >= s_open or current_time <= s_close)
 
-            if not is_in_session:
+            if session_key != 'LONDON' and not is_in_session:
                 continue
 
             # ORB Penceresi barlarini topla
-            if s_open <= s_orb_end:
+            if session_key == 'LONDON':
+                pass  # Exact local-clock, half-open range already validated above.
+            elif s_open <= s_orb_end:
                 orb_bars = today_df[(today_df["datetime"].dt.time >= s_open) & (today_df["datetime"].dt.time <= s_orb_end)]
             else:
                 orb_bars = today_df[(today_df["datetime"].dt.time >= s_open) | (today_df["datetime"].dt.time <= s_orb_end)]
@@ -105,20 +124,9 @@ class ORBDetector:
             orb_mid = (orb_high + orb_low) / 2.0
             orb_range = max(orb_high - orb_low, 1e-6)
 
-            # Geliştirme 3: Asya Seansı Sıkışma / Enerji Tüketim Filtresi (ORB İçin)
-            # Eğer Asya Seansı aralığı ATR'nin %70'ini aşıyorsa piyasa enerjisini tüketmiştir, ORB fakeout riski yüksektir.
-            if session_key == "LONDON":
-                asian_bars = today_df[(today_df["datetime"].dt.time >= time(0, 0)) & (today_df["datetime"].dt.time <= time(6, 0))]
-                if len(asian_bars) >= 4:
-                    asian_high = float(asian_bars["high"].max())
-                    asian_low = float(asian_bars["low"].min())
-                    asian_range = max(asian_high - asian_low, 0.0)
-                    atr_est = float((df["high"] - df["low"]).tail(14).mean())
-                    if atr_est > 0 and asian_range > (atr_est * 0.70):
-                        continue
-
             # ORB sonrasi olusan barlar (kirilim kontrolu)
-            post_orb_bars = today_df[today_df["datetime"].dt.time > s_orb_end]
+            if session_key != 'LONDON':
+                post_orb_bars = today_df[today_df["datetime"].dt.time > s_orb_end]
             if len(post_orb_bars) == 0:
                 continue
 
@@ -136,6 +144,8 @@ class ORBDetector:
             # Hacim analizi ve EMA-20 Trend Uyumu
             vol_info = self.volume_detector.analyze(df, target_index=len(df) - 1)
             vol_ratio = vol_info["spike_ratio"]
+            if session_key == 'LONDON' and vol_ratio < self.min_vol_ratio:
+                continue
             ema20 = float(df["close"].ewm(span=20, adjust=False).mean().iloc[-1]) if len(df) >= 20 else t_close
 
             # 1. BULLISH ORB KIRILIMI
@@ -172,6 +182,9 @@ class ORBDetector:
                 grade = "A+" if vol_ratio >= 1.8 else ("A" if vol_ratio >= self.min_vol_ratio else "B+")
 
                 return {
+                    **({'london_context': {'version': 'daily-atr14-v1', 'orb_start_utc': str(context['start']),
+                        'orb_end_utc': str(context['end']), 'daily_atr': context['daily_atr'],
+                        'asia_range': context['asian_range'], 'asia_atr_ratio': context['ratio']}} if context else {}),
                     "strategy": "ORB_SESSION_BREAKOUT",
                     "setup_type": "BULLISH_ORB",
                     "direction": "LONG",
@@ -233,6 +246,9 @@ class ORBDetector:
                 grade = "A+" if vol_ratio >= 1.8 else ("A" if vol_ratio >= self.min_vol_ratio else "B+")
 
                 return {
+                    **({'london_context': {'version': 'daily-atr14-v1', 'orb_start_utc': str(context['start']),
+                        'orb_end_utc': str(context['end']), 'daily_atr': context['daily_atr'],
+                        'asia_range': context['asian_range'], 'asia_atr_ratio': context['ratio']}} if context else {}),
                     "strategy": "ORB_SESSION_BREAKOUT",
                     "setup_type": "BEARISH_ORB",
                     "direction": "SHORT",

@@ -1,0 +1,25 @@
+{
+  "n": 343,
+  "wins": 201,
+  "losses": 142,
+  "gross_r": 82.60000000000001,
+  "cost_r": 49.8886,
+  "net_r": 32.711400000000005,
+  "win_rate_pct": 58.60058309037901,
+  "profit_factor": 1.1964221592662734,
+  "mean_r": 0.09536851311953354,
+  "t": 1.5543117839830276,
+  "p_two_sided_iid": 0.12103493339505661,
+  "ci95_mean_iid_r": [
+    -0.025316847945504303,
+    0.2160538741845714
+  ],
+  "closed_equity_max_drawdown_r": 14.6748,
+  "bootstrap_total_ci95_r": [
+    -11.869805,
+    77.12235749999999
+  ],
+  "bootstrap_nonpositive_fraction": 0.0766,
+  "ledger_sha256": "44af99976a236d444f77d64f0fd91149a7fcccc1a1aa37d9ca6f9f9b6741a2ae",
+  "scope": "LEGACY_CANDIDATE_DIAGNOSTICS_NOT_FULL_LIVE_SYSTEM_BACKTEST"
+}

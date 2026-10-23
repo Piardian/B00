@@ -5,18 +5,38 @@ shared/macro_bias_gate.json entegrasyonu ve Yönsel Veto Filtresi
 
 import json
 import logging
-from typing import Dict, Any, Optional
+from datetime import datetime, timezone, timedelta
+from typing import Dict, Any, Optional, Callable
 from pathlib import Path
 
-from .config import MACRO_GATE_FILE, SYMBOL_MAP_FILE
+from .config import MACRO_GATE_FILE, SYMBOL_MAP_FILE, MACRO_GATE_MAX_AGE_SECONDS
 
 logger = logging.getLogger("Begonya00.MacroGate")
 
 
 class MacroGateClient:
-    def __init__(self, gate_path: Optional[Path] = None):
+    def __init__(self, gate_path: Optional[Path] = None,
+                 now: Optional[Callable[[], datetime]] = None):
         self.gate_path = gate_path or MACRO_GATE_FILE
+        self._now = now or (lambda: datetime.now(timezone.utc))
         self.symbol_map = self._load_symbol_map()
+
+    def _decision_age(self, value: Any) -> float:
+        if not isinstance(value, str) or not value.strip():
+            raise ValueError("Missing macro decision timestamp")
+        decision_at = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        # Legacy production exports use datetime.now(): naive Turkish time.
+        if decision_at.tzinfo is None:
+            decision_at = decision_at.replace(tzinfo=timezone(timedelta(hours=3)))
+        now = self._now()
+        if now.tzinfo is None:
+            raise ValueError("Macro clock must be timezone aware")
+        age = (now - decision_at).total_seconds()
+        if age < 0:
+            raise ValueError("Future macro decision timestamp")
+        if age > MACRO_GATE_MAX_AGE_SECONDS:
+            raise ValueError("Expired macro decision timestamp")
+        return age
 
     def _load_symbol_map(self) -> Dict[str, Any]:
         if SYMBOL_MAP_FILE.exists():
@@ -44,6 +64,7 @@ class MacroGateClient:
         if not self.gate_path.exists():
             return {
                 "active": False,
+                "unavailable_reason": "Macro decision file missing",
                 "primary_regime": "UNKNOWN",
                 "risk_multiplier": 1.0,
                 "capital_preservation_mode": False,
@@ -52,8 +73,10 @@ class MacroGateClient:
 
         try:
             raw = json.loads(self.gate_path.read_text(encoding="utf-8"))
+            age = self._decision_age(raw.get("timestamp"))
             return {
                 "active": True,
+                "decision_age_seconds": age,
                 "timestamp": raw.get("timestamp"),
                 "primary_regime": raw.get("primary_regime", "Neutral"),
                 "volatility_risk_score": raw.get("volatility_risk_score", 0.5),
@@ -67,6 +90,7 @@ class MacroGateClient:
             logger.error(f"Makro kapı JSON okuma hatası: {e}")
             return {
                 "active": False,
+                "unavailable_reason": str(e),
                 "primary_regime": "ERROR",
                 "risk_multiplier": 1.0,
                 "capital_preservation_mode": False,
@@ -91,7 +115,7 @@ class MacroGateClient:
 
         if not state.get("active") or gate_bias == "NEUTRAL_RANGE":
             return {"allowed": False, "decision": "VETO_NEUTRAL_OR_UNAVAILABLE",
-                    "reason": "Yönlü ve okunabilir makro kapı gerekli.",
+                    "reason": state.get("unavailable_reason") or "Yönlü ve okunabilir makro kapı gerekli.",
                     "gate_bias": gate_bias, "regime": regime, "risk_multiplier": 0.0}
 
         # 1. Sermaye Koruma Modu Kontrolü

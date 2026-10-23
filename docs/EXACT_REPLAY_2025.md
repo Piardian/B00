@@ -34,7 +34,7 @@ Eski `DailyMacroGateTable` bu talebe uygun değil: eksik göstergeleri sabit/sen
 - Ay sonunda açık pozisyonlar yapay olarak kapatılmaz. Kapalı sonuç, açık pozisyon ve eksik veri ayrı raporlanır. Her ay boş portföyle başlar; üç ayrık ay tek devamlı yıl simülasyonu değildir.
 - Kod dosyaları SHA256 ile tanımlanır; etkin ayarlar rapora yazılır. Sonraki çalıştırmalarda kaynak kopyaları çıktı klasöründe saklanır.
 
-Bu, canlı **paper modelinin** tekrarıdır. Broker dolumu, gerçek bid/ask, bağlantı gecikmesi veya yeniden üretilemeyen 2025 LLM kararları için birebirlik iddiası yoktur. Sabit dakika başında tarama, canlı taramanın ölçülmüş gecikmelerini içermez. Mevcut tepki teyitli paper dolumu, seviyeye bırakılmış gerçek limit emrinin aynı dolum varsayımı değildir. Farklı bir mekanizmayla bunun üzeri örtülmedi.
+Bu, canlı **paper modelinin** tekrarıdır. Broker dolumu, gerçek bid/ask, bağlantı gecikmesi veya yeniden üretilemeyen 2025 LLM kararları için birebirlik iddiası yoktur. Sabit dakika başında tarama, canlı taramanın ölçülmüş gecikmelerini içermez. 23 Ekim düzeltmesiyle limit teması dolum sayılır; aynı bardaki stop zarar yazar, başarısız tepki dolmuş işlemi kapanış fiyatından maliyetle kapatır. Bu hâlâ gerçek broker dolumu doğrulaması değildir. Güncel durum: [doğrulama düzeltmeleri](FOREX_GOLD_VALIDATION_FIXES_2026-10-23.md).
 
 ## Eksik girdilerin sözleşmesi
 
