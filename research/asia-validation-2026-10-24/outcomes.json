@@ -1,0 +1,2438 @@
+[
+  {
+    "candidate_id": 0,
+    "symbol": "EURUSD",
+    "day": "2025-02-06",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-06 09:00:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-06 13:31:00+00:00",
+    "gross_r": 0.5909090909090726,
+    "commission_r": 0.03636363636363303,
+    "net_r": 0.5545454545454396,
+    "original_entry": 1.0366,
+    "original_stop": 1.0377,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 1.03528
+      },
+      {
+        "qty": 0.5,
+        "price": 1.0366199999999999
+      }
+    ]
+  },
+  {
+    "candidate_id": 0,
+    "symbol": "EURUSD",
+    "day": "2025-02-06",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-06 09:00:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-06 15:21:00+00:00",
+    "gross_r": -1.0181818181817337,
+    "commission_r": 0.03636363636363303,
+    "net_r": -1.0545454545453667,
+    "original_entry": 1.0366,
+    "original_stop": 1.0377,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.03772
+      }
+    ]
+  },
+  {
+    "candidate_id": 0,
+    "symbol": "EURUSD",
+    "day": "2025-02-06",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-06 09:00:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-06 15:21:00+00:00",
+    "gross_r": -1.0181818181817337,
+    "commission_r": 0.03636363636363303,
+    "net_r": -1.0545454545453667,
+    "original_entry": 1.0366,
+    "original_stop": 1.0377,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.03772
+      }
+    ]
+  },
+  {
+    "candidate_id": 0,
+    "symbol": "EURUSD",
+    "day": "2025-02-06",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-06 09:00:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-06 15:21:00+00:00",
+    "gross_r": -1.0181818181817337,
+    "commission_r": 0.03636363636363303,
+    "net_r": -1.0545454545453667,
+    "original_entry": 1.0366,
+    "original_stop": 1.0377,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.03772
+      }
+    ]
+  },
+  {
+    "candidate_id": 1,
+    "symbol": "EURUSD",
+    "day": "2025-02-10",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-02-10 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-10 09:04:00+00:00",
+    "gross_r": 1.9999999999988898,
+    "commission_r": 0.09999999999995551,
+    "net_r": 1.8999999999989343,
+    "original_entry": 1.0316,
+    "original_stop": 1.0312,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 1.0322
+      },
+      {
+        "qty": 0.5,
+        "price": 1.0326
+      }
+    ]
+  },
+  {
+    "candidate_id": 1,
+    "symbol": "EURUSD",
+    "day": "2025-02-10",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-10 08:35:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-10 08:36:00+00:00",
+    "gross_r": -0.07499999999990285,
+    "commission_r": 0.09999999999995551,
+    "net_r": -0.17499999999985838,
+    "original_entry": 1.0316,
+    "original_stop": 1.0312,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.03157
+      }
+    ]
+  },
+  {
+    "candidate_id": 1,
+    "symbol": "EURUSD",
+    "day": "2025-02-10",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-10 08:35:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-10 08:36:00+00:00",
+    "gross_r": -0.07499999999990285,
+    "commission_r": 0.09999999999995551,
+    "net_r": -0.17499999999985838,
+    "original_entry": 1.0316,
+    "original_stop": 1.0312,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.03157
+      }
+    ]
+  },
+  {
+    "candidate_id": 1,
+    "symbol": "EURUSD",
+    "day": "2025-02-10",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-02-10 08:36:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-10 09:04:00+00:00",
+    "gross_r": 1.9999999999988898,
+    "commission_r": 0.09999999999995551,
+    "net_r": 1.8999999999989343,
+    "original_entry": 1.0316,
+    "original_stop": 1.0312,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 1.0322
+      },
+      {
+        "qty": 0.5,
+        "price": 1.0326
+      }
+    ]
+  },
+  {
+    "candidate_id": 2,
+    "symbol": "EURUSD",
+    "day": "2025-02-14",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-14 08:57:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-14 08:58:00+00:00",
+    "gross_r": -0.044444444444482825,
+    "commission_r": 0.044444444444438375,
+    "net_r": -0.0888888888889212,
+    "original_entry": 1.0475,
+    "original_stop": 1.0466,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.04746
+      }
+    ]
+  },
+  {
+    "candidate_id": 2,
+    "symbol": "EURUSD",
+    "day": "2025-02-14",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-14 08:57:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-14 08:58:00+00:00",
+    "gross_r": -0.044444444444482825,
+    "commission_r": 0.044444444444438375,
+    "net_r": -0.0888888888889212,
+    "original_entry": 1.0475,
+    "original_stop": 1.0466,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.04746
+      }
+    ]
+  },
+  {
+    "candidate_id": 2,
+    "symbol": "EURUSD",
+    "day": "2025-02-14",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-14 08:57:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-14 08:58:00+00:00",
+    "gross_r": -0.044444444444482825,
+    "commission_r": 0.044444444444438375,
+    "net_r": -0.0888888888889212,
+    "original_entry": 1.0475,
+    "original_stop": 1.0466,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.04746
+      }
+    ]
+  },
+  {
+    "candidate_id": 2,
+    "symbol": "EURUSD",
+    "day": "2025-02-14",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-14 10:35:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-14 10:36:00+00:00",
+    "gross_r": -0.1666666666667489,
+    "commission_r": 0.044444444444438375,
+    "net_r": -0.21111111111118727,
+    "original_entry": 1.0475,
+    "original_stop": 1.0466,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.04735
+      }
+    ]
+  },
+  {
+    "candidate_id": 3,
+    "symbol": "EURUSD",
+    "day": "2025-02-17",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-17 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-17 10:12:00+00:00",
+    "gross_r": -1.0285714285713017,
+    "commission_r": 0.05714285714286344,
+    "net_r": -1.085714285714165,
+    "original_entry": 1.0475,
+    "original_stop": 1.0482,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.04822
+      }
+    ]
+  },
+  {
+    "candidate_id": 3,
+    "symbol": "EURUSD",
+    "day": "2025-02-17",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-17 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-17 09:27:00+00:00",
+    "gross_r": -1.0285714285713017,
+    "commission_r": 0.05714285714286344,
+    "net_r": -1.085714285714165,
+    "original_entry": 1.0475,
+    "original_stop": 1.0482,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.04822
+      }
+    ]
+  },
+  {
+    "candidate_id": 3,
+    "symbol": "EURUSD",
+    "day": "2025-02-17",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-17 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-17 09:20:00+00:00",
+    "gross_r": -1.0285714285713017,
+    "commission_r": 0.05714285714286344,
+    "net_r": -1.085714285714165,
+    "original_entry": 1.0475,
+    "original_stop": 1.0482,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.04822
+      }
+    ]
+  },
+  {
+    "candidate_id": 3,
+    "symbol": "EURUSD",
+    "day": "2025-02-17",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-17 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-17 09:20:00+00:00",
+    "gross_r": -1.0285714285713017,
+    "commission_r": 0.05714285714286344,
+    "net_r": -1.085714285714165,
+    "original_entry": 1.0475,
+    "original_stop": 1.0482,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.04822
+      }
+    ]
+  },
+  {
+    "candidate_id": 4,
+    "symbol": "EURUSD",
+    "day": "2025-02-20",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-20 08:45:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-20 09:21:00+00:00",
+    "gross_r": -1.0285714285712926,
+    "commission_r": 0.05714285714284532,
+    "net_r": -1.085714285714138,
+    "original_entry": 1.0431,
+    "original_stop": 1.0438,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.04382
+      }
+    ]
+  },
+  {
+    "candidate_id": 4,
+    "symbol": "EURUSD",
+    "day": "2025-02-20",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-20 08:45:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-20 09:21:00+00:00",
+    "gross_r": -1.0285714285712926,
+    "commission_r": 0.05714285714284532,
+    "net_r": -1.085714285714138,
+    "original_entry": 1.0431,
+    "original_stop": 1.0438,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.04382
+      }
+    ]
+  },
+  {
+    "candidate_id": 4,
+    "symbol": "EURUSD",
+    "day": "2025-02-20",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-20 08:45:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-20 09:21:00+00:00",
+    "gross_r": -1.0285714285712926,
+    "commission_r": 0.05714285714284532,
+    "net_r": -1.085714285714138,
+    "original_entry": 1.0431,
+    "original_stop": 1.0438,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.04382
+      }
+    ]
+  },
+  {
+    "candidate_id": 4,
+    "symbol": "EURUSD",
+    "day": "2025-02-20",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-20 08:45:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-20 09:19:00+00:00",
+    "gross_r": -1.0285714285712926,
+    "commission_r": 0.05714285714284532,
+    "net_r": -1.085714285714138,
+    "original_entry": 1.0431,
+    "original_stop": 1.0438,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.04382
+      }
+    ]
+  },
+  {
+    "candidate_id": 5,
+    "symbol": "EURUSD",
+    "day": "2025-02-21",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-21 12:46:00+00:00",
+    "gross_r": 0.9826923076924486,
+    "commission_r": 0.03076923076923416,
+    "net_r": 0.9519230769232144,
+    "original_entry": 1.048,
+    "original_stop": 1.0493,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 1.0464
+      },
+      {
+        "qty": 0.5,
+        "price": 1.047045
+      }
+    ]
+  },
+  {
+    "candidate_id": 5,
+    "symbol": "EURUSD",
+    "day": "2025-02-21",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-21 12:31:00+00:00",
+    "gross_r": 0.9826923076924486,
+    "commission_r": 0.03076923076923416,
+    "net_r": 0.9519230769232144,
+    "original_entry": 1.048,
+    "original_stop": 1.0493,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 1.0464
+      },
+      {
+        "qty": 0.5,
+        "price": 1.047045
+      }
+    ]
+  },
+  {
+    "candidate_id": 5,
+    "symbol": "EURUSD",
+    "day": "2025-02-21",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-21 12:31:00+00:00",
+    "gross_r": 0.9826923076924486,
+    "commission_r": 0.03076923076923416,
+    "net_r": 0.9519230769232144,
+    "original_entry": 1.048,
+    "original_stop": 1.0493,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 1.0464
+      },
+      {
+        "qty": 0.5,
+        "price": 1.047045
+      }
+    ]
+  },
+  {
+    "candidate_id": 5,
+    "symbol": "EURUSD",
+    "day": "2025-02-21",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-21 14:02:00+00:00",
+    "gross_r": 0.6076923076924272,
+    "commission_r": 0.03076923076923416,
+    "net_r": 0.576923076923193,
+    "original_entry": 1.048,
+    "original_stop": 1.0493,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 1.0464
+      },
+      {
+        "qty": 0.5,
+        "price": 1.04802
+      }
+    ]
+  },
+  {
+    "candidate_id": 6,
+    "symbol": "EURUSD",
+    "day": "2025-03-03",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-03 08:57:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-03 08:58:00+00:00",
+    "gross_r": -0.09999999999955592,
+    "commission_r": 0.06666666666667402,
+    "net_r": -0.16666666666622992,
+    "original_entry": 1.0399,
+    "original_stop": 1.0405,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.0399599999999998
+      }
+    ]
+  },
+  {
+    "candidate_id": 6,
+    "symbol": "EURUSD",
+    "day": "2025-03-03",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-03 08:57:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-03 08:58:00+00:00",
+    "gross_r": -0.14999999999988897,
+    "commission_r": 0.06666666666667402,
+    "net_r": -0.21666666666656298,
+    "original_entry": 1.0399,
+    "original_stop": 1.0405,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.03999
+      }
+    ]
+  },
+  {
+    "candidate_id": 6,
+    "symbol": "EURUSD",
+    "day": "2025-03-03",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-03 08:57:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-03 08:58:00+00:00",
+    "gross_r": -0.21666666666625958,
+    "commission_r": 0.06666666666667402,
+    "net_r": -0.2833333333329336,
+    "original_entry": 1.0399,
+    "original_stop": 1.0405,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.0400299999999998
+      }
+    ]
+  },
+  {
+    "candidate_id": 6,
+    "symbol": "EURUSD",
+    "day": "2025-03-03",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-03 08:57:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-03 08:58:00+00:00",
+    "gross_r": -0.31666666666655563,
+    "commission_r": 0.06666666666667402,
+    "net_r": -0.38333333333322966,
+    "original_entry": 1.0399,
+    "original_stop": 1.0405,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.04009
+      }
+    ]
+  },
+  {
+    "candidate_id": 7,
+    "symbol": "EURUSD",
+    "day": "2025-03-18",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-18 08:39:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-18 08:40:00+00:00",
+    "gross_r": -0.12499999999990748,
+    "commission_r": 0.03333333333333701,
+    "net_r": -0.15833333333324448,
+    "original_entry": 1.095,
+    "original_stop": 1.0938,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.09485
+      }
+    ]
+  },
+  {
+    "candidate_id": 7,
+    "symbol": "EURUSD",
+    "day": "2025-03-18",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-18 08:39:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-18 08:40:00+00:00",
+    "gross_r": -0.12499999999990748,
+    "commission_r": 0.03333333333333701,
+    "net_r": -0.15833333333324448,
+    "original_entry": 1.095,
+    "original_stop": 1.0938,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.09485
+      }
+    ]
+  },
+  {
+    "candidate_id": 7,
+    "symbol": "EURUSD",
+    "day": "2025-03-18",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-18 08:39:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-18 08:40:00+00:00",
+    "gross_r": -0.12499999999990748,
+    "commission_r": 0.03333333333333701,
+    "net_r": -0.15833333333324448,
+    "original_entry": 1.095,
+    "original_stop": 1.0938,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.09485
+      }
+    ]
+  },
+  {
+    "candidate_id": 7,
+    "symbol": "EURUSD",
+    "day": "2025-03-18",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-18 08:40:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-18 10:26:00+00:00",
+    "gross_r": -1.0166666666665927,
+    "commission_r": 0.03333333333333701,
+    "net_r": -1.0499999999999297,
+    "original_entry": 1.095,
+    "original_stop": 1.0938,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.0937800000000002
+      }
+    ]
+  },
+  {
+    "candidate_id": 8,
+    "symbol": "EURUSD",
+    "day": "2025-03-24",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "FILL_BAR_STOP",
+    "filled_at": "2025-03-24 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-24 08:31:00+00:00",
+    "gross_r": -1.0222222222221236,
+    "commission_r": 0.044444444444449345,
+    "net_r": -1.066666666666573,
+    "original_entry": 1.0849,
+    "original_stop": 1.084,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.0839800000000002
+      }
+    ]
+  },
+  {
+    "candidate_id": 8,
+    "symbol": "EURUSD",
+    "day": "2025-03-24",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "FILL_BAR_STOP",
+    "filled_at": "2025-03-24 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-24 08:31:00+00:00",
+    "gross_r": -1.0222222222221236,
+    "commission_r": 0.044444444444449345,
+    "net_r": -1.066666666666573,
+    "original_entry": 1.0849,
+    "original_stop": 1.084,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.0839800000000002
+      }
+    ]
+  },
+  {
+    "candidate_id": 8,
+    "symbol": "EURUSD",
+    "day": "2025-03-24",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "FILL_BAR_STOP",
+    "filled_at": "2025-03-24 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-24 08:31:00+00:00",
+    "gross_r": -1.0222222222221236,
+    "commission_r": 0.044444444444449345,
+    "net_r": -1.066666666666573,
+    "original_entry": 1.0849,
+    "original_stop": 1.084,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.0839800000000002
+      }
+    ]
+  },
+  {
+    "candidate_id": 8,
+    "symbol": "EURUSD",
+    "day": "2025-03-24",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "FILL_BAR_STOP",
+    "filled_at": "2025-03-24 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-24 08:31:00+00:00",
+    "gross_r": -1.0222222222221236,
+    "commission_r": 0.044444444444449345,
+    "net_r": -1.066666666666573,
+    "original_entry": 1.0849,
+    "original_stop": 1.084,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.0839800000000002
+      }
+    ]
+  },
+  {
+    "candidate_id": 9,
+    "symbol": "EURUSD",
+    "day": "2025-03-25",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "confirmed_at": null,
+    "closed_at": "2025-03-25 12:00:00+00:00",
+    "gross_r": 0.0,
+    "commission_r": 0.0,
+    "net_r": 0.0,
+    "original_entry": 1.0793,
+    "original_stop": 1.0784,
+    "parts": []
+  },
+  {
+    "candidate_id": 9,
+    "symbol": "EURUSD",
+    "day": "2025-03-25",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "confirmed_at": null,
+    "closed_at": "2025-03-25 12:00:00+00:00",
+    "gross_r": 0.0,
+    "commission_r": 0.0,
+    "net_r": 0.0,
+    "original_entry": 1.0793,
+    "original_stop": 1.0784,
+    "parts": []
+  },
+  {
+    "candidate_id": 9,
+    "symbol": "EURUSD",
+    "day": "2025-03-25",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "confirmed_at": null,
+    "closed_at": "2025-03-25 12:00:00+00:00",
+    "gross_r": 0.0,
+    "commission_r": 0.0,
+    "net_r": 0.0,
+    "original_entry": 1.0793,
+    "original_stop": 1.0784,
+    "parts": []
+  },
+  {
+    "candidate_id": 9,
+    "symbol": "EURUSD",
+    "day": "2025-03-25",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "confirmed_at": null,
+    "closed_at": "2025-03-25 12:00:00+00:00",
+    "gross_r": 0.0,
+    "commission_r": 0.0,
+    "net_r": 0.0,
+    "original_entry": 1.0793,
+    "original_stop": 1.0784,
+    "parts": []
+  },
+  {
+    "candidate_id": 10,
+    "symbol": "EURUSD",
+    "day": "2025-03-26",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-26 09:05:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-26 09:06:00+00:00",
+    "gross_r": -0.21249999999996877,
+    "commission_r": 0.049999999999991634,
+    "net_r": -0.26249999999996043,
+    "original_entry": 1.0797,
+    "original_stop": 1.0789,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.07953
+      }
+    ]
+  },
+  {
+    "candidate_id": 10,
+    "symbol": "EURUSD",
+    "day": "2025-03-26",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-26 09:05:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-26 09:06:00+00:00",
+    "gross_r": -0.21249999999996877,
+    "commission_r": 0.049999999999991634,
+    "net_r": -0.26249999999996043,
+    "original_entry": 1.0797,
+    "original_stop": 1.0789,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.07953
+      }
+    ]
+  },
+  {
+    "candidate_id": 10,
+    "symbol": "EURUSD",
+    "day": "2025-03-26",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-26 09:05:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-26 09:06:00+00:00",
+    "gross_r": -0.21249999999996877,
+    "commission_r": 0.049999999999991634,
+    "net_r": -0.26249999999996043,
+    "original_entry": 1.0797,
+    "original_stop": 1.0789,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.07953
+      }
+    ]
+  },
+  {
+    "candidate_id": 10,
+    "symbol": "EURUSD",
+    "day": "2025-03-26",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-26 09:05:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-26 09:06:00+00:00",
+    "gross_r": -0.21249999999996877,
+    "commission_r": 0.049999999999991634,
+    "net_r": -0.26249999999996043,
+    "original_entry": 1.0797,
+    "original_stop": 1.0789,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.07953
+      }
+    ]
+  },
+  {
+    "candidate_id": 11,
+    "symbol": "EURUSD",
+    "day": "2025-03-28",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-28 08:37:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-28 08:38:00+00:00",
+    "gross_r": -0.01818181818153558,
+    "commission_r": 0.03636363636364037,
+    "net_r": -0.05454545454517595,
+    "original_entry": 1.0781,
+    "original_stop": 1.0792,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.0781199999999997
+      }
+    ]
+  },
+  {
+    "candidate_id": 11,
+    "symbol": "EURUSD",
+    "day": "2025-03-28",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-28 08:37:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-28 08:38:00+00:00",
+    "gross_r": -0.04545454545444452,
+    "commission_r": 0.03636363636364037,
+    "net_r": -0.0818181818180849,
+    "original_entry": 1.0781,
+    "original_stop": 1.0792,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.07815
+      }
+    ]
+  },
+  {
+    "candidate_id": 11,
+    "symbol": "EURUSD",
+    "day": "2025-03-28",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-28 08:37:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-28 08:38:00+00:00",
+    "gross_r": -0.0818181818179194,
+    "commission_r": 0.03636363636364037,
+    "net_r": -0.11818181818155978,
+    "original_entry": 1.0781,
+    "original_stop": 1.0792,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.0781899999999998
+      }
+    ]
+  },
+  {
+    "candidate_id": 11,
+    "symbol": "EURUSD",
+    "day": "2025-03-28",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-28 08:37:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-28 08:38:00+00:00",
+    "gross_r": -0.13636363636353543,
+    "commission_r": 0.03636363636364037,
+    "net_r": -0.1727272727271758,
+    "original_entry": 1.0781,
+    "original_stop": 1.0792,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.07825
+      }
+    ]
+  },
+  {
+    "candidate_id": 12,
+    "symbol": "EURUSD",
+    "day": "2025-03-31",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-31 07:32:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-31 07:33:00+00:00",
+    "gross_r": -0.11428571428566443,
+    "commission_r": 0.02857142857142719,
+    "net_r": -0.1428571428570916,
+    "original_entry": 1.0829,
+    "original_stop": 1.0843,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.08306
+      }
+    ]
+  },
+  {
+    "candidate_id": 12,
+    "symbol": "EURUSD",
+    "day": "2025-03-31",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-31 07:32:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-31 07:33:00+00:00",
+    "gross_r": -0.13571428571437522,
+    "commission_r": 0.02857142857142719,
+    "net_r": -0.1642857142858024,
+    "original_entry": 1.0829,
+    "original_stop": 1.0843,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.08309
+      }
+    ]
+  },
+  {
+    "candidate_id": 12,
+    "symbol": "EURUSD",
+    "day": "2025-03-31",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-31 07:32:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-31 07:33:00+00:00",
+    "gross_r": -0.16428571428567237,
+    "commission_r": 0.02857142857142719,
+    "net_r": -0.19285714285709957,
+    "original_entry": 1.0829,
+    "original_stop": 1.0843,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.08313
+      }
+    ]
+  },
+  {
+    "candidate_id": 12,
+    "symbol": "EURUSD",
+    "day": "2025-03-31",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-31 07:32:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-31 07:33:00+00:00",
+    "gross_r": -0.20714285714293532,
+    "commission_r": 0.02857142857142719,
+    "net_r": -0.2357142857143625,
+    "original_entry": 1.0829,
+    "original_stop": 1.0843,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.08319
+      }
+    ]
+  },
+  {
+    "candidate_id": 13,
+    "symbol": "GBPUSD",
+    "day": "2025-02-06",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-06 08:37:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-06 08:38:00+00:00",
+    "gross_r": -0.09166666666652018,
+    "commission_r": 0.03333333333333084,
+    "net_r": -0.12499999999985102,
+    "original_entry": 1.2458,
+    "original_stop": 1.247,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.2459099999999999
+      }
+    ]
+  },
+  {
+    "candidate_id": 13,
+    "symbol": "GBPUSD",
+    "day": "2025-02-06",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-06 08:37:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-06 08:38:00+00:00",
+    "gross_r": -0.11666666666668209,
+    "commission_r": 0.03333333333333084,
+    "net_r": -0.15000000000001293,
+    "original_entry": 1.2458,
+    "original_stop": 1.247,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.24594
+      }
+    ]
+  },
+  {
+    "candidate_id": 13,
+    "symbol": "GBPUSD",
+    "day": "2025-02-06",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-06 08:37:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-06 08:38:00+00:00",
+    "gross_r": -0.14999999999986122,
+    "commission_r": 0.03333333333333084,
+    "net_r": -0.18333333333319207,
+    "original_entry": 1.2458,
+    "original_stop": 1.247,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.2459799999999999
+      }
+    ]
+  },
+  {
+    "candidate_id": 13,
+    "symbol": "GBPUSD",
+    "day": "2025-02-06",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-06 08:37:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-06 08:38:00+00:00",
+    "gross_r": -0.2,
+    "commission_r": 0.03333333333333084,
+    "net_r": -0.23333333333333084,
+    "original_entry": 1.2458,
+    "original_stop": 1.247,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.24604
+      }
+    ]
+  },
+  {
+    "candidate_id": 14,
+    "symbol": "GBPUSD",
+    "day": "2025-02-21",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-21 08:40:00+00:00",
+    "gross_r": -1.0222222222221236,
+    "commission_r": 0.044444444444449345,
+    "net_r": -1.066666666666573,
+    "original_entry": 1.266,
+    "original_stop": 1.2669,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.2669199999999998
+      }
+    ]
+  },
+  {
+    "candidate_id": 14,
+    "symbol": "GBPUSD",
+    "day": "2025-02-21",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-21 08:40:00+00:00",
+    "gross_r": -1.0222222222221236,
+    "commission_r": 0.044444444444449345,
+    "net_r": -1.066666666666573,
+    "original_entry": 1.266,
+    "original_stop": 1.2669,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.2669199999999998
+      }
+    ]
+  },
+  {
+    "candidate_id": 14,
+    "symbol": "GBPUSD",
+    "day": "2025-02-21",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-21 08:40:00+00:00",
+    "gross_r": -1.0222222222221236,
+    "commission_r": 0.044444444444449345,
+    "net_r": -1.066666666666573,
+    "original_entry": 1.266,
+    "original_stop": 1.2669,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.2669199999999998
+      }
+    ]
+  },
+  {
+    "candidate_id": 14,
+    "symbol": "GBPUSD",
+    "day": "2025-02-21",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-21 08:40:00+00:00",
+    "gross_r": -1.0222222222221236,
+    "commission_r": 0.044444444444449345,
+    "net_r": -1.066666666666573,
+    "original_entry": 1.266,
+    "original_stop": 1.2669,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.2669199999999998
+      }
+    ]
+  },
+  {
+    "candidate_id": 15,
+    "symbol": "GBPUSD",
+    "day": "2025-03-12",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-12 09:03:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-12 11:50:00+00:00",
+    "gross_r": 0.9666666666666359,
+    "commission_r": 0.03333333333333084,
+    "net_r": 0.933333333333305,
+    "original_entry": 1.2939,
+    "original_stop": 1.2927,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 1.29534
+      },
+      {
+        "qty": 0.5,
+        "price": 1.2947800000000003
+      }
+    ]
+  },
+  {
+    "candidate_id": 15,
+    "symbol": "GBPUSD",
+    "day": "2025-03-12",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-12 09:14:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-12 11:50:00+00:00",
+    "gross_r": 0.9666666666666359,
+    "commission_r": 0.03333333333333084,
+    "net_r": 0.933333333333305,
+    "original_entry": 1.2939,
+    "original_stop": 1.2927,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 1.29534
+      },
+      {
+        "qty": 0.5,
+        "price": 1.2947800000000003
+      }
+    ]
+  },
+  {
+    "candidate_id": 15,
+    "symbol": "GBPUSD",
+    "day": "2025-03-12",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-12 09:14:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-12 11:50:00+00:00",
+    "gross_r": 0.9666666666666359,
+    "commission_r": 0.03333333333333084,
+    "net_r": 0.933333333333305,
+    "original_entry": 1.2939,
+    "original_stop": 1.2927,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 1.29534
+      },
+      {
+        "qty": 0.5,
+        "price": 1.2947800000000003
+      }
+    ]
+  },
+  {
+    "candidate_id": 15,
+    "symbol": "GBPUSD",
+    "day": "2025-03-12",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-12 09:14:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-12 11:50:00+00:00",
+    "gross_r": 0.9666666666666359,
+    "commission_r": 0.03333333333333084,
+    "net_r": 0.933333333333305,
+    "original_entry": 1.2939,
+    "original_stop": 1.2927,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 1.29534
+      },
+      {
+        "qty": 0.5,
+        "price": 1.2947800000000003
+      }
+    ]
+  },
+  {
+    "candidate_id": 16,
+    "symbol": "GBPUSD",
+    "day": "2025-03-13",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-13 08:31:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-13 08:54:00+00:00",
+    "gross_r": -1.022222222222118,
+    "commission_r": 0.044444444444438375,
+    "net_r": -1.0666666666665563,
+    "original_entry": 1.2961,
+    "original_stop": 1.2952,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.29518
+      }
+    ]
+  },
+  {
+    "candidate_id": 16,
+    "symbol": "GBPUSD",
+    "day": "2025-03-13",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-13 08:32:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-13 08:33:00+00:00",
+    "gross_r": -0.24444444444428545,
+    "commission_r": 0.044444444444438375,
+    "net_r": -0.2888888888887238,
+    "original_entry": 1.2961,
+    "original_stop": 1.2952,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.2958800000000001
+      }
+    ]
+  },
+  {
+    "candidate_id": 16,
+    "symbol": "GBPUSD",
+    "day": "2025-03-13",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-13 08:32:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-13 08:33:00+00:00",
+    "gross_r": -0.24444444444428545,
+    "commission_r": 0.044444444444438375,
+    "net_r": -0.2888888888887238,
+    "original_entry": 1.2961,
+    "original_stop": 1.2952,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.2958800000000001
+      }
+    ]
+  },
+  {
+    "candidate_id": 16,
+    "symbol": "GBPUSD",
+    "day": "2025-03-13",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-13 08:32:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-13 08:33:00+00:00",
+    "gross_r": -0.24444444444428545,
+    "commission_r": 0.044444444444438375,
+    "net_r": -0.2888888888887238,
+    "original_entry": 1.2961,
+    "original_stop": 1.2952,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.2958800000000001
+      }
+    ]
+  },
+  {
+    "candidate_id": 17,
+    "symbol": "USDJPY",
+    "day": "2025-02-11",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-11 08:46:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-11 08:47:00+00:00",
+    "gross_r": -0.04117647058826775,
+    "commission_r": 0.03573258823529675,
+    "net_r": -0.0769090588235645,
+    "original_entry": 151.86,
+    "original_stop": 152.03,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 151.86700000000002
+      }
+    ]
+  },
+  {
+    "candidate_id": 17,
+    "symbol": "USDJPY",
+    "day": "2025-02-11",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-11 08:46:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-11 08:47:00+00:00",
+    "gross_r": -0.058823529411715536,
+    "commission_r": 0.035732941176473215,
+    "net_r": -0.09455647058818875,
+    "original_entry": 151.86,
+    "original_stop": 152.03,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 151.87
+      }
+    ]
+  },
+  {
+    "candidate_id": 17,
+    "symbol": "USDJPY",
+    "day": "2025-02-11",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-11 08:46:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-11 08:47:00+00:00",
+    "gross_r": -0.08235294117636831,
+    "commission_r": 0.03573341176470852,
+    "net_r": -0.11808635294107683,
+    "original_entry": 151.86,
+    "original_stop": 152.03,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 151.874
+      }
+    ]
+  },
+  {
+    "candidate_id": 17,
+    "symbol": "USDJPY",
+    "day": "2025-02-11",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-11 08:46:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-11 08:47:00+00:00",
+    "gross_r": -0.11764705882343107,
+    "commission_r": 0.03573411764706145,
+    "net_r": -0.15338117647049251,
+    "original_entry": 151.86,
+    "original_stop": 152.03,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 151.88
+      }
+    ]
+  },
+  {
+    "candidate_id": 18,
+    "symbol": "USDJPY",
+    "day": "2025-03-24",
+    "month": "2025-03",
+    "group": "LOOSE",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-24 08:49:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-24 08:50:00+00:00",
+    "gross_r": -0.08461538461535434,
+    "commission_r": 0.0460263076923093,
+    "net_r": -0.13064169230766365,
+    "original_entry": 149.58,
+    "original_stop": 149.71,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 149.591
+      }
+    ]
+  },
+  {
+    "candidate_id": 18,
+    "symbol": "USDJPY",
+    "day": "2025-03-24",
+    "month": "2025-03",
+    "group": "LOOSE",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-24 08:49:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-24 08:50:00+00:00",
+    "gross_r": -0.1076923076921698,
+    "commission_r": 0.046026769230770835,
+    "net_r": -0.15371907692294062,
+    "original_entry": 149.58,
+    "original_stop": 149.71,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 149.594
+      }
+    ]
+  },
+  {
+    "candidate_id": 18,
+    "symbol": "USDJPY",
+    "day": "2025-03-24",
+    "month": "2025-03",
+    "group": "LOOSE",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-24 08:49:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-24 08:50:00+00:00",
+    "gross_r": -0.1384615384613299,
+    "commission_r": 0.046027384615386226,
+    "net_r": -0.18448892307671613,
+    "original_entry": 149.58,
+    "original_stop": 149.71,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 149.59799999999998
+      }
+    ]
+  },
+  {
+    "candidate_id": 18,
+    "symbol": "USDJPY",
+    "day": "2025-03-24",
+    "month": "2025-03",
+    "group": "LOOSE",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-24 08:49:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-24 08:50:00+00:00",
+    "gross_r": -0.18461538461517943,
+    "commission_r": 0.046028307692309305,
+    "net_r": -0.23064369230748874,
+    "original_entry": 149.58,
+    "original_stop": 149.71,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 149.60399999999998
+      }
+    ]
+  },
+  {
+    "candidate_id": 19,
+    "symbol": "USDCAD",
+    "day": "2025-02-27",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-27 08:53:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-27 08:54:00+00:00",
+    "gross_r": -0.07142857142841283,
+    "commission_r": 0.08189285714286616,
+    "net_r": -0.153321428571279,
+    "original_entry": 1.4331,
+    "original_stop": 1.4338,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.43315
+      }
+    ]
+  },
+  {
+    "candidate_id": 19,
+    "symbol": "USDCAD",
+    "day": "2025-02-27",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-27 08:53:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-27 08:54:00+00:00",
+    "gross_r": -0.11428571428584117,
+    "commission_r": 0.0818937142857233,
+    "net_r": -0.19617942857156445,
+    "original_entry": 1.4331,
+    "original_stop": 1.4338,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.4331800000000001
+      }
+    ]
+  },
+  {
+    "candidate_id": 19,
+    "symbol": "USDCAD",
+    "day": "2025-02-27",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-27 08:53:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-27 08:54:00+00:00",
+    "gross_r": -0.17142857142844456,
+    "commission_r": 0.08189485714286616,
+    "net_r": -0.25332342857131074,
+    "original_entry": 1.4331,
+    "original_stop": 1.4338,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.43322
+      }
+    ]
+  },
+  {
+    "candidate_id": 19,
+    "symbol": "USDCAD",
+    "day": "2025-02-27",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-27 08:53:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-27 08:54:00+00:00",
+    "gross_r": -0.257142857142984,
+    "commission_r": 0.08189657142858045,
+    "net_r": -0.33903942857156444,
+    "original_entry": 1.4331,
+    "original_stop": 1.4338,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 1.43328
+      }
+    ]
+  },
+  {
+    "candidate_id": 20,
+    "symbol": "USDCHF",
+    "day": "2025-02-10",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-10 08:36:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-10 09:47:00+00:00",
+    "gross_r": 0.9499999999999583,
+    "commission_r": 0.09102599999998476,
+    "net_r": 0.8589739999999736,
+    "original_entry": 0.91045,
+    "original_stop": 0.91085,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 0.90997
+      },
+      {
+        "qty": 0.5,
+        "price": 0.9101699999999999
+      }
+    ]
+  },
+  {
+    "candidate_id": 20,
+    "symbol": "USDCHF",
+    "day": "2025-02-10",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-10 08:36:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-10 09:46:00+00:00",
+    "gross_r": 0.9499999999999583,
+    "commission_r": 0.09102599999998476,
+    "net_r": 0.8589739999999736,
+    "original_entry": 0.91045,
+    "original_stop": 0.91085,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 0.90997
+      },
+      {
+        "qty": 0.5,
+        "price": 0.9101699999999999
+      }
+    ]
+  },
+  {
+    "candidate_id": 20,
+    "symbol": "USDCHF",
+    "day": "2025-02-10",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-10 08:36:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-10 09:37:00+00:00",
+    "gross_r": 0.9499999999999583,
+    "commission_r": 0.09102599999998476,
+    "net_r": 0.8589739999999736,
+    "original_entry": 0.91045,
+    "original_stop": 0.91085,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 0.90997
+      },
+      {
+        "qty": 0.5,
+        "price": 0.9101699999999999
+      }
+    ]
+  },
+  {
+    "candidate_id": 20,
+    "symbol": "USDCHF",
+    "day": "2025-02-10",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-10 08:36:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-10 09:36:00+00:00",
+    "gross_r": 0.9499999999999583,
+    "commission_r": 0.09102599999998476,
+    "net_r": 0.8589739999999736,
+    "original_entry": 0.91045,
+    "original_stop": 0.91085,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 0.90997
+      },
+      {
+        "qty": 0.5,
+        "price": 0.9101699999999999
+      }
+    ]
+  },
+  {
+    "candidate_id": 21,
+    "symbol": "USDCHF",
+    "day": "2025-02-19",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-19 11:15:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-19 11:16:00+00:00",
+    "gross_r": 0.0,
+    "commission_r": 0.06340771929825013,
+    "net_r": -0.06340771929825013,
+    "original_entry": 0.90356,
+    "original_stop": 0.90413,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 0.90356
+      }
+    ]
+  },
+  {
+    "candidate_id": 21,
+    "symbol": "USDCHF",
+    "day": "2025-02-19",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-19 11:15:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-19 11:16:00+00:00",
+    "gross_r": -0.052631578947327416,
+    "commission_r": 0.06340877192982906,
+    "net_r": -0.11604035087715647,
+    "original_entry": 0.90356,
+    "original_stop": 0.90413,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 0.90359
+      }
+    ]
+  },
+  {
+    "candidate_id": 21,
+    "symbol": "USDCHF",
+    "day": "2025-02-19",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-19 11:15:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-19 11:16:00+00:00",
+    "gross_r": -0.12280701754389382,
+    "commission_r": 0.063410175438601,
+    "net_r": -0.18621719298249484,
+    "original_entry": 0.90356,
+    "original_stop": 0.90413,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 0.90363
+      }
+    ]
+  },
+  {
+    "candidate_id": 21,
+    "symbol": "USDCHF",
+    "day": "2025-02-19",
+    "month": "2025-02",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-19 11:15:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-02-19 11:16:00+00:00",
+    "gross_r": -0.22807017543854866,
+    "commission_r": 0.0634122807017589,
+    "net_r": -0.29148245614030754,
+    "original_entry": 0.90356,
+    "original_stop": 0.90413,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 0.90369
+      }
+    ]
+  },
+  {
+    "candidate_id": 22,
+    "symbol": "USDCHF",
+    "day": "2025-03-06",
+    "month": "2025-03",
+    "group": "LOOSE",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-06 08:36:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-06 10:13:00+00:00",
+    "gross_r": 0.9683333333333122,
+    "commission_r": 0.0236600999999991,
+    "net_r": 0.9446732333333131,
+    "original_entry": 0.88798,
+    "original_stop": 0.88948,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 0.88618
+      },
+      {
+        "qty": 0.5,
+        "price": 0.886875
+      }
+    ]
+  },
+  {
+    "candidate_id": 22,
+    "symbol": "USDCHF",
+    "day": "2025-03-06",
+    "month": "2025-03",
+    "group": "LOOSE",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-06 08:36:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-06 10:13:00+00:00",
+    "gross_r": 0.9683333333333122,
+    "commission_r": 0.0236600999999991,
+    "net_r": 0.9446732333333131,
+    "original_entry": 0.88798,
+    "original_stop": 0.88948,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 0.88618
+      },
+      {
+        "qty": 0.5,
+        "price": 0.886875
+      }
+    ]
+  },
+  {
+    "candidate_id": 22,
+    "symbol": "USDCHF",
+    "day": "2025-03-06",
+    "month": "2025-03",
+    "group": "LOOSE",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-06 08:36:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-06 10:12:00+00:00",
+    "gross_r": 0.9683333333333122,
+    "commission_r": 0.0236600999999991,
+    "net_r": 0.9446732333333131,
+    "original_entry": 0.88798,
+    "original_stop": 0.88948,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 0.88618
+      },
+      {
+        "qty": 0.5,
+        "price": 0.886875
+      }
+    ]
+  },
+  {
+    "candidate_id": 22,
+    "symbol": "USDCHF",
+    "day": "2025-03-06",
+    "month": "2025-03",
+    "group": "LOOSE",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-06 08:36:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-06 10:12:00+00:00",
+    "gross_r": 0.9683333333333122,
+    "commission_r": 0.0236600999999991,
+    "net_r": 0.9446732333333131,
+    "original_entry": 0.88798,
+    "original_stop": 0.88948,
+    "parts": [
+      {
+        "qty": 0.5,
+        "price": 0.88618
+      },
+      {
+        "qty": 0.5,
+        "price": 0.886875
+      }
+    ]
+  },
+  {
+    "candidate_id": 23,
+    "symbol": "USDCHF",
+    "day": "2025-03-18",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-18 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-18 12:33:00+00:00",
+    "gross_r": -1.0204081632653246,
+    "commission_r": 0.03592326530611908,
+    "net_r": -1.0563314285714436,
+    "original_entry": 0.87962,
+    "original_stop": 0.8806,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 0.8806200000000001
+      }
+    ]
+  },
+  {
+    "candidate_id": 23,
+    "symbol": "USDCHF",
+    "day": "2025-03-18",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-18 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-18 12:33:00+00:00",
+    "gross_r": -1.0204081632653246,
+    "commission_r": 0.03592326530611908,
+    "net_r": -1.0563314285714436,
+    "original_entry": 0.87962,
+    "original_stop": 0.8806,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 0.8806200000000001
+      }
+    ]
+  },
+  {
+    "candidate_id": 23,
+    "symbol": "USDCHF",
+    "day": "2025-03-18",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-18 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-18 12:33:00+00:00",
+    "gross_r": -1.0204081632653246,
+    "commission_r": 0.03592326530611908,
+    "net_r": -1.0563314285714436,
+    "original_entry": 0.87962,
+    "original_stop": 0.8806,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 0.8806200000000001
+      }
+    ]
+  },
+  {
+    "candidate_id": 23,
+    "symbol": "USDCHF",
+    "day": "2025-03-18",
+    "month": "2025-03",
+    "group": "TIGHT",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-18 08:30:00+00:00",
+    "confirmed_at": null,
+    "closed_at": "2025-03-18 12:32:00+00:00",
+    "gross_r": -1.0204081632653246,
+    "commission_r": 0.03592326530611908,
+    "net_r": -1.0563314285714436,
+    "original_entry": 0.87962,
+    "original_stop": 0.8806,
+    "parts": [
+      {
+        "qty": 1.0,
+        "price": 0.8806200000000001
+      }
+    ]
+  },
+  {
+    "candidate_id": 24,
+    "symbol": "USDCHF",
+    "day": "2025-03-31",
+    "month": "2025-03",
+    "group": "LOOSE",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "confirmed_at": null,
+    "closed_at": "2025-03-31 11:00:00+00:00",
+    "gross_r": 0.0,
+    "commission_r": 0.0,
+    "net_r": 0.0,
+    "original_entry": 0.87955,
+    "original_stop": 0.87855,
+    "parts": []
+  },
+  {
+    "candidate_id": 24,
+    "symbol": "USDCHF",
+    "day": "2025-03-31",
+    "month": "2025-03",
+    "group": "LOOSE",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "confirmed_at": null,
+    "closed_at": "2025-03-31 11:00:00+00:00",
+    "gross_r": 0.0,
+    "commission_r": 0.0,
+    "net_r": 0.0,
+    "original_entry": 0.87955,
+    "original_stop": 0.87855,
+    "parts": []
+  },
+  {
+    "candidate_id": 24,
+    "symbol": "USDCHF",
+    "day": "2025-03-31",
+    "month": "2025-03",
+    "group": "LOOSE",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "confirmed_at": null,
+    "closed_at": "2025-03-31 11:00:00+00:00",
+    "gross_r": 0.0,
+    "commission_r": 0.0,
+    "net_r": 0.0,
+    "original_entry": 0.87955,
+    "original_stop": 0.87855,
+    "parts": []
+  },
+  {
+    "candidate_id": 24,
+    "symbol": "USDCHF",
+    "day": "2025-03-31",
+    "month": "2025-03",
+    "group": "LOOSE",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "confirmed_at": null,
+    "closed_at": "2025-03-31 11:00:00+00:00",
+    "gross_r": 0.0,
+    "commission_r": 0.0,
+    "net_r": 0.0,
+    "original_entry": 0.87955,
+    "original_stop": 0.87855,
+    "parts": []
+  }
+]

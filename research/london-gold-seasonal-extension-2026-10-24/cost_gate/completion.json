@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "entry_gate_only": true,
+  "source_hashes_verified": true,
+  "hashes": {
+    "protocol_frozen.json": "788a21a1ad220c6f4a96066af652e3abe57330088ddefc18f93e701899a41584",
+    "results.json": "d14c66617032493ab7e659bb2c4545d019903d5514264b1d2fb3c051f03e6d28",
+    "entry_features.json": "379e5643bc14a6deb0e79fa79587cba3f08e87b1bca9626d65e70ac4d0968c2e",
+    "outcomes.json": "048f68df8c34cd3e479ff8d2d6a47bff3c411ddf160ecb2221bdfc63b5f0f75f"
+  }
+}

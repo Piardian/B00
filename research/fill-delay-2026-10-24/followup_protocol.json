@@ -1,0 +1,40 @@
+{
+  "frozen_at": "2026-10-23 23:03:21.241737+00:00",
+  "months": [
+    "2025-04",
+    "2025-05",
+    "2025-09",
+    "2025-10"
+  ],
+  "symbols": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY",
+    "USDCAD",
+    "USDCHF",
+    "NZDUSD"
+  ],
+  "stage": "After first58case results. Before these additional months candidate/PNL results. Same15TTL, no threshold search. Existing prices used previously for separate classicORB; not pristine OOS or prospective.",
+  "selection": "All4months with existing complete quote archive chosen together, all6samepairs; first daily normalized detector setup; cancellation consumes day,no later replacement.",
+  "rules": "Same frozen detector/generator and replay; only pendingTTL240 versus15. Original reaction exit always. Exactly15min excluded; filled positions continue original lifecycle,London16:30flat.",
+  "costs": "Same .2/.5/.9/1.5pip assumed spread,USD4/100kroundtrip,.2pip exit slip. Primary.5,stress1.5. ActualbidM1,not actualask/fee lifecycle.",
+  "data": "Native brokerH1/M15Jan-Nov2025 for warmup/input. Existing lockedLondon08-16tick tapes plus cached16-16:31tails for all selected days. No interpolation. Read-only existing explicitThe5ersterminal, no paidAPI.",
+  "disk": "Small bar outputs only. Existing tick-month caches required, free>=1GiB and cumulative netgrowth<=64MiB during tail reads; stop if guard exceeded. No user file deletion.",
+  "success_gate": "15TTL must outperform reference overall at.5/1.5 and have positive returns with at least one fill in EACH of4months at BOTH costs; no coverage/replay unknown. Positive combined old data cannot rescue failed followup. Even passing is not live permission or edge proof.",
+  "source_manifest_sha256": "f1842f402bb517cfb58825567bc8fc7189697104682665be698dcff14ee99a76",
+  "hashes": {
+    "execution.py": "79acd037cfe95734c28c6ffad93b8a3cd2377ce2364b3b2bc9c2e6150d216e83",
+    "followup.py": "2a265117149e9632c90f25de6c5e586a22165fcea9fb8dd1584d97bdf44d64bc",
+    "generator_frozen.py": "ecf3e9c4accbe9536934888fc6fce1d70581e03a2f8e5ca3b00f67424e3bd5c9",
+    "normalize_clock.py": "d422c16480c903a54ad01107fb1054535b28114e8da9a10f7046a5e83ce5b44f",
+    "price_rules.py": "16a0956e7734284a81beba30c3a34380e00a9fd44efc50e090e2387863689221",
+    "study.py": "86d2e973173b720d0ff1c12fde7ddcb9e346c531c884dd1b3d5e3721e95a72b3",
+    "test_ttl.py": "4074e26f55c8d14b24fa828485a34bf1677a9d141c23aff2a39d2b6f34ca51fa",
+    "frozen_engine\\config.py": "22b133cd8b06b3c3dccfe94b758c47797ff6fba990ee1dd4f5b6fa54d450f281",
+    "frozen_engine\\entry_mechanics.py": "a89813719b68e2be8da16a73432b296d03855e48d56bd7f99eba7b9ed5155ba5",
+    "frozen_engine\\orb_detector.py": "7f06f1be7e13d7a4191698302e60ff4404bd050f81f6e8950b0b9bc66a60f1c5",
+    "frozen_engine\\orb_session_context.py": "1b701210b86b9681b3ed2aaa0f05dca355f7d4e11055e773dd68ee6140c4c765",
+    "frozen_engine\\volume_anomaly.py": "7fe0308d123bc92399dcf3fd1e6af8e3d0ec22cb214b70a557ef1ec0f9a66f50",
+    "frozen_engine\\__init__.py": "6ec4fdfe575c573205e4c6fab156a2075f81a56858e38fb9f15540bc750e64ae"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "reference": "Yahoo EURUSD=X H1 via yfinance; clock comparison ONLY, not strategy prices",
+  "reference_sha256": "f5868f94055e15376bf9c21fd0721a8916254d179beb43d92d18fb46a370575f",
+  "expected_shift": 0,
+  "shift_hours": [
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3
+  ],
+  "min_joined_hours_day": 6,
+  "strong_corr": 0.7,
+  "min_margin": 0.15,
+  "min_strong_days": 20,
+  "reason": "Prior independentM15archive has only2overlappingvalidationdays; that coverage gate failed, not a detected clock mismatch"
+}

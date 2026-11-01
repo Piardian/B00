@@ -1,0 +1,29 @@
+{
+  "EURUSD": {
+    "m15_conflicting_fields": 0,
+    "h1_conflicting_fields": 0,
+    "m15_rows": 27224,
+    "h1_rows": 6812,
+    "first": "2024-10-27 21:00:00+00:00",
+    "last": "2025-11-28 21:45:00+00:00"
+  },
+  "GBPUSD": {
+    "m15_conflicting_fields": 0,
+    "h1_conflicting_fields": 0,
+    "m15_rows": 27225,
+    "h1_rows": 6812,
+    "first": "2024-10-27 21:00:00+00:00",
+    "last": "2025-11-28 21:45:00+00:00"
+  },
+  "XAUUSD": {
+    "m15_conflicting_fields": 0,
+    "h1_overlap_rows": 4614,
+    "h1_ohlc_mismatches": 0,
+    "h1_derived_missing_native_rows": 6819,
+    "h1_conflicting_fields": 0,
+    "m15_rows": 45712,
+    "h1_rows": 11433,
+    "first": "2024-10-27 22:00:00+00:00",
+    "last": "2026-10-01 20:45:00+00:00"
+  }
+}

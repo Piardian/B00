@@ -1,0 +1,68 @@
+{
+  "passed": false,
+  "strong_days": 2,
+  "conflicts": [],
+  "winners": [
+    {
+      "date": "2025-03-28",
+      "shift": 0,
+      "corr": 0.9968412459248631
+    },
+    {
+      "date": "2025-03-31",
+      "shift": 0,
+      "corr": 0.9954058733049356
+    }
+  ],
+  "tape_hashes": {
+    "EURUSD_2025-02-03.parquet": "663c2d72a4b99eb6591c74c045139ad8805235a0263fccdfaf2810b611a70165",
+    "EURUSD_2025-02-04.parquet": "b0010f4d5ae4f35d9268754957d2bc46dbea7807d653758404b0530b87fff86e",
+    "EURUSD_2025-02-05.parquet": "fa97c4f9c492f62bf279e9ce4d19fcd70602160ed7d76aef8cbfb776dac8ad7e",
+    "EURUSD_2025-02-06.parquet": "51e191b27f18820b11ddfed6109564243462279b5385e9bc3dccc96f25e9f4b0",
+    "EURUSD_2025-02-07.parquet": "18f4f712df5f1af6feb2610dc84ad56db5c251d3e179c425eff7de3c4d814bf9",
+    "EURUSD_2025-02-10.parquet": "76c19a7afa459a7d2a981ab92347fad1fa36fd5810e01e97286518f6a742a10d",
+    "EURUSD_2025-02-11.parquet": "75b674f6d87c2b7546f5b65e92fb3e64f542764fd96cfa5654fbdeebe67dc31b",
+    "EURUSD_2025-02-12.parquet": "bb22acffa7f35c905fb6b2b498546c473d561e2314c174a0973b81a73d64906c",
+    "EURUSD_2025-02-13.parquet": "2a6c548ddbd60144279e27e940f2a6dac337205271f65682758fd7e2b65f5b30",
+    "EURUSD_2025-02-14.parquet": "26cc2d023b00977f2b5d0980bc62e203cdcad69dee0874453818042e61731d8d",
+    "EURUSD_2025-02-17.parquet": "ba688c1eeb428745147547020b3c7ebfc1b2c68034b643dfd28a90343c21815d",
+    "EURUSD_2025-02-18.parquet": "14d7623c9ff723f936fa84011c2df7404d6c7ff7fdeb32ff9136a1613b31f447",
+    "EURUSD_2025-02-19.parquet": "bacf5bde03b33cfeac14ec475b52b9375b7684bdda8a10e0642d3e2dcf6bf0ec",
+    "EURUSD_2025-02-20.parquet": "057e45b2cab2ad9e11c2ad7a4a5aa40bc1616fe1dd2be3c362ea4491a2fb4459",
+    "EURUSD_2025-02-21.parquet": "c11a893ecbdc66fd7457b78209c6c21d35de45d9ab97b210e92ba03e24206aad",
+    "EURUSD_2025-02-24.parquet": "6580285201dccb2390ac70a4f07d27f4bb280d9d75be1ccea2ddfc1bedca02c3",
+    "EURUSD_2025-02-25.parquet": "cbd29499284c1e8d1e11d58acb004d45b4d266794acd19c0b5e0e3758a035f3a",
+    "EURUSD_2025-02-26.parquet": "413e3318b92ddf9b575c9107e44a0ae51f3f0ba40f3381037dec2fbeb4d6a1e6",
+    "EURUSD_2025-02-27.parquet": "2e3f7c028416791f0206c99d191cb96011d19ff89fdc324fb2033df7ed94d772",
+    "EURUSD_2025-02-28.parquet": "9a03f05bb6afdcbdb06cc6d199ee296b8d755d8e49388529011e6118fb32605f",
+    "EURUSD_2025-03-03.parquet": "ed6a6e6c12eee3b72aff040d6734642a741351231f4a72dbb902b839b40d7a36",
+    "EURUSD_2025-03-04.parquet": "0d5286385d1efc114054d09a8c69985b3840f7b1e23627fd6f86c03e108805d0",
+    "EURUSD_2025-03-05.parquet": "fb466f6708a77bc2880d3f737f7497d067e42ac2c75f8a425fa131cb94e0cdee",
+    "EURUSD_2025-03-06.parquet": "3392dde82379e96c24baef4734338ea2c94f58d74f972b123e6ac76dd4ee613c",
+    "EURUSD_2025-03-07.parquet": "7225eebf340b6c7e85e81ffbd6f68cf59a84202d8bc7a125e867f0fca70496fc",
+    "EURUSD_2025-03-10.parquet": "ba0f4ac98ac6fa4d349fe6218118e77939ab3f562140fc6cfad0154423c285de",
+    "EURUSD_2025-03-11.parquet": "4e7c849e7f1cba9cf72275f018b91c5a93419a21dea5da9c12e19d57e8e37652",
+    "EURUSD_2025-03-12.parquet": "ccd72a76c16f0de206e2b851f6aae116e673b3e6031fc6d53c4df0b0c01db54c",
+    "EURUSD_2025-03-13.parquet": "01cb316d5a54bfb826fc7843bed0f3a310386f8a95a713487871811bfc252f27",
+    "EURUSD_2025-03-14.parquet": "37e8c2e023e541b2fcdea5702dfa4f29620313fca1487579f1b98fe846f86105",
+    "EURUSD_2025-03-17.parquet": "2e2096a398a4cff21b8058fc17e9224f41f9265ab615811004cd9e11f9b35f09",
+    "EURUSD_2025-03-18.parquet": "8c8a121f848b53e0800c4fef14c3e2b37e4216564e493706884ab147b755108c",
+    "EURUSD_2025-03-19.parquet": "996f429b54fdf7b470b2b1a724a6bda7a5a9206cb68e2da358ef0d9bc9760b6d",
+    "EURUSD_2025-03-20.parquet": "fb95c95b161b99c93f83774da5831465e45788c7285d89e4b615f20a53eea167",
+    "EURUSD_2025-03-21.parquet": "94e9d25d9ad93d74e84fb4bed88632c5a7bdf919ce3e6eb481d56e9d395fac00",
+    "EURUSD_2025-03-24.parquet": "e66fbd2b5752c12330e90fa3af7872b44555027309fb919146ce2e8f67c1a1f5",
+    "EURUSD_2025-03-25.parquet": "d581c0842a49932583af0f4bc99f34c31b8d5a5401b72c0a7be2641bb02bec8e",
+    "EURUSD_2025-03-26.parquet": "f6a754db370c1851eb0917037aa497d4cfdbc33983c472c9f8a77ed9f755c75a",
+    "EURUSD_2025-03-27.parquet": "a0d94f61d7a1a44c5c0752413f91f6d815c311f8c0bef044825588c583b7507c",
+    "EURUSD_2025-03-28.parquet": "746a0ee0f5fefb5834508db67a44b7b37167267b0064ae41fd8678996e1fc354",
+    "EURUSD_2025-03-31.parquet": "6042842b7a0a94e3b74c0c0175a1511994f8d3e9b6d081c1de0888d216335764"
+  },
+  "plan": {
+    "expected_normalized_shift_hours": 0,
+    "min_strong_days": 20,
+    "strong_corr": 0.7,
+    "min_margin": 0.15,
+    "reference_sha256": "a0d15c3b3a5e5ee6913a8678b21378a6c5ea8b86939b202c44f7abdfa89a2daf",
+    "scope": "EURUSDcrossfeedclockQAonly;not strategyoutcome"
+  }
+}

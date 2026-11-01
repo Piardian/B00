@@ -1,0 +1,3516 @@
+{
+  "checked": 702,
+  "passed": true,
+  "rows": [
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-12",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-13",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-14",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-17",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-18",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-19",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-20",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-21",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-24",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-25",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-26",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-27",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-28",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-03-31",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-01",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-02",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-03",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-04",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-07",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-08",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-09",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-10",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-11",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-14",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-15",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-16",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-17",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-18",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-21",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-22",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-23",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-24",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-25",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-28",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-29",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-04-30",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-01",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-02",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-05",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-06",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-07",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-08",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-09",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-12",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-13",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-14",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-15",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-16",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-19",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-20",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-21",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-22",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-23",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-26",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-27",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-28",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-29",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-05-30",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-12",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-13",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-14",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-15",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-18",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-19",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-20",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-21",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-22",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-25",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-26",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-27",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-28",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-08-29",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-01",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-02",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-03",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-04",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-05",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-08",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-09",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-10",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-11",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-12",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-15",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-16",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-17",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-18",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-19",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-22",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-23",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-24",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-25",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-26",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-29",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-09-30",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-01",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-02",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-03",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-06",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-07",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-08",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-09",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-10",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-13",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-14",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-15",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-16",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-17",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-20",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-21",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-22",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-23",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-24",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-27",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-28",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-29",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-30",
+      "passed": true
+    },
+    {
+      "symbol": "EURUSD",
+      "date": "2025-10-31",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-12",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-13",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-14",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-17",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-18",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-19",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-20",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-21",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-24",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-25",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-26",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-27",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-28",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-03-31",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-01",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-02",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-03",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-04",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-07",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-08",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-09",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-10",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-11",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-14",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-15",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-16",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-17",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-18",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-21",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-22",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-23",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-24",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-25",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-28",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-29",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-04-30",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-01",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-02",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-05",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-06",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-07",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-08",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-09",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-12",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-13",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-14",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-15",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-16",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-19",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-20",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-21",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-22",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-23",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-26",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-27",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-28",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-29",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-05-30",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-12",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-13",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-14",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-15",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-18",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-19",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-20",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-21",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-22",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-25",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-26",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-27",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-28",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-08-29",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-01",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-02",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-03",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-04",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-05",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-08",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-09",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-10",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-11",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-12",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-15",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-16",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-17",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-18",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-19",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-22",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-23",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-24",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-25",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-26",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-29",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-09-30",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-01",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-02",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-03",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-06",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-07",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-08",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-09",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-10",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-13",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-14",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-15",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-16",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-17",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-20",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-21",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-22",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-23",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-24",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-27",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-28",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-29",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-30",
+      "passed": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "date": "2025-10-31",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-12",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-13",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-17",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-18",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-19",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-20",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-24",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-25",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-26",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-27",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-03-31",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-01",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-02",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-03",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-04",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-07",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-08",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-09",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-10",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-11",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-16",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-17",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-18",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-23",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-24",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-25",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-04-30",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-01",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-02",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-05",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-06",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-07",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-08",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-09",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-12",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-13",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-16",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-19",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-20",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-23",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-26",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-27",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-05-30",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-12",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-13",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-18",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-19",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-20",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-25",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-26",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-27",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-08-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-01",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-02",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-03",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-04",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-05",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-08",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-09",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-10",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-11",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-12",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-16",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-17",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-18",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-19",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-23",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-24",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-25",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-26",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-09-30",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-01",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-02",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-03",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-06",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-07",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-08",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-09",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-10",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-13",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-16",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-17",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-20",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-23",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-24",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-27",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-30",
+      "passed": true
+    },
+    {
+      "symbol": "USDJPY",
+      "date": "2025-10-31",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-12",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-13",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-17",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-18",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-19",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-20",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-24",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-25",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-26",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-27",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-03-31",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-01",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-02",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-03",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-04",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-07",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-08",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-09",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-10",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-11",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-16",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-17",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-18",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-23",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-24",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-25",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-04-30",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-01",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-02",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-05",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-06",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-07",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-08",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-09",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-12",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-13",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-16",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-19",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-20",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-23",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-26",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-27",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-05-30",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-12",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-13",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-18",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-19",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-20",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-25",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-26",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-27",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-08-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-01",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-02",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-03",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-04",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-05",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-08",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-09",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-10",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-11",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-12",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-16",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-17",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-18",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-19",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-23",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-24",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-25",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-26",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-30",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-01",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-02",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-03",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-06",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-07",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-08",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-09",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-10",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-13",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-16",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-17",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-20",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-23",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-24",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-27",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-30",
+      "passed": true
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-10-31",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-12",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-13",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-17",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-18",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-19",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-20",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-24",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-25",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-26",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-27",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-03-31",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-01",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-02",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-03",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-04",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-07",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-08",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-09",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-10",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-11",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-16",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-17",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-18",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-23",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-24",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-25",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-04-30",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-01",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-02",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-05",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-06",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-07",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-08",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-09",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-12",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-13",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-16",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-19",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-20",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-23",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-26",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-27",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-05-30",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-12",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-13",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-18",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-19",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-20",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-25",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-26",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-27",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-08-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-01",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-02",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-03",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-04",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-05",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-08",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-09",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-10",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-11",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-12",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-16",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-17",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-18",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-19",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-23",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-24",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-25",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-26",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-09-30",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-01",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-02",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-03",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-06",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-07",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-08",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-09",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-10",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-13",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-14",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-15",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-16",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-17",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-20",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-21",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-22",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-23",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-24",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-27",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-28",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-29",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-30",
+      "passed": true
+    },
+    {
+      "symbol": "USDCHF",
+      "date": "2025-10-31",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-12",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-13",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-14",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-17",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-18",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-19",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-20",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-21",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-24",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-25",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-26",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-27",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-28",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-03-31",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-01",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-02",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-03",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-04",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-07",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-08",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-09",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-10",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-11",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-14",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-15",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-16",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-17",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-18",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-21",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-22",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-23",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-24",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-25",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-28",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-29",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-04-30",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-01",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-02",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-05",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-06",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-07",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-08",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-09",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-12",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-13",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-14",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-15",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-16",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-19",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-20",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-21",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-22",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-23",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-26",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-27",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-28",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-29",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-05-30",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-12",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-13",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-14",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-15",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-18",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-19",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-20",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-21",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-22",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-25",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-26",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-27",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-28",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-08-29",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-01",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-02",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-03",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-04",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-05",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-08",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-09",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-10",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-11",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-12",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-15",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-16",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-17",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-18",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-19",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-22",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-23",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-24",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-25",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-26",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-29",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-09-30",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-01",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-02",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-03",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-06",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-07",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-08",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-09",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-10",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-13",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-14",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-15",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-16",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-17",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-20",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-21",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-22",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-23",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-24",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-27",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-28",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-29",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-30",
+      "passed": true
+    },
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-31",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,10556 @@
+[
+  {
+    "date": "2025-01-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CONFIRMED_HOLIDAY_CLOSED"
+    }
+  },
+  {
+    "date": "2025-01-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CONFIRMED_HOLIDAY_CLOSED"
+    }
+  },
+  {
+    "date": "2025-01-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CONFIRMED_HOLIDAY_CLOSED"
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9716157205239802,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-01-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9587301587302004,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-01-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9466119096509467,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-01-31",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-31",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-01-31",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.987390882638198,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9813575525812794,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9754948162111305,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-02-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.973684210526279,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-02-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.961764705882388,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-02-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9505703422053382,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-02-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9522058823528787,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-02-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.932409012131784,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-02-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9147540983606905,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-02-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.053333333333301,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0713153724245799,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0876132930512443,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0245183887916636,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.034953111679462,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0448504983388918,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0309477756286094,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0422535211266764,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0529197080291295,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9698375870069178,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-02-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0436730123179914,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0562770562770434,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0252525252525526,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0352748154224458,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0447999999999857,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2025-02-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2025-02-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2025-02-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-02-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0250447227192143,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0356832027850431,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-02-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0457627118644348,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-03-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-03-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-03-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.056206088993041,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0689265536723012,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0807860262008746,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9834815756035353,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-03-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9757009345794623,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-03-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9682151589242178,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-03-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.054992764110013,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.062986553432395,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0706371191135673,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9773123909249248,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-03-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9668649107901741,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-03-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9569536423841176,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-03-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0370370370370758,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0511296076099415,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0642201834862182,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0316027088037,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0447110141766707,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0569620253164798,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9781512605041705,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-03-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9680589680589933,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-03-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9584664536741314,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-03-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9701149425286961,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-03-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.95671476137629,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-03-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.944206008583714,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-03-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-03-31",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0368731563421927,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-31",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.045421773612071,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-03-31",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0535966149506089,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0214168039539009,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0313253012047907,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0407523510971637,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0200573065903151,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0287316047653134,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0370370370371194,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 0.6745479833101319,
+      "reason": "EOD"
+    }
+  },
+  {
+    "date": "2025-04-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 0.6592268752876278,
+      "reason": "EOD"
+    }
+  },
+  {
+    "date": "2025-04-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 0.6441297396071403,
+      "reason": "EOD"
+    }
+  },
+  {
+    "date": "2025-04-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.1191536748329316,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.1241794310721482,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.1290322580644607,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CONFIRMED_HOLIDAY_CLOSED"
+    }
+  },
+  {
+    "date": "2025-04-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CONFIRMED_HOLIDAY_CLOSED"
+    }
+  },
+  {
+    "date": "2025-04-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CONFIRMED_HOLIDAY_CLOSED"
+    }
+  },
+  {
+    "date": "2025-04-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0581162324650308,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0689320388349812,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.079096045197789,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0168005843681585,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0212996389891509,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0256959314775036,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-04-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-04-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-04-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0160085378868906,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0225721784776702,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0289256198347012,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0171385991058528,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0217231222385996,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0262008733624657,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-04-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0233766233766712,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0311903246339926,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-04-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0387016229713006,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9849012775841834,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-05-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9777524244153086,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-05-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9708520179372302,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-05-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-05-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-05-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-05-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.0376044568245046,
+      "reason": "EOD"
+    }
+  },
+  {
+    "date": "2025-05-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.0113675508095603,
+      "reason": "EOD"
+    }
+  },
+  {
+    "date": "2025-05-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 0.9856850715747223,
+      "reason": "EOD"
+    }
+  },
+  {
+    "date": "2025-05-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9821182943603612,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-05-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9737550471063512,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-05-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.965744400527022,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-05-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-05-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-05-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-05-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9873663751214594,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-05-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9813307802776616,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-05-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9754716981132148,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-05-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-05-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-05-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-05-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0183150183150382,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-05-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0257639304972803,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-05-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0329411764705771,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-05-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9850917431192456,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-05-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9780281690141037,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-05-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9712070874861667,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-05-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-05-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.110705596107099,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-06-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.1164179104477634,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-06-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.1219226260258013,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-06-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9859002169197202,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-06-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9792000000000194,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-06-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9727177334732526,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-06-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0275387263338926,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-06-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0376884422109836,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-06-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0473083197389315,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-06-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9766606822261799,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-06-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9659685863874663,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-06-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9558573853989958,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-06-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0275482093664379,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-06-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0357383681726209,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-06-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.043593130779401,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-06-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0177815410669018,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-06-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0229741019214496,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-06-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0280296784830871,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-06-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9809384164222599,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-06-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.972043010752712,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-06-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9635343618513412,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-06-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9862724392819235,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-06-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9797402597402767,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-06-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9734151329243428,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-06-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-06-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-07-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-07-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-07-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.024216524216545,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.032752613240391,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.040927694406534,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.024509803921594,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0350597609560876,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0451010886469114,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0525164113786214,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0644820295982969,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.075664621676901,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.03367875647673,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0485678704856405,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0623501199040606,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9735772357723236,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-07-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9615763546798408,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-07-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.950286806883387,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-07-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0194610778443391,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0285087719298012,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0371428571428465,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-07-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-07-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-07-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-07-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9764918625677799,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-07-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.965729349736412,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-07-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9555555555555706,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-07-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-07-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-07-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-07-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-31",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-31",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-07-31",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0248344370861182,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-08-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0347054075867304,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-08-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0440944881889567,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-08-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.044973544973581,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-08-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0596446700507052,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-08-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0731707317072876,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-08-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0128331688055459,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-08-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0189504373177676,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-08-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0248803827751112,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-08-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-08-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-08-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-08-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.039175257731986,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-08-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.050898203592774,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-08-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0618955512572297,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-08-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9672544080604097,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-08-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9527845036320066,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-08-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.93939393939396,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-08-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-08-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9839506172839287,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-09-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9764065335753405,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-09-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9691577698695255,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-09-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9906542056074636,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-09-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9861456483126236,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-09-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9817415730337138,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-09-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0231923601637294,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-09-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0313542361574077,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-09-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0391644908616007,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-09-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-09-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-09-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-09-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2025-09-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2025-09-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2025-09-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0296010296010396,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-09-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0371770636420579,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-09-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0444444444444199,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-09-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0243055555555451,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-09-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0345991561180718,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-09-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0443349753694033,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-09-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9747081712061918,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-09-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9632422243167187,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-09-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9524680073126333,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-09-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-09-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9879182156133663,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9821510297483,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9765554553652014,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-10-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.987735849056587,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-10-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.981885740826771,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-10-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9762122598353244,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-10-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0183374083129777,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0257639304972803,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0329024676850627,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0338927663934419,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0399188967254052,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0457482656094887,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2025-10-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2025-10-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2025-10-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9847089999999787,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-10-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.977494711922438,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-10-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9705466517357306,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-10-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2025-10-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2025-10-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2025-10-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.078336482889803,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0834024005615694,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0883145437788866,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0131975085324767,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0186804501472668,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.024013510373512,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9942411504047644,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9914218214512454,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.988641445378136,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0128839105058545,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0190210483484754,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.024967615457151,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0283517539644282,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0331346841477425,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0378429517501868,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9830641038960808,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9751291989828577,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9675204483188167,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0140612076095683,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0191758465931344,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0241545893718962,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0124685633802983,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0184605653382577,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0242993229643491,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9870406066536028,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.98079543257614,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.974699140401112,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0158294542773618,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0205821386861806,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0252388728324582,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9932146369294512,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9899054783950711,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.986650183673474,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9770438111887805,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.966330256410287,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9560820735786106,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0220564769647595,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0305151930758398,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0386863874345678,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0169056359102158,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0221638777184685,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.02729027552675,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0625306035889355,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0719380735411368,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0809773040752908,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0135224624624797,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0200334008897485,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0263856250000338,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0288573333333748,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0421536439790307,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0547720816327313,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.017101432777246,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0233914050387372,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.029525129186632,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9821837017310016,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9737811952972142,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9656907179486762,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9865003773584733,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9800375770925291,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9737554054053719,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0536784236452832,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.063511076305133,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0729267295597464,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0403082206406218,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.051180989583317,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0615382372882067,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0316695983087496,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0451592702980568,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0579210400001058,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0293001465798408,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0346123842126544,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0398105498008483,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CONFIRMED_HOLIDAY_CLOSED"
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CONFIRMED_HOLIDAY_CLOSED"
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CONFIRMED_HOLIDAY_CLOSED"
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0813376380368824,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.090163108108132,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.09862558823538,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CONFIRMED_HOLIDAY_CLOSED"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CONFIRMED_HOLIDAY_CLOSED"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CONFIRMED_HOLIDAY_CLOSED"
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0814311327650226,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0883098444045998,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0949542117648157,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0222958836688658,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0296246696034455,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0367311930585479,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0198306791569003,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0275386175114725,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0350021768707618,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.01121015235455,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0159736500857175,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0206498980285432,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9826473748473539,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.974423353329359,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9664802358490192,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-01-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-01-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-01-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 0.8529794200496824,
+      "reason": "EOD"
+    }
+  },
+  {
+    "date": "2026-01-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 0.8265619295371803,
+      "reason": "EOD"
+    }
+  },
+  {
+    "date": "2026-01-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 0.8007222366287425,
+      "reason": "EOD"
+    }
+  },
+  {
+    "date": "2026-01-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.018021412300708,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0233759526493784,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0286231250000368,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.037777932330843,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0443563665893119,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0507722456462258,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0140816697588286,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0207571832269655,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0272057347670558,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0098059179609848,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0128149308573673,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0157769188553711,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-01-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-01-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9981826091383454,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9972838283033247,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9963915603284856,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-02-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-02-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-02-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-02-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0194398058252712,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-02-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0225949772105862,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-02-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0256625078652035,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-02-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0208356914393122,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-02-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.027356847675981,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-02-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0336023063063118,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-02-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-02-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-02-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-02-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9799854177897331,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-02-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9708236345776278,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-02-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9621637707005923,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-02-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9865220634920475,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-02-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9801672750865202,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-02-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9740494736841792,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-02-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-02-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0170027845304066,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-02-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.024913032919572,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-02-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0324649367088976,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-02-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-02-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-02-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-02-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2026-02-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2026-02-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_RETEST"
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0175057417802462,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.023049821774453,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0282329835082347,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.991108404441836,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9869933285836519,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.983077397107877,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-03-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0110143385955561,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.014806661350346,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0184260779221062,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-03-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-03-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-03-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-03-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-03-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-03-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "BLOCKED"
+    }
+  },
+  {
+    "date": "2026-03-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "BLOCKED"
+    }
+  },
+  {
+    "date": "2026-03-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "BLOCKED"
+    }
+  },
+  {
+    "date": "2026-03-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9873659915611663,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-03-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9816603715802517,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-03-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.976311392405035,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-03-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9971241711657632,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-03-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9957196517857179,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-03-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9943367119511644,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-03-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0081483414160972,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.011284334682241,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0143074146797613,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0042203059409045,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0052021255273413,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0061614042404647,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.990418480662971,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-03-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9859051913308625,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-03-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.981562870431871,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-03-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-03-31",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0188580816591535,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-31",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.022986934817194,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-03-31",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0269636953808317,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0182353296934121,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0207911260887843,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0232840802949648,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "MISSING_BROKER_QUOTES"
+    }
+  },
+  {
+    "date": "2026-04-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "MISSING_BROKER_QUOTES"
+    }
+  },
+  {
+    "date": "2026-04-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "MISSING_BROKER_QUOTES"
+    }
+  },
+  {
+    "date": "2026-04-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-04-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-04-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-04-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0961615431349143,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.122938970149258,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.14880492957754,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.591733304423224,
+      "reason": "EOD"
+    }
+  },
+  {
+    "date": "2026-04-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.55644737901499,
+      "reason": "EOD"
+    }
+  },
+  {
+    "date": "2026-04-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.522026937394229,
+      "reason": "EOD"
+    }
+  },
+  {
+    "date": "2026-04-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0113701759530416,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0163477450627738,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0211260520759797,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-04-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-04-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-04-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-04-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-04-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-04-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-04-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-04-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-04-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0239047619048511,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0309703860590316,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0376032848233874,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-04-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-04-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-04-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0191904633982265,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0236250131751812,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0278936780866048,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-04-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9909718059987116,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-04-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.986649452658079,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-04-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9824477915632517,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-04-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-04-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-05-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-05-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-05-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.019316517412971,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0258826981040354,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0321559695817997,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0236610101011003,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0318630908097017,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0396624546426279,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0113157478834105,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0165835340073595,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0216146271339899,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0168993253968184,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.022843554801112,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0285283111954355,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0143054884547615,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.020149538929992,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0257593861893255,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0239214318181664,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0344144130673654,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.044386090712686,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9878334437663314,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-05-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9821089871795023,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-05-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9766052975691235,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-05-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-05-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0286891504606446,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0420228635682007,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-05-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0547445312500958,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0447735372068743,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0571271129914979,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0689158365758462,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0189436880732985,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0255820799638724,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0319516197181078,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.991380695428192,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-06-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.987271889064988,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-06-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9832887890137114,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-06-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0457134190231983,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0520312625840398,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.058089498767607,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0569209975062177,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0647016152448656,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0720341715628106,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9831400768245615,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9756607208872676,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9687232779097497,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-06-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-06-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.986774349142262,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-06-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9806497490157648,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-06-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9748193659942435,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-06-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0278815855355137,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0377541560188104,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-06-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0469967708333698,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0273207653575072,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0315629460784141,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0355862846226909,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.016008478747249,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.022828639085473,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0292949310711137,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9933274646464558,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-07-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9901135669743175,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-07-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9869773090192269,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-07-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0288180034723025,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0333594524619174,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0377047176081244,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-07-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-07-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-07-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0171803911980368,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0237495742163778,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0299048339060086,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.046943693181883,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0555026880985414,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0634518733510094,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.988526037069711,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-07-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9831896551724306,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-07-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9780960404380883,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-07-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9862238364779683,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-07-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.979935251908415,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-07-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.974001266073203,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-07-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9810361318051328,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-07-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9726124413793356,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-07-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9647929255318686,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-07-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.027074297520698,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0384672211349963,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.04871762081783,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-07-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-31",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-31",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-07-31",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9841799276236218,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-08-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9770184754673108,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-08-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9702950396376109,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-08-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9796592868216782,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-08-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9707367063197292,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-08-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0760561714286208,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-08-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.014240714865975,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-08-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0193057647993484,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-08-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0241546189735875,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-08-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.985729906347535,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-08-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9791895144157983,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-08-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9730026377952394,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9887229346092359,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-08-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9834596374269144,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-08-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9784247444698435,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-08-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_CONFIRMATION"
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_BREAK"
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.3694567713004075,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.3663465719282235,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.3633881228668518,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.016711694915164,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.024217210526185,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0312302262441724,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9907607219251222,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9864046786885374,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.982211248391227,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-09-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0622853734938933,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.075183709959049,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.087253122885952,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0169134140017795,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0222201981451227,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0272736131687878,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.04560087420034,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.051898970511953,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0578362211053902,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0108927381973423,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0159421984923416,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0207521504495554,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9871512429378368,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-09-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9812220229357975,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-09-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.9755898389981812,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-09-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -0.9949654237288015,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -0.992755040650339,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -0.9907172916666444,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": 1.984222582938368,
+      "reason": "TP2"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0346922858796495,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "net_r": -1.0425702262444456,
+      "reason": "SL"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "HTF_FILTER"
+    }
+  }
+]

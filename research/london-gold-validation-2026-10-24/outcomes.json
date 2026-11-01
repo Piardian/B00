@@ -1,0 +1,2522 @@
+[
+  {
+    "date": "2025-07-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-01 07:16:19.956000+00:00",
+      "exit_time": "2025-07-01 11:04:45.078000+00:00",
+      "direction": 1,
+      "entry": 3337.61,
+      "exit": 3351.5000000000005,
+      "stop_bid": 3330.64,
+      "initial_risk": 6.970000000000255,
+      "target": 3351.5500000000006,
+      "reason": "TP2",
+      "price_net_r": 1.992826398852198,
+      "commission_r": 0.011477761836441475,
+      "net_r": 1.9813486370157565,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 6.650000000000091
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-01 07:16:19.956000+00:00",
+      "exit_time": "2025-07-01 11:04:45.710000+00:00",
+      "direction": 1,
+      "entry": 3337.7699999999995,
+      "exit": 3351.954999999999,
+      "stop_bid": 3330.64,
+      "initial_risk": 7.129999999999654,
+      "target": 3352.029999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9894810659186786,
+      "commission_r": 0.016830294530155093,
+      "net_r": 1.9726507713885235,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 6.650000000000091
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-01 07:16:19.956000+00:00",
+      "exit_time": "2025-07-01 11:30:01.295000+00:00",
+      "direction": 1,
+      "entry": 3337.93,
+      "exit": 3352.41,
+      "stop_bid": 3330.64,
+      "initial_risk": 7.289999999999964,
+      "target": 3352.5099999999998,
+      "reason": "TP2",
+      "price_net_r": 1.986282578875184,
+      "commission_r": 0.02194787379972576,
+      "net_r": 1.964334705075458,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 6.650000000000091
+    }
+  },
+  {
+    "date": "2025-07-02",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-02 07:23:40.931000+00:00",
+      "exit_time": "2025-07-02 07:46:58.772000+00:00",
+      "direction": -1,
+      "entry": 3327.7999999999997,
+      "exit": 3333.73,
+      "stop_bid": 3333.29,
+      "initial_risk": 5.760000000000218,
+      "target": 3316.2799999999993,
+      "reason": "SL",
+      "price_net_r": -1.0295138888889004,
+      "commission_r": 0.013888888888888362,
+      "net_r": -1.0434027777777888,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 5.400000000000091
+    }
+  },
+  {
+    "date": "2025-07-02",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-02 07:23:40.931000+00:00",
+      "exit_time": "2025-07-02 07:46:58.772000+00:00",
+      "direction": -1,
+      "entry": 3327.775,
+      "exit": 3333.8899999999994,
+      "stop_bid": 3333.29,
+      "initial_risk": 5.920000000000073,
+      "target": 3315.935,
+      "reason": "SL",
+      "price_net_r": -1.032939189189063,
+      "commission_r": 0.02027027027027002,
+      "net_r": -1.0532094594593329,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 5.400000000000091
+    }
+  },
+  {
+    "date": "2025-07-02",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-02 07:23:40.931000+00:00",
+      "exit_time": "2025-07-02 07:46:58.772000+00:00",
+      "direction": -1,
+      "entry": 3327.75,
+      "exit": 3334.0499999999997,
+      "stop_bid": 3333.29,
+      "initial_risk": 6.079999999999927,
+      "target": 3315.59,
+      "reason": "SL",
+      "price_net_r": -1.0361842105262833,
+      "commission_r": 0.026315789473684525,
+      "net_r": -1.0624999999999678,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 5.400000000000091
+    }
+  },
+  {
+    "date": "2025-07-03",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-03 07:15:03.118000+00:00",
+      "exit_time": "2025-07-03 11:52:22.826000+00:00",
+      "direction": -1,
+      "entry": 3356.8599999999997,
+      "exit": 3343.8899999999994,
+      "stop_bid": 3363.1,
+      "initial_risk": 6.510000000000218,
+      "target": 3343.8399999999992,
+      "reason": "TP2",
+      "price_net_r": 1.992319508448513,
+      "commission_r": 0.012288786482334458,
+      "net_r": 1.9800307219661786,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 6.119999999999891
+    }
+  },
+  {
+    "date": "2025-07-03",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-03 07:15:03.118000+00:00",
+      "exit_time": "2025-07-03 11:53:08.679000+00:00",
+      "direction": -1,
+      "entry": 3356.835,
+      "exit": 3343.5700000000006,
+      "stop_bid": 3363.1,
+      "initial_risk": 6.669999999999618,
+      "target": 3343.495000000001,
+      "reason": "TP2",
+      "price_net_r": 1.9887556221889322,
+      "commission_r": 0.017991004497752153,
+      "net_r": 1.97076461769118,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 6.119999999999891
+    }
+  },
+  {
+    "date": "2025-07-03",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-03 07:15:03.118000+00:00",
+      "exit_time": "2025-07-03 12:30:01.510000+00:00",
+      "direction": -1,
+      "entry": 3356.81,
+      "exit": 3343.25,
+      "stop_bid": 3363.1,
+      "initial_risk": 6.829999999999927,
+      "target": 3343.15,
+      "reason": "TP2",
+      "price_net_r": 1.9853587115666311,
+      "commission_r": 0.02342606149341167,
+      "net_r": 1.9619326500732195,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 6.119999999999891
+    }
+  },
+  {
+    "date": "2025-07-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-04 07:15:03.847000+00:00",
+      "exit_time": "2025-07-04 08:02:19.409000+00:00",
+      "direction": -1,
+      "entry": 3337.37,
+      "exit": 3344.11,
+      "stop_bid": 3343.76,
+      "initial_risk": 6.860000000000127,
+      "target": 3323.6499999999996,
+      "reason": "SL",
+      "price_net_r": -0.9825072886297539,
+      "commission_r": 0.01166180758017471,
+      "net_r": -0.9941690962099285,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 6.110000000000127
+    }
+  },
+  {
+    "date": "2025-07-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-04 07:15:03.847000+00:00",
+      "exit_time": "2025-07-04 08:02:19.409000+00:00",
+      "direction": -1,
+      "entry": 3337.3450000000003,
+      "exit": 3344.2649999999994,
+      "stop_bid": 3343.76,
+      "initial_risk": 7.119999999999891,
+      "target": 3323.1050000000005,
+      "reason": "SL",
+      "price_net_r": -0.9719101123594479,
+      "commission_r": 0.01685393258426992,
+      "net_r": -0.9887640449437178,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 6.110000000000127
+    }
+  },
+  {
+    "date": "2025-07-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-04 07:15:03.847000+00:00",
+      "exit_time": "2025-07-04 08:02:19.409000+00:00",
+      "direction": -1,
+      "entry": 3337.32,
+      "exit": 3344.4199999999996,
+      "stop_bid": 3343.76,
+      "initial_risk": 7.379999999999654,
+      "target": 3322.560000000001,
+      "reason": "SL",
+      "price_net_r": -0.9620596205961771,
+      "commission_r": 0.021680216802169038,
+      "net_r": -0.9837398373983461,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 6.110000000000127
+    }
+  },
+  {
+    "date": "2025-07-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-07-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-07-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-07-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-07-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-07-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-07-09",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-09 07:31:08.893000+00:00",
+      "exit_time": "2025-07-09 07:41:32.037000+00:00",
+      "direction": -1,
+      "entry": 3289.83,
+      "exit": 3294.09,
+      "stop_bid": 3293.74,
+      "initial_risk": 4.179999999999836,
+      "target": 3281.4700000000003,
+      "reason": "SL",
+      "price_net_r": -1.0191387559809533,
+      "commission_r": 0.019138755980861993,
+      "net_r": -1.0382775119618153,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 3.8599999999996726
+    }
+  },
+  {
+    "date": "2025-07-09",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-09 07:31:08.893000+00:00",
+      "exit_time": "2025-07-09 07:41:32.037000+00:00",
+      "direction": -1,
+      "entry": 3289.8050000000003,
+      "exit": 3294.245,
+      "stop_bid": 3293.74,
+      "initial_risk": 4.339999999999236,
+      "target": 3281.125000000002,
+      "reason": "SL",
+      "price_net_r": -1.0230414746544658,
+      "commission_r": 0.027649769585258322,
+      "net_r": -1.050691244239724,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 3.8599999999996726
+    }
+  },
+  {
+    "date": "2025-07-09",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-09 07:31:08.893000+00:00",
+      "exit_time": "2025-07-09 07:41:32.037000+00:00",
+      "direction": -1,
+      "entry": 3289.78,
+      "exit": 3294.3999999999996,
+      "stop_bid": 3293.74,
+      "initial_risk": 4.499999999999545,
+      "target": 3280.780000000001,
+      "reason": "SL",
+      "price_net_r": -1.026666666666645,
+      "commission_r": 0.03555555555555915,
+      "net_r": -1.0622222222222042,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 3.8599999999996726
+    }
+  },
+  {
+    "date": "2025-07-10",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-10 08:53:01.789000+00:00",
+      "exit_time": "2025-07-10 09:35:25.192000+00:00",
+      "direction": 1,
+      "entry": 3329.79,
+      "exit": 3325.1099999999997,
+      "stop_bid": 3325.23,
+      "initial_risk": 4.559999999999945,
+      "target": 3338.91,
+      "reason": "SL",
+      "price_net_r": -1.0263157894737602,
+      "commission_r": 0.017543859649123018,
+      "net_r": -1.0438596491228833,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 4.190000000000055
+    }
+  },
+  {
+    "date": "2025-07-10",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-10 08:53:01.789000+00:00",
+      "exit_time": "2025-07-10 09:35:25.192000+00:00",
+      "direction": 1,
+      "entry": 3329.9449999999997,
+      "exit": 3325.085,
+      "stop_bid": 3325.23,
+      "initial_risk": 4.714999999999691,
+      "target": 3339.374999999999,
+      "reason": "SL",
+      "price_net_r": -1.0307529162248126,
+      "commission_r": 0.02545068928950326,
+      "net_r": -1.0562036055143158,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 4.190000000000055
+    }
+  },
+  {
+    "date": "2025-07-10",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-10 08:53:01.789000+00:00",
+      "exit_time": "2025-07-10 09:35:25.192000+00:00",
+      "direction": 1,
+      "entry": 3330.0999999999995,
+      "exit": 3325.06,
+      "stop_bid": 3325.23,
+      "initial_risk": 4.869999999999436,
+      "target": 3339.8399999999983,
+      "reason": "SL",
+      "price_net_r": -1.0349075975359532,
+      "commission_r": 0.03285420944558902,
+      "net_r": -1.0677618069815422,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 4.190000000000055
+    }
+  },
+  {
+    "date": "2025-07-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-11 07:15:29.819000+00:00",
+      "exit_time": "2025-07-11 08:03:59.615000+00:00",
+      "direction": 1,
+      "entry": 3334.77,
+      "exit": 3342.18,
+      "stop_bid": 3331.04,
+      "initial_risk": 3.730000000000018,
+      "target": 3342.23,
+      "reason": "TP2",
+      "price_net_r": 1.986595174262686,
+      "commission_r": 0.02144772117962456,
+      "net_r": 1.9651474530830615,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 3.3400000000001455
+    }
+  },
+  {
+    "date": "2025-07-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-11 07:15:29.819000+00:00",
+      "exit_time": "2025-07-11 08:04:02.004000+00:00",
+      "direction": 1,
+      "entry": 3334.9249999999993,
+      "exit": 3342.619999999998,
+      "stop_bid": 3331.04,
+      "initial_risk": 3.884999999999309,
+      "target": 3342.694999999998,
+      "reason": "TP2",
+      "price_net_r": 1.980694980695024,
+      "commission_r": 0.03088803088803638,
+      "net_r": 1.9498069498069877,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 3.3400000000001455
+    }
+  },
+  {
+    "date": "2025-07-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-11 07:15:29.819000+00:00",
+      "exit_time": "2025-07-11 08:04:26.184000+00:00",
+      "direction": 1,
+      "entry": 3335.0799999999995,
+      "exit": 3343.0599999999986,
+      "stop_bid": 3331.04,
+      "initial_risk": 4.039999999999509,
+      "target": 3343.1599999999985,
+      "reason": "TP2",
+      "price_net_r": 1.9752475247524948,
+      "commission_r": 0.03960396039604442,
+      "net_r": 1.9356435643564502,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 3.3400000000001455
+    }
+  },
+  {
+    "date": "2025-07-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-14 08:31:58.166000+00:00",
+      "exit_time": "2025-07-14 10:02:00.725000+00:00",
+      "direction": -1,
+      "entry": 3366.4399999999996,
+      "exit": 3372.6400000000003,
+      "stop_bid": 3372.32,
+      "initial_risk": 6.140000000000782,
+      "target": 3354.159999999998,
+      "reason": "SL",
+      "price_net_r": -1.0097719869706738,
+      "commission_r": 0.013029315960910393,
+      "net_r": -1.022801302931584,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 5.809999999999945
+    }
+  },
+  {
+    "date": "2025-07-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-14 08:31:58.166000+00:00",
+      "exit_time": "2025-07-14 10:02:00.725000+00:00",
+      "direction": -1,
+      "entry": 3366.415,
+      "exit": 3372.795,
+      "stop_bid": 3372.32,
+      "initial_risk": 6.2950000000005275,
+      "target": 3353.824999999999,
+      "reason": "SL",
+      "price_net_r": -1.0135027799840468,
+      "commission_r": 0.019062748212865757,
+      "net_r": -1.0325655281969126,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 5.809999999999945
+    }
+  },
+  {
+    "date": "2025-07-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-14 08:31:58.166000+00:00",
+      "exit_time": "2025-07-14 10:02:00.725000+00:00",
+      "direction": -1,
+      "entry": 3366.39,
+      "exit": 3372.9500000000003,
+      "stop_bid": 3372.32,
+      "initial_risk": 6.450000000000728,
+      "target": 3353.4899999999984,
+      "reason": "SL",
+      "price_net_r": -1.0170542635658388,
+      "commission_r": 0.0248062015503848,
+      "net_r": -1.0418604651162235,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 5.809999999999945
+    }
+  },
+  {
+    "date": "2025-07-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-15 07:15:00.038000+00:00",
+      "exit_time": "2025-07-15 08:23:00.931000+00:00",
+      "direction": 1,
+      "entry": 3360.79,
+      "exit": 3357.0299999999997,
+      "stop_bid": 3357.19,
+      "initial_risk": 3.599999999999909,
+      "target": 3367.99,
+      "reason": "SL",
+      "price_net_r": -1.0444444444445316,
+      "commission_r": 0.022222222222222785,
+      "net_r": -1.0666666666667544,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 3.269999999999982
+    }
+  },
+  {
+    "date": "2025-07-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-15 07:15:00.038000+00:00",
+      "exit_time": "2025-07-15 08:23:00.931000+00:00",
+      "direction": 1,
+      "entry": 3360.9449999999997,
+      "exit": 3357.005,
+      "stop_bid": 3357.19,
+      "initial_risk": 3.7549999999996544,
+      "target": 3368.454999999999,
+      "reason": "SL",
+      "price_net_r": -1.0492676431424668,
+      "commission_r": 0.031957390146474314,
+      "net_r": -1.081225033288941,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 3.269999999999982
+    }
+  },
+  {
+    "date": "2025-07-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-15 07:15:00.038000+00:00",
+      "exit_time": "2025-07-15 08:23:00.931000+00:00",
+      "direction": 1,
+      "entry": 3361.0999999999995,
+      "exit": 3356.98,
+      "stop_bid": 3357.19,
+      "initial_risk": 3.9099999999993997,
+      "target": 3368.9199999999983,
+      "reason": "SL",
+      "price_net_r": -1.0537084398977157,
+      "commission_r": 0.04092071611253825,
+      "net_r": -1.094629156010254,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 3.269999999999982
+    }
+  },
+  {
+    "date": "2025-07-16",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-16 07:43:19.304000+00:00",
+      "exit_time": "2025-07-16 08:02:37.128000+00:00",
+      "direction": -1,
+      "entry": 3336.81,
+      "exit": 3340.07,
+      "stop_bid": 3339.76,
+      "initial_risk": 3.2100000000000364,
+      "target": 3330.39,
+      "reason": "SL",
+      "price_net_r": -1.0155763239875955,
+      "commission_r": 0.024922118380062024,
+      "net_r": -1.0404984423676575,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 2.8700000000003456
+    }
+  },
+  {
+    "date": "2025-07-16",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-16 07:43:19.304000+00:00",
+      "exit_time": "2025-07-16 08:02:37.128000+00:00",
+      "direction": -1,
+      "entry": 3336.7850000000003,
+      "exit": 3340.2249999999995,
+      "stop_bid": 3339.76,
+      "initial_risk": 3.3649999999997817,
+      "target": 3330.0550000000007,
+      "reason": "SL",
+      "price_net_r": -1.022288261515414,
+      "commission_r": 0.03566121842496516,
+      "net_r": -1.0579494799403792,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 2.8700000000003456
+    }
+  },
+  {
+    "date": "2025-07-16",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-16 07:43:19.304000+00:00",
+      "exit_time": "2025-07-16 08:02:37.128000+00:00",
+      "direction": -1,
+      "entry": 3336.76,
+      "exit": 3340.3799999999997,
+      "stop_bid": 3339.76,
+      "initial_risk": 3.519999999999527,
+      "target": 3329.720000000001,
+      "reason": "SL",
+      "price_net_r": -1.0284090909090688,
+      "commission_r": 0.04545454545455156,
+      "net_r": -1.0738636363636205,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 2.8700000000003456
+    }
+  },
+  {
+    "date": "2025-07-17",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-17 07:15:23.772000+00:00",
+      "exit_time": "2025-07-17 11:01:25.850000+00:00",
+      "direction": -1,
+      "entry": 3332.0699999999997,
+      "exit": 3323.2999999999993,
+      "stop_bid": 3336.22,
+      "initial_risk": 4.410000000000309,
+      "target": 3323.249999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9886621315192339,
+      "commission_r": 0.018140589569159725,
+      "net_r": 1.9705215419500741,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 4.079999999999927
+    }
+  },
+  {
+    "date": "2025-07-17",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-17 07:15:23.772000+00:00",
+      "exit_time": "2025-07-17 11:52:06.267000+00:00",
+      "direction": -1,
+      "entry": 3332.045,
+      "exit": 3322.99,
+      "stop_bid": 3336.22,
+      "initial_risk": 4.565000000000055,
+      "target": 3322.915,
+      "reason": "TP2",
+      "price_net_r": 1.9835706462212888,
+      "commission_r": 0.026286966046001874,
+      "net_r": 1.9572836801752869,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 4.079999999999927
+    }
+  },
+  {
+    "date": "2025-07-17",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-17 07:15:23.772000+00:00",
+      "exit_time": "2025-07-17 12:06:01.343000+00:00",
+      "direction": -1,
+      "entry": 3332.02,
+      "exit": 3322.6799999999994,
+      "stop_bid": 3336.22,
+      "initial_risk": 4.720000000000255,
+      "target": 3322.5799999999995,
+      "reason": "TP2",
+      "price_net_r": 1.9788135593220544,
+      "commission_r": 0.03389830508474394,
+      "net_r": 1.9449152542373105,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 4.079999999999927
+    }
+  },
+  {
+    "date": "2025-07-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-18 07:17:07.201000+00:00",
+      "exit_time": "2025-07-18 09:08:55.733000+00:00",
+      "direction": 1,
+      "entry": 3345.1800000000003,
+      "exit": 3354.210000000001,
+      "stop_bid": 3340.64,
+      "initial_risk": 4.540000000000418,
+      "target": 3354.260000000001,
+      "reason": "TP2",
+      "price_net_r": 1.98898678414093,
+      "commission_r": 0.017621145374447717,
+      "net_r": 1.9713656387664824,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 4.210000000000036
+    }
+  },
+  {
+    "date": "2025-07-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-18 07:17:07.201000+00:00",
+      "exit_time": "2025-07-18 09:38:24.005000+00:00",
+      "direction": 1,
+      "entry": 3345.335,
+      "exit": 3354.6500000000005,
+      "stop_bid": 3340.64,
+      "initial_risk": 4.695000000000164,
+      "target": 3354.7250000000004,
+      "reason": "TP2",
+      "price_net_r": 1.9840255591054705,
+      "commission_r": 0.02555910543130901,
+      "net_r": 1.9584664536741616,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 4.210000000000036
+    }
+  },
+  {
+    "date": "2025-07-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-18 07:17:07.201000+00:00",
+      "exit_time": "2025-07-18 11:40:01.914000+00:00",
+      "direction": 1,
+      "entry": 3345.4900000000002,
+      "exit": 3355.090000000001,
+      "stop_bid": 3340.64,
+      "initial_risk": 4.850000000000364,
+      "target": 3355.190000000001,
+      "reason": "TP2",
+      "price_net_r": 1.9793814432989894,
+      "commission_r": 0.03298969072164701,
+      "net_r": 1.9463917525773424,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 4.210000000000036
+    }
+  },
+  {
+    "date": "2025-07-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-21 07:18:03.387000+00:00",
+      "exit_time": "2025-07-21 11:16:25.606000+00:00",
+      "direction": -1,
+      "entry": 3366.8599999999997,
+      "exit": 3370.84,
+      "stop_bid": 3370.52,
+      "initial_risk": 3.930000000000291,
+      "target": 3358.999999999999,
+      "reason": "SL",
+      "price_net_r": -1.012722646310478,
+      "commission_r": 0.020356234096690604,
+      "net_r": -1.0330788804071684,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 3.5700000000001637
+    }
+  },
+  {
+    "date": "2025-07-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-21 07:18:03.387000+00:00",
+      "exit_time": "2025-07-21 11:16:25.606000+00:00",
+      "direction": -1,
+      "entry": 3366.835,
+      "exit": 3371.0,
+      "stop_bid": 3370.52,
+      "initial_risk": 4.089999999999691,
+      "target": 3358.6550000000007,
+      "reason": "SL",
+      "price_net_r": -1.0183374083130265,
+      "commission_r": 0.029339853300735713,
+      "net_r": -1.0476772616137622,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 3.5700000000001637
+    }
+  },
+  {
+    "date": "2025-07-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-21 07:18:03.387000+00:00",
+      "exit_time": "2025-07-21 11:16:25.606000+00:00",
+      "direction": -1,
+      "entry": 3366.81,
+      "exit": 3371.16,
+      "stop_bid": 3370.52,
+      "initial_risk": 4.25,
+      "target": 3358.31,
+      "reason": "SL",
+      "price_net_r": -1.0235294117646845,
+      "commission_r": 0.037647058823529415,
+      "net_r": -1.0611764705882138,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 3.5700000000001637
+    }
+  },
+  {
+    "date": "2025-07-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-22 07:15:48.647000+00:00",
+      "exit_time": "2025-07-22 07:35:59.933000+00:00",
+      "direction": -1,
+      "entry": 3384.21,
+      "exit": 3386.1400000000003,
+      "stop_bid": 3385.81,
+      "initial_risk": 1.8699999999998909,
+      "target": 3380.4700000000003,
+      "reason": "SL",
+      "price_net_r": -1.0320855614975422,
+      "commission_r": 0.0427807486631041,
+      "net_r": -1.0748663101606462,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 1.5299999999997453
+    }
+  },
+  {
+    "date": "2025-07-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-22 07:15:48.647000+00:00",
+      "exit_time": "2025-07-22 07:35:59.933000+00:00",
+      "direction": -1,
+      "entry": 3384.1850000000004,
+      "exit": 3386.3,
+      "stop_bid": 3385.81,
+      "initial_risk": 2.0299999999992906,
+      "target": 3380.125000000002,
+      "reason": "SL",
+      "price_net_r": -1.0418719211825225,
+      "commission_r": 0.05911330049263149,
+      "net_r": -1.100985221675154,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 1.5299999999997453
+    }
+  },
+  {
+    "date": "2025-07-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-22 07:15:48.647000+00:00",
+      "exit_time": "2025-07-22 07:35:59.933000+00:00",
+      "direction": -1,
+      "entry": 3384.1600000000003,
+      "exit": 3386.46,
+      "stop_bid": 3385.81,
+      "initial_risk": 2.1899999999996,
+      "target": 3379.780000000001,
+      "reason": "SL",
+      "price_net_r": -1.0502283105023504,
+      "commission_r": 0.07305936073060695,
+      "net_r": -1.1232876712329574,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 1.5299999999997453
+    }
+  },
+  {
+    "date": "2025-07-23",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-23 07:15:53.746000+00:00",
+      "exit_time": "2025-07-23 07:45:01.493000+00:00",
+      "direction": 1,
+      "entry": 3429.19,
+      "exit": 3422.6,
+      "stop_bid": 3422.76,
+      "initial_risk": 6.429999999999836,
+      "target": 3442.0499999999997,
+      "reason": "SL",
+      "price_net_r": -1.024883359253548,
+      "commission_r": 0.012441679626749929,
+      "net_r": -1.037325038880298,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 6.089999999999691
+    }
+  },
+  {
+    "date": "2025-07-23",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-23 07:15:53.746000+00:00",
+      "exit_time": "2025-07-23 07:45:01.493000+00:00",
+      "direction": 1,
+      "entry": 3429.3499999999995,
+      "exit": 3422.5750000000003,
+      "stop_bid": 3422.76,
+      "initial_risk": 6.589999999999236,
+      "target": 3442.529999999998,
+      "reason": "SL",
+      "price_net_r": -1.028072837632772,
+      "commission_r": 0.018209408194235797,
+      "net_r": -1.0462822458270078,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 6.089999999999691
+    }
+  },
+  {
+    "date": "2025-07-23",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-23 07:15:53.746000+00:00",
+      "exit_time": "2025-07-23 07:45:01.493000+00:00",
+      "direction": 1,
+      "entry": 3429.5099999999998,
+      "exit": 3422.55,
+      "stop_bid": 3422.76,
+      "initial_risk": 6.749999999999545,
+      "target": 3443.009999999999,
+      "reason": "SL",
+      "price_net_r": -1.0311111111111186,
+      "commission_r": 0.023703703703705302,
+      "net_r": -1.054814814814824,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 6.089999999999691
+    }
+  },
+  {
+    "date": "2025-07-24",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-07-24",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-07-24",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-07-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-25 07:34:58.337000+00:00",
+      "exit_time": "2025-07-25 08:19:44.085000+00:00",
+      "direction": -1,
+      "entry": 3356.62,
+      "exit": 3350.45,
+      "stop_bid": 3359.46,
+      "initial_risk": 3.1100000000001273,
+      "target": 3350.3999999999996,
+      "reason": "TP2",
+      "price_net_r": 1.9839228295819358,
+      "commission_r": 0.025723472668809238,
+      "net_r": 1.9581993569131266,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 2.7800000000002
+    }
+  },
+  {
+    "date": "2025-07-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-25 07:34:58.337000+00:00",
+      "exit_time": "2025-07-25 08:25:00.397000+00:00",
+      "direction": -1,
+      "entry": 3356.5950000000003,
+      "exit": 3350.130000000001,
+      "stop_bid": 3359.46,
+      "initial_risk": 3.269999999999527,
+      "target": 3350.055000000001,
+      "reason": "TP2",
+      "price_net_r": 1.9770642201835384,
+      "commission_r": 0.03669724770642732,
+      "net_r": 1.940366972477111,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 2.7800000000002
+    }
+  },
+  {
+    "date": "2025-07-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-25 07:34:58.337000+00:00",
+      "exit_time": "2025-07-25 08:27:47.546000+00:00",
+      "direction": -1,
+      "entry": 3356.57,
+      "exit": 3349.8100000000004,
+      "stop_bid": 3359.46,
+      "initial_risk": 3.4299999999998363,
+      "target": 3349.7100000000005,
+      "reason": "TP2",
+      "price_net_r": 1.970845481049588,
+      "commission_r": 0.046647230320701935,
+      "net_r": 1.924198250728886,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 2.7800000000002
+    }
+  },
+  {
+    "date": "2025-07-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-28 07:31:47.943000+00:00",
+      "exit_time": "2025-07-28 12:24:42.059000+00:00",
+      "direction": -1,
+      "entry": 3338.45,
+      "exit": 3331.6799999999994,
+      "stop_bid": 3341.6,
+      "initial_risk": 3.4100000000003092,
+      "target": 3331.629999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9853372434017076,
+      "commission_r": 0.023460410557182624,
+      "net_r": 1.9618768328445249,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 3.019999999999982
+    }
+  },
+  {
+    "date": "2025-07-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-28 07:31:47.943000+00:00",
+      "exit_time": "2025-07-28 12:25:12.356000+00:00",
+      "direction": -1,
+      "entry": 3338.425,
+      "exit": 3331.37,
+      "stop_bid": 3341.6,
+      "initial_risk": 3.5650000000000546,
+      "target": 3331.295,
+      "reason": "TP2",
+      "price_net_r": 1.9789621318373585,
+      "commission_r": 0.03366058906030804,
+      "net_r": 1.9453015427770504,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 3.019999999999982
+    }
+  },
+  {
+    "date": "2025-07-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-28 07:31:47.943000+00:00",
+      "exit_time": "2025-07-28 12:25:17.749000+00:00",
+      "direction": -1,
+      "entry": 3338.4,
+      "exit": 3331.0599999999995,
+      "stop_bid": 3341.6,
+      "initial_risk": 3.7200000000002547,
+      "target": 3330.9599999999996,
+      "reason": "TP2",
+      "price_net_r": 1.9731182795699187,
+      "commission_r": 0.0430107526881691,
+      "net_r": 1.9301075268817496,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 3.019999999999982
+    }
+  },
+  {
+    "date": "2025-07-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-07-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-07-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-07-30",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-30 08:17:55.880000+00:00",
+      "exit_time": "2025-07-30 11:06:12.445000+00:00",
+      "direction": 1,
+      "entry": 3332.4900000000002,
+      "exit": 3325.62,
+      "stop_bid": 3325.73,
+      "initial_risk": 6.760000000000218,
+      "target": 3346.0100000000007,
+      "reason": "SL",
+      "price_net_r": -1.0162721893491307,
+      "commission_r": 0.011834319526626837,
+      "net_r": -1.0281065088757575,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 6.449999999999818
+    }
+  },
+  {
+    "date": "2025-07-30",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-30 08:17:55.880000+00:00",
+      "exit_time": "2025-07-30 11:06:12.445000+00:00",
+      "direction": 1,
+      "entry": 3332.645,
+      "exit": 3325.5950000000003,
+      "stop_bid": 3325.73,
+      "initial_risk": 6.914999999999964,
+      "target": 3346.475,
+      "reason": "SL",
+      "price_net_r": -1.019522776572634,
+      "commission_r": 0.01735357917570508,
+      "net_r": -1.0368763557483391,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 6.449999999999818
+    }
+  },
+  {
+    "date": "2025-07-30",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-30 08:17:55.880000+00:00",
+      "exit_time": "2025-07-30 11:06:12.445000+00:00",
+      "direction": 1,
+      "entry": 3332.8,
+      "exit": 3325.57,
+      "stop_bid": 3325.73,
+      "initial_risk": 7.070000000000164,
+      "target": 3346.9400000000005,
+      "reason": "SL",
+      "price_net_r": -1.0226308345120014,
+      "commission_r": 0.022630834512022108,
+      "net_r": -1.0452616690240235,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 6.449999999999818
+    }
+  },
+  {
+    "date": "2025-07-31",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-31 07:21:50.935000+00:00",
+      "exit_time": "2025-07-31 08:18:48.651000+00:00",
+      "direction": 1,
+      "entry": 3302.55,
+      "exit": 3311.6800000000003,
+      "stop_bid": 3297.96,
+      "initial_risk": 4.5900000000001455,
+      "target": 3311.7300000000005,
+      "reason": "TP2",
+      "price_net_r": 1.9891067538125968,
+      "commission_r": 0.01742919389978158,
+      "net_r": 1.9716775599128153,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 4.279999999999745
+    }
+  },
+  {
+    "date": "2025-07-31",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-31 07:21:50.935000+00:00",
+      "exit_time": "2025-07-31 08:18:52.437000+00:00",
+      "direction": 1,
+      "entry": 3302.705,
+      "exit": 3312.12,
+      "stop_bid": 3297.96,
+      "initial_risk": 4.744999999999891,
+      "target": 3312.1949999999997,
+      "reason": "TP2",
+      "price_net_r": 1.9841938883035153,
+      "commission_r": 0.025289778714436828,
+      "net_r": 1.9589041095890785,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 4.279999999999745
+    }
+  },
+  {
+    "date": "2025-07-31",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-07-31 07:21:50.935000+00:00",
+      "exit_time": "2025-07-31 08:18:57.365000+00:00",
+      "direction": 1,
+      "entry": 3302.86,
+      "exit": 3312.5600000000004,
+      "stop_bid": 3297.96,
+      "initial_risk": 4.900000000000091,
+      "target": 3312.6600000000003,
+      "reason": "TP2",
+      "price_net_r": 1.9795918367347127,
+      "commission_r": 0.03265306122448919,
+      "net_r": 1.9469387755102234,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 4.279999999999745
+    }
+  },
+  {
+    "date": "2025-08-01",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-01 07:15:04.242000+00:00",
+      "exit_time": "2025-08-01 07:31:42.014000+00:00",
+      "direction": 1,
+      "entry": 3293.11,
+      "exit": 3289.16,
+      "stop_bid": 3289.38,
+      "initial_risk": 3.730000000000018,
+      "target": 3300.57,
+      "reason": "SL",
+      "price_net_r": -1.0589812332440358,
+      "commission_r": 0.02144772117962456,
+      "net_r": -1.0804289544236603,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 3.4099999999998545
+    }
+  },
+  {
+    "date": "2025-08-01",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-01 07:15:04.242000+00:00",
+      "exit_time": "2025-08-01 07:31:42.014000+00:00",
+      "direction": 1,
+      "entry": 3293.2699999999995,
+      "exit": 3289.135,
+      "stop_bid": 3289.38,
+      "initial_risk": 3.889999999999418,
+      "target": 3301.0499999999984,
+      "reason": "SL",
+      "price_net_r": -1.0629820051413696,
+      "commission_r": 0.0308483290488478,
+      "net_r": -1.0938303341902174,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 3.4099999999998545
+    }
+  },
+  {
+    "date": "2025-08-01",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-01 07:15:04.242000+00:00",
+      "exit_time": "2025-08-01 07:31:42.014000+00:00",
+      "direction": 1,
+      "entry": 3293.43,
+      "exit": 3289.11,
+      "stop_bid": 3289.38,
+      "initial_risk": 4.049999999999727,
+      "target": 3301.5299999999993,
+      "reason": "SL",
+      "price_net_r": -1.0666666666666667,
+      "commission_r": 0.03950617283950884,
+      "net_r": -1.1061728395061754,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 3.4099999999998545
+    }
+  },
+  {
+    "date": "2025-08-04",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-04 07:17:00.033000+00:00",
+      "exit_time": "2025-08-04 11:06:35.821000+00:00",
+      "direction": -1,
+      "entry": 3358.8399999999997,
+      "exit": 3362.9700000000003,
+      "stop_bid": 3362.65,
+      "initial_risk": 4.080000000000382,
+      "target": 3350.679999999999,
+      "reason": "SL",
+      "price_net_r": -1.0122549019608278,
+      "commission_r": 0.019607843137253066,
+      "net_r": -1.0318627450980808,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 3.7400000000002365
+    }
+  },
+  {
+    "date": "2025-08-04",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-04 07:17:00.033000+00:00",
+      "exit_time": "2025-08-04 11:06:35.821000+00:00",
+      "direction": -1,
+      "entry": 3358.815,
+      "exit": 3363.13,
+      "stop_bid": 3362.65,
+      "initial_risk": 4.2400000000002365,
+      "target": 3350.3349999999996,
+      "reason": "SL",
+      "price_net_r": -1.017688679245239,
+      "commission_r": 0.028301886792451252,
+      "net_r": -1.0459905660376903,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 3.7400000000002365
+    }
+  },
+  {
+    "date": "2025-08-04",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-04 07:17:00.033000+00:00",
+      "exit_time": "2025-08-04 11:06:35.821000+00:00",
+      "direction": -1,
+      "entry": 3358.79,
+      "exit": 3363.29,
+      "stop_bid": 3362.65,
+      "initial_risk": 4.400000000000091,
+      "target": 3349.99,
+      "reason": "SL",
+      "price_net_r": -1.0227272727272516,
+      "commission_r": 0.03636363636363561,
+      "net_r": -1.0590909090908873,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 3.7400000000002365
+    }
+  },
+  {
+    "date": "2025-08-05",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-05 07:17:55.113000+00:00",
+      "exit_time": "2025-08-05 08:59:54.382000+00:00",
+      "direction": 1,
+      "entry": 3371.4300000000003,
+      "exit": 3365.9199999999996,
+      "stop_bid": 3365.99,
+      "initial_risk": 5.440000000000509,
+      "target": 3382.3100000000013,
+      "reason": "SL",
+      "price_net_r": -1.0128676470588525,
+      "commission_r": 0.0147058823529398,
+      "net_r": -1.0275735294117923,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 5.120000000000346
+    }
+  },
+  {
+    "date": "2025-08-05",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-05 07:17:55.113000+00:00",
+      "exit_time": "2025-08-05 08:59:54.382000+00:00",
+      "direction": 1,
+      "entry": 3371.59,
+      "exit": 3365.895,
+      "stop_bid": 3365.99,
+      "initial_risk": 5.600000000000364,
+      "target": 3382.790000000001,
+      "reason": "SL",
+      "price_net_r": -1.016964285714249,
+      "commission_r": 0.021428571428570034,
+      "net_r": -1.038392857142819,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 5.120000000000346
+    }
+  },
+  {
+    "date": "2025-08-05",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-05 07:17:55.113000+00:00",
+      "exit_time": "2025-08-05 08:59:54.382000+00:00",
+      "direction": 1,
+      "entry": 3371.75,
+      "exit": 3365.87,
+      "stop_bid": 3365.99,
+      "initial_risk": 5.760000000000218,
+      "target": 3383.2700000000004,
+      "reason": "SL",
+      "price_net_r": -1.0208333333333135,
+      "commission_r": 0.027777777777776725,
+      "net_r": -1.0486111111110903,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 5.120000000000346
+    }
+  },
+  {
+    "date": "2025-08-06",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-06 07:21:00.207000+00:00",
+      "exit_time": "2025-08-06 07:41:23.251000+00:00",
+      "direction": -1,
+      "entry": 3371.0899999999997,
+      "exit": 3375.38,
+      "stop_bid": 3375.07,
+      "initial_risk": 4.240000000000691,
+      "target": 3362.6099999999983,
+      "reason": "SL",
+      "price_net_r": -1.0117924528301223,
+      "commission_r": 0.018867924528298812,
+      "net_r": -1.030660377358421,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 3.930000000000291
+    }
+  },
+  {
+    "date": "2025-08-06",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-06 07:21:00.207000+00:00",
+      "exit_time": "2025-08-06 07:41:23.251000+00:00",
+      "direction": -1,
+      "entry": 3371.065,
+      "exit": 3375.535,
+      "stop_bid": 3375.07,
+      "initial_risk": 4.395000000000437,
+      "target": 3362.274999999999,
+      "reason": "SL",
+      "price_net_r": -1.0170648464162357,
+      "commission_r": 0.02730375426620889,
+      "net_r": -1.0443686006824446,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 3.930000000000291
+    }
+  },
+  {
+    "date": "2025-08-06",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-06 07:21:00.207000+00:00",
+      "exit_time": "2025-08-06 07:41:23.251000+00:00",
+      "direction": -1,
+      "entry": 3371.04,
+      "exit": 3375.6899999999996,
+      "stop_bid": 3375.07,
+      "initial_risk": 4.550000000000637,
+      "target": 3361.9399999999987,
+      "reason": "SL",
+      "price_net_r": -1.021978021977799,
+      "commission_r": 0.035164835164830245,
+      "net_r": -1.0571428571426291,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 3.930000000000291
+    }
+  },
+  {
+    "date": "2025-08-07",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-07 07:15:08.335000+00:00",
+      "exit_time": "2025-08-07 07:32:22.930000+00:00",
+      "direction": 1,
+      "entry": 3388.8,
+      "exit": 3393.9900000000007,
+      "stop_bid": 3386.18,
+      "initial_risk": 2.6200000000003456,
+      "target": 3394.040000000001,
+      "reason": "TP2",
+      "price_net_r": 1.9809160305342843,
+      "commission_r": 0.030534351145034142,
+      "net_r": 1.9503816793892501,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 2.300000000000182
+    }
+  },
+  {
+    "date": "2025-08-07",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-07 07:15:08.335000+00:00",
+      "exit_time": "2025-08-07 07:32:40.079000+00:00",
+      "direction": 1,
+      "entry": 3388.955,
+      "exit": 3394.4300000000003,
+      "stop_bid": 3386.18,
+      "initial_risk": 2.775000000000091,
+      "target": 3394.505,
+      "reason": "TP2",
+      "price_net_r": 1.9729729729730394,
+      "commission_r": 0.04324324324324182,
+      "net_r": 1.9297297297297975,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 2.300000000000182
+    }
+  },
+  {
+    "date": "2025-08-07",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-07 07:15:08.335000+00:00",
+      "exit_time": "2025-08-07 07:34:11.633000+00:00",
+      "direction": 1,
+      "entry": 3389.11,
+      "exit": 3394.870000000001,
+      "stop_bid": 3386.18,
+      "initial_risk": 2.930000000000291,
+      "target": 3394.9700000000007,
+      "reason": "TP2",
+      "price_net_r": 1.9658703071672698,
+      "commission_r": 0.05460750853241778,
+      "net_r": 1.911262798634852,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 2.300000000000182
+    }
+  },
+  {
+    "date": "2025-08-08",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-08 07:44:47.182000+00:00",
+      "exit_time": "2025-08-08 10:18:37.252000+00:00",
+      "direction": 1,
+      "entry": 3400.77,
+      "exit": 3393.43,
+      "stop_bid": 3393.48,
+      "initial_risk": 7.289999999999964,
+      "target": 3415.35,
+      "reason": "SL",
+      "price_net_r": -1.0068587105624394,
+      "commission_r": 0.01097393689986288,
+      "net_r": -1.0178326474623023,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 6.960000000000036
+    }
+  },
+  {
+    "date": "2025-08-08",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-08 07:44:47.182000+00:00",
+      "exit_time": "2025-08-08 10:18:37.252000+00:00",
+      "direction": 1,
+      "entry": 3400.9249999999993,
+      "exit": 3393.405,
+      "stop_bid": 3393.48,
+      "initial_risk": 7.444999999999254,
+      "target": 3415.814999999998,
+      "reason": "SL",
+      "price_net_r": -1.0100738750839255,
+      "commission_r": 0.01611820013431995,
+      "net_r": -1.0261920752182454,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 6.960000000000036
+    }
+  },
+  {
+    "date": "2025-08-08",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-08 07:44:47.182000+00:00",
+      "exit_time": "2025-08-08 10:18:37.252000+00:00",
+      "direction": 1,
+      "entry": 3401.0799999999995,
+      "exit": 3393.38,
+      "stop_bid": 3393.48,
+      "initial_risk": 7.599999999999454,
+      "target": 3416.2799999999984,
+      "reason": "SL",
+      "price_net_r": -1.0131578947368312,
+      "commission_r": 0.02105263157894888,
+      "net_r": -1.0342105263157801,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 6.960000000000036
+    }
+  },
+  {
+    "date": "2025-08-11",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-11 07:38:33.378000+00:00",
+      "exit_time": "2025-08-11 08:25:10.016000+00:00",
+      "direction": -1,
+      "entry": 3359.2,
+      "exit": 3366.05,
+      "stop_bid": 3365.73,
+      "initial_risk": 6.930000000000291,
+      "target": 3345.3399999999992,
+      "reason": "SL",
+      "price_net_r": -0.9884559884559995,
+      "commission_r": 0.01154401154401106,
+      "net_r": -1.0000000000000104,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 6.369999999999891
+    }
+  },
+  {
+    "date": "2025-08-11",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-11 07:38:33.378000+00:00",
+      "exit_time": "2025-08-11 08:25:10.016000+00:00",
+      "direction": -1,
+      "entry": 3359.175,
+      "exit": 3366.205,
+      "stop_bid": 3365.73,
+      "initial_risk": 7.1550000000002,
+      "target": 3344.865,
+      "reason": "SL",
+      "price_net_r": -0.9825296995107685,
+      "commission_r": 0.016771488469601206,
+      "net_r": -0.9993011879803697,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 6.369999999999891
+    }
+  },
+  {
+    "date": "2025-08-11",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-11 07:38:33.378000+00:00",
+      "exit_time": "2025-08-11 08:25:10.016000+00:00",
+      "direction": -1,
+      "entry": 3359.15,
+      "exit": 3366.36,
+      "stop_bid": 3365.73,
+      "initial_risk": 7.380000000000109,
+      "target": 3344.39,
+      "reason": "SL",
+      "price_net_r": -0.976964769647687,
+      "commission_r": 0.021680216802167702,
+      "net_r": -0.9986449864498547,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 6.369999999999891
+    }
+  },
+  {
+    "date": "2025-08-12",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-08-12",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-08-12",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-08-13",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-13 07:23:49.827000+00:00",
+      "exit_time": "2025-08-13 08:02:53.054000+00:00",
+      "direction": 1,
+      "entry": 3359.6000000000004,
+      "exit": 3353.73,
+      "stop_bid": 3353.79,
+      "initial_risk": 5.8100000000004,
+      "target": 3371.220000000001,
+      "reason": "SL",
+      "price_net_r": -1.010327022375205,
+      "commission_r": 0.01376936316695258,
+      "net_r": -1.0240963855421577,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 5.4900000000002365
+    }
+  },
+  {
+    "date": "2025-08-13",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-13 07:23:49.827000+00:00",
+      "exit_time": "2025-08-13 08:02:53.054000+00:00",
+      "direction": 1,
+      "entry": 3359.755,
+      "exit": 3353.7050000000004,
+      "stop_bid": 3353.79,
+      "initial_risk": 5.9650000000001455,
+      "target": 3371.6850000000004,
+      "reason": "SL",
+      "price_net_r": -1.0142497904441876,
+      "commission_r": 0.02011735121542281,
+      "net_r": -1.0343671416596105,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 5.4900000000002365
+    }
+  },
+  {
+    "date": "2025-08-13",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-13 07:23:49.827000+00:00",
+      "exit_time": "2025-08-13 08:02:53.054000+00:00",
+      "direction": 1,
+      "entry": 3359.9100000000003,
+      "exit": 3353.6800000000003,
+      "stop_bid": 3353.79,
+      "initial_risk": 6.120000000000346,
+      "target": 3372.150000000001,
+      "reason": "SL",
+      "price_net_r": -1.0179738562090959,
+      "commission_r": 0.026143790849671725,
+      "net_r": -1.0441176470587676,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 5.4900000000002365
+    }
+  },
+  {
+    "date": "2025-08-14",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-08-14",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-08-14",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "date": "2025-08-15",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-15 07:17:17.033000+00:00",
+      "exit_time": "2025-08-15 08:25:10.251000+00:00",
+      "direction": 1,
+      "entry": 3343.28,
+      "exit": 3339.98,
+      "stop_bid": 3340.03,
+      "initial_risk": 3.25,
+      "target": 3349.78,
+      "reason": "SL",
+      "price_net_r": -1.0153846153846713,
+      "commission_r": 0.024615384615384615,
+      "net_r": -1.040000000000056,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 2.899999999999636
+    }
+  },
+  {
+    "date": "2025-08-15",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-15 07:17:17.033000+00:00",
+      "exit_time": "2025-08-15 08:25:10.251000+00:00",
+      "direction": 1,
+      "entry": 3343.435,
+      "exit": 3339.9550000000004,
+      "stop_bid": 3340.03,
+      "initial_risk": 3.4049999999997453,
+      "target": 3350.2449999999994,
+      "reason": "SL",
+      "price_net_r": -1.0220264317180099,
+      "commission_r": 0.03524229074890131,
+      "net_r": -1.0572687224669113,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 2.899999999999636
+    }
+  },
+  {
+    "date": "2025-08-15",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-15 07:17:17.033000+00:00",
+      "exit_time": "2025-08-15 08:25:10.251000+00:00",
+      "direction": 1,
+      "entry": 3343.59,
+      "exit": 3339.9300000000003,
+      "stop_bid": 3340.03,
+      "initial_risk": 3.5599999999999454,
+      "target": 3350.71,
+      "reason": "SL",
+      "price_net_r": -1.0280898876404243,
+      "commission_r": 0.044943820224719794,
+      "net_r": -1.0730337078651442,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 2.899999999999636
+    }
+  },
+  {
+    "date": "2025-08-18",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-18 07:17:04.687000+00:00",
+      "exit_time": "2025-08-18 07:52:22.010000+00:00",
+      "direction": 1,
+      "entry": 3354.6600000000003,
+      "exit": 3347.95,
+      "stop_bid": 3348.01,
+      "initial_risk": 6.650000000000091,
+      "target": 3367.9600000000005,
+      "reason": "SL",
+      "price_net_r": -1.0090225563910376,
+      "commission_r": 0.01203007518796976,
+      "net_r": -1.0210526315790074,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 6.339999999999691
+    }
+  },
+  {
+    "date": "2025-08-18",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-18 07:17:04.687000+00:00",
+      "exit_time": "2025-08-18 07:52:22.010000+00:00",
+      "direction": 1,
+      "entry": 3354.815,
+      "exit": 3347.925,
+      "stop_bid": 3348.01,
+      "initial_risk": 6.804999999999836,
+      "target": 3368.4249999999997,
+      "reason": "SL",
+      "price_net_r": -1.0124908155767873,
+      "commission_r": 0.017634092578986463,
+      "net_r": -1.0301249081557737,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 6.339999999999691
+    }
+  },
+  {
+    "date": "2025-08-18",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-18 07:17:04.687000+00:00",
+      "exit_time": "2025-08-18 07:52:22.010000+00:00",
+      "direction": 1,
+      "entry": 3354.9700000000003,
+      "exit": 3347.9,
+      "stop_bid": 3348.01,
+      "initial_risk": 6.960000000000036,
+      "target": 3368.8900000000003,
+      "reason": "SL",
+      "price_net_r": -1.0158045977011676,
+      "commission_r": 0.02298850574712632,
+      "net_r": -1.038793103448294,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 6.339999999999691
+    }
+  },
+  {
+    "date": "2025-08-19",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-19 10:06:46.057000+00:00",
+      "exit_time": "2025-08-19 12:42:15.005000+00:00",
+      "direction": 1,
+      "entry": 3342.13,
+      "exit": 3334.81,
+      "stop_bid": 3334.86,
+      "initial_risk": 7.269999999999982,
+      "target": 3356.67,
+      "reason": "SL",
+      "price_net_r": -1.0068775790921847,
+      "commission_r": 0.011004126547455324,
+      "net_r": -1.01788170563964,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 6.940000000000055
+    }
+  },
+  {
+    "date": "2025-08-19",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-19 10:06:46.057000+00:00",
+      "exit_time": "2025-08-19 12:42:15.005000+00:00",
+      "direction": 1,
+      "entry": 3342.29,
+      "exit": 3334.7850000000003,
+      "stop_bid": 3334.86,
+      "initial_risk": 7.429999999999836,
+      "target": 3357.1499999999996,
+      "reason": "SL",
+      "price_net_r": -1.010094212651389,
+      "commission_r": 0.016150740242261458,
+      "net_r": -1.0262449528936504,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 6.940000000000055
+    }
+  },
+  {
+    "date": "2025-08-19",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-19 10:06:46.057000+00:00",
+      "exit_time": "2025-08-19 12:42:15.005000+00:00",
+      "direction": 1,
+      "entry": 3342.45,
+      "exit": 3334.76,
+      "stop_bid": 3334.86,
+      "initial_risk": 7.589999999999691,
+      "target": 3357.629999999999,
+      "reason": "SL",
+      "price_net_r": -1.0131752305665234,
+      "commission_r": 0.02108036890645672,
+      "net_r": -1.03425559947298,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 6.940000000000055
+    }
+  },
+  {
+    "date": "2025-08-20",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-20 07:15:01.544000+00:00",
+      "exit_time": "2025-08-20 08:29:52.082000+00:00",
+      "direction": 1,
+      "entry": 3326.42,
+      "exit": 3321.39,
+      "stop_bid": 3321.45,
+      "initial_risk": 4.970000000000255,
+      "target": 3336.3600000000006,
+      "reason": "SL",
+      "price_net_r": -1.0120724346076342,
+      "commission_r": 0.016096579476860343,
+      "net_r": -1.0281690140844946,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 4.600000000000364
+    }
+  },
+  {
+    "date": "2025-08-20",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-20 07:15:01.544000+00:00",
+      "exit_time": "2025-08-20 08:29:52.082000+00:00",
+      "direction": 1,
+      "entry": 3326.58,
+      "exit": 3321.3650000000002,
+      "stop_bid": 3321.45,
+      "initial_risk": 5.130000000000109,
+      "target": 3336.84,
+      "reason": "SL",
+      "price_net_r": -1.0165692007796452,
+      "commission_r": 0.02339181286549658,
+      "net_r": -1.0399610136451418,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 4.600000000000364
+    }
+  },
+  {
+    "date": "2025-08-20",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-20 07:15:01.544000+00:00",
+      "exit_time": "2025-08-20 08:29:52.082000+00:00",
+      "direction": 1,
+      "entry": 3326.74,
+      "exit": 3321.34,
+      "stop_bid": 3321.45,
+      "initial_risk": 5.289999999999964,
+      "target": 3337.3199999999997,
+      "reason": "SL",
+      "price_net_r": -1.0207939508505999,
+      "commission_r": 0.030245746691871665,
+      "net_r": -1.0510396975424716,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 4.600000000000364
+    }
+  },
+  {
+    "date": "2025-08-21",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-21 07:15:00.523000+00:00",
+      "exit_time": "2025-08-21 10:36:10.073000+00:00",
+      "direction": 1,
+      "entry": 3339.4,
+      "exit": 3335.06,
+      "stop_bid": 3335.17,
+      "initial_risk": 4.230000000000018,
+      "target": 3347.86,
+      "reason": "SL",
+      "price_net_r": -1.0260047281324176,
+      "commission_r": 0.018912529550827343,
+      "net_r": -1.044917257683245,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 3.7199999999998
+    }
+  },
+  {
+    "date": "2025-08-21",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-21 07:15:00.523000+00:00",
+      "exit_time": "2025-08-21 10:36:10.073000+00:00",
+      "direction": 1,
+      "entry": 3339.5599999999995,
+      "exit": 3335.0350000000003,
+      "stop_bid": 3335.17,
+      "initial_risk": 4.389999999999418,
+      "target": 3348.3399999999983,
+      "reason": "SL",
+      "price_net_r": -1.0307517084281963,
+      "commission_r": 0.0273348519362223,
+      "net_r": -1.0580865603644185,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 3.7199999999998
+    }
+  },
+  {
+    "date": "2025-08-21",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-21 07:15:00.523000+00:00",
+      "exit_time": "2025-08-21 10:36:10.073000+00:00",
+      "direction": 1,
+      "entry": 3339.72,
+      "exit": 3335.01,
+      "stop_bid": 3335.17,
+      "initial_risk": 4.549999999999727,
+      "target": 3348.8199999999993,
+      "reason": "SL",
+      "price_net_r": -1.0351648351648053,
+      "commission_r": 0.035164835164837274,
+      "net_r": -1.0703296703296425,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 3.7199999999998
+    }
+  },
+  {
+    "date": "2025-08-22",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-22 07:16:18.277000+00:00",
+      "exit_time": "2025-08-22 07:43:57.296000+00:00",
+      "direction": 1,
+      "entry": 3334.3,
+      "exit": 3328.66,
+      "stop_bid": 3328.78,
+      "initial_risk": 5.519999999999982,
+      "target": 3345.34,
+      "reason": "SL",
+      "price_net_r": -1.0217391304348453,
+      "commission_r": 0.014492753623188455,
+      "net_r": -1.0362318840580338,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 5.1899999999996
+    }
+  },
+  {
+    "date": "2025-08-22",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-22 07:16:18.277000+00:00",
+      "exit_time": "2025-08-22 07:43:57.296000+00:00",
+      "direction": 1,
+      "entry": 3334.46,
+      "exit": 3328.635,
+      "stop_bid": 3328.78,
+      "initial_risk": 5.679999999999836,
+      "target": 3345.8199999999997,
+      "reason": "SL",
+      "price_net_r": -1.025528169014082,
+      "commission_r": 0.02112676056338089,
+      "net_r": -1.046654929577463,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 5.1899999999996
+    }
+  },
+  {
+    "date": "2025-08-22",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-22 07:16:18.277000+00:00",
+      "exit_time": "2025-08-22 07:43:57.296000+00:00",
+      "direction": 1,
+      "entry": 3334.62,
+      "exit": 3328.61,
+      "stop_bid": 3328.78,
+      "initial_risk": 5.839999999999691,
+      "target": 3346.2999999999993,
+      "reason": "SL",
+      "price_net_r": -1.02910958904111,
+      "commission_r": 0.027397260273974055,
+      "net_r": -1.056506849315084,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 5.1899999999996
+    }
+  },
+  {
+    "date": "2025-08-25",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-25 07:15:29.814000+00:00",
+      "exit_time": "2025-08-25 11:44:09.006000+00:00",
+      "direction": -1,
+      "entry": 3367.29,
+      "exit": 3370.3500000000004,
+      "stop_bid": 3369.87,
+      "initial_risk": 2.849999999999909,
+      "target": 3361.59,
+      "reason": "SL",
+      "price_net_r": -1.0736842105264905,
+      "commission_r": 0.028070175438597387,
+      "net_r": -1.101754385965088,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 2.5299999999997453
+    }
+  },
+  {
+    "date": "2025-08-25",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-25 07:15:29.814000+00:00",
+      "exit_time": "2025-08-25 11:44:09.006000+00:00",
+      "direction": -1,
+      "entry": 3367.2650000000003,
+      "exit": 3370.51,
+      "stop_bid": 3369.87,
+      "initial_risk": 3.009999999999309,
+      "target": 3361.2450000000017,
+      "reason": "SL",
+      "price_net_r": -1.078073089701208,
+      "commission_r": 0.03986710963456065,
+      "net_r": -1.1179401993357687,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 2.5299999999997453
+    }
+  },
+  {
+    "date": "2025-08-25",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-25 07:15:29.814000+00:00",
+      "exit_time": "2025-08-25 11:44:09.006000+00:00",
+      "direction": -1,
+      "entry": 3367.2400000000002,
+      "exit": 3370.67,
+      "stop_bid": 3369.87,
+      "initial_risk": 3.169999999999618,
+      "target": 3360.900000000001,
+      "reason": "SL",
+      "price_net_r": -1.0820189274448737,
+      "commission_r": 0.0504731861198799,
+      "net_r": -1.1324921135647537,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 2.5299999999997453
+    }
+  },
+  {
+    "date": "2025-08-26",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-26 07:18:00.547000+00:00",
+      "exit_time": "2025-08-26 07:41:53.121000+00:00",
+      "direction": -1,
+      "entry": 3369.96,
+      "exit": 3377.3900000000003,
+      "stop_bid": 3377.05,
+      "initial_risk": 7.360000000000127,
+      "target": 3355.24,
+      "reason": "SL",
+      "price_net_r": -1.0095108695652395,
+      "commission_r": 0.010869565217391117,
+      "net_r": -1.0203804347826306,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 6.920000000000073
+    }
+  },
+  {
+    "date": "2025-08-26",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-26 07:18:00.547000+00:00",
+      "exit_time": "2025-08-26 07:41:53.121000+00:00",
+      "direction": -1,
+      "entry": 3369.9350000000004,
+      "exit": 3377.55,
+      "stop_bid": 3377.05,
+      "initial_risk": 7.519999999999527,
+      "target": 3354.8950000000013,
+      "reason": "SL",
+      "price_net_r": -1.012632978723439,
+      "commission_r": 0.01595744680851164,
+      "net_r": -1.0285904255319507,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 6.920000000000073
+    }
+  },
+  {
+    "date": "2025-08-26",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-26 07:18:00.547000+00:00",
+      "exit_time": "2025-08-26 07:41:53.121000+00:00",
+      "direction": -1,
+      "entry": 3369.9100000000003,
+      "exit": 3377.71,
+      "stop_bid": 3377.05,
+      "initial_risk": 7.679999999999836,
+      "target": 3354.5500000000006,
+      "reason": "SL",
+      "price_net_r": -1.015624999999986,
+      "commission_r": 0.020833333333333776,
+      "net_r": -1.0364583333333197,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 6.920000000000073
+    }
+  },
+  {
+    "date": "2025-08-27",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-27 07:15:22.047000+00:00",
+      "exit_time": "2025-08-27 07:45:25.423000+00:00",
+      "direction": -1,
+      "entry": 3373.95,
+      "exit": 3378.6200000000003,
+      "stop_bid": 3378.29,
+      "initial_risk": 4.610000000000127,
+      "target": 3364.7299999999996,
+      "reason": "SL",
+      "price_net_r": -1.013015184381865,
+      "commission_r": 0.01735357917570451,
+      "net_r": -1.0303687635575696,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 4.25
+    }
+  },
+  {
+    "date": "2025-08-27",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-27 07:15:22.047000+00:00",
+      "exit_time": "2025-08-27 07:45:25.423000+00:00",
+      "direction": -1,
+      "entry": 3373.925,
+      "exit": 3378.7799999999997,
+      "stop_bid": 3378.29,
+      "initial_risk": 4.769999999999527,
+      "target": 3364.385000000001,
+      "reason": "SL",
+      "price_net_r": -1.0178197064989611,
+      "commission_r": 0.025157232704405008,
+      "net_r": -1.042976939203366,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 4.25
+    }
+  },
+  {
+    "date": "2025-08-27",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-27 07:15:22.047000+00:00",
+      "exit_time": "2025-08-27 07:45:25.423000+00:00",
+      "direction": -1,
+      "entry": 3373.9,
+      "exit": 3378.94,
+      "stop_bid": 3378.29,
+      "initial_risk": 4.929999999999836,
+      "target": 3364.0400000000004,
+      "reason": "SL",
+      "price_net_r": -1.0223123732251786,
+      "commission_r": 0.03245436105476781,
+      "net_r": -1.0547667342799465,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 4.25
+    }
+  },
+  {
+    "date": "2025-08-28",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-28 07:15:16.773000+00:00",
+      "exit_time": "2025-08-28 07:37:02.379000+00:00",
+      "direction": 1,
+      "entry": 3397.23,
+      "exit": 3393.62,
+      "stop_bid": 3393.67,
+      "initial_risk": 3.5599999999999454,
+      "target": 3404.35,
+      "reason": "SL",
+      "price_net_r": -1.014044943820276,
+      "commission_r": 0.022471910112359897,
+      "net_r": -1.036516853932636,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 3.230000000000018
+    }
+  },
+  {
+    "date": "2025-08-28",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-28 07:15:16.773000+00:00",
+      "exit_time": "2025-08-28 07:37:02.379000+00:00",
+      "direction": 1,
+      "entry": 3397.3899999999994,
+      "exit": 3393.5950000000003,
+      "stop_bid": 3393.67,
+      "initial_risk": 3.719999999999345,
+      "target": 3404.829999999998,
+      "reason": "SL",
+      "price_net_r": -1.0201612903225352,
+      "commission_r": 0.03225806451613471,
+      "net_r": -1.05241935483867,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 3.230000000000018
+    }
+  },
+  {
+    "date": "2025-08-28",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-28 07:15:16.773000+00:00",
+      "exit_time": "2025-08-28 07:37:02.379000+00:00",
+      "direction": 1,
+      "entry": 3397.5499999999997,
+      "exit": 3393.57,
+      "stop_bid": 3393.67,
+      "initial_risk": 3.8799999999996544,
+      "target": 3405.309999999999,
+      "reason": "SL",
+      "price_net_r": -1.0257731958762675,
+      "commission_r": 0.04123711340206553,
+      "net_r": -1.067010309278333,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 3.230000000000018
+    }
+  },
+  {
+    "date": "2025-08-29",
+    "scenario": "OBSERVED_1x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-29 07:15:16.395000+00:00",
+      "exit_time": "2025-08-29 08:02:58.296000+00:00",
+      "direction": -1,
+      "entry": 3409.48,
+      "exit": 3413.05,
+      "stop_bid": 3412.71,
+      "initial_risk": 3.5,
+      "target": 3402.48,
+      "reason": "SL",
+      "price_net_r": -1.0200000000000469,
+      "commission_r": 0.022857142857142857,
+      "net_r": -1.0428571428571898,
+      "assumed_commission_usd_per_lot_roundtrip": 8.0,
+      "range_usd": 3.1700000000000728
+    }
+  },
+  {
+    "date": "2025-08-29",
+    "scenario": "STRESS_1.5x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-29 07:15:16.395000+00:00",
+      "exit_time": "2025-08-29 08:02:58.296000+00:00",
+      "direction": -1,
+      "entry": 3409.4550000000004,
+      "exit": 3413.21,
+      "stop_bid": 3412.71,
+      "initial_risk": 3.6599999999998545,
+      "target": 3402.1350000000007,
+      "reason": "SL",
+      "price_net_r": -1.025956284152952,
+      "commission_r": 0.03278688524590294,
+      "net_r": -1.058743169398855,
+      "assumed_commission_usd_per_lot_roundtrip": 12.0,
+      "range_usd": 3.1700000000000728
+    }
+  },
+  {
+    "date": "2025-08-29",
+    "scenario": "STRESS_2x",
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-08-29 07:15:16.395000+00:00",
+      "exit_time": "2025-08-29 08:02:58.296000+00:00",
+      "direction": -1,
+      "entry": 3409.4300000000003,
+      "exit": 3413.37,
+      "stop_bid": 3412.71,
+      "initial_risk": 3.819999999999709,
+      "target": 3401.790000000001,
+      "reason": "SL",
+      "price_net_r": -1.0314136125654187,
+      "commission_r": 0.041884816753929896,
+      "net_r": -1.0732984293193486,
+      "assumed_commission_usd_per_lot_roundtrip": 16.0,
+      "range_usd": 3.1700000000000728
+    }
+  }
+]

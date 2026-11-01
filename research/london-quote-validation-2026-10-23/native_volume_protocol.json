@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-23T21:08:34.814249+00:00",
+  "declaration": {
+    "revision": "NATIVE_M15_BID_VOLUME_CONSISTENCY_V2",
+    "reason": "Prior classic model used nativeM15bidtickvolume; quoteeventcount also countsask-onlyupdates. ProbeFeb03EURUSD native5136 equals BIDflagcount5136 vs5703allquotes; preserveoriginalfeaturesemantics",
+    "method": "Use onlyMT5BIDflag2updates for first15minuteOHLCandvolume;actualexecutionstillallbidaskquotepairs;14daymeanand>=1unchanged;no rule/threshold/cost/date/symbol tuning",
+    "disclosure": "Original quoteevent-volume results already examined; not a pristine untouched study. Bothversionsretained andreported",
+    "files": {
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\native_volume_audit.py": "3c46dfa4c1cac02b80f2ee7daecc31da35202e6efa65ad3ccfca607be90c6b20",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\quote_engine.py": "d1b5819c790be9247b2050c4c465812ca413a2917ca9eece179e3671c35d02a3",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\run_validation.py": "c81e2e80f3bbd53d9919a07ac5a21510981fbd81b8cbd52fe6f6e6c6b2fa406e"
+    },
+    "quote_manifest_sha256": "df2e1c157c373babc31de34a1f652fad510440485639d963b197175e2a9a6392"
+  }
+}

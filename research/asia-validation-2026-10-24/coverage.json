@@ -1,0 +1,1724 @@
+[
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-03",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-04",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-05",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-06",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-07",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-10",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-11",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-12",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-13",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-14",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-17",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-18",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-19",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-20",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-21",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-24",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-25",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-26",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-27",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-02-28",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-03",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-04",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-05",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-06",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-07",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-10",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-11",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-12",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-13",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-14",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-17",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-18",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-19",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-20",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-21",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-24",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-25",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-26",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-27",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-28",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "EURUSD",
+    "day": "2025-03-31",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 2
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-03",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-04",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-05",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-06",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-07",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-10",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-11",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-12",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-13",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-14",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-17",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-18",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-19",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-20",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-21",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-24",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-25",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-26",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-27",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-02-28",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-03",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-04",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-05",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-06",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-07",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-10",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-11",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-12",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-13",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-14",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-17",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-18",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-19",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-20",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-21",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-24",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-25",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-26",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-27",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-28",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "GBPUSD",
+    "day": "2025-03-31",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-03",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-04",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-05",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-06",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-07",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-10",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-11",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-12",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-13",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-14",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-17",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-18",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-19",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-20",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-21",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-24",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-25",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-26",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-27",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-02-28",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-03",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-04",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-05",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-06",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-07",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-10",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-11",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-12",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-13",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-14",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-17",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-18",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-19",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-20",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-21",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-24",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-25",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-26",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-27",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-28",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDJPY",
+    "day": "2025-03-31",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-03",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-04",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-05",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-06",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-07",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-10",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-11",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-12",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-13",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-14",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-17",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-18",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-19",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-20",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-21",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-24",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-25",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-26",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-27",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-02-28",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-03",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-04",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-05",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-06",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-07",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-10",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-11",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-12",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-13",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-14",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-17",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-18",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-19",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-20",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-21",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-24",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-25",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-26",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-27",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-28",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCAD",
+    "day": "2025-03-31",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-03",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-04",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-05",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-06",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-07",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-10",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-11",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-12",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-13",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-14",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-17",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-18",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-19",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-20",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-21",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-24",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-25",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-26",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-27",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-02-28",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-03",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-04",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-05",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-06",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-07",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-10",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-11",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-12",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-13",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-14",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-17",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-18",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-19",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-20",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-21",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-24",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-25",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-26",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-27",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-28",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "USDCHF",
+    "day": "2025-03-31",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 1
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-03",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-04",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-05",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-06",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-07",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-10",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-11",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-12",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-13",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-14",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-17",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-18",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-19",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-20",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-21",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-24",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-25",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-26",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-27",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-02-28",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-03",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-04",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-05",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-06",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-07",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-10",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-11",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-12",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-13",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-14",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-17",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-18",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-19",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-20",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-21",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-24",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-25",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-26",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-27",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-28",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  },
+  {
+    "symbol": "NZDUSD",
+    "day": "2025-03-31",
+    "missing_m15": 0,
+    "atr_ready": true,
+    "raw_candidates": 0
+  }
+]

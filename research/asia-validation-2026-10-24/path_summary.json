@@ -1,0 +1,14 @@
+{
+  "fills": 21,
+  "initial_geometry": {
+    "INITIAL_STOP_FIRST": 12,
+    "TP1_FIRST": 9
+  },
+  "reaction_exits": 12,
+  "after_reaction": {
+    "INITIAL_STOP_FIRST": 6,
+    "TP1_FIRST": 6
+  },
+  "reaction_actual_modeled_net_r": -1.9931579239180812,
+  "caveat": "Ex-post competing level events; no new entry filter or hypothetical strategy profits. Model spread remains assumed."
+}

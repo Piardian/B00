@@ -1,0 +1,103 @@
+{
+  "complete_coverage": true,
+  "results": {
+    "OBSERVED_1x": {
+      "fills": 113,
+      "net_r": 15.561383651511491,
+      "price_net_r_before_commission": 17.363753149477095,
+      "commission_r": 1.802369497965609,
+      "pf": 1.2208738814904065,
+      "win_pct": 39.823008849557525,
+      "mean_net_r": 0.1377113597478893,
+      "by_month": {
+        "2025-01": 1.8897141145477343,
+        "2025-02": -5.6962040275113495,
+        "2025-03": 6.342083886613326,
+        "2025-04": -2.508922946391778,
+        "2025-05": 13.865695737870613,
+        "2025-06": 1.6690168863829402
+      },
+      "block_total_ci95": [
+        -15.57243993117077,
+        47.15738476908173
+      ],
+      "without_best5": 5.614289393253671,
+      "statuses": {
+        "CLOSED": 113,
+        "NO_ENTRY_BEFORE_NOON": 14,
+        "CONFIRMED_HOLIDAY_CLOSED": 2
+      }
+    },
+    "STRESS_1.5x": {
+      "fills": 113,
+      "net_r": 14.344675424461494,
+      "price_net_r_before_commission": 16.948299687643214,
+      "commission_r": 2.603624263181725,
+      "pf": 1.2015310819322766,
+      "win_pct": 39.823008849557525,
+      "mean_net_r": 0.12694403030496898,
+      "by_month": {
+        "2025-01": 1.5708259953323986,
+        "2025-02": -5.953243003918802,
+        "2025-03": 6.0661049837954035,
+        "2025-04": -2.600774552284833,
+        "2025-05": 13.71776773727684,
+        "2025-06": 1.5439942642604856
+      },
+      "block_total_ci95": [
+        -16.83589959082576,
+        45.96006920341618
+      ],
+      "without_best5": 4.4229687240390945,
+      "statuses": {
+        "CLOSED": 113,
+        "NO_ENTRY_BEFORE_NOON": 14,
+        "CONFIRMED_HOLIDAY_CLOSED": 2
+      }
+    },
+    "STRESS_2x": {
+      "fills": 113,
+      "net_r": 5.071681761541566,
+      "price_net_r_before_commission": 8.420834587788919,
+      "commission_r": 3.349152826247354,
+      "pf": 1.0684104053986863,
+      "win_pct": 37.16814159292036,
+      "mean_net_r": 0.044882139482668726,
+      "by_month": {
+        "2025-01": -1.7110333651908598,
+        "2025-02": -6.190768686480756,
+        "2025-03": 0.6675813100570618,
+        "2025-04": -2.694360934492259,
+        "2025-05": 13.576579577569984,
+        "2025-06": 1.4236838600783936
+      },
+      "block_total_ci95": [
+        -24.453946924190483,
+        35.201271429947035
+      ],
+      "without_best5": -4.822749363963476,
+      "statuses": {
+        "CLOSED": 113,
+        "NO_ENTRY_BEFORE_NOON": 14,
+        "CONFIRMED_HOLIDAY_CLOSED": 2
+      }
+    }
+  },
+  "gate": {
+    "passed": false,
+    "checks": {
+      "complete_coverage": true,
+      "clock_qa": true,
+      "native_price_qa": true,
+      "at_least_100_fills": true,
+      "positive_1_5x": true,
+      "positive_2x": true,
+      "stressed_ci_lower_positive": false,
+      "four_positive_months": true,
+      "both_quarters_positive": true
+    }
+  },
+  "commission_2025_verified": false,
+  "reserve_evaluated": false,
+  "live_approved": false
+}

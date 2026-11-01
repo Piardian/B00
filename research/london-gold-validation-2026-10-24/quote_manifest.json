@@ -1,0 +1,269 @@
+{
+  "files": {
+    "2025-07-01": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-01.parquet",
+      "sha256": "13d566053db1c5321d084ef2b99c3a90cef545e267e9ad5d347a3e775e24294d",
+      "raw_sha256": "998b4149767b319a8c7046c45174cf4c9d5e5b07bce729925dc3b786406d855f",
+      "rows": 338797
+    },
+    "2025-07-02": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-02.parquet",
+      "sha256": "3c0ecea5d5f03246483f8385ff156834e1c81587e2f63256866c6f3b0938a2bf",
+      "raw_sha256": "6d7fba0fc85f983b6ca9fd9b8bb9e9a5c317ab1c1da7dab8d2abf95eb0a997e3",
+      "rows": 288346
+    },
+    "2025-07-03": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-03.parquet",
+      "sha256": "2869ed154d596d65a675e344a6eb4c0ede261e8fc889ad7e1bba0dc9af8dce6a",
+      "raw_sha256": "b476b28baed9fb9bb70ea88b3e30acf1a68849f33ff4b60c176fc9bfccd682f3",
+      "rows": 325850
+    },
+    "2025-07-04": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-04.parquet",
+      "sha256": "f984b7a8d28849ae26cf1bacd96fe8ce2561e21c0a6f8117a62cc57f994f6b63",
+      "raw_sha256": "58258b2278fdb163f251060edaea568d2ef5256a07db7620cdd7b610434e3bc6",
+      "rows": 196255
+    },
+    "2025-07-07": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-07.parquet",
+      "sha256": "e3e4093ffd0e43d168ace1259fb4921cf6a4c4beef3e4c2fe32d02e226160008",
+      "raw_sha256": "a1d22c791ec1801fd8d7ef30780575e5ef36723774807d71015e9d37f4afc1a9",
+      "rows": 314494
+    },
+    "2025-07-08": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-08.parquet",
+      "sha256": "22f1371e2f112d623e62515876a5df7422276b87e26809dfce180f0020309e61",
+      "raw_sha256": "c327df346720d7d03ccdc2899c5febbd0dc2f88d929acefcb797773040d1cc5e",
+      "rows": 301288
+    },
+    "2025-07-09": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-09.parquet",
+      "sha256": "b6616e4645eec08b2fd59450e6b785d82b80c54c73eaf76dd70186ba378fe9e3",
+      "raw_sha256": "7e8a5e8c9ba6fd3b02820f0e354b90f2c0beb32c736d66520a384b1e800e9da1",
+      "rows": 284543
+    },
+    "2025-07-10": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-10.parquet",
+      "sha256": "039ba9bf9f5bbfd7efce98214d9ab483b6206fbdd3af588288e061f7e68d432f",
+      "raw_sha256": "2256e60f029b3e4a80b7bfedcfcb8c0d904b5ad308a9c920cded6d1698e68eba",
+      "rows": 284551
+    },
+    "2025-07-11": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-11.parquet",
+      "sha256": "936127332e9b30c98a7bf1ac13ae9917ca6656832a9c945de094e4793b6d8bda",
+      "raw_sha256": "59acde9742d0ad8b64aba4382cbc520bfa4b8619668a886b67dcae40b7e4eded",
+      "rows": 239865
+    },
+    "2025-07-14": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-14.parquet",
+      "sha256": "b077dce467438fd22dfbd92751bf5a14ab82da1d4f6be4f004cfc1f1dc9db4d6",
+      "raw_sha256": "104683a98d499076aa551021cace3b830d0a6b8f8167027b90af4fda84a14128",
+      "rows": 292068
+    },
+    "2025-07-15": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-15.parquet",
+      "sha256": "5d4e7a346f32d59c202e1254c0da3c79a8ed221733e7f42597465028e9fc926e",
+      "raw_sha256": "13310f3e8afa6ba0edd501f2ef83917c766ed66558503277a2d5d3a2e0f5ac06",
+      "rows": 286982
+    },
+    "2025-07-16": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-16.parquet",
+      "sha256": "8f9c7beed61f79b6d8d95689f8ccfb54622264f51c288b5f3746c0afcbe31075",
+      "raw_sha256": "73b9214bf0512abbbd5da86b9a7f12087bc67b5b12ff561a8714633d12f3d9a1",
+      "rows": 269519
+    },
+    "2025-07-17": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-17.parquet",
+      "sha256": "390d8b480e7cc16d0336653cc662aa5547dbe2764f73a72391561da7caf287d2",
+      "raw_sha256": "ef8f69dd4beca2464cdba1adbd764d4d21994edbe6fe5cdcff4e28b23345b931",
+      "rows": 145026
+    },
+    "2025-07-18": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-18.parquet",
+      "sha256": "bce9d733f0a63489d762360140d5f24c0dd7643cbd19697d92a21b5b9d3bfa3a",
+      "raw_sha256": "e25f765ab5a606d2820bf858643f757469c74d4ed2ce29ff4ce119508aada527",
+      "rows": 110490
+    },
+    "2025-07-21": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-21.parquet",
+      "sha256": "d3b3dda3cd3c7f4cb78e34f2338574b67a6175b94b470a31781e4c4e25706285",
+      "raw_sha256": "f2a3bc54d597105a24de72bab8bc3beee2e112ca28ccfef7d7c631865b768fba",
+      "rows": 300974
+    },
+    "2025-07-22": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-22.parquet",
+      "sha256": "89032c7ee39e2369cf34797659270b7ba24cd26a55216ff0e9c79863917440d2",
+      "raw_sha256": "2eddc7e3b703758b5765eac3a3db4c0b2aeec81d96cf52a08596700467485a4a",
+      "rows": 353760
+    },
+    "2025-07-23": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-23.parquet",
+      "sha256": "bc8a48f17847ff25971803305c4a9eb28f9858d8ed0f6674d3b7b51de1fa90ec",
+      "raw_sha256": "54f56d84bc012f727313c0c48aaa21f51b387b47f50deab2b87d98db5d0902ab",
+      "rows": 284168
+    },
+    "2025-07-24": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-24.parquet",
+      "sha256": "a892c8230f285ba7a0f091e59bd4ced6b7c63c0023cdabb3018fd95cd80ac216",
+      "raw_sha256": "d54de1bdb0fc2c43e0c61601892d258e37818799a1e1054d0aabf41fb5df1bd8",
+      "rows": 276838
+    },
+    "2025-07-25": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-25.parquet",
+      "sha256": "85712f41d487753c4b67d0677ae5826be6269c8abef3bf9aed7ae26a6274190d",
+      "raw_sha256": "06a2429a9f0531d3e1537840bf5b265b89f190a81b6fd26bfa386c91c95b13ba",
+      "rows": 243864
+    },
+    "2025-07-28": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-28.parquet",
+      "sha256": "8e49c180689d84b03f38006ad7b0b8dae980991eaa2855d05af6533ed9c604fb",
+      "raw_sha256": "ae5b08d753df85fe053b12caeaf9e88e6d6e9f0aac2a6d5d82b29ad970b67f59",
+      "rows": 274398
+    },
+    "2025-07-29": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-29.parquet",
+      "sha256": "763e45bb6a0f61247399e883d4d2bbb7266e061c9929f58b1c70b860d4558355",
+      "raw_sha256": "2a4b1f8231544e8512863285eba1e7e78976dd4a53c633ec79bf7d10bde4a717",
+      "rows": 286558
+    },
+    "2025-07-30": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-30.parquet",
+      "sha256": "c6cfc92cca4788ba27481f51fc8d83c40abcc8bedf18ce76e28ac95725fea21e",
+      "raw_sha256": "0b827cb52c7211692824683cc651a2b5aa50f03ea8433a9241bad3ebe3931717",
+      "rows": 274357
+    },
+    "2025-07-31": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-31.parquet",
+      "sha256": "2ff5323f0312a09dd2354b1886d1eb30a610b1b5c00be949b12ecc0417ca4e1f",
+      "raw_sha256": "8bf213de22d76a0c434da354bf0c42078a3924fd19d3f475cd4d310cd9959613",
+      "rows": 133029
+    },
+    "2025-08-01": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-01.parquet",
+      "sha256": "944209cdb686ca58217b87705d46176d9901fb9044e750e049f76d46a020302d",
+      "raw_sha256": "46961e880a5e38d0bc044c968e74298bd8c8c1367fdfaf3b4bd24a242afc1ec4",
+      "rows": 147922
+    },
+    "2025-08-04": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-04.parquet",
+      "sha256": "19660e266614a53d5efb0a18fad514027f1cceeb2c664dfcb18acfa8cda12ef4",
+      "raw_sha256": "45f84da5d2f21829776daf8ff42af5acfb98116e786cf344d13be64a6cacd04e",
+      "rows": 270232
+    },
+    "2025-08-05": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-05.parquet",
+      "sha256": "ce5bd1f3956deec650c8cbf2e0dee09a7ef19584a1a1dc149d669216b030a3ee",
+      "raw_sha256": "47b0ae13e7c2e8ba4638eb352942fc6eb2367917da66eb5080238fd88a3f38f5",
+      "rows": 266105
+    },
+    "2025-08-06": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-06.parquet",
+      "sha256": "f317e43f7b228c13a9659e489ae815f580ba9ed0503f29b5db8e822daca15b52",
+      "raw_sha256": "42ca263092f1722b8d172eea0954f40dcbf942352170723f996d1b7b8cc70579",
+      "rows": 246362
+    },
+    "2025-08-07": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-07.parquet",
+      "sha256": "b45deda8e94474296e02e1006552a67e458edef400bc6044672b4776749652eb",
+      "raw_sha256": "5bd87fb59c418e277c4d507ab8705273d2db76792e6482157ea85742e5a8c3f5",
+      "rows": 424010
+    },
+    "2025-08-08": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-08.parquet",
+      "sha256": "7aa518078486ab54984b9a902c8a8d8a42d6558ec3c9182b5d0a8f2decdd897f",
+      "raw_sha256": "7c7605ce2fe72c4cebda66d9c0b8faf9a10b6e865b31e4d66b18fba8fff44b02",
+      "rows": 495997
+    },
+    "2025-08-11": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-11.parquet",
+      "sha256": "fe03eae9927288245071f7c98fe8488df7fe3361e58140ccc8e104c8a15f0394",
+      "raw_sha256": "5e28e638214d18e7d0c204605f03b193c9d072fd0fa0298544c7f9f04a170bb6",
+      "rows": 172787
+    },
+    "2025-08-12": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-12.parquet",
+      "sha256": "e09f04f985aa516c6e13703f745f6b127a1799aaedab7c04b40cdfc6d436f7aa",
+      "raw_sha256": "a573cb84d7a749b9e01da84561097a8f8327dec6f376b7a13038b23fcb34f138",
+      "rows": 146479
+    },
+    "2025-08-13": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-13.parquet",
+      "sha256": "2e8e61e7827fbd2a419dadc67acc758135f1f4d8622f09d08f3c5c5e080126d0",
+      "raw_sha256": "18f7920713a71f0fa969fb6e70a8552c35a3a71d428a416de434721451ff9aca",
+      "rows": 107920
+    },
+    "2025-08-14": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-14.parquet",
+      "sha256": "f30a6599e63d2cee4216b792906f3c0048959b84f73eaacd23553039cc0c98d4",
+      "raw_sha256": "d7406b9e5d3adbb75ff211cf323cbabb638d1ca53cda3b79067649ac4140d128",
+      "rows": 137146
+    },
+    "2025-08-15": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-15.parquet",
+      "sha256": "ff208c981134cdcee616cc1ca49b6ebd84bda6b6269dd7c8ce93e721d6521383",
+      "raw_sha256": "c65de28426633b202b31a371379fac6e53af5e4cc15b022a62dbc76a9086b0b3",
+      "rows": 116743
+    },
+    "2025-08-18": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-18.parquet",
+      "sha256": "dff785121cec75817ab2ef35613ecee4a3799064e7253aedea6a960803af60d8",
+      "raw_sha256": "77f1205524023aa46dbcfa9892dc682ada69772642b9bca25237e326991a1b88",
+      "rows": 180171
+    },
+    "2025-08-19": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-19.parquet",
+      "sha256": "29a9cea3eac40fe909faee2181928b5cc6a2a063942ab43e6b275242391a4d24",
+      "raw_sha256": "749493b0fa9f32cc62a504080ff9a2039e12dcf2a9c6e955c85035301d797c8f",
+      "rows": 199722
+    },
+    "2025-08-20": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-20.parquet",
+      "sha256": "72e157a55db26d78b39d26cec238cf38c7d356b0fb25bbf67e35661787e06a89",
+      "raw_sha256": "decb400beaa73c0eae46c5ff6a86fd59e5e9411b4884affe76b08046412a390c",
+      "rows": 222962
+    },
+    "2025-08-21": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-21.parquet",
+      "sha256": "85fc8c15250d0cd8396cf014544199b107ba5baa99e2d2d24b5269ef76bce879",
+      "raw_sha256": "86a9fd51270d9e657db2a24ca763efb0ee27e50831779c678c544bdc84053746",
+      "rows": 225100
+    },
+    "2025-08-22": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-22.parquet",
+      "sha256": "4c5d4fb7c90558426f3429671efaf4b49157fd225435f707060be3af0436d56c",
+      "raw_sha256": "b129ec0a1cf57001efd69dbff2ff2334e3994f80c14a87831dc2bb037ae05045",
+      "rows": 235577
+    },
+    "2025-08-25": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-25.parquet",
+      "sha256": "050262acd071043b9898a1d60d8a7d95db14ee85ed0380d147331a48562035f9",
+      "raw_sha256": "6deb81a12c730e94603caca30ec77bfdbc553e15b2162bddb2a9836c6c50d2e5",
+      "rows": 223489
+    },
+    "2025-08-26": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-26.parquet",
+      "sha256": "58468352e045114593d2834092765338c502b81e635d18b13b2f14e4fb74bb0f",
+      "raw_sha256": "b2edad28f070b7987d9c9c4370abd42a686b8390ff6499c0df1c83c7f8d75ef8",
+      "rows": 274752
+    },
+    "2025-08-27": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-27.parquet",
+      "sha256": "1a862739fc1180f36da4997662259aa9996aafde25c451a3c197a53eb053374a",
+      "raw_sha256": "59fb6a15af189031a18d63f1d3a2948dca551f5a859b5ce16e7dc6686d800140",
+      "rows": 96149
+    },
+    "2025-08-28": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-28.parquet",
+      "sha256": "8ecbdaf75183c41a68f9b59d4525945900ec30808c2b548f223c6cf76cbf8447",
+      "raw_sha256": "8ff27e65d5f64844fd86d4c16b97c358eac812bb5e3f66c00ff6104aed6af6c6",
+      "rows": 111653
+    },
+    "2025-08-29": {
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-08-29.parquet",
+      "sha256": "1cf6818a89dc580bf98eff0c101a0ec5b6b28d58e5f9e438ddc5b8db81a2216b",
+      "raw_sha256": "e7dba9ba22d2c907cb7569e7dd42ee935308d6ffff123ab79ba92199a571bec7",
+      "rows": 116876
+    }
+  },
+  "complete": true
+}

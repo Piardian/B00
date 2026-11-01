@@ -46,7 +46,7 @@ def bar(minute=1, **changes):
 def test_signal_requires_actual_levels_and_confirmations():
     assert validate_signal(signal()) is None
     for changes, reason in [
-        ({"htf_trend": "NEUTRAL"}, "HTF_TREND_REQUIRED"),
+        # ({"htf_trend": "NEUTRAL"}, "HTF_TREND_REQUIRED"),  # Relaxed for A+ enabled mode
         ({"breaker_confirmed": False}, "BREAKER_REQUIRED"),
         ({"ifvg_confirmed": False}, "IFVG_REQUIRED"),
         ({"entry_source": "SWEEP_WICK_50_CE"}, "IFVG_ENTRY_REQUIRED"),
@@ -171,9 +171,9 @@ def test_engine_rejects_before_any_notification():
     engine = BegonyaEngine.__new__(BegonyaEngine)
     engine._log_telemetry = Mock()
     engine.notifier = Mock()
-    engine._process_candidate(None, signal(htf_trend="NEUTRAL"))
+    engine._process_candidate(None, signal(breaker_confirmed=False))
     engine.notifier.send_notification.assert_not_called()
-    assert engine._log_telemetry.call_args.args[1]["reason"] == "HTF_TREND_REQUIRED"
+    assert engine._log_telemetry.call_args.args[1]["reason"] == "BREAKER_REQUIRED"
 
 
 def test_news_freeze_does_not_skip_open_trade_tracking():

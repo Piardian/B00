@@ -1,0 +1,9 @@
+{
+  "server": "FivePercentOnline-Real",
+  "connected": true,
+  "read_only_calls": true,
+  "no_orders": true,
+  "terminal_restarted": false,
+  "paid_API_spend_USD": 0,
+  "requested_symbol_days": 51
+}

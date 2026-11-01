@@ -1,0 +1,46 @@
+{
+  "frozen_at": "2026-10-23 23:26:19.463823+00:00",
+  "scope": "All90 locked prior setups Feb/Mar/Apr/May/Sep/Oct2025; retrospective, previously examined, no pristine OOS or full-bot claim.",
+  "scenarios": {
+    "OBSERVED_QUOTES": {
+      "spread_mult": 1.0,
+      "spread_floor_pips": 0.0,
+      "fee_mult": 1.0,
+      "slip_mult": 1.0
+    },
+    "COST_STRESS_1_5X": {
+      "spread_mult": 1.5,
+      "spread_floor_pips": 0.0,
+      "fee_mult": 1.5,
+      "slip_mult": 1.5
+    },
+    "SPREAD_FLOOR_1PIP": {
+      "spread_mult": 1.5,
+      "spread_floor_pips": 1.0,
+      "fee_mult": 1.5,
+      "slip_mult": 1.5
+    }
+  },
+  "ttls": {
+    "REFERENCE_240": 240,
+    "TTL_15": 15
+  },
+  "geometry": "Original fixed entry/stop/TP1/TP2 exactly retained, same first daily setup. Limit at nominal price on one-tick penetration, favorable improvement ignored. Marketable-at-opening case flagged and separately tested; broker acceptance unknown.",
+  "lifecycle": "Chronological actual quote order. Long exits bid,short exits ask. Initial stop on every quote including fill. No targets in entire fill M1. Adverse reaction uses full completed BID M1 shape, acts on first subsequent quote, never previous close. Stop precedes reaction exit on same quote. HalfTP1 then remainingTP2. BE effective next M1;1.5R->.75R trail only after TP1 bar, effective next M1. London16:30flat first availablequote.",
+  "execution_difference": "Tick ordering resolves M1 high-low uncertainty: TP1 before later same-M1stop legitimately retains partial gain. Signals/levels unchanged. Reaction execution next quote differs from old M1close proxy. Do not call this a byte-identical legacy live bot.",
+  "costs": "Observedspread in executable quote prices, never extra-debited; stress ask widened as scenarios. AssumedUSD4/100k roundtrip(base) chargedUSD2eachside weightedpartials; USDbase converted at respectiveprice; .2pip(base) adverse slip ONLY marketexit, no limit improvement. Rquote risk,notaccountUSDreturn.",
+  "quality": "Positive finite noncrossed quotes, chronological including same-ms row order. Firstquote<=5secafterdecision. No gap>60sec until terminalevent; unresolved means no netR. Pendingexpiry exclusive; alreadyfilled unaffected. All90quote tails requested before any PNL to16:31, from existing cached months, no interpolation.",
+  "data_collection": "Read-only explicitThe5ersterminal, existingtickcacheonly; >=512MiBfree and<=64MiBnetgrowth guard for small tails, no deletion or paidAPI.",
+  "decision": "Demo screen only if a TTL has >=50closedfills observed, positive total in ALL3scenarios and positive RECHECKandFOLLOWUPcohorts all3, >=4of6positive months observedandcoststress, lowerdaycluster95meanobserved>0, no unresolved and removing marketable-opening cases leaves positive totals all3. Historical multiple tests and unverifiedfees still preclude live approval. If neither passes, stop further TTL/TP/SL sweeps on this frozen ORB branch.",
+  "uncertainty": "10000London-day cluster resamples(seed20261024),95%mean per accepted setup, not multiple-testing corrected. Finite cost stress; no threshold fit.",
+  "cases_sha256": "204a66b7a44c2f203520e2ae4a1ac4d4eea8749cae239b9b96aa99b13f09dcfa",
+  "source_cases_sha256": "204a66b7a44c2f203520e2ae4a1ac4d4eea8749cae239b9b96aa99b13f09dcfa",
+  "code_hashes": {
+    "collect_tails.py": "448f9e4cf81f3208e748f308b122a682f73499f5acd77f50b9cfd4fae7279815",
+    "engine.py": "7db53fffe9e2999812f9dc5a4f0e0ac425b9dd4ba75f8858b69cb2fb34fe1257",
+    "normalize_clock.py": "d422c16480c903a54ad01107fb1054535b28114e8da9a10f7046a5e83ce5b44f",
+    "reaction_rules_frozen.py": "c1b2cded094bf5c3ed40f50d950a356a942adc8d003d97bf1cdcebd048fac989",
+    "study.py": "0d3e681cd0eec47abefeab04e217215a53ccc8628fb309a9e37fd698d09ca9e4",
+    "test_engine.py": "cd515a23a0056f0153395a8a40d86a60a9d72a7c6894ab0508eec92fd308e49c"
+  }
+}

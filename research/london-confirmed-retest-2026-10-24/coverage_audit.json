@@ -1,0 +1,102 @@
+{
+  "primary": {
+    "OBSERVED_QUOTES_1x": {
+      "total_opportunity_days": 289,
+      "unknown_days": 2,
+      "common_days": 287,
+      "common_known_net_r": -5.171855797028325,
+      "common_baseline_net_r": 7.912944070630456,
+      "common_delta_net_r": -13.084799867658779,
+      "common_delta_ci95": [
+        -40.92292915736834,
+        13.932749008030164
+      ]
+    },
+    "COST_STRESS_1.5x": {
+      "total_opportunity_days": 289,
+      "unknown_days": 2,
+      "common_days": 287,
+      "common_known_net_r": -9.12128271730711,
+      "common_baseline_net_r": -6.176476794929076,
+      "common_delta_net_r": -2.9448059223780323,
+      "common_delta_ci95": [
+        -31.467079299131107,
+        24.609941953006842
+      ]
+    },
+    "COST_STRESS_2x": {
+      "total_opportunity_days": 289,
+      "unknown_days": 2,
+      "common_days": 287,
+      "common_known_net_r": -12.979300215789515,
+      "common_baseline_net_r": -14.028658560899444,
+      "common_delta_net_r": 1.0493583451099369,
+      "common_delta_ci95": [
+        -26.123652478893153,
+        27.751075683092488
+      ]
+    },
+    "MIN_SPREAD_1PIP": {
+      "total_opportunity_days": 289,
+      "unknown_days": 2,
+      "common_days": 287,
+      "common_known_net_r": -12.012070666476328,
+      "common_baseline_net_r": -23.69601720536628,
+      "common_delta_net_r": 11.683946538889957,
+      "common_delta_ci95": [
+        -15.483205043970582,
+        38.67162485956931
+      ]
+    }
+  },
+  "control": {
+    "OBSERVED_QUOTES_1x": {
+      "total_opportunity_days": 780,
+      "unknown_days": 2,
+      "common_days": 778,
+      "common_known_net_r": -82.74778570705678,
+      "common_baseline_net_r": -67.72769696145473,
+      "common_delta_net_r": -15.020088745602054,
+      "common_delta_ci95": [
+        -62.26665285008265,
+        32.02054646414667
+      ]
+    },
+    "COST_STRESS_1.5x": {
+      "total_opportunity_days": 780,
+      "unknown_days": 2,
+      "common_days": 778,
+      "common_known_net_r": -100.73753842195211,
+      "common_baseline_net_r": -97.40147148133454,
+      "common_delta_net_r": -3.3360669406175774,
+      "common_delta_ci95": [
+        -51.51870735987482,
+        44.52693389098094
+      ]
+    },
+    "COST_STRESS_2x": {
+      "total_opportunity_days": 780,
+      "unknown_days": 2,
+      "common_days": 778,
+      "common_known_net_r": -114.39602146768769,
+      "common_baseline_net_r": -126.38698849857263,
+      "common_delta_net_r": 11.99096703088496,
+      "common_delta_ci95": [
+        -37.27206676710038,
+        59.52583195857433
+      ]
+    },
+    "MIN_SPREAD_1PIP": {
+      "total_opportunity_days": 780,
+      "unknown_days": 2,
+      "common_days": 778,
+      "common_known_net_r": -111.14847959144902,
+      "common_baseline_net_r": -129.53315694792119,
+      "common_delta_net_r": 18.384677356472164,
+      "common_delta_ci95": [
+        -32.109339471608365,
+        66.56673105075625
+      ]
+    }
+  }
+}

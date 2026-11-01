@@ -1,0 +1,108 @@
+{
+  "arithmetic_passed": true,
+  "native_prices_and_volume_passed": true,
+  "tests": "9 passed",
+  "direct_clock_winners": [
+    {
+      "date": "2025-08-28",
+      "shift": 0,
+      "n": 96,
+      "corr": 0.9722057390777423
+    },
+    {
+      "date": "2025-08-29",
+      "shift": 0,
+      "n": 84,
+      "corr": 0.9834483700613853
+    }
+  ],
+  "direct_clock_scores": [
+    {
+      "date": "2025-08-28",
+      "shift": -3,
+      "n": 84,
+      "corr": 0.07046221718324977
+    },
+    {
+      "date": "2025-08-28",
+      "shift": -2,
+      "n": 88,
+      "corr": 0.06518625105722055
+    },
+    {
+      "date": "2025-08-28",
+      "shift": -1,
+      "n": 92,
+      "corr": -0.2769547226033967
+    },
+    {
+      "date": "2025-08-28",
+      "shift": 0,
+      "n": 96,
+      "corr": 0.9722057390777423
+    },
+    {
+      "date": "2025-08-28",
+      "shift": 1,
+      "n": 96,
+      "corr": -0.2457155565501556
+    },
+    {
+      "date": "2025-08-28",
+      "shift": 2,
+      "n": 96,
+      "corr": 0.05831107007171715
+    },
+    {
+      "date": "2025-08-28",
+      "shift": 3,
+      "n": 96,
+      "corr": 0.06685371650442867
+    },
+    {
+      "date": "2025-08-29",
+      "shift": -3,
+      "n": 84,
+      "corr": -0.15950917122959118
+    },
+    {
+      "date": "2025-08-29",
+      "shift": -2,
+      "n": 84,
+      "corr": 0.08879384931101046
+    },
+    {
+      "date": "2025-08-29",
+      "shift": -1,
+      "n": 84,
+      "corr": -0.1376905294995122
+    },
+    {
+      "date": "2025-08-29",
+      "shift": 0,
+      "n": 84,
+      "corr": 0.9834483700613853
+    },
+    {
+      "date": "2025-08-29",
+      "shift": 1,
+      "n": 84,
+      "corr": -0.1703249843377946
+    },
+    {
+      "date": "2025-08-29",
+      "shift": 2,
+      "n": 84,
+      "corr": 0.12808342910594245
+    },
+    {
+      "date": "2025-08-29",
+      "shift": 3,
+      "n": 80,
+      "corr": -0.17224293820988207
+    }
+  ],
+  "rows": 132,
+  "ticks": 10524174,
+  "note": "Direct reference only two overlapping dates; prior independent clock QA supplies wider regime evidence. No gold independent feed. No live approval."
+}

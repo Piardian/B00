@@ -1,0 +1,590 @@
+[
+  {
+    "case_id": "EURUSD_2025-02-24T11:00:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "EURUSD_2025-02-24T11:00:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "EURUSD_2025-02-24T11:00:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "EURUSD_2025-03-06T10:00:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "EURUSD_2025-03-06T10:00:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "EURUSD_2025-03-06T10:00:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "EURUSD_2025-04-18T07:45:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "EURUSD_2025-04-18T07:45:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "EURUSD_2025-04-18T07:45:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "GBPUSD_2025-03-14T08:15:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-03-14T08:15:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-03-14T08:15:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-05-07T09:45:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-05-07T09:45:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-05-07T09:45:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-05-07T10:15:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "GBPUSD_2025-05-07T10:15:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "GBPUSD_2025-05-07T10:15:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "GBPUSD_2025-05-22T08:00:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-05-22T08:00:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-05-22T08:00:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-05-27T11:15:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-05-27T11:15:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-05-27T11:15:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-09-30T09:15:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-09-30T09:15:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-09-30T09:15:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-09-30T10:30:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-09-30T10:30:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-09-30T10:30:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-10-23T10:00:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-10-23T10:00:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "GBPUSD_2025-10-23T10:00:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-01-28T09:00:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-01-28T09:00:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-01-28T09:00:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-01-31T11:30:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-01-31T11:30:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-01-31T11:30:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-02-04T08:30:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-02-04T08:30:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-02-04T08:30:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-03-06T10:30:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-03-06T10:30:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-03-06T10:30:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-03-12T08:00:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-03-12T08:00:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-03-12T08:00:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-03-14T08:00:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-03-14T08:00:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-03-14T08:00:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-03-24T08:45:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-03-24T08:45:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-03-24T08:45:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-04-23T07:45:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-04-23T07:45:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-04-23T07:45:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-05-08T13:45:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-05-08T13:45:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-05-08T13:45:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-06-03T08:15:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-06-03T08:15:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-06-03T08:15:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-06-06T08:30:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-06-06T08:30:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-06-06T08:30:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-06-17T10:15:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-06-17T10:15:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-06-17T10:15:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-07-02T08:00:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-07-02T08:00:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-07-02T08:00:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-07-14T07:00:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-07-14T07:00:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-07-14T07:00:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-08-25T11:45:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-08-25T11:45:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-08-25T11:45:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "FILLED_MARKOUT",
+    "new_status": "FILLED_MARKOUT"
+  },
+  {
+    "case_id": "XAUUSD_2025-10-14T07:30:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-10-14T07:30:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-10-14T07:30:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-10-20T07:15:00+00:00",
+    "scenario": "OBSERVED",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-10-20T07:15:00+00:00",
+    "scenario": "STRESS_1_5X",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  },
+  {
+    "case_id": "XAUUSD_2025-10-20T07:15:00+00:00",
+    "scenario": "STRESS_FLOOR",
+    "same": true,
+    "old_status": "NO_FILL",
+    "new_status": "NO_FILL"
+  }
+]

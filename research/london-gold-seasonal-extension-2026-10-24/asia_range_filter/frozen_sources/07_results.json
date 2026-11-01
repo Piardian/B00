@@ -1,0 +1,507 @@
+{
+  "results": {
+    "2025_full": {
+      "OBSERVED_1x": {
+        "unknown_always": [],
+        "unknown_summeroff": [],
+        "complete_always": true,
+        "complete_summeroff": true,
+        "always_on": {
+          "fills": 229,
+          "net_r": -2.0801741560715534,
+          "pf": 0.9866169955871863,
+          "win_pct": 34.49781659388647,
+          "block_total_ci95": [
+            -49.31463752558642,
+            45.81208215888752
+          ],
+          "by_month": {
+            "2025-01": 1.8897141145477343,
+            "2025-02": -5.6962040275113495,
+            "2025-03": 6.342083886613326,
+            "2025-04": -2.508922946391778,
+            "2025-05": 13.865695737870613,
+            "2025-06": 1.6690168863829402,
+            "2025-07": 4.337115557089738,
+            "2025-08": -16.682203034046765,
+            "2025-09": -1.462930208009366,
+            "2025-10": 15.646103146609134,
+            "2025-11": -2.419820821153804,
+            "2025-12": -17.059822448071984
+          },
+          "max_dd_unit_r": 22.87136770474475,
+          "without_best5": -12.048085595269654,
+          "statuses": {
+            "CLOSED": 229,
+            "NO_ENTRY_BEFORE_NOON": 29,
+            "CONFIRMED_HOLIDAY_CLOSED": 3
+          }
+        },
+        "summer_off": {
+          "fills": 175,
+          "net_r": 8.595896434502519,
+          "pf": 1.0746337442673624,
+          "win_pct": 36.57142857142857,
+          "block_total_ci95": [
+            -32.608964815370776,
+            51.57440743765525
+          ],
+          "by_month": {
+            "2025-01": 1.8897141145477343,
+            "2025-02": -5.6962040275113495,
+            "2025-03": 6.342083886613326,
+            "2025-04": -2.508922946391778,
+            "2025-05": 13.865695737870613,
+            "2025-06": 0.0,
+            "2025-07": 0.0,
+            "2025-08": 0.0,
+            "2025-09": -1.462930208009366,
+            "2025-10": 15.646103146609134,
+            "2025-11": -2.419820821153804,
+            "2025-12": -17.059822448071984
+          },
+          "max_dd_unit_r": 22.1930392311715,
+          "without_best5": -1.3720150046955553,
+          "statuses": {
+            "CLOSED": 175,
+            "NO_ENTRY_BEFORE_NOON": 18,
+            "CONFIRMED_HOLIDAY_CLOSED": 3
+          }
+        },
+        "paired_delta_net_r": 10.676070590574087,
+        "paired_delta_ci95": [
+          -10.020030106717824,
+          32.114919563544355
+        ],
+        "summeroff_without_2025May_r": -5.269799303368089
+      },
+      "STRESS_1.5x": {
+        "unknown_always": [],
+        "unknown_summeroff": [],
+        "complete_always": true,
+        "complete_summeroff": true,
+        "always_on": {
+          "fills": 229,
+          "net_r": -4.338871002923698,
+          "pf": 0.9723462154362,
+          "win_pct": 34.49781659388647,
+          "block_total_ci95": [
+            -51.54608370214964,
+            43.616804328959766
+          ],
+          "by_month": {
+            "2025-01": 1.5708259953323986,
+            "2025-02": -5.953243003918802,
+            "2025-03": 6.0661049837954035,
+            "2025-04": -2.600774552284833,
+            "2025-05": 13.71776773727684,
+            "2025-06": 1.5439942642604856,
+            "2025-07": 4.101115617131793,
+            "2025-08": -16.91172420859357,
+            "2025-09": -1.6293439259628473,
+            "2025-10": 15.504130966836094,
+            "2025-11": -2.5136340626417226,
+            "2025-12": -17.234090814154943
+          },
+          "max_dd_unit_r": 23.99224928067468,
+          "without_best5": -14.291104208508898,
+          "statuses": {
+            "CLOSED": 229,
+            "NO_ENTRY_BEFORE_NOON": 29,
+            "CONFIRMED_HOLIDAY_CLOSED": 3
+          }
+        },
+        "summer_off": {
+          "fills": 175,
+          "net_r": 6.9277433242775865,
+          "pf": 1.0596011479388834,
+          "win_pct": 36.57142857142857,
+          "block_total_ci95": [
+            -34.42205704830151,
+            49.85588590897855
+          ],
+          "by_month": {
+            "2025-01": 1.5708259953323986,
+            "2025-02": -5.953243003918802,
+            "2025-03": 6.0661049837954035,
+            "2025-04": -2.600774552284833,
+            "2025-05": 13.71776773727684,
+            "2025-06": 0.0,
+            "2025-07": 0.0,
+            "2025-08": 0.0,
+            "2025-09": -1.6293439259628473,
+            "2025-10": 15.504130966836094,
+            "2025-11": -2.5136340626417226,
+            "2025-12": -17.234090814154943
+          },
+          "max_dd_unit_r": 22.39700493264056,
+          "without_best5": -3.0244898813076304,
+          "statuses": {
+            "CLOSED": 175,
+            "NO_ENTRY_BEFORE_NOON": 18,
+            "CONFIRMED_HOLIDAY_CLOSED": 3
+          }
+        },
+        "paired_delta_net_r": 11.266614327201289,
+        "paired_delta_ci95": [
+          -9.477535425650448,
+          32.88232334657298
+        ],
+        "summeroff_without_2025May_r": -6.790024412999249
+      },
+      "STRESS_2x": {
+        "unknown_always": [],
+        "unknown_summeroff": [],
+        "complete_always": true,
+        "complete_summeroff": true,
+        "always_on": {
+          "fills": 229,
+          "net_r": -14.595759714363407,
+          "pf": 0.9090930926568558,
+          "win_pct": 33.18777292576419,
+          "block_total_ci95": [
+            -60.18816391046052,
+            32.47195569725189
+          ],
+          "by_month": {
+            "2025-01": -1.7110333651908598,
+            "2025-02": -6.190768686480756,
+            "2025-03": 0.6675813100570618,
+            "2025-04": -2.694360934492259,
+            "2025-05": 13.576579577569984,
+            "2025-06": 1.4236838600783936,
+            "2025-07": 3.8833447296884627,
+            "2025-08": -17.12471262578965,
+            "2025-09": -1.7899269800188797,
+            "2025-10": 15.368361405749777,
+            "2025-11": -2.6034441582581467,
+            "2025-12": -17.401063847276546
+          },
+          "max_dd_unit_r": 25.05075638787333,
+          "without_best5": -24.532551233771116,
+          "statuses": {
+            "CLOSED": 229,
+            "NO_ENTRY_BEFORE_NOON": 29,
+            "CONFIRMED_HOLIDAY_CLOSED": 3
+          }
+        },
+        "summer_off": {
+          "fills": 175,
+          "net_r": -2.7780756783406266,
+          "pf": 0.9767552621128179,
+          "win_pct": 34.85714285714286,
+          "block_total_ci95": [
+            -43.300818704267186,
+            39.52844413046719
+          ],
+          "by_month": {
+            "2025-01": -1.7110333651908598,
+            "2025-02": -6.190768686480756,
+            "2025-03": 0.6675813100570618,
+            "2025-04": -2.694360934492259,
+            "2025-05": 13.576579577569984,
+            "2025-06": 0.0,
+            "2025-07": 0.0,
+            "2025-08": 0.0,
+            "2025-09": -1.7899269800188797,
+            "2025-10": 15.368361405749777,
+            "2025-11": -2.6034441582581467,
+            "2025-12": -17.401063847276546
+          },
+          "max_dd_unit_r": 22.59225178736375,
+          "without_best5": -12.714867197748305,
+          "statuses": {
+            "CLOSED": 175,
+            "NO_ENTRY_BEFORE_NOON": 18,
+            "CONFIRMED_HOLIDAY_CLOSED": 3
+          }
+        },
+        "paired_delta_net_r": 11.817684036022795,
+        "paired_delta_ci95": [
+          -9.010401225436084,
+          33.59578231036561
+        ],
+        "summeroff_without_2025May_r": -16.354655255910604
+      }
+    },
+    "2025_new_SepDec": {
+      "OBSERVED_1x": {
+        "unknown_always": [],
+        "unknown_summeroff": [],
+        "complete_always": true,
+        "complete_summeroff": true,
+        "always_on": {
+          "fills": 78,
+          "net_r": -5.296470330626021,
+          "pf": 0.9035684720866575,
+          "win_pct": 32.05128205128205,
+          "block_total_ci95": [
+            -35.42859919186769,
+            25.8298550908244
+          ],
+          "by_month": {
+            "2025-09": -1.462930208009366,
+            "2025-10": 15.646103146609134,
+            "2025-11": -2.419820821153804,
+            "2025-12": -17.059822448071984
+          },
+          "max_dd_unit_r": 22.193039231171497,
+          "without_best5": -15.262016448596146,
+          "statuses": {
+            "CLOSED": 78,
+            "NO_ENTRY_BEFORE_NOON": 9,
+            "CONFIRMED_HOLIDAY_CLOSED": 1
+          }
+        },
+        "summer_off": {
+          "fills": 78,
+          "net_r": -5.296470330626021,
+          "pf": 0.9035684720866575,
+          "win_pct": 32.05128205128205,
+          "block_total_ci95": [
+            -35.42859919186769,
+            25.8298550908244
+          ],
+          "by_month": {
+            "2025-09": -1.462930208009366,
+            "2025-10": 15.646103146609134,
+            "2025-11": -2.419820821153804,
+            "2025-12": -17.059822448071984
+          },
+          "max_dd_unit_r": 22.193039231171497,
+          "without_best5": -15.262016448596146,
+          "statuses": {
+            "CLOSED": 78,
+            "NO_ENTRY_BEFORE_NOON": 9,
+            "CONFIRMED_HOLIDAY_CLOSED": 1
+          }
+        },
+        "paired_delta_net_r": 0.0,
+        "paired_delta_ci95": [
+          0.0,
+          0.0
+        ],
+        "summeroff_without_2025May_r": -5.296470330626021
+      },
+      "STRESS_1.5x": {
+        "unknown_always": [],
+        "unknown_summeroff": [],
+        "complete_always": true,
+        "complete_summeroff": true,
+        "always_on": {
+          "fills": 78,
+          "net_r": -5.872937835923416,
+          "pf": 0.8938511063790862,
+          "win_pct": 32.05128205128205,
+          "block_total_ci95": [
+            -36.03330488349206,
+            25.249544631568995
+          ],
+          "by_month": {
+            "2025-09": -1.6293439259628473,
+            "2025-10": 15.504130966836094,
+            "2025-11": -2.5136340626417226,
+            "2025-12": -17.234090814154943
+          },
+          "max_dd_unit_r": 22.397004932640556,
+          "without_best5": -15.821695944659032,
+          "statuses": {
+            "CLOSED": 78,
+            "NO_ENTRY_BEFORE_NOON": 9,
+            "CONFIRMED_HOLIDAY_CLOSED": 1
+          }
+        },
+        "summer_off": {
+          "fills": 78,
+          "net_r": -5.872937835923416,
+          "pf": 0.8938511063790862,
+          "win_pct": 32.05128205128205,
+          "block_total_ci95": [
+            -36.03330488349206,
+            25.249544631568995
+          ],
+          "by_month": {
+            "2025-09": -1.6293439259628473,
+            "2025-10": 15.504130966836094,
+            "2025-11": -2.5136340626417226,
+            "2025-12": -17.234090814154943
+          },
+          "max_dd_unit_r": 22.397004932640556,
+          "without_best5": -15.821695944659032,
+          "statuses": {
+            "CLOSED": 78,
+            "NO_ENTRY_BEFORE_NOON": 9,
+            "CONFIRMED_HOLIDAY_CLOSED": 1
+          }
+        },
+        "paired_delta_net_r": 0.0,
+        "paired_delta_ci95": [
+          0.0,
+          0.0
+        ],
+        "summeroff_without_2025May_r": -5.872937835923416
+      },
+      "STRESS_2x": {
+        "unknown_always": [],
+        "unknown_summeroff": [],
+        "complete_always": true,
+        "complete_summeroff": true,
+        "always_on": {
+          "fills": 78,
+          "net_r": -6.426073579803793,
+          "pf": 0.8846596345458335,
+          "win_pct": 32.05128205128205,
+          "block_total_ci95": [
+            -36.727514982373194,
+            24.77123804010342
+          ],
+          "by_month": {
+            "2025-09": -1.7899269800188797,
+            "2025-10": 15.368361405749777,
+            "2025-11": -2.6034441582581467,
+            "2025-12": -17.401063847276546
+          },
+          "max_dd_unit_r": 22.59225178736375,
+          "without_best5": -16.35832600793377,
+          "statuses": {
+            "CLOSED": 78,
+            "NO_ENTRY_BEFORE_NOON": 9,
+            "CONFIRMED_HOLIDAY_CLOSED": 1
+          }
+        },
+        "summer_off": {
+          "fills": 78,
+          "net_r": -6.426073579803793,
+          "pf": 0.8846596345458335,
+          "win_pct": 32.05128205128205,
+          "block_total_ci95": [
+            -36.727514982373194,
+            24.77123804010342
+          ],
+          "by_month": {
+            "2025-09": -1.7899269800188797,
+            "2025-10": 15.368361405749777,
+            "2025-11": -2.6034441582581467,
+            "2025-12": -17.401063847276546
+          },
+          "max_dd_unit_r": 22.59225178736375,
+          "without_best5": -16.35832600793377,
+          "statuses": {
+            "CLOSED": 78,
+            "NO_ENTRY_BEFORE_NOON": 9,
+            "CONFIRMED_HOLIDAY_CLOSED": 1
+          }
+        },
+        "paired_delta_net_r": 0.0,
+        "paired_delta_ci95": [
+          0.0,
+          0.0
+        ],
+        "summeroff_without_2025May_r": -6.426073579803794
+      }
+    },
+    "2026_JanSep_partial": {
+      "OBSERVED_1x": {
+        "unknown_always": [
+          "2026-03-16",
+          "2026-04-03"
+        ],
+        "unknown_summeroff": [
+          "2026-03-16",
+          "2026-04-03"
+        ],
+        "complete_always": false,
+        "complete_summeroff": false,
+        "resolved_closed_always_net_r": -32.78402387622466,
+        "resolved_closed_summeroff_net_r": -20.463932692808278,
+        "note": "Incomplete coverage: no full total/PF/CI claim"
+      },
+      "STRESS_1.5x": {
+        "unknown_always": [
+          "2026-03-16",
+          "2026-04-03"
+        ],
+        "unknown_summeroff": [
+          "2026-03-16",
+          "2026-04-03"
+        ],
+        "complete_always": false,
+        "complete_summeroff": false,
+        "resolved_closed_always_net_r": -37.153182290531994,
+        "resolved_closed_summeroff_net_r": -24.458132857624,
+        "note": "Incomplete coverage: no full total/PF/CI claim"
+      },
+      "STRESS_2x": {
+        "unknown_always": [
+          "2026-03-16",
+          "2026-04-03"
+        ],
+        "unknown_summeroff": [
+          "2026-03-16",
+          "2026-04-03"
+        ],
+        "complete_always": false,
+        "complete_summeroff": false,
+        "resolved_closed_always_net_r": -41.197617079025626,
+        "resolved_closed_summeroff_net_r": -28.14753580579007,
+        "note": "Incomplete coverage: no full total/PF/CI claim"
+      }
+    },
+    "all_21months": {
+      "OBSERVED_1x": {
+        "unknown_always": [
+          "2026-03-16",
+          "2026-04-03"
+        ],
+        "unknown_summeroff": [
+          "2026-03-16",
+          "2026-04-03"
+        ],
+        "complete_always": false,
+        "complete_summeroff": false,
+        "resolved_closed_always_net_r": -34.864198032296216,
+        "resolved_closed_summeroff_net_r": -11.868036258305752,
+        "note": "Incomplete coverage: no full total/PF/CI claim"
+      },
+      "STRESS_1.5x": {
+        "unknown_always": [
+          "2026-03-16",
+          "2026-04-03"
+        ],
+        "unknown_summeroff": [
+          "2026-03-16",
+          "2026-04-03"
+        ],
+        "complete_always": false,
+        "complete_summeroff": false,
+        "resolved_closed_always_net_r": -41.49205329345569,
+        "resolved_closed_summeroff_net_r": -17.530389533346412,
+        "note": "Incomplete coverage: no full total/PF/CI claim"
+      },
+      "STRESS_2x": {
+        "unknown_always": [
+          "2026-03-16",
+          "2026-04-03"
+        ],
+        "unknown_summeroff": [
+          "2026-03-16",
+          "2026-04-03"
+        ],
+        "complete_always": false,
+        "complete_summeroff": false,
+        "resolved_closed_always_net_r": -55.793376793389044,
+        "resolved_closed_summeroff_net_r": -30.92561148413069,
+        "note": "Incomplete coverage: no full total/PF/CI claim"
+      }
+    }
+  },
+  "checks": {
+    "complete": false,
+    "native": false,
+    "clock": true
+  },
+  "all_checks_pass": false,
+  "complete": false,
+  "live_approved": false,
+  "orders_sent": false
+}

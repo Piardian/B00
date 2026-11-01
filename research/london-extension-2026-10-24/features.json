@@ -1,0 +1,5618 @@
+[
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-12",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2894
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-13",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2790
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-14",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2531
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-17",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2580
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-18",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2024
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-19",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2976
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-20",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1869
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-21",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2199
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-24",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2474
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-25",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2285
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-26",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2476
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-27",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 3173
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-28",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2444
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-03-31",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 3288
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0055828680943253,
+    "volume": 2586
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8330578512396694,
+    "volume": 2124
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.7821233834822576,
+    "volume": 4459
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-04",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3251075574316098,
+    "volume": 3498
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.457716171617162,
+    "volume": 6649
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.380564705882353,
+    "volume": 4191
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.4166533226581266,
+    "volume": 7546
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.6017573696145124,
+    "volume": 5651
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-11",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.6642949057603513,
+    "volume": 6282
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1357763185765728,
+    "volume": 4596
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8970371249766803,
+    "volume": 3778
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7217788102547085,
+    "volume": 3107
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7093141082077775,
+    "volume": 3050
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-18",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1602006413946222,
+    "volume": 5039
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.517648187224247,
+    "volume": 2313
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8757445851998137,
+    "volume": 3896
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8405901178674576,
+    "volume": 3846
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6620220043504303,
+    "volume": 3000
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-25",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6427935943060499,
+    "volume": 2890
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7446481371969249,
+    "volume": 3148
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7856970864435348,
+    "volume": 3263
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-04-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5487290889173583,
+    "volume": 2111
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6724696436733639,
+    "volume": 2417
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7070220002583201,
+    "volume": 2346
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-05",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7373088408288843,
+    "volume": 2328
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-06",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8991907189970529,
+    "volume": 2746
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7952256268723611,
+    "volume": 2408
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0716869057028573,
+    "volume": 3196
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7640573318632856,
+    "volume": 2178
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-12",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.8550524224976743,
+    "volume": 8111
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-13",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.952577975811585,
+    "volume": 2993
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9422047061550946,
+    "volume": 2903
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8854500673823132,
+    "volume": 2722
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7053883834849545,
+    "volume": 2160
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-19",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9580249271763527,
+    "volume": 2866
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-20",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9057731710256719,
+    "volume": 2684
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1560701887869131,
+    "volume": 3473
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9082432620494504,
+    "volume": 2797
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7204866291747963,
+    "volume": 2242
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-26",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.754111180109938,
+    "volume": 2342
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-27",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.809611143354614,
+    "volume": 2491
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7743176236155521,
+    "volume": 2387
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9173770336961912,
+    "volume": 2775
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-05-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9238578680203046,
+    "volume": 2834
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-12",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1697
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-13",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2002
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-14",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2080
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-15",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1528
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-18",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1196
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-19",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1560
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-20",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1606
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-21",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1445
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-22",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1224
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-25",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1006
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-26",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2459
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-27",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1230
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-28",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1478
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-08-29",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1348
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8422160208609726,
+    "volume": 1315
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3506541882013317,
+    "volume": 2072
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.951222908061447,
+    "volume": 1464
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-04",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0360708996225694,
+    "volume": 1549
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-05",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8031691485299732,
+    "volume": 1202
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8563794255177021,
+    "volume": 1282
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8915860735009672,
+    "volume": 1317
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.9800892550635083,
+    "volume": 2884
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-11",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.330096197892808,
+    "volume": 2074
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-12",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.987037037037037,
+    "volume": 1599
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0196364886348988,
+    "volume": 1695
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0729041716646674,
+    "volume": 1725
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0047817770822467,
+    "volume": 1651
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-18",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3162186650558743,
+    "volume": 2179
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-19",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3966177940686437,
+    "volume": 2395
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8655133928571429,
+    "volume": 1551
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1790613424512557,
+    "volume": 2069
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0839822024471635,
+    "volume": 1949
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-25",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8376349131862975,
+    "volume": 1530
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-26",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0567567567567568,
+    "volume": 1955
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9246227373649945,
+    "volume": 1755
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-09-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7385879826737255,
+    "volume": 1425
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.5730275516593613,
+    "volume": 2871
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9935860943489316,
+    "volume": 1870
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5501126972201352,
+    "volume": 1046
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-06",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.2279850602595201,
+    "volume": 2278
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0593424822801991,
+    "volume": 2007
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8807291666666667,
+    "volume": 1691
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3431342831160957,
+    "volume": 2532
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0876399411964266,
+    "volume": 2061
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-13",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.272680202670217,
+    "volume": 2458
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0683243400904185,
+    "volume": 2093
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9378354852749167,
+    "volume": 1847
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.2901143820144143,
+    "volume": 2570
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.6291748526522594,
+    "volume": 3317
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-20",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7962482538415486,
+    "volume": 1710
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8302856578036967,
+    "volume": 1800
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8969945355191257,
+    "volume": 1876
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6381888957180906,
+    "volume": 1335
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7342011834319526,
+    "volume": 1551
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-27",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5483915696062119,
+    "volume": 1130
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6937184941546602,
+    "volume": 1386
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6153401286777995,
+    "volume": 1216
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.942011385199241,
+    "volume": 1773
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-10-31",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5935845291996009,
+    "volume": 1105
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-12",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 3114
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-13",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2557
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-14",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2767
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-17",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2266
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-18",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2010
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-19",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2707
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-20",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1533
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-21",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2310
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-24",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2227
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-25",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2730
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-26",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2625
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-27",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 3245
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-28",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2800
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-03-31",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2741
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0345195330040413,
+    "volume": 2633
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9124633723080424,
+    "volume": 2291
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.860111795900817,
+    "volume": 4635
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-04",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.2673251163170354,
+    "volume": 3327
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.6734542761940023,
+    "volume": 7221
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.4226147588611273,
+    "volume": 4372
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.2389348847616914,
+    "volume": 7147
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.5626987913486003,
+    "volume": 5615
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-11",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.6619597455651103,
+    "volume": 6364
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9615211443216847,
+    "volume": 3966
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.783289817232376,
+    "volume": 3300
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6472333506545754,
+    "volume": 2758
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5370965016055433,
+    "volume": 2270
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-18",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.692462482946794,
+    "volume": 7089
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5045405474058551,
+    "volume": 2270
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8251337325349302,
+    "volume": 3691
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8090589613432254,
+    "volume": 3700
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5955935964495166,
+    "volume": 2684
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-25",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6452191458356686,
+    "volume": 2878
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5664670246454633,
+    "volume": 2351
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6248239216874989,
+    "volume": 2503
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-04-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.43002391181788135,
+    "volume": 1580
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5815121086828116,
+    "volume": 1969
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6262875212164896,
+    "volume": 1924
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-05",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6626308980398857,
+    "volume": 1939
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-06",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7606928243195475,
+    "volume": 2152
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9347692307692308,
+    "volume": 2604
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0724055524482636,
+    "volume": 3013
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7238640875829598,
+    "volume": 1823
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-12",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.713854816006435,
+    "volume": 6748
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-13",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9416393788951094,
+    "volume": 2547
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9742612011439467,
+    "volume": 2555
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8586891160553217,
+    "volume": 2244
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8345015576323987,
+    "volume": 2143
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-19",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0485116383169202,
+    "volume": 2677
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-20",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8243777493178908,
+    "volume": 2115
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.358022659314734,
+    "volume": 3536
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.758916359810626,
+    "volume": 2061
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6853788295725555,
+    "volume": 1868
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-26",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8112692327889512,
+    "volume": 2207
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-27",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9657324139377573,
+    "volume": 2631
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8689478096835045,
+    "volume": 2369
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0812280140709947,
+    "volume": 2898
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-05-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.90095598331563,
+    "volume": 2484
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-12",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1807
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-13",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1673
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-14",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2399
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-15",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1155
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-18",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2613
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-19",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1854
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-20",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1998
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-21",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1555
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-22",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1528
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-25",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 968
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-26",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 3540
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-27",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1422
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-28",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1611
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-08-29",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1269
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0536389413988658,
+    "volume": 1911
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.545732663947286,
+    "volume": 2815
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9523237480291313,
+    "volume": 1812
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-04",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8802733100456797,
+    "volume": 1638
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-05",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.781940152257481,
+    "volume": 1482
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.5431248277762468,
+    "volume": 2800
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6880716535731906,
+    "volume": 1295
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.4777353193480465,
+    "volume": 2707
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-11",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9137249048436451,
+    "volume": 1749
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-12",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8233465339205744,
+    "volume": 1589
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9492040520984082,
+    "volume": 1874
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9615769615769616,
+    "volume": 1784
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.899453219927096,
+    "volume": 1692
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-18",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1378279138433585,
+    "volume": 2147
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-19",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.4823227697380472,
+    "volume": 2890
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.111126830303459,
+    "volume": 2244
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.273002923871061,
+    "volume": 2519
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9850756775783175,
+    "volume": 1999
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-25",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6841611344756874,
+    "volume": 1406
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-26",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9709008538072834,
+    "volume": 1990
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6968621122467277,
+    "volume": 1388
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-09-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7300736292801487,
+    "volume": 1459
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3607182940516274,
+    "volume": 2598
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.040139236375503,
+    "volume": 2049
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5547273440564927,
+    "volume": 1111
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-06",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.192330253702889,
+    "volume": 2323
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9175624662951645,
+    "volume": 1823
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.93129607099406,
+    "volume": 1859
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.313037819075855,
+    "volume": 2594
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.407060887362035,
+    "volume": 2750
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-13",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3589062724271566,
+    "volume": 2705
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3893205959934412,
+    "volume": 2784
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1005235965186033,
+    "volume": 2267
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0771043771043771,
+    "volume": 2285
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.6317386231038506,
+    "volume": 3496
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-20",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9842693829237144,
+    "volume": 2257
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9850764414455488,
+    "volume": 2315
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0150836961187075,
+    "volume": 2365
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6278617841744094,
+    "volume": 1477
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9245045045045046,
+    "volume": 2199
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-27",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6460694477935857,
+    "volume": 1531
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9076754652718648,
+    "volume": 2132
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7000633350423742,
+    "volume": 1658
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1740169454703455,
+    "volume": 2702
+  },
+  {
+    "symbol": "GBPUSD",
+    "date": "2025-10-31",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7767382587884252,
+    "volume": 1785
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-12",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 7126
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-13",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 6891
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-14",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 6576
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-17",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 4454
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-18",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2997
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-19",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 4358
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-20",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2998
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-21",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 3368
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-24",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 4857
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-25",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 3571
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-26",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 3777
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-27",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 5430
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-28",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 4121
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-03-31",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 5975
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9345403690281057,
+    "volume": 4439
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8580517770952172,
+    "volume": 3911
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.8075355076275645,
+    "volume": 7854
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-04",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.0315891160843664,
+    "volume": 9013
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 3.1899983500577482,
+    "volume": 15191
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.8563584951117762,
+    "volume": 10457
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.2739577693557123,
+    "volume": 13800
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.239421912200827,
+    "volume": 8478
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-11",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1423558102186886,
+    "volume": 8231
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1354654285933543,
+    "volume": 8455
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7393065278745006,
+    "volume": 5763
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7362983495023309,
+    "volume": 5844
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5672452748986838,
+    "volume": 4519
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-18",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.3390869293308318,
+    "volume": 2711
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.4586531205712918,
+    "volume": 3560
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8017850019018992,
+    "volume": 6173
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8277948913665731,
+    "volume": 6507
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.812294162020938,
+    "volume": 6307
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-25",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8754292614815654,
+    "volume": 6628
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5590918887851138,
+    "volume": 3891
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7282952006779139,
+    "volume": 4727
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-04-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.48935129716116094,
+    "volume": 2859
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9176501476862488,
+    "volume": 4993
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.791971153186997,
+    "volume": 4126
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-05",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7329757462686567,
+    "volume": 3592
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-06",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7179433147192077,
+    "volume": 3407
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7126875,
+    "volume": 3258
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9073144296211287,
+    "volume": 4066
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7221268761506537,
+    "volume": 3306
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-12",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.7410087719298244,
+    "volume": 12499
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-13",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9172248667445771,
+    "volume": 4597
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9018694327238631,
+    "volume": 4397
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0649926144756279,
+    "volume": 5047
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9230294140353587,
+    "volume": 4270
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-19",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0962483114331327,
+    "volume": 5101
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-20",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7773741567202905,
+    "volume": 3638
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.5535846267553584,
+    "volume": 7357
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0990227348858885,
+    "volume": 5390
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8947586700035753,
+    "volume": 4469
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-26",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9248043840569474,
+    "volume": 4677
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-27",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1563714063714063,
+    "volume": 5953
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.196142683269357,
+    "volume": 6388
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0513302805847786,
+    "volume": 5789
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-05-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9518423566078521,
+    "volume": 5410
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-12",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1736
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-13",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2156
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-14",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 3474
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-15",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2456
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-18",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2709
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-19",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1638
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-20",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2140
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-21",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1765
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-22",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1429
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-25",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2465
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-26",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 4212
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-27",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1342
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-28",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2486
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-08-29",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1619
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9552597464191989,
+    "volume": 2158
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9889856157758432,
+    "volume": 2264
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8167428553658612,
+    "volume": 1876
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-04",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.269020583134265,
+    "volume": 2770
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-05",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7518543711333527,
+    "volume": 1658
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.6031788612433773,
+    "volume": 3415
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.628247729358524,
+    "volume": 1418
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.318975289050102,
+    "volume": 2909
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-11",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8809843540176758,
+    "volume": 2015
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-12",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8247922225289048,
+    "volume": 1921
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9540591959579577,
+    "volume": 2185
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.2943800772406444,
+    "volume": 2777
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8118585364303644,
+    "volume": 1825
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-18",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.38455047062642,
+    "volume": 3047
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-19",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.6211303430733917,
+    "volume": 3733
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0040516960932186,
+    "volume": 2425
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9053393771707776,
+    "volume": 2197
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.813179763813967,
+    "volume": 1992
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-25",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8028164811886506,
+    "volume": 1922
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-26",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0070749829785974,
+    "volume": 2430
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8704110257348457,
+    "volume": 2039
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-09-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9267139479905436,
+    "volume": 2212
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.2442542787286062,
+    "volume": 2908
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.330735132240502,
+    "volume": 3195
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5999369392610427,
+    "volume": 1495
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-06",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.5041085475334093,
+    "volume": 3674
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8588932581067988,
+    "volume": 2153
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0675286545084974,
+    "volume": 2701
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.262857794503364,
+    "volume": 3164
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.1166140203436985,
+    "volume": 5217
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-13",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.5659401056328588,
+    "volume": 4172
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.4921831236950656,
+    "volume": 4186
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9284267386900743,
+    "volume": 2750
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.925808587100435,
+    "volume": 2797
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.9134613130815932,
+    "volume": 5831
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-20",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9535249165859434,
+    "volume": 3164
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.801780327799692,
+    "volume": 2715
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0559156182488245,
+    "volume": 3561
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8106347204707861,
+    "volume": 2755
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6191646191646192,
+    "volume": 2160
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-27",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7188437645268985,
+    "volume": 2430
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0475810348087304,
+    "volume": 3562
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6563222185539782,
+    "volume": 2272
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0732783990582695,
+    "volume": 3647
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-10-31",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8783096387113605,
+    "volume": 2886
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-12",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 3015
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-13",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 3502
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-14",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2891
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-17",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2457
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-18",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1549
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-19",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2739
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-20",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1063
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-21",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1690
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-24",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1597
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-25",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2244
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-26",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1651
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-27",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 3235
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-28",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1634
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-03-31",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1983
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8682239999999999,
+    "volume": 1938
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6314917310177973,
+    "volume": 1361
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.7285245433789955,
+    "volume": 3461
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-04",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.5252080274106705,
+    "volume": 3116
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 3.0912819110761767,
+    "volume": 6461
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.930003218915518,
+    "volume": 4711
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.9165859731636465,
+    "volume": 7530
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1775086830000938,
+    "volume": 3584
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-11",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.4576910978295061,
+    "volume": 4634
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7190963969459226,
+    "volume": 2442
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8046752267443078,
+    "volume": 2744
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5942990539378301,
+    "volume": 2073
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.4860295351569055,
+    "volume": 1655
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-18",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.196192313337387,
+    "volume": 4075
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.26180576478859097,
+    "volume": 931
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.491943089097544,
+    "volume": 1714
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5149091205145427,
+    "volume": 1807
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.557617372622533,
+    "volume": 1891
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-25",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6117357087261092,
+    "volume": 2021
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.48416722472017604,
+    "volume": 1446
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6297766363141101,
+    "volume": 1734
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-04-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5039846111569113,
+    "volume": 1179
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6440387530481777,
+    "volume": 1396
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6837833849786041,
+    "volume": 1324
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-05",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5494420931127357,
+    "volume": 1020
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-06",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6386713920712108,
+    "volume": 1107
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6903862660944207,
+    "volume": 1149
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0601035360182505,
+    "volume": 1726
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7101002690144289,
+    "volume": 1037
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-12",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 3.5097075568098877,
+    "volume": 5152
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-13",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8695652173913043,
+    "volume": 1490
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7463670158837445,
+    "volume": 1262
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.834179577311982,
+    "volume": 1373
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5376200044652825,
+    "volume": 860
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-19",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0726764179925719,
+    "volume": 1671
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-20",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7847880069897912,
+    "volume": 1219
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8649591480767466,
+    "volume": 1346
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9229849098270151,
+    "volume": 1433
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6511329823758297,
+    "volume": 1016
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-26",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6525342246234146,
+    "volume": 1018
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-27",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8270503861713865,
+    "volume": 1285
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0317068713450293,
+    "volume": 1613
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1733639494833525,
+    "volume": 1825
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-05-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6496476532376014,
+    "volume": 1047
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-12",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 729
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-13",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1081
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-14",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1342
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-15",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 800
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-18",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1875
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-19",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 793
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-20",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 955
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-21",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 883
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-22",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 781
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-25",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1004
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-26",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2353
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-27",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 596
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-28",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1258
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-08-29",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 856
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3729256500718674,
+    "volume": 1501
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9447692499067049,
+    "volume": 1085
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7251585623678647,
+    "volume": 833
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-04",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5933346176073974,
+    "volume": 660
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-05",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8445538780535217,
+    "volume": 931
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.1904893367382154,
+    "volume": 2267
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6946062770155985,
+    "volume": 792
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.5798734177215188,
+    "volume": 1783
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-11",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7888622754491018,
+    "volume": 941
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-12",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5571767497034401,
+    "volume": 671
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6353240152477764,
+    "volume": 750
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7823639774859287,
+    "volume": 834
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8873499538319483,
+    "volume": 961
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-18",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.241305079044736,
+    "volume": 1318
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-19",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1892738304952046,
+    "volume": 1302
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1595716552088842,
+    "volume": 1253
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0351725941422594,
+    "volume": 1131
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7954341413364114,
+    "volume": 886
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-25",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.020353982300885,
+    "volume": 1153
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-26",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1554668993891035,
+    "volume": 1324
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8409828465461289,
+    "volume": 907
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-09-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6386223215459444,
+    "volume": 694
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1338761061946903,
+    "volume": 1144
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9839475153545505,
+    "volume": 1007
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5642389525368249,
+    "volume": 591
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-06",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9700103412616339,
+    "volume": 1005
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.2611065685472882,
+    "volume": 1322
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.877967679723349,
+    "volume": 943
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.6461601418633203,
+    "volume": 1724
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.232166534075842,
+    "volume": 2405
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-13",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3908598176890858,
+    "volume": 1613
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.464648881445149,
+    "volume": 1749
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9603549286161197,
+    "volume": 1206
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.164681864579789,
+    "volume": 1467
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.745963885920009,
+    "volume": 2217
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-20",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8449730182846964,
+    "volume": 1152
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8151445382450754,
+    "volume": 1138
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8024975689646349,
+    "volume": 1120
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6190718501933645,
+    "volume": 869
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9609633718013045,
+    "volume": 1368
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-27",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6954122111072784,
+    "volume": 1008
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6951298863806997,
+    "volume": 992
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.2512482524465747,
+    "volume": 1790
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1572608738927044,
+    "volume": 1661
+  },
+  {
+    "symbol": "USDCAD",
+    "date": "2025-10-31",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5889405684754522,
+    "volume": 814
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-12",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1514
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-13",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1268
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-14",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1361
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-17",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1195
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-18",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1306
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-19",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1525
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-20",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1441
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-21",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1553
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-24",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1575
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-25",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1409
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-26",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1306
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-27",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2310
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-28",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1211
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-03-31",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1829
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9603422583281258,
+    "volume": 1427
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0022205058891678,
+    "volume": 1483
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.8781233576991063,
+    "volume": 4303
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-04",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.979223390441084,
+    "volume": 3375
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.9431543392315667,
+    "volume": 5477
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.4461355214399154,
+    "volume": 3122
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.584771063134408,
+    "volume": 5875
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.6948282995448902,
+    "volume": 4389
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-11",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.8838095725358779,
+    "volume": 5260
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.4600243126987096,
+    "volume": 4461
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.813520118704722,
+    "volume": 2663
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6758927625304653,
+    "volume": 2278
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7122770555425955,
+    "volume": 2399
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-18",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.4150514056391055,
+    "volume": 8339
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.33308417348817704,
+    "volume": 1305
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.768696669042007,
+    "volume": 3005
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8360029155037243,
+    "volume": 3359
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.48652069358309075,
+    "volume": 1922
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-25",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6189698072566568,
+    "volume": 2381
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6034910752984751,
+    "volume": 2188
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6594813744380219,
+    "volume": 2347
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-04-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6326248487990324,
+    "volume": 2092
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7544262369599309,
+    "volume": 2371
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7965458525906105,
+    "volume": 2339
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-05",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9185390376526111,
+    "volume": 2558
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-06",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.717948717948718,
+    "volume": 1994
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6049897665742636,
+    "volume": 1668
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9915495933241788,
+    "volume": 2682
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7436589984787806,
+    "volume": 1711
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-12",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 3.4810068369255296,
+    "volume": 8110
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-13",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9389746036795503,
+    "volume": 2530
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0033339657929687,
+    "volume": 2644
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9204306792502991,
+    "volume": 2473
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8268491261569471,
+    "volume": 2227
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-19",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9491336830392624,
+    "volume": 2559
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-20",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8029400916802782,
+    "volume": 2177
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9299476907709697,
+    "volume": 2527
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8096023456111416,
+    "volume": 2209
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6126769812708502,
+    "volume": 1666
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-26",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.609678026736961,
+    "volume": 1619
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-27",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9042443345470355,
+    "volume": 2377
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6904641305217136,
+    "volume": 1850
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9282695820496741,
+    "volume": 2432
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-05-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8254010695187165,
+    "volume": 2205
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-12",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 971
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-13",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1394
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-14",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1582
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-15",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1179
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-18",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1294
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-19",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1805
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-20",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1405
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-21",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1266
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-22",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1021
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-25",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1681
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-26",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2804
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-27",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 912
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-28",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 996
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-08-29",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 982
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.4063860667634251,
+    "volume": 1938
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7974727281701959,
+    "volume": 1154
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.66996353464209,
+    "volume": 958
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-04",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.888579530806909,
+    "volume": 1231
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-05",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7976551653211291,
+    "volume": 1108
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.8462177457037539,
+    "volume": 2540
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1580316063212643,
+    "volume": 1654
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.4605087675969375,
+    "volume": 2112
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-11",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.2193826750746763,
+    "volume": 1837
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-12",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6659058748345278,
+    "volume": 1042
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6497084822268197,
+    "volume": 987
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9954243997737905,
+    "volume": 1383
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7624736472241743,
+    "volume": 1085
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-18",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0557193543551047,
+    "volume": 1509
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-19",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0668029993183368,
+    "volume": 1565
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8213240763699479,
+    "volume": 1183
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8624343864514212,
+    "volume": 1244
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7724609375,
+    "volume": 1130
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-25",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9947494970312577,
+    "volume": 1448
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-26",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3196582846662483,
+    "volume": 1953
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6133518776077886,
+    "volume": 882
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-09-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0196280991735538,
+    "volume": 1410
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1870511308821952,
+    "volume": 1582
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1563332065424117,
+    "volume": 1520
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8490016418621895,
+    "volume": 1145
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-06",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0978517779295132,
+    "volume": 1493
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7201420439709646,
+    "volume": 985
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0061420547010342,
+    "volume": 1369
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1757364218097204,
+    "volume": 1588
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3140714134798226,
+    "volume": 1777
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-13",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.1524121683908635,
+    "volume": 3002
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.7476978011651947,
+    "volume": 2657
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9371794309762833,
+    "volume": 1527
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0477064220183485,
+    "volume": 1713
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.021810154525386,
+    "volume": 3271
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-20",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0187307799832261,
+    "volume": 1822
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8300656162822679,
+    "volume": 1509
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7739774607928126,
+    "volume": 1403
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6046474803056094,
+    "volume": 1091
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5926131630102749,
+    "volume": 1067
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-27",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7801945038537589,
+    "volume": 1381
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.701195535607896,
+    "volume": 1261
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6947225657186167,
+    "volume": 1244
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8793528816986855,
+    "volume": 1553
+  },
+  {
+    "symbol": "USDCHF",
+    "date": "2025-10-31",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.4879800824456144,
+    "volume": 854
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-12",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1361
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-13",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1821
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-14",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1322
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-17",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1306
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-18",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1041
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-19",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1653
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-20",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1520
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-21",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1171
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-24",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 750
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-25",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1172
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-26",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1032
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-27",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1945
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-28",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1504
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-03-31",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1326
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9728387233143099,
+    "volume": 1315
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8624854327788961,
+    "volume": 1163
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.5679473106476403,
+    "volume": 3342
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-04",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 2.324802371541502,
+    "volume": 3361
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 4.126844583987441,
+    "volume": 6572
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.8625745705455328,
+    "volume": 3702
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 3.251748953974895,
+    "volume": 6939
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.7485124950416502,
+    "volume": 4408
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-11",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.7658508733227791,
+    "volume": 4860
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7912572406838488,
+    "volume": 2410
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6926775906470065,
+    "volume": 2171
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.4950908525478698,
+    "volume": 1592
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.699921638867122,
+    "volume": 2233
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-18",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.6086707494382517,
+    "volume": 5216
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6280740199659118,
+    "volume": 2211
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6687524910322837,
+    "volume": 2397
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.569377990430622,
+    "volume": 2091
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5498076271355382,
+    "volume": 1970
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-25",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6805954236037071,
+    "volume": 2371
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7560521415270018,
+    "volume": 2407
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.5858674554025326,
+    "volume": 1811
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.44993184439551226,
+    "volume": 1226
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6938740490762455,
+    "volume": 1733
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7000219856151261,
+    "volume": 1592
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-05",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.62099867831469,
+    "volume": 1376
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-06",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8119499768411301,
+    "volume": 1753
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7629578438147893,
+    "volume": 1656
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1952364978195238,
+    "volume": 2545
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.697446479236523,
+    "volume": 1352
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-12",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 3.181963470319635,
+    "volume": 5973
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-13",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.772307073954984,
+    "volume": 1647
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7401740786073712,
+    "volume": 1555
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7778046004759113,
+    "volume": 1611
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6445443921096434,
+    "volume": 1300
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-19",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9009952082565426,
+    "volume": 1746
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-20",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6910770367633474,
+    "volume": 1336
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9242318307267708,
+    "volume": 1794
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8450580114554267,
+    "volume": 1644
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.579742011140428,
+    "volume": 1130
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-26",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8428370682641816,
+    "volume": 1628
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-27",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7713341011256827,
+    "volume": 1483
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6663924618606043,
+    "volume": 1273
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.093200376884422,
+    "volume": 1989
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.879390248573289,
+    "volume": 1640
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-12",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 943
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-13",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1108
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-14",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2064
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-15",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1116
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-18",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 585
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-19",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 707
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-20",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1013
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-21",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 796
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-22",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1098
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-25",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1250
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-26",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 2255
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-27",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 922
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-28",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 874
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-08-29",
+    "warmup": true,
+    "status": "READY",
+    "rvol": null,
+    "volume": 1342
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7891495053816959,
+    "volume": 906
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.385507607882265,
+    "volume": 1587
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0104753254617016,
+    "volume": 1192
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-04",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9835709262929105,
+    "volume": 1099
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-05",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6970433892230897,
+    "volume": 778
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.4230988052342122,
+    "volume": 1608
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8205741626794258,
+    "volume": 980
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.4279379157427938,
+    "volume": 1702
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-11",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.2079804467686013,
+    "volume": 1518
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-12",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6085604840948204,
+    "volume": 783
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7763592841673316,
+    "volume": 973
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0467289719626167,
+    "volume": 1216
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7584249305471675,
+    "volume": 897
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-18",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.6067788432543273,
+    "volume": 1903
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-19",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.8318749270796875,
+    "volume": 2243
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7394339520536826,
+    "volume": 976
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0326841280501455,
+    "volume": 1318
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0402356341002557,
+    "volume": 1337
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-25",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1157305835892937,
+    "volume": 1453
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-26",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1677156608663457,
+    "volume": 1577
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7112735749099386,
+    "volume": 959
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6378149032086979,
+    "volume": 859
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-01",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9428159005107706,
+    "volume": 1213
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-02",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7289772406392953,
+    "volume": 922
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-03",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7562478986887817,
+    "volume": 964
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-06",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.1584907775971294,
+    "volume": 1476
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-07",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.817704591921313,
+    "volume": 1057
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-08",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3488524949334502,
+    "volume": 1759
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-09",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.5597637056257938,
+    "volume": 2018
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-10",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.2358005366726297,
+    "volume": 1579
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-13",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.3014980260667353,
+    "volume": 1719
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-14",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.6644082151175101,
+    "volume": 2246
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-15",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7763244280591889,
+    "volume": 1098
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-16",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7724982001439885,
+    "volume": 1073
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-17",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.2941611234294161,
+    "volume": 1751
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-20",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.684605249822641,
+    "volume": 965
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-21",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 1.0175403225806452,
+    "volume": 1442
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-22",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.7373561213812347,
+    "volume": 1057
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-23",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.44901999604038806,
+    "volume": 648
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-24",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6905671761866452,
+    "volume": 981
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-27",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.6720981797555818,
+    "volume": 931
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-28",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.8436186225151814,
+    "volume": 1161
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-29",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9936257967754031,
+    "volume": 1325
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-30",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.9151090342679128,
+    "volume": 1175
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-31",
+    "warmup": false,
+    "status": "READY",
+    "rvol": 0.679603915319827,
+    "volume": 853
+  }
+]

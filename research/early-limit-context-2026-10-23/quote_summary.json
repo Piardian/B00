@@ -1,0 +1,13 @@
+{
+  "decisions": 33,
+  "priced": 32,
+  "unpriced": 1,
+  "unpriced_reasons": {
+    "STALE_DECISION_QUOTE": 1
+  },
+  "spread_pips_median": 0.0,
+  "spread_pips_p95": 0.2450000000006058,
+  "zero_spread_decisions": 19,
+  "median_assumed_cost_budget_r": 0.06333333333333209,
+  "caveat": "Actual decision quote snapshots only; grouped PNL remains prior assumed-spread lifecycle replay, not realized broker net profit."
+}

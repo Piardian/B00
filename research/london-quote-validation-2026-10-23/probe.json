@@ -1,0 +1,21 @@
+{
+  "probed_utc": "2026-10-23T20:54:47.440751+00:00",
+  "free_disk_gb": 4.276149749755859,
+  "terminal_path": "C:/Program Files/Five Percent Online MetaTrader 5/terminal64.exe",
+  "broker_server": "FivePercentOnline-Real",
+  "symbol_spec": {
+    "digits": 5,
+    "point": 1e-05,
+    "trade_tick_size": 1e-05,
+    "trade_contract_size": 100000.0,
+    "currency_profit": "USD"
+  },
+  "last_error": "(1, 'Success')",
+  "status": "RAW_BID_ASK_AVAILABLE",
+  "rows": 10624,
+  "valid_quote_rows": 10624,
+  "raw_sha256": "78a6b281ba8c2ccb7da71619aa5c575b19be1f76c7ed5de67b9c036a2b013321",
+  "first_native": "2025-02-03 10:00:00.006000+00:00",
+  "last_native": "2025-02-03 10:29:59.785000+00:00",
+  "median_spread_price": 0.0
+}

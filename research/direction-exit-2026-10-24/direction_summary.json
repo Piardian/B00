@@ -1,0 +1,82 @@
+[
+  {
+    "source": "ALL",
+    "measured": 58,
+    "positive": 26,
+    "negative": 32,
+    "zero": 0,
+    "original_mean_score_r": 0.07510908500872118,
+    "reversed_mean_score_r": -0.07510908500872118,
+    "original_median_score_r": -0.13613445378152067,
+    "original_mean_day95": [
+      -0.32674649804961664,
+      0.4806657748883113
+    ],
+    "monthly": {
+      "2025-01": {
+        "n": 23,
+        "original_mean_score_r": 0.522526087591628
+      },
+      "2025-02": {
+        "n": 12,
+        "original_mean_score_r": 0.3803179090716731
+      },
+      "2025-03": {
+        "n": 13,
+        "original_mean_score_r": -0.2933561188506776
+      },
+      "2025-11": {
+        "n": 10,
+        "original_mean_score_r": -0.8411958447902886
+      }
+    }
+  },
+  {
+    "source": "DISCOVERY",
+    "measured": 33,
+    "positive": 14,
+    "negative": 19,
+    "zero": 0,
+    "original_mean_score_r": 0.10927701717286536,
+    "reversed_mean_score_r": -0.10927701717286536,
+    "original_median_score_r": -0.12941176470594382,
+    "original_mean_day95": [
+      -0.41966190042377133,
+      0.6785979558773522
+    ],
+    "monthly": {
+      "2025-01": {
+        "n": 23,
+        "original_mean_score_r": 0.522526087591628
+      },
+      "2025-11": {
+        "n": 10,
+        "original_mean_score_r": -0.8411958447902886
+      }
+    }
+  },
+  {
+    "source": "RECHECK",
+    "measured": 25,
+    "positive": 12,
+    "negative": 13,
+    "zero": 0,
+    "original_mean_score_r": 0.030007414552050866,
+    "reversed_mean_score_r": -0.030007414552050866,
+    "original_median_score_r": -0.14285714285709755,
+    "original_mean_day95": [
+      -0.5601301179310807,
+      0.5886146061864475
+    ],
+    "monthly": {
+      "2025-02": {
+        "n": 12,
+        "original_mean_score_r": 0.3803179090716731
+      },
+      "2025-03": {
+        "n": 13,
+        "original_mean_score_r": -0.2933561188506776
+      }
+    }
+  }
+]

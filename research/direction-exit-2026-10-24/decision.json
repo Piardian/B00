@@ -1,0 +1,25 @@
+{
+  "status": "NO_EXIT_CANDIDATE_CONFIRMED",
+  "rules": {
+    "never": {
+      "survives_screen": false,
+      "checks": {
+        "improves_recheck_0.5pip": true,
+        "positive_both_months_0.5pip": false,
+        "improves_recheck_1.5pip": false,
+        "positive_both_months_1.5pip": false
+      }
+    },
+    "half_r_adverse": {
+      "survives_screen": false,
+      "checks": {
+        "improves_recheck_0.5pip": true,
+        "positive_both_months_0.5pip": false,
+        "improves_recheck_1.5pip": false,
+        "positive_both_months_1.5pip": false
+      }
+    }
+  },
+  "live_promotion": false,
+  "direction": "No demonstrated directional advantage on fixed60minute diagnostic; not a statement about every horizon or executable reverse strategy."
+}

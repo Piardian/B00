@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE_RESEARCH_WITH_KNOWN_COVERAGE_LIMITS",
+  "orders_sent": false,
+  "live_approved": false,
+  "hashes": {
+    "closure_classification_v2.json": "ea1f8883f1365d004c3d7afa4aa635b99ff27233bc85a34ff99c3bc0eb0bbccf",
+    "features_v2.json": "85befba445bcee264167982f916f68c8b37a6cb68ce7fd3ec8f190dde9f4257c",
+    "outcomes_v2.json": "87808a4b814e36f22a259ddaee110ec3246d42e7803fa0779ed819afc7ae18c7",
+    "results_v2.json": "202c2ae779d732153edd0fb02be8e90529789dab41ef4105a2f91135b54f5a99",
+    "SONUC_v2.md": "de095e39dcc47da00c4785ec45c9444025551d3e442fe84272d40ff0b0767830",
+    "study.py": "82dc97896c62517a03d7a365a5910ce1c75272add9f5e938adabc4057ff61ffc",
+    "protocol_frozen.json": "834ab2c19b7ed2f4aed25edf7f8ffc84a49de03cb7d3fd32679599509a5df0d3"
+  }
+}

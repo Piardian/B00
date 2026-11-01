@@ -1,0 +1,40 @@
+{
+  "frozen_utc": "2026-10-23T20:57:29.267506+00:00",
+  "declaration": {
+    "provider": "Only The5ers FivePercentOnline-Real via explicit installed terminal; no alternate provider",
+    "months": [
+      "2025-02",
+      "2025-03"
+    ],
+    "symbols": [
+      "EURUSD",
+      "GBPUSD",
+      "USDJPY",
+      "USDCAD",
+      "USDCHF",
+      "NZDUSD"
+    ],
+    "hypotheses": [
+      "CLASSIC_RVOL_GE1(primary)",
+      "CLASSIC_ALL(control)"
+    ],
+    "fixed_rules": "London08:00-08:15bidrange;openingcandle direction;firstbidbreak before12London;onepairday;oppositebidband structuralstop;fullTP2R;EODfirstquote>=16Londonwithin5seconds;no TP1,BE,HTF,Asiafilter or thresholdsearch",
+    "rvol": "First15minutequote-eventcount / meanprevious14availableopeningquote-eventcounts,allfromsameThe5erssource;volumeproxy,notcentralizedFXvolume",
+    "execution": "longbuysobservedask,exitbid;shortsellsbid,exitask;chronologicaltickorder;stopfillobservedworsequote;initialshortriskincludesentryobservedspread;brokerclockUS-DST UTC+2/3 as prior independentvalidation",
+    "costs": "Observedbidask1x;0.1pipassumedslippageeachside;$4roundtrip/100kunitscommissionassumption,notverifiedhistoricalaccountcharges;stress1.5/2xobservedspread,fee,slippage;additional1pipspreadfloorstresspredeclaredafterrawprobehighzerospread",
+    "quality": "NoPnLforcrossed/invalidquotes,missingopening/EOD,>60sectapegap;fullmonthreportrequiresallrequiredfilesorblockedstatus;no omittedmissingdataasflatprofit",
+    "inference": "Different historical periods,notprospective;previousresearchmayhaveusedmarketregimes;allmodelscostsmonthsdisclosed,not guaranteeduntouchedglobalholdout;no portfolioaccountclaim",
+    "promotion": "No live promotion; candidate only if primarybothmonthspositive,1.5/2xand1pipfloorpositive,>=100fills,and5observeddaybootstraplower>0;gateisresearchcriterion,notproof",
+    "files": {
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\quote_engine.py": "d1b5819c790be9247b2050c4c465812ca413a2917ca9eece179e3671c35d02a3",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\collect_mt5.py": "ff9284333a9e48bb5c3d1500cf14663f605197f85375f35918899c07131e1bbd",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\test_quotes.py": "a2b9f044dfca6b0d200954d024b1d10239faab846acd3baefc5d799623fe901a",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\run_validation.py": "c81e2e80f3bbd53d9919a07ac5a21510981fbd81b8cbd52fe6f6e6c6b2fa406e",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\protocol.py": "64105832eeadb87a13dda8720f7d950faa850bf4e2fe61186e5d383906a76c60",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\broker_timezone_validation.json": "cb386a6850fd76b2eaaa45dd997833e834a99c2ea0855e64a1efb41bf847596d",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-classic-orb-2026-10-23\\classic.py": "44786210d26655627d5529508e3e1a2153ed2d4a8f2539004276ab86a634d6d3"
+    },
+    "read_only_market_access": true,
+    "live_orders_authorized": false
+  }
+}

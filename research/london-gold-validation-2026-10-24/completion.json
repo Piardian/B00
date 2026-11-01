@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE",
+  "verdict": "EDGE_NOT_VALIDATED_SEPARATE_PERIOD_FAILED",
+  "expected_businessdays": 44,
+  "closed_trades": 38,
+  "orders_sent": false,
+  "production_changed": false,
+  "hashes": {
+    "protocol_frozen.json": "7b0dff251c7a360722799babdc87e5d0c0d7e5ed78a21e002492f0736cf41aca",
+    "native_frozen.json": "836bc142984c1f2cbb8c03c997f0348af0a3b5f65195b93ae020c56f9efbfe43",
+    "quote_manifest.json": "ad79aac2bd275b6462d3203c684b06dee4a87eebcea99c129ed4cd276219a9d9",
+    "outcomes.json": "1ed5a7866fd63b45015b1e927c61c97f69776bf12fc805b51ed56c194ad62a60",
+    "outcomes.csv": "0f01de100c0b630074de5419bd0c4c2b5c4dcb569c6596713a27458d2bd55cb5",
+    "results.json": "0525a2ff83b7f8fe299c22fdcb5150fa0c26474e6adeda85a5650a06412620bf",
+    "native_qa.json": "25fdf7b6903db39d9d3fbe19d49320dd5b131cd4fd20586bf533cc8a0ce2d5f5",
+    "integrity_check.json": "3d6b9d46742d0a8649fde4c4e98a89ac7605420dee58875c8edd0ce06ad32076",
+    "postrun_checks.json": "b785179db42187f55d0a66240c49ef0f2f0f8c7d47fcc3fa7743a821c3b300b2",
+    "SONUC.md": "4d1433d07e4e9800f7f21c441598df15a6e72b20141190efdab60663c91fa402",
+    "report.py": "6c5a5b9ecf4d3119c7e24eabc69f4d48d4bcc1b5434a993ac3600b46b1a3eb00"
+  }
+}

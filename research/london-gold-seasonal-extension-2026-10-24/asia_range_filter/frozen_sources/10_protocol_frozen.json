@@ -1,0 +1,17 @@
+{
+  "frozen_utc": "2026-10-24T09:03:24.575309+00:00",
+  "hypothesis": "One same-day first-entry gate: projected roundtrip entryspread+2slippage+commission divided by same initial risk<=0.05. Reject first candidate no second attempt. No summer filter.",
+  "info": "Only timestamp/direction/entry/risk/commission derived from entry geometry; raw entryspread only. Actual future exitspread unknown, so entryspread is roundtrip proxy. Entry fee fixed same frozen policy. Does not use future PnL or exit to select.",
+  "study_status": "Frozen before new2025SepDec/2026 outcomes calculated here. FirstJanAug outcomes already known. Exploratory3-hypothesis research family, not pristine OOS/prospective.",
+  "comparisons": "Same groups/costs as seasonalextension, gate on its own vs unfilteredORB. No threshold tuning, no merging seasonal filter. Full calendar disabled opportunities zero; unknown entry/tape remains unknown.",
+  "stats": "10k circular5day seed173 daily total/delta;98.333333percent two-sided Bonferroni interval for family3. Newperiods positive stress net and paired delta, complete coverage and adequate sample required; passing only motivates independent validation.",
+  "live_approved": false,
+  "hashes": {
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\cost_gate.py": "74f255a300af4b6b333cce4c94f230fb5de5a864be163d4cdba34171546c4872",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\COZUM_PLANI.md": "0f6c755fdc4af2611d4c3a697f80f9df9aeccae8a9506b0b297611794d2301de",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\protocol_frozen.json": "9f9e5af2e5950b6fc21f1356e0f8e758c3ada3775a408bb014ac6834cc649425",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\study.py": "b075408a8057aa516012f917f2a9094367476ca3b7188832c372f20c5df502db",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\validate.py": "0d676034df62630cb67b9c7f684d59d01cdca37c5df50998577263a508ac5167",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\study.py": "110d3b0b0295edc7e0e40596f5356d7c48823053e869062218e74c891e94b6b9"
+  }
+}

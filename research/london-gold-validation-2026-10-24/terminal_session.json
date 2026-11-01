@@ -1,0 +1,7 @@
+{
+  "read_only_task": true,
+  "trade_allowed": true,
+  "tradeapi_disabled": false,
+  "settings_changed": false,
+  "orders_sent": false
+}

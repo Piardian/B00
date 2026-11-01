@@ -1,0 +1,13 @@
+{
+  "test_executed": true,
+  "reason": null,
+  "orders_sent": false,
+  "reserve_evaluated": false,
+  "terminal_status": "existing_connected_session_used_read_only",
+  "observer_status": "previous observer was not resumed by this task",
+  "tests_passed": 9,
+  "free_bytes": 2474090496,
+  "status": "DEVELOPMENT_COMPLETE",
+  "continued_utc": "2026-10-24T08:33:35.947835+00:00",
+  "completed_utc": "2026-10-24T08:41:56.877684+00:00"
+}

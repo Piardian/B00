@@ -1,0 +1,6 @@
+{
+  "source_hashes_reverified": true,
+  "baseline_row_parity": true,
+  "days": 456,
+  "strategy_engine": "unchanged; exact frozen outcomes copied only on Asia-eligible days"
+}

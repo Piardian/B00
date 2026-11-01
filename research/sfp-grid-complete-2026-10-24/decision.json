@@ -1,0 +1,41 @@
+{
+  "status": "EDGE_NOT_ESTABLISHED",
+  "live_approved": false,
+  "demo_started": false,
+  "full_strategy_profit_calculated": false,
+  "scope": "All57 fixed setups, refreshed brokerquotes, paired nominal/aligned fixed60min marks. Costs assumptions; no stop/TP exits, macro/news/sharedrisk or brokerorderreceipt.",
+  "gates": {
+    "DEVELOPMENT": {
+      "STRESS_1_5X": {
+        "at_least30fills": false,
+        "at_least15days": true,
+        "no_unresolved": false,
+        "positive_mean": false,
+        "positive_day95_lower": false
+      },
+      "STRESS_FLOOR": {
+        "at_least30fills": false,
+        "at_least15days": true,
+        "no_unresolved": false,
+        "positive_mean": false,
+        "positive_day95_lower": false
+      }
+    },
+    "VALIDATION": {
+      "STRESS_1_5X": {
+        "at_least30fills": false,
+        "at_least15days": false,
+        "no_unresolved": false,
+        "positive_mean": false,
+        "positive_day95_lower": false
+      },
+      "STRESS_FLOOR": {
+        "at_least30fills": false,
+        "at_least15days": false,
+        "no_unresolved": false,
+        "positive_mean": false,
+        "positive_day95_lower": false
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "server": "FivePercentOnline-Real",
+  "connected": true,
+  "automated_trading_allowed": true,
+  "external_python_trading_disabled": false,
+  "purpose": "historical_data_only",
+  "new_orders_sent": false
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "spread_pips": 0.5,
+    "removed": 10,
+    "missed_winners": 2,
+    "avoided_losers": 8,
+    "missed_profit_r": 1.2553278688524578,
+    "avoided_loss_r": 2.954597335530999
+  },
+  {
+    "spread_pips": 1.5,
+    "removed": 11,
+    "missed_winners": 5,
+    "avoided_losers": 6,
+    "missed_profit_r": 4.4620429595628295,
+    "avoided_loss_r": 3.4097887437509327
+  }
+]

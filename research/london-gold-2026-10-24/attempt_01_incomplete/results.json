@@ -1,0 +1,106 @@
+{
+  "complete_coverage": false,
+  "results": {
+    "OBSERVED_1x": {
+      "fills": 112,
+      "net_r": 16.59518646841288,
+      "price_net_r_before_commission": 18.375020755110885,
+      "commission_r": 1.7798342866980075,
+      "pf": 1.2390551636330218,
+      "win_pct": 40.17857142857143,
+      "mean_net_r": 0.14817130775368642,
+      "by_month": {
+        "2025-01": 2.923516931449126,
+        "2025-02": -5.6962040275113495,
+        "2025-03": 6.342083886613326,
+        "2025-04": -2.508922946391778,
+        "2025-05": 13.865695737870613,
+        "2025-06": 1.6690168863829402
+      },
+      "block_total_ci95": [
+        -14.681709844663171,
+        48.05333988666345
+      ],
+      "without_best5": 6.648092210155063,
+      "statuses": {
+        "CLOSED": 112,
+        "NO_ENTRY_BEFORE_NOON": 14,
+        "CONFIRMED_HOLIDAY_CLOSED": 2,
+        "MISSING_BROKER_QUOTES": 1
+      }
+    },
+    "STRESS_1.5x": {
+      "fills": 112,
+      "net_r": 15.393389903487062,
+      "price_net_r_before_commission": 17.96453784731831,
+      "commission_r": 2.571147943831253,
+      "pf": 1.2194986751806558,
+      "win_pct": 40.17857142857143,
+      "mean_net_r": 0.1374409812811345,
+      "by_month": {
+        "2025-01": 2.6195404743579687,
+        "2025-02": -5.953243003918802,
+        "2025-03": 6.0661049837954035,
+        "2025-04": -2.600774552284833,
+        "2025-05": 13.71776773727684,
+        "2025-06": 1.5439942642604856
+      },
+      "block_total_ci95": [
+        -15.892111576640632,
+        46.9681007937964
+      ],
+      "without_best5": 5.4716832030646625,
+      "statuses": {
+        "CLOSED": 112,
+        "NO_ENTRY_BEFORE_NOON": 14,
+        "CONFIRMED_HOLIDAY_CLOSED": 2,
+        "MISSING_BROKER_QUOTES": 1
+      }
+    },
+    "STRESS_2x": {
+      "fills": 112,
+      "net_r": 6.134181761541419,
+      "price_net_r_before_commission": 9.441667921122113,
+      "commission_r": 3.3074861595806944,
+      "pf": 1.08394523336136,
+      "win_pct": 37.5,
+      "mean_net_r": 0.054769480013762674,
+      "by_month": {
+        "2025-01": -0.6485333651910061,
+        "2025-02": -6.190768686480756,
+        "2025-03": 0.6675813100570618,
+        "2025-04": -2.694360934492259,
+        "2025-05": 13.576579577569984,
+        "2025-06": 1.4236838600783936
+      },
+      "block_total_ci95": [
+        -23.595430089752544,
+        36.295300973628066
+      ],
+      "without_best5": -3.7602493639636236,
+      "statuses": {
+        "CLOSED": 112,
+        "NO_ENTRY_BEFORE_NOON": 14,
+        "CONFIRMED_HOLIDAY_CLOSED": 2,
+        "MISSING_BROKER_QUOTES": 1
+      }
+    }
+  },
+  "gate": {
+    "passed": false,
+    "checks": {
+      "complete_coverage": false,
+      "clock_qa": true,
+      "native_price_qa": true,
+      "at_least_100_fills": true,
+      "positive_1_5x": true,
+      "positive_2x": true,
+      "stressed_ci_lower_positive": false,
+      "four_positive_months": true,
+      "both_quarters_positive": true
+    }
+  },
+  "commission_2025_verified": false,
+  "reserve_evaluated": false,
+  "live_approved": false
+}

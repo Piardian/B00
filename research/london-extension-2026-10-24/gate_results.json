@@ -1,0 +1,30 @@
+{
+  "extension": {
+    "passed": false,
+    "checks": {
+      "complete_coverage": true,
+      "clock_qa": true,
+      "native_qa": true,
+      "frozen_source_integrity": true,
+      "at_least_100_primary_fills": true,
+      "positive_1_5x": false,
+      "positive_2x": false,
+      "positive_min_1pip": false,
+      "observed_block_ci_lower_positive": false
+    }
+  },
+  "combined": {
+    "passed": false,
+    "checks": {
+      "complete_coverage": true,
+      "clock_qa": true,
+      "native_qa": true,
+      "frozen_source_integrity": true,
+      "at_least_100_primary_fills": true,
+      "positive_1_5x": false,
+      "positive_2x": false,
+      "positive_min_1pip": false,
+      "observed_block_ci_lower_positive": false
+    }
+  }
+}

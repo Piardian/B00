@@ -1,0 +1,12 @@
+{
+  "status": "TTL15_NOT_CONFIRMED",
+  "gates": {
+    "improves_followup_total_0.5pip": true,
+    "every_followup_month_positive_0.5pip": false,
+    "improves_followup_total_1.5pip": false,
+    "every_followup_month_positive_1.5pip": false,
+    "followup_no_unresolved": true
+  },
+  "live_promotion": false,
+  "caveat": "Both stages retrospective; same setup-only assumed-cost model. Do not equate smaller loss with positive edge."
+}

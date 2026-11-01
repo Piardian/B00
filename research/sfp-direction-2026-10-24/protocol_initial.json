@@ -1,0 +1,90 @@
+{
+  "created_utc": "2026-10-24 09:32:37.858452+00:00",
+  "symbols": [
+    "EURUSD",
+    "GBPUSD",
+    "XAUUSD"
+  ],
+  "months": [
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11"
+  ],
+  "development": [
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06"
+  ],
+  "validation": [
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11"
+  ],
+  "effective_config": {
+    "ENTRY_MODEL": "MIDPOINT",
+    "LIMIT_EXPIRY_BARS": 16,
+    "REQUIRE_PRO_TREND_AAA": true,
+    "REQUIRE_STRUCTURAL_BREAKER": true,
+    "USE_IFVG_ENTRY": true,
+    "SFP_RR_TARGET_1": 1.2,
+    "SFP_RR_TARGET_2": 2.0,
+    "ACTIVE_SYMBOLS": [
+      "EUR/USD",
+      "GBP/USD",
+      "XAU/USD"
+    ]
+  },
+  "scope": "Original frozen SFP detector and signal validation ONLY. ORB branch stopped. No macro/news/risk/occupancy/cooldown or original exit replay. Every distinct validated signal is measured, possibly overlapping. Not an actual strategy backtest, not dollar account return.",
+  "history": "Only completed bid M15, last300; original session and market-open predicates at availability. Original higher_timeframe_trend on completed last1000 H1. Gold H1 reconstructed from existing native M15 for missing native hours; parity with overlapping native H1 must be reported. Strict availability timestamps; never use future pivot bars.",
+  "primary": "Signed BID close change from signal close to exactly60min later, divided by ORIGINAL entry-stop distance. Four contiguous futureM15 required. Diagnostic of direction at signal; not executable entry, ignores SL/TP, not tradePnL. No horizon optimization.",
+  "quote_secondary": "Where existing quote tapes cover exact signal availability through four-hour expiry plus60min: first original limit penetration one brokerpoint, nominal entry, exit at first quote>=fill+60min within5s, actual bid forlong/ask forshort. Ignore stop/TP only to isolate conditional postfill direction. This can cross stops; MUST NOT call this strategy PnL. Missing coverage is unresolved, never a nofill or zero result.",
+  "quote_costs": "FX: assumed commission4USD/100k roundtrip and0.2pip exit slip. Gold: RT USD/ounce=max(.08,2*entry*.001/100), .05USD/ounce exit slip; inherited conservative fee envelope, not historical receipts. Stress1.5x observed spread/fees/slip; no favorable fill improvement. Additional spread floor .5pipFX/.30USDgold. Entry/exits rerun under stress. No paid API or new price downloads.",
+  "assessment": "Both fixed temporal periods reported without tuning; all prices previously inspected elsewhere, NOT pristine OOS. Day-cluster bootstrap10000 seed20261024. Entry follow-up requires >=30resolved quote fills across>=15days IN EACH PERIOD, no unresolved candidates, positive stressed mean and95CI lower>0 eachperiod. Diagnostic gate only, never live approval. Incomplete quote coverage or thin sample -> INCONCLUSIVE, not failed system or proven edge.",
+  "improvements": "Only stage-by-stage rejection counts, costs/originalrisk, fill delay and signed paths may motivate a NEW predeclared experiment. Never silently relax IFVG/breaker/trend or replace entry in this run.",
+  "source_hashes": {
+    "data\\full_2025_study\\prices_utc\\EURUSD_15m.csv.gz": "80f2c5b2b133681bb3ee567a44538496f6fa1208686689fa9787b58e4a89d2b8",
+    "research\\fill-delay-2026-10-24\\followup_prices\\EURUSD_15m.parquet": "a7a8b47747ef0d8aaf050cabed9f82ebd060460dc044ea77e0e51bccab8acef0",
+    "data\\full_2025_study\\prices_utc\\EURUSD_1h.csv.gz": "340383461fca806055acb903d3401a4a0005033b5281b91bec8cafb73b3afad0",
+    "research\\fill-delay-2026-10-24\\followup_prices\\EURUSD_1h.parquet": "ca2884b923f6a0ce6e283e0954acd24aa960b5b7642f9b6573e64786b70cb988",
+    "data\\full_2025_study\\prices_utc\\GBPUSD_15m.csv.gz": "6cec42d96184a5228f5eb34e272c9d4c30ca5b76a6f4e1de9c0bcbbe6d9dd4ef",
+    "research\\fill-delay-2026-10-24\\followup_prices\\GBPUSD_15m.parquet": "5e3388ae44689a4934a54ab2485fb5437e42dc6396a0dda976ef16541def0def",
+    "data\\full_2025_study\\prices_utc\\GBPUSD_1h.csv.gz": "de38aa0c2ccdb7e691bbf611e6eccd4429429673fa9ed264599192aa6879fa34",
+    "research\\fill-delay-2026-10-24\\followup_prices\\GBPUSD_1h.parquet": "2adfed36f6dd28db5d5427436517349de0033d1662b0314ffda2d6bba6ca71b9",
+    "data\\full_2025_study\\prices_utc\\XAUUSD_15m.csv.gz": "11a9ad6e840ead862e1bfb02a70b5dfc201c7b1433acacc6841dcfbcc45ac555",
+    "data\\full_2025_study\\prices_utc\\XAUUSD_1h.csv.gz": "340160ceecb8b00c762f12ef28047cbab5ea3fad2664af1668928478ac08323f",
+    "research\\london-gold-seasonal-extension-2026-10-24\\gold_m15.parquet": "4fea15e5abf871eb425a5148644cd71b4b42430cbc6f86c5dc0fc39cbb933473",
+    "research\\sfp-direction-2026-10-24\\quote_manifest_0_frozen.json": "df2e1c157c373babc31de34a1f652fad510440485639d963b197175e2a9a6392",
+    "research\\sfp-direction-2026-10-24\\quote_manifest_1_frozen.json": "f1842f402bb517cfb58825567bc8fc7189697104682665be698dcff14ee99a76",
+    "research\\sfp-direction-2026-10-24\\quote_manifest_2_frozen.json": "77d0b9f21148bff76c0b648ed26741388f7c97b1d739ef5872eb0f8ac06783fb",
+    "research\\sfp-direction-2026-10-24\\quote_manifest_3_frozen.json": "41e5f69d18a0dbce8fffc90c21cfea357fe0a0d99c26943340c53833b75a7c38",
+    "research\\sfp-direction-2026-10-24\\quote_manifest_4_frozen.json": "ad79aac2bd275b6462d3203c684b06dee4a87eebcea99c129ed4cd276219a9d9"
+  },
+  "frozen_source_hashes": {
+    "frozen_engine\\config.py": "22b133cd8b06b3c3dccfe94b758c47797ff6fba990ee1dd4f5b6fa54d450f281",
+    "frozen_engine\\entry_mechanics.py": "a89813719b68e2be8da16a73432b296d03855e48d56bd7f99eba7b9ed5155ba5",
+    "frozen_engine\\execution_policy.py": "3437630f646863af6145e367d9d7bd0c97ca73388f1d49a302c25b98b91cf9e2",
+    "frozen_engine\\sfp_detector.py": "c1802651bc242ce28d217a3313e590bc3df1d1358e9fde7dfbc6a3feb738311f",
+    "frozen_engine\\strict_setup.py": "bab86a008c5b62988c86e5171117cd6e9e118720484527180b5fb089fa7aa8e6",
+    "frozen_engine\\volume_anomaly.py": "7fe0308d123bc92399dcf3fd1e6af8e3d0ec22cb214b70a557ef1ec0f9a66f50",
+    "frozen_engine\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "code_hashes": {
+    "normalize_clock.py": "d422c16480c903a54ad01107fb1054535b28114e8da9a10f7046a5e83ce5b44f",
+    "study.py": "49604d98bf6a53c9eca27a1239ee44ff94559627fcc8497c97c273a3c5781f73",
+    "test_study.py": "b41a04a3f2b52debdb295d63815636ab09ea0fc5c349ab9f809ac14814cf1707"
+  },
+  "previous_ORB_decision_sha256": "e13505b7b086a03c1048628457b33a85a605416a400877e52bf644866a276054"
+}

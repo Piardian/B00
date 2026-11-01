@@ -1,0 +1,14 @@
+{
+  "purpose": "Final artifact integrity; later quote adapter is not an input to frozen historical PNL",
+  "hashes": {
+    "cost_observer.py": "0f21904a2bdcd877852d7337434399f8002897f572af86932d7737f7d4cb6b30",
+    "execution.py": "7b24ce67c52cee0c6a8745767917d1dc2ab04a6a559ca9b158638d0e5fcce5b9",
+    "features.py": "a8352acfbb1d757f4a12477563bd7c344fe9c78fd710d7db0606556ebbc446d6",
+    "price_rules.py": "16a0956e7734284a81beba30c3a34380e00a9fd44efc50e090e2387863689221",
+    "quote_journal.py": "5cb1eacc744e4e96724aebe03f9817f2d1513a6dc501f3af1dbb84891dfec432",
+    "stop_control.py": "0498c15832310a0e865ceae65e44b830f4a3547b50dffd3312a5ac4ef7106c13",
+    "study.py": "13018d0bb2871b776819e469f39ecfaa5421236c7fb4f3442816355f0b66191b",
+    "test_features.py": "13d86b8a643f27145e80bb33504861801ed68d1ad01756ece729f862a8ec7d2e",
+    "test_quote_journal.py": "f9efedf0a89dc2c57dd461e25f9c73310886b48a0bd492445eaba4be31be929f"
+  }
+}

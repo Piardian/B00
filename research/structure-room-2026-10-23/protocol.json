@@ -1,0 +1,54 @@
+{
+  "frozen_at": "2026-10-23 20:51:45.522280+00:00",
+  "sample": "33 first-daily normalized opening setups imported unchanged from prior study; January/November 2025 only. No fresh scan or true OOS.",
+  "variants": [
+    "reference",
+    "reference_room",
+    "m1_structure",
+    "m1_structure_cost",
+    "m1_structure_cost_room"
+  ],
+  "spreads_pips": [
+    0.2,
+    0.5,
+    0.9,
+    1.5
+  ],
+  "primary_spread_pips": 0.5,
+  "cost_budget_cap_r": 0.2,
+  "costs": "Synthetic ask from bid M1; USD4/100k round trip; .2 pip exit slip and additional .2 pip adverse entry slip for market variant. Assumptions, not certified 2025 broker fees.",
+  "structural_entry": "Original-level penetration and reaction close; later M1 close beyond that reaction high/low; enter only next open at ask+.2pip LONG / bid-.2pip SHORT. Stop beyond reaction low LONG / ask-equivalent high SHORT by one tick. Earlier structural break cancels an unplaced order.",
+  "target": "New entry/stop risk; half TP1 >=1.2R and half TP2 >=2R outward tick rounding. Fill-bar reaction exits retained; same reference exit engine. No fill-bar targets. London16:30 flat.",
+  "room": "Nearest opposing strictly confirmed 2-left/2-right H1 pivot in last100 completed bars, five-bar pivot window must be continuous. TP1 must be at least one tick before pivot. Unknown room rejects only room variants.",
+  "cost": "At signal decision and executable entry open, diagnostic spread+slippage+commission divided by initial stop risk. Limit budget has exit .2pip; market budget has total .4pip. Budget is not subtracted again from replay PNL.",
+  "comparison": "Same first daily setup retained even when filter rejects it. No replacement setup. Separate incremental variants isolate room and cost. No symbol/month optimization.",
+  "selection_guard": "Pivot completion <= decision time; only next open used to choose market entry, never entry-bar high/low/close. Missing M1 unresolved, never profitable by default.",
+  "decision": "No live promotion. Positive aggregate alone insufficient: November and adverse spread must also be positive with resolved records; sparse samples and zero trades never establish edge.",
+  "limitations": [
+    "Setup-only; no macro/news/shared portfolio/SFP priority",
+    "R quote-risk normalized, not account return",
+    "Costs synthetic, no historical ask",
+    "Previously observed data; hypotheses informed by earlier research"
+  ],
+  "hashes": {
+    "research\\structure-room-2026-10-23\\cost_observer.py": "0f21904a2bdcd877852d7337434399f8002897f572af86932d7737f7d4cb6b30",
+    "research\\structure-room-2026-10-23\\execution.py": "7b24ce67c52cee0c6a8745767917d1dc2ab04a6a559ca9b158638d0e5fcce5b9",
+    "research\\structure-room-2026-10-23\\features.py": "a8352acfbb1d757f4a12477563bd7c344fe9c78fd710d7db0606556ebbc446d6",
+    "research\\structure-room-2026-10-23\\price_rules.py": "16a0956e7734284a81beba30c3a34380e00a9fd44efc50e090e2387863689221",
+    "research\\structure-room-2026-10-23\\study.py": "13018d0bb2871b776819e469f39ecfaa5421236c7fb4f3442816355f0b66191b",
+    "research\\structure-room-2026-10-23\\test_features.py": "13d86b8a643f27145e80bb33504861801ed68d1ad01756ece729f862a8ec7d2e",
+    "research\\structure-room-2026-10-23\\setups_frozen.json": "83c20eb63d0dbe6414b0a20307b2a65145a0ae13d8d78b744e6cbe857b415fc7",
+    "data\\full_2025_study\\prices_utc\\EURUSD_1m.csv.gz": "accd55f5f6d2d996489f6549040e4e78c88ca3a2c2528d941843fe02d6c7b30c",
+    "data\\full_2025_study\\prices_utc\\EURUSD_1h.csv.gz": "340383461fca806055acb903d3401a4a0005033b5281b91bec8cafb73b3afad0",
+    "data\\full_2025_study\\prices_utc\\GBPUSD_1m.csv.gz": "2ede9d4387615552fa24a32a42850b18d9b1a974bfdae47353c67f0835b89dc4",
+    "data\\full_2025_study\\prices_utc\\GBPUSD_1h.csv.gz": "de38aa0c2ccdb7e691bbf611e6eccd4429429673fa9ed264599192aa6879fa34",
+    "data\\full_2025_study\\prices_utc\\USDJPY_1m.csv.gz": "51991dab9c9b2292585b5c647ff40c09da6a51dd6629cac2ef607566b03ce28a",
+    "data\\full_2025_study\\prices_utc\\USDJPY_1h.csv.gz": "7a5ebbf59bb1a0cf5378a448025634fe748f1ed5f4105d8686c99b1e349dcbb1",
+    "data\\full_2025_study\\prices_utc\\USDCAD_1m.csv.gz": "8c8466a32c579ba0dde1dffe2c8c6bdee6b3dc10d1c5bf4f66094eeaf8b90047",
+    "data\\full_2025_study\\prices_utc\\USDCAD_1h.csv.gz": "2a093fe16f186629749345ec575bf0d2a9ed327451c28a76737a9063d3edcab5",
+    "data\\full_2025_study\\prices_utc\\USDCHF_1m.csv.gz": "5534a56aab48b500dbde1848f5ed074baa9e0ed7ab82db9de44fcf17983b0e71",
+    "data\\full_2025_study\\prices_utc\\USDCHF_1h.csv.gz": "bad29c73cd65bfe142ec1444393dc607b1784bf7e2b876c3ac8e8f02d1088e8d",
+    "data\\full_2025_study\\prices_utc\\NZDUSD_1m.csv.gz": "49a5ea1c75f7323646948998bc144105ed7834ea9c20381a1e36c921bdcd1e53",
+    "data\\full_2025_study\\prices_utc\\NZDUSD_1h.csv.gz": "2f2e5eab8db77387f67f43550f8beb9d82f6645af6041008d66527d6cea9ef88"
+  }
+}

@@ -4,7 +4,12 @@ title Begonya 00 - SFP + Hacim Anomalisi ve ORB Otonom Sistemi
 color 0b
 echo ======================================================================
 echo  BEGONYA 00 (CIFT SIFIR) OTONOM SISTEMI BASLATILIYOR...
-echo  Mimari: Macro Multi-AGI Army + SFP & Hacim Anomalisi + ORB Motoru
+echo  Mimari: Macro Multi-AGI Army + SFP ^& Hacim Anomalisi + ORB Motoru
 echo ======================================================================
 "C:\Users\piard\AppData\Local\Programs\Python\Python312\python.exe" orchestrator\start_begonya.py
-pause
+set "BEGONYA_EXIT_CODE=%ERRORLEVEL%"
+
+rem Zamanlanmis watchdog calismalarinda konsolu pause ile acik birakma.
+rem Dosya elle cift tiklanirsa hata/cikis mesaji gorulebilsin diye bekle.
+if /I not "%~1"=="--watchdog" pause
+exit /b %BEGONYA_EXIT_CODE%

@@ -1,0 +1,48 @@
+{
+  "completed_utc": "2026-10-24 11:38:27.393931+00:00",
+  "status": "COMPLETE",
+  "task": "Refresh missing broker quotes, rerun all57 paired price-grid cases, explain low signal count",
+  "actual_quote_symbol_days": 51,
+  "all_quote_clock_qa_passed": true,
+  "original_strict_records": 342,
+  "event_audit_records": 342,
+  "unique_candidates": 57,
+  "event_fills": 38,
+  "quote_proven_no_fills": 17,
+  "closed_session_expiry_assumptions": 2,
+  "event_unclassified": 0,
+  "strict5s_sensitivity_preserved": true,
+  "archived2025_session_calendar_verified": false,
+  "funnel_windows_verified": 18860,
+  "funnel_signals_matched": 57,
+  "old_resolved_scenarios_parity": "84/84",
+  "new_unit_tests_passed": 7,
+  "previous_artifacts_unchanged": true,
+  "full_lifecycle_backtest": false,
+  "full_strategy_net_profit_calculated": false,
+  "live_changed": false,
+  "paid_API_spend_USD": 0,
+  "aligned_cost1_5x_entry_diagnostics": {
+    "DEVELOPMENT": {
+      "fills": 26,
+      "days": 22,
+      "mean_conditional_markout_r": -0.12405429976090569,
+      "day95": [
+        -0.627306938703417,
+        0.4173864737880372
+      ],
+      "stop_crossed": 10
+    },
+    "VALIDATION": {
+      "fills": 12,
+      "days": 11,
+      "mean_conditional_markout_r": -0.22021434464261147,
+      "day95": [
+        -1.8538297461172026,
+        0.9984529973780131
+      ],
+      "stop_crossed": 9
+    }
+  },
+  "decision": "No demonstrated repeatable entry edge; no TP/SL or further parameter search on this variant. Diagnose confirmation latency before a distinct frozen experiment. Positive subsystem claims require new validation."
+}

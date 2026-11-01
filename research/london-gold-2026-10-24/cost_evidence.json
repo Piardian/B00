@@ -1,0 +1,111 @@
+{
+  "captured_utc": "2026-10-23T23:16:50.818107+00:00",
+  "server": "FivePercentOnline-Real",
+  "symbol_spec": {
+    "name": "XAUUSD",
+    "description": "Gold vs US Dollar",
+    "digits": 2,
+    "point": 0.01,
+    "trade_tick_size": 0.01,
+    "trade_tick_value": 1.0,
+    "trade_contract_size": 100.0,
+    "currency_profit": "USD",
+    "volume_min": 0.01,
+    "volume_max": 100.0,
+    "volume_step": 0.01,
+    "trade_calc_mode": 4,
+    "trade_stops_level": 10
+  },
+  "numeric_commission_exposed_in_symbol_info": false,
+  "existing_fill_fee_records": [
+    {
+      "month": "2026-10",
+      "entry": 0,
+      "commission_usd_per_lot": 4.0,
+      "other_fee": 0.0,
+      "per_side_0_001_percent_matches_cent_rounding": true,
+      "rate_percent_rounding_low": 0.0009403103145368336,
+      "rate_percent_rounding_high": 0.0010009754961198551
+    },
+    {
+      "month": "2026-10",
+      "entry": 1,
+      "commission_usd_per_lot": 4.0,
+      "other_fee": 0.0,
+      "per_side_0_001_percent_matches_cent_rounding": true,
+      "rate_percent_rounding_low": 0.0009060203238479047,
+      "rate_percent_rounding_high": 0.001026823033694292
+    },
+    {
+      "month": "2026-10",
+      "entry": 1,
+      "commission_usd_per_lot": 4.0,
+      "other_fee": 0.0,
+      "per_side_0_001_percent_matches_cent_rounding": true,
+      "rate_percent_rounding_low": 0.0009030312954525752,
+      "rate_percent_rounding_high": 0.0010234354681795852
+    },
+    {
+      "month": "2026-10",
+      "entry": 0,
+      "commission_usd_per_lot": 4.0,
+      "other_fee": 0.0,
+      "per_side_0_001_percent_matches_cent_rounding": true,
+      "rate_percent_rounding_low": 0.0009281364150690612,
+      "rate_percent_rounding_high": 0.0010088439294228928
+    },
+    {
+      "month": "2026-10",
+      "entry": 1,
+      "commission_usd_per_lot": 4.0,
+      "other_fee": 0.0,
+      "per_side_0_001_percent_matches_cent_rounding": true,
+      "rate_percent_rounding_low": 0.0009346402041579301,
+      "rate_percent_rounding_high": 0.0010159132653890545
+    },
+    {
+      "month": "2026-10",
+      "entry": 0,
+      "commission_usd_per_lot": 4.0,
+      "other_fee": 0.0,
+      "per_side_0_001_percent_matches_cent_rounding": true,
+      "rate_percent_rounding_low": 0.0008489334969753713,
+      "rate_percent_rounding_high": 0.00109148592468262
+    },
+    {
+      "month": "2026-10",
+      "entry": 0,
+      "commission_usd_per_lot": 4.0,
+      "other_fee": 0.0,
+      "per_side_0_001_percent_matches_cent_rounding": true,
+      "rate_percent_rounding_low": 0.0008489355560891722,
+      "rate_percent_rounding_high": 0.0010914885721146498
+    },
+    {
+      "month": "2026-10",
+      "entry": 1,
+      "commission_usd_per_lot": 4.0,
+      "other_fee": 0.0,
+      "per_side_0_001_percent_matches_cent_rounding": true,
+      "rate_percent_rounding_low": 0.0008462753006090764,
+      "rate_percent_rounding_high": 0.001088068243640241
+    },
+    {
+      "month": "2026-10",
+      "entry": 1,
+      "commission_usd_per_lot": 4.0,
+      "other_fee": 0.0,
+      "per_side_0_001_percent_matches_cent_rounding": true,
+      "rate_percent_rounding_low": 0.0008481127069092108,
+      "rate_percent_rounding_high": 0.0010904306231689853
+    }
+  ],
+  "fee_limitations": "Only2026Octoberobservations;numericpercentageunidentified;flat4USD/lot/sideand0.001percent/sidebothfitcents;not2025tariffproof",
+  "official_sources": [
+    "https://the5ers.com/faqs/what-are-the-spreads-and-commissions/",
+    "https://lp.the5ers.com/hub-assets-specifications/"
+  ],
+  "official_claim": "Goldcontract100ounces;percentagebasedcommission;publicnumericratenotgiven",
+  "script_sha256": "8cfaa20fb728cbf58742f47c4384979f19307d54f7f8c22ecbc387a2d0086bac",
+  "read_only": true
+}

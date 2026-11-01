@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-24 11:33:38.697773+00:00",
+  "reason": "After full broker archive retrieval, four case/model markouts fail strict5s solely because the first real quote arrives5.078..7.46seconds after the fixed60min timer. No markout price inspection used to choose this rule. Separate measurement repair, not a strategy change or untouchedOOS.",
+  "event_rule": "Exactly first real quote at/after fill+60min, accept only <=60s latency and original <=60s internal quote-gap guard. Both models/all57cases/allsame3cost scenarios rerun. No chosen later/better quote. Original5s outputs kept as strict primary sensitivity.",
+  "gold_closed_rule": "Report separately as CLOSED_SESSION_EXPIRY_ASSUMPTION if no original order touch before TTL, complete requested archive through expiry, quotes continuous to within5s of broker23:50local close, and no nativeM15 begins during closed tail before expiry. Current official session01:05-23:50, winterUTC+2/summer+3, corroborates historical tick/native close.2025 historical schedule itself not archived; not a certified nofill. Never invent a price/fill. Original unresolved sensitivity retained.",
+  "official_source": "https://the5ers.com/faqs/market-trading-hours/",
+  "official_last_update": "2026-06-10",
+  "scope": "Explanatory diagnostic extension of seen data. No original lifecyclePnL, no new entry or parameter optimization, no live change.",
+  "original_protocol_sha256": "792c81fc9968445a3e2c9414ddd0b4cf04094fd9641e596124ef4147f131ea24",
+  "original_outcomes_sha256": "6bb93d88f75d2ee405e3f1ae500191e954dde5f02423dc511adca392c1f4d23e",
+  "code_sha256": "1764b94a8e28ae8eb93b843eb769fea4cf906a91011bf5b85203ab2d42d86dae"
+}

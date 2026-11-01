@@ -1,0 +1,50 @@
+{
+  "frozen_utc": "2026-10-23T20:43:48.928405+00:00",
+  "declaration": {
+    "symbols": [
+      "EUR/USD",
+      "GBP/USD",
+      "USD/JPY",
+      "USD/CAD",
+      "USD/CHF",
+      "NZD/USD"
+    ],
+    "months": [
+      "2025-01",
+      "2025-06",
+      "2025-11"
+    ],
+    "hypotheses": [
+      "CLASSIC_ALL",
+      "CLASSIC_RVOL_GE1"
+    ],
+    "rules": "08:00-08:15Londonbidrange;breakONLYopeningcandledirection;onefirstbreakpairdaybefore12London;SLoppositerange;fullTP2R(noTP1);EOD16London;no retest,EMA,AsianrangeorHTFfilters",
+    "activity": "opening15minbroker_tickvolume/meanprevious14available08:00LondonM15volumes;threshold>=1predeclared;proxyNOTconsolidatedFXvolume;controlsameentrywithoutfilter",
+    "costs": "syntheticask=bid+1pip;0.1pipslippageeachside;$4roundtripper100kunitsconvertedtoquotecurrency;scaleby1/1.5/2;conservativebidtriggerforbothdirections;entrybarstopfirst/noTPcredit;gapstopworseopen;historicalbidaskunverified",
+    "inference": "all5newmechanicalvariantsincludingearlier3reported;notOOS;individualunitRopportunitiesnotsharedriskportfolio;63observedday5dayblockbootstrap10000seed173;no selectionadjustment",
+    "exclusions": "requirecompleteM1grid08:15-16London;missingdataexcludedexplicitly;no invented flat return;first14sameclockhistoricalM15volumesrequired",
+    "source_urls": [
+      "https://alexandria.unisg.ch/server/api/core/bitstreams/3c2989c4-688d-4d78-8a71-f02690990d51/content",
+      "https://the5ers.com/faqs/what-are-the-spreads-and-commissions/"
+    ],
+    "files": {
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-classic-orb-2026-10-23\\classic.py": "44786210d26655627d5529508e3e1a2153ed2d4a8f2539004276ab86a634d6d3",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-classic-orb-2026-10-23\\test_classic.py": "cb72509ca34d8e9b144fb31edf2212321740562bb18731090cf946fe5e33a03f"
+    },
+    "inputs": {
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\EURUSD_1m.csv.gz": "accd55f5f6d2d996489f6549040e4e78c88ca3a2c2528d941843fe02d6c7b30c",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\EURUSD_15m.csv.gz": "80f2c5b2b133681bb3ee567a44538496f6fa1208686689fa9787b58e4a89d2b8",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\GBPUSD_1m.csv.gz": "2ede9d4387615552fa24a32a42850b18d9b1a974bfdae47353c67f0835b89dc4",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\GBPUSD_15m.csv.gz": "6cec42d96184a5228f5eb34e272c9d4c30ca5b76a6f4e1de9c0bcbbe6d9dd4ef",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\USDJPY_1m.csv.gz": "51991dab9c9b2292585b5c647ff40c09da6a51dd6629cac2ef607566b03ce28a",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\USDJPY_15m.csv.gz": "d78624f9c1c0ae93340a5b3ed8bba57797fbb8062ad4b544dd43a2b45306b62e",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\USDCAD_1m.csv.gz": "8c8466a32c579ba0dde1dffe2c8c6bdee6b3dc10d1c5bf4f66094eeaf8b90047",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\USDCAD_15m.csv.gz": "68b13f3cf8d925baeaeed75d93620a6c311f8b6bf76e70820e5de6a8d144fec6",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\USDCHF_1m.csv.gz": "5534a56aab48b500dbde1848f5ed074baa9e0ed7ab82db9de44fcf17983b0e71",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\USDCHF_15m.csv.gz": "17c85639b790fb3668d55eb61e3fca7d22e0d83a31b2b3005b137fb671298718",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\NZDUSD_1m.csv.gz": "49a5ea1c75f7323646948998bc144105ed7834ea9c20381a1e36c921bdcd1e53",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\data\\full_2025_study\\prices_utc\\NZDUSD_15m.csv.gz": "94ba160598de9ba0e39ca1211c8e7a5365ba4adc5a1f8b7e636e33b4df0b1002"
+    },
+    "live_approved": false
+  }
+}

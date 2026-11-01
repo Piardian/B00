@@ -1,0 +1,52 @@
+{
+  "frozen_utc": "2026-10-23T23:01:15.631257+00:00",
+  "declaration": {
+    "task": "Describe price paths of all six-month existing classic ORB trades; no order calls, MT5 access, strategy changes or parameter optimization",
+    "scenarios": [
+      "OBSERVED_QUOTES_1x",
+      "COST_STRESS_1.5x"
+    ],
+    "primary": "RVOL>=1 at COST_STRESS_1.5x; all-volume control and observed1x shown separately",
+    "months": [
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-09",
+      "2025-10"
+    ],
+    "cohorts": "All first daily closed opportunities; filtered subset rvol>=1; never exclude losing months or symbols",
+    "path": "Executable liquidation netR at observed bid/ask widened by fixed factor, adverse0.1pip/side*factor, original fixed roundtripcommission; include entry-quote immediate liquidation; TP terminal capped at recorded fill; only up to actual terminal exit for MFE/MAE",
+    "thresholds": [
+      0.0,
+      0.25,
+      0.5,
+      1.0,
+      1.5
+    ],
+    "stop_time_minutes": [
+      5,
+      15,
+      30,
+      60
+    ],
+    "later_path": "After actualSL continue observing to first16:00Londonquote only as hindsight diagnostic; never count later target as recoverable profit or ignore intervening stop risk",
+    "return_inside": "Strict return within broken BID boundary after entry and before exit; any simple retest must avoid conditioning on future win/loss",
+    "categories": "TP2, SL without+0.5netR, SL after+0.5netR, EOD positive/negative; categories descriptive not causal or alternativeexit returns",
+    "parity": "Reconstruct chronological entry/exit indices, direction/risk/fills/fees and compare all original CLOSED fields; fail on any discrepancy; preserve same-millisecond order; inputs rehash before/after",
+    "next_step": "Do not auto-add BE/TP1 or assume retest profitable from MFE. If only a minority of losers first earn+0.5R, deprioritize profit-management rescue. Retest can be justified for separate experiment only when loser reversal/return differs descriptively from winners; previous negativeM1tests remain relevant. Any future strategy needs frozen causal rules and separate validation.",
+    "limitations": "Already-seen historical periods; no OOS, no fitted threshold, no causal claim, no account equity, no independent fill guarantee",
+    "hashes": {
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-path-audit-2026-10-24\\path_audit.py": "9212cb4834273a6a234d7f95e32e29affc7ad0a7195a08e802288d1ac0b82061",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-path-audit-2026-10-24\\test_path_audit.py": "1c1354451d1a3f2435ce256bac42c163b58dde45614c9c91a8fc477c29f6180e",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\quote_engine.py": "d1b5819c790be9247b2050c4c465812ca413a2917ca9eece179e3671c35d02a3",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\native_outcomes.json": "ac25ff8e54d601e5b2a1eef1b366c0df78e879d35f5efc5b66e7161b950cacb5",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\quote_manifest_frozen.json": "df2e1c157c373babc31de34a1f652fad510440485639d963b197175e2a9a6392",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-extension-2026-10-24\\outcomes.json": "87916eabbbcfe0f88fb92cd1639d0d03ac42d87f64b361e7d8db490df179f943",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-extension-2026-10-24\\quote_manifest_frozen.json": "f1842f402bb517cfb58825567bc8fc7189697104682665be698dcff14ee99a76",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-extension-2026-10-24\\protocol_frozen.json": "92490f5c9347f1ef19f9e4a0a6ec8467c24e88522634253556ac7507b82cd806",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\entry-innovation-2026-10-23\\REPORT.md": "c5d221ac58d494b6f7c469b0d6bde2937b590ddde9571061ab766f45d7c2bd90",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-edge-development-2026-10-23\\SONUC.md": "cdc93a1996a47d7297f31647722b2b23962e3971c3e751b79c587f8acda6e53a"
+    }
+  }
+}

@@ -30,6 +30,7 @@ from .config import (
     TELEMETRY_DIR,
     is_market_open,
     is_session_active_for_scan,
+    is_crypto,
     EXCLUDED_SFP_SYMBOLS,
     WEEKEND_ORB_ENABLED,
 )
@@ -125,6 +126,9 @@ class BegonyaEngine:
             "signal": signal_data,
         }
         self.signal_history[key] = record
+        if strategy.startswith('ORB'):
+            from .execution_policy import orb_daily_key
+            self.signal_history[orb_daily_key(symbol, datetime.now(timezone.utc))] = record
 
         candle_time = signal_data.get("candle_time") or signal_data.get("datetime") or signal_data.get("timestamp")
         if candle_time:
@@ -175,7 +179,8 @@ class BegonyaEngine:
                         break
             if self.outcome_tracker.has_active_trade(symbol):
                 return None
-            if (pd.Timestamp.now(tz="UTC") - micro.iloc[-1].datetime).total_seconds() > 180:
+            max_micro_age = 300 if is_crypto(symbol) else 1800
+            if (pd.Timestamp.now(tz="UTC") - micro.iloc[-1].datetime).total_seconds() > max_micro_age:
                 return None
         if not scanning:
             return None
@@ -252,6 +257,18 @@ class BegonyaEngine:
         if rejection:
             self._log_telemetry("ENTRY_POLICY_REJECTED", {"symbol": symbol, "reason": rejection})
             return
+
+        if strategy.startswith('ORB'):
+            from .execution_policy import orb_daily_attempt_used
+            now = datetime.now(timezone.utc)
+            deadline = candidate.get('entry_deadline_utc')
+            if deadline and now >= utc_time(deadline):
+                self._log_telemetry('ORB_ENTRY_WINDOW_CLOSED', {'symbol': symbol})
+                return
+            if orb_daily_attempt_used(symbol, now, self.signal_history,
+                    self.outcome_tracker.active_trades + self.outcome_tracker.closed_trades):
+                self._log_telemetry('ORB_DAILY_ATTEMPT_LIMIT', {'symbol': symbol})
+                return
 
         # 0. Mum Bayatlık Kontrolü (45 dakikadan eski tetikleyici mumlar elenir)
         candle_dt = candidate.get("candle_time") or candidate.get("datetime")

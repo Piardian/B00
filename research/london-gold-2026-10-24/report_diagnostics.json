@@ -1,0 +1,29 @@
+{
+  "OBSERVED_1x": {
+    "unit_r_max_drawdown": 11.599249876819922,
+    "mean_assumed_commission_usd_per_lot_roundtrip": 8.0,
+    "outcome_reasons": {
+      "TP2": 43,
+      "SL": 68,
+      "EOD": 2
+    }
+  },
+  "STRESS_1.5x": {
+    "unit_r_max_drawdown": 11.815610661383321,
+    "mean_assumed_commission_usd_per_lot_roundtrip": 12.0,
+    "outcome_reasons": {
+      "TP2": 43,
+      "SL": 68,
+      "EOD": 2
+    }
+  },
+  "STRESS_2x": {
+    "unit_r_max_drawdown": 14.043315529375272,
+    "mean_assumed_commission_usd_per_lot_roundtrip": 16.0,
+    "outcome_reasons": {
+      "TP2": 40,
+      "SL": 70,
+      "EOD": 3
+    }
+  }
+}

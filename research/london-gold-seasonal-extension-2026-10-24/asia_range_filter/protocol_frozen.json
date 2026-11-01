@@ -1,0 +1,32 @@
+{
+  "declaration": {
+    "frozen_utc": "2026-10-24T09:23:16.056657+00:00",
+    "hypothesis": "Only allow the unchanged gold London ORB when the completed native London 08:00-08:15 M15 BID close finishes strictly outside the 00:00-08:00 London Asia M15 BID range, above it for long or below it for short.",
+    "timing": "Asia half-open [00:00,08:00) London local; exactly32 consecutive M15 bars required, no missing bars or gaps. Decision uses completed native 08:00 M15 close, before any ORB entry search. Equality, opposite-side close or close within Asia range rejects day. No post-entry/current-day information.",
+    "unchanged": "Same original g.replay for all fills, quote-side, costs, virtual BID structural stop, full2R, one attempt, deadline12:00 and EOD16:00. No summer shutdown and no 0.05R cost gate. Filter rejects whole date and no second candidate.",
+    "scope": "Post-hoc exploratory hypothesis prompted by prior results; exact rule not previously evaluated in this project, dates were seen in other broad research. Not untouched OOS or prospective.2025 full and Sep-Dec separately, 2026 Jan-Sep partial, all21months only if complete.",
+    "comparison": "Paired same date differences Asia-policy minus classic. Rejected otherwise-closed classic entries count zero under Asia policy. Unknown quote/native/Asia coverage excluded from paired estimand and block interval and listed; never imputed. Original classic outcome stays in comparator.",
+    "costs": "Use all three frozen1x,1.5x,2x scenarios; 1.5x primary. Same hypothetical commission envelope and assumed 0.05/ounce/side slippage;2025 tariff not verified.",
+    "gates": "Do not select threshold or season. Report all periods, every scenario, trade counts, PF, paired delta, 95% circular5weekday bootstrap; separately disclose smallN. A positive point estimate with CI crossing0 or <100 trades is candidate only, not demonstrated edge. No live promotion.",
+    "frozen_source_hashes": {
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\asia_range_filter\\study.py": "82dc97896c62517a03d7a365a5910ce1c75272add9f5e938adabc4057ff61ffc",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\study.py": "b075408a8057aa516012f917f2a9094367476ca3b7188832c372f20c5df502db",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\protocol_frozen.json": "9f9e5af2e5950b6fc21f1356e0f8e758c3ada3775a408bb014ac6834cc649425",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\native_frozen.json": "0fe215b4e4faa96fe7c27ad705c1d0553d89cc4fd5001465360b682521ab55f1",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\quote_manifest.json": "77d0b9f21148bff76c0b648ed26741388f7c97b1d739ef5872eb0f8ac06783fb",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\quote_manifest_before_repack.json": "a8d86b1180db39c396e93da57d82ebcecf526d74a67fc38672a797ff551dc2c7",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\outcomes.json": "5126b8c017312e3803834f43a872c1c65626f71323d1432fc4775c111b2c2f9a",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\results.json": "d1de1b227dc3e6bdcee423563d1c423e901ae38a3b24aafd2ba61f34109a5c46",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\coverage_diagnostics.json": "dae4ebf9e49b496d409f33d8ca02ff546b95ae98993a4b86e63906218cb73052",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\cost_gate.py": "74f255a300af4b6b333cce4c94f230fb5de5a864be163d4cdba34171546c4872",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\cost_gate\\protocol_frozen.json": "788a21a1ad220c6f4a96066af652e3abe57330088ddefc18f93e701899a41584",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\cost_gate\\outcomes.json": "048f68df8c34cd3e479ff8d2d6a47bff3c411ddf160ecb2221bdfc63b5f0f75f",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\cost_gate\\results.json": "d14c66617032493ab7e659bb2c4545d019903d5514264b1d2fb3c051f03e6d28",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\COZUM_PLANI.md": "0f6c755fdc4af2611d4c3a697f80f9df9aeccae8a9506b0b297611794d2301de",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\SONUC.md": "88df8dad73dc27ec95c06cc1ff42aa4a705fb3a5cb61804b9f124ec7e1c5815b",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\scripts\\normalize_broker_history.py": "d422c16480c903a54ad01107fb1054535b28114e8da9a10f7046a5e83ce5b44f"
+    },
+    "live_approved": false,
+    "orders_sent": false
+  }
+}

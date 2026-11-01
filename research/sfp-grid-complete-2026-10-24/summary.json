@@ -1,0 +1,293 @@
+{
+  "groups": {
+    "DEVELOPMENT": {
+      "NOMINAL": {
+        "OBSERVED": {
+          "setups": 36,
+          "fills": 24,
+          "days": 22,
+          "no_fill": 9,
+          "unresolved": 3,
+          "reasons": {
+            "FILLED_MARKOUT": 24,
+            "NO_FILL": 9,
+            "UNRESOLVED_COVERAGE": 1,
+            "UNRESOLVED_MARKOUT": 2
+          },
+          "mean_conditional_markout_r": 0.034811182205449466,
+          "day95": [
+            -0.48995193112510615,
+            0.5509752858482976
+          ],
+          "stop_crossed": 8,
+          "marketable_first_quote": 0
+        },
+        "STRESS_1_5X": {
+          "setups": 36,
+          "fills": 25,
+          "days": 22,
+          "no_fill": 9,
+          "unresolved": 2,
+          "reasons": {
+            "FILLED_MARKOUT": 25,
+            "NO_FILL": 9,
+            "UNRESOLVED_COVERAGE": 1,
+            "UNRESOLVED_MARKOUT": 1
+          },
+          "mean_conditional_markout_r": -0.06915417806504992,
+          "day95": [
+            -0.6093861653559807,
+            0.4995338277959209
+          ],
+          "stop_crossed": 9,
+          "marketable_first_quote": 0
+        },
+        "STRESS_FLOOR": {
+          "setups": 36,
+          "fills": 25,
+          "days": 22,
+          "no_fill": 9,
+          "unresolved": 2,
+          "reasons": {
+            "FILLED_MARKOUT": 25,
+            "NO_FILL": 9,
+            "UNRESOLVED_COVERAGE": 1,
+            "UNRESOLVED_MARKOUT": 1
+          },
+          "mean_conditional_markout_r": -0.08493870541151799,
+          "day95": [
+            -0.6084854620214833,
+            0.4750870904367877
+          ],
+          "stop_crossed": 10,
+          "marketable_first_quote": 0
+        }
+      },
+      "ALIGNED": {
+        "OBSERVED": {
+          "setups": 36,
+          "fills": 24,
+          "days": 22,
+          "no_fill": 9,
+          "unresolved": 3,
+          "reasons": {
+            "FILLED_MARKOUT": 24,
+            "NO_FILL": 9,
+            "UNRESOLVED_COVERAGE": 1,
+            "UNRESOLVED_MARKOUT": 2
+          },
+          "mean_conditional_markout_r": 0.03431227717530305,
+          "day95": [
+            -0.48675181481226304,
+            0.5470035671473509
+          ],
+          "stop_crossed": 8,
+          "marketable_first_quote": 0
+        },
+        "STRESS_1_5X": {
+          "setups": 36,
+          "fills": 25,
+          "days": 22,
+          "no_fill": 9,
+          "unresolved": 2,
+          "reasons": {
+            "FILLED_MARKOUT": 25,
+            "NO_FILL": 9,
+            "UNRESOLVED_COVERAGE": 1,
+            "UNRESOLVED_MARKOUT": 1
+          },
+          "mean_conditional_markout_r": -0.0687633071943913,
+          "day95": [
+            -0.6057042721210902,
+            0.4969150315048812
+          ],
+          "stop_crossed": 9,
+          "marketable_first_quote": 0
+        },
+        "STRESS_FLOOR": {
+          "setups": 36,
+          "fills": 25,
+          "days": 22,
+          "no_fill": 9,
+          "unresolved": 2,
+          "reasons": {
+            "FILLED_MARKOUT": 25,
+            "NO_FILL": 9,
+            "UNRESOLVED_COVERAGE": 1,
+            "UNRESOLVED_MARKOUT": 1
+          },
+          "mean_conditional_markout_r": -0.08783279369622425,
+          "day95": [
+            -0.6103451820670149,
+            0.4711020046031205
+          ],
+          "stop_crossed": 10,
+          "marketable_first_quote": 0
+        }
+      }
+    },
+    "VALIDATION": {
+      "NOMINAL": {
+        "OBSERVED": {
+          "setups": 21,
+          "fills": 11,
+          "days": 10,
+          "no_fill": 8,
+          "unresolved": 2,
+          "reasons": {
+            "FILLED_MARKOUT": 11,
+            "NO_FILL": 8,
+            "UNRESOLVED_COVERAGE": 1,
+            "UNRESOLVED_MARKOUT": 1
+          },
+          "mean_conditional_markout_r": -0.28208829456666124,
+          "day95": [
+            -2.0863116866099416,
+            1.0635095515913762
+          ],
+          "stop_crossed": 8,
+          "marketable_first_quote": 0
+        },
+        "STRESS_1_5X": {
+          "setups": 21,
+          "fills": 11,
+          "days": 10,
+          "no_fill": 8,
+          "unresolved": 2,
+          "reasons": {
+            "FILLED_MARKOUT": 11,
+            "NO_FILL": 8,
+            "UNRESOLVED_COVERAGE": 1,
+            "UNRESOLVED_MARKOUT": 1
+          },
+          "mean_conditional_markout_r": -0.3102457096084435,
+          "day95": [
+            -2.1043498867118258,
+            1.0209065608444134
+          ],
+          "stop_crossed": 8,
+          "marketable_first_quote": 0
+        },
+        "STRESS_FLOOR": {
+          "setups": 21,
+          "fills": 11,
+          "days": 10,
+          "no_fill": 8,
+          "unresolved": 2,
+          "reasons": {
+            "FILLED_MARKOUT": 11,
+            "NO_FILL": 8,
+            "UNRESOLVED_COVERAGE": 1,
+            "UNRESOLVED_MARKOUT": 1
+          },
+          "mean_conditional_markout_r": -0.31325074547212073,
+          "day95": [
+            -2.078328627583374,
+            0.9949806957084074
+          ],
+          "stop_crossed": 9,
+          "marketable_first_quote": 0
+        }
+      },
+      "ALIGNED": {
+        "OBSERVED": {
+          "setups": 21,
+          "fills": 10,
+          "days": 9,
+          "no_fill": 8,
+          "unresolved": 3,
+          "reasons": {
+            "FILLED_MARKOUT": 10,
+            "NO_FILL": 8,
+            "UNRESOLVED_COVERAGE": 1,
+            "UNRESOLVED_MARKOUT": 2
+          },
+          "mean_conditional_markout_r": -0.5938330089758024,
+          "day95": [
+            -2.481049771137647,
+            0.7599073922782372
+          ],
+          "stop_crossed": 8,
+          "marketable_first_quote": 0
+        },
+        "STRESS_1_5X": {
+          "setups": 21,
+          "fills": 10,
+          "days": 9,
+          "no_fill": 8,
+          "unresolved": 3,
+          "reasons": {
+            "FILLED_MARKOUT": 10,
+            "NO_FILL": 8,
+            "UNRESOLVED_COVERAGE": 1,
+            "UNRESOLVED_MARKOUT": 2
+          },
+          "mean_conditional_markout_r": -0.6204369888519972,
+          "day95": [
+            -2.513968890142719,
+            0.7301275416284685
+          ],
+          "stop_crossed": 8,
+          "marketable_first_quote": 0
+        },
+        "STRESS_FLOOR": {
+          "setups": 21,
+          "fills": 10,
+          "days": 9,
+          "no_fill": 8,
+          "unresolved": 3,
+          "reasons": {
+            "FILLED_MARKOUT": 10,
+            "NO_FILL": 8,
+            "UNRESOLVED_COVERAGE": 1,
+            "UNRESOLVED_MARKOUT": 2
+          },
+          "mean_conditional_markout_r": -0.6130340279192069,
+          "day95": [
+            -2.493199300929015,
+            0.7154456789209999
+          ],
+          "stop_crossed": 9,
+          "marketable_first_quote": 0
+        }
+      }
+    }
+  },
+  "gates": {
+    "DEVELOPMENT": {
+      "STRESS_1_5X": {
+        "at_least30fills": false,
+        "at_least15days": true,
+        "no_unresolved": false,
+        "positive_mean": false,
+        "positive_day95_lower": false
+      },
+      "STRESS_FLOOR": {
+        "at_least30fills": false,
+        "at_least15days": true,
+        "no_unresolved": false,
+        "positive_mean": false,
+        "positive_day95_lower": false
+      }
+    },
+    "VALIDATION": {
+      "STRESS_1_5X": {
+        "at_least30fills": false,
+        "at_least15days": false,
+        "no_unresolved": false,
+        "positive_mean": false,
+        "positive_day95_lower": false
+      },
+      "STRESS_FLOOR": {
+        "at_least30fills": false,
+        "at_least15days": false,
+        "no_unresolved": false,
+        "positive_mean": false,
+        "positive_day95_lower": false
+      }
+    }
+  },
+  "old_resolved_parity_checked": 84,
+  "old_resolved_parity_matched": 84,
+  "full_lifecycle_backtest": false
+}

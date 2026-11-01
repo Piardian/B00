@@ -1,0 +1,730 @@
+{
+  "unique_window_stage_counts": {
+    "CALL": 18860,
+    "WICK_PASS": 9798,
+    "POOL_AVAILABLE": 9798,
+    "POOL_SESSION_PASS": 9692,
+    "SWEEP_RECLAIM": 694,
+    "EXTREME_HELD": 429,
+    "NO_EARLIER_TRIGGER_BREAK": 342,
+    "CURRENT_TRIGGER_BREAK": 70,
+    "BODY_DISPLACEMENT": 63,
+    "STRUCTURAL_CONFIRM": 57,
+    "CE_SOURCE_ACCEPTED": 57
+  },
+  "rows": [
+    {
+      "symbol": "EURUSD",
+      "month": "2025-01",
+      "calendar": {
+        "planned": 920,
+        "missing_bar": 40,
+        "htf_neutral_or_not_ready": 392
+      },
+      "stage_counts": {
+        "CALL": 488,
+        "WICK_PASS": 251,
+        "POOL_AVAILABLE": 251,
+        "POOL_SESSION_PASS": 251,
+        "SWEEP_RECLAIM": 21,
+        "EXTREME_HELD": 16,
+        "NO_EARLIER_TRIGGER_BREAK": 15,
+        "CURRENT_TRIGGER_BREAK": 1,
+        "BODY_DISPLACEMENT": 1,
+        "STRUCTURAL_CONFIRM": 0,
+        "CE_SOURCE_ACCEPTED": 0
+      }
+    },
+    {
+      "symbol": "EURUSD",
+      "month": "2025-02",
+      "calendar": {
+        "planned": 800,
+        "htf_neutral_or_not_ready": 276
+      },
+      "stage_counts": {
+        "CALL": 524,
+        "WICK_PASS": 296,
+        "POOL_AVAILABLE": 296,
+        "POOL_SESSION_PASS": 296,
+        "SWEEP_RECLAIM": 41,
+        "EXTREME_HELD": 22,
+        "NO_EARLIER_TRIGGER_BREAK": 19,
+        "CURRENT_TRIGGER_BREAK": 4,
+        "BODY_DISPLACEMENT": 3,
+        "STRUCTURAL_CONFIRM": 3,
+        "CE_SOURCE_ACCEPTED": 3
+      }
+    },
+    {
+      "symbol": "EURUSD",
+      "month": "2025-03",
+      "calendar": {
+        "planned": 840,
+        "htf_neutral_or_not_ready": 280
+      },
+      "stage_counts": {
+        "CALL": 560,
+        "WICK_PASS": 304,
+        "POOL_AVAILABLE": 304,
+        "POOL_SESSION_PASS": 304,
+        "SWEEP_RECLAIM": 28,
+        "EXTREME_HELD": 22,
+        "NO_EARLIER_TRIGGER_BREAK": 18,
+        "CURRENT_TRIGGER_BREAK": 2,
+        "BODY_DISPLACEMENT": 1,
+        "STRUCTURAL_CONFIRM": 1,
+        "CE_SOURCE_ACCEPTED": 1
+      }
+    },
+    {
+      "symbol": "EURUSD",
+      "month": "2025-04",
+      "calendar": {
+        "planned": 880,
+        "htf_neutral_or_not_ready": 132
+      },
+      "stage_counts": {
+        "CALL": 748,
+        "WICK_PASS": 384,
+        "POOL_AVAILABLE": 384,
+        "POOL_SESSION_PASS": 384,
+        "SWEEP_RECLAIM": 19,
+        "EXTREME_HELD": 13,
+        "NO_EARLIER_TRIGGER_BREAK": 10,
+        "CURRENT_TRIGGER_BREAK": 2,
+        "BODY_DISPLACEMENT": 2,
+        "STRUCTURAL_CONFIRM": 2,
+        "CE_SOURCE_ACCEPTED": 2
+      }
+    },
+    {
+      "symbol": "EURUSD",
+      "month": "2025-05",
+      "calendar": {
+        "planned": 880,
+        "htf_neutral_or_not_ready": 480
+      },
+      "stage_counts": {
+        "CALL": 400,
+        "WICK_PASS": 223,
+        "POOL_AVAILABLE": 223,
+        "POOL_SESSION_PASS": 223,
+        "SWEEP_RECLAIM": 6,
+        "EXTREME_HELD": 3,
+        "NO_EARLIER_TRIGGER_BREAK": 3,
+        "CURRENT_TRIGGER_BREAK": 0,
+        "BODY_DISPLACEMENT": 0,
+        "STRUCTURAL_CONFIRM": 0,
+        "CE_SOURCE_ACCEPTED": 0
+      }
+    },
+    {
+      "symbol": "EURUSD",
+      "month": "2025-06",
+      "calendar": {
+        "planned": 840,
+        "htf_neutral_or_not_ready": 56
+      },
+      "stage_counts": {
+        "CALL": 784,
+        "WICK_PASS": 398,
+        "POOL_AVAILABLE": 398,
+        "POOL_SESSION_PASS": 398,
+        "SWEEP_RECLAIM": 35,
+        "EXTREME_HELD": 24,
+        "NO_EARLIER_TRIGGER_BREAK": 20,
+        "CURRENT_TRIGGER_BREAK": 4,
+        "BODY_DISPLACEMENT": 4,
+        "STRUCTURAL_CONFIRM": 4,
+        "CE_SOURCE_ACCEPTED": 4
+      }
+    },
+    {
+      "symbol": "EURUSD",
+      "month": "2025-07",
+      "calendar": {
+        "planned": 920,
+        "htf_neutral_or_not_ready": 456
+      },
+      "stage_counts": {
+        "CALL": 464,
+        "WICK_PASS": 265,
+        "POOL_AVAILABLE": 265,
+        "POOL_SESSION_PASS": 265,
+        "SWEEP_RECLAIM": 32,
+        "EXTREME_HELD": 13,
+        "NO_EARLIER_TRIGGER_BREAK": 11,
+        "CURRENT_TRIGGER_BREAK": 2,
+        "BODY_DISPLACEMENT": 2,
+        "STRUCTURAL_CONFIRM": 2,
+        "CE_SOURCE_ACCEPTED": 2
+      }
+    },
+    {
+      "symbol": "EURUSD",
+      "month": "2025-08",
+      "calendar": {
+        "planned": 840,
+        "htf_neutral_or_not_ready": 432
+      },
+      "stage_counts": {
+        "CALL": 408,
+        "WICK_PASS": 210,
+        "POOL_AVAILABLE": 210,
+        "POOL_SESSION_PASS": 210,
+        "SWEEP_RECLAIM": 3,
+        "EXTREME_HELD": 3,
+        "NO_EARLIER_TRIGGER_BREAK": 3,
+        "CURRENT_TRIGGER_BREAK": 0,
+        "BODY_DISPLACEMENT": 0,
+        "STRUCTURAL_CONFIRM": 0,
+        "CE_SOURCE_ACCEPTED": 0
+      }
+    },
+    {
+      "symbol": "EURUSD",
+      "month": "2025-09",
+      "calendar": {
+        "planned": 880,
+        "htf_neutral_or_not_ready": 348
+      },
+      "stage_counts": {
+        "CALL": 532,
+        "WICK_PASS": 276,
+        "POOL_AVAILABLE": 276,
+        "POOL_SESSION_PASS": 276,
+        "SWEEP_RECLAIM": 16,
+        "EXTREME_HELD": 9,
+        "NO_EARLIER_TRIGGER_BREAK": 8,
+        "CURRENT_TRIGGER_BREAK": 1,
+        "BODY_DISPLACEMENT": 0,
+        "STRUCTURAL_CONFIRM": 0,
+        "CE_SOURCE_ACCEPTED": 0
+      }
+    },
+    {
+      "symbol": "EURUSD",
+      "month": "2025-10",
+      "calendar": {
+        "planned": 920,
+        "htf_neutral_or_not_ready": 384
+      },
+      "stage_counts": {
+        "CALL": 536,
+        "WICK_PASS": 261,
+        "POOL_AVAILABLE": 261,
+        "POOL_SESSION_PASS": 261,
+        "SWEEP_RECLAIM": 15,
+        "EXTREME_HELD": 4,
+        "NO_EARLIER_TRIGGER_BREAK": 2,
+        "CURRENT_TRIGGER_BREAK": 1,
+        "BODY_DISPLACEMENT": 1,
+        "STRUCTURAL_CONFIRM": 0,
+        "CE_SOURCE_ACCEPTED": 0
+      }
+    },
+    {
+      "symbol": "EURUSD",
+      "month": "2025-11",
+      "calendar": {
+        "planned": 800,
+        "htf_neutral_or_not_ready": 400
+      },
+      "stage_counts": {
+        "CALL": 400,
+        "WICK_PASS": 193,
+        "POOL_AVAILABLE": 193,
+        "POOL_SESSION_PASS": 193,
+        "SWEEP_RECLAIM": 20,
+        "EXTREME_HELD": 10,
+        "NO_EARLIER_TRIGGER_BREAK": 6,
+        "CURRENT_TRIGGER_BREAK": 3,
+        "BODY_DISPLACEMENT": 2,
+        "STRUCTURAL_CONFIRM": 1,
+        "CE_SOURCE_ACCEPTED": 1
+      }
+    },
+    {
+      "symbol": "GBPUSD",
+      "month": "2025-01",
+      "calendar": {
+        "planned": 920,
+        "missing_bar": 40,
+        "htf_neutral_or_not_ready": 384
+      },
+      "stage_counts": {
+        "CALL": 496,
+        "WICK_PASS": 208,
+        "POOL_AVAILABLE": 208,
+        "POOL_SESSION_PASS": 208,
+        "SWEEP_RECLAIM": 11,
+        "EXTREME_HELD": 7,
+        "NO_EARLIER_TRIGGER_BREAK": 7,
+        "CURRENT_TRIGGER_BREAK": 1,
+        "BODY_DISPLACEMENT": 1,
+        "STRUCTURAL_CONFIRM": 1,
+        "CE_SOURCE_ACCEPTED": 1
+      }
+    },
+    {
+      "symbol": "GBPUSD",
+      "month": "2025-02",
+      "calendar": {
+        "planned": 800,
+        "htf_neutral_or_not_ready": 256
+      },
+      "stage_counts": {
+        "CALL": 544,
+        "WICK_PASS": 282,
+        "POOL_AVAILABLE": 282,
+        "POOL_SESSION_PASS": 282,
+        "SWEEP_RECLAIM": 18,
+        "EXTREME_HELD": 14,
+        "NO_EARLIER_TRIGGER_BREAK": 10,
+        "CURRENT_TRIGGER_BREAK": 2,
+        "BODY_DISPLACEMENT": 2,
+        "STRUCTURAL_CONFIRM": 2,
+        "CE_SOURCE_ACCEPTED": 2
+      }
+    },
+    {
+      "symbol": "GBPUSD",
+      "month": "2025-03",
+      "calendar": {
+        "planned": 840,
+        "htf_neutral_or_not_ready": 156
+      },
+      "stage_counts": {
+        "CALL": 684,
+        "WICK_PASS": 369,
+        "POOL_AVAILABLE": 369,
+        "POOL_SESSION_PASS": 369,
+        "SWEEP_RECLAIM": 37,
+        "EXTREME_HELD": 21,
+        "NO_EARLIER_TRIGGER_BREAK": 17,
+        "CURRENT_TRIGGER_BREAK": 3,
+        "BODY_DISPLACEMENT": 3,
+        "STRUCTURAL_CONFIRM": 3,
+        "CE_SOURCE_ACCEPTED": 3
+      }
+    },
+    {
+      "symbol": "GBPUSD",
+      "month": "2025-04",
+      "calendar": {
+        "planned": 880,
+        "htf_neutral_or_not_ready": 204
+      },
+      "stage_counts": {
+        "CALL": 676,
+        "WICK_PASS": 346,
+        "POOL_AVAILABLE": 346,
+        "POOL_SESSION_PASS": 346,
+        "SWEEP_RECLAIM": 8,
+        "EXTREME_HELD": 0,
+        "NO_EARLIER_TRIGGER_BREAK": 0,
+        "CURRENT_TRIGGER_BREAK": 0,
+        "BODY_DISPLACEMENT": 0,
+        "STRUCTURAL_CONFIRM": 0,
+        "CE_SOURCE_ACCEPTED": 0
+      }
+    },
+    {
+      "symbol": "GBPUSD",
+      "month": "2025-05",
+      "calendar": {
+        "planned": 880,
+        "htf_neutral_or_not_ready": 284
+      },
+      "stage_counts": {
+        "CALL": 596,
+        "WICK_PASS": 298,
+        "POOL_AVAILABLE": 298,
+        "POOL_SESSION_PASS": 298,
+        "SWEEP_RECLAIM": 33,
+        "EXTREME_HELD": 23,
+        "NO_EARLIER_TRIGGER_BREAK": 15,
+        "CURRENT_TRIGGER_BREAK": 5,
+        "BODY_DISPLACEMENT": 5,
+        "STRUCTURAL_CONFIRM": 4,
+        "CE_SOURCE_ACCEPTED": 4
+      }
+    },
+    {
+      "symbol": "GBPUSD",
+      "month": "2025-06",
+      "calendar": {
+        "planned": 840,
+        "htf_neutral_or_not_ready": 232
+      },
+      "stage_counts": {
+        "CALL": 608,
+        "WICK_PASS": 322,
+        "POOL_AVAILABLE": 322,
+        "POOL_SESSION_PASS": 322,
+        "SWEEP_RECLAIM": 33,
+        "EXTREME_HELD": 22,
+        "NO_EARLIER_TRIGGER_BREAK": 19,
+        "CURRENT_TRIGGER_BREAK": 4,
+        "BODY_DISPLACEMENT": 2,
+        "STRUCTURAL_CONFIRM": 2,
+        "CE_SOURCE_ACCEPTED": 2
+      }
+    },
+    {
+      "symbol": "GBPUSD",
+      "month": "2025-07",
+      "calendar": {
+        "planned": 920,
+        "htf_neutral_or_not_ready": 456
+      },
+      "stage_counts": {
+        "CALL": 464,
+        "WICK_PASS": 204,
+        "POOL_AVAILABLE": 204,
+        "POOL_SESSION_PASS": 204,
+        "SWEEP_RECLAIM": 29,
+        "EXTREME_HELD": 20,
+        "NO_EARLIER_TRIGGER_BREAK": 17,
+        "CURRENT_TRIGGER_BREAK": 2,
+        "BODY_DISPLACEMENT": 2,
+        "STRUCTURAL_CONFIRM": 2,
+        "CE_SOURCE_ACCEPTED": 2
+      }
+    },
+    {
+      "symbol": "GBPUSD",
+      "month": "2025-08",
+      "calendar": {
+        "planned": 840,
+        "htf_neutral_or_not_ready": 396
+      },
+      "stage_counts": {
+        "CALL": 444,
+        "WICK_PASS": 200,
+        "POOL_AVAILABLE": 200,
+        "POOL_SESSION_PASS": 200,
+        "SWEEP_RECLAIM": 21,
+        "EXTREME_HELD": 10,
+        "NO_EARLIER_TRIGGER_BREAK": 10,
+        "CURRENT_TRIGGER_BREAK": 0,
+        "BODY_DISPLACEMENT": 0,
+        "STRUCTURAL_CONFIRM": 0,
+        "CE_SOURCE_ACCEPTED": 0
+      }
+    },
+    {
+      "symbol": "GBPUSD",
+      "month": "2025-09",
+      "calendar": {
+        "planned": 880,
+        "htf_neutral_or_not_ready": 380
+      },
+      "stage_counts": {
+        "CALL": 500,
+        "WICK_PASS": 216,
+        "POOL_AVAILABLE": 216,
+        "POOL_SESSION_PASS": 216,
+        "SWEEP_RECLAIM": 13,
+        "EXTREME_HELD": 12,
+        "NO_EARLIER_TRIGGER_BREAK": 7,
+        "CURRENT_TRIGGER_BREAK": 3,
+        "BODY_DISPLACEMENT": 3,
+        "STRUCTURAL_CONFIRM": 3,
+        "CE_SOURCE_ACCEPTED": 3
+      }
+    },
+    {
+      "symbol": "GBPUSD",
+      "month": "2025-10",
+      "calendar": {
+        "planned": 920,
+        "htf_neutral_or_not_ready": 220
+      },
+      "stage_counts": {
+        "CALL": 700,
+        "WICK_PASS": 328,
+        "POOL_AVAILABLE": 328,
+        "POOL_SESSION_PASS": 328,
+        "SWEEP_RECLAIM": 18,
+        "EXTREME_HELD": 12,
+        "NO_EARLIER_TRIGGER_BREAK": 8,
+        "CURRENT_TRIGGER_BREAK": 2,
+        "BODY_DISPLACEMENT": 2,
+        "STRUCTURAL_CONFIRM": 2,
+        "CE_SOURCE_ACCEPTED": 2
+      }
+    },
+    {
+      "symbol": "GBPUSD",
+      "month": "2025-11",
+      "calendar": {
+        "planned": 800,
+        "htf_neutral_or_not_ready": 252
+      },
+      "stage_counts": {
+        "CALL": 548,
+        "WICK_PASS": 269,
+        "POOL_AVAILABLE": 269,
+        "POOL_SESSION_PASS": 269,
+        "SWEEP_RECLAIM": 23,
+        "EXTREME_HELD": 12,
+        "NO_EARLIER_TRIGGER_BREAK": 7,
+        "CURRENT_TRIGGER_BREAK": 4,
+        "BODY_DISPLACEMENT": 4,
+        "STRUCTURAL_CONFIRM": 3,
+        "CE_SOURCE_ACCEPTED": 3
+      }
+    },
+    {
+      "symbol": "XAUUSD",
+      "month": "2025-01",
+      "calendar": {
+        "planned": 920,
+        "missing_bar": 40,
+        "htf_neutral_or_not_ready": 248
+      },
+      "stage_counts": {
+        "CALL": 632,
+        "WICK_PASS": 326,
+        "POOL_AVAILABLE": 326,
+        "POOL_SESSION_PASS": 283,
+        "SWEEP_RECLAIM": 25,
+        "EXTREME_HELD": 17,
+        "NO_EARLIER_TRIGGER_BREAK": 13,
+        "CURRENT_TRIGGER_BREAK": 3,
+        "BODY_DISPLACEMENT": 3,
+        "STRUCTURAL_CONFIRM": 3,
+        "CE_SOURCE_ACCEPTED": 3
+      }
+    },
+    {
+      "symbol": "XAUUSD",
+      "month": "2025-02",
+      "calendar": {
+        "planned": 800,
+        "htf_neutral_or_not_ready": 124
+      },
+      "stage_counts": {
+        "CALL": 676,
+        "WICK_PASS": 357,
+        "POOL_AVAILABLE": 357,
+        "POOL_SESSION_PASS": 316,
+        "SWEEP_RECLAIM": 18,
+        "EXTREME_HELD": 11,
+        "NO_EARLIER_TRIGGER_BREAK": 9,
+        "CURRENT_TRIGGER_BREAK": 1,
+        "BODY_DISPLACEMENT": 1,
+        "STRUCTURAL_CONFIRM": 1,
+        "CE_SOURCE_ACCEPTED": 1
+      }
+    },
+    {
+      "symbol": "XAUUSD",
+      "month": "2025-03",
+      "calendar": {
+        "planned": 840,
+        "htf_neutral_or_not_ready": 84
+      },
+      "stage_counts": {
+        "CALL": 756,
+        "WICK_PASS": 402,
+        "POOL_AVAILABLE": 402,
+        "POOL_SESSION_PASS": 402,
+        "SWEEP_RECLAIM": 27,
+        "EXTREME_HELD": 14,
+        "NO_EARLIER_TRIGGER_BREAK": 9,
+        "CURRENT_TRIGGER_BREAK": 4,
+        "BODY_DISPLACEMENT": 4,
+        "STRUCTURAL_CONFIRM": 4,
+        "CE_SOURCE_ACCEPTED": 4
+      }
+    },
+    {
+      "symbol": "XAUUSD",
+      "month": "2025-04",
+      "calendar": {
+        "planned": 880,
+        "htf_neutral_or_not_ready": 148,
+        "missing_bar": 40
+      },
+      "stage_counts": {
+        "CALL": 692,
+        "WICK_PASS": 380,
+        "POOL_AVAILABLE": 380,
+        "POOL_SESSION_PASS": 380,
+        "SWEEP_RECLAIM": 20,
+        "EXTREME_HELD": 9,
+        "NO_EARLIER_TRIGGER_BREAK": 7,
+        "CURRENT_TRIGGER_BREAK": 1,
+        "BODY_DISPLACEMENT": 1,
+        "STRUCTURAL_CONFIRM": 1,
+        "CE_SOURCE_ACCEPTED": 1
+      }
+    },
+    {
+      "symbol": "XAUUSD",
+      "month": "2025-05",
+      "calendar": {
+        "planned": 880,
+        "htf_neutral_or_not_ready": 464
+      },
+      "stage_counts": {
+        "CALL": 416,
+        "WICK_PASS": 237,
+        "POOL_AVAILABLE": 237,
+        "POOL_SESSION_PASS": 237,
+        "SWEEP_RECLAIM": 16,
+        "EXTREME_HELD": 11,
+        "NO_EARLIER_TRIGGER_BREAK": 11,
+        "CURRENT_TRIGGER_BREAK": 1,
+        "BODY_DISPLACEMENT": 1,
+        "STRUCTURAL_CONFIRM": 1,
+        "CE_SOURCE_ACCEPTED": 1
+      }
+    },
+    {
+      "symbol": "XAUUSD",
+      "month": "2025-06",
+      "calendar": {
+        "planned": 840,
+        "htf_neutral_or_not_ready": 352
+      },
+      "stage_counts": {
+        "CALL": 488,
+        "WICK_PASS": 259,
+        "POOL_AVAILABLE": 259,
+        "POOL_SESSION_PASS": 259,
+        "SWEEP_RECLAIM": 27,
+        "EXTREME_HELD": 22,
+        "NO_EARLIER_TRIGGER_BREAK": 18,
+        "CURRENT_TRIGGER_BREAK": 5,
+        "BODY_DISPLACEMENT": 4,
+        "STRUCTURAL_CONFIRM": 4,
+        "CE_SOURCE_ACCEPTED": 4
+      }
+    },
+    {
+      "symbol": "XAUUSD",
+      "month": "2025-07",
+      "calendar": {
+        "planned": 920,
+        "htf_neutral_or_not_ready": 284
+      },
+      "stage_counts": {
+        "CALL": 636,
+        "WICK_PASS": 352,
+        "POOL_AVAILABLE": 352,
+        "POOL_SESSION_PASS": 352,
+        "SWEEP_RECLAIM": 23,
+        "EXTREME_HELD": 14,
+        "NO_EARLIER_TRIGGER_BREAK": 8,
+        "CURRENT_TRIGGER_BREAK": 3,
+        "BODY_DISPLACEMENT": 3,
+        "STRUCTURAL_CONFIRM": 3,
+        "CE_SOURCE_ACCEPTED": 3
+      }
+    },
+    {
+      "symbol": "XAUUSD",
+      "month": "2025-08",
+      "calendar": {
+        "planned": 840,
+        "htf_neutral_or_not_ready": 268
+      },
+      "stage_counts": {
+        "CALL": 572,
+        "WICK_PASS": 325,
+        "POOL_AVAILABLE": 325,
+        "POOL_SESSION_PASS": 325,
+        "SWEEP_RECLAIM": 30,
+        "EXTREME_HELD": 17,
+        "NO_EARLIER_TRIGGER_BREAK": 17,
+        "CURRENT_TRIGGER_BREAK": 1,
+        "BODY_DISPLACEMENT": 1,
+        "STRUCTURAL_CONFIRM": 1,
+        "CE_SOURCE_ACCEPTED": 1
+      }
+    },
+    {
+      "symbol": "XAUUSD",
+      "month": "2025-09",
+      "calendar": {
+        "planned": 880
+      },
+      "stage_counts": {
+        "CALL": 880,
+        "WICK_PASS": 477,
+        "POOL_AVAILABLE": 477,
+        "POOL_SESSION_PASS": 477,
+        "SWEEP_RECLAIM": 14,
+        "EXTREME_HELD": 13,
+        "NO_EARLIER_TRIGGER_BREAK": 13,
+        "CURRENT_TRIGGER_BREAK": 2,
+        "BODY_DISPLACEMENT": 2,
+        "STRUCTURAL_CONFIRM": 1,
+        "CE_SOURCE_ACCEPTED": 1
+      }
+    },
+    {
+      "symbol": "XAUUSD",
+      "month": "2025-10",
+      "calendar": {
+        "planned": 920,
+        "htf_neutral_or_not_ready": 320
+      },
+      "stage_counts": {
+        "CALL": 600,
+        "WICK_PASS": 362,
+        "POOL_AVAILABLE": 362,
+        "POOL_SESSION_PASS": 362,
+        "SWEEP_RECLAIM": 9,
+        "EXTREME_HELD": 8,
+        "NO_EARLIER_TRIGGER_BREAK": 4,
+        "CURRENT_TRIGGER_BREAK": 3,
+        "BODY_DISPLACEMENT": 3,
+        "STRUCTURAL_CONFIRM": 3,
+        "CE_SOURCE_ACCEPTED": 3
+      }
+    },
+    {
+      "symbol": "XAUUSD",
+      "month": "2025-11",
+      "calendar": {
+        "planned": 800,
+        "htf_neutral_or_not_ready": 392
+      },
+      "stage_counts": {
+        "CALL": 408,
+        "WICK_PASS": 218,
+        "POOL_AVAILABLE": 218,
+        "POOL_SESSION_PASS": 196,
+        "SWEEP_RECLAIM": 5,
+        "EXTREME_HELD": 1,
+        "NO_EARLIER_TRIGGER_BREAK": 1,
+        "CURRENT_TRIGGER_BREAK": 0,
+        "BODY_DISPLACEMENT": 0,
+        "STRUCTURAL_CONFIRM": 0,
+        "CE_SOURCE_ACCEPTED": 0
+      }
+    }
+  ],
+  "stage_order": [
+    "CALL",
+    "WICK_PASS",
+    "POOL_AVAILABLE",
+    "POOL_SESSION_PASS",
+    "SWEEP_RECLAIM",
+    "EXTREME_HELD",
+    "NO_EARLIER_TRIGGER_BREAK",
+    "CURRENT_TRIGGER_BREAK",
+    "BODY_DISPLACEMENT",
+    "STRUCTURAL_CONFIRM",
+    "CE_SOURCE_ACCEPTED"
+  ],
+  "instrumented_windows": 18860,
+  "signals_matched": 57,
+  "decision_equivalence_passed": true,
+  "caveat": "Common upstream funnel measured in unchanged noIFVG branch. Counts are unique windows passing >=one pool/sweep path, not independent filters or unique executed trades. Original mandatoryIFVG reference has8accepted signals. No macro/news/cooldown/occupancy applied here."
+}

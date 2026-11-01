@@ -1,0 +1,13 @@
+{
+  "hypothesis": "M1 close outside ORB, retest broken band, next completed M1 closes beyond previous M1 extreme and outside ORB; next quote entry before noon.",
+  "unchanged": "Gold quote sides, virtual BID stop, 2R, EOD16 and costs; no Asia/summer/cost filters.",
+  "classification": "Posthoc development candidate; no OOS/live claim.",
+  "hashes": {
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\m1_confirmation_gold.py": "4192662db5994adc57279f776f831d2878b18adc1d71583290d046506dfff7c5",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\study.py": "b075408a8057aa516012f917f2a9094367476ca3b7188832c372f20c5df502db",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\protocol_frozen.json": "9f9e5af2e5950b6fc21f1356e0f8e758c3ada3775a408bb014ac6834cc649425",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\quote_manifest.json": "77d0b9f21148bff76c0b648ed26741388f7c97b1d739ef5872eb0f8ac06783fb",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\outcomes.json": "5126b8c017312e3803834f43a872c1c65626f71323d1432fc4775c111b2c2f9a"
+  },
+  "live_approved": false
+}

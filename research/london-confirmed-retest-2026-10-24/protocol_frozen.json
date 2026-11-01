@@ -1,0 +1,59 @@
+{
+  "frozen_utc": "2026-10-23T23:05:13.777621+00:00",
+  "declaration": {
+    "hypothesis": "One new entry hypothesis on classicORB candidates, not the prior midpoint-limit production setups: complete1mcloseoutsideopeningrange, then subsequentquote retestofbrokenouterboundary, then a latercompleted1mcandle closesbeyondpreviouscompleted1mhigh/low AND outsideopeningrange; buy/sellfirstquoteatnextminute",
+    "before_outcomes": "Entry rules frozen after path diagnostics; all six months previously seen. This is DEVELOPMENT, not new OOS, independent confirmation or edge proof.",
+    "unchanged": "SixFXmajors;08:00-08:15LondonBIDrange;openingdirection;RVOL>=1primary,allvolumecontrol;oppositeBIDbandsyntheticstructuralstop;full2R;EOD16London;oneattemptperpairday;entrystrictlybefore12London",
+    "causal": "Firstcompleted1mbreakoutafter08:15; cannotretestwithinthebreakoutbar; retestbarcannotconfirm; confirmationusesonlypreviouscompletedbarhigh/low; entryonfirstquote>=confirmationclose,<=5slate; nofillwithconfirmationbarhigh/low; originalstopviolatedafterbreakoutandbeforeentrycancelsday; nosecondsetup; noexpiryextension",
+    "missing": "Opening<=5s,EOD<=5s,maxgap60s as old engine. NeedednativeBID1mbarmissing =>BLOCKED_FEATURE. Missingentryquote<=5s =>BLOCKED_ENTRY_COVERAGE. No flat/profit imputation.",
+    "fees": "SameobservedBIDASK,0.1pip/sideadverseslippageand$4/100kroundtripassumptions;scenarioswidenspread,slippageandcommission;shortstopBIDtriggeraskexit;notrealbrokerstoporfills",
+    "scenarios": [
+      [
+        "OBSERVED_QUOTES_1x",
+        1.0,
+        0.0
+      ],
+      [
+        "COST_STRESS_1.5x",
+        1.5,
+        0.0
+      ],
+      [
+        "COST_STRESS_2x",
+        2.0,
+        0.0
+      ],
+      [
+        "MIN_SPREAD_1PIP",
+        1.0,
+        1.0
+      ]
+    ],
+    "months": [
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-09",
+      "2025-10"
+    ],
+    "compare": "SamepairdayuniverseandRVOLselection; directentryfrozenbaselinevsconfirmedretest; abstentionsretainedasnoentry; blockedunknownsnotzeros; allmonthsandsymbolsreportedwithoutselection",
+    "gate": "Fullcoverage,>=100primaryfills,positive1.5x/2x/min1pip,primary1.5x5dayblockCIlo>0. Also report paired daily netR delta versus baseline, including abstentions. Passing means candidate for new validation only, never livepromotion.",
+    "statistics": "10k5observedweekdaycircularblocksseed173,allpairsadaytogether,nomultiplicitycorrection;discontinuoustimeblocks;unitRopportunitiesnotaccountreturns",
+    "prior_failures": "EarlierM1retestonmidpointcandidateswasnegative; this classicouterboundaryexperimentdoesnoteraseit. NoTP/SL/volume/timeparametersearch.",
+    "read_only": true,
+    "live_approved": false,
+    "hashes": {
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-confirmed-retest-2026-10-24\\study.py": "b7adac0f0c2c87a10501b033b65980e8aa67544d9036aed79640a25b36b67315",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-confirmed-retest-2026-10-24\\test_study.py": "733c3de45690e013d0484f39ebd30a3e22b19a5b2d1c39d4fa755f3bd2902f01",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\quote_engine.py": "d1b5819c790be9247b2050c4c465812ca413a2917ca9eece179e3671c35d02a3",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\native_outcomes.json": "ac25ff8e54d601e5b2a1eef1b366c0df78e879d35f5efc5b66e7161b950cacb5",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\quote_manifest_frozen.json": "df2e1c157c373babc31de34a1f652fad510440485639d963b197175e2a9a6392",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-extension-2026-10-24\\outcomes.json": "87916eabbbcfe0f88fb92cd1639d0d03ac42d87f64b361e7d8db490df179f943",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-extension-2026-10-24\\quote_manifest_frozen.json": "f1842f402bb517cfb58825567bc8fc7189697104682665be698dcff14ee99a76",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-path-audit-2026-10-24\\results.json": "aba5b210a34f4e33a3fbf26662a8ab41f45dd8f9c3dc2b1a3108051a2ff3f015",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\entry-innovation-2026-10-23\\REPORT.md": "c5d221ac58d494b6f7c469b0d6bde2937b590ddde9571061ab766f45d7c2bd90",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-edge-development-2026-10-23\\SONUC.md": "cdc93a1996a47d7297f31647722b2b23962e3971c3e751b79c587f8acda6e53a"
+    }
+  }
+}

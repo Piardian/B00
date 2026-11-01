@@ -1,0 +1,27 @@
+{
+  "frozen_utc": "2026-10-24T08:49:33.126108+00:00",
+  "months": [
+    "2025-07",
+    "2025-08"
+  ],
+  "authorization": "User explicitly requested separate validation despite original development CI gate failing. Original gate and results remain unchanged.",
+  "classification": "Held aside for this exact gold rule, but dates seen in earlier broad research; NOT pristine global OOS or prospective.",
+  "strategy": "Exact frozen_gold.replay, unchanged entry/stop/target/time/cost/scenarios. Virtual BID-trigger short stop; actual ASK exit. No filters or optimizations.",
+  "statistics": "Same 10000 circular five-businessday bootstrap seed173; reserve separately and combined Jan-Aug. All weekdays, missing coverage blocks conclusions.",
+  "checks": "Complete44days, native opening prices/direction, existing independent broker clock QA; reserve positive at1.5x and2x and both months positive1.5x; combined1.5x CI lower>0. Report each separately, no automatic live promotion.",
+  "clock": "JulyAug broker UTC+3 USsummer, LondonBST; same regime independently verified in original clock QA. Direct JulyAug EURUSD reference overlap additionally measured; absence disclosed, not fabricated.",
+  "limitations": "2025 commission unverified; synthetic fills/slippage; historical and limited sample. Even checks passing are evidence supporting candidate, not guaranteed edge or live approval.",
+  "disk": "Only already nonempty JulyAug caches; start>=2GiB, external emergency1GiB guard; no terminal launch/settings/orders.",
+  "hashes": {
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\validate.py": "0d676034df62630cb67b9c7f684d59d01cdca37c5df50998577263a508ac5167",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\guarded_collect.ps1": "fdb8db3e835dd0a721c6ac5dbc214ad967cddb936658042b08abbf7dc0358e43",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\study.py": "110d3b0b0295edc7e0e40596f5356d7c48823053e869062218e74c891e94b6b9",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\protocol_frozen.json": "92a38c7f04bc2f4066003715e3b7d8d2601d55ed41591c9ee3b906dad24da69b",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\results.json": "7c4eab631b174e23b6f853be0c07ddcddd41b9e3fec3c0ac2174ac69cca54ff4",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\outcomes.json": "ffe8114865710114a47f01df22af882b749be459d14e1a79bf65745b05c7119d",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\cost_evidence.json": "96a2711bbb5c725884afa65aceb5509a28fae39181cab49447f75eb8a1dfad63",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\clock_qa.json": "d48d5827394a83a9e388ec1d9909c2b33ec0fded24928ae29b6dcd7faffaea22",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\scripts\\normalize_broker_history.py": "d422c16480c903a54ad01107fb1054535b28114e8da9a10f7046a5e83ce5b44f"
+  },
+  "live_approved": false
+}

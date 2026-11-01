@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-24T09:26:08.301212+00:00",
+  "rule": {
+    "classification_rule": "If all three original frozen baseline scenarios independently say CONFIRMED_HOLIDAY_CLOSED, carry that status through unchanged; do not require nonexistent Asia bars on a day with no session. Do not change any other date or trade outcome.",
+    "verified_dates": [
+      "2025-01-01",
+      "2025-04-18",
+      "2025-12-25",
+      "2026-01-01"
+    ],
+    "source": "immutable baseline outcomes.json; all three cost scenarios agree."
+  }
+}

@@ -95,6 +95,37 @@ def currency_legs(symbol):
     return {clean[:3], clean[3:]} if len(clean) == 6 and clean[:3] in currencies and clean[3:] in currencies else {clean}
 
 
+def orb_daily_key(symbol, now):
+    day = pd.Timestamp(utc_time(now)).tz_convert('Europe/London').date()
+    return f"ORB_DAY:{symbol.replace('/', '').replace('-', '').upper()}:{day}"
+
+
+def orb_daily_attempt_used(symbol, now, history, trades):
+    """An accepted ORB limit consumes the day, regardless of fill/direction."""
+    key = orb_daily_key(symbol, now)
+    if key in history:
+        at = history[key].get('timestamp')
+        if at is not None and float(at) <= utc_time(now).timestamp():
+            return True
+    for trade in trades:
+        if not str(trade.get('strategy', '')).startswith('ORB'):
+            continue
+        at = trade.get('opened_at')
+        if at and utc_time(at, legacy_local=True) <= utc_time(now) and orb_daily_key(trade.get('symbol', ''), utc_time(at, legacy_local=True)) == key:
+            return True
+    for record in history.values():
+        signal = record.get('signal') or {}
+        if not str(signal.get('strategy', '')).startswith('ORB'):
+            continue
+        stamp = record.get('timestamp')
+        if stamp is None:
+            continue
+        at = pd.Timestamp(float(stamp), unit='s', tz='UTC')
+        if at <= utc_time(now) and orb_daily_key(signal.get('symbol', ''), at) == key:
+            return True
+    return False
+
+
 def risk_rejection(closed, active, symbol, risk_multiplier, now=None):
     now = utc_time(now or datetime.now(timezone.utc))
     day = now.astimezone(TRT).date()

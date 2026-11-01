@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE_POST_HOC_DIAGNOSTIC",
+  "source_hashes_verified": true,
+  "arithmetic_verified": true,
+  "hashes": {
+    "analyze.py": "c0aa5062c79c025f346f8f4b090b8acf3797cba75069324d0b972b8a5e5a3b7f",
+    "protocol_frozen.json": "9118ee1ed8ff72cb9a4408ab36c235c34711f3c2121056afcbe3b243061c1f5a",
+    "results.json": "45bd0bcf9c11098eca7a639db137c49169d95b1d5aaac1e98c2e9b1e587bb177",
+    "SONUC.md": "a8b24012d63432845fa888ed8ada8ba345cddb669d6e030fe84d583f7a91ddb2"
+  }
+}

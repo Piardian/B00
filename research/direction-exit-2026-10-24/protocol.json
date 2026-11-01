@@ -1,0 +1,77 @@
+{
+  "frozen_at": "2026-10-23 22:51:46.899423+00:00",
+  "sample": "All58 first daily setups from Jan/Feb/Mar/Nov2025. All previously observed; post-negative-validation diagnosis, not new OOS or independent profitability proof.",
+  "entry_direction": "At each original availability, measure next60minute bid-open move divided by original entry-stop risk. Original sign versus reversed sign on identical timestamp/risk. All58, no conditioning on fill or future outcome; full61minute grid required. No fee or stop: direction score, NOT trading PNL or executable reversed strategy.",
+  "exit_rules": {
+    "always": "Unchanged adverse fill-bar reaction exit",
+    "never": "Only remove reaction exit, keep original entry/stop/targets and all other management",
+    "half_r_adverse": "Same reaction failure test but exit only when fill-bar executable close is <=-.5R relative entry, before exit slippage/fee. Close known only after fill minute. Fixed threshold, no sweep."
+  },
+  "primary": "RECHECK25 Feb/Mar; discovery33 Jan/Nov supporting contrast. Same case set, fills and original risk across all exit modes. Reference must match all232 prior replay records.",
+  "costs": "Prior assumed constant spreads .2/.5/.9/1.5pip; primary.5/adverse1.5. CommissionUSD4/100k roundtrip and.2pip adverse exit slip. Not actual historic ask/fees.",
+  "invariants": "Original stop protection always active, stop-first, no fill-bar targets, same halfTP1/BE/trail andLondon16:30flat, pendingnoon/4h. Never erase filled trade after bad reaction.",
+  "uncertainty": "Day-cluster bootstrap10000(seed20261024)95% mean per accepted setup and paired variant minus reference; diagnosis only, no multiple-research correction. Direction day means also exploratory.",
+  "decision": "No live promotion regardless of result. A useful new exit candidate must improve primary recheck paired mean, remain net positive in BOTH Feb and Mar at.5 and1.5 and avoid unresolved; otherwise reject. Discovery outcome cannot rescue failed recheck. Never label reverse sign profitable strategy.",
+  "prices": {
+    "DISCOVERY_EURUSD": {
+      "path": "data\\full_2025_study\\prices_utc\\EURUSD_1m.csv.gz",
+      "sha256": "accd55f5f6d2d996489f6549040e4e78c88ca3a2c2528d941843fe02d6c7b30c"
+    },
+    "DISCOVERY_GBPUSD": {
+      "path": "data\\full_2025_study\\prices_utc\\GBPUSD_1m.csv.gz",
+      "sha256": "2ede9d4387615552fa24a32a42850b18d9b1a974bfdae47353c67f0835b89dc4"
+    },
+    "DISCOVERY_NZDUSD": {
+      "path": "data\\full_2025_study\\prices_utc\\NZDUSD_1m.csv.gz",
+      "sha256": "49a5ea1c75f7323646948998bc144105ed7834ea9c20381a1e36c921bdcd1e53"
+    },
+    "DISCOVERY_USDCHF": {
+      "path": "data\\full_2025_study\\prices_utc\\USDCHF_1m.csv.gz",
+      "sha256": "5534a56aab48b500dbde1848f5ed074baa9e0ed7ab82db9de44fcf17983b0e71"
+    },
+    "DISCOVERY_USDJPY": {
+      "path": "data\\full_2025_study\\prices_utc\\USDJPY_1m.csv.gz",
+      "sha256": "51991dab9c9b2292585b5c647ff40c09da6a51dd6629cac2ef607566b03ce28a"
+    },
+    "DISCOVERY_USDCAD": {
+      "path": "data\\full_2025_study\\prices_utc\\USDCAD_1m.csv.gz",
+      "sha256": "8c8466a32c579ba0dde1dffe2c8c6bdee6b3dc10d1c5bf4f66094eeaf8b90047"
+    },
+    "RECHECK_EURUSD": {
+      "path": "research\\asia-validation-2026-10-24\\prices\\EURUSD_1m.parquet",
+      "sha256": "b681320ae02ff718a57d8120daed8a834ea363cfe2e800e9c260583b93d1bda5"
+    },
+    "RECHECK_GBPUSD": {
+      "path": "research\\asia-validation-2026-10-24\\prices\\GBPUSD_1m.parquet",
+      "sha256": "88452d19cdfbccce2c914c53ae8c6d995feb7234cc489e892c81672a2e515b92"
+    },
+    "RECHECK_USDJPY": {
+      "path": "research\\asia-validation-2026-10-24\\prices\\USDJPY_1m.parquet",
+      "sha256": "a71b222ee8ab049b16b99ec45a66e27d94b9e777f186f7059a057ba5caac14e3"
+    },
+    "RECHECK_USDCAD": {
+      "path": "research\\asia-validation-2026-10-24\\prices\\USDCAD_1m.parquet",
+      "sha256": "e9ad53609a4d66fbaa73286226b52be3f6f5eadfa6405e6ba765ed72a0d3034b"
+    },
+    "RECHECK_USDCHF": {
+      "path": "research\\asia-validation-2026-10-24\\prices\\USDCHF_1m.parquet",
+      "sha256": "8be6ec8a711ecb8a4cf1391fdd1eb4fbfa3b114708f1efc3b81fb9864b5b301d"
+    }
+  },
+  "source_hashes": {
+    "research\\structure-room-2026-10-23\\setups_frozen.json": "83c20eb63d0dbe6414b0a20307b2a65145a0ae13d8d78b744e6cbe857b415fc7",
+    "research\\asia-validation-2026-10-24\\candidates.json": "87c4bed69a2854e74d6f88c1c0e7397d64102dc136e366fdfc4cc4cdf4d78f74",
+    "research\\structure-room-2026-10-23\\outcomes.json": "0e7bed805e897e4cd3fedb45c1a3ba910f34af6bec47fc8595baaaf1ea8e273c",
+    "research\\asia-validation-2026-10-24\\outcomes.json": "6d59b0d16bd271377e2a0410de9c37e266bf10dcf9d518553e37065f99fe5dea"
+  },
+  "code_hashes": {
+    "direction.py": "93d6f33ebb43404d673fec49969298d2991c4d1de120ea0149a8396c5901445d",
+    "execution.py": "8b18476e50fb57aebdb6838eaef81d5eea4a6ae71b9feae077c9ca27b67561f4",
+    "study.py": "6e330ac1902485c4790a502fed37762631a5034049b4b42de6688492d30fc071",
+    "test_experiment.py": "0206dc961f82e2b0af7720a8a9c1ff559bdd3d9b21e99c838a529cbac572866f"
+  },
+  "input_hashes": {
+    "cases_frozen.json": "29bde4fdc86715198a2968bc52e2dad49c17553676a0af157165ddb9516a3440",
+    "reference_frozen.json": "8be18e94dbbe2069db09a008f6f3d628a67417d14e6950fe16f3cf3b3a3b99d6"
+  }
+}

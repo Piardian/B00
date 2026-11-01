@@ -1,0 +1,92 @@
+[
+  {
+    "bytes": 102091369,
+    "removed": true,
+    "reason": "Not present in preflight XAU cache inventory; created by aborted historical download",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202601.tkc"
+  },
+  {
+    "bytes": 127232969,
+    "removed": true,
+    "reason": "Not present in preflight XAU cache inventory; created by aborted historical download",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202603.tkc"
+  },
+  {
+    "bytes": 106459831,
+    "removed": true,
+    "reason": "Not present in preflight XAU cache inventory; created by aborted historical download",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202604.tkc"
+  },
+  {
+    "bytes": 132201622,
+    "removed": true,
+    "reason": "Not present in preflight XAU cache inventory; created by aborted historical download",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202605.tkc"
+  },
+  {
+    "bytes": 132504142,
+    "removed": true,
+    "reason": "Not present in preflight XAU cache inventory; created by aborted historical download",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202606.tkc"
+  },
+  {
+    "bytes": 118313079,
+    "removed": true,
+    "reason": "Not present in preflight XAU cache inventory; created by aborted historical download",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202607.tkc"
+  },
+  {
+    "bytes": 120639022,
+    "removed": true,
+    "reason": "Not present in preflight XAU cache inventory; created by aborted historical download",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202608.tkc"
+  },
+  {
+    "bytes": 51177128,
+    "removed": true,
+    "reason": "Not present in preflight XAU cache inventory; created by aborted historical download",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202507.tkc"
+  },
+  {
+    "bytes": 35018762,
+    "removed": true,
+    "reason": "Not present in preflight XAU cache inventory; created by aborted historical download",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202508.tkc"
+  },
+  {
+    "bytes": 50462072,
+    "removed": true,
+    "reason": "Not present in preflight XAU cache inventory; created by aborted historical download",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202509.tkc"
+  },
+  {
+    "bytes": 75562514,
+    "removed": true,
+    "reason": "Not present in preflight XAU cache inventory; created by aborted historical download",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202510.tkc"
+  },
+  {
+    "bytes": 90018336,
+    "removed": true,
+    "reason": "Not present in preflight XAU cache inventory; created by aborted historical download",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202511.tkc"
+  },
+  {
+    "bytes": 104508342,
+    "removed": true,
+    "reason": "Not present in preflight XAU cache inventory; created by aborted historical download",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202512.tkc"
+  },
+  {
+    "reason": "Absent in preflight inventory; partial cache from aborted request; terminal closed",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202505.tkc",
+    "removed": true,
+    "bytes": 4864679
+  },
+  {
+    "reason": "Absent in preflight inventory; partial cache from aborted request; terminal closed",
+    "path": "C:\\Users\\piard\\AppData\\Roaming\\MetaQuotes\\Terminal\\10CE948A1DFC9A8C27E56E827008EBD4\\bases\\FivePercentOnline-Real\\ticks\\XAUUSD\\202506.tkc",
+    "removed": true,
+    "bytes": 63917423
+  }
+]

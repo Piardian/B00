@@ -1,0 +1,597 @@
+{
+  "periods": {
+    "DEVELOPMENT": {
+      "baseline_direction": {
+        "setups": 6,
+        "measured": 6,
+        "positive": 3,
+        "mean_r": -0.3273155650635083,
+        "mean_bps": -1.454873834412199,
+        "day95_r": [
+          -1.364944584889859,
+          0.6169391090358448
+        ],
+        "day95_bps": [
+          -11.708787703626717,
+          9.617652308404967
+        ],
+        "by_symbol": {
+          "EURUSD": {
+            "n": 1,
+            "mean_price": 0.0008200000000000429,
+            "mean_bps": 7.188442387264561
+          },
+          "GBPUSD": {
+            "n": 3,
+            "mean_price": -0.000963333333333353,
+            "mean_bps": -7.683619818456407
+          },
+          "XAUUSD": {
+            "n": 2,
+            "mean_price": 0.8199999999999363,
+            "mean_bps": 3.5665870308157306
+          }
+        }
+      },
+      "variant_direction": {
+        "setups": 36,
+        "measured": 36,
+        "positive": 15,
+        "mean_r": -0.11279338870577771,
+        "mean_bps": 0.16381450901244732,
+        "day95_r": [
+          -0.489865510374765,
+          0.2746666067118916
+        ],
+        "day95_bps": [
+          -3.9244873033894523,
+          4.38380705202952
+        ],
+        "by_symbol": {
+          "EURUSD": {
+            "n": 10,
+            "mean_price": -0.00010799999999997479,
+            "mean_bps": -1.0667019622536547
+          },
+          "GBPUSD": {
+            "n": 12,
+            "mean_price": -0.0006666666666666488,
+            "mean_bps": -5.108633092632622
+          },
+          "XAUUSD": {
+            "n": 14,
+            "mean_price": 1.4649999999999506,
+            "mean_bps": 5.561995647041152
+          }
+        }
+      },
+      "common": 6,
+      "variant_only": 30,
+      "baseline_only": 0,
+      "paired_geometry": [
+        {
+          "case_id": "EURUSD_2025-06-09T14:15:00+00:00",
+          "baseline_risk": 0.0020579999999998932,
+          "variant_risk": 0.0011900000000000244,
+          "risk_ratio": 0.5782312925170486,
+          "raw_bps_delta": 0.0
+        },
+        {
+          "case_id": "GBPUSD_2025-01-15T09:15:00+00:00",
+          "baseline_risk": 0.0008059999999998624,
+          "variant_risk": 0.0008610000000000007,
+          "risk_ratio": 1.0682382133996868,
+          "raw_bps_delta": 0.0
+        },
+        {
+          "case_id": "GBPUSD_2025-05-07T10:15:00+00:00",
+          "baseline_risk": 0.0017650000000000166,
+          "variant_risk": 0.001266999999999907,
+          "risk_ratio": 0.7178470254956913,
+          "raw_bps_delta": 0.0
+        },
+        {
+          "case_id": "GBPUSD_2025-06-13T11:45:00+00:00",
+          "baseline_risk": 0.0018280000000001628,
+          "variant_risk": 0.0014099999999999113,
+          "risk_ratio": 0.7713347921224211,
+          "raw_bps_delta": 0.0
+        },
+        {
+          "case_id": "XAUUSD_2025-03-14T08:00:00+00:00",
+          "baseline_risk": 4.877500000000055,
+          "variant_risk": 4.3125,
+          "risk_ratio": 0.884161968221415,
+          "raw_bps_delta": 0.0
+        },
+        {
+          "case_id": "XAUUSD_2025-06-03T08:15:00+00:00",
+          "baseline_risk": 8.720250000000306,
+          "variant_risk": 6.995249999999942,
+          "risk_ratio": 0.8021845703964562,
+          "raw_bps_delta": 0.0
+        }
+      ],
+      "variant_only_direction": {
+        "setups": 30,
+        "measured": 30,
+        "positive": 12,
+        "mean_r": -0.08423134522468252,
+        "mean_bps": 0.4875521776973765,
+        "day95_r": [
+          -0.46932953024317436,
+          0.3504644670726441
+        ],
+        "day95_bps": [
+          -3.8752517132661066,
+          5.190930762158711
+        ],
+        "by_symbol": {
+          "EURUSD": {
+            "n": 9,
+            "mean_price": -0.00021111111111108785,
+            "mean_bps": -1.9839402233112342
+          },
+          "GBPUSD": {
+            "n": 9,
+            "mean_price": -0.0005677777777777474,
+            "mean_bps": -4.250304184024693
+          },
+          "XAUUSD": {
+            "n": 12,
+            "mean_price": 1.572499999999953,
+            "mean_bps": 5.894563749745387
+          }
+        }
+      },
+      "baseline_quotes": {
+        "OBSERVED": {
+          "setups": 6,
+          "fills": 2,
+          "fill_days": 2,
+          "status_counts": {
+            "FILLED_MARKOUT": 2,
+            "NO_FILL": 1,
+            "UNRESOLVED_COVERAGE": 3
+          },
+          "unresolved": 3,
+          "mean_conditional_markout_r": 0.20210719684487308,
+          "mean_day95": null,
+          "original_stop_crossed": 0,
+          "marketable_first_quote": 0,
+          "wait_minutes_median": 21.293483333333334,
+          "fee_burden_mean_r": 0.02445108187749273,
+          "mfe_mean_r": 0.5519154035091426,
+          "mae_mean_r": 0.3951178645191962
+        },
+        "STRESS_1_5X": {
+          "setups": 6,
+          "fills": 2,
+          "fill_days": 2,
+          "status_counts": {
+            "FILLED_MARKOUT": 2,
+            "NO_FILL": 1,
+            "UNRESOLVED_COVERAGE": 3
+          },
+          "unresolved": 3,
+          "mean_conditional_markout_r": 0.18529463145153088,
+          "mean_day95": null,
+          "original_stop_crossed": 0,
+          "marketable_first_quote": 0,
+          "wait_minutes_median": 21.310941666666665,
+          "fee_burden_mean_r": 0.036676622816239096,
+          "mfe_mean_r": 0.5519154035091426,
+          "mae_mean_r": 0.3951178645191962
+        },
+        "STRESS_FLOOR": {
+          "setups": 6,
+          "fills": 2,
+          "fill_days": 2,
+          "status_counts": {
+            "FILLED_MARKOUT": 2,
+            "NO_FILL": 1,
+            "UNRESOLVED_COVERAGE": 3
+          },
+          "unresolved": 3,
+          "mean_conditional_markout_r": 0.04365157196139988,
+          "mean_day95": null,
+          "original_stop_crossed": 0,
+          "marketable_first_quote": 0,
+          "wait_minutes_median": 24.558908333333335,
+          "fee_burden_mean_r": 0.036676622816239096,
+          "mfe_mean_r": 0.5519154035091426,
+          "mae_mean_r": 0.3951178645191962
+        }
+      },
+      "variant_quotes": {
+        "OBSERVED": {
+          "setups": 36,
+          "fills": 13,
+          "fill_days": 13,
+          "status_counts": {
+            "FILLED_MARKOUT": 13,
+            "NO_FILL": 7,
+            "UNRESOLVED_COVERAGE": 13,
+            "UNRESOLVED_MARKOUT": 3
+          },
+          "unresolved": 16,
+          "mean_conditional_markout_r": 0.005937348555209996,
+          "mean_day95": [
+            -0.697348972047868,
+            0.6261568579825378
+          ],
+          "original_stop_crossed": 4,
+          "marketable_first_quote": 0,
+          "wait_minutes_median": 31.921516666666665,
+          "fee_burden_mean_r": 0.03948472927146372,
+          "mfe_mean_r": 1.0171204880593876,
+          "mae_mean_r": 0.9579844376761895
+        },
+        "STRESS_1_5X": {
+          "setups": 36,
+          "fills": 13,
+          "fill_days": 13,
+          "status_counts": {
+            "FILLED_MARKOUT": 13,
+            "NO_FILL": 7,
+            "UNRESOLVED_COVERAGE": 13,
+            "UNRESOLVED_MARKOUT": 3
+          },
+          "unresolved": 16,
+          "mean_conditional_markout_r": -0.0015508311005773246,
+          "mean_day95": [
+            -0.7127484365498143,
+            0.6174422247509527
+          ],
+          "original_stop_crossed": 4,
+          "marketable_first_quote": 0,
+          "wait_minutes_median": 31.942233333333334,
+          "fee_burden_mean_r": 0.05922709390719558,
+          "mfe_mean_r": 1.021473877766921,
+          "mae_mean_r": 0.9579844376761895
+        },
+        "STRESS_FLOOR": {
+          "setups": 36,
+          "fills": 13,
+          "fill_days": 13,
+          "status_counts": {
+            "FILLED_MARKOUT": 13,
+            "NO_FILL": 7,
+            "UNRESOLVED_COVERAGE": 13,
+            "UNRESOLVED_MARKOUT": 3
+          },
+          "unresolved": 16,
+          "mean_conditional_markout_r": -0.0026361655192522503,
+          "mean_day95": [
+            -0.7141425317530381,
+            0.6160315073501434
+          ],
+          "original_stop_crossed": 4,
+          "marketable_first_quote": 0,
+          "wait_minutes_median": 31.942233333333334,
+          "fee_burden_mean_r": 0.05922709390719558,
+          "mfe_mean_r": 1.021473877766921,
+          "mae_mean_r": 0.9579844376761895
+        }
+      }
+    },
+    "VALIDATION": {
+      "baseline_direction": {
+        "setups": 2,
+        "measured": 2,
+        "positive": 1,
+        "mean_r": -0.41962886552064005,
+        "mean_bps": 3.006824042849768,
+        "day95_r": null,
+        "day95_bps": null,
+        "by_symbol": {
+          "EURUSD": {
+            "n": 1,
+            "mean_price": -0.0010200000000000209,
+            "mean_bps": -8.864785941492594
+          },
+          "GBPUSD": {
+            "n": 0,
+            "mean_price": null,
+            "mean_bps": null
+          },
+          "XAUUSD": {
+            "n": 1,
+            "mean_price": 6.330000000000837,
+            "mean_bps": 14.87843402719213
+          }
+        }
+      },
+      "variant_direction": {
+        "setups": 21,
+        "measured": 21,
+        "positive": 14,
+        "mean_r": -0.2194206898559784,
+        "mean_bps": 3.758695776411548,
+        "day95_r": [
+          -1.1293083641626553,
+          0.6403728835058266
+        ],
+        "day95_bps": [
+          -3.263518300931743,
+          12.256535678362905
+        ],
+        "by_symbol": {
+          "EURUSD": {
+            "n": 3,
+            "mean_price": -3.0000000000048505e-05,
+            "mean_bps": -0.3230934601855025
+          },
+          "GBPUSD": {
+            "n": 10,
+            "mean_price": -0.000370999999999988,
+            "mean_bps": -2.646564433173057
+          },
+          "XAUUSD": {
+            "n": 8,
+            "mean_price": 5.422500000000014,
+            "mean_bps": 13.295942002116197
+          }
+        }
+      },
+      "common": 2,
+      "variant_only": 19,
+      "baseline_only": 0,
+      "paired_geometry": [
+        {
+          "case_id": "EURUSD_2025-11-06T08:45:00+00:00",
+          "baseline_risk": 0.0009030000000000982,
+          "variant_risk": 0.0005859999999999754,
+          "risk_ratio": 0.648947951273435,
+          "raw_bps_delta": 0.0
+        },
+        {
+          "case_id": "XAUUSD_2025-10-20T07:15:00+00:00",
+          "baseline_risk": 21.80425000000014,
+          "variant_risk": 16.439250000000357,
+          "risk_ratio": 0.7539470516069231,
+          "raw_bps_delta": 0.0
+        }
+      ],
+      "variant_only_direction": {
+        "setups": 19,
+        "measured": 19,
+        "positive": 13,
+        "mean_r": -0.17117232711525435,
+        "mean_bps": 3.8378401694180506,
+        "day95_r": [
+          -1.18092176942174,
+          0.7741350462878883
+        ],
+        "day95_bps": [
+          -3.7895383442087986,
+          13.257188004292935
+        ],
+        "by_symbol": {
+          "EURUSD": {
+            "n": 2,
+            "mean_price": 0.0004649999999999377,
+            "mean_bps": 3.947752780468043
+          },
+          "GBPUSD": {
+            "n": 10,
+            "mean_price": -0.000370999999999988,
+            "mean_bps": -2.646564433173057
+          },
+          "XAUUSD": {
+            "n": 7,
+            "mean_price": 5.292857142857039,
+            "mean_bps": 13.069871712819635
+          }
+        }
+      },
+      "baseline_quotes": {
+        "OBSERVED": {
+          "setups": 2,
+          "fills": 1,
+          "fill_days": 1,
+          "status_counts": {
+            "FILLED_MARKOUT": 1,
+            "UNRESOLVED_COVERAGE": 1
+          },
+          "unresolved": 1,
+          "mean_conditional_markout_r": 0.3198939747984741,
+          "mean_day95": null,
+          "original_stop_crossed": 0,
+          "marketable_first_quote": 0,
+          "wait_minutes_median": 173.11825,
+          "fee_burden_mean_r": 0.006189242922824641,
+          "mfe_mean_r": 0.581538002912286,
+          "mae_mean_r": 0.095852872719774
+        },
+        "STRESS_1_5X": {
+          "setups": 2,
+          "fills": 1,
+          "fill_days": 1,
+          "status_counts": {
+            "FILLED_MARKOUT": 1,
+            "UNRESOLVED_COVERAGE": 1
+          },
+          "unresolved": 1,
+          "mean_conditional_markout_r": 0.31634072715178974,
+          "mean_day95": null,
+          "original_stop_crossed": 0,
+          "marketable_first_quote": 0,
+          "wait_minutes_median": 173.16268333333335,
+          "fee_burden_mean_r": 0.00928386438423696,
+          "mfe_mean_r": 0.581538002912286,
+          "mae_mean_r": 0.095852872719774
+        },
+        "STRESS_FLOOR": {
+          "setups": 2,
+          "fills": 1,
+          "fill_days": 1,
+          "status_counts": {
+            "FILLED_MARKOUT": 1,
+            "UNRESOLVED_COVERAGE": 1
+          },
+          "unresolved": 1,
+          "mean_conditional_markout_r": 0.31634072715178974,
+          "mean_day95": null,
+          "original_stop_crossed": 0,
+          "marketable_first_quote": 0,
+          "wait_minutes_median": 173.16268333333335,
+          "fee_burden_mean_r": 0.00928386438423696,
+          "mfe_mean_r": 0.581538002912286,
+          "mae_mean_r": 0.095852872719774
+        }
+      },
+      "variant_quotes": {
+        "OBSERVED": {
+          "setups": 21,
+          "fills": 4,
+          "fill_days": 3,
+          "status_counts": {
+            "FILLED_MARKOUT": 4,
+            "NO_FILL": 4,
+            "UNRESOLVED_COVERAGE": 12,
+            "UNRESOLVED_MARKOUT": 1
+          },
+          "unresolved": 13,
+          "mean_conditional_markout_r": 1.6501603486600689,
+          "mean_day95": null,
+          "original_stop_crossed": 1,
+          "marketable_first_quote": 0,
+          "wait_minutes_median": 39.7193,
+          "fee_burden_mean_r": 0.08850297238143097,
+          "mfe_mean_r": 2.2321287715402613,
+          "mae_mean_r": 0.8505164580125217
+        },
+        "STRESS_1_5X": {
+          "setups": 21,
+          "fills": 4,
+          "fill_days": 3,
+          "status_counts": {
+            "FILLED_MARKOUT": 4,
+            "NO_FILL": 4,
+            "UNRESOLVED_COVERAGE": 12,
+            "UNRESOLVED_MARKOUT": 1
+          },
+          "unresolved": 13,
+          "mean_conditional_markout_r": 1.6406298357724856,
+          "mean_day95": null,
+          "original_stop_crossed": 1,
+          "marketable_first_quote": 0,
+          "wait_minutes_median": 39.80305,
+          "fee_burden_mean_r": 0.13275445857214646,
+          "mfe_mean_r": 2.2292813911303453,
+          "mae_mean_r": 0.8634720178892449
+        },
+        "STRESS_FLOOR": {
+          "setups": 21,
+          "fills": 4,
+          "fill_days": 3,
+          "status_counts": {
+            "FILLED_MARKOUT": 4,
+            "NO_FILL": 4,
+            "UNRESOLVED_COVERAGE": 12,
+            "UNRESOLVED_MARKOUT": 1
+          },
+          "unresolved": 13,
+          "mean_conditional_markout_r": 1.6009244739488284,
+          "mean_day95": null,
+          "original_stop_crossed": 2,
+          "marketable_first_quote": 0,
+          "wait_minutes_median": 39.80305,
+          "fee_burden_mean_r": 0.13275445857214646,
+          "mfe_mean_r": 2.1765471335377713,
+          "mae_mean_r": 0.9023386975187475
+        }
+      }
+    }
+  },
+  "gates": {
+    "DEVELOPMENT": {
+      "STRESS_1_5X": {
+        "at_least30fills": false,
+        "at_least15days": false,
+        "no_unresolved": false,
+        "positive_mean": false,
+        "positive_day95_lower": false
+      },
+      "STRESS_FLOOR": {
+        "at_least30fills": false,
+        "at_least15days": false,
+        "no_unresolved": false,
+        "positive_mean": false,
+        "positive_day95_lower": false
+      }
+    },
+    "VALIDATION": {
+      "STRESS_1_5X": {
+        "at_least30fills": false,
+        "at_least15days": false,
+        "no_unresolved": false,
+        "positive_mean": true,
+        "positive_day95_lower": false
+      },
+      "STRESS_FLOOR": {
+        "at_least30fills": false,
+        "at_least15days": false,
+        "no_unresolved": false,
+        "positive_mean": true,
+        "positive_day95_lower": false
+      }
+    }
+  },
+  "total_reference": 8,
+  "total_variant": 57,
+  "variant_by_symbol": {
+    "EURUSD": 13,
+    "GBPUSD": 22,
+    "XAUUSD": 22
+  },
+  "monthly": {
+    "2025-01": {
+      "reference": 1,
+      "variant": 4
+    },
+    "2025-02": {
+      "reference": 0,
+      "variant": 6
+    },
+    "2025-03": {
+      "reference": 1,
+      "variant": 8
+    },
+    "2025-04": {
+      "reference": 0,
+      "variant": 3
+    },
+    "2025-05": {
+      "reference": 1,
+      "variant": 5
+    },
+    "2025-06": {
+      "reference": 3,
+      "variant": 10
+    },
+    "2025-07": {
+      "reference": 0,
+      "variant": 7
+    },
+    "2025-08": {
+      "reference": 0,
+      "variant": 1
+    },
+    "2025-09": {
+      "reference": 0,
+      "variant": 4
+    },
+    "2025-10": {
+      "reference": 1,
+      "variant": 5
+    },
+    "2025-11": {
+      "reference": 1,
+      "variant": 4
+    }
+  },
+  "diagnostic_only": true,
+  "full_lifecycle_backtest": false
+}

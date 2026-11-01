@@ -111,6 +111,8 @@ class OutcomeTracker:
         }
 
         self.active_trades.append(trade)
+        if signal.get('entry_deadline_utc'):
+            trade['entry_deadline_utc'] = utc_time(signal['entry_deadline_utc']).isoformat()
         self._save_json(ACTIVE_TRADES_FILE, self.active_trades)
         logger.info(f"📝 Yeni emir limit takibe alindi (Retest Bekleniyor): {trade_id} ({symbol} {direction} @ {entry})")
 
@@ -163,6 +165,11 @@ class OutcomeTracker:
                     float(trade.get("risk_multiplier", 1.0)), event_time)
                 touched = low <= entry - spread if long else high >= entry + spread
                 expired = event_time >= opened + timedelta(minutes=15 * config.LIMIT_EXPIRY_BARS)
+                deadline = trade.get('entry_deadline_utc')
+                session_expired = bool(deadline and event_time >= utc_time(deadline))
+                if session_expired:
+                    expired = True
+                    trade['timeout_reason'] = 'SESSION_ENTRY_CUTOFF'
                 if rejection:
                     reason = "RISK_LIMIT_CANCELLED"
                     trade["risk_rejection"] = rejection

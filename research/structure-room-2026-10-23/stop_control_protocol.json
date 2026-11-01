@@ -1,0 +1,23 @@
+{
+  "frozen_at": "2026-10-23 20:54:01.282670+00:00",
+  "stage": "Explicit post-stage-one diagnosis; new hypotheses, not independent validation.",
+  "variants": [
+    "m1_original_stop",
+    "m1_original_stop_cost"
+  ],
+  "spreads_pips": [
+    0.2,
+    0.5,
+    0.9,
+    1.5
+  ],
+  "rule": "Reuse identical M1 structural confirmation eligibility and market entry time/price; only replace stop by original ORB stop. Recompute targets >=1.2/2R from new entry/risk; keep common exits and costs.",
+  "cost_cap_r": 0.2,
+  "comparison": "Matched timing control isolates stop choice among ready setups. Same first daily setup; no replacement. Retains stage-one pre-entry M1 invalidation.",
+  "hashes": {
+    "research\\structure-room-2026-10-23\\stop_control.py": "0498c15832310a0e865ceae65e44b830f4a3547b50dffd3312a5ac4ef7106c13",
+    "research\\structure-room-2026-10-23\\protocol.json": "b8d1da48083fa3dee63de0bff95e1469a182daba689d9db473450c44215448f5",
+    "research\\structure-room-2026-10-23\\summary.json": "7c7be18e5d41d16e798746996df9666d1d9975db96a4d1ec5056e3bbab29a4a7",
+    "research\\structure-room-2026-10-23\\setups_frozen.json": "83c20eb63d0dbe6414b0a20307b2a65145a0ae13d8d78b744e6cbe857b415fc7"
+  }
+}

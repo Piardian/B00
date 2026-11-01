@@ -93,7 +93,7 @@ def load_all_universe_symbols() -> list:
         "EUR/JPY", "GBP/JPY", "XAU/USD", "QQQ", "SPY", "BTC/USD", "ETH/USD", "SOL/USD"
     ]
 
-ACTIVE_SYMBOLS = ["EUR/USD", "GBP/USD", "XAU/USD"]
+ACTIVE_SYMBOLS = load_all_universe_symbols()
 
 # --- ZAMAN DILIMLERI (TERCIH 2: BEGONYA ILE %100 SENKRON 15 DAKIKA) ---
 PRIMARY_TIMEFRAME = "15m"       # Islem tetikleme zaman dilimi (Begonya ile tam eszamanli)
@@ -115,7 +115,7 @@ SFP_MIN_RR_TARGET_2 = 2.0      # Zorunlu Minimum TP2 RR Eşiği
 ENTRY_MODEL = os.getenv("ENTRY_MODEL", "MIDPOINT")  # "MIDPOINT" (%50 Consequent Encroachment) veya "CLOSE" (Market Kapanışı)
 LIMIT_EXPIRY_BARS = int(os.getenv("LIMIT_EXPIRY_BARS", "16"))  # 15 dakikalık 16 bar = 4 saatlik limit emir geçerlilik süresi
 REQUIRE_ENTRY_REACTION = True       # Slice-Through / Tepkisiz bölge delinmesi durumunda limiti iptal et
-REQUIRE_PRO_TREND_AAA = True        # Yalnızca 4H EMA50/200 Pro-Trend (Grade AAA) işlemlerine izin ver
+REQUIRE_PRO_TREND_AAA = False       # A+ ve AAA seviyesindeki kurumsal onaylı işlemlere izin ver (4H nötr dahil)
 USE_IFVG_ENTRY = True               # Standart FVG yerine Inversion FVG (iFVG) %50 CE Limit girişi kullan
 REQUIRE_STRUCTURAL_BREAKER = True   # Sweep öncesi son zıt yönlü Order Block (Breaker) gövde kırılımı zorunlu
 
@@ -191,9 +191,7 @@ def is_session_active_for_scan(symbol: str, dt_utc: Optional[datetime] = None) -
 
     # 2. Hafta İçi (Pazartesi - Cuma)
     else:
-        if crypto:
-            return False  # Kriptolar hafta içi taranmaz (yalnızca hafta sonu)
-        # Forex & Endeksler: Londra (07:00 - 11:00 UTC) ve New York (13:00 - 17:00 UTC) Seansları
+        # Hem Forex/Emtia hem Kripto için yüksek hacimli seans pencereleri: Londra (07:00 - 11:00 UTC) ve New York (13:00 - 17:00 UTC)
         return (7 <= hour <= 11) or (13 <= hour <= 17)
 
 def is_market_open(symbol: str, dt_utc: Optional[datetime] = None) -> bool:
@@ -275,6 +273,7 @@ VOLUME_ZSCORE_MIN = 1.5        # Minimum Z-Score anomali siniri
 
 # --- ORB (OPENING RANGE BREAKOUT) PARAMETRELERI ---
 ORB_ENABLED = True
+ORB_ACTIVE_SESSIONS = ("LONDON",)  # ORB only; SFP session rules are independent.
 ORB_RANGE_MINUTES = 15         # Acilis araligini belirleyen ilk dakika sayisi (15 dk)
 
 # Seans Saatleri (UTC bazinda - TRT = UTC+3)
@@ -286,6 +285,7 @@ ORB_SESSIONS = {
         "name": "Londra Seansı",
         "timezone": "Europe/London",
         "open_local": "08:00",
+        "entry_cutoff_local": "12:00",
         "close_local": "16:30",
         "open_utc": "07:00",
         "close_utc": "15:30",

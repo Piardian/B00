@@ -1,0 +1,10 @@
+{
+  "rule": "Reencode every new tape chronological order with delta-packed timestamp and same float64 values; exact dataframe equality before replacement. No row edits/deletions or outcome checks.",
+  "hashes": {
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\repack.py": "9d83c71feeafcaa70fc381e11b6b769e6056b3f66f6609a3febd2d1c776f8c68",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\resume_guard.ps1": "54ac5a7c412f502cfd961514ccb5cbb9191e01737f46cd028cc80859e797a9ba",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\quote_manifest_before_repack.json": "a8d86b1180db39c396e93da57d82ebcecf526d74a67fc38672a797ff551dc2c7"
+  },
+  "resume": "Only remaining warm-cache dates, initially>=1.125GiB, unchanged internal1100MiB and external1GiB emergency guard. Resume initial threshold lower than original2GiB because remaining dates fewer than one month and caches verified; no cold download.",
+  "orders_sent": false
+}

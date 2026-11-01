@@ -1,0 +1,2090 @@
+[
+  {
+    "case_id": "DISCOVERY_0",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-02 08:34:00+00:00",
+    "closed_at": "2025-01-02 08:35:00+00:00",
+    "net_r": -0.24999999999989211
+  },
+  {
+    "case_id": "DISCOVERY_0",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-02 08:34:00+00:00",
+    "closed_at": "2025-01-02 08:35:00+00:00",
+    "net_r": -0.2714285714286063
+  },
+  {
+    "case_id": "DISCOVERY_0",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-02 08:34:00+00:00",
+    "closed_at": "2025-01-02 08:35:00+00:00",
+    "net_r": -0.299999999999908
+  },
+  {
+    "case_id": "DISCOVERY_0",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-02 08:34:00+00:00",
+    "closed_at": "2025-01-02 08:35:00+00:00",
+    "net_r": -0.3428571428571778
+  },
+  {
+    "case_id": "DISCOVERY_1",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-02 08:33:00+00:00",
+    "closed_at": "2025-01-02 10:40:00+00:00",
+    "net_r": 1.5764705882352947
+  },
+  {
+    "case_id": "DISCOVERY_1",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-02 08:33:00+00:00",
+    "closed_at": "2025-01-02 10:40:00+00:00",
+    "net_r": 1.5764705882352947
+  },
+  {
+    "case_id": "DISCOVERY_1",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-02 08:33:00+00:00",
+    "closed_at": "2025-01-02 10:41:00+00:00",
+    "net_r": 1.5764705882352947
+  },
+  {
+    "case_id": "DISCOVERY_1",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-02 08:33:00+00:00",
+    "closed_at": "2025-01-02 10:42:00+00:00",
+    "net_r": 1.5764705882352947
+  },
+  {
+    "case_id": "DISCOVERY_2",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-03 09:43:00+00:00",
+    "closed_at": "2025-01-03 09:44:00+00:00",
+    "net_r": -0.10999999999980457
+  },
+  {
+    "case_id": "DISCOVERY_2",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-03 09:44:00+00:00",
+    "closed_at": "2025-01-03 09:45:00+00:00",
+    "net_r": -0.1599999999999156
+  },
+  {
+    "case_id": "DISCOVERY_2",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-03 09:44:00+00:00",
+    "closed_at": "2025-01-03 09:45:00+00:00",
+    "net_r": -0.1599999999999156
+  },
+  {
+    "case_id": "DISCOVERY_2",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-03 09:45:00+00:00",
+    "closed_at": "2025-01-03 09:46:00+00:00",
+    "net_r": -0.26999999999976015
+  },
+  {
+    "case_id": "DISCOVERY_3",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-06 08:35:00+00:00",
+    "closed_at": "2025-01-06 08:36:00+00:00",
+    "net_r": -0.12857142857144305
+  },
+  {
+    "case_id": "DISCOVERY_3",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-06 08:35:00+00:00",
+    "closed_at": "2025-01-06 08:36:00+00:00",
+    "net_r": -0.12857142857144305
+  },
+  {
+    "case_id": "DISCOVERY_3",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-06 08:35:00+00:00",
+    "closed_at": "2025-01-06 08:36:00+00:00",
+    "net_r": -0.12857142857144305
+  },
+  {
+    "case_id": "DISCOVERY_3",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-06 08:35:00+00:00",
+    "closed_at": "2025-01-06 08:36:00+00:00",
+    "net_r": -0.12857142857144305
+  },
+  {
+    "case_id": "DISCOVERY_4",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-06 08:35:00+00:00",
+    "closed_at": "2025-01-06 09:30:00+00:00",
+    "net_r": 0.899590163934471
+  },
+  {
+    "case_id": "DISCOVERY_4",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-06 08:35:00+00:00",
+    "closed_at": "2025-01-06 09:30:00+00:00",
+    "net_r": 0.899590163934471
+  },
+  {
+    "case_id": "DISCOVERY_4",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-06 10:58:00+00:00",
+    "closed_at": "2025-01-06 11:13:00+00:00",
+    "net_r": 1.5409836065574383
+  },
+  {
+    "case_id": "DISCOVERY_4",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-06 11:00:00+00:00",
+    "closed_at": "2025-01-06 11:01:00+00:00",
+    "net_r": -0.4918032786885873
+  },
+  {
+    "case_id": "DISCOVERY_5",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-06 08:35:00+00:00",
+    "closed_at": "2025-01-06 09:05:00+00:00",
+    "net_r": 1.5496061764708613
+  },
+  {
+    "case_id": "DISCOVERY_5",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-06 08:35:00+00:00",
+    "closed_at": "2025-01-06 09:05:00+00:00",
+    "net_r": 1.5496061764708613
+  },
+  {
+    "case_id": "DISCOVERY_5",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-06 08:35:00+00:00",
+    "closed_at": "2025-01-06 09:04:00+00:00",
+    "net_r": 0.9098875000000729
+  },
+  {
+    "case_id": "DISCOVERY_5",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-06 08:35:00+00:00",
+    "closed_at": "2025-01-06 09:11:00+00:00",
+    "net_r": 1.5496061764708613
+  },
+  {
+    "case_id": "DISCOVERY_6",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-06 09:01:00+00:00",
+    "closed_at": "2025-01-06 09:38:00+00:00",
+    "net_r": 0.9392857142856653
+  },
+  {
+    "case_id": "DISCOVERY_6",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-06 09:01:00+00:00",
+    "closed_at": "2025-01-06 09:38:00+00:00",
+    "net_r": 0.9392857142856653
+  },
+  {
+    "case_id": "DISCOVERY_6",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-06 09:01:00+00:00",
+    "closed_at": "2025-01-06 09:38:00+00:00",
+    "net_r": 0.9392857142856653
+  },
+  {
+    "case_id": "DISCOVERY_6",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-06 09:02:00+00:00",
+    "closed_at": "2025-01-06 09:38:00+00:00",
+    "net_r": 0.9392857142856653
+  },
+  {
+    "case_id": "DISCOVERY_7",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-01-06 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "DISCOVERY_7",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-01-06 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "DISCOVERY_7",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-01-06 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "DISCOVERY_7",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-01-06 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "DISCOVERY_8",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-08 08:30:00+00:00",
+    "closed_at": "2025-01-08 08:31:00+00:00",
+    "net_r": -0.13571428571405098
+  },
+  {
+    "case_id": "DISCOVERY_8",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-08 08:30:00+00:00",
+    "closed_at": "2025-01-08 08:31:00+00:00",
+    "net_r": -0.15714285714276513
+  },
+  {
+    "case_id": "DISCOVERY_8",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-08 08:30:00+00:00",
+    "closed_at": "2025-01-08 08:31:00+00:00",
+    "net_r": -0.1857142857140668
+  },
+  {
+    "case_id": "DISCOVERY_8",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-08 08:30:00+00:00",
+    "closed_at": "2025-01-08 08:31:00+00:00",
+    "net_r": -0.22857142857133655
+  },
+  {
+    "case_id": "DISCOVERY_9",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-08 09:00:00+00:00",
+    "closed_at": "2025-01-08 11:31:00+00:00",
+    "net_r": 1.6333333333332125
+  },
+  {
+    "case_id": "DISCOVERY_9",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-08 09:00:00+00:00",
+    "closed_at": "2025-01-08 11:31:00+00:00",
+    "net_r": 1.6333333333332125
+  },
+  {
+    "case_id": "DISCOVERY_9",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-08 09:00:00+00:00",
+    "closed_at": "2025-01-08 11:31:00+00:00",
+    "net_r": 1.6333333333332125
+  },
+  {
+    "case_id": "DISCOVERY_9",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-08 09:00:00+00:00",
+    "closed_at": "2025-01-08 11:32:00+00:00",
+    "net_r": 1.6333333333332125
+  },
+  {
+    "case_id": "DISCOVERY_10",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-10 09:49:00+00:00",
+    "closed_at": "2025-01-10 11:14:00+00:00",
+    "net_r": -1.09702449999987
+  },
+  {
+    "case_id": "DISCOVERY_10",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-10 09:49:00+00:00",
+    "closed_at": "2025-01-10 11:14:00+00:00",
+    "net_r": -1.09702449999987
+  },
+  {
+    "case_id": "DISCOVERY_10",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-10 09:49:00+00:00",
+    "closed_at": "2025-01-10 11:14:00+00:00",
+    "net_r": -1.09702449999987
+  },
+  {
+    "case_id": "DISCOVERY_10",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-10 10:02:00+00:00",
+    "closed_at": "2025-01-10 10:03:00+00:00",
+    "net_r": -0.4345377499998041
+  },
+  {
+    "case_id": "DISCOVERY_11",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-10 10:03:00+00:00",
+    "closed_at": "2025-01-10 10:04:00+00:00",
+    "net_r": -0.09999999999993779
+  },
+  {
+    "case_id": "DISCOVERY_11",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-10 10:03:00+00:00",
+    "closed_at": "2025-01-10 10:04:00+00:00",
+    "net_r": -0.09999999999993779
+  },
+  {
+    "case_id": "DISCOVERY_11",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-10 10:04:00+00:00",
+    "closed_at": "2025-01-10 10:05:00+00:00",
+    "net_r": -0.14999999999981567
+  },
+  {
+    "case_id": "DISCOVERY_11",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-10 10:05:00+00:00",
+    "closed_at": "2025-01-10 11:12:00+00:00",
+    "net_r": -1.0599999999999024
+  },
+  {
+    "case_id": "DISCOVERY_12",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-13 08:45:00+00:00",
+    "closed_at": "2025-01-13 09:28:00+00:00",
+    "net_r": -1.0971204999998698
+  },
+  {
+    "case_id": "DISCOVERY_12",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-13 08:45:00+00:00",
+    "closed_at": "2025-01-13 09:28:00+00:00",
+    "net_r": -1.0971204999998698
+  },
+  {
+    "case_id": "DISCOVERY_12",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-13 08:45:00+00:00",
+    "closed_at": "2025-01-13 09:28:00+00:00",
+    "net_r": -1.0971204999998698
+  },
+  {
+    "case_id": "DISCOVERY_12",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-13 08:45:00+00:00",
+    "closed_at": "2025-01-13 09:28:00+00:00",
+    "net_r": -1.0971204999998698
+  },
+  {
+    "case_id": "DISCOVERY_13",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-13 09:46:00+00:00",
+    "closed_at": "2025-01-13 09:47:00+00:00",
+    "net_r": -0.06666666666662532
+  },
+  {
+    "case_id": "DISCOVERY_13",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-13 09:46:00+00:00",
+    "closed_at": "2025-01-13 09:47:00+00:00",
+    "net_r": -0.07916666666670744
+  },
+  {
+    "case_id": "DISCOVERY_13",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-13 09:46:00+00:00",
+    "closed_at": "2025-01-13 09:47:00+00:00",
+    "net_r": -0.09583333333329855
+  },
+  {
+    "case_id": "DISCOVERY_13",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-13 09:46:00+00:00",
+    "closed_at": "2025-01-13 09:47:00+00:00",
+    "net_r": -0.12083333333337026
+  },
+  {
+    "case_id": "DISCOVERY_14",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-13 10:21:00+00:00",
+    "closed_at": "2025-01-13 13:27:00+00:00",
+    "net_r": -1.0560747663551582
+  },
+  {
+    "case_id": "DISCOVERY_14",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-13 10:21:00+00:00",
+    "closed_at": "2025-01-13 13:24:00+00:00",
+    "net_r": -1.0560747663551582
+  },
+  {
+    "case_id": "DISCOVERY_14",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-13 10:21:00+00:00",
+    "closed_at": "2025-01-13 13:24:00+00:00",
+    "net_r": -1.0560747663551582
+  },
+  {
+    "case_id": "DISCOVERY_14",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-13 10:21:00+00:00",
+    "closed_at": "2025-01-13 13:24:00+00:00",
+    "net_r": -1.0560747663551582
+  },
+  {
+    "case_id": "DISCOVERY_15",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-13 09:30:00+00:00",
+    "closed_at": "2025-01-13 09:31:00+00:00",
+    "net_r": -0.33742731707322066
+  },
+  {
+    "case_id": "DISCOVERY_15",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-13 09:30:00+00:00",
+    "closed_at": "2025-01-13 09:31:00+00:00",
+    "net_r": -0.33742731707322066
+  },
+  {
+    "case_id": "DISCOVERY_15",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-13 09:30:00+00:00",
+    "closed_at": "2025-01-13 09:31:00+00:00",
+    "net_r": -0.33742731707322066
+  },
+  {
+    "case_id": "DISCOVERY_15",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-13 09:30:00+00:00",
+    "closed_at": "2025-01-13 09:31:00+00:00",
+    "net_r": -0.33742731707322066
+  },
+  {
+    "case_id": "DISCOVERY_16",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-20 11:18:00+00:00",
+    "closed_at": "2025-01-20 11:19:00+00:00",
+    "net_r": 0.022222222222409216
+  },
+  {
+    "case_id": "DISCOVERY_16",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-20 11:18:00+00:00",
+    "closed_at": "2025-01-20 11:19:00+00:00",
+    "net_r": -0.011111111111137939
+  },
+  {
+    "case_id": "DISCOVERY_16",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-20 11:18:00+00:00",
+    "closed_at": "2025-01-20 11:19:00+00:00",
+    "net_r": -0.055555555555374045
+  },
+  {
+    "case_id": "DISCOVERY_16",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-20 11:18:00+00:00",
+    "closed_at": "2025-01-20 11:19:00+00:00",
+    "net_r": -0.12222222222222164
+  },
+  {
+    "case_id": "DISCOVERY_17",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-22 08:51:00+00:00",
+    "closed_at": "2025-01-22 08:52:00+00:00",
+    "net_r": -0.13333333333336536
+  },
+  {
+    "case_id": "DISCOVERY_17",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-22 08:52:00+00:00",
+    "closed_at": "2025-01-22 09:17:00+00:00",
+    "net_r": 1.5333333333326846
+  },
+  {
+    "case_id": "DISCOVERY_17",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-01-22 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "DISCOVERY_17",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-01-22 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "DISCOVERY_18",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-24 08:45:00+00:00",
+    "closed_at": "2025-01-24 08:46:00+00:00",
+    "net_r": -0.08999999999990341
+  },
+  {
+    "case_id": "DISCOVERY_18",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-24 08:45:00+00:00",
+    "closed_at": "2025-01-24 08:46:00+00:00",
+    "net_r": -0.08999999999990341
+  },
+  {
+    "case_id": "DISCOVERY_18",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-01-24 08:45:00+00:00",
+    "closed_at": "2025-01-24 08:46:00+00:00",
+    "net_r": -0.08999999999990341
+  },
+  {
+    "case_id": "DISCOVERY_18",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-24 08:46:00+00:00",
+    "closed_at": "2025-01-24 10:24:00+00:00",
+    "net_r": 0.5750000000000116
+  },
+  {
+    "case_id": "DISCOVERY_19",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-29 09:20:00+00:00",
+    "closed_at": "2025-01-29 10:13:00+00:00",
+    "net_r": 1.637500000000272
+  },
+  {
+    "case_id": "DISCOVERY_19",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-29 09:20:00+00:00",
+    "closed_at": "2025-01-29 10:13:00+00:00",
+    "net_r": 1.637500000000272
+  },
+  {
+    "case_id": "DISCOVERY_19",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-29 09:20:00+00:00",
+    "closed_at": "2025-01-29 10:13:00+00:00",
+    "net_r": 1.637500000000272
+  },
+  {
+    "case_id": "DISCOVERY_19",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-29 09:20:00+00:00",
+    "closed_at": "2025-01-29 10:13:00+00:00",
+    "net_r": 1.637500000000272
+  },
+  {
+    "case_id": "DISCOVERY_20",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-30 09:20:00+00:00",
+    "closed_at": "2025-01-30 12:50:00+00:00",
+    "net_r": 0.933333333333305
+  },
+  {
+    "case_id": "DISCOVERY_20",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-30 09:20:00+00:00",
+    "closed_at": "2025-01-30 12:50:00+00:00",
+    "net_r": 0.933333333333305
+  },
+  {
+    "case_id": "DISCOVERY_20",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-30 09:20:00+00:00",
+    "closed_at": "2025-01-30 12:50:00+00:00",
+    "net_r": 0.933333333333305
+  },
+  {
+    "case_id": "DISCOVERY_20",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-01-30 09:20:00+00:00",
+    "closed_at": "2025-01-30 12:50:00+00:00",
+    "net_r": 0.933333333333305
+  },
+  {
+    "case_id": "DISCOVERY_21",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-31 08:30:00+00:00",
+    "closed_at": "2025-01-31 09:02:00+00:00",
+    "net_r": 1.5599999999997602
+  },
+  {
+    "case_id": "DISCOVERY_21",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-31 08:30:00+00:00",
+    "closed_at": "2025-01-31 09:02:00+00:00",
+    "net_r": 1.5599999999997602
+  },
+  {
+    "case_id": "DISCOVERY_21",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-31 08:30:00+00:00",
+    "closed_at": "2025-01-31 09:02:00+00:00",
+    "net_r": 1.5599999999997602
+  },
+  {
+    "case_id": "DISCOVERY_21",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-01-31 08:30:00+00:00",
+    "closed_at": "2025-01-31 09:03:00+00:00",
+    "net_r": 1.5599999999997602
+  },
+  {
+    "case_id": "DISCOVERY_22",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-01-31 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "DISCOVERY_22",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-01-31 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "DISCOVERY_22",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-01-31 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "DISCOVERY_22",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-01-31 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "DISCOVERY_23",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-06 09:02:00+00:00",
+    "closed_at": "2025-11-06 10:04:00+00:00",
+    "net_r": -1.0749999999998945
+  },
+  {
+    "case_id": "DISCOVERY_23",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-06 09:10:00+00:00",
+    "closed_at": "2025-11-06 09:11:00+00:00",
+    "net_r": -0.17499999999972796
+  },
+  {
+    "case_id": "DISCOVERY_23",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-06 09:10:00+00:00",
+    "closed_at": "2025-11-06 09:11:00+00:00",
+    "net_r": -0.17499999999972796
+  },
+  {
+    "case_id": "DISCOVERY_23",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-06 09:12:00+00:00",
+    "closed_at": "2025-11-06 09:13:00+00:00",
+    "net_r": -0.37499999999995004
+  },
+  {
+    "case_id": "DISCOVERY_24",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-12 09:00:00+00:00",
+    "closed_at": "2025-11-12 09:01:00+00:00",
+    "net_r": -0.29450363636374477
+  },
+  {
+    "case_id": "DISCOVERY_24",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-12 09:00:00+00:00",
+    "closed_at": "2025-11-12 09:01:00+00:00",
+    "net_r": -0.3490501818182389
+  },
+  {
+    "case_id": "DISCOVERY_24",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-12 09:00:00+00:00",
+    "closed_at": "2025-11-12 09:01:00+00:00",
+    "net_r": -0.4217789090910322
+  },
+  {
+    "case_id": "DISCOVERY_24",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-12 09:00:00+00:00",
+    "closed_at": "2025-11-12 09:01:00+00:00",
+    "net_r": -0.5308720000000203
+  },
+  {
+    "case_id": "DISCOVERY_25",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-13 09:04:00+00:00",
+    "closed_at": "2025-11-13 09:05:00+00:00",
+    "net_r": -0.09999999999993779
+  },
+  {
+    "case_id": "DISCOVERY_25",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-13 09:04:00+00:00",
+    "closed_at": "2025-11-13 09:05:00+00:00",
+    "net_r": -0.09999999999993779
+  },
+  {
+    "case_id": "DISCOVERY_25",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-13 09:33:00+00:00",
+    "closed_at": "2025-11-13 09:34:00+00:00",
+    "net_r": -0.19000000000007322
+  },
+  {
+    "case_id": "DISCOVERY_25",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-13 09:34:00+00:00",
+    "closed_at": "2025-11-13 09:40:00+00:00",
+    "net_r": -1.0599999999999024
+  },
+  {
+    "case_id": "DISCOVERY_26",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-13 09:22:00+00:00",
+    "closed_at": "2025-11-13 13:31:00+00:00",
+    "net_r": 0.9632352941176264
+  },
+  {
+    "case_id": "DISCOVERY_26",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-13 09:24:00+00:00",
+    "closed_at": "2025-11-13 13:31:00+00:00",
+    "net_r": 0.9632352941176264
+  },
+  {
+    "case_id": "DISCOVERY_26",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-13 09:33:00+00:00",
+    "closed_at": "2025-11-13 09:34:00+00:00",
+    "net_r": -0.17647058823524756
+  },
+  {
+    "case_id": "DISCOVERY_26",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-13 09:33:00+00:00",
+    "closed_at": "2025-11-13 09:34:00+00:00",
+    "net_r": -0.17647058823524756
+  },
+  {
+    "case_id": "DISCOVERY_27",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-13 09:05:00+00:00",
+    "closed_at": "2025-11-13 11:51:00+00:00",
+    "net_r": -1.0428252892562133
+  },
+  {
+    "case_id": "DISCOVERY_27",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-13 09:05:00+00:00",
+    "closed_at": "2025-11-13 11:51:00+00:00",
+    "net_r": -1.0428252892562133
+  },
+  {
+    "case_id": "DISCOVERY_27",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-13 09:05:00+00:00",
+    "closed_at": "2025-11-13 11:51:00+00:00",
+    "net_r": -1.0428252892562133
+  },
+  {
+    "case_id": "DISCOVERY_27",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-13 09:05:00+00:00",
+    "closed_at": "2025-11-13 09:43:00+00:00",
+    "net_r": -1.0428252892562133
+  },
+  {
+    "case_id": "DISCOVERY_28",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-14 08:47:00+00:00",
+    "closed_at": "2025-11-14 11:13:00+00:00",
+    "net_r": -1.0142857142856927
+  },
+  {
+    "case_id": "DISCOVERY_28",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-14 08:49:00+00:00",
+    "closed_at": "2025-11-14 08:50:00+00:00",
+    "net_r": -0.13095238095233114
+  },
+  {
+    "case_id": "DISCOVERY_28",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-14 08:49:00+00:00",
+    "closed_at": "2025-11-14 08:50:00+00:00",
+    "net_r": -0.13095238095233114
+  },
+  {
+    "case_id": "DISCOVERY_28",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-14 08:49:00+00:00",
+    "closed_at": "2025-11-14 08:50:00+00:00",
+    "net_r": -0.13095238095233114
+  },
+  {
+    "case_id": "DISCOVERY_29",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-21 08:30:00+00:00",
+    "closed_at": "2025-11-21 10:00:00+00:00",
+    "net_r": -1.0740740740741008
+  },
+  {
+    "case_id": "DISCOVERY_29",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-21 08:30:00+00:00",
+    "closed_at": "2025-11-21 10:00:00+00:00",
+    "net_r": -1.0740740740741008
+  },
+  {
+    "case_id": "DISCOVERY_29",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-21 08:30:00+00:00",
+    "closed_at": "2025-11-21 10:00:00+00:00",
+    "net_r": -1.0740740740741008
+  },
+  {
+    "case_id": "DISCOVERY_29",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-21 08:32:00+00:00",
+    "closed_at": "2025-11-21 10:00:00+00:00",
+    "net_r": -1.0740740740741008
+  },
+  {
+    "case_id": "DISCOVERY_30",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-21 08:33:00+00:00",
+    "closed_at": "2025-11-21 10:09:00+00:00",
+    "net_r": -1.0694421818181068
+  },
+  {
+    "case_id": "DISCOVERY_30",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-21 08:33:00+00:00",
+    "closed_at": "2025-11-21 10:09:00+00:00",
+    "net_r": -1.0694421818181068
+  },
+  {
+    "case_id": "DISCOVERY_30",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-21 08:33:00+00:00",
+    "closed_at": "2025-11-21 10:09:00+00:00",
+    "net_r": -1.0694421818181068
+  },
+  {
+    "case_id": "DISCOVERY_30",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-21 08:33:00+00:00",
+    "closed_at": "2025-11-21 10:09:00+00:00",
+    "net_r": -1.0694421818181068
+  },
+  {
+    "case_id": "DISCOVERY_31",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-24 08:30:00+00:00",
+    "closed_at": "2025-11-24 08:31:00+00:00",
+    "net_r": -0.11999999999986675
+  },
+  {
+    "case_id": "DISCOVERY_31",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-24 08:30:00+00:00",
+    "closed_at": "2025-11-24 08:31:00+00:00",
+    "net_r": -0.11999999999986675
+  },
+  {
+    "case_id": "DISCOVERY_31",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-24 08:30:00+00:00",
+    "closed_at": "2025-11-24 08:31:00+00:00",
+    "net_r": -0.11999999999986675
+  },
+  {
+    "case_id": "DISCOVERY_31",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-24 08:31:00+00:00",
+    "closed_at": "2025-11-24 08:32:00+00:00",
+    "net_r": -0.20666666666665384
+  },
+  {
+    "case_id": "DISCOVERY_32",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-26 11:45:00+00:00",
+    "closed_at": "2025-11-26 11:48:00+00:00",
+    "net_r": 0.6111111111111281
+  },
+  {
+    "case_id": "DISCOVERY_32",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-26 11:45:00+00:00",
+    "closed_at": "2025-11-26 11:48:00+00:00",
+    "net_r": 0.6111111111111281
+  },
+  {
+    "case_id": "DISCOVERY_32",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-11-26 11:45:00+00:00",
+    "closed_at": "2025-11-26 11:48:00+00:00",
+    "net_r": 0.6111111111111281
+  },
+  {
+    "case_id": "DISCOVERY_32",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-11-26 11:47:00+00:00",
+    "closed_at": "2025-11-26 11:48:00+00:00",
+    "net_r": -0.3999999999998075
+  },
+  {
+    "case_id": "RECHECK_0",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-06 09:00:00+00:00",
+    "closed_at": "2025-02-06 13:31:00+00:00",
+    "net_r": 0.5545454545454396
+  },
+  {
+    "case_id": "RECHECK_0",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-06 09:00:00+00:00",
+    "closed_at": "2025-02-06 15:21:00+00:00",
+    "net_r": -1.0545454545453667
+  },
+  {
+    "case_id": "RECHECK_0",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-06 09:00:00+00:00",
+    "closed_at": "2025-02-06 15:21:00+00:00",
+    "net_r": -1.0545454545453667
+  },
+  {
+    "case_id": "RECHECK_0",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-06 09:00:00+00:00",
+    "closed_at": "2025-02-06 15:21:00+00:00",
+    "net_r": -1.0545454545453667
+  },
+  {
+    "case_id": "RECHECK_1",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-02-10 08:30:00+00:00",
+    "closed_at": "2025-02-10 09:04:00+00:00",
+    "net_r": 1.8999999999989343
+  },
+  {
+    "case_id": "RECHECK_1",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-10 08:35:00+00:00",
+    "closed_at": "2025-02-10 08:36:00+00:00",
+    "net_r": -0.17499999999985838
+  },
+  {
+    "case_id": "RECHECK_1",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-10 08:35:00+00:00",
+    "closed_at": "2025-02-10 08:36:00+00:00",
+    "net_r": -0.17499999999985838
+  },
+  {
+    "case_id": "RECHECK_1",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "TP2",
+    "filled_at": "2025-02-10 08:36:00+00:00",
+    "closed_at": "2025-02-10 09:04:00+00:00",
+    "net_r": 1.8999999999989343
+  },
+  {
+    "case_id": "RECHECK_2",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-14 08:57:00+00:00",
+    "closed_at": "2025-02-14 08:58:00+00:00",
+    "net_r": -0.0888888888889212
+  },
+  {
+    "case_id": "RECHECK_2",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-14 08:57:00+00:00",
+    "closed_at": "2025-02-14 08:58:00+00:00",
+    "net_r": -0.0888888888889212
+  },
+  {
+    "case_id": "RECHECK_2",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-14 08:57:00+00:00",
+    "closed_at": "2025-02-14 08:58:00+00:00",
+    "net_r": -0.0888888888889212
+  },
+  {
+    "case_id": "RECHECK_2",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-14 10:35:00+00:00",
+    "closed_at": "2025-02-14 10:36:00+00:00",
+    "net_r": -0.21111111111118727
+  },
+  {
+    "case_id": "RECHECK_3",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-17 08:30:00+00:00",
+    "closed_at": "2025-02-17 10:12:00+00:00",
+    "net_r": -1.085714285714165
+  },
+  {
+    "case_id": "RECHECK_3",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-17 08:30:00+00:00",
+    "closed_at": "2025-02-17 09:27:00+00:00",
+    "net_r": -1.085714285714165
+  },
+  {
+    "case_id": "RECHECK_3",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-17 08:30:00+00:00",
+    "closed_at": "2025-02-17 09:20:00+00:00",
+    "net_r": -1.085714285714165
+  },
+  {
+    "case_id": "RECHECK_3",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-17 08:30:00+00:00",
+    "closed_at": "2025-02-17 09:20:00+00:00",
+    "net_r": -1.085714285714165
+  },
+  {
+    "case_id": "RECHECK_4",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-20 08:45:00+00:00",
+    "closed_at": "2025-02-20 09:21:00+00:00",
+    "net_r": -1.085714285714138
+  },
+  {
+    "case_id": "RECHECK_4",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-20 08:45:00+00:00",
+    "closed_at": "2025-02-20 09:21:00+00:00",
+    "net_r": -1.085714285714138
+  },
+  {
+    "case_id": "RECHECK_4",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-20 08:45:00+00:00",
+    "closed_at": "2025-02-20 09:21:00+00:00",
+    "net_r": -1.085714285714138
+  },
+  {
+    "case_id": "RECHECK_4",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-20 08:45:00+00:00",
+    "closed_at": "2025-02-20 09:19:00+00:00",
+    "net_r": -1.085714285714138
+  },
+  {
+    "case_id": "RECHECK_5",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "closed_at": "2025-02-21 12:46:00+00:00",
+    "net_r": 0.9519230769232144
+  },
+  {
+    "case_id": "RECHECK_5",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "closed_at": "2025-02-21 12:31:00+00:00",
+    "net_r": 0.9519230769232144
+  },
+  {
+    "case_id": "RECHECK_5",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "closed_at": "2025-02-21 12:31:00+00:00",
+    "net_r": 0.9519230769232144
+  },
+  {
+    "case_id": "RECHECK_5",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "closed_at": "2025-02-21 14:02:00+00:00",
+    "net_r": 0.576923076923193
+  },
+  {
+    "case_id": "RECHECK_6",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-03 08:57:00+00:00",
+    "closed_at": "2025-03-03 08:58:00+00:00",
+    "net_r": -0.16666666666622992
+  },
+  {
+    "case_id": "RECHECK_6",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-03 08:57:00+00:00",
+    "closed_at": "2025-03-03 08:58:00+00:00",
+    "net_r": -0.21666666666656298
+  },
+  {
+    "case_id": "RECHECK_6",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-03 08:57:00+00:00",
+    "closed_at": "2025-03-03 08:58:00+00:00",
+    "net_r": -0.2833333333329336
+  },
+  {
+    "case_id": "RECHECK_6",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-03 08:57:00+00:00",
+    "closed_at": "2025-03-03 08:58:00+00:00",
+    "net_r": -0.38333333333322966
+  },
+  {
+    "case_id": "RECHECK_7",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-18 08:39:00+00:00",
+    "closed_at": "2025-03-18 08:40:00+00:00",
+    "net_r": -0.15833333333324448
+  },
+  {
+    "case_id": "RECHECK_7",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-18 08:39:00+00:00",
+    "closed_at": "2025-03-18 08:40:00+00:00",
+    "net_r": -0.15833333333324448
+  },
+  {
+    "case_id": "RECHECK_7",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-18 08:39:00+00:00",
+    "closed_at": "2025-03-18 08:40:00+00:00",
+    "net_r": -0.15833333333324448
+  },
+  {
+    "case_id": "RECHECK_7",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-18 08:40:00+00:00",
+    "closed_at": "2025-03-18 10:26:00+00:00",
+    "net_r": -1.0499999999999297
+  },
+  {
+    "case_id": "RECHECK_8",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "FILL_BAR_STOP",
+    "filled_at": "2025-03-24 08:30:00+00:00",
+    "closed_at": "2025-03-24 08:31:00+00:00",
+    "net_r": -1.066666666666573
+  },
+  {
+    "case_id": "RECHECK_8",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "FILL_BAR_STOP",
+    "filled_at": "2025-03-24 08:30:00+00:00",
+    "closed_at": "2025-03-24 08:31:00+00:00",
+    "net_r": -1.066666666666573
+  },
+  {
+    "case_id": "RECHECK_8",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "FILL_BAR_STOP",
+    "filled_at": "2025-03-24 08:30:00+00:00",
+    "closed_at": "2025-03-24 08:31:00+00:00",
+    "net_r": -1.066666666666573
+  },
+  {
+    "case_id": "RECHECK_8",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "FILL_BAR_STOP",
+    "filled_at": "2025-03-24 08:30:00+00:00",
+    "closed_at": "2025-03-24 08:31:00+00:00",
+    "net_r": -1.066666666666573
+  },
+  {
+    "case_id": "RECHECK_9",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-03-25 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "RECHECK_9",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-03-25 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "RECHECK_9",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-03-25 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "RECHECK_9",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-03-25 12:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "RECHECK_10",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-26 09:05:00+00:00",
+    "closed_at": "2025-03-26 09:06:00+00:00",
+    "net_r": -0.26249999999996043
+  },
+  {
+    "case_id": "RECHECK_10",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-26 09:05:00+00:00",
+    "closed_at": "2025-03-26 09:06:00+00:00",
+    "net_r": -0.26249999999996043
+  },
+  {
+    "case_id": "RECHECK_10",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-26 09:05:00+00:00",
+    "closed_at": "2025-03-26 09:06:00+00:00",
+    "net_r": -0.26249999999996043
+  },
+  {
+    "case_id": "RECHECK_10",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-26 09:05:00+00:00",
+    "closed_at": "2025-03-26 09:06:00+00:00",
+    "net_r": -0.26249999999996043
+  },
+  {
+    "case_id": "RECHECK_11",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-28 08:37:00+00:00",
+    "closed_at": "2025-03-28 08:38:00+00:00",
+    "net_r": -0.05454545454517595
+  },
+  {
+    "case_id": "RECHECK_11",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-28 08:37:00+00:00",
+    "closed_at": "2025-03-28 08:38:00+00:00",
+    "net_r": -0.0818181818180849
+  },
+  {
+    "case_id": "RECHECK_11",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-28 08:37:00+00:00",
+    "closed_at": "2025-03-28 08:38:00+00:00",
+    "net_r": -0.11818181818155978
+  },
+  {
+    "case_id": "RECHECK_11",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-28 08:37:00+00:00",
+    "closed_at": "2025-03-28 08:38:00+00:00",
+    "net_r": -0.1727272727271758
+  },
+  {
+    "case_id": "RECHECK_12",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-31 07:32:00+00:00",
+    "closed_at": "2025-03-31 07:33:00+00:00",
+    "net_r": -0.1428571428570916
+  },
+  {
+    "case_id": "RECHECK_12",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-31 07:32:00+00:00",
+    "closed_at": "2025-03-31 07:33:00+00:00",
+    "net_r": -0.1642857142858024
+  },
+  {
+    "case_id": "RECHECK_12",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-31 07:32:00+00:00",
+    "closed_at": "2025-03-31 07:33:00+00:00",
+    "net_r": -0.19285714285709957
+  },
+  {
+    "case_id": "RECHECK_12",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-31 07:32:00+00:00",
+    "closed_at": "2025-03-31 07:33:00+00:00",
+    "net_r": -0.2357142857143625
+  },
+  {
+    "case_id": "RECHECK_13",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-06 08:37:00+00:00",
+    "closed_at": "2025-02-06 08:38:00+00:00",
+    "net_r": -0.12499999999985102
+  },
+  {
+    "case_id": "RECHECK_13",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-06 08:37:00+00:00",
+    "closed_at": "2025-02-06 08:38:00+00:00",
+    "net_r": -0.15000000000001293
+  },
+  {
+    "case_id": "RECHECK_13",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-06 08:37:00+00:00",
+    "closed_at": "2025-02-06 08:38:00+00:00",
+    "net_r": -0.18333333333319207
+  },
+  {
+    "case_id": "RECHECK_13",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-06 08:37:00+00:00",
+    "closed_at": "2025-02-06 08:38:00+00:00",
+    "net_r": -0.23333333333333084
+  },
+  {
+    "case_id": "RECHECK_14",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "closed_at": "2025-02-21 08:40:00+00:00",
+    "net_r": -1.066666666666573
+  },
+  {
+    "case_id": "RECHECK_14",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "closed_at": "2025-02-21 08:40:00+00:00",
+    "net_r": -1.066666666666573
+  },
+  {
+    "case_id": "RECHECK_14",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "closed_at": "2025-02-21 08:40:00+00:00",
+    "net_r": -1.066666666666573
+  },
+  {
+    "case_id": "RECHECK_14",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-21 08:30:00+00:00",
+    "closed_at": "2025-02-21 08:40:00+00:00",
+    "net_r": -1.066666666666573
+  },
+  {
+    "case_id": "RECHECK_15",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-12 09:03:00+00:00",
+    "closed_at": "2025-03-12 11:50:00+00:00",
+    "net_r": 0.933333333333305
+  },
+  {
+    "case_id": "RECHECK_15",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-12 09:14:00+00:00",
+    "closed_at": "2025-03-12 11:50:00+00:00",
+    "net_r": 0.933333333333305
+  },
+  {
+    "case_id": "RECHECK_15",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-12 09:14:00+00:00",
+    "closed_at": "2025-03-12 11:50:00+00:00",
+    "net_r": 0.933333333333305
+  },
+  {
+    "case_id": "RECHECK_15",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-12 09:14:00+00:00",
+    "closed_at": "2025-03-12 11:50:00+00:00",
+    "net_r": 0.933333333333305
+  },
+  {
+    "case_id": "RECHECK_16",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-13 08:31:00+00:00",
+    "closed_at": "2025-03-13 08:54:00+00:00",
+    "net_r": -1.0666666666665563
+  },
+  {
+    "case_id": "RECHECK_16",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-13 08:32:00+00:00",
+    "closed_at": "2025-03-13 08:33:00+00:00",
+    "net_r": -0.2888888888887238
+  },
+  {
+    "case_id": "RECHECK_16",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-13 08:32:00+00:00",
+    "closed_at": "2025-03-13 08:33:00+00:00",
+    "net_r": -0.2888888888887238
+  },
+  {
+    "case_id": "RECHECK_16",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-13 08:32:00+00:00",
+    "closed_at": "2025-03-13 08:33:00+00:00",
+    "net_r": -0.2888888888887238
+  },
+  {
+    "case_id": "RECHECK_17",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-11 08:46:00+00:00",
+    "closed_at": "2025-02-11 08:47:00+00:00",
+    "net_r": -0.0769090588235645
+  },
+  {
+    "case_id": "RECHECK_17",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-11 08:46:00+00:00",
+    "closed_at": "2025-02-11 08:47:00+00:00",
+    "net_r": -0.09455647058818875
+  },
+  {
+    "case_id": "RECHECK_17",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-11 08:46:00+00:00",
+    "closed_at": "2025-02-11 08:47:00+00:00",
+    "net_r": -0.11808635294107683
+  },
+  {
+    "case_id": "RECHECK_17",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-11 08:46:00+00:00",
+    "closed_at": "2025-02-11 08:47:00+00:00",
+    "net_r": -0.15338117647049251
+  },
+  {
+    "case_id": "RECHECK_18",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-24 08:49:00+00:00",
+    "closed_at": "2025-03-24 08:50:00+00:00",
+    "net_r": -0.13064169230766365
+  },
+  {
+    "case_id": "RECHECK_18",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-24 08:49:00+00:00",
+    "closed_at": "2025-03-24 08:50:00+00:00",
+    "net_r": -0.15371907692294062
+  },
+  {
+    "case_id": "RECHECK_18",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-24 08:49:00+00:00",
+    "closed_at": "2025-03-24 08:50:00+00:00",
+    "net_r": -0.18448892307671613
+  },
+  {
+    "case_id": "RECHECK_18",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-03-24 08:49:00+00:00",
+    "closed_at": "2025-03-24 08:50:00+00:00",
+    "net_r": -0.23064369230748874
+  },
+  {
+    "case_id": "RECHECK_19",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-27 08:53:00+00:00",
+    "closed_at": "2025-02-27 08:54:00+00:00",
+    "net_r": -0.153321428571279
+  },
+  {
+    "case_id": "RECHECK_19",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-27 08:53:00+00:00",
+    "closed_at": "2025-02-27 08:54:00+00:00",
+    "net_r": -0.19617942857156445
+  },
+  {
+    "case_id": "RECHECK_19",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-27 08:53:00+00:00",
+    "closed_at": "2025-02-27 08:54:00+00:00",
+    "net_r": -0.25332342857131074
+  },
+  {
+    "case_id": "RECHECK_19",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-27 08:53:00+00:00",
+    "closed_at": "2025-02-27 08:54:00+00:00",
+    "net_r": -0.33903942857156444
+  },
+  {
+    "case_id": "RECHECK_20",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-10 08:36:00+00:00",
+    "closed_at": "2025-02-10 09:47:00+00:00",
+    "net_r": 0.8589739999999736
+  },
+  {
+    "case_id": "RECHECK_20",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-10 08:36:00+00:00",
+    "closed_at": "2025-02-10 09:46:00+00:00",
+    "net_r": 0.8589739999999736
+  },
+  {
+    "case_id": "RECHECK_20",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-10 08:36:00+00:00",
+    "closed_at": "2025-02-10 09:37:00+00:00",
+    "net_r": 0.8589739999999736
+  },
+  {
+    "case_id": "RECHECK_20",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-02-10 08:36:00+00:00",
+    "closed_at": "2025-02-10 09:36:00+00:00",
+    "net_r": 0.8589739999999736
+  },
+  {
+    "case_id": "RECHECK_21",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-19 11:15:00+00:00",
+    "closed_at": "2025-02-19 11:16:00+00:00",
+    "net_r": -0.06340771929825013
+  },
+  {
+    "case_id": "RECHECK_21",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-19 11:15:00+00:00",
+    "closed_at": "2025-02-19 11:16:00+00:00",
+    "net_r": -0.11604035087715647
+  },
+  {
+    "case_id": "RECHECK_21",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-19 11:15:00+00:00",
+    "closed_at": "2025-02-19 11:16:00+00:00",
+    "net_r": -0.18621719298249484
+  },
+  {
+    "case_id": "RECHECK_21",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "REACTION_EXIT",
+    "filled_at": "2025-02-19 11:15:00+00:00",
+    "closed_at": "2025-02-19 11:16:00+00:00",
+    "net_r": -0.29148245614030754
+  },
+  {
+    "case_id": "RECHECK_22",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-06 08:36:00+00:00",
+    "closed_at": "2025-03-06 10:13:00+00:00",
+    "net_r": 0.9446732333333131
+  },
+  {
+    "case_id": "RECHECK_22",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-06 08:36:00+00:00",
+    "closed_at": "2025-03-06 10:13:00+00:00",
+    "net_r": 0.9446732333333131
+  },
+  {
+    "case_id": "RECHECK_22",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-06 08:36:00+00:00",
+    "closed_at": "2025-03-06 10:12:00+00:00",
+    "net_r": 0.9446732333333131
+  },
+  {
+    "case_id": "RECHECK_22",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-06 08:36:00+00:00",
+    "closed_at": "2025-03-06 10:12:00+00:00",
+    "net_r": 0.9446732333333131
+  },
+  {
+    "case_id": "RECHECK_23",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-18 08:30:00+00:00",
+    "closed_at": "2025-03-18 12:33:00+00:00",
+    "net_r": -1.0563314285714436
+  },
+  {
+    "case_id": "RECHECK_23",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-18 08:30:00+00:00",
+    "closed_at": "2025-03-18 12:33:00+00:00",
+    "net_r": -1.0563314285714436
+  },
+  {
+    "case_id": "RECHECK_23",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-18 08:30:00+00:00",
+    "closed_at": "2025-03-18 12:33:00+00:00",
+    "net_r": -1.0563314285714436
+  },
+  {
+    "case_id": "RECHECK_23",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "STOP_OR_BE_TRAIL",
+    "filled_at": "2025-03-18 08:30:00+00:00",
+    "closed_at": "2025-03-18 12:32:00+00:00",
+    "net_r": -1.0563314285714436
+  },
+  {
+    "case_id": "RECHECK_24",
+    "spread_pips": 0.2,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-03-31 11:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "RECHECK_24",
+    "spread_pips": 0.5,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-03-31 11:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "RECHECK_24",
+    "spread_pips": 0.9,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-03-31 11:00:00+00:00",
+    "net_r": 0.0
+  },
+  {
+    "case_id": "RECHECK_24",
+    "spread_pips": 1.5,
+    "status": "CLOSED",
+    "reason": "NO_FILL_DEADLINE",
+    "filled_at": null,
+    "closed_at": "2025-03-31 11:00:00+00:00",
+    "net_r": 0.0
+  }
+]

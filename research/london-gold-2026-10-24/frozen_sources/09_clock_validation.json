@@ -1,0 +1,81 @@
+{
+  "sources": [
+    {
+      "path": "C:\\Users\\piard\\Desktop\\MegalordProject\\audit\\daytrade-session-2026-10-22\\evidence\\twelvedata_EURUSD_15m.csv.gz",
+      "sha256": "a0d15c3b3a5e5ee6913a8678b21378a6c5ea8b86939b202c44f7abdfa89a2daf",
+      "rows": 19054,
+      "first": "2024-10-28 00:00:00+00:00",
+      "last": "2025-11-30 23:45:00+00:00",
+      "provenance": "Existing Begonya00 TwelveData export; independently re-matched here; original request envelope not available for FX"
+    },
+    {
+      "path": "C:\\Users\\piard\\Desktop\\MegalordProject\\audit\\daytrade-session-2026-10-22\\evidence\\twelvedata_QQQ_15m.csv.gz",
+      "sha256": "7ec06b5a62341d92db9eb66c930e39cd37d468c7b7c24be5c142b0c331a0fd2a",
+      "rows": 5012,
+      "first": "2024-10-28 13:30:00+00:00",
+      "last": "2025-11-28 17:45:00+00:00",
+      "provenance": "Existing Begonya00 TwelveData export; independently re-matched here; original request envelope not available for FX"
+    }
+  ],
+  "policy_scores": [
+    {
+      "symbol": "EURUSD",
+      "policy": "us_dst",
+      "n": 16597,
+      "return_corr": 0.9762541745066275
+    },
+    {
+      "symbol": "EURUSD",
+      "policy": "eu_dst",
+      "n": 16601,
+      "return_corr": 0.9595159879690007
+    },
+    {
+      "symbol": "EURUSD",
+      "policy": "raw_labels",
+      "n": 16482,
+      "return_corr": 0.0002915258591916642
+    },
+    {
+      "symbol": "NAS100",
+      "policy": "us_dst",
+      "n": 4397,
+      "return_corr": 0.9977862035953162
+    },
+    {
+      "symbol": "NAS100",
+      "policy": "eu_dst",
+      "n": 4397,
+      "return_corr": 0.9826508448602891
+    },
+    {
+      "symbol": "NAS100",
+      "policy": "raw_labels",
+      "n": 4392,
+      "return_corr": 0.052963744755196294
+    }
+  ],
+  "by_symbol": {
+    "EURUSD": {
+      "compared_dates": 177,
+      "strong_dates": 173,
+      "strong_us_matches": 173,
+      "strong_us_conflicts": 0,
+      "dst_disagreement_dates": 6,
+      "dst_disagreement_us_matches": 6,
+      "first": "2024-12-02",
+      "last": "2025-11-28"
+    },
+    "NAS100": {
+      "compared_dates": 168,
+      "strong_dates": 164,
+      "strong_us_matches": 164,
+      "strong_us_conflicts": 0,
+      "dst_disagreement_dates": 6,
+      "dst_disagreement_us_matches": 6,
+      "first": "2024-12-02",
+      "last": "2025-11-26"
+    }
+  },
+  "scope": "Price evidence validates sampled overlapping 2024-2025 dates; 2026 historical transitions remain extrapolated, not certified. No strategy PnL used to select a clock."
+}

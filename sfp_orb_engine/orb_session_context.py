@@ -41,6 +41,9 @@ def london_context(df,hourly,session,range_minutes,as_of,compression_limit=.7,at
     if f.empty:return None
     last=f.iloc[-1].datetime
     day=last.floor('D');start,orb_end,end=london_bounds(last.date(),session,range_minutes)
+    deadline=pd.Timestamp(f"{last.date()} {session.get('entry_cutoff_local',session['close_local'])}",tz=session['timezone']).tz_convert('UTC')
+    if not orb_end < deadline <= end:raise ValueError('London entry cutoff must follow range and precede session end')
+    if now>=deadline:return None
     if not (orb_end<=last<end):return None
     if now-last>pd.Timedelta(minutes=45):return None
     grid=pd.date_range(start,orb_end,freq='15min',inclusive='left')
@@ -58,4 +61,4 @@ def london_context(df,hourly,session,range_minutes,as_of,compression_limit=.7,at
     # The preceding close must be the immediately preceding completed M15.
     previous=post.iloc[-2] if len(post)>=2 else orb.iloc[-1]
     if last-previous.datetime!=pd.Timedelta(minutes=15):return None
-    return dict(orb=orb,post=post,start=start,end=orb_end,daily_atr=atr,asian_range=asian_range,ratio=asian_range/atr)
+    return dict(orb=orb,post=post,start=start,end=orb_end,entry_deadline=deadline,daily_atr=atr,asian_range=asian_range,ratio=asian_range/atr)

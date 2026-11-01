@@ -1,0 +1,461 @@
+[
+  {
+    "source": "ALL",
+    "spread_pips": 0.5,
+    "feature": "close_vs_entry",
+    "group": "NEGATIVE_CLOSE",
+    "n": 26,
+    "total_early_exit_benefit_r": 1.8300420985274648,
+    "mean_benefit_r": 0.07038623455874865,
+    "helped": 16,
+    "hurt": 10,
+    "mean_benefit_day95": [
+      -0.3516361905145208,
+      0.44680342810875234
+    ]
+  },
+  {
+    "source": "ALL",
+    "spread_pips": 0.5,
+    "feature": "close_vs_entry",
+    "group": "NONNEGATIVE_CLOSE",
+    "n": 1,
+    "total_early_exit_benefit_r": -0.9972222222222044,
+    "mean_benefit_r": -0.9972222222222044,
+    "helped": 0,
+    "hurt": 1,
+    "mean_benefit_day95": null
+  },
+  {
+    "source": "ALL",
+    "spread_pips": 0.5,
+    "feature": "wait",
+    "group": "GT15MIN",
+    "n": 8,
+    "total_early_exit_benefit_r": 3.0570408009506638,
+    "mean_benefit_r": 0.38213010011883297,
+    "helped": 6,
+    "hurt": 2,
+    "mean_benefit_day95": [
+      -0.16200504748215777,
+      0.8443858921568695
+    ]
+  },
+  {
+    "source": "ALL",
+    "spread_pips": 0.5,
+    "feature": "wait",
+    "group": "LE15MIN",
+    "n": 19,
+    "total_early_exit_benefit_r": -2.224220924645403,
+    "mean_benefit_r": -0.11706425919186332,
+    "helped": 10,
+    "hurt": 9,
+    "mean_benefit_day95": [
+      -0.6209147334056795,
+      0.3544061493678509
+    ]
+  },
+  {
+    "source": "ALL",
+    "spread_pips": 0.5,
+    "feature": "asia",
+    "group": "GT0_35",
+    "n": 5,
+    "total_early_exit_benefit_r": 0.5733056996339675,
+    "mean_benefit_r": 0.1146611399267935,
+    "helped": 3,
+    "hurt": 2,
+    "mean_benefit_day95": [
+      -0.49149999999992955,
+      0.7208222798535164
+    ]
+  },
+  {
+    "source": "ALL",
+    "spread_pips": 0.5,
+    "feature": "asia",
+    "group": "LE0_35",
+    "n": 22,
+    "total_early_exit_benefit_r": 0.25951417667129306,
+    "mean_benefit_r": 0.011796098939604231,
+    "helped": 13,
+    "hurt": 9,
+    "mean_benefit_day95": [
+      -0.4555203513784003,
+      0.4576547471121959
+    ]
+  },
+  {
+    "source": "ALL",
+    "spread_pips": 1.5,
+    "feature": "close_vs_entry",
+    "group": "NEGATIVE_CLOSE",
+    "n": 26,
+    "total_early_exit_benefit_r": 0.6971749199094059,
+    "mean_benefit_r": 0.026814419996515612,
+    "helped": 17,
+    "hurt": 9,
+    "mean_benefit_day95": [
+      -0.4030909759752059,
+      0.42788336850504105
+    ]
+  },
+  {
+    "source": "ALL",
+    "spread_pips": 1.5,
+    "feature": "wait",
+    "group": "GT15MIN",
+    "n": 10,
+    "total_early_exit_benefit_r": 0.44749937039887905,
+    "mean_benefit_r": 0.0447499370398879,
+    "helped": 7,
+    "hurt": 3,
+    "mean_benefit_day95": [
+      -0.6039196887221628,
+      0.6087185130748535
+    ]
+  },
+  {
+    "source": "ALL",
+    "spread_pips": 1.5,
+    "feature": "wait",
+    "group": "LE15MIN",
+    "n": 16,
+    "total_early_exit_benefit_r": 0.24967554951052684,
+    "mean_benefit_r": 0.015604721844407927,
+    "helped": 10,
+    "hurt": 6,
+    "mean_benefit_day95": [
+      -0.4995953437276204,
+      0.4870643977965403
+    ]
+  },
+  {
+    "source": "ALL",
+    "spread_pips": 1.5,
+    "feature": "asia",
+    "group": "GT0_35",
+    "n": 6,
+    "total_early_exit_benefit_r": -0.3628343724253011,
+    "mean_benefit_r": -0.060472395404216846,
+    "helped": 4,
+    "hurt": 2,
+    "mean_benefit_day95": [
+      -0.9658458015973342,
+      0.6623452820513488
+    ]
+  },
+  {
+    "source": "ALL",
+    "spread_pips": 1.5,
+    "feature": "asia",
+    "group": "LE0_35",
+    "n": 20,
+    "total_early_exit_benefit_r": 1.060009292334707,
+    "mean_benefit_r": 0.053000464616735354,
+    "helped": 13,
+    "hurt": 7,
+    "mean_benefit_day95": [
+      -0.4107879311527784,
+      0.4808628343007091
+    ]
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 0.5,
+    "feature": "close_vs_entry",
+    "group": "NEGATIVE_CLOSE",
+    "n": 13,
+    "total_early_exit_benefit_r": 2.935376423186625,
+    "mean_benefit_r": 0.22579818639897115,
+    "helped": 9,
+    "hurt": 4,
+    "mean_benefit_day95": [
+      -0.3130269907647886,
+      0.6741739904413114
+    ]
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 0.5,
+    "feature": "close_vs_entry",
+    "group": "NONNEGATIVE_CLOSE",
+    "n": 1,
+    "total_early_exit_benefit_r": -0.9972222222222044,
+    "mean_benefit_r": -0.9972222222222044,
+    "helped": 0,
+    "hurt": 1,
+    "mean_benefit_day95": null
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 0.5,
+    "feature": "wait",
+    "group": "GT15MIN",
+    "n": 5,
+    "total_early_exit_benefit_r": 1.8540805656564685,
+    "mean_benefit_r": 0.3708161131312937,
+    "helped": 4,
+    "hurt": 1,
+    "mean_benefit_day95": [
+      -0.3571666666666732,
+      0.893093890909071
+    ]
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 0.5,
+    "feature": "wait",
+    "group": "LE15MIN",
+    "n": 9,
+    "total_early_exit_benefit_r": 0.08407363530795231,
+    "mean_benefit_r": 0.009341515034216923,
+    "helped": 5,
+    "hurt": 4,
+    "mean_benefit_day95": [
+      -0.6529365079364677,
+      0.6505319912247267
+    ]
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 0.5,
+    "feature": "asia",
+    "group": "GT0_35",
+    "n": 4,
+    "total_early_exit_benefit_r": -0.334404761904706,
+    "mean_benefit_r": -0.0836011904761765,
+    "helped": 2,
+    "hurt": 2,
+    "mean_benefit_day95": null
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 0.5,
+    "feature": "asia",
+    "group": "LE0_35",
+    "n": 10,
+    "total_early_exit_benefit_r": 2.2725589628691267,
+    "mean_benefit_r": 0.22725589628691267,
+    "helped": 7,
+    "hurt": 3,
+    "mean_benefit_day95": [
+      -0.4278710878400765,
+      0.8306361377161844
+    ]
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 1.5,
+    "feature": "close_vs_entry",
+    "group": "NEGATIVE_CLOSE",
+    "n": 15,
+    "total_early_exit_benefit_r": -1.9926418887845403,
+    "mean_benefit_r": -0.13284279258563603,
+    "helped": 9,
+    "hurt": 6,
+    "mean_benefit_day95": [
+      -0.7152433595872981,
+      0.42247815920143417
+    ]
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 1.5,
+    "feature": "wait",
+    "group": "GT15MIN",
+    "n": 7,
+    "total_early_exit_benefit_r": -2.01885838123504,
+    "mean_benefit_r": -0.28840834017643424,
+    "helped": 4,
+    "hurt": 3,
+    "mean_benefit_day95": [
+      -1.0626400791078652,
+      0.4273431434301827
+    ]
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 1.5,
+    "feature": "wait",
+    "group": "LE15MIN",
+    "n": 8,
+    "total_early_exit_benefit_r": 0.026216492450499396,
+    "mean_benefit_r": 0.0032770615563124245,
+    "helped": 5,
+    "hurt": 3,
+    "mean_benefit_day95": [
+      -0.7201190476190537,
+      0.5843782520325242
+    ]
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 1.5,
+    "feature": "asia",
+    "group": "GT0_35",
+    "n": 5,
+    "total_early_exit_benefit_r": -1.1936202185794265,
+    "mean_benefit_r": -0.2387240437158853,
+    "helped": 3,
+    "hurt": 2,
+    "mean_benefit_day95": [
+      -1.241005464480933,
+      0.595833333333318
+    ]
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 1.5,
+    "feature": "asia",
+    "group": "LE0_35",
+    "n": 10,
+    "total_early_exit_benefit_r": -0.7990216702051138,
+    "mean_benefit_r": -0.07990216702051138,
+    "helped": 6,
+    "hurt": 4,
+    "mean_benefit_day95": [
+      -0.7133685309049457,
+      0.5285321822638329
+    ]
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 0.5,
+    "feature": "close_vs_entry",
+    "group": "NEGATIVE_CLOSE",
+    "n": 13,
+    "total_early_exit_benefit_r": -1.1053343246591603,
+    "mean_benefit_r": -0.08502571728147387,
+    "helped": 7,
+    "hurt": 6,
+    "mean_benefit_day95": [
+      -0.6958018250468089,
+      0.5115273395549752
+    ]
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 0.5,
+    "feature": "wait",
+    "group": "GT15MIN",
+    "n": 3,
+    "total_early_exit_benefit_r": 1.2029602352941953,
+    "mean_benefit_r": 0.4009867450980651,
+    "helped": 2,
+    "hurt": 1,
+    "mean_benefit_day95": null
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 0.5,
+    "feature": "wait",
+    "group": "LE15MIN",
+    "n": 10,
+    "total_early_exit_benefit_r": -2.3082945599533553,
+    "mean_benefit_r": -0.23082945599533553,
+    "helped": 5,
+    "hurt": 5,
+    "mean_benefit_day95": [
+      -0.9503510582100263,
+      0.46688743460285326
+    ]
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 0.5,
+    "feature": "asia",
+    "group": "GT0_35",
+    "n": 1,
+    "total_early_exit_benefit_r": 0.9077104615386735,
+    "mean_benefit_r": 0.9077104615386735,
+    "helped": 1,
+    "hurt": 0,
+    "mean_benefit_day95": null
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 0.5,
+    "feature": "asia",
+    "group": "LE0_35",
+    "n": 12,
+    "total_early_exit_benefit_r": -2.013044786197834,
+    "mean_benefit_r": -0.16775373218315281,
+    "helped": 6,
+    "hurt": 6,
+    "mean_benefit_day95": [
+      -0.7977126639000659,
+      0.44777680499240147
+    ]
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 1.5,
+    "feature": "close_vs_entry",
+    "group": "NEGATIVE_CLOSE",
+    "n": 11,
+    "total_early_exit_benefit_r": 2.689816808693946,
+    "mean_benefit_r": 0.24452880079035874,
+    "helped": 8,
+    "hurt": 3,
+    "mean_benefit_day95": [
+      -0.3546701068776004,
+      0.796082812674075
+    ]
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 1.5,
+    "feature": "wait",
+    "group": "GT15MIN",
+    "n": 3,
+    "total_early_exit_benefit_r": 2.466357751633919,
+    "mean_benefit_r": 0.8221192505446396,
+    "helped": 3,
+    "hurt": 0,
+    "mean_benefit_day95": null
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 1.5,
+    "feature": "wait",
+    "group": "LE15MIN",
+    "n": 8,
+    "total_early_exit_benefit_r": 0.22345905706002744,
+    "mean_benefit_r": 0.02793238213250343,
+    "helped": 5,
+    "hurt": 3,
+    "mean_benefit_day95": [
+      -0.7222954715432562,
+      0.6301075662267317
+    ]
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 1.5,
+    "feature": "asia",
+    "group": "GT0_35",
+    "n": 1,
+    "total_early_exit_benefit_r": 0.8307858461541254,
+    "mean_benefit_r": 0.8307858461541254,
+    "helped": 1,
+    "hurt": 0,
+    "mean_benefit_day95": null
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 1.5,
+    "feature": "asia",
+    "group": "LE0_35",
+    "n": 10,
+    "total_early_exit_benefit_r": 1.859030962539821,
+    "mean_benefit_r": 0.1859030962539821,
+    "helped": 7,
+    "hurt": 3,
+    "mean_benefit_day95": [
+      -0.456291808796466,
+      0.7852481744616218
+    ]
+  }
+]

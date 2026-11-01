@@ -425,6 +425,9 @@ class SFPDetector:
         from . import config
         if len(df) < 30:
             return None
+        required_cols = {"high", "low", "open", "close"}
+        if not required_cols.issubset(df.columns):
+            return None
         expected = {"BULLISH": "LONG", "BEARISH": "SHORT"}.get(htf_trend)
         if config.REQUIRE_PRO_TREND_AAA and expected is None:
             return None
@@ -478,7 +481,7 @@ class SFPDetector:
                     sign = 1 if long else -1
                     return {
                         "strategy": "SFP_IFVG_BREAKER", "setup_type": "CONFIRMED_SFP",
-                        "symbol": symbol, "direction": direction, "grade": "AAA",
+                        "symbol": symbol, "direction": direction, "grade": ("AAA" if expected else "A+"),
                         "timeframe": "15m", "datetime": df.iloc[i].datetime,
                         "htf_trend": htf_trend, "trend_alignment": "PRO_TREND" if expected else "NEUTRAL",
                         "entry": entry, "stop_loss": sl, "risk_pips": risk,

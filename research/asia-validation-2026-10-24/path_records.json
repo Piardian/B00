@@ -1,0 +1,291 @@
+[
+  {
+    "candidate_id": 0,
+    "symbol": "EURUSD",
+    "day": "2025-02-06",
+    "actual_modeled_exit": "STOP_OR_BE_TRAIL",
+    "actual_modeled_net_r": -1.0545454545453667,
+    "initial_path": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-02-06 15:20:00+00:00"
+    },
+    "after_reaction_exit": null
+  },
+  {
+    "candidate_id": 1,
+    "symbol": "EURUSD",
+    "day": "2025-02-10",
+    "actual_modeled_exit": "REACTION_EXIT",
+    "actual_modeled_net_r": -0.17499999999985838,
+    "initial_path": {
+      "label": "TP1_FIRST",
+      "at": "2025-02-10 08:56:00+00:00"
+    },
+    "after_reaction_exit": {
+      "label": "TP1_FIRST",
+      "at": "2025-02-10 08:56:00+00:00"
+    }
+  },
+  {
+    "candidate_id": 2,
+    "symbol": "EURUSD",
+    "day": "2025-02-14",
+    "actual_modeled_exit": "REACTION_EXIT",
+    "actual_modeled_net_r": -0.0888888888889212,
+    "initial_path": {
+      "label": "TP1_FIRST",
+      "at": "2025-02-14 09:26:00+00:00"
+    },
+    "after_reaction_exit": {
+      "label": "TP1_FIRST",
+      "at": "2025-02-14 09:26:00+00:00"
+    }
+  },
+  {
+    "candidate_id": 3,
+    "symbol": "EURUSD",
+    "day": "2025-02-17",
+    "actual_modeled_exit": "STOP_OR_BE_TRAIL",
+    "actual_modeled_net_r": -1.085714285714165,
+    "initial_path": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-02-17 09:26:00+00:00"
+    },
+    "after_reaction_exit": null
+  },
+  {
+    "candidate_id": 4,
+    "symbol": "EURUSD",
+    "day": "2025-02-20",
+    "actual_modeled_exit": "STOP_OR_BE_TRAIL",
+    "actual_modeled_net_r": -1.085714285714138,
+    "initial_path": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-02-20 09:20:00+00:00"
+    },
+    "after_reaction_exit": null
+  },
+  {
+    "candidate_id": 5,
+    "symbol": "EURUSD",
+    "day": "2025-02-21",
+    "actual_modeled_exit": "STOP_OR_BE_TRAIL",
+    "actual_modeled_net_r": 0.9519230769232144,
+    "initial_path": {
+      "label": "TP1_FIRST",
+      "at": "2025-02-21 11:01:00+00:00"
+    },
+    "after_reaction_exit": null
+  },
+  {
+    "candidate_id": 6,
+    "symbol": "EURUSD",
+    "day": "2025-03-03",
+    "actual_modeled_exit": "REACTION_EXIT",
+    "actual_modeled_net_r": -0.21666666666656298,
+    "initial_path": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-03-03 09:02:00+00:00"
+    },
+    "after_reaction_exit": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-03-03 09:02:00+00:00"
+    }
+  },
+  {
+    "candidate_id": 7,
+    "symbol": "EURUSD",
+    "day": "2025-03-18",
+    "actual_modeled_exit": "REACTION_EXIT",
+    "actual_modeled_net_r": -0.15833333333324448,
+    "initial_path": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-03-18 10:25:00+00:00"
+    },
+    "after_reaction_exit": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-03-18 10:25:00+00:00"
+    }
+  },
+  {
+    "candidate_id": 8,
+    "symbol": "EURUSD",
+    "day": "2025-03-24",
+    "actual_modeled_exit": "FILL_BAR_STOP",
+    "actual_modeled_net_r": -1.066666666666573,
+    "initial_path": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-03-24 08:30:00+00:00",
+      "fill_bar_conservative": true
+    },
+    "after_reaction_exit": null
+  },
+  {
+    "candidate_id": 10,
+    "symbol": "EURUSD",
+    "day": "2025-03-26",
+    "actual_modeled_exit": "REACTION_EXIT",
+    "actual_modeled_net_r": -0.26249999999996043,
+    "initial_path": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-03-26 10:34:00+00:00"
+    },
+    "after_reaction_exit": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-03-26 10:34:00+00:00"
+    }
+  },
+  {
+    "candidate_id": 11,
+    "symbol": "EURUSD",
+    "day": "2025-03-28",
+    "actual_modeled_exit": "REACTION_EXIT",
+    "actual_modeled_net_r": -0.0818181818180849,
+    "initial_path": {
+      "label": "TP1_FIRST",
+      "at": "2025-03-28 10:06:00+00:00"
+    },
+    "after_reaction_exit": {
+      "label": "TP1_FIRST",
+      "at": "2025-03-28 10:06:00+00:00"
+    }
+  },
+  {
+    "candidate_id": 12,
+    "symbol": "EURUSD",
+    "day": "2025-03-31",
+    "actual_modeled_exit": "REACTION_EXIT",
+    "actual_modeled_net_r": -0.1642857142858024,
+    "initial_path": {
+      "label": "TP1_FIRST",
+      "at": "2025-03-31 10:08:00+00:00"
+    },
+    "after_reaction_exit": {
+      "label": "TP1_FIRST",
+      "at": "2025-03-31 10:08:00+00:00"
+    }
+  },
+  {
+    "candidate_id": 13,
+    "symbol": "GBPUSD",
+    "day": "2025-02-06",
+    "actual_modeled_exit": "REACTION_EXIT",
+    "actual_modeled_net_r": -0.15000000000001293,
+    "initial_path": {
+      "label": "TP1_FIRST",
+      "at": "2025-02-06 08:52:00+00:00"
+    },
+    "after_reaction_exit": {
+      "label": "TP1_FIRST",
+      "at": "2025-02-06 08:52:00+00:00"
+    }
+  },
+  {
+    "candidate_id": 14,
+    "symbol": "GBPUSD",
+    "day": "2025-02-21",
+    "actual_modeled_exit": "STOP_OR_BE_TRAIL",
+    "actual_modeled_net_r": -1.066666666666573,
+    "initial_path": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-02-21 08:39:00+00:00"
+    },
+    "after_reaction_exit": null
+  },
+  {
+    "candidate_id": 15,
+    "symbol": "GBPUSD",
+    "day": "2025-03-12",
+    "actual_modeled_exit": "STOP_OR_BE_TRAIL",
+    "actual_modeled_net_r": 0.933333333333305,
+    "initial_path": {
+      "label": "TP1_FIRST",
+      "at": "2025-03-12 11:19:00+00:00"
+    },
+    "after_reaction_exit": null
+  },
+  {
+    "candidate_id": 16,
+    "symbol": "GBPUSD",
+    "day": "2025-03-13",
+    "actual_modeled_exit": "REACTION_EXIT",
+    "actual_modeled_net_r": -0.2888888888887238,
+    "initial_path": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-03-13 08:53:00+00:00"
+    },
+    "after_reaction_exit": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-03-13 08:53:00+00:00"
+    }
+  },
+  {
+    "candidate_id": 17,
+    "symbol": "USDJPY",
+    "day": "2025-02-11",
+    "actual_modeled_exit": "REACTION_EXIT",
+    "actual_modeled_net_r": -0.09455647058818875,
+    "initial_path": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-02-11 10:10:00+00:00"
+    },
+    "after_reaction_exit": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-02-11 10:10:00+00:00"
+    }
+  },
+  {
+    "candidate_id": 19,
+    "symbol": "USDCAD",
+    "day": "2025-02-27",
+    "actual_modeled_exit": "REACTION_EXIT",
+    "actual_modeled_net_r": -0.19617942857156445,
+    "initial_path": {
+      "label": "TP1_FIRST",
+      "at": "2025-02-27 09:14:00+00:00"
+    },
+    "after_reaction_exit": {
+      "label": "TP1_FIRST",
+      "at": "2025-02-27 09:14:00+00:00"
+    }
+  },
+  {
+    "candidate_id": 20,
+    "symbol": "USDCHF",
+    "day": "2025-02-10",
+    "actual_modeled_exit": "STOP_OR_BE_TRAIL",
+    "actual_modeled_net_r": 0.8589739999999736,
+    "initial_path": {
+      "label": "TP1_FIRST",
+      "at": "2025-02-10 09:03:00+00:00"
+    },
+    "after_reaction_exit": null
+  },
+  {
+    "candidate_id": 21,
+    "symbol": "USDCHF",
+    "day": "2025-02-19",
+    "actual_modeled_exit": "REACTION_EXIT",
+    "actual_modeled_net_r": -0.11604035087715647,
+    "initial_path": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-02-19 11:51:00+00:00"
+    },
+    "after_reaction_exit": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-02-19 11:51:00+00:00"
+    }
+  },
+  {
+    "candidate_id": 23,
+    "symbol": "USDCHF",
+    "day": "2025-03-18",
+    "actual_modeled_exit": "STOP_OR_BE_TRAIL",
+    "actual_modeled_net_r": -1.0563314285714436,
+    "initial_path": {
+      "label": "INITIAL_STOP_FIRST",
+      "at": "2025-03-18 12:32:00+00:00"
+    },
+    "after_reaction_exit": null
+  }
+]

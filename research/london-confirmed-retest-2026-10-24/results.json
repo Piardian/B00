@@ -1,0 +1,277 @@
+{
+  "complete_coverage": false,
+  "results": {
+    "primary": {
+      "OBSERVED_QUOTES_1x": {
+        "fills": 200,
+        "net_r": -5.171855797028325,
+        "pf": 0.9589611481705715,
+        "by_month": {
+          "2025-02": 7.5111724290350805,
+          "2025-03": 19.638768931084677,
+          "2025-04": 6.368081383866956,
+          "2025-05": -2.428482636844831,
+          "2025-09": -24.79912819463317,
+          "2025-10": -11.462267709537034
+        },
+        "block_total_ci95": [
+          -57.355178587931455,
+          44.88829943433479
+        ],
+        "paired_delta_net_r": -13.950620058184652,
+        "paired_delta_ci95": [
+          -41.91799958892299,
+          12.980811368011498
+        ],
+        "baseline_net_r": 8.778764261156322,
+        "statuses": {
+          "CLOSED": 200,
+          "NO_COMPLETED_BREAKOUT": 49,
+          "INVALIDATED_BEFORE_ENTRY": 25,
+          "NO_RETEST": 11,
+          "BLOCKED_ENTRY_COVERAGE": 2,
+          "DOJI_OR_INVALID_RANGE": 1,
+          "NO_CONFIRMATION_BEFORE_NOON": 1
+        }
+      },
+      "COST_STRESS_1.5x": {
+        "fills": 200,
+        "net_r": -9.12128271730711,
+        "pf": 0.9290164221444025,
+        "by_month": {
+          "2025-02": 7.123189485102442,
+          "2025-03": 18.9051955143942,
+          "2025-04": 5.999127536067622,
+          "2025-05": -2.752975061317521,
+          "2025-09": -25.827179178559685,
+          "2025-10": -12.568641012994163
+        },
+        "block_total_ci95": [
+          -62.08504880781808,
+          41.010052764284765
+        ],
+        "paired_delta_net_r": -3.7477745311389583,
+        "paired_delta_ci95": [
+          -32.19721233883723,
+          23.89740821957657
+        ],
+        "baseline_net_r": -5.373508186168149,
+        "statuses": {
+          "CLOSED": 200,
+          "NO_COMPLETED_BREAKOUT": 49,
+          "INVALIDATED_BEFORE_ENTRY": 25,
+          "NO_RETEST": 11,
+          "BLOCKED_ENTRY_COVERAGE": 2,
+          "DOJI_OR_INVALID_RANGE": 1,
+          "NO_CONFIRMATION_BEFORE_NOON": 1
+        }
+      },
+      "COST_STRESS_2x": {
+        "fills": 200,
+        "net_r": -12.979300215789515,
+        "pf": 0.9008667365724271,
+        "by_month": {
+          "2025-02": 6.744400169150105,
+          "2025-03": 18.190279929836432,
+          "2025-04": 5.635957378361948,
+          "2025-05": -3.072071438672699,
+          "2025-09": -26.828952380598867,
+          "2025-10": -13.648913873866436
+        },
+        "block_total_ci95": [
+          -66.48038522025257,
+          37.523679504085045
+        ],
+        "paired_delta_net_r": 0.30665954992915445,
+        "paired_delta_ci95": [
+          -26.83254942302285,
+          27.4906682636859
+        ],
+        "baseline_net_r": -13.285959765718665,
+        "statuses": {
+          "CLOSED": 200,
+          "NO_COMPLETED_BREAKOUT": 49,
+          "INVALIDATED_BEFORE_ENTRY": 25,
+          "NO_RETEST": 11,
+          "BLOCKED_ENTRY_COVERAGE": 2,
+          "DOJI_OR_INVALID_RANGE": 1,
+          "NO_CONFIRMATION_BEFORE_NOON": 1
+        }
+      },
+      "MIN_SPREAD_1PIP": {
+        "fills": 200,
+        "net_r": -12.012070666476328,
+        "pf": 0.9059536315310063,
+        "by_month": {
+          "2025-02": 7.2488019979914835,
+          "2025-03": 16.60677677297347,
+          "2025-04": 6.2040146665014815,
+          "2025-05": -5.651011587068389,
+          "2025-09": -24.841254625564275,
+          "2025-10": -11.579397891310094
+        },
+        "block_total_ci95": [
+          -63.02006702276534,
+          37.836025576616606
+        ],
+        "paired_delta_net_r": 10.807473028369497,
+        "paired_delta_ci95": [
+          -15.883136398457593,
+          37.72808354464245
+        ],
+        "baseline_net_r": -22.819543694845827,
+        "statuses": {
+          "CLOSED": 200,
+          "NO_COMPLETED_BREAKOUT": 49,
+          "INVALIDATED_BEFORE_ENTRY": 25,
+          "NO_RETEST": 11,
+          "BLOCKED_ENTRY_COVERAGE": 2,
+          "DOJI_OR_INVALID_RANGE": 1,
+          "NO_CONFIRMATION_BEFORE_NOON": 1
+        }
+      }
+    },
+    "control": {
+      "OBSERVED_QUOTES_1x": {
+        "fills": 548,
+        "net_r": -82.74778570705678,
+        "pf": 0.7817816173841585,
+        "by_month": {
+          "2025-02": -6.436795770519178,
+          "2025-03": 16.9604670200955,
+          "2025-04": -13.00191837130433,
+          "2025-05": -22.412966699111227,
+          "2025-09": -35.555313887824475,
+          "2025-10": -22.301257998393076
+        },
+        "block_total_ci95": [
+          -155.67899437584785,
+          -11.00487858955634
+        ],
+        "paired_delta_net_r": -15.885908936127924,
+        "paired_delta_ci95": [
+          -63.03784891366222,
+          31.459782599613394
+        ],
+        "baseline_net_r": -66.86187677092886,
+        "statuses": {
+          "CLOSED": 548,
+          "NO_COMPLETED_BREAKOUT": 112,
+          "INVALIDATED_BEFORE_ENTRY": 78,
+          "NO_RETEST": 34,
+          "DOJI_OR_INVALID_RANGE": 4,
+          "NO_CONFIRMATION_BEFORE_NOON": 2,
+          "BLOCKED_ENTRY_COVERAGE": 2
+        }
+      },
+      "COST_STRESS_1.5x": {
+        "fills": 548,
+        "net_r": -100.73753842195211,
+        "pf": 0.741704923115435,
+        "by_month": {
+          "2025-02": -9.252233120641058,
+          "2025-03": 15.025054093534933,
+          "2025-04": -15.603433408862315,
+          "2025-05": -24.020793684857825,
+          "2025-09": -38.134863298796915,
+          "2025-10": -28.75126900232893
+        },
+        "block_total_ci95": [
+          -175.9194448668797,
+          -26.445722462636894
+        ],
+        "paired_delta_net_r": -4.139035549378502,
+        "paired_delta_ci95": [
+          -51.96155552485753,
+          43.4664028512753
+        ],
+        "baseline_net_r": -96.59850287257362,
+        "statuses": {
+          "CLOSED": 548,
+          "NO_COMPLETED_BREAKOUT": 112,
+          "INVALIDATED_BEFORE_ENTRY": 78,
+          "NO_RETEST": 34,
+          "DOJI_OR_INVALID_RANGE": 4,
+          "NO_CONFIRMATION_BEFORE_NOON": 2,
+          "BLOCKED_ENTRY_COVERAGE": 2
+        }
+      },
+      "COST_STRESS_2x": {
+        "fills": 548,
+        "net_r": -114.39602146768769,
+        "pf": 0.7137395698525063,
+        "by_month": {
+          "2025-02": -12.002894908020233,
+          "2025-03": 13.139801981795884,
+          "2025-04": -17.2170993755282,
+          "2025-05": -25.59876923057083,
+          "2025-09": -40.64399111360143,
+          "2025-10": -32.073068821762874
+        },
+        "block_total_ci95": [
+          -190.55025169782567,
+          -39.378350809897086
+        ],
+        "paired_delta_net_r": 11.248268235704181,
+        "paired_delta_ci95": [
+          -37.37265105641204,
+          58.46513055331245
+        ],
+        "baseline_net_r": -125.64428970339188,
+        "statuses": {
+          "CLOSED": 548,
+          "NO_COMPLETED_BREAKOUT": 112,
+          "INVALIDATED_BEFORE_ENTRY": 78,
+          "NO_RETEST": 34,
+          "DOJI_OR_INVALID_RANGE": 4,
+          "NO_CONFIRMATION_BEFORE_NOON": 2,
+          "BLOCKED_ENTRY_COVERAGE": 2
+        }
+      },
+      "MIN_SPREAD_1PIP": {
+        "fills": 548,
+        "net_r": -111.14847959144902,
+        "pf": 0.7128720831958322,
+        "by_month": {
+          "2025-02": -10.4561792053788,
+          "2025-03": 14.017215133283306,
+          "2025-04": -17.78147604199194,
+          "2025-05": -29.107194472052292,
+          "2025-09": -41.51514907114427,
+          "2025-10": -26.305695934165016
+        },
+        "block_total_ci95": [
+          -184.7038280104856,
+          -36.99408433980605
+        ],
+        "paired_delta_net_r": 17.5082038459517,
+        "paired_delta_ci95": [
+          -32.459563778385935,
+          64.78889865850051
+        ],
+        "baseline_net_r": -128.65668343740072,
+        "statuses": {
+          "CLOSED": 548,
+          "NO_COMPLETED_BREAKOUT": 112,
+          "INVALIDATED_BEFORE_ENTRY": 78,
+          "NO_RETEST": 34,
+          "DOJI_OR_INVALID_RANGE": 4,
+          "NO_CONFIRMATION_BEFORE_NOON": 2,
+          "BLOCKED_ENTRY_COVERAGE": 2
+        }
+      }
+    }
+  },
+  "gate": {
+    "passed": false,
+    "checks": {
+      "complete_coverage": false,
+      "at_least_100_primary_fills": true,
+      "positive_1_5x": false,
+      "positive_2x": false,
+      "positive_min_1pip": false,
+      "stressed_ci_lower_positive": false
+    }
+  },
+  "live_approved": false
+}

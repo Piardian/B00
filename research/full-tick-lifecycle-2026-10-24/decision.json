@@ -1,0 +1,49 @@
+{
+  "status": "STOP_THIS_ORB_PARAMETER_SWEEP",
+  "demo_candidates": [],
+  "demo_started": false,
+  "live_approved": false,
+  "research_scope": "Only frozen early-limit London ORB setup/lifecycle; not entire Begonya00/SFP/macro portfolio",
+  "action": "Stop TTL/TP/SL sweeps on this frozen branch; preserve artifacts, no production change or project deletion",
+  "screen": {
+    "REFERENCE_240": {
+      "passed": false,
+      "gates": {
+        "no_unresolved": true,
+        "at_least50closedfills": true,
+        "observed_mean_day95_lower_positive": false,
+        "positive_total_OBSERVED_QUOTES": false,
+        "positive_without_marketable_OBSERVED_QUOTES": false,
+        "both_periods_positive_OBSERVED_QUOTES": false,
+        "positive_total_COST_STRESS_1_5X": false,
+        "positive_without_marketable_COST_STRESS_1_5X": false,
+        "both_periods_positive_COST_STRESS_1_5X": false,
+        "positive_total_SPREAD_FLOOR_1PIP": false,
+        "positive_without_marketable_SPREAD_FLOOR_1PIP": false,
+        "both_periods_positive_SPREAD_FLOOR_1PIP": false,
+        "at_least4of6positive_months_OBSERVED_QUOTES": false,
+        "at_least4of6positive_months_COST_STRESS_1_5X": false
+      }
+    },
+    "TTL_15": {
+      "passed": false,
+      "gates": {
+        "no_unresolved": true,
+        "at_least50closedfills": true,
+        "observed_mean_day95_lower_positive": false,
+        "positive_total_OBSERVED_QUOTES": false,
+        "positive_without_marketable_OBSERVED_QUOTES": false,
+        "both_periods_positive_OBSERVED_QUOTES": false,
+        "positive_total_COST_STRESS_1_5X": false,
+        "positive_without_marketable_COST_STRESS_1_5X": false,
+        "both_periods_positive_COST_STRESS_1_5X": false,
+        "positive_total_SPREAD_FLOOR_1PIP": false,
+        "positive_without_marketable_SPREAD_FLOOR_1PIP": false,
+        "both_periods_positive_SPREAD_FLOOR_1PIP": false,
+        "at_least4of6positive_months_OBSERVED_QUOTES": false,
+        "at_least4of6positive_months_COST_STRESS_1_5X": false
+      }
+    }
+  },
+  "caveat": "Historic quote-based simulation, configured commission/slip, no actual fill receipts, macro/news/shared portfolio omitted, previously seen data."
+}

@@ -169,15 +169,24 @@ class MacroEventScheduler:
         today_str = datetime.datetime.now().strftime("%Y-%m-%d")
         state = self._load_state()
         if not force and state.get("last_morning_briefing_date") == today_str:
-            logger.info(f"ℹ️ [SABAH BÜLTENİ] Bugünün ({today_str}) bülteni zaten gönderilmiş veya işlemde. Mükerrer gönderim engellendi.")
+            logger.info(f"ℹ️ [SABAH BÜLTENİ] Bugünün ({today_str}) bülteni başarıyla gönderilmiş. Mükerrer gönderim engellendi.")
             return True
+
+        # Geçici bir analiz/TG arızasında pahalı pipeline'ı her 30 saniyede bir
+        # yeniden çalıştırma. Başarısız denemeyi teslim edilmiş saymadan 15 dakika
+        # sonra yeniden dene.
+        last_attempt = float(state.get("last_morning_briefing_attempt_timestamp", 0.0) or 0.0)
+        if not force and last_attempt and (time.time() - last_attempt) < 900:
+            return False
 
         if not ENABLE_MACRO_TELEGRAM_NOTIFICATIONS:
             logger.info("🔕 [SABAH BÜLTENİ] Sabah bülteni Telegram bildirimleri kapalı. Telegram gönderimi atlandı.")
             state = self._load_state()
-            state["last_morning_briefing_date"] = today_str
+            state["last_morning_briefing_attempt_timestamp"] = time.time()
+            state["last_morning_briefing_status"] = "DISABLED_NOT_SENT"
+            state["last_morning_briefing_error"] = "ENABLE_MACRO_TELEGRAM_NOTIFICATIONS=false"
             self._save_state(state)
-            return True
+            return False
 
         lock_path = self.state_file.parent / "morning_briefing.lock"
         if not self._acquire_file_lock(lock_path, max_age_seconds=900):
@@ -189,10 +198,12 @@ class MacroEventScheduler:
             self._release_file_lock(lock_path)
             return False
 
-        # ÖNLEYİCİ KİLİT: Başlatıldığı an bugünün tarihini derhal kaydet.
-        # Bu sayede analizin süresi boyunca başka hiçbir işlem araya giremez.
+        # Kilitler eşzamanlı çalışmayı engeller. Tarih yalnızca Telegram teslimatı
+        # gerçekten başarılı olduktan sonra yazılır.
         state = self._load_state()
-        state["last_morning_briefing_date"] = today_str
+        state["last_morning_briefing_attempt_timestamp"] = time.time()
+        state["last_morning_briefing_status"] = "PROCESSING"
+        state["last_morning_briefing_error"] = None
         self._save_state(state)
 
         try:
@@ -206,12 +217,24 @@ class MacroEventScheduler:
             
             msg = format_morning_briefing(result, events)
             sent = send_telegram_message(msg)
+            state = self._load_state()
             if sent:
+                state["last_morning_briefing_date"] = today_str
+                state["last_morning_briefing_status"] = "SENT"
+                state["last_morning_briefing_success_timestamp"] = time.time()
+                state["last_morning_briefing_error"] = None
                 logger.info("☀️ [SABAH BÜLTENİ] Telegram Sabah Makro Bülteni Başarıyla Gönderildi!")
             else:
-                logger.warning("⚠️ [SABAH BÜLTENİ] Telegram bülteni gönderiminde kısmi veya tam aksaklık oldu. Mükerrer fırtınayı önlemek için tarih kilidi korunuyor.")
+                state["last_morning_briefing_status"] = "FAILED_RETRY_PENDING"
+                state["last_morning_briefing_error"] = "Telegram teslimatı başarısız"
+                logger.warning("⚠️ [SABAH BÜLTENİ] Telegram bülteni gönderilemedi. Teslim edilmiş sayılmadı; 15 dakika sonra yeniden denenecek.")
+            self._save_state(state)
             return sent
         except Exception as e:
+            state = self._load_state()
+            state["last_morning_briefing_status"] = "FAILED_RETRY_PENDING"
+            state["last_morning_briefing_error"] = str(e)[:500]
+            self._save_state(state)
             logger.error(f"❌ [SABAH BÜLTENİ] Beklenmeyen hata oluştu: {e}", exc_info=True)
             return False
         finally:

@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-24 11:13:54.642928+00:00",
+  "status": "UNIT_TESTED_GEOMETRY_ONLY_NOT_REPLAYED",
+  "source_hashes": {
+    "research\\sfp-ifvg-ablation-2026-10-24\\signals.json": "899f22c9dd793f872bccb742581c293f2bfa78ea23ef8f7ffe6bb3a27a25e2eb",
+    "research\\sfp-ifvg-ablation-2026-10-24\\protocol.json": "4e1112460e2438dc8fee246a685a4294c3cf84ee2ec3894411890a77e0f72d6c",
+    "research\\sfp-ifvg-ablation-2026-10-24\\summary.json": "b6e5039a3dbdd98baff452530a7f95d0a270569857eee6039d81271fe86805de",
+    "research\\sfp-ifvg-ablation-2026-10-24\\quote_manifest_0_frozen.json": "df2e1c157c373babc31de34a1f652fad510440485639d963b197175e2a9a6392",
+    "research\\london-gold-2026-10-24\\cost_evidence.json": "96a2711bbb5c725884afa65aceb5509a28fae39181cab49447f75eb8a1dfad63"
+  },
+  "code_hashes": {
+    "prepare.py": "21886f7e4d7f65758106102286a25ed160eb54ddb4ea763f9f5f81bbcb5cb217",
+    "price_grid.py": "c94d7ab4e3ffe03223029f41bf6aae077418611594a8fb60aa6472a3ce347b48",
+    "test_price_grid.py": "ffcad7a6d467c64e1a94fbf3602d7d81998787121beab428c944d63df1417cfd"
+  },
+  "steps": {
+    "EURUSD": 1e-05,
+    "GBPUSD": 1e-05,
+    "XAUUSD": 0.01
+  },
+  "rules": "BUY entry ceil, SELL entry floor to observed brokerstep; SL outward; TP outward and at least1.2/2R from recomputed original-stop risk. Existing published farther targets retained. Input geometries with invalid ordering/nonfinite values rejected. No parameter search.",
+  "scope": "Proposals from all57 frozen SFP no-IFVG signals. No price path, old fill, R result, macro, news or trade state carried into proposals. No broker order acceptance certificate.",
+  "spec_caveat": "Captured2026 symbol metadata, not historical2025 tariff/stops/acceptance records. Entry rounding can change fills and risk; no guarantee of a lower bound on total performance.",
+  "next": "A NEW frozen quote/lifecycle replay must regenerate fills, costs, stop/TP events and risk from these levels. Missing29 quote outcomes remain missing until complete. Do not replace old study results or treat quantization as edge.",
+  "live_changed": false,
+  "unit_tests_passed": 10,
+  "paid_API_spend_USD": 0
+}

@@ -1,0 +1,30 @@
+{
+  "frozen_utc": "2026-10-24T08:39:10.532478+00:00",
+  "reason": "Initial Jan2 copy_ticks_range returned(-1,Terminal:Callfailed); all other dates collected. Repair missing data only; initial profitable partial outcomes already seen. No OOS claim.",
+  "dates": [
+    "2025-01-02"
+  ],
+  "maximum_retries": 3,
+  "strategy_changed": false,
+  "cost_changed": false,
+  "first_attempt_sha256": {
+    "protocol_frozen.json": "92a38c7f04bc2f4066003715e3b7d8d2601d55ed41591c9ee3b906dad24da69b",
+    "quote_manifest.json": "46873158591dd9bf6cb44a8646901ac41c4a2caae67bc99286c31311c4e3dee3",
+    "quote_manifest_frozen.json": "46873158591dd9bf6cb44a8646901ac41c4a2caae67bc99286c31311c4e3dee3",
+    "outcomes.json": "adf64f848cbc5b281537292b939d5fe533a77e1ca2c83ae30ae5160c116b6656",
+    "outcomes.csv": "03f25d324a69667ce93cc32830605777dcb8ba511fc6df3934f3896df3077e5c",
+    "results.json": "80a29bca3b4a0cd975bb534bbc8531ce83654a31c162acd993def6485ccd9ffc",
+    "native_qa.json": "d4922b00ee96416953ab0c2689ea1dab4e3b41ef24c73ada4f559ef8e6f36d3c",
+    "integrity_check.json": "10129b24256bc66482f731e5fbafdf6465e43a9ef497c8a5b160fc9d8a9780e9",
+    "report_diagnostics.json": "b281fa69f96c3ee828d65c341ae1e2b9c7018b573531e7bdfffc50e0d0a1102a",
+    "SONUC.md": "e0aeb923799f1a5aa7132694c7aeb6023e8d2802824c613e6bff44d7ab5f5ed4",
+    "execution_status.json": "9e411750da0614e6a6eed58460a696875c0c324aabcd9735ac819cadb4518b3c",
+    "replay.log": "92e7048f2dc3b90e56df730cbe39338076957a91ee73c760b98473e5ecaf41b2",
+    "clock_qa.json": "d48d5827394a83a9e388ec1d9909c2b33ec0fded24928ae29b6dcd7faffaea22"
+  },
+  "repair_script_sha256": "8b73204bcbcddbbb705d88481aedf1661a69092268b5e58ed51f6d7ec5b5bf81",
+  "study_script_sha256": "110d3b0b0295edc7e0e40596f5356d7c48823053e869062218e74c891e94b6b9",
+  "existing_warm_cache_bytes": 59483000,
+  "no_orders": true,
+  "all_other_tapes_must_remain_identical": true
+}

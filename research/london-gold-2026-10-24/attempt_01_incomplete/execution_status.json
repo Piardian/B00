@@ -1,0 +1,13 @@
+{
+  "test_executed": true,
+  "reason": "unknown quote/native feature days",
+  "orders_sent": false,
+  "reserve_evaluated": false,
+  "terminal_status": "existing_connected_session_used_read_only",
+  "observer_status": "previous observer was not resumed by this task",
+  "tests_passed": 9,
+  "free_bytes": 2500739072,
+  "status": "DEVELOPMENT_INCOMPLETE_COVERAGE",
+  "continued_utc": "2026-10-24T08:33:35.947835+00:00",
+  "completed_utc": "2026-10-24T08:37:02.034514+00:00"
+}

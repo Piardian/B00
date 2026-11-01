@@ -1,0 +1,6594 @@
+[
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-01",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.9728387233143099,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-01",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.9728387233143099,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-01",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.9728387233143099,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-01",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.9728387233143099,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-02",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.8624854327788961,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-02 07:15:15.706000+00:00",
+      "exit_time": "2025-04-02 07:19:28.792000+00:00",
+      "entry": 0.57238,
+      "exit": 0.57278,
+      "stop_bid": 0.57275,
+      "initial_risk": 0.00040000000000006697,
+      "target": 0.5715799999999999,
+      "reason": "SL",
+      "price_net_r": -0.9999999999997224,
+      "commission_r": 0.09999999999998327,
+      "net_r": -1.0999999999997057
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-02",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.8624854327788961,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-02 07:15:15.706000+00:00",
+      "exit_time": "2025-04-02 07:19:28.792000+00:00",
+      "entry": 0.572375,
+      "exit": 0.572795,
+      "stop_bid": 0.57275,
+      "initial_risk": 0.00042000000000008697,
+      "target": 0.5715349999999998,
+      "reason": "SL",
+      "price_net_r": -1.0,
+      "commission_r": 0.1428571428571133,
+      "net_r": -1.1428571428571133
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-02",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.8624854327788961,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-02 07:15:15.706000+00:00",
+      "exit_time": "2025-04-02 07:19:28.792000+00:00",
+      "entry": 0.5723699999999999,
+      "exit": 0.57281,
+      "stop_bid": 0.57275,
+      "initial_risk": 0.000440000000000218,
+      "target": 0.5714899999999995,
+      "reason": "SL",
+      "price_net_r": -0.9999999999997476,
+      "commission_r": 0.18181818181809176,
+      "net_r": -1.1818181818178395
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-02",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.8624854327788961,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-02 07:15:15.706000+00:00",
+      "exit_time": "2025-04-02 07:19:28.792000+00:00",
+      "entry": 0.57238,
+      "exit": 0.5728599999999999,
+      "stop_bid": 0.57275,
+      "initial_risk": 0.00046999999999997044,
+      "target": 0.5714400000000001,
+      "reason": "SL",
+      "price_net_r": -1.0212765957445853,
+      "commission_r": 0.08510638297872876,
+      "net_r": -1.1063829787233141
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-03",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 2.5679473106476403,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-03 08:24:56.171000+00:00",
+      "exit_time": "2025-04-03 08:46:53.914000+00:00",
+      "entry": 0.5780799999999999,
+      "exit": 0.5795499999999999,
+      "stop_bid": 0.57734,
+      "initial_risk": 0.0007399999999999629,
+      "target": 0.5795599999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9864864864865472,
+      "commission_r": 0.05405405405405677,
+      "net_r": 1.9324324324324904
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-03",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 2.5679473106476403,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-03 08:24:56.171000+00:00",
+      "exit_time": "2025-04-03 08:47:32.572000+00:00",
+      "entry": 0.5781,
+      "exit": 0.5796049999999999,
+      "stop_bid": 0.57734,
+      "initial_risk": 0.0007599999999999829,
+      "target": 0.5796199999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9802631578947532,
+      "commission_r": 0.07894736842105442,
+      "net_r": 1.9013157894736987
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-03",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 2.5679473106476403,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-03 08:24:56.171000+00:00",
+      "exit_time": "2025-04-03 08:49:46.278000+00:00",
+      "entry": 0.57812,
+      "exit": 0.57966,
+      "stop_bid": 0.57734,
+      "initial_risk": 0.0007800000000000029,
+      "target": 0.57968,
+      "reason": "TP2",
+      "price_net_r": 1.974358974358949,
+      "commission_r": 0.10256410256410219,
+      "net_r": 1.8717948717948467
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-03",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 2.5679473106476403,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-03 08:24:56.171000+00:00",
+      "exit_time": "2025-04-03 08:49:54.278000+00:00",
+      "entry": 0.5781499999999999,
+      "exit": 0.5797599999999999,
+      "stop_bid": 0.57734,
+      "initial_risk": 0.0008099999999999774,
+      "target": 0.5797699999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9876543209877102,
+      "commission_r": 0.0493827160493841,
+      "net_r": 1.9382716049383262
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-04",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 2.324802371541502,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-04",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 2.324802371541502,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-04",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 2.324802371541502,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-04",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 2.324802371541502,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-07",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 4.126844583987441,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-07 07:33:30.736000+00:00",
+      "exit_time": "2025-04-07 08:31:21.848000+00:00",
+      "entry": 0.5580799999999999,
+      "exit": 0.55669,
+      "stop_bid": 0.5567,
+      "initial_risk": 0.0013799999999999368,
+      "target": 0.5608399999999998,
+      "reason": "SL",
+      "price_net_r": -1.0072463768115616,
+      "commission_r": 0.02898550724637814,
+      "net_r": -1.0362318840579396
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-07",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 4.126844583987441,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-07 07:33:30.736000+00:00",
+      "exit_time": "2025-04-07 08:31:21.848000+00:00",
+      "entry": 0.5580949999999999,
+      "exit": 0.556685,
+      "stop_bid": 0.5567,
+      "initial_risk": 0.001394999999999924,
+      "target": 0.5608849999999997,
+      "reason": "SL",
+      "price_net_r": -1.0107526881720346,
+      "commission_r": 0.04301075268817439,
+      "net_r": -1.053763440860209
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-07",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 4.126844583987441,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-07 07:33:30.736000+00:00",
+      "exit_time": "2025-04-07 08:31:21.848000+00:00",
+      "entry": 0.5581099999999999,
+      "exit": 0.55668,
+      "stop_bid": 0.5567,
+      "initial_risk": 0.0014099999999999113,
+      "target": 0.5609299999999997,
+      "reason": "SL",
+      "price_net_r": -1.0141843971631357,
+      "commission_r": 0.05673758865248584,
+      "net_r": -1.0709219858156216
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-07",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 4.126844583987441,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-07 07:33:30.736000+00:00",
+      "exit_time": "2025-04-07 08:31:21.848000+00:00",
+      "entry": 0.55816,
+      "exit": 0.55669,
+      "stop_bid": 0.5567,
+      "initial_risk": 0.0014600000000000168,
+      "target": 0.56108,
+      "reason": "SL",
+      "price_net_r": -1.0068493150684619,
+      "commission_r": 0.02739726027397229,
+      "net_r": -1.0342465753424341
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-08",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.8625745705455328,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-08",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.8625745705455328,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-08",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.8625745705455328,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-08",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.8625745705455328,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-09",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 3.251748953974895,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-09",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 3.251748953974895,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-09",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 3.251748953974895,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-09",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 3.251748953974895,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-10",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.7485124950416502,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-10 07:22:46.651000+00:00",
+      "exit_time": "2025-04-10 10:38:39.260000+00:00",
+      "entry": 0.5686300000000001,
+      "exit": 0.5699,
+      "stop_bid": 0.56987,
+      "initial_risk": 0.0012699999999998823,
+      "target": 0.5660900000000003,
+      "reason": "SL",
+      "price_net_r": -1.0,
+      "commission_r": 0.031496062992128905,
+      "net_r": -1.0314960629921288
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-10",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.7485124950416502,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-10 07:22:46.651000+00:00",
+      "exit_time": "2025-04-10 10:38:39.260000+00:00",
+      "entry": 0.568625,
+      "exit": 0.5699150000000001,
+      "stop_bid": 0.56987,
+      "initial_risk": 0.0012899999999999023,
+      "target": 0.5660450000000002,
+      "reason": "SL",
+      "price_net_r": -1.0000000000000862,
+      "commission_r": 0.04651162790698027,
+      "net_r": -1.0465116279070665
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-10",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.7485124950416502,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-10 07:22:46.651000+00:00",
+      "exit_time": "2025-04-10 10:38:39.260000+00:00",
+      "entry": 0.56862,
+      "exit": 0.56993,
+      "stop_bid": 0.56987,
+      "initial_risk": 0.0013099999999999223,
+      "target": 0.5660000000000002,
+      "reason": "SL",
+      "price_net_r": -1.0000000000000848,
+      "commission_r": 0.06106870229007996,
+      "net_r": -1.0610687022901648
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-10",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.7485124950416502,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-10 07:22:46.651000+00:00",
+      "exit_time": "2025-04-10 10:38:39.260000+00:00",
+      "entry": 0.5686300000000001,
+      "exit": 0.5699799999999999,
+      "stop_bid": 0.56987,
+      "initial_risk": 0.0013399999999998968,
+      "target": 0.5659500000000003,
+      "reason": "SL",
+      "price_net_r": -1.0074626865671308,
+      "commission_r": 0.029850746268659016,
+      "net_r": -1.0373134328357898
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-11",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.7658508733227791,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-11 07:23:35.742000+00:00",
+      "exit_time": "2025-04-11 09:46:35.243000+00:00",
+      "entry": 0.5781499999999999,
+      "exit": 0.5822599999999999,
+      "stop_bid": 0.57609,
+      "initial_risk": 0.0020599999999999508,
+      "target": 0.5822699999999998,
+      "reason": "TP2",
+      "price_net_r": 1.9951456310679831,
+      "commission_r": 0.019417475728155806,
+      "net_r": 1.9757281553398274
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-11",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.7658508733227791,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-11 07:23:35.742000+00:00",
+      "exit_time": "2025-04-11 12:50:15.239000+00:00",
+      "entry": 0.57817,
+      "exit": 0.5823149999999999,
+      "stop_bid": 0.57609,
+      "initial_risk": 0.0020799999999999708,
+      "target": 0.5823299999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9927884615384677,
+      "commission_r": 0.028846153846154257,
+      "net_r": 1.9639423076923135
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-11",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.7658508733227791,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-11 07:23:35.742000+00:00",
+      "exit_time": "2025-04-11 12:50:19.156000+00:00",
+      "entry": 0.57819,
+      "exit": 0.5823699999999999,
+      "stop_bid": 0.57609,
+      "initial_risk": 0.0020999999999999908,
+      "target": 0.58239,
+      "reason": "TP2",
+      "price_net_r": 1.990476190476181,
+      "commission_r": 0.038095238095238265,
+      "net_r": 1.9523809523809428
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-11",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.7658508733227791,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-11 07:23:35.742000+00:00",
+      "exit_time": "2025-04-11 12:50:28.729000+00:00",
+      "entry": 0.57822,
+      "exit": 0.5824699999999999,
+      "stop_bid": 0.57609,
+      "initial_risk": 0.0021299999999999653,
+      "target": 0.5824799999999999,
+      "reason": "TP2",
+      "price_net_r": 1.99530516431927,
+      "commission_r": 0.018779342723005004,
+      "net_r": 1.976525821596265
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-14",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7912572406838488,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-14 07:32:30.407000+00:00",
+      "exit_time": "2025-04-14 08:21:19.346000+00:00",
+      "entry": 0.58782,
+      "exit": 0.5888899999999999,
+      "stop_bid": 0.58886,
+      "initial_risk": 0.001080000000000081,
+      "target": 0.5856599999999998,
+      "reason": "SL",
+      "price_net_r": -0.9907407407405779,
+      "commission_r": 0.037037037037034266,
+      "net_r": -1.0277777777776123
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-14",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7912572406838488,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-14 07:32:30.407000+00:00",
+      "exit_time": "2025-04-14 08:21:19.346000+00:00",
+      "entry": 0.587815,
+      "exit": 0.5889049999999999,
+      "stop_bid": 0.58886,
+      "initial_risk": 0.0011050000000001337,
+      "target": 0.5856049999999997,
+      "reason": "SL",
+      "price_net_r": -0.986425339366328,
+      "commission_r": 0.05429864253393009,
+      "net_r": -1.040723981900258
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-14",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7912572406838488,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-14 07:32:30.407000+00:00",
+      "exit_time": "2025-04-14 08:21:19.346000+00:00",
+      "entry": 0.5878099999999999,
+      "exit": 0.5889199999999999,
+      "stop_bid": 0.58886,
+      "initial_risk": 0.0011300000000001864,
+      "target": 0.5855499999999996,
+      "reason": "SL",
+      "price_net_r": -0.9823008849555409,
+      "commission_r": 0.07079646017697948,
+      "net_r": -1.0530973451325203
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-14",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7912572406838488,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-14 07:32:30.407000+00:00",
+      "exit_time": "2025-04-14 08:21:19.346000+00:00",
+      "entry": 0.58782,
+      "exit": 0.58897,
+      "stop_bid": 0.58886,
+      "initial_risk": 0.0011400000000000299,
+      "target": 0.58554,
+      "reason": "SL",
+      "price_net_r": -1.0087719298245212,
+      "commission_r": 0.035087719298244696,
+      "net_r": -1.0438596491227659
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-15",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.6926775906470065,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-15 07:25:24.350000+00:00",
+      "exit_time": "2025-04-15 08:01:06.020000+00:00",
+      "entry": 0.59175,
+      "exit": 0.59074,
+      "stop_bid": 0.59075,
+      "initial_risk": 0.0010000000000000009,
+      "target": 0.59375,
+      "reason": "SL",
+      "price_net_r": -1.0099999999999545,
+      "commission_r": 0.039999999999999966,
+      "net_r": -1.0499999999999545
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-15",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.6926775906470065,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-15 07:25:24.350000+00:00",
+      "exit_time": "2025-04-15 08:01:06.020000+00:00",
+      "entry": 0.59177,
+      "exit": 0.590735,
+      "stop_bid": 0.59075,
+      "initial_risk": 0.0010200000000000209,
+      "target": 0.5938100000000001,
+      "reason": "SL",
+      "price_net_r": -1.0147058823529285,
+      "commission_r": 0.05882352941176351,
+      "net_r": -1.073529411764692
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-15",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.6926775906470065,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-15 07:25:24.350000+00:00",
+      "exit_time": "2025-04-15 08:01:06.020000+00:00",
+      "entry": 0.5917900000000001,
+      "exit": 0.59073,
+      "stop_bid": 0.59075,
+      "initial_risk": 0.001040000000000152,
+      "target": 0.5938700000000005,
+      "reason": "SL",
+      "price_net_r": -1.0192307692307856,
+      "commission_r": 0.07692307692306569,
+      "net_r": -1.0961538461538514
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-15",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.6926775906470065,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-15 07:25:24.350000+00:00",
+      "exit_time": "2025-04-15 08:01:06.020000+00:00",
+      "entry": 0.5918199999999999,
+      "exit": 0.59074,
+      "stop_bid": 0.59075,
+      "initial_risk": 0.0010699999999999044,
+      "target": 0.5939599999999997,
+      "reason": "SL",
+      "price_net_r": -1.0093457943924817,
+      "commission_r": 0.0373831775700968,
+      "net_r": -1.0467289719625785
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-16",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.4950908525478698,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-16 07:54:30.964000+00:00",
+      "exit_time": "2025-04-16 08:28:20.082000+00:00",
+      "entry": 0.59141,
+      "exit": 0.5923799999999999,
+      "stop_bid": 0.59234,
+      "initial_risk": 0.0009600000000000719,
+      "target": 0.5894899999999998,
+      "reason": "SL",
+      "price_net_r": -1.0104166666665029,
+      "commission_r": 0.04166666666666355,
+      "net_r": -1.0520833333331665
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-16",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.4950908525478698,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-16 07:54:30.964000+00:00",
+      "exit_time": "2025-04-16 08:28:20.082000+00:00",
+      "entry": 0.591405,
+      "exit": 0.5923999999999999,
+      "stop_bid": 0.59234,
+      "initial_risk": 0.000980000000000203,
+      "target": 0.5894449999999996,
+      "reason": "SL",
+      "price_net_r": -1.0153061224487367,
+      "commission_r": 0.061224489795905696,
+      "net_r": -1.0765306122446425
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-16",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.4950908525478698,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-16 07:54:30.964000+00:00",
+      "exit_time": "2025-04-16 08:28:20.082000+00:00",
+      "entry": 0.5913999999999999,
+      "exit": 0.59242,
+      "stop_bid": 0.59234,
+      "initial_risk": 0.001000000000000223,
+      "target": 0.5893999999999995,
+      "reason": "SL",
+      "price_net_r": -1.0199999999997935,
+      "commission_r": 0.07999999999998217,
+      "net_r": -1.0999999999997756
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-16",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.4950908525478698,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-16 07:54:30.964000+00:00",
+      "exit_time": "2025-04-16 08:28:20.082000+00:00",
+      "entry": 0.59141,
+      "exit": 0.5924499999999999,
+      "stop_bid": 0.59234,
+      "initial_risk": 0.0010299999999999754,
+      "target": 0.58935,
+      "reason": "SL",
+      "price_net_r": -1.0097087378640337,
+      "commission_r": 0.03883495145631161,
+      "net_r": -1.0485436893203453
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-17",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.699921638867122,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-17 07:26:43.588000+00:00",
+      "exit_time": "2025-04-17 08:38:28.721000+00:00",
+      "entry": 0.59085,
+      "exit": 0.5923799999999999,
+      "stop_bid": 0.59008,
+      "initial_risk": 0.0007699999999999374,
+      "target": 0.5923899999999999,
+      "reason": "TP2",
+      "price_net_r": 1.987012987013045,
+      "commission_r": 0.05194805194805618,
+      "net_r": 1.935064935064989
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-17",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.699921638867122,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-17 07:26:43.588000+00:00",
+      "exit_time": "2025-04-17 08:39:18.127000+00:00",
+      "entry": 0.5908650000000001,
+      "exit": 0.5924200000000002,
+      "stop_bid": 0.59008,
+      "initial_risk": 0.0007850000000000357,
+      "target": 0.5924350000000002,
+      "reason": "TP2",
+      "price_net_r": 1.98089171974524,
+      "commission_r": 0.07643312101910482,
+      "net_r": 1.9044585987261353
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-17",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.699921638867122,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-17 07:26:43.588000+00:00",
+      "exit_time": "2025-04-17 08:39:33.786000+00:00",
+      "entry": 0.5908800000000001,
+      "exit": 0.5924600000000001,
+      "stop_bid": 0.59008,
+      "initial_risk": 0.0008000000000000229,
+      "target": 0.5924800000000001,
+      "reason": "TP2",
+      "price_net_r": 1.9749999999999757,
+      "commission_r": 0.09999999999999715,
+      "net_r": 1.8749999999999785
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-17",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.699921638867122,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-17 07:26:43.588000+00:00",
+      "exit_time": "2025-04-17 08:49:24.241000+00:00",
+      "entry": 0.59093,
+      "exit": 0.5926199999999998,
+      "stop_bid": 0.59008,
+      "initial_risk": 0.0008499999999999064,
+      "target": 0.5926299999999998,
+      "reason": "TP2",
+      "price_net_r": 1.9882352941176993,
+      "commission_r": 0.047058823529416954,
+      "net_r": 1.9411764705882824
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-18",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.6086707494382517,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-18 07:49:24.280000+00:00",
+      "exit_time": "2025-04-18 15:00:00.034000+00:00",
+      "entry": 0.5924600000000001,
+      "exit": 0.5932999999999999,
+      "stop_bid": 0.59455,
+      "initial_risk": 0.0022499999999998632,
+      "target": 0.5879600000000004,
+      "reason": "EOD",
+      "price_net_r": -0.37333333333328533,
+      "commission_r": 0.01777777777777886,
+      "net_r": -0.39111111111106417
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-18",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.6086707494382517,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-18 07:49:24.280000+00:00",
+      "exit_time": "2025-04-18 15:00:00.034000+00:00",
+      "entry": 0.5924550000000001,
+      "exit": 0.593325,
+      "stop_bid": 0.59455,
+      "initial_risk": 0.002334999999999865,
+      "target": 0.5877850000000003,
+      "reason": "EOD",
+      "price_net_r": -0.3725910064239729,
+      "commission_r": 0.025695931477517548,
+      "net_r": -0.39828693790149045
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-18",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.6086707494382517,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-18 07:49:24.280000+00:00",
+      "exit_time": "2025-04-18 15:00:00.034000+00:00",
+      "entry": 0.59245,
+      "exit": 0.5933499999999999,
+      "stop_bid": 0.59455,
+      "initial_risk": 0.0024199999999998667,
+      "target": 0.5876100000000003,
+      "reason": "EOD",
+      "price_net_r": -0.3719008264462605,
+      "commission_r": 0.03305785123967125,
+      "net_r": -0.40495867768593174
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-18",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.6086707494382517,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-18 07:49:24.280000+00:00",
+      "exit_time": "2025-04-18 15:00:00.034000+00:00",
+      "entry": 0.5924600000000001,
+      "exit": 0.59336,
+      "stop_bid": 0.59455,
+      "initial_risk": 0.0022499999999998632,
+      "target": 0.5879600000000004,
+      "reason": "EOD",
+      "price_net_r": -0.39999999999998026,
+      "commission_r": 0.01777777777777886,
+      "net_r": -0.4177777777777591
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-21",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.6280740199659118,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-21 07:21:13.049000+00:00",
+      "exit_time": "2025-04-21 15:00:00.346000+00:00",
+      "entry": 0.6005999999999999,
+      "exit": 0.6005,
+      "stop_bid": 0.59982,
+      "initial_risk": 0.0007799999999998919,
+      "target": 0.6021599999999997,
+      "reason": "EOD",
+      "price_net_r": -0.12820512820498953,
+      "commission_r": 0.05128205128205839,
+      "net_r": -0.17948717948704793
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-21",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.6280740199659118,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-21 07:21:13.049000+00:00",
+      "exit_time": "2025-04-21 15:00:00.346000+00:00",
+      "entry": 0.6006149999999999,
+      "exit": 0.600495,
+      "stop_bid": 0.59982,
+      "initial_risk": 0.0007949999999998791,
+      "target": 0.6022049999999997,
+      "reason": "EOD",
+      "price_net_r": -0.1509433962263097,
+      "commission_r": 0.07547169811321904,
+      "net_r": -0.22641509433952872
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-21",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.6280740199659118,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-21 07:21:13.049000+00:00",
+      "exit_time": "2025-04-21 15:00:00.346000+00:00",
+      "entry": 0.6006299999999999,
+      "exit": 0.60049,
+      "stop_bid": 0.59982,
+      "initial_risk": 0.0008099999999998664,
+      "target": 0.6022499999999996,
+      "reason": "EOD",
+      "price_net_r": -0.17283950617276675,
+      "commission_r": 0.09876543209878173,
+      "net_r": -0.27160493827154847
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-21",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.6280740199659118,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-21 07:21:13.049000+00:00",
+      "exit_time": "2025-04-21 15:00:00.346000+00:00",
+      "entry": 0.60068,
+      "exit": 0.6005,
+      "stop_bid": 0.59982,
+      "initial_risk": 0.0008599999999999719,
+      "target": 0.6023999999999999,
+      "reason": "EOD",
+      "price_net_r": -0.2093023255813533,
+      "commission_r": 0.04651162790697827,
+      "net_r": -0.2558139534883316
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-22",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.6687524910322837,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-22 07:16:19.469000+00:00",
+      "exit_time": "2025-04-22 11:00:20.506000+00:00",
+      "entry": 0.60095,
+      "exit": 0.59996,
+      "stop_bid": 0.59998,
+      "initial_risk": 0.0009700000000000264,
+      "target": 0.60289,
+      "reason": "SL",
+      "price_net_r": -1.0206185567009365,
+      "commission_r": 0.04123711340206074,
+      "net_r": -1.0618556701029973
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-22",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.6687524910322837,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-22 07:16:19.469000+00:00",
+      "exit_time": "2025-04-22 11:00:20.506000+00:00",
+      "entry": 0.60097,
+      "exit": 0.599955,
+      "stop_bid": 0.59998,
+      "initial_risk": 0.0009900000000000464,
+      "target": 0.6029500000000001,
+      "reason": "SL",
+      "price_net_r": -1.0252525252524651,
+      "commission_r": 0.06060606060605778,
+      "net_r": -1.085858585858523
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-22",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.6687524910322837,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-22 07:16:19.469000+00:00",
+      "exit_time": "2025-04-22 11:00:20.506000+00:00",
+      "entry": 0.60099,
+      "exit": 0.59995,
+      "stop_bid": 0.59998,
+      "initial_risk": 0.0010100000000000664,
+      "target": 0.6030100000000002,
+      "reason": "SL",
+      "price_net_r": -1.0297029702970024,
+      "commission_r": 0.079207920792074,
+      "net_r": -1.1089108910890764
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-22",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.6687524910322837,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-22 07:16:19.469000+00:00",
+      "exit_time": "2025-04-22 11:00:20.506000+00:00",
+      "entry": 0.60102,
+      "exit": 0.59996,
+      "stop_bid": 0.59998,
+      "initial_risk": 0.001040000000000041,
+      "target": 0.6031000000000001,
+      "reason": "SL",
+      "price_net_r": -1.019230769230681,
+      "commission_r": 0.03846153846153695,
+      "net_r": -1.057692307692218
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-23",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.569377990430622,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-23 07:33:26.840000+00:00",
+      "exit_time": "2025-04-23 12:45:57.591000+00:00",
+      "entry": 0.59857,
+      "exit": 0.59983,
+      "stop_bid": 0.59979,
+      "initial_risk": 0.0012799999999999478,
+      "target": 0.5960100000000002,
+      "reason": "SL",
+      "price_net_r": -0.9843749999999838,
+      "commission_r": 0.03125000000000128,
+      "net_r": -1.0156249999999851
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-23",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.569377990430622,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-23 07:33:26.840000+00:00",
+      "exit_time": "2025-04-23 12:45:57.591000+00:00",
+      "entry": 0.598565,
+      "exit": 0.5998450000000001,
+      "stop_bid": 0.59979,
+      "initial_risk": 0.001314999999999955,
+      "target": 0.5959350000000001,
+      "reason": "SL",
+      "price_net_r": -0.973384030418329,
+      "commission_r": 0.045627376425857076,
+      "net_r": -1.019011406844186
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-23",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.569377990430622,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-23 07:33:26.840000+00:00",
+      "exit_time": "2025-04-23 12:45:57.591000+00:00",
+      "entry": 0.59856,
+      "exit": 0.5998600000000001,
+      "stop_bid": 0.59979,
+      "initial_risk": 0.0013499999999999623,
+      "target": 0.5958600000000001,
+      "reason": "SL",
+      "price_net_r": -0.9629629629630483,
+      "commission_r": 0.05925925925926092,
+      "net_r": -1.0222222222223092
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-23",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.569377990430622,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-23 07:33:26.840000+00:00",
+      "exit_time": "2025-04-23 12:45:57.591000+00:00",
+      "entry": 0.59857,
+      "exit": 0.5999099999999999,
+      "stop_bid": 0.59979,
+      "initial_risk": 0.0013199999999999878,
+      "target": 0.5959300000000001,
+      "reason": "SL",
+      "price_net_r": -1.0151515151514463,
+      "commission_r": 0.030303030303030585,
+      "net_r": -1.0454545454544768
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-24",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.5498076271355382,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-24 07:27:48.659000+00:00",
+      "exit_time": "2025-04-24 14:12:47.121000+00:00",
+      "entry": 0.59693,
+      "exit": 0.5984999999999999,
+      "stop_bid": 0.59614,
+      "initial_risk": 0.0007899999999999574,
+      "target": 0.5985099999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9873417721519557,
+      "commission_r": 0.050632911392407796,
+      "net_r": 1.936708860759548
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-24",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.5498076271355382,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-24 07:27:48.659000+00:00",
+      "exit_time": "2025-04-24 14:24:22.867000+00:00",
+      "entry": 0.596945,
+      "exit": 0.5985399999999998,
+      "stop_bid": 0.59614,
+      "initial_risk": 0.0008049999999999446,
+      "target": 0.5985549999999998,
+      "reason": "TP2",
+      "price_net_r": 1.9813664596273437,
+      "commission_r": 0.07453416149068837,
+      "net_r": 1.9068322981366554
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-24",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.5498076271355382,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-24 07:27:48.659000+00:00",
+      "exit_time": "2025-04-24 14:26:46.293000+00:00",
+      "entry": 0.59696,
+      "exit": 0.5985800000000001,
+      "stop_bid": 0.59614,
+      "initial_risk": 0.0008200000000000429,
+      "target": 0.5986000000000001,
+      "reason": "TP2",
+      "price_net_r": 1.9756097560975379,
+      "commission_r": 0.097560975609751,
+      "net_r": 1.8780487804877868
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-24",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.5498076271355382,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-24 07:27:48.659000+00:00",
+      "exit_time": "2025-04-24 14:28:47.796000+00:00",
+      "entry": 0.5970099999999999,
+      "exit": 0.5987399999999998,
+      "stop_bid": 0.59614,
+      "initial_risk": 0.0008699999999999264,
+      "target": 0.5987499999999998,
+      "reason": "TP2",
+      "price_net_r": 1.9885057471264882,
+      "commission_r": 0.045977011494256766,
+      "net_r": 1.9425287356322314
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-25",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.6805954236037071,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-25",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.6805954236037071,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-25",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.6805954236037071,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-25",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.6805954236037071,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-28",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7560521415270018,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-28 07:56:12.809000+00:00",
+      "exit_time": "2025-04-28 09:13:25.349000+00:00",
+      "entry": 0.5939500000000001,
+      "exit": 0.59468,
+      "stop_bid": 0.59464,
+      "initial_risk": 0.0007199999999998319,
+      "target": 0.5925100000000004,
+      "reason": "SL",
+      "price_net_r": -1.0138888888889832,
+      "commission_r": 0.055555555555568535,
+      "net_r": -1.0694444444445517
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-28",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7560521415270018,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-28 07:56:12.809000+00:00",
+      "exit_time": "2025-04-28 09:13:25.349000+00:00",
+      "entry": 0.5939450000000001,
+      "exit": 0.5946950000000001,
+      "stop_bid": 0.59464,
+      "initial_risk": 0.0007399999999998519,
+      "target": 0.5924650000000004,
+      "reason": "SL",
+      "price_net_r": -1.0135135135137547,
+      "commission_r": 0.08108108108109732,
+      "net_r": -1.094594594594852
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-28",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7560521415270018,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-28 07:56:12.809000+00:00",
+      "exit_time": "2025-04-28 09:13:25.349000+00:00",
+      "entry": 0.59394,
+      "exit": 0.5947100000000001,
+      "stop_bid": 0.59464,
+      "initial_risk": 0.0007599999999998719,
+      "target": 0.5924200000000003,
+      "reason": "SL",
+      "price_net_r": -1.0131578947370765,
+      "commission_r": 0.1052631578947546,
+      "net_r": -1.118421052631831
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-28",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7560521415270018,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-28 07:56:12.809000+00:00",
+      "exit_time": "2025-04-28 09:13:25.349000+00:00",
+      "entry": 0.5939500000000001,
+      "exit": 0.59476,
+      "stop_bid": 0.59464,
+      "initial_risk": 0.0007899999999998464,
+      "target": 0.5923700000000004,
+      "reason": "SL",
+      "price_net_r": -1.0253164556962329,
+      "commission_r": 0.050632911392414916,
+      "net_r": -1.0759493670886477
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-29",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.5858674554025326,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-29 07:19:54.140000+00:00",
+      "exit_time": "2025-04-29 09:47:28.323000+00:00",
+      "entry": 0.59681,
+      "exit": 0.59594,
+      "stop_bid": 0.59598,
+      "initial_risk": 0.0008299999999999974,
+      "target": 0.59847,
+      "reason": "SL",
+      "price_net_r": -1.048192771084252,
+      "commission_r": 0.048192771084337505,
+      "net_r": -1.0963855421685895
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-29",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.5858674554025326,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-29 07:19:54.140000+00:00",
+      "exit_time": "2025-04-29 09:47:28.323000+00:00",
+      "entry": 0.59683,
+      "exit": 0.595935,
+      "stop_bid": 0.59598,
+      "initial_risk": 0.0008500000000000174,
+      "target": 0.59853,
+      "reason": "SL",
+      "price_net_r": -1.052941176470542,
+      "commission_r": 0.07058823529411622,
+      "net_r": -1.1235294117646584
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-29",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.5858674554025326,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-29 07:19:54.140000+00:00",
+      "exit_time": "2025-04-29 09:47:28.323000+00:00",
+      "entry": 0.59685,
+      "exit": 0.59593,
+      "stop_bid": 0.59598,
+      "initial_risk": 0.0008700000000000374,
+      "target": 0.5985900000000001,
+      "reason": "SL",
+      "price_net_r": -1.0574712643678073,
+      "commission_r": 0.0919540229885018,
+      "net_r": -1.1494252873563091
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-29",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.5858674554025326,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-29 07:19:54.140000+00:00",
+      "exit_time": "2025-04-29 09:47:28.323000+00:00",
+      "entry": 0.59688,
+      "exit": 0.59594,
+      "stop_bid": 0.59598,
+      "initial_risk": 0.0009000000000000119,
+      "target": 0.59868,
+      "reason": "SL",
+      "price_net_r": -1.044444444444365,
+      "commission_r": 0.04444444444444386,
+      "net_r": -1.0888888888888089
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-30",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.44993184439551226,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-30 07:15:03.300000+00:00",
+      "exit_time": "2025-04-30 12:30:03.727000+00:00",
+      "entry": 0.59304,
+      "exit": 0.5912499999999999,
+      "stop_bid": 0.5939,
+      "initial_risk": 0.0009000000000000119,
+      "target": 0.59124,
+      "reason": "TP2",
+      "price_net_r": 1.9888888888889396,
+      "commission_r": 0.04444444444444386,
+      "net_r": 1.9444444444444957
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-30",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.44993184439551226,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-30 07:15:03.300000+00:00",
+      "exit_time": "2025-04-30 12:31:40.015000+00:00",
+      "entry": 0.593035,
+      "exit": 0.5911999999999998,
+      "stop_bid": 0.5939,
+      "initial_risk": 0.0009250000000000647,
+      "target": 0.5911849999999998,
+      "reason": "TP2",
+      "price_net_r": 1.9837837837837986,
+      "commission_r": 0.06486486486486034,
+      "net_r": 1.9189189189189382
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-30",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.44993184439551226,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-30 07:15:03.300000+00:00",
+      "exit_time": "2025-04-30 12:31:52.738000+00:00",
+      "entry": 0.59303,
+      "exit": 0.5911499999999997,
+      "stop_bid": 0.5939,
+      "initial_risk": 0.0009500000000001174,
+      "target": 0.5911299999999997,
+      "reason": "TP2",
+      "price_net_r": 1.9789473684210341,
+      "commission_r": 0.08421052631577908,
+      "net_r": 1.894736842105255
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-04-30",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.44993184439551226,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-04-30 07:15:03.300000+00:00",
+      "exit_time": "2025-04-30 12:31:40.015000+00:00",
+      "entry": 0.59304,
+      "exit": 0.59113,
+      "stop_bid": 0.5939,
+      "initial_risk": 0.0009599999999999609,
+      "target": 0.5911200000000001,
+      "reason": "TP2",
+      "price_net_r": 1.9895833333333803,
+      "commission_r": 0.041666666666668364,
+      "net_r": 1.947916666666712
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-01",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.6938740490762455,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-01 07:19:18.693000+00:00",
+      "exit_time": "2025-05-01 08:24:02.495000+00:00",
+      "entry": 0.59231,
+      "exit": 0.5933799999999999,
+      "stop_bid": 0.59335,
+      "initial_risk": 0.001080000000000081,
+      "target": 0.5901499999999998,
+      "reason": "SL",
+      "price_net_r": -0.9907407407405779,
+      "commission_r": 0.037037037037034266,
+      "net_r": -1.0277777777776123
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-01",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.6938740490762455,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-01 07:19:18.693000+00:00",
+      "exit_time": "2025-05-01 08:24:02.495000+00:00",
+      "entry": 0.592305,
+      "exit": 0.5933949999999999,
+      "stop_bid": 0.59335,
+      "initial_risk": 0.0011050000000001337,
+      "target": 0.5900949999999997,
+      "reason": "SL",
+      "price_net_r": -0.986425339366328,
+      "commission_r": 0.05429864253393009,
+      "net_r": -1.040723981900258
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-01",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.6938740490762455,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-01 07:19:18.693000+00:00",
+      "exit_time": "2025-05-01 08:24:02.495000+00:00",
+      "entry": 0.5922999999999999,
+      "exit": 0.5934099999999999,
+      "stop_bid": 0.59335,
+      "initial_risk": 0.0011300000000001864,
+      "target": 0.5900399999999996,
+      "reason": "SL",
+      "price_net_r": -0.9823008849555409,
+      "commission_r": 0.07079646017697948,
+      "net_r": -1.0530973451325203
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-01",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.6938740490762455,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-01 07:19:18.693000+00:00",
+      "exit_time": "2025-05-01 08:24:02.495000+00:00",
+      "entry": 0.59231,
+      "exit": 0.59346,
+      "stop_bid": 0.59335,
+      "initial_risk": 0.0011400000000000299,
+      "target": 0.5900299999999999,
+      "reason": "SL",
+      "price_net_r": -1.0087719298245212,
+      "commission_r": 0.035087719298244696,
+      "net_r": -1.0438596491227659
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-02",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7000219856151261,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-02 07:19:07.194000+00:00",
+      "exit_time": "2025-05-02 07:37:15.228000+00:00",
+      "entry": 0.59403,
+      "exit": 0.5929000000000001,
+      "stop_bid": 0.59292,
+      "initial_risk": 0.0011099999999999444,
+      "target": 0.5962499999999998,
+      "reason": "SL",
+      "price_net_r": -1.018018018017937,
+      "commission_r": 0.03603603603603785,
+      "net_r": -1.054054054053975
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-02",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7000219856151261,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-02 07:19:07.194000+00:00",
+      "exit_time": "2025-05-02 07:37:15.228000+00:00",
+      "entry": 0.594045,
+      "exit": 0.5928950000000001,
+      "stop_bid": 0.59292,
+      "initial_risk": 0.0011250000000000426,
+      "target": 0.5962950000000001,
+      "reason": "SL",
+      "price_net_r": -1.0222222222221695,
+      "commission_r": 0.05333333333333132,
+      "net_r": -1.0755555555555008
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-02",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7000219856151261,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-02 07:19:07.194000+00:00",
+      "exit_time": "2025-05-02 07:37:15.228000+00:00",
+      "entry": 0.59406,
+      "exit": 0.59289,
+      "stop_bid": 0.59292,
+      "initial_risk": 0.0011400000000000299,
+      "target": 0.5963400000000001,
+      "reason": "SL",
+      "price_net_r": -1.0263157894736612,
+      "commission_r": 0.07017543859648939,
+      "net_r": -1.0964912280701506
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-02",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7000219856151261,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-02 07:19:07.194000+00:00",
+      "exit_time": "2025-05-02 07:37:15.228000+00:00",
+      "entry": 0.5941099999999999,
+      "exit": 0.5929000000000001,
+      "stop_bid": 0.59292,
+      "initial_risk": 0.0011899999999999133,
+      "target": 0.5964899999999997,
+      "reason": "SL",
+      "price_net_r": -1.0168067226890003,
+      "commission_r": 0.03361344537815371,
+      "net_r": -1.050420168067154
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-05",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.62099867831469,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-05 07:57:28.886000+00:00",
+      "exit_time": "2025-05-05 08:37:39.634000+00:00",
+      "entry": 0.5965600000000001,
+      "exit": 0.5973299999999999,
+      "stop_bid": 0.59728,
+      "initial_risk": 0.0007499999999999174,
+      "target": 0.5950600000000003,
+      "reason": "SL",
+      "price_net_r": -1.0266666666665483,
+      "commission_r": 0.053333333333339214,
+      "net_r": -1.0799999999998875
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-05",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.62099867831469,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-05 07:57:28.886000+00:00",
+      "exit_time": "2025-05-05 08:37:39.634000+00:00",
+      "entry": 0.5965550000000001,
+      "exit": 0.5973449999999999,
+      "stop_bid": 0.59728,
+      "initial_risk": 0.0007699999999999374,
+      "target": 0.5950150000000002,
+      "reason": "SL",
+      "price_net_r": -1.0259740259739099,
+      "commission_r": 0.07792207792208426,
+      "net_r": -1.103896103895994
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-05",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.62099867831469,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-05 07:57:28.886000+00:00",
+      "exit_time": "2025-05-05 08:37:39.634000+00:00",
+      "entry": 0.59655,
+      "exit": 0.5973599999999999,
+      "stop_bid": 0.59728,
+      "initial_risk": 0.0007899999999999574,
+      "target": 0.5949700000000001,
+      "reason": "SL",
+      "price_net_r": -1.0253164556960888,
+      "commission_r": 0.10126582278481559,
+      "net_r": -1.1265822784809043
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-05",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.62099867831469,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-05 07:57:28.886000+00:00",
+      "exit_time": "2025-05-05 08:37:39.634000+00:00",
+      "entry": 0.5965600000000001,
+      "exit": 0.59741,
+      "stop_bid": 0.59728,
+      "initial_risk": 0.0008199999999999319,
+      "target": 0.5949200000000002,
+      "reason": "SL",
+      "price_net_r": -1.0365853658536304,
+      "commission_r": 0.0487804878048821,
+      "net_r": -1.0853658536585125
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-06",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.8119499768411301,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-06 07:25:32.715000+00:00",
+      "exit_time": "2025-05-06 08:53:59.571000+00:00",
+      "entry": 0.5985199999999999,
+      "exit": 0.59791,
+      "stop_bid": 0.59792,
+      "initial_risk": 0.0005999999999999339,
+      "target": 0.5997199999999998,
+      "reason": "SL",
+      "price_net_r": -1.0166666666665927,
+      "commission_r": 0.06666666666667402,
+      "net_r": -1.0833333333332666
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-06",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.8119499768411301,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-06 07:25:32.715000+00:00",
+      "exit_time": "2025-05-06 08:53:59.571000+00:00",
+      "entry": 0.5985349999999999,
+      "exit": 0.597905,
+      "stop_bid": 0.59792,
+      "initial_risk": 0.0006149999999999212,
+      "target": 0.5997649999999998,
+      "reason": "SL",
+      "price_net_r": -1.0243902439024215,
+      "commission_r": 0.09756097560976862,
+      "net_r": -1.1219512195121901
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-06",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.8119499768411301,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-06 07:25:32.715000+00:00",
+      "exit_time": "2025-05-06 08:53:59.571000+00:00",
+      "entry": 0.59855,
+      "exit": 0.5979,
+      "stop_bid": 0.59792,
+      "initial_risk": 0.0006300000000000194,
+      "target": 0.5998100000000001,
+      "reason": "SL",
+      "price_net_r": -1.0317460317460625,
+      "commission_r": 0.1269841269841231,
+      "net_r": -1.1587301587301857
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-06",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.8119499768411301,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-06 07:25:32.715000+00:00",
+      "exit_time": "2025-05-06 08:53:59.571000+00:00",
+      "entry": 0.5985999999999999,
+      "exit": 0.59791,
+      "stop_bid": 0.59792,
+      "initial_risk": 0.0006799999999999029,
+      "target": 0.5999599999999997,
+      "reason": "SL",
+      "price_net_r": -1.0147058823528763,
+      "commission_r": 0.05882352941177311,
+      "net_r": -1.0735294117646494
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-07",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7629578438147893,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-07 07:17:35.126000+00:00",
+      "exit_time": "2025-05-07 07:47:30.772000+00:00",
+      "entry": 0.59963,
+      "exit": 0.6005699999999999,
+      "stop_bid": 0.6005,
+      "initial_risk": 0.0008900000000000574,
+      "target": 0.5978499999999999,
+      "reason": "SL",
+      "price_net_r": -1.0561797752807642,
+      "commission_r": 0.044943820224716206,
+      "net_r": -1.1011235955054803
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-07",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7629578438147893,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-07 07:17:35.126000+00:00",
+      "exit_time": "2025-05-07 07:47:30.772000+00:00",
+      "entry": 0.599625,
+      "exit": 0.60059,
+      "stop_bid": 0.6005,
+      "initial_risk": 0.0009050000000000447,
+      "target": 0.5978149999999999,
+      "reason": "SL",
+      "price_net_r": -1.0662983425413768,
+      "commission_r": 0.0662983425414332,
+      "net_r": -1.13259668508281
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-07",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7629578438147893,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-07 07:17:35.126000+00:00",
+      "exit_time": "2025-05-07 07:47:30.772000+00:00",
+      "entry": 0.5996199999999999,
+      "exit": 0.60061,
+      "stop_bid": 0.6005,
+      "initial_risk": 0.0009200000000001429,
+      "target": 0.5977799999999996,
+      "reason": "SL",
+      "price_net_r": -1.0760869565216225,
+      "commission_r": 0.08695652173911693,
+      "net_r": -1.1630434782607393
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-07",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7629578438147893,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-07 07:17:35.126000+00:00",
+      "exit_time": "2025-05-07 07:47:30.772000+00:00",
+      "entry": 0.59963,
+      "exit": 0.60064,
+      "stop_bid": 0.6005,
+      "initial_risk": 0.0009700000000000264,
+      "target": 0.5976899999999999,
+      "reason": "SL",
+      "price_net_r": -1.0412371134019875,
+      "commission_r": 0.04123711340206074,
+      "net_r": -1.0824742268040484
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-08",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.1952364978195238,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-08 09:35:13.242000+00:00",
+      "exit_time": "2025-05-08 10:19:56.116000+00:00",
+      "entry": 0.5916800000000001,
+      "exit": 0.59268,
+      "stop_bid": 0.59265,
+      "initial_risk": 0.0010299999999998644,
+      "target": 0.5896200000000004,
+      "reason": "SL",
+      "price_net_r": -0.9708737864077879,
+      "commission_r": 0.0388349514563158,
+      "net_r": -1.0097087378641036
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-08",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.1952364978195238,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-08 09:35:13.242000+00:00",
+      "exit_time": "2025-05-08 10:19:56.116000+00:00",
+      "entry": 0.5916750000000001,
+      "exit": 0.5926950000000001,
+      "stop_bid": 0.59265,
+      "initial_risk": 0.0010649999999998716,
+      "target": 0.5895450000000003,
+      "reason": "SL",
+      "price_net_r": -0.9577464788733745,
+      "commission_r": 0.056338028169020886,
+      "net_r": -1.0140845070423954
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-08",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.1952364978195238,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-08 09:35:13.242000+00:00",
+      "exit_time": "2025-05-08 10:19:56.116000+00:00",
+      "entry": 0.59167,
+      "exit": 0.5927100000000001,
+      "stop_bid": 0.59265,
+      "initial_risk": 0.0010999999999998789,
+      "target": 0.5894700000000003,
+      "reason": "SL",
+      "price_net_r": -0.9454545454546868,
+      "commission_r": 0.07272727272728075,
+      "net_r": -1.0181818181819675
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-08",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.1952364978195238,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-08 09:35:13.242000+00:00",
+      "exit_time": "2025-05-08 10:19:56.116000+00:00",
+      "entry": 0.5916800000000001,
+      "exit": 0.59276,
+      "stop_bid": 0.59265,
+      "initial_risk": 0.0010699999999999044,
+      "target": 0.5895400000000003,
+      "reason": "SL",
+      "price_net_r": -1.0093457943924817,
+      "commission_r": 0.0373831775700968,
+      "net_r": -1.0467289719625785
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-09",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.697446479236523,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-09 07:17:06.638000+00:00",
+      "exit_time": "2025-05-09 09:30:53.443000+00:00",
+      "entry": 0.58975,
+      "exit": 0.58891,
+      "stop_bid": 0.58892,
+      "initial_risk": 0.0008299999999999974,
+      "target": 0.59141,
+      "reason": "SL",
+      "price_net_r": -1.0120481927710296,
+      "commission_r": 0.048192771084337505,
+      "net_r": -1.0602409638553671
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-09",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.697446479236523,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-09 07:17:06.638000+00:00",
+      "exit_time": "2025-05-09 09:30:53.443000+00:00",
+      "entry": 0.589765,
+      "exit": 0.588905,
+      "stop_bid": 0.58892,
+      "initial_risk": 0.0008449999999999847,
+      "target": 0.591455,
+      "reason": "SL",
+      "price_net_r": -1.017751479289926,
+      "commission_r": 0.07100591715976462,
+      "net_r": -1.0887573964496906
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-09",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.697446479236523,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-09 07:17:06.638000+00:00",
+      "exit_time": "2025-05-09 09:30:53.443000+00:00",
+      "entry": 0.5897800000000001,
+      "exit": 0.5889,
+      "stop_bid": 0.58892,
+      "initial_risk": 0.0008600000000000829,
+      "target": 0.5915000000000002,
+      "reason": "SL",
+      "price_net_r": -1.0232558139535093,
+      "commission_r": 0.09302325581394452,
+      "net_r": -1.1162790697674538
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-09",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.697446479236523,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-09 07:17:06.638000+00:00",
+      "exit_time": "2025-05-09 09:30:53.443000+00:00",
+      "entry": 0.58983,
+      "exit": 0.58891,
+      "stop_bid": 0.58892,
+      "initial_risk": 0.0009099999999999664,
+      "target": 0.5916499999999999,
+      "reason": "SL",
+      "price_net_r": -1.0109890109889614,
+      "commission_r": 0.04395604395604558,
+      "net_r": -1.054945054945007
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-12",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 3.181963470319635,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-12 07:21:29.100000+00:00",
+      "exit_time": "2025-05-12 15:00:00+00:00",
+      "entry": 0.59041,
+      "exit": 0.58671,
+      "stop_bid": 0.59409,
+      "initial_risk": 0.003710000000000102,
+      "target": 0.5829899999999998,
+      "reason": "EOD",
+      "price_net_r": 0.997304582210225,
+      "commission_r": 0.010781671159029354,
+      "net_r": 0.9865229110511956
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-12",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 3.181963470319635,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-12 07:21:29.100000+00:00",
+      "exit_time": "2025-05-12 15:00:00+00:00",
+      "entry": 0.590405,
+      "exit": 0.586725,
+      "stop_bid": 0.59409,
+      "initial_risk": 0.003730000000000122,
+      "target": 0.5829449999999997,
+      "reason": "EOD",
+      "price_net_r": 0.986595174262677,
+      "commission_r": 0.016085790884717975,
+      "net_r": 0.970509383377959
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-12",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 3.181963470319635,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-12 07:21:29.100000+00:00",
+      "exit_time": "2025-05-12 15:00:00+00:00",
+      "entry": 0.5903999999999999,
+      "exit": 0.58674,
+      "stop_bid": 0.59409,
+      "initial_risk": 0.003750000000000253,
+      "target": 0.5828999999999994,
+      "reason": "EOD",
+      "price_net_r": 0.9759999999999036,
+      "commission_r": 0.021333333333331896,
+      "net_r": 0.9546666666665717
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-12",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 3.181963470319635,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-12 07:21:29.100000+00:00",
+      "exit_time": "2025-05-12 15:00:00+00:00",
+      "entry": 0.59041,
+      "exit": 0.5867899999999999,
+      "stop_bid": 0.59409,
+      "initial_risk": 0.0037800000000000056,
+      "target": 0.58285,
+      "reason": "EOD",
+      "price_net_r": 0.9576719576719741,
+      "commission_r": 0.010582010582010568,
+      "net_r": 0.9470899470899635
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-13",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.772307073954984,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-13 07:17:53.664000+00:00",
+      "exit_time": "2025-05-13 07:24:02.115000+00:00",
+      "entry": 0.5892900000000001,
+      "exit": 0.58978,
+      "stop_bid": 0.58973,
+      "initial_risk": 0.0004599999999997939,
+      "target": 0.5883700000000005,
+      "reason": "SL",
+      "price_net_r": -1.065217391304563,
+      "commission_r": 0.0869565217391694,
+      "net_r": -1.1521739130437325
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-13",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.772307073954984,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-13 07:17:53.664000+00:00",
+      "exit_time": "2025-05-13 07:24:02.115000+00:00",
+      "entry": 0.5892850000000001,
+      "exit": 0.5898,
+      "stop_bid": 0.58973,
+      "initial_risk": 0.00047499999999978115,
+      "target": 0.5883350000000005,
+      "reason": "SL",
+      "price_net_r": -1.0842105263161461,
+      "commission_r": 0.12631578947374242,
+      "net_r": -1.2105263157898885
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-13",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.772307073954984,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-13 07:17:53.664000+00:00",
+      "exit_time": "2025-05-13 07:24:02.115000+00:00",
+      "entry": 0.58928,
+      "exit": 0.58982,
+      "stop_bid": 0.58973,
+      "initial_risk": 0.0004899999999997684,
+      "target": 0.5883000000000005,
+      "reason": "SL",
+      "price_net_r": -1.1020408163270208,
+      "commission_r": 0.16326530612252615,
+      "net_r": -1.265306122449547
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-13",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.772307073954984,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-13 07:17:53.664000+00:00",
+      "exit_time": "2025-05-13 07:24:02.115000+00:00",
+      "entry": 0.5892900000000001,
+      "exit": 0.58985,
+      "stop_bid": 0.58973,
+      "initial_risk": 0.0005399999999998739,
+      "target": 0.5882100000000003,
+      "reason": "SL",
+      "price_net_r": -1.0370370370370827,
+      "commission_r": 0.07407407407409138,
+      "net_r": -1.111111111111174
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-14",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7401740786073712,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-14 07:51:53.926000+00:00",
+      "exit_time": "2025-05-14 08:23:17.155000+00:00",
+      "entry": 0.59441,
+      "exit": 0.59622,
+      "stop_bid": 0.5935,
+      "initial_risk": 0.0009099999999999664,
+      "target": 0.5962299999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9890109890110386,
+      "commission_r": 0.04395604395604558,
+      "net_r": 1.945054945054993
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-14",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7401740786073712,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-14 07:51:53.926000+00:00",
+      "exit_time": "2025-05-14 08:23:19.782000+00:00",
+      "entry": 0.5944250000000001,
+      "exit": 0.5962600000000002,
+      "stop_bid": 0.5935,
+      "initial_risk": 0.0009250000000000647,
+      "target": 0.5962750000000002,
+      "reason": "TP2",
+      "price_net_r": 1.9837837837837986,
+      "commission_r": 0.06486486486486034,
+      "net_r": 1.9189189189189382
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-14",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7401740786073712,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-14 07:51:53.926000+00:00",
+      "exit_time": "2025-05-14 08:23:24.128000+00:00",
+      "entry": 0.5944400000000001,
+      "exit": 0.5963000000000002,
+      "stop_bid": 0.5935,
+      "initial_risk": 0.0009400000000000519,
+      "target": 0.5963200000000002,
+      "reason": "TP2",
+      "price_net_r": 1.978723404255299,
+      "commission_r": 0.08510638297871871,
+      "net_r": 1.8936170212765804
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-14",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7401740786073712,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-14 07:51:53.926000+00:00",
+      "exit_time": "2025-05-14 08:24:16.912000+00:00",
+      "entry": 0.59449,
+      "exit": 0.5964599999999999,
+      "stop_bid": 0.5935,
+      "initial_risk": 0.0009899999999999354,
+      "target": 0.5964699999999998,
+      "reason": "TP2",
+      "price_net_r": 1.9898989898990351,
+      "commission_r": 0.040404040404043044,
+      "net_r": 1.949494949494992
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-15",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7778046004759113,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-15 07:16:00.139000+00:00",
+      "exit_time": "2025-05-15 10:27:38.141000+00:00",
+      "entry": 0.59009,
+      "exit": 0.5880599999999997,
+      "stop_bid": 0.59108,
+      "initial_risk": 0.001020000000000132,
+      "target": 0.5880499999999997,
+      "reason": "TP2",
+      "price_net_r": 1.9901960784314183,
+      "commission_r": 0.03921568627450474,
+      "net_r": 1.9509803921569135
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-15",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7778046004759113,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-15 07:16:00.139000+00:00",
+      "exit_time": "2025-05-15 10:27:45.025000+00:00",
+      "entry": 0.590085,
+      "exit": 0.5880199999999994,
+      "stop_bid": 0.59108,
+      "initial_risk": 0.001040000000000263,
+      "target": 0.5880049999999994,
+      "reason": "TP2",
+      "price_net_r": 1.985576923076939,
+      "commission_r": 0.05769230769229312,
+      "net_r": 1.9278846153846458
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-15",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7778046004759113,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-15 07:16:00.139000+00:00",
+      "exit_time": "2025-05-15 10:27:47.234000+00:00",
+      "entry": 0.5900799999999999,
+      "exit": 0.5879799999999994,
+      "stop_bid": 0.59108,
+      "initial_risk": 0.001060000000000283,
+      "target": 0.5879599999999994,
+      "reason": "TP2",
+      "price_net_r": 1.9811320754716844,
+      "commission_r": 0.07547169811318741,
+      "net_r": 1.905660377358497
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-15",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7778046004759113,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-15 07:16:00.139000+00:00",
+      "exit_time": "2025-05-15 10:52:13.669000+00:00",
+      "entry": 0.59009,
+      "exit": 0.5879199999999999,
+      "stop_bid": 0.59108,
+      "initial_risk": 0.0010900000000000354,
+      "target": 0.5879099999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9908256880734365,
+      "commission_r": 0.03669724770642083,
+      "net_r": 1.9541284403670156
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-16",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.6445443921096434,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-16 07:25:50.707000+00:00",
+      "exit_time": "2025-05-16 08:27:01.484000+00:00",
+      "entry": 0.5912,
+      "exit": 0.5905900000000001,
+      "stop_bid": 0.5906,
+      "initial_risk": 0.0005999999999999339,
+      "target": 0.5923999999999998,
+      "reason": "SL",
+      "price_net_r": -1.0166666666665927,
+      "commission_r": 0.06666666666667402,
+      "net_r": -1.0833333333332666
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-16",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.6445443921096434,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-16 07:25:50.707000+00:00",
+      "exit_time": "2025-05-16 08:27:01.484000+00:00",
+      "entry": 0.5912149999999999,
+      "exit": 0.590585,
+      "stop_bid": 0.5906,
+      "initial_risk": 0.0006149999999999212,
+      "target": 0.5924449999999998,
+      "reason": "SL",
+      "price_net_r": -1.0243902439024215,
+      "commission_r": 0.09756097560976862,
+      "net_r": -1.1219512195121901
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-16",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.6445443921096434,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-16 07:25:50.707000+00:00",
+      "exit_time": "2025-05-16 08:27:01.484000+00:00",
+      "entry": 0.59123,
+      "exit": 0.59058,
+      "stop_bid": 0.5906,
+      "initial_risk": 0.0006300000000000194,
+      "target": 0.5924900000000001,
+      "reason": "SL",
+      "price_net_r": -1.0317460317460625,
+      "commission_r": 0.1269841269841231,
+      "net_r": -1.1587301587301857
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-16",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.6445443921096434,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-16 07:25:50.707000+00:00",
+      "exit_time": "2025-05-16 08:27:01.484000+00:00",
+      "entry": 0.5912799999999999,
+      "exit": 0.5905900000000001,
+      "stop_bid": 0.5906,
+      "initial_risk": 0.0006799999999999029,
+      "target": 0.5926399999999997,
+      "reason": "SL",
+      "price_net_r": -1.0147058823528763,
+      "commission_r": 0.05882352941177311,
+      "net_r": -1.0735294117646494
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-19",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.9009952082565426,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-19 08:26:38.384000+00:00",
+      "exit_time": "2025-05-19 08:55:44.089000+00:00",
+      "entry": 0.5889800000000001,
+      "exit": 0.58988,
+      "stop_bid": 0.58984,
+      "initial_risk": 0.0009399999999999409,
+      "target": 0.5871000000000002,
+      "reason": "SL",
+      "price_net_r": -0.957446808510593,
+      "commission_r": 0.04255319148936438,
+      "net_r": -0.9999999999999575
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-19",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.9009952082565426,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-19 08:26:38.384000+00:00",
+      "exit_time": "2025-05-19 08:55:44.089000+00:00",
+      "entry": 0.588975,
+      "exit": 0.589895,
+      "stop_bid": 0.58984,
+      "initial_risk": 0.0009850000000000136,
+      "target": 0.587005,
+      "reason": "SL",
+      "price_net_r": -0.9340101522841707,
+      "commission_r": 0.06091370558375551,
+      "net_r": -0.9949238578679263
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-19",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.9009952082565426,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-19 08:26:38.384000+00:00",
+      "exit_time": "2025-05-19 08:55:44.089000+00:00",
+      "entry": 0.58897,
+      "exit": 0.58991,
+      "stop_bid": 0.58984,
+      "initial_risk": 0.0010299999999999754,
+      "target": 0.58691,
+      "reason": "SL",
+      "price_net_r": -0.9126213592233732,
+      "commission_r": 0.07766990291262323,
+      "net_r": -0.9902912621359964
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-19",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.9009952082565426,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-19 08:26:38.384000+00:00",
+      "exit_time": "2025-05-19 08:55:44.089000+00:00",
+      "entry": 0.5889800000000001,
+      "exit": 0.5899599999999999,
+      "stop_bid": 0.58984,
+      "initial_risk": 0.0009599999999999609,
+      "target": 0.5870600000000001,
+      "reason": "SL",
+      "price_net_r": -1.0208333333332393,
+      "commission_r": 0.041666666666668364,
+      "net_r": -1.0624999999999076
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-20",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.6910770367633474,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-20 07:15:00.686000+00:00",
+      "exit_time": "2025-05-20 08:58:50.553000+00:00",
+      "entry": 0.59298,
+      "exit": 0.59179,
+      "stop_bid": 0.59182,
+      "initial_risk": 0.0011599999999999389,
+      "target": 0.5952999999999998,
+      "reason": "SL",
+      "price_net_r": -1.0258620689654967,
+      "commission_r": 0.03448275862069147,
+      "net_r": -1.0603448275861882
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-20",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.6910770367633474,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-20 07:15:00.686000+00:00",
+      "exit_time": "2025-05-20 08:58:50.553000+00:00",
+      "entry": 0.592995,
+      "exit": 0.591785,
+      "stop_bid": 0.59182,
+      "initial_risk": 0.0011750000000000371,
+      "target": 0.5953450000000001,
+      "reason": "SL",
+      "price_net_r": -1.0297872340425585,
+      "commission_r": 0.05106382978723244,
+      "net_r": -1.0808510638297908
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-20",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.6910770367633474,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-20 07:15:00.686000+00:00",
+      "exit_time": "2025-05-20 08:58:50.553000+00:00",
+      "entry": 0.59301,
+      "exit": 0.59178,
+      "stop_bid": 0.59182,
+      "initial_risk": 0.0011900000000000244,
+      "target": 0.5953900000000001,
+      "reason": "SL",
+      "price_net_r": -1.0336134453781842,
+      "commission_r": 0.06722689075630114,
+      "net_r": -1.1008403361344854
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-20",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.6910770367633474,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-20 07:15:00.686000+00:00",
+      "exit_time": "2025-05-20 08:58:50.553000+00:00",
+      "entry": 0.5930599999999999,
+      "exit": 0.59179,
+      "stop_bid": 0.59182,
+      "initial_risk": 0.0012399999999999078,
+      "target": 0.5955399999999997,
+      "reason": "SL",
+      "price_net_r": -1.024193548387078,
+      "commission_r": 0.03225806451613143,
+      "net_r": -1.0564516129032095
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-21",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.9242318307267708,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-21 07:16:08.915000+00:00",
+      "exit_time": "2025-05-21 10:29:40.698000+00:00",
+      "entry": 0.5932400000000001,
+      "exit": 0.59473,
+      "stop_bid": 0.59469,
+      "initial_risk": 0.0014799999999999258,
+      "target": 0.5902800000000002,
+      "reason": "SL",
+      "price_net_r": -1.0067567567567264,
+      "commission_r": 0.027027027027028385,
+      "net_r": -1.0337837837837547
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-21",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.9242318307267708,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-21 07:16:08.915000+00:00",
+      "exit_time": "2025-05-21 10:29:40.698000+00:00",
+      "entry": 0.5932350000000001,
+      "exit": 0.59475,
+      "stop_bid": 0.59469,
+      "initial_risk": 0.0014999999999999458,
+      "target": 0.5902350000000002,
+      "reason": "SL",
+      "price_net_r": -1.0099999999999918,
+      "commission_r": 0.04000000000000145,
+      "net_r": -1.0499999999999932
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-21",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.9242318307267708,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-21 07:16:08.915000+00:00",
+      "exit_time": "2025-05-21 10:29:40.698000+00:00",
+      "entry": 0.59323,
+      "exit": 0.59477,
+      "stop_bid": 0.59469,
+      "initial_risk": 0.0015199999999999658,
+      "target": 0.5901900000000001,
+      "reason": "SL",
+      "price_net_r": -1.0131578947368556,
+      "commission_r": 0.05263157894736961,
+      "net_r": -1.0657894736842253
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-21",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.9242318307267708,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-21 07:16:08.915000+00:00",
+      "exit_time": "2025-05-21 10:29:40.698000+00:00",
+      "entry": 0.5932400000000001,
+      "exit": 0.5948,
+      "stop_bid": 0.59469,
+      "initial_risk": 0.0015499999999999403,
+      "target": 0.5901400000000002,
+      "reason": "SL",
+      "price_net_r": -1.0064516129031966,
+      "commission_r": 0.02580645161290422,
+      "net_r": -1.0322580645161008
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-22",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.8450580114554267,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-22 09:00:00.301000+00:00",
+      "exit_time": "2025-05-22 10:02:17.878000+00:00",
+      "entry": 0.59184,
+      "exit": 0.59015,
+      "stop_bid": 0.59262,
+      "initial_risk": 0.0008500000000000174,
+      "target": 0.59014,
+      "reason": "TP2",
+      "price_net_r": 1.9882352941177008,
+      "commission_r": 0.047058823529410806,
+      "net_r": 1.9411764705882901
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-22",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.8450580114554267,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-22 09:00:00.301000+00:00",
+      "exit_time": "2025-05-22 10:06:27.285000+00:00",
+      "entry": 0.591835,
+      "exit": 0.5900699999999999,
+      "stop_bid": 0.59262,
+      "initial_risk": 0.0008900000000000574,
+      "target": 0.5900549999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9831460674157457,
+      "commission_r": 0.0674157303370743,
+      "net_r": 1.9157303370786714
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-22",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.8450580114554267,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-22 09:00:00.301000+00:00",
+      "exit_time": "2025-05-22 10:07:56.791000+00:00",
+      "entry": 0.59183,
+      "exit": 0.5899899999999998,
+      "stop_bid": 0.59262,
+      "initial_risk": 0.0009300000000000974,
+      "target": 0.5899699999999998,
+      "reason": "TP2",
+      "price_net_r": 1.9784946236558947,
+      "commission_r": 0.08602150537633509,
+      "net_r": 1.8924731182795596
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-22",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.8450580114554267,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-22 09:00:00.301000+00:00",
+      "exit_time": "2025-05-22 10:07:41.843000+00:00",
+      "entry": 0.59184,
+      "exit": 0.59009,
+      "stop_bid": 0.59262,
+      "initial_risk": 0.0008799999999999919,
+      "target": 0.59008,
+      "reason": "TP2",
+      "price_net_r": 1.9886363636364153,
+      "commission_r": 0.04545454545454588,
+      "net_r": 1.9431818181818694
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-23",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.579742011140428,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-23 07:15:52.538000+00:00",
+      "exit_time": "2025-05-23 11:08:07.543000+00:00",
+      "entry": 0.59307,
+      "exit": 0.5960599999999999,
+      "stop_bid": 0.59157,
+      "initial_risk": 0.0014999999999999458,
+      "target": 0.5960699999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9933333333333634,
+      "commission_r": 0.026666666666667633,
+      "net_r": 1.9666666666666957
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-23",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.579742011140428,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-23 07:15:52.538000+00:00",
+      "exit_time": "2025-05-23 11:20:55.045000+00:00",
+      "entry": 0.593085,
+      "exit": 0.5960999999999999,
+      "stop_bid": 0.59157,
+      "initial_risk": 0.001514999999999933,
+      "target": 0.5961149999999998,
+      "reason": "TP2",
+      "price_net_r": 1.990099009900998,
+      "commission_r": 0.03960396039604136,
+      "net_r": 1.9504950495049567
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-23",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.579742011140428,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-23 07:15:52.538000+00:00",
+      "exit_time": "2025-05-23 11:20:55.117000+00:00",
+      "entry": 0.5931000000000001,
+      "exit": 0.5961400000000001,
+      "stop_bid": 0.59157,
+      "initial_risk": 0.0015300000000000313,
+      "target": 0.5961600000000001,
+      "reason": "TP2",
+      "price_net_r": 1.9869281045751506,
+      "commission_r": 0.05228758169934534,
+      "net_r": 1.9346405228758052
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-23",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.579742011140428,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-23 07:15:52.538000+00:00",
+      "exit_time": "2025-05-23 11:23:01.744000+00:00",
+      "entry": 0.59315,
+      "exit": 0.5962999999999998,
+      "stop_bid": 0.59157,
+      "initial_risk": 0.0015799999999999148,
+      "target": 0.5963099999999998,
+      "reason": "TP2",
+      "price_net_r": 1.9936708860759778,
+      "commission_r": 0.025316455696203898,
+      "net_r": 1.9683544303797738
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-26",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.8428370682641816,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-26 07:30:27.269000+00:00",
+      "exit_time": "2025-05-26 15:00:00.191000+00:00",
+      "entry": 0.60162,
+      "exit": 0.60114,
+      "stop_bid": 0.60267,
+      "initial_risk": 0.0010700000000000154,
+      "target": 0.59948,
+      "reason": "EOD",
+      "price_net_r": 0.44859813084114863,
+      "commission_r": 0.03738317757009292,
+      "net_r": 0.4112149532710557
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-26",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.8428370682641816,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-26 07:30:27.269000+00:00",
+      "exit_time": "2025-05-26 15:00:00.191000+00:00",
+      "entry": 0.601615,
+      "exit": 0.60116,
+      "stop_bid": 0.60267,
+      "initial_risk": 0.0010850000000001137,
+      "target": 0.5994449999999998,
+      "reason": "EOD",
+      "price_net_r": 0.419354838709618,
+      "commission_r": 0.05529953917050113,
+      "net_r": 0.36405529953911686
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-26",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.8428370682641816,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-26 07:30:27.269000+00:00",
+      "exit_time": "2025-05-26 15:00:00.191000+00:00",
+      "entry": 0.60161,
+      "exit": 0.6011800000000002,
+      "stop_bid": 0.60267,
+      "initial_risk": 0.001100000000000101,
+      "target": 0.5994099999999998,
+      "reason": "EOD",
+      "price_net_r": 0.39090909090889087,
+      "commission_r": 0.07272727272726606,
+      "net_r": 0.31818181818162483
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-26",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.8428370682641816,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-26 07:30:27.269000+00:00",
+      "exit_time": "2025-05-26 15:00:00.191000+00:00",
+      "entry": 0.60162,
+      "exit": 0.6012099999999999,
+      "stop_bid": 0.60267,
+      "initial_risk": 0.0011499999999999844,
+      "target": 0.5993200000000001,
+      "reason": "EOD",
+      "price_net_r": 0.35652173913055485,
+      "commission_r": 0.034782608695652646,
+      "net_r": 0.3217391304349022
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-27",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7713341011256827,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-27",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7713341011256827,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-27",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7713341011256827,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-27",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7713341011256827,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-28",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.6663924618606043,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-28 07:47:09.641000+00:00",
+      "exit_time": "2025-05-28 12:36:32.210000+00:00",
+      "entry": 0.59719,
+      "exit": 0.59597,
+      "stop_bid": 0.59598,
+      "initial_risk": 0.0012100000000000444,
+      "target": 0.5996100000000001,
+      "reason": "SL",
+      "price_net_r": -1.0082644628098794,
+      "commission_r": 0.033057851239668215,
+      "net_r": -1.0413223140495476
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-28",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.6663924618606043,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-28 07:47:09.641000+00:00",
+      "exit_time": "2025-05-28 12:36:32.210000+00:00",
+      "entry": 0.5972050000000001,
+      "exit": 0.595965,
+      "stop_bid": 0.59598,
+      "initial_risk": 0.0012250000000001426,
+      "target": 0.5996550000000004,
+      "reason": "SL",
+      "price_net_r": -1.0122448979591718,
+      "commission_r": 0.048979591836728995,
+      "net_r": -1.061224489795901
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-28",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.6663924618606043,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-28 07:47:09.641000+00:00",
+      "exit_time": "2025-05-28 12:36:32.210000+00:00",
+      "entry": 0.5972200000000001,
+      "exit": 0.5959599999999999,
+      "stop_bid": 0.59598,
+      "initial_risk": 0.0012400000000001299,
+      "target": 0.5997000000000003,
+      "reason": "SL",
+      "price_net_r": -1.016129032258079,
+      "commission_r": 0.06451612903225132,
+      "net_r": -1.0806451612903303
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-28",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.6663924618606043,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-28 07:47:09.641000+00:00",
+      "exit_time": "2025-05-28 12:36:32.210000+00:00",
+      "entry": 0.59727,
+      "exit": 0.59597,
+      "stop_bid": 0.59598,
+      "initial_risk": 0.0012900000000000134,
+      "target": 0.59985,
+      "reason": "SL",
+      "price_net_r": -1.0077519379844608,
+      "commission_r": 0.031007751937984177,
+      "net_r": -1.038759689922445
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-29",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.093200376884422,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-29 07:15:12.090000+00:00",
+      "exit_time": "2025-05-29 13:01:02.892000+00:00",
+      "entry": 0.5964799999999999,
+      "exit": 0.5990299999999998,
+      "stop_bid": 0.5952,
+      "initial_risk": 0.0012799999999999478,
+      "target": 0.5990399999999998,
+      "reason": "TP2",
+      "price_net_r": 1.9921875000000353,
+      "commission_r": 0.03125000000000128,
+      "net_r": 1.960937500000034
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-29",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.093200376884422,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-29 07:15:12.090000+00:00",
+      "exit_time": "2025-05-29 13:27:50.481000+00:00",
+      "entry": 0.5965149999999999,
+      "exit": 0.5991299999999998,
+      "stop_bid": 0.5952,
+      "initial_risk": 0.001314999999999955,
+      "target": 0.5991449999999998,
+      "reason": "TP2",
+      "price_net_r": 1.9885931558935455,
+      "commission_r": 0.045627376425857076,
+      "net_r": 1.9429657794676884
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-29",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.093200376884422,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-29 07:15:12.090000+00:00",
+      "exit_time": "2025-05-29 15:00:00.005000+00:00",
+      "entry": 0.5965499999999999,
+      "exit": 0.5977,
+      "stop_bid": 0.5952,
+      "initial_risk": 0.0013499999999999623,
+      "target": 0.5992499999999998,
+      "reason": "EOD",
+      "price_net_r": 0.8518518518519462,
+      "commission_r": 0.05925925925926092,
+      "net_r": 0.7925925925926853
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-29",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.093200376884422,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-29 07:15:12.090000+00:00",
+      "exit_time": "2025-05-29 13:27:50.543000+00:00",
+      "entry": 0.5965199999999999,
+      "exit": 0.59915,
+      "stop_bid": 0.5952,
+      "initial_risk": 0.0013199999999999878,
+      "target": 0.5991599999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9924242424242768,
+      "commission_r": 0.030303030303030585,
+      "net_r": 1.9621212121212463
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-30",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.879390248573289,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-30 07:23:00.198000+00:00",
+      "exit_time": "2025-05-30 12:41:54.573000+00:00",
+      "entry": 0.5951700000000001,
+      "exit": 0.5967699999999999,
+      "stop_bid": 0.59674,
+      "initial_risk": 0.0016099999999998893,
+      "target": 0.5919500000000003,
+      "reason": "SL",
+      "price_net_r": -0.9937888198757353,
+      "commission_r": 0.02484472049689612,
+      "net_r": -1.0186335403726314
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-30",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.879390248573289,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-30 07:23:00.198000+00:00",
+      "exit_time": "2025-05-30 12:41:54.573000+00:00",
+      "entry": 0.595165,
+      "exit": 0.5967849999999999,
+      "stop_bid": 0.59674,
+      "initial_risk": 0.001634999999999942,
+      "target": 0.5918950000000002,
+      "reason": "SL",
+      "price_net_r": -0.990825688073334,
+      "commission_r": 0.036697247706423325,
+      "net_r": -1.0275229357797573
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-30",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.879390248573289,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-30 07:23:00.198000+00:00",
+      "exit_time": "2025-05-30 12:41:54.573000+00:00",
+      "entry": 0.59516,
+      "exit": 0.5967999999999999,
+      "stop_bid": 0.59674,
+      "initial_risk": 0.0016599999999998838,
+      "target": 0.5918400000000003,
+      "reason": "SL",
+      "price_net_r": -0.9879518072289027,
+      "commission_r": 0.048192771084340724,
+      "net_r": -1.0361445783132435
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-05-30",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.879390248573289,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-05-30 07:23:00.198000+00:00",
+      "exit_time": "2025-05-30 12:41:54.573000+00:00",
+      "entry": 0.5951700000000001,
+      "exit": 0.59685,
+      "stop_bid": 0.59674,
+      "initial_risk": 0.0016699999999999493,
+      "target": 0.5918300000000002,
+      "reason": "SL",
+      "price_net_r": -1.0059880239520687,
+      "commission_r": 0.023952095808383964,
+      "net_r": -1.0299401197604525
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-01",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7891495053816959,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-01",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7891495053816959,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-01",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7891495053816959,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-01",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7891495053816959,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-02",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.385507607882265,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-02 07:15:00.154000+00:00",
+      "exit_time": "2025-09-02 07:54:14.033000+00:00",
+      "entry": 0.5876600000000001,
+      "exit": 0.5850700000000003,
+      "stop_bid": 0.5889,
+      "initial_risk": 0.0012999999999998568,
+      "target": 0.5850600000000004,
+      "reason": "TP2",
+      "price_net_r": 1.9923076923077265,
+      "commission_r": 0.03076923076923416,
+      "net_r": 1.9615384615384923
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-02",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.385507607882265,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-02 07:15:00.154000+00:00",
+      "exit_time": "2025-09-02 07:54:15.569000+00:00",
+      "entry": 0.587655,
+      "exit": 0.5850000000000003,
+      "stop_bid": 0.5889,
+      "initial_risk": 0.001334999999999864,
+      "target": 0.5849850000000003,
+      "reason": "TP2",
+      "price_net_r": 1.9887640449438286,
+      "commission_r": 0.044943820224723686,
+      "net_r": 1.943820224719105
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-02",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.385507607882265,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-02 07:15:00.154000+00:00",
+      "exit_time": "2025-09-02 09:22:13.915000+00:00",
+      "entry": 0.58765,
+      "exit": 0.5849300000000003,
+      "stop_bid": 0.5889,
+      "initial_risk": 0.0013699999999998713,
+      "target": 0.5849100000000003,
+      "reason": "TP2",
+      "price_net_r": 1.9854014598539986,
+      "commission_r": 0.05839416058394709,
+      "net_r": 1.9270072992700515
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-02",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.385507607882265,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-02 07:15:00.154000+00:00",
+      "exit_time": "2025-09-02 09:22:13.848000+00:00",
+      "entry": 0.5876600000000001,
+      "exit": 0.5849900000000002,
+      "stop_bid": 0.5889,
+      "initial_risk": 0.0013399999999998968,
+      "target": 0.5849800000000003,
+      "reason": "TP2",
+      "price_net_r": 1.9925373134328692,
+      "commission_r": 0.029850746268659016,
+      "net_r": 1.9626865671642102
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-03",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.0104753254617016,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-03 07:16:43.487000+00:00",
+      "exit_time": "2025-09-03 07:47:03.783000+00:00",
+      "entry": 0.58504,
+      "exit": 0.5855899999999999,
+      "stop_bid": 0.58556,
+      "initial_risk": 0.0005600000000000049,
+      "target": 0.58392,
+      "reason": "SL",
+      "price_net_r": -0.9821428571427403,
+      "commission_r": 0.0714285714285708,
+      "net_r": -1.0535714285713111
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-03",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.0104753254617016,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-03 07:16:43.487000+00:00",
+      "exit_time": "2025-09-03 07:47:03.783000+00:00",
+      "entry": 0.585035,
+      "exit": 0.585605,
+      "stop_bid": 0.58556,
+      "initial_risk": 0.0005850000000000577,
+      "target": 0.5838649999999999,
+      "reason": "SL",
+      "price_net_r": -0.9743589743589987,
+      "commission_r": 0.10256410256409246,
+      "net_r": -1.076923076923091
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-03",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.0104753254617016,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-03 07:16:43.487000+00:00",
+      "exit_time": "2025-09-03 07:47:03.783000+00:00",
+      "entry": 0.5850299999999999,
+      "exit": 0.58562,
+      "stop_bid": 0.58556,
+      "initial_risk": 0.0006100000000001105,
+      "target": 0.5838099999999997,
+      "reason": "SL",
+      "price_net_r": -0.9672131147540715,
+      "commission_r": 0.13114754098358283,
+      "net_r": -1.0983606557376544
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-03",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.0104753254617016,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-03 07:16:43.487000+00:00",
+      "exit_time": "2025-09-03 07:47:03.783000+00:00",
+      "entry": 0.58504,
+      "exit": 0.5856699999999999,
+      "stop_bid": 0.58556,
+      "initial_risk": 0.0006199999999999539,
+      "target": 0.5838000000000001,
+      "reason": "SL",
+      "price_net_r": -1.0161290322579923,
+      "commission_r": 0.06451612903226286,
+      "net_r": -1.0806451612902552
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-04",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.9835709262929105,
+    "outcome": {
+      "status": "DOJI_OR_INVALID_RANGE"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-04",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.9835709262929105,
+    "outcome": {
+      "status": "DOJI_OR_INVALID_RANGE"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-04",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.9835709262929105,
+    "outcome": {
+      "status": "DOJI_OR_INVALID_RANGE"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-04",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.9835709262929105,
+    "outcome": {
+      "status": "DOJI_OR_INVALID_RANGE"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-05",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.6970433892230897,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-05 07:22:53.113000+00:00",
+      "exit_time": "2025-09-05 12:30:01.326000+00:00",
+      "entry": 0.58709,
+      "exit": 0.5882400000000001,
+      "stop_bid": 0.58651,
+      "initial_risk": 0.0005800000000000249,
+      "target": 0.58825,
+      "reason": "TP2",
+      "price_net_r": 1.9827586206897343,
+      "commission_r": 0.06896551724137635,
+      "net_r": 1.913793103448358
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-05",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.6970433892230897,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-05 07:22:53.113000+00:00",
+      "exit_time": "2025-09-05 12:30:01.326000+00:00",
+      "entry": 0.5871050000000001,
+      "exit": 0.5882800000000004,
+      "stop_bid": 0.58651,
+      "initial_risk": 0.0005950000000001232,
+      "target": 0.5882950000000003,
+      "reason": "TP2",
+      "price_net_r": 1.9747899159664133,
+      "commission_r": 0.10084033613443291,
+      "net_r": 1.8739495798319803
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-05",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.6970433892230897,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-05 07:22:53.113000+00:00",
+      "exit_time": "2025-09-05 12:30:01.484000+00:00",
+      "entry": 0.5871200000000001,
+      "exit": 0.5883200000000003,
+      "stop_bid": 0.58651,
+      "initial_risk": 0.0006100000000001105,
+      "target": 0.5883400000000003,
+      "reason": "TP2",
+      "price_net_r": 1.9672131147540715,
+      "commission_r": 0.13114754098358283,
+      "net_r": 1.8360655737704885
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-05",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.6970433892230897,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-05 07:22:53.113000+00:00",
+      "exit_time": "2025-09-05 12:30:01.597000+00:00",
+      "entry": 0.58717,
+      "exit": 0.58848,
+      "stop_bid": 0.58651,
+      "initial_risk": 0.0006599999999999939,
+      "target": 0.58849,
+      "reason": "TP2",
+      "price_net_r": 1.9848484848485537,
+      "commission_r": 0.06060606060606117,
+      "net_r": 1.9242424242424925
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-08",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.4230988052342122,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-08 07:15:25.849000+00:00",
+      "exit_time": "2025-09-08 10:50:13.537000+00:00",
+      "entry": 0.5920399999999999,
+      "exit": 0.5931699999999996,
+      "stop_bid": 0.59147,
+      "initial_risk": 0.0005699999999998484,
+      "target": 0.5931799999999996,
+      "reason": "TP2",
+      "price_net_r": 1.9824561403509524,
+      "commission_r": 0.0701754385965099,
+      "net_r": 1.9122807017544425
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-08",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.4230988052342122,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-08 07:15:25.849000+00:00",
+      "exit_time": "2025-09-08 11:14:47.343000+00:00",
+      "entry": 0.5920549999999999,
+      "exit": 0.5932099999999996,
+      "stop_bid": 0.59147,
+      "initial_risk": 0.0005849999999998357,
+      "target": 0.5932249999999996,
+      "reason": "TP2",
+      "price_net_r": 1.9743589743589889,
+      "commission_r": 0.1025641025641314,
+      "net_r": 1.8717948717948576
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-08",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.4230988052342122,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-08 07:15:25.849000+00:00",
+      "exit_time": "2025-09-08 11:31:39.472000+00:00",
+      "entry": 0.5920699999999999,
+      "exit": 0.5932499999999995,
+      "stop_bid": 0.59147,
+      "initial_risk": 0.0005999999999998229,
+      "target": 0.5932699999999995,
+      "reason": "TP2",
+      "price_net_r": 1.9666666666666235,
+      "commission_r": 0.1333333333333727,
+      "net_r": 1.8333333333332509
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-08",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.4230988052342122,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-08 07:15:25.849000+00:00",
+      "exit_time": "2025-09-08 11:32:44.085000+00:00",
+      "entry": 0.59212,
+      "exit": 0.5934099999999999,
+      "stop_bid": 0.59147,
+      "initial_risk": 0.0006499999999999284,
+      "target": 0.5934199999999998,
+      "reason": "TP2",
+      "price_net_r": 1.9846153846154528,
+      "commission_r": 0.06153846153846832,
+      "net_r": 1.9230769230769844
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-09",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.8205741626794258,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-09 07:15:03.700000+00:00",
+      "exit_time": "2025-09-09 07:39:00.296000+00:00",
+      "entry": 0.59519,
+      "exit": 0.5946100000000001,
+      "stop_bid": 0.59462,
+      "initial_risk": 0.0005699999999999594,
+      "target": 0.5963299999999999,
+      "reason": "SL",
+      "price_net_r": -1.0175438596490443,
+      "commission_r": 0.07017543859649623,
+      "net_r": -1.0877192982455406
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-09",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.8205741626794258,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-09 07:15:03.700000+00:00",
+      "exit_time": "2025-09-09 07:39:00.296000+00:00",
+      "entry": 0.5952050000000001,
+      "exit": 0.594605,
+      "stop_bid": 0.59462,
+      "initial_risk": 0.0005850000000000577,
+      "target": 0.5963750000000002,
+      "reason": "SL",
+      "price_net_r": -1.0256410256410013,
+      "commission_r": 0.10256410256409246,
+      "net_r": -1.1282051282050938
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-09",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.8205741626794258,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-09 07:15:03.700000+00:00",
+      "exit_time": "2025-09-09 07:39:00.296000+00:00",
+      "entry": 0.5952200000000001,
+      "exit": 0.5946,
+      "stop_bid": 0.59462,
+      "initial_risk": 0.0006000000000000449,
+      "target": 0.5964200000000002,
+      "reason": "SL",
+      "price_net_r": -1.033333333333364,
+      "commission_r": 0.13333333333332337,
+      "net_r": -1.1666666666666874
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-09",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.8205741626794258,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-09 07:15:03.700000+00:00",
+      "exit_time": "2025-09-09 07:39:00.296000+00:00",
+      "entry": 0.59527,
+      "exit": 0.5946100000000001,
+      "stop_bid": 0.59462,
+      "initial_risk": 0.0006499999999999284,
+      "target": 0.5965699999999998,
+      "reason": "SL",
+      "price_net_r": -1.0153846153845472,
+      "commission_r": 0.06153846153846832,
+      "net_r": -1.0769230769230156
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-10",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.4279379157427938,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-10 07:23:55.170000+00:00",
+      "exit_time": "2025-09-10 08:34:38.567000+00:00",
+      "entry": 0.5943499999999999,
+      "exit": 0.59338,
+      "stop_bid": 0.59339,
+      "initial_risk": 0.0009599999999999609,
+      "target": 0.5962699999999999,
+      "reason": "SL",
+      "price_net_r": -1.0104166666666197,
+      "commission_r": 0.041666666666668364,
+      "net_r": -1.052083333333288
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-10",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.4279379157427938,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-10 07:23:55.170000+00:00",
+      "exit_time": "2025-09-10 08:34:38.567000+00:00",
+      "entry": 0.59437,
+      "exit": 0.593375,
+      "stop_bid": 0.59339,
+      "initial_risk": 0.0009799999999999809,
+      "target": 0.5963299999999999,
+      "reason": "SL",
+      "price_net_r": -1.0153061224489668,
+      "commission_r": 0.06122448979591957,
+      "net_r": -1.0765306122448863
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-10",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.4279379157427938,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-10 07:23:55.170000+00:00",
+      "exit_time": "2025-09-10 08:34:38.567000+00:00",
+      "entry": 0.59439,
+      "exit": 0.59337,
+      "stop_bid": 0.59339,
+      "initial_risk": 0.0010000000000000009,
+      "target": 0.59639,
+      "reason": "SL",
+      "price_net_r": -1.02000000000002,
+      "commission_r": 0.07999999999999993,
+      "net_r": -1.1000000000000199
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-10",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.4279379157427938,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-10 07:23:55.170000+00:00",
+      "exit_time": "2025-09-10 08:34:38.567000+00:00",
+      "entry": 0.59442,
+      "exit": 0.59338,
+      "stop_bid": 0.59339,
+      "initial_risk": 0.0010299999999999754,
+      "target": 0.5964799999999999,
+      "reason": "SL",
+      "price_net_r": -1.0097087378640337,
+      "commission_r": 0.03883495145631161,
+      "net_r": -1.0485436893203453
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-11",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.2079804467686013,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-11",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.2079804467686013,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-11",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.2079804467686013,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-11",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.2079804467686013,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-12",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.6085604840948204,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-12 07:20:14.886000+00:00",
+      "exit_time": "2025-09-12 08:07:58.147000+00:00",
+      "entry": 0.5972,
+      "exit": 0.59663,
+      "stop_bid": 0.59664,
+      "initial_risk": 0.0005600000000000049,
+      "target": 0.59832,
+      "reason": "SL",
+      "price_net_r": -1.0178571428570615,
+      "commission_r": 0.0714285714285708,
+      "net_r": -1.0892857142856323
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-12",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.6085604840948204,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-12 07:20:14.886000+00:00",
+      "exit_time": "2025-09-12 08:07:58.147000+00:00",
+      "entry": 0.5972149999999999,
+      "exit": 0.596625,
+      "stop_bid": 0.59664,
+      "initial_risk": 0.0005749999999999922,
+      "target": 0.5983649999999999,
+      "reason": "SL",
+      "price_net_r": -1.0260869565217172,
+      "commission_r": 0.10434782608695796,
+      "net_r": -1.1304347826086751
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-12",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.6085604840948204,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-12 07:20:14.886000+00:00",
+      "exit_time": "2025-09-12 08:07:58.147000+00:00",
+      "entry": 0.59723,
+      "exit": 0.5966199999999999,
+      "stop_bid": 0.59664,
+      "initial_risk": 0.0005900000000000905,
+      "target": 0.5984100000000002,
+      "reason": "SL",
+      "price_net_r": -1.0338983050847745,
+      "commission_r": 0.13559322033896226,
+      "net_r": -1.1694915254237368
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-12",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.6085604840948204,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-12 07:20:14.886000+00:00",
+      "exit_time": "2025-09-12 08:07:58.147000+00:00",
+      "entry": 0.5972799999999999,
+      "exit": 0.59663,
+      "stop_bid": 0.59664,
+      "initial_risk": 0.0006399999999999739,
+      "target": 0.5985599999999999,
+      "reason": "SL",
+      "price_net_r": -1.0156249999999296,
+      "commission_r": 0.06250000000000255,
+      "net_r": -1.078124999999932
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-15",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7763592841673316,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-15 07:15:02.423000+00:00",
+      "exit_time": "2025-09-15 15:00:00.416000+00:00",
+      "entry": 0.59602,
+      "exit": 0.59606,
+      "stop_bid": 0.59541,
+      "initial_risk": 0.0006099999999999994,
+      "target": 0.59724,
+      "reason": "EOD",
+      "price_net_r": 0.06557377049186892,
+      "commission_r": 0.06557377049180335,
+      "net_r": 6.557254739192331e-14
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-15",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7763592841673316,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-15 07:15:02.423000+00:00",
+      "exit_time": "2025-09-15 15:00:00.416000+00:00",
+      "entry": 0.596035,
+      "exit": 0.596055,
+      "stop_bid": 0.59541,
+      "initial_risk": 0.0006249999999999867,
+      "target": 0.597285,
+      "reason": "EOD",
+      "price_net_r": 0.03200000000003268,
+      "commission_r": 0.09600000000000206,
+      "net_r": -0.06399999999996937
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-15",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7763592841673316,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-15 07:15:02.423000+00:00",
+      "exit_time": "2025-09-15 15:00:00.416000+00:00",
+      "entry": 0.5960500000000001,
+      "exit": 0.59605,
+      "stop_bid": 0.59541,
+      "initial_risk": 0.0006400000000000849,
+      "target": 0.5973300000000002,
+      "reason": "EOD",
+      "price_net_r": -1.7347234759765769e-13,
+      "commission_r": 0.12499999999998342,
+      "net_r": -0.12500000000015687
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-15",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7763592841673316,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-15 07:15:02.423000+00:00",
+      "exit_time": "2025-09-15 15:00:00.416000+00:00",
+      "entry": 0.5961,
+      "exit": 0.59606,
+      "stop_bid": 0.59541,
+      "initial_risk": 0.0006899999999999684,
+      "target": 0.5974799999999999,
+      "reason": "EOD",
+      "price_net_r": -0.05797101449265335,
+      "commission_r": 0.05797101449275628,
+      "net_r": -0.11594202898540963
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-16",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.0467289719626167,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-16 07:15:20.921000+00:00",
+      "exit_time": "2025-09-16 07:59:20.237000+00:00",
+      "entry": 0.5978899999999999,
+      "exit": 0.59706,
+      "stop_bid": 0.59707,
+      "initial_risk": 0.0008199999999999319,
+      "target": 0.5995299999999998,
+      "reason": "SL",
+      "price_net_r": -1.0121951219511651,
+      "commission_r": 0.0487804878048821,
+      "net_r": -1.0609756097560472
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-16",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.0467289719626167,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-16 07:15:20.921000+00:00",
+      "exit_time": "2025-09-16 07:59:20.237000+00:00",
+      "entry": 0.597905,
+      "exit": 0.597055,
+      "stop_bid": 0.59707,
+      "initial_risk": 0.0008350000000000302,
+      "target": 0.5995750000000001,
+      "reason": "SL",
+      "price_net_r": -1.0179640718562715,
+      "commission_r": 0.07185628742514712,
+      "net_r": -1.0898203592814186
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-16",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.0467289719626167,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-16 07:15:20.921000+00:00",
+      "exit_time": "2025-09-16 07:59:20.237000+00:00",
+      "entry": 0.59792,
+      "exit": 0.59705,
+      "stop_bid": 0.59707,
+      "initial_risk": 0.0008500000000000174,
+      "target": 0.59962,
+      "reason": "SL",
+      "price_net_r": -1.023529411764729,
+      "commission_r": 0.09411764705882161,
+      "net_r": -1.1176470588235505
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-16",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.0467289719626167,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-16 07:15:20.921000+00:00",
+      "exit_time": "2025-09-16 07:59:20.237000+00:00",
+      "entry": 0.5979699999999999,
+      "exit": 0.59706,
+      "stop_bid": 0.59707,
+      "initial_risk": 0.0008999999999999009,
+      "target": 0.5997699999999997,
+      "reason": "SL",
+      "price_net_r": -1.0111111111110618,
+      "commission_r": 0.044444444444449345,
+      "net_r": -1.0555555555555112
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-17",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7584249305471675,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-17 07:15:15.154000+00:00",
+      "exit_time": "2025-09-17 07:42:06.687000+00:00",
+      "entry": 0.5967,
+      "exit": 0.5972299999999999,
+      "stop_bid": 0.59718,
+      "initial_risk": 0.000500000000000056,
+      "target": 0.5956999999999999,
+      "reason": "SL",
+      "price_net_r": -1.0599999999997203,
+      "commission_r": 0.07999999999999105,
+      "net_r": -1.1399999999997112
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-17",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7584249305471675,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-17 07:15:15.154000+00:00",
+      "exit_time": "2025-09-17 07:42:06.687000+00:00",
+      "entry": 0.596695,
+      "exit": 0.5972449999999999,
+      "stop_bid": 0.59718,
+      "initial_risk": 0.0005150000000001542,
+      "target": 0.5956649999999997,
+      "reason": "SL",
+      "price_net_r": -1.0679611650481062,
+      "commission_r": 0.11650485436889717,
+      "net_r": -1.1844660194170034
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-17",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7584249305471675,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-17 07:15:15.154000+00:00",
+      "exit_time": "2025-09-17 07:42:06.687000+00:00",
+      "entry": 0.5966899999999999,
+      "exit": 0.59726,
+      "stop_bid": 0.59718,
+      "initial_risk": 0.0005300000000001415,
+      "target": 0.5956299999999997,
+      "reason": "SL",
+      "price_net_r": -1.0754716981130534,
+      "commission_r": 0.15094339622637482,
+      "net_r": -1.2264150943394283
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-17",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7584249305471675,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-17 07:15:15.154000+00:00",
+      "exit_time": "2025-09-17 07:42:06.687000+00:00",
+      "entry": 0.5967,
+      "exit": 0.5973099999999999,
+      "stop_bid": 0.59718,
+      "initial_risk": 0.0005800000000000249,
+      "target": 0.59554,
+      "reason": "SL",
+      "price_net_r": -1.0517241379307969,
+      "commission_r": 0.06896551724137635,
+      "net_r": -1.1206896551721732
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-18",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.6067788432543273,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-18 07:15:03.202000+00:00",
+      "exit_time": "2025-09-18 08:57:19.078000+00:00",
+      "entry": 0.5904999999999999,
+      "exit": 0.58936,
+      "stop_bid": 0.58938,
+      "initial_risk": 0.0011199999999998989,
+      "target": 0.5927399999999997,
+      "reason": "SL",
+      "price_net_r": -1.0178571428571623,
+      "commission_r": 0.035714285714288946,
+      "net_r": -1.0535714285714513
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-18",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.6067788432543273,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-18 07:15:03.202000+00:00",
+      "exit_time": "2025-09-18 08:57:19.078000+00:00",
+      "entry": 0.5905199999999999,
+      "exit": 0.589355,
+      "stop_bid": 0.58938,
+      "initial_risk": 0.0011399999999999189,
+      "target": 0.5927999999999998,
+      "reason": "SL",
+      "price_net_r": -1.0219298245614514,
+      "commission_r": 0.05263157894737217,
+      "net_r": -1.0745614035088236
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-18",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.6067788432543273,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-18 07:15:03.202000+00:00",
+      "exit_time": "2025-09-18 08:57:19.078000+00:00",
+      "entry": 0.59054,
+      "exit": 0.5893499999999999,
+      "stop_bid": 0.58938,
+      "initial_risk": 0.0011599999999999389,
+      "target": 0.5928599999999998,
+      "reason": "SL",
+      "price_net_r": -1.0258620689655924,
+      "commission_r": 0.06896551724138295,
+      "net_r": -1.0948275862069754
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-18",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.6067788432543273,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-18 07:15:03.202000+00:00",
+      "exit_time": "2025-09-18 08:57:19.078000+00:00",
+      "entry": 0.5905699999999999,
+      "exit": 0.58936,
+      "stop_bid": 0.58938,
+      "initial_risk": 0.0011899999999999133,
+      "target": 0.5929499999999998,
+      "reason": "SL",
+      "price_net_r": -1.0168067226890936,
+      "commission_r": 0.03361344537815371,
+      "net_r": -1.0504201680672474
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-19",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.8318749270796875,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-19 07:16:27.486000+00:00",
+      "exit_time": "2025-09-19 11:58:27.505000+00:00",
+      "entry": 0.5870299999999999,
+      "exit": 0.58608,
+      "stop_bid": 0.58609,
+      "initial_risk": 0.0009399999999999409,
+      "target": 0.5889099999999998,
+      "reason": "SL",
+      "price_net_r": -1.0106382978722928,
+      "commission_r": 0.04255319148936438,
+      "net_r": -1.0531914893616572
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-19",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.8318749270796875,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-19 07:16:27.486000+00:00",
+      "exit_time": "2025-09-19 11:58:27.505000+00:00",
+      "entry": 0.5870449999999999,
+      "exit": 0.586075,
+      "stop_bid": 0.58609,
+      "initial_risk": 0.0009549999999999281,
+      "target": 0.5889549999999998,
+      "reason": "SL",
+      "price_net_r": -1.0157068062827104,
+      "commission_r": 0.0628272251308948,
+      "net_r": -1.0785340314136052
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-19",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.8318749270796875,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-19 07:16:27.486000+00:00",
+      "exit_time": "2025-09-19 11:58:27.505000+00:00",
+      "entry": 0.58706,
+      "exit": 0.58607,
+      "stop_bid": 0.58609,
+      "initial_risk": 0.0009700000000000264,
+      "target": 0.5890000000000001,
+      "reason": "SL",
+      "price_net_r": -1.020618556701051,
+      "commission_r": 0.08247422680412148,
+      "net_r": -1.1030927835051725
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-19",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.8318749270796875,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-19 07:16:27.486000+00:00",
+      "exit_time": "2025-09-19 11:58:27.505000+00:00",
+      "entry": 0.5871099999999999,
+      "exit": 0.58608,
+      "stop_bid": 0.58609,
+      "initial_risk": 0.0010199999999999099,
+      "target": 0.5891499999999997,
+      "reason": "SL",
+      "price_net_r": -1.0098039215685837,
+      "commission_r": 0.03921568627451327,
+      "net_r": -1.049019607843097
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-22",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7394339520536826,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-22 07:15:18.935000+00:00",
+      "exit_time": "2025-09-22 08:08:17.585000+00:00",
+      "entry": 0.58459,
+      "exit": 0.5852999999999999,
+      "stop_bid": 0.58526,
+      "initial_risk": 0.0006999999999999229,
+      "target": 0.5831900000000002,
+      "reason": "SL",
+      "price_net_r": -1.014285714285651,
+      "commission_r": 0.05714285714286344,
+      "net_r": -1.0714285714285143
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-22",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7394339520536826,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-22 07:15:18.935000+00:00",
+      "exit_time": "2025-09-22 08:08:17.585000+00:00",
+      "entry": 0.584585,
+      "exit": 0.5853149999999999,
+      "stop_bid": 0.58526,
+      "initial_risk": 0.0007199999999999429,
+      "target": 0.5831450000000001,
+      "reason": "SL",
+      "price_net_r": -1.013888888888827,
+      "commission_r": 0.08333333333333995,
+      "net_r": -1.0972222222221668
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-22",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7394339520536826,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-22 07:15:18.935000+00:00",
+      "exit_time": "2025-09-22 08:08:17.585000+00:00",
+      "entry": 0.58458,
+      "exit": 0.58533,
+      "stop_bid": 0.58526,
+      "initial_risk": 0.0007399999999999629,
+      "target": 0.5831000000000001,
+      "reason": "SL",
+      "price_net_r": -1.0135135135136026,
+      "commission_r": 0.10810810810811354,
+      "net_r": -1.121621621621716
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-22",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7394339520536826,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-22 07:15:18.935000+00:00",
+      "exit_time": "2025-09-22 08:08:17.585000+00:00",
+      "entry": 0.58459,
+      "exit": 0.5853799999999999,
+      "stop_bid": 0.58526,
+      "initial_risk": 0.0007699999999999374,
+      "target": 0.5830500000000002,
+      "reason": "SL",
+      "price_net_r": -1.0259740259739099,
+      "commission_r": 0.05194805194805618,
+      "net_r": -1.077922077921966
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-23",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.0326841280501455,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-23",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.0326841280501455,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-23",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.0326841280501455,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-23",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.0326841280501455,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-24",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.0402356341002557,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-24 07:26:58.472000+00:00",
+      "exit_time": "2025-09-24 08:16:34.790000+00:00",
+      "entry": 0.58554,
+      "exit": 0.58481,
+      "stop_bid": 0.58483,
+      "initial_risk": 0.0007099999999999884,
+      "target": 0.5869599999999999,
+      "reason": "SL",
+      "price_net_r": -1.0281690140843793,
+      "commission_r": 0.05633802816901501,
+      "net_r": -1.0845070422533944
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-24",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.0402356341002557,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-24 07:26:58.472000+00:00",
+      "exit_time": "2025-09-24 08:16:34.790000+00:00",
+      "entry": 0.58556,
+      "exit": 0.584805,
+      "stop_bid": 0.58483,
+      "initial_risk": 0.0007300000000000084,
+      "target": 0.58702,
+      "reason": "SL",
+      "price_net_r": -1.0342465753423855,
+      "commission_r": 0.08219178082191687,
+      "net_r": -1.1164383561643023
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-24",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.0402356341002557,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-24 07:26:58.472000+00:00",
+      "exit_time": "2025-09-24 08:16:34.790000+00:00",
+      "entry": 0.58558,
+      "exit": 0.5848,
+      "stop_bid": 0.58483,
+      "initial_risk": 0.0007500000000000284,
+      "target": 0.58708,
+      "reason": "SL",
+      "price_net_r": -1.0399999999999645,
+      "commission_r": 0.10666666666666264,
+      "net_r": -1.1466666666666272
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-24",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.0402356341002557,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-24 07:26:58.472000+00:00",
+      "exit_time": "2025-09-24 08:16:34.790000+00:00",
+      "entry": 0.58561,
+      "exit": 0.58481,
+      "stop_bid": 0.58483,
+      "initial_risk": 0.0007800000000000029,
+      "target": 0.58717,
+      "reason": "SL",
+      "price_net_r": -1.0256410256409088,
+      "commission_r": 0.05128205128205109,
+      "net_r": -1.0769230769229599
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-25",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.1157305835892937,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-25 07:30:25.287000+00:00",
+      "exit_time": "2025-09-25 07:32:51.574000+00:00",
+      "entry": 0.58176,
+      "exit": 0.5821599999999999,
+      "stop_bid": 0.58213,
+      "initial_risk": 0.00039999999999995595,
+      "target": 0.5809600000000001,
+      "reason": "SL",
+      "price_net_r": -0.9999999999997224,
+      "commission_r": 0.10000000000001102,
+      "net_r": -1.0999999999997334
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-25",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.1157305835892937,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-25 07:30:25.287000+00:00",
+      "exit_time": "2025-09-25 07:32:51.574000+00:00",
+      "entry": 0.581755,
+      "exit": 0.5821749999999999,
+      "stop_bid": 0.58213,
+      "initial_risk": 0.00041999999999997595,
+      "target": 0.5809150000000001,
+      "reason": "SL",
+      "price_net_r": -0.9999999999997357,
+      "commission_r": 0.14285714285715106,
+      "net_r": -1.1428571428568868
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-25",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.1157305835892937,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-25 07:30:25.287000+00:00",
+      "exit_time": "2025-09-25 07:32:51.574000+00:00",
+      "entry": 0.58175,
+      "exit": 0.5821899999999999,
+      "stop_bid": 0.58213,
+      "initial_risk": 0.00043999999999999595,
+      "target": 0.58087,
+      "reason": "SL",
+      "price_net_r": -0.9999999999997476,
+      "commission_r": 0.18181818181818352,
+      "net_r": -1.1818181818179312
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-25",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.1157305835892937,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-25 07:30:25.287000+00:00",
+      "exit_time": "2025-09-25 07:32:51.574000+00:00",
+      "entry": 0.58176,
+      "exit": 0.58224,
+      "stop_bid": 0.58213,
+      "initial_risk": 0.00046999999999997044,
+      "target": 0.5808200000000001,
+      "reason": "SL",
+      "price_net_r": -1.0212765957445853,
+      "commission_r": 0.08510638297872876,
+      "net_r": -1.1063829787233141
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-26",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.1677156608663457,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-26 07:15:00.137000+00:00",
+      "exit_time": "2025-09-26 13:03:53.891000+00:00",
+      "entry": 0.5763900000000001,
+      "exit": 0.57709,
+      "stop_bid": 0.57704,
+      "initial_risk": 0.0006899999999998574,
+      "target": 0.5750100000000004,
+      "reason": "SL",
+      "price_net_r": -1.0144927536232864,
+      "commission_r": 0.05797101449276561,
+      "net_r": -1.072463768116052
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-26",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.1677156608663457,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-26 07:15:00.137000+00:00",
+      "exit_time": "2025-09-26 13:03:53.891000+00:00",
+      "entry": 0.576385,
+      "exit": 0.5771050000000001,
+      "stop_bid": 0.57704,
+      "initial_risk": 0.0007149999999999102,
+      "target": 0.5749550000000002,
+      "reason": "SL",
+      "price_net_r": -1.006993006993209,
+      "commission_r": 0.08391608391609447,
+      "net_r": -1.0909090909093033
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-26",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.1677156608663457,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-26 07:15:00.137000+00:00",
+      "exit_time": "2025-09-26 13:03:53.891000+00:00",
+      "entry": 0.57638,
+      "exit": 0.5771200000000001,
+      "stop_bid": 0.57704,
+      "initial_risk": 0.0007399999999998519,
+      "target": 0.5749000000000003,
+      "reason": "SL",
+      "price_net_r": -1.0000000000003,
+      "commission_r": 0.10810810810812975,
+      "net_r": -1.1081081081084296
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-26",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.1677156608663457,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-26 07:15:00.137000+00:00",
+      "exit_time": "2025-09-26 13:03:53.891000+00:00",
+      "entry": 0.5763900000000001,
+      "exit": 0.57717,
+      "stop_bid": 0.57704,
+      "initial_risk": 0.0007499999999999174,
+      "target": 0.5748900000000002,
+      "reason": "SL",
+      "price_net_r": -1.0399999999999705,
+      "commission_r": 0.053333333333339214,
+      "net_r": -1.0933333333333097
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-29",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7112735749099386,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-29 07:16:25.927000+00:00",
+      "exit_time": "2025-09-29 10:35:15.329000+00:00",
+      "entry": 0.57916,
+      "exit": 0.5784400000000001,
+      "stop_bid": 0.57846,
+      "initial_risk": 0.0007000000000000339,
+      "target": 0.5805600000000001,
+      "reason": "SL",
+      "price_net_r": -1.0285714285712972,
+      "commission_r": 0.05714285714285438,
+      "net_r": -1.0857142857141515
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-29",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7112735749099386,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-29 07:16:25.927000+00:00",
+      "exit_time": "2025-09-29 10:35:15.329000+00:00",
+      "entry": 0.5791750000000001,
+      "exit": 0.578435,
+      "stop_bid": 0.57846,
+      "initial_risk": 0.0007150000000001322,
+      "target": 0.5806050000000004,
+      "reason": "SL",
+      "price_net_r": -1.034965034964947,
+      "commission_r": 0.08391608391606842,
+      "net_r": -1.1188811188810155
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-29",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7112735749099386,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-29 07:16:25.927000+00:00",
+      "exit_time": "2025-09-29 10:35:15.329000+00:00",
+      "entry": 0.5791900000000001,
+      "exit": 0.57843,
+      "stop_bid": 0.57846,
+      "initial_risk": 0.0007300000000001194,
+      "target": 0.5806500000000003,
+      "reason": "SL",
+      "price_net_r": -1.0410958904109173,
+      "commission_r": 0.10958904109587249,
+      "net_r": -1.1506849315067897
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-29",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7112735749099386,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-29 07:16:25.927000+00:00",
+      "exit_time": "2025-09-29 10:35:15.329000+00:00",
+      "entry": 0.57924,
+      "exit": 0.5784400000000001,
+      "stop_bid": 0.57846,
+      "initial_risk": 0.0007800000000000029,
+      "target": 0.5808,
+      "reason": "SL",
+      "price_net_r": -1.0256410256409088,
+      "commission_r": 0.05128205128205109,
+      "net_r": -1.0769230769229599
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-30",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.6378149032086979,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-30 07:16:02.628000+00:00",
+      "exit_time": "2025-09-30 07:40:50.867000+00:00",
+      "entry": 0.5800099999999999,
+      "exit": 0.5795300000000001,
+      "stop_bid": 0.57954,
+      "initial_risk": 0.0004699999999998594,
+      "target": 0.5809499999999996,
+      "reason": "SL",
+      "price_net_r": -1.0212765957445904,
+      "commission_r": 0.08510638297874887,
+      "net_r": -1.1063829787233392
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-30",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.6378149032086979,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-30 07:16:02.628000+00:00",
+      "exit_time": "2025-09-30 07:40:50.867000+00:00",
+      "entry": 0.5800249999999999,
+      "exit": 0.5795250000000001,
+      "stop_bid": 0.57954,
+      "initial_risk": 0.00048499999999984666,
+      "target": 0.5809949999999996,
+      "reason": "SL",
+      "price_net_r": -1.0309278350515299,
+      "commission_r": 0.1237113402062247,
+      "net_r": -1.1546391752577545
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-30",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.6378149032086979,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-30 07:16:02.628000+00:00",
+      "exit_time": "2025-09-30 07:40:50.867000+00:00",
+      "entry": 0.5800399999999999,
+      "exit": 0.57952,
+      "stop_bid": 0.57954,
+      "initial_risk": 0.0004999999999998339,
+      "target": 0.5810399999999996,
+      "reason": "SL",
+      "price_net_r": -1.0400000000000533,
+      "commission_r": 0.16000000000005316,
+      "net_r": -1.2000000000001065
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-09-30",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.6378149032086979,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-09-30 07:16:02.628000+00:00",
+      "exit_time": "2025-09-30 07:40:50.867000+00:00",
+      "entry": 0.58009,
+      "exit": 0.5795300000000001,
+      "stop_bid": 0.57954,
+      "initial_risk": 0.0005499999999999394,
+      "target": 0.5811899999999999,
+      "reason": "SL",
+      "price_net_r": -1.0181818181817375,
+      "commission_r": 0.07272727272728075,
+      "net_r": -1.0909090909090182
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-01",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.9428159005107706,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-01 08:06:57.181000+00:00",
+      "exit_time": "2025-10-01 10:09:20.203000+00:00",
+      "entry": 0.58156,
+      "exit": 0.58076,
+      "stop_bid": 0.5808,
+      "initial_risk": 0.0007599999999999829,
+      "target": 0.5830799999999999,
+      "reason": "SL",
+      "price_net_r": -1.0526315789472762,
+      "commission_r": 0.05263157894736961,
+      "net_r": -1.105263157894646
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-01",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.9428159005107706,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-01 08:06:57.181000+00:00",
+      "exit_time": "2025-10-01 10:09:20.203000+00:00",
+      "entry": 0.58158,
+      "exit": 0.580755,
+      "stop_bid": 0.5808,
+      "initial_risk": 0.0007800000000000029,
+      "target": 0.58314,
+      "reason": "SL",
+      "price_net_r": -1.0576923076922584,
+      "commission_r": 0.07692307692307665,
+      "net_r": -1.134615384615335
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-01",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.9428159005107706,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-01 08:06:57.181000+00:00",
+      "exit_time": "2025-10-01 10:09:20.203000+00:00",
+      "entry": 0.5816,
+      "exit": 0.58075,
+      "stop_bid": 0.5808,
+      "initial_risk": 0.0008000000000000229,
+      "target": 0.5832,
+      "reason": "SL",
+      "price_net_r": -1.0624999999999913,
+      "commission_r": 0.09999999999999715,
+      "net_r": -1.1624999999999885
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-01",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.9428159005107706,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-01 08:06:57.181000+00:00",
+      "exit_time": "2025-10-01 10:09:20.203000+00:00",
+      "entry": 0.58163,
+      "exit": 0.58076,
+      "stop_bid": 0.5808,
+      "initial_risk": 0.0008299999999999974,
+      "target": 0.58329,
+      "reason": "SL",
+      "price_net_r": -1.048192771084252,
+      "commission_r": 0.048192771084337505,
+      "net_r": -1.0963855421685895
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-02",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7289772406392953,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-02 07:17:57.158000+00:00",
+      "exit_time": "2025-10-02 08:34:58.649000+00:00",
+      "entry": 0.5841799999999999,
+      "exit": 0.58359,
+      "stop_bid": 0.5836,
+      "initial_risk": 0.0005799999999999139,
+      "target": 0.5853399999999997,
+      "reason": "SL",
+      "price_net_r": -1.0172413793102688,
+      "commission_r": 0.06896551724138955,
+      "net_r": -1.0862068965516585
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-02",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7289772406392953,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-02 07:17:57.158000+00:00",
+      "exit_time": "2025-10-02 08:34:58.649000+00:00",
+      "entry": 0.5841999999999999,
+      "exit": 0.583585,
+      "stop_bid": 0.5836,
+      "initial_risk": 0.0005999999999999339,
+      "target": 0.5853999999999998,
+      "reason": "SL",
+      "price_net_r": -1.0249999999999815,
+      "commission_r": 0.10000000000001102,
+      "net_r": -1.1249999999999925
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-02",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7289772406392953,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-02 07:17:57.158000+00:00",
+      "exit_time": "2025-10-02 08:34:58.649000+00:00",
+      "entry": 0.58422,
+      "exit": 0.58358,
+      "stop_bid": 0.5836,
+      "initial_risk": 0.0006199999999999539,
+      "target": 0.5854599999999999,
+      "reason": "SL",
+      "price_net_r": -1.0322580645161636,
+      "commission_r": 0.12903225806452573,
+      "net_r": -1.1612903225806894
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-02",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7289772406392953,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-02 07:17:57.158000+00:00",
+      "exit_time": "2025-10-02 08:34:58.649000+00:00",
+      "entry": 0.5842499999999999,
+      "exit": 0.58359,
+      "stop_bid": 0.5836,
+      "initial_risk": 0.0006499999999999284,
+      "target": 0.5855499999999998,
+      "reason": "SL",
+      "price_net_r": -1.0153846153845472,
+      "commission_r": 0.06153846153846832,
+      "net_r": -1.0769230769230156
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-03",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7562478986887817,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-03 07:15:35.521000+00:00",
+      "exit_time": "2025-10-03 07:41:48.424000+00:00",
+      "entry": 0.5822799999999999,
+      "exit": 0.5829899999999998,
+      "stop_bid": 0.58192,
+      "initial_risk": 0.00035999999999991594,
+      "target": 0.5829999999999997,
+      "reason": "TP2",
+      "price_net_r": 1.9722222222223422,
+      "commission_r": 0.11111111111113707,
+      "net_r": 1.861111111111205
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-03",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7562478986887817,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-03 07:15:35.521000+00:00",
+      "exit_time": "2025-10-03 07:42:07.491000+00:00",
+      "entry": 0.5822949999999999,
+      "exit": 0.5830299999999997,
+      "stop_bid": 0.58192,
+      "initial_risk": 0.0003749999999999032,
+      "target": 0.5830449999999997,
+      "reason": "TP2",
+      "price_net_r": 1.9600000000000237,
+      "commission_r": 0.16000000000004133,
+      "net_r": 1.7999999999999825
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-03",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7562478986887817,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-03 07:15:35.521000+00:00",
+      "exit_time": "2025-10-03 07:42:09.497000+00:00",
+      "entry": 0.5823099999999999,
+      "exit": 0.5830699999999996,
+      "stop_bid": 0.58192,
+      "initial_risk": 0.00038999999999989043,
+      "target": 0.5830899999999997,
+      "reason": "TP2",
+      "price_net_r": 1.948717948717883,
+      "commission_r": 0.20512820512826277,
+      "net_r": 1.7435897435896202
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-03",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7562478986887817,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-03 07:15:35.521000+00:00",
+      "exit_time": "2025-10-03 08:02:03.687000+00:00",
+      "entry": 0.58236,
+      "exit": 0.58323,
+      "stop_bid": 0.58192,
+      "initial_risk": 0.00043999999999999595,
+      "target": 0.58324,
+      "reason": "TP2",
+      "price_net_r": 1.9772727272728305,
+      "commission_r": 0.09090909090909176,
+      "net_r": 1.8863636363637388
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-06",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.1584907775971294,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-06",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.1584907775971294,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-06",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.1584907775971294,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-06",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.1584907775971294,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-07",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.817704591921313,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-07 07:22:30.556000+00:00",
+      "exit_time": "2025-10-07 15:00:00.098000+00:00",
+      "entry": 0.5808500000000001,
+      "exit": 0.5807399999999999,
+      "stop_bid": 0.58172,
+      "initial_risk": 0.0009299999999998754,
+      "target": 0.5789900000000003,
+      "reason": "EOD",
+      "price_net_r": 0.11827956989266696,
+      "commission_r": 0.04301075268817781,
+      "net_r": 0.07526881720448914
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-07",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.817704591921313,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-07 07:22:30.556000+00:00",
+      "exit_time": "2025-10-07 15:00:00.098000+00:00",
+      "entry": 0.5808450000000001,
+      "exit": 0.5807599999999999,
+      "stop_bid": 0.58172,
+      "initial_risk": 0.0009649999999998826,
+      "target": 0.5789150000000003,
+      "reason": "EOD",
+      "price_net_r": 0.08808290155453172,
+      "commission_r": 0.06217616580311638,
+      "net_r": 0.02590673575141534
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-07",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.817704591921313,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-07 07:22:30.556000+00:00",
+      "exit_time": "2025-10-07 15:00:00.098000+00:00",
+      "entry": 0.58084,
+      "exit": 0.58078,
+      "stop_bid": 0.58172,
+      "initial_risk": 0.0009999999999998899,
+      "target": 0.5788400000000002,
+      "reason": "EOD",
+      "price_net_r": 0.06000000000006661,
+      "commission_r": 0.08000000000000881,
+      "net_r": -0.019999999999942203
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-07",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.817704591921313,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-07 07:22:30.556000+00:00",
+      "exit_time": "2025-10-07 15:00:00.098000+00:00",
+      "entry": 0.5808500000000001,
+      "exit": 0.5808099999999999,
+      "stop_bid": 0.58172,
+      "initial_risk": 0.0009699999999999154,
+      "target": 0.5789100000000003,
+      "reason": "EOD",
+      "price_net_r": 0.04123711340222115,
+      "commission_r": 0.041237113402065456,
+      "net_r": 1.556949014158704e-13
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-08",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.3488524949334502,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-08 07:26:24.700000+00:00",
+      "exit_time": "2025-10-08 07:44:44.589000+00:00",
+      "entry": 0.57446,
+      "exit": 0.5753499999999999,
+      "stop_bid": 0.57401,
+      "initial_risk": 0.00044999999999995044,
+      "target": 0.5753599999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9777777777778764,
+      "commission_r": 0.08888888888889869,
+      "net_r": 1.8888888888889777
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-08",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.3488524949334502,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-08 07:26:24.700000+00:00",
+      "exit_time": "2025-10-08 07:46:30.529000+00:00",
+      "entry": 0.57448,
+      "exit": 0.5754049999999999,
+      "stop_bid": 0.57401,
+      "initial_risk": 0.00046999999999997044,
+      "target": 0.5754199999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9680851063830038,
+      "commission_r": 0.12765957446809315,
+      "net_r": 1.8404255319149108
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-08",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.3488524949334502,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-08 07:26:24.700000+00:00",
+      "exit_time": "2025-10-08 07:47:54.751000+00:00",
+      "entry": 0.5745,
+      "exit": 0.57546,
+      "stop_bid": 0.57401,
+      "initial_risk": 0.0004899999999999904,
+      "target": 0.57548,
+      "reason": "TP2",
+      "price_net_r": 1.9591836734693462,
+      "commission_r": 0.1632653061224522,
+      "net_r": 1.795918367346894
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-08",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.3488524949334502,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-08 07:26:24.700000+00:00",
+      "exit_time": "2025-10-08 07:48:04.863000+00:00",
+      "entry": 0.57453,
+      "exit": 0.57556,
+      "stop_bid": 0.57401,
+      "initial_risk": 0.0005199999999999649,
+      "target": 0.5755699999999999,
+      "reason": "TP2",
+      "price_net_r": 1.980769230769317,
+      "commission_r": 0.07692307692308212,
+      "net_r": 1.9038461538462348
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-09",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.5597637056257938,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-09 09:34:40.045000+00:00",
+      "exit_time": "2025-10-09 13:42:33.347000+00:00",
+      "entry": 0.5777199999999999,
+      "exit": 0.57674,
+      "stop_bid": 0.57675,
+      "initial_risk": 0.0009699999999999154,
+      "target": 0.5796599999999997,
+      "reason": "SL",
+      "price_net_r": -1.0103092783504695,
+      "commission_r": 0.041237113402065456,
+      "net_r": -1.051546391752535
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-09",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.5597637056257938,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-09 09:34:40.045000+00:00",
+      "exit_time": "2025-10-09 13:42:33.347000+00:00",
+      "entry": 0.5777349999999999,
+      "exit": 0.576735,
+      "stop_bid": 0.57675,
+      "initial_risk": 0.0009849999999999026,
+      "target": 0.5797049999999997,
+      "reason": "SL",
+      "price_net_r": -1.0152284263959277,
+      "commission_r": 0.06091370558376238,
+      "net_r": -1.07614213197969
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-09",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.5597637056257938,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-09 09:34:40.045000+00:00",
+      "exit_time": "2025-10-09 13:42:33.347000+00:00",
+      "entry": 0.5777499999999999,
+      "exit": 0.57673,
+      "stop_bid": 0.57675,
+      "initial_risk": 0.0009999999999998899,
+      "target": 0.5797499999999997,
+      "reason": "SL",
+      "price_net_r": -1.0200000000000222,
+      "commission_r": 0.08000000000000881,
+      "net_r": -1.100000000000031
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-09",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.5597637056257938,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-09 09:34:40.045000+00:00",
+      "exit_time": "2025-10-09 13:42:33.347000+00:00",
+      "entry": 0.5778,
+      "exit": 0.57674,
+      "stop_bid": 0.57675,
+      "initial_risk": 0.0010499999999999954,
+      "target": 0.5799,
+      "reason": "SL",
+      "price_net_r": -1.0095238095237662,
+      "commission_r": 0.038095238095238265,
+      "net_r": -1.0476190476190044
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-10",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.2358005366726297,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-10 07:15:55.896000+00:00",
+      "exit_time": "2025-10-10 07:49:07.749000+00:00",
+      "entry": 0.57455,
+      "exit": 0.5750099999999999,
+      "stop_bid": 0.57495,
+      "initial_risk": 0.00043000000000004146,
+      "target": 0.5736899999999999,
+      "reason": "SL",
+      "price_net_r": -1.0697674418601408,
+      "commission_r": 0.09302325581394452,
+      "net_r": -1.1627906976740854
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-10",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.2358005366726297,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-10 07:15:55.896000+00:00",
+      "exit_time": "2025-10-10 07:49:07.749000+00:00",
+      "entry": 0.574545,
+      "exit": 0.5750299999999999,
+      "stop_bid": 0.57495,
+      "initial_risk": 0.00045000000000006146,
+      "target": 0.5736449999999998,
+      "reason": "SL",
+      "price_net_r": -1.0777777777775366,
+      "commission_r": 0.13333333333331515,
+      "net_r": -1.2111111111108517
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-10",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.2358005366726297,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-10 07:15:55.896000+00:00",
+      "exit_time": "2025-10-10 07:49:07.749000+00:00",
+      "entry": 0.5745399999999999,
+      "exit": 0.57505,
+      "stop_bid": 0.57495,
+      "initial_risk": 0.0004700000000001925,
+      "target": 0.5735999999999996,
+      "reason": "SL",
+      "price_net_r": -1.0851063829783012,
+      "commission_r": 0.1702127659573771,
+      "net_r": -1.2553191489356783
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-10",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.2358005366726297,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-10 07:15:55.896000+00:00",
+      "exit_time": "2025-10-10 07:49:07.749000+00:00",
+      "entry": 0.57455,
+      "exit": 0.5750799999999999,
+      "stop_bid": 0.57495,
+      "initial_risk": 0.0004999999999999449,
+      "target": 0.5735500000000001,
+      "reason": "SL",
+      "price_net_r": -1.0599999999999556,
+      "commission_r": 0.08000000000000881,
+      "net_r": -1.1399999999999644
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-13",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.3014980260667353,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-13 08:17:38.897000+00:00",
+      "exit_time": "2025-10-13 09:05:00.895000+00:00",
+      "entry": 0.57293,
+      "exit": 0.57358,
+      "stop_bid": 0.57355,
+      "initial_risk": 0.0006399999999999739,
+      "target": 0.5716500000000001,
+      "reason": "SL",
+      "price_net_r": -1.0156249999999296,
+      "commission_r": 0.06250000000000255,
+      "net_r": -1.078124999999932
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-13",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.3014980260667353,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-13 08:17:38.897000+00:00",
+      "exit_time": "2025-10-13 09:05:00.895000+00:00",
+      "entry": 0.572925,
+      "exit": 0.573595,
+      "stop_bid": 0.57355,
+      "initial_risk": 0.0006549999999999612,
+      "target": 0.5716150000000001,
+      "reason": "SL",
+      "price_net_r": -1.0229007633587606,
+      "commission_r": 0.09160305343511994,
+      "net_r": -1.1145038167938806
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-13",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.3014980260667353,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-13 08:17:38.897000+00:00",
+      "exit_time": "2025-10-13 09:05:00.895000+00:00",
+      "entry": 0.57292,
+      "exit": 0.5736100000000001,
+      "stop_bid": 0.57355,
+      "initial_risk": 0.0006700000000000594,
+      "target": 0.5715799999999999,
+      "reason": "SL",
+      "price_net_r": -1.029850746268684,
+      "commission_r": 0.11940298507461629,
+      "net_r": -1.1492537313433002
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-13",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.3014980260667353,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-13 08:17:38.897000+00:00",
+      "exit_time": "2025-10-13 09:05:00.895000+00:00",
+      "entry": 0.57293,
+      "exit": 0.57366,
+      "stop_bid": 0.57355,
+      "initial_risk": 0.0007199999999999429,
+      "target": 0.5714900000000002,
+      "reason": "SL",
+      "price_net_r": -1.013888888888827,
+      "commission_r": 0.055555555555559966,
+      "net_r": -1.069444444444387
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-14",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.6644082151175101,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-14 07:36:08.682000+00:00",
+      "exit_time": "2025-10-14 08:31:52.253000+00:00",
+      "entry": 0.56893,
+      "exit": 0.5696399999999999,
+      "stop_bid": 0.5696,
+      "initial_risk": 0.0006999999999999229,
+      "target": 0.5675300000000002,
+      "reason": "SL",
+      "price_net_r": -1.014285714285651,
+      "commission_r": 0.05714285714286344,
+      "net_r": -1.0714285714285143
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-14",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.6644082151175101,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-14 07:36:08.682000+00:00",
+      "exit_time": "2025-10-14 08:31:52.253000+00:00",
+      "entry": 0.568925,
+      "exit": 0.5696549999999999,
+      "stop_bid": 0.5696,
+      "initial_risk": 0.0007199999999999429,
+      "target": 0.5674850000000001,
+      "reason": "SL",
+      "price_net_r": -1.013888888888827,
+      "commission_r": 0.08333333333333995,
+      "net_r": -1.0972222222221668
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-14",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.6644082151175101,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-14 07:36:08.682000+00:00",
+      "exit_time": "2025-10-14 08:31:52.253000+00:00",
+      "entry": 0.56892,
+      "exit": 0.56967,
+      "stop_bid": 0.5696,
+      "initial_risk": 0.0007399999999999629,
+      "target": 0.56744,
+      "reason": "SL",
+      "price_net_r": -1.0135135135136026,
+      "commission_r": 0.10810810810811354,
+      "net_r": -1.121621621621716
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-14",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.6644082151175101,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-14 07:36:08.682000+00:00",
+      "exit_time": "2025-10-14 08:31:52.253000+00:00",
+      "entry": 0.56893,
+      "exit": 0.5697199999999999,
+      "stop_bid": 0.5696,
+      "initial_risk": 0.0007699999999999374,
+      "target": 0.5673900000000002,
+      "reason": "SL",
+      "price_net_r": -1.0259740259739099,
+      "commission_r": 0.05194805194805618,
+      "net_r": -1.077922077921966
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-15",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7763244280591889,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-15",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7763244280591889,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-15",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7763244280591889,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-15",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7763244280591889,
+    "outcome": {
+      "status": "NO_ENTRY_BEFORE_NOON"
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-16",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7724982001439885,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-16 07:19:34.646000+00:00",
+      "exit_time": "2025-10-16 08:10:48.458000+00:00",
+      "entry": 0.5738000000000001,
+      "exit": 0.57443,
+      "stop_bid": 0.5744,
+      "initial_risk": 0.0006799999999999029,
+      "target": 0.5724400000000003,
+      "reason": "SL",
+      "price_net_r": -0.9264705882352917,
+      "commission_r": 0.05882352941177311,
+      "net_r": -0.9852941176470649
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-16",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7724982001439885,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-16 07:19:34.646000+00:00",
+      "exit_time": "2025-10-16 08:10:48.458000+00:00",
+      "entry": 0.573795,
+      "exit": 0.574445,
+      "stop_bid": 0.5744,
+      "initial_risk": 0.0007249999999999757,
+      "target": 0.5723450000000001,
+      "reason": "SL",
+      "price_net_r": -0.8965517241378624,
+      "commission_r": 0.08275862068965796,
+      "net_r": -0.9793103448275204
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-16",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7724982001439885,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-16 07:19:34.646000+00:00",
+      "exit_time": "2025-10-16 08:10:48.458000+00:00",
+      "entry": 0.57379,
+      "exit": 0.5744600000000001,
+      "stop_bid": 0.5744,
+      "initial_risk": 0.0007699999999999374,
+      "target": 0.5722500000000001,
+      "reason": "SL",
+      "price_net_r": -0.8701298701300181,
+      "commission_r": 0.10389610389611235,
+      "net_r": -0.9740259740261304
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-16",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7724982001439885,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-16 07:19:34.646000+00:00",
+      "exit_time": "2025-10-16 08:10:48.458000+00:00",
+      "entry": 0.5738000000000001,
+      "exit": 0.57451,
+      "stop_bid": 0.5744,
+      "initial_risk": 0.0006999999999999229,
+      "target": 0.5724000000000002,
+      "reason": "SL",
+      "price_net_r": -1.014285714285651,
+      "commission_r": 0.05714285714286344,
+      "net_r": -1.0714285714285143
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-17",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.2941611234294161,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-17 07:15:00.179000+00:00",
+      "exit_time": "2025-10-17 11:01:17.547000+00:00",
+      "entry": 0.5718700000000001,
+      "exit": 0.57334,
+      "stop_bid": 0.57331,
+      "initial_risk": 0.0014599999999997948,
+      "target": 0.5689500000000005,
+      "reason": "SL",
+      "price_net_r": -1.006849315068539,
+      "commission_r": 0.027397260273976456,
+      "net_r": -1.0342465753425154
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-17",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.2941611234294161,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-17 07:15:00.179000+00:00",
+      "exit_time": "2025-10-17 11:01:17.547000+00:00",
+      "entry": 0.5718650000000001,
+      "exit": 0.573355,
+      "stop_bid": 0.57331,
+      "initial_risk": 0.001474999999999782,
+      "target": 0.5689150000000005,
+      "reason": "SL",
+      "price_net_r": -1.010169491525492,
+      "commission_r": 0.04067796610170093,
+      "net_r": -1.050847457627193
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-17",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.2941611234294161,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-17 07:15:00.179000+00:00",
+      "exit_time": "2025-10-17 11:01:17.547000+00:00",
+      "entry": 0.57186,
+      "exit": 0.57337,
+      "stop_bid": 0.57331,
+      "initial_risk": 0.0014899999999997693,
+      "target": 0.5688800000000005,
+      "reason": "SL",
+      "price_net_r": -1.0134228187921108,
+      "commission_r": 0.05369127516779355,
+      "net_r": -1.0671140939599044
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-17",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.2941611234294161,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-17 07:15:00.179000+00:00",
+      "exit_time": "2025-10-17 11:01:17.547000+00:00",
+      "entry": 0.5718700000000001,
+      "exit": 0.5734199999999999,
+      "stop_bid": 0.57331,
+      "initial_risk": 0.0015399999999998748,
+      "target": 0.5687900000000004,
+      "reason": "SL",
+      "price_net_r": -1.0064935064934775,
+      "commission_r": 0.02597402597402809,
+      "net_r": -1.0324675324675054
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-20",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.684605249822641,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-20 07:15:12.895000+00:00",
+      "exit_time": "2025-10-20 10:10:43.305000+00:00",
+      "entry": 0.57344,
+      "exit": 0.57289,
+      "stop_bid": 0.5729,
+      "initial_risk": 0.0005399999999999849,
+      "target": 0.5745199999999999,
+      "reason": "SL",
+      "price_net_r": -1.0185185185184347,
+      "commission_r": 0.07407407407407615,
+      "net_r": -1.0925925925925108
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-20",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.684605249822641,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-20 07:15:12.895000+00:00",
+      "exit_time": "2025-10-20 10:10:43.305000+00:00",
+      "entry": 0.5734549999999999,
+      "exit": 0.572885,
+      "stop_bid": 0.5729,
+      "initial_risk": 0.0005549999999999722,
+      "target": 0.5745649999999999,
+      "reason": "SL",
+      "price_net_r": -1.0270270270270054,
+      "commission_r": 0.10810810810811354,
+      "net_r": -1.1351351351351189
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-20",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.684605249822641,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-20 07:15:12.895000+00:00",
+      "exit_time": "2025-10-20 10:10:43.305000+00:00",
+      "entry": 0.57347,
+      "exit": 0.57288,
+      "stop_bid": 0.5729,
+      "initial_risk": 0.0005700000000000705,
+      "target": 0.5746100000000002,
+      "reason": "SL",
+      "price_net_r": -1.0350877192982764,
+      "commission_r": 0.14035087719296513,
+      "net_r": -1.1754385964912415
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-20",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.684605249822641,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-20 07:15:12.895000+00:00",
+      "exit_time": "2025-10-20 10:10:43.305000+00:00",
+      "entry": 0.5735199999999999,
+      "exit": 0.57289,
+      "stop_bid": 0.5729,
+      "initial_risk": 0.0006199999999999539,
+      "target": 0.5747599999999998,
+      "reason": "SL",
+      "price_net_r": -1.0161290322579923,
+      "commission_r": 0.06451612903226286,
+      "net_r": -1.0806451612902552
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-21",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 1.0175403225806452,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-21 07:15:01.403000+00:00",
+      "exit_time": "2025-10-21 11:35:16.917000+00:00",
+      "entry": 0.57177,
+      "exit": 0.57255,
+      "stop_bid": 0.57252,
+      "initial_risk": 0.0007900000000000684,
+      "target": 0.5701899999999999,
+      "reason": "SL",
+      "price_net_r": -0.987341772151817,
+      "commission_r": 0.050632911392400684,
+      "net_r": -1.0379746835442176
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-21",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 1.0175403225806452,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-21 07:15:01.403000+00:00",
+      "exit_time": "2025-10-21 11:35:16.917000+00:00",
+      "entry": 0.571765,
+      "exit": 0.5725650000000001,
+      "stop_bid": 0.57252,
+      "initial_risk": 0.0008150000000001212,
+      "target": 0.5701349999999997,
+      "reason": "SL",
+      "price_net_r": -0.9815950920245583,
+      "commission_r": 0.07361963190182956,
+      "net_r": -1.0552147239263878
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-21",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 1.0175403225806452,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-21 07:15:01.403000+00:00",
+      "exit_time": "2025-10-21 11:35:16.917000+00:00",
+      "entry": 0.5717599999999999,
+      "exit": 0.5725800000000001,
+      "stop_bid": 0.57252,
+      "initial_risk": 0.0008400000000001739,
+      "target": 0.5700799999999996,
+      "reason": "SL",
+      "price_net_r": -0.9761904761904573,
+      "commission_r": 0.09523809523807553,
+      "net_r": -1.0714285714285328
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-21",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 1.0175403225806452,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-21 07:15:01.403000+00:00",
+      "exit_time": "2025-10-21 11:35:16.917000+00:00",
+      "entry": 0.57177,
+      "exit": 0.57263,
+      "stop_bid": 0.57252,
+      "initial_risk": 0.0008500000000000174,
+      "target": 0.57007,
+      "reason": "SL",
+      "price_net_r": -1.0117647058822992,
+      "commission_r": 0.047058823529410806,
+      "net_r": -1.0588235294117099
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-22",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.7373561213812347,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-22 07:17:22.884000+00:00",
+      "exit_time": "2025-10-22 15:00:00.694000+00:00",
+      "entry": 0.57504,
+      "exit": 0.57427,
+      "stop_bid": 0.5759,
+      "initial_risk": 0.0008900000000000574,
+      "target": 0.5732599999999999,
+      "reason": "EOD",
+      "price_net_r": 0.8651685393258413,
+      "commission_r": 0.044943820224716206,
+      "net_r": 0.820224719101125
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-22",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.7373561213812347,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-22 07:17:22.884000+00:00",
+      "exit_time": "2025-10-22 15:00:00.694000+00:00",
+      "entry": 0.575035,
+      "exit": 0.57429,
+      "stop_bid": 0.5759,
+      "initial_risk": 0.0009100000000001884,
+      "target": 0.5732149999999996,
+      "reason": "EOD",
+      "price_net_r": 0.8186813186811444,
+      "commission_r": 0.0659340659340523,
+      "net_r": 0.7527472527470921
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-22",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.7373561213812347,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-22 07:17:22.884000+00:00",
+      "exit_time": "2025-10-22 15:00:00.694000+00:00",
+      "entry": 0.5750299999999999,
+      "exit": 0.57431,
+      "stop_bid": 0.5759,
+      "initial_risk": 0.0009300000000002084,
+      "target": 0.5731699999999995,
+      "reason": "EOD",
+      "price_net_r": 0.7741935483868618,
+      "commission_r": 0.08602150537632482,
+      "net_r": 0.688172043010537
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-22",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.7373561213812347,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-22 07:17:22.884000+00:00",
+      "exit_time": "2025-10-22 15:00:00.694000+00:00",
+      "entry": 0.57504,
+      "exit": 0.57434,
+      "stop_bid": 0.5759,
+      "initial_risk": 0.0009599999999999609,
+      "target": 0.5731200000000001,
+      "reason": "EOD",
+      "price_net_r": 0.7291666666667317,
+      "commission_r": 0.041666666666668364,
+      "net_r": 0.6875000000000633
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-23",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.44901999604038806,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-23 07:32:09.396000+00:00",
+      "exit_time": "2025-10-23 11:19:10.760000+00:00",
+      "entry": 0.57475,
+      "exit": 0.5740200000000001,
+      "stop_bid": 0.57403,
+      "initial_risk": 0.0007199999999999429,
+      "target": 0.5761899999999999,
+      "reason": "SL",
+      "price_net_r": -1.013888888888827,
+      "commission_r": 0.055555555555559966,
+      "net_r": -1.069444444444387
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-23",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.44901999604038806,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-23 07:32:09.396000+00:00",
+      "exit_time": "2025-10-23 11:19:10.760000+00:00",
+      "entry": 0.5747650000000001,
+      "exit": 0.574015,
+      "stop_bid": 0.57403,
+      "initial_risk": 0.0007350000000000412,
+      "target": 0.5762350000000002,
+      "reason": "SL",
+      "price_net_r": -1.0204081632652877,
+      "commission_r": 0.08163265306121993,
+      "net_r": -1.1020408163265076
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-23",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.44901999604038806,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-23 07:32:09.396000+00:00",
+      "exit_time": "2025-10-23 11:19:10.760000+00:00",
+      "entry": 0.5747800000000001,
+      "exit": 0.57401,
+      "stop_bid": 0.57403,
+      "initial_risk": 0.0007500000000000284,
+      "target": 0.5762800000000001,
+      "reason": "SL",
+      "price_net_r": -1.0266666666666924,
+      "commission_r": 0.10666666666666264,
+      "net_r": -1.133333333333355
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-23",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.44901999604038806,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-23 07:32:09.396000+00:00",
+      "exit_time": "2025-10-23 11:19:10.760000+00:00",
+      "entry": 0.57483,
+      "exit": 0.5740200000000001,
+      "stop_bid": 0.57403,
+      "initial_risk": 0.0007999999999999119,
+      "target": 0.5764299999999998,
+      "reason": "SL",
+      "price_net_r": -1.0124999999999444,
+      "commission_r": 0.05000000000000551,
+      "net_r": -1.06249999999995
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-24",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.6905671761866452,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-24 07:15:00.157000+00:00",
+      "exit_time": "2025-10-24 07:30:00.208000+00:00",
+      "entry": 0.57525,
+      "exit": 0.5755899999999999,
+      "stop_bid": 0.57556,
+      "initial_risk": 0.00033999999999989594,
+      "target": 0.5745700000000002,
+      "reason": "SL",
+      "price_net_r": -1.0,
+      "commission_r": 0.11764705882356542,
+      "net_r": -1.1176470588235654
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-24",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.6905671761866452,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-24 07:15:00.157000+00:00",
+      "exit_time": "2025-10-24 07:30:00.208000+00:00",
+      "entry": 0.575245,
+      "exit": 0.575605,
+      "stop_bid": 0.57556,
+      "initial_risk": 0.00035999999999991594,
+      "target": 0.5745250000000002,
+      "reason": "SL",
+      "price_net_r": -1.0000000000003084,
+      "commission_r": 0.1666666666667056,
+      "net_r": -1.166666666667014
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-24",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.6905671761866452,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-24 07:15:00.157000+00:00",
+      "exit_time": "2025-10-24 07:30:00.208000+00:00",
+      "entry": 0.57524,
+      "exit": 0.57562,
+      "stop_bid": 0.57556,
+      "initial_risk": 0.00037999999999993594,
+      "target": 0.5744800000000001,
+      "reason": "SL",
+      "price_net_r": -1.0000000000002922,
+      "commission_r": 0.2105263157895092,
+      "net_r": -1.2105263157898014
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-24",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.6905671761866452,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-24 07:15:00.157000+00:00",
+      "exit_time": "2025-10-24 07:30:00.208000+00:00",
+      "entry": 0.57525,
+      "exit": 0.5756699999999999,
+      "stop_bid": 0.57556,
+      "initial_risk": 0.00040999999999991044,
+      "target": 0.5744300000000002,
+      "reason": "SL",
+      "price_net_r": -1.0243902439023334,
+      "commission_r": 0.09756097560977742,
+      "net_r": -1.1219512195121109
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-27",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.6720981797555818,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-27 08:15:24.090000+00:00",
+      "exit_time": "2025-10-27 16:00:00.012000+00:00",
+      "entry": 0.5758899999999999,
+      "exit": 0.57609,
+      "stop_bid": 0.57515,
+      "initial_risk": 0.0007399999999998519,
+      "target": 0.5773699999999996,
+      "reason": "EOD",
+      "price_net_r": 0.27027027027044465,
+      "commission_r": 0.054054054054064875,
+      "net_r": 0.21621621621637976
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-27",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.6720981797555818,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-27 08:15:24.090000+00:00",
+      "exit_time": "2025-10-27 16:00:00.012000+00:00",
+      "entry": 0.5759049999999999,
+      "exit": 0.576085,
+      "stop_bid": 0.57515,
+      "initial_risk": 0.0007549999999998391,
+      "target": 0.5774149999999996,
+      "reason": "EOD",
+      "price_net_r": 0.23841059602663225,
+      "commission_r": 0.07947019867551364,
+      "net_r": 0.15894039735111862
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-27",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.6720981797555818,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-27 08:15:24.090000+00:00",
+      "exit_time": "2025-10-27 16:00:00.012000+00:00",
+      "entry": 0.5759199999999999,
+      "exit": 0.5760799999999999,
+      "stop_bid": 0.57515,
+      "initial_risk": 0.0007699999999998264,
+      "target": 0.5774599999999995,
+      "reason": "EOD",
+      "price_net_r": 0.20779220779231827,
+      "commission_r": 0.10389610389612733,
+      "net_r": 0.10389610389619094
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-27",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.6720981797555818,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-27 08:15:24.090000+00:00",
+      "exit_time": "2025-10-27 16:00:00.012000+00:00",
+      "entry": 0.57597,
+      "exit": 0.57609,
+      "stop_bid": 0.57515,
+      "initial_risk": 0.0008199999999999319,
+      "target": 0.5776099999999998,
+      "reason": "EOD",
+      "price_net_r": 0.14634146341465726,
+      "commission_r": 0.0487804878048821,
+      "net_r": 0.09756097560977516
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-28",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.8436186225151814,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-28 08:38:34.582000+00:00",
+      "exit_time": "2025-10-28 09:44:31.029000+00:00",
+      "entry": 0.5766,
+      "exit": 0.57702,
+      "stop_bid": 0.57698,
+      "initial_risk": 0.00040000000000006697,
+      "target": 0.5757999999999999,
+      "reason": "SL",
+      "price_net_r": -1.049999999999764,
+      "commission_r": 0.09999999999998327,
+      "net_r": -1.1499999999997472
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-28",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.8436186225151814,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-28 08:38:34.582000+00:00",
+      "exit_time": "2025-10-28 09:44:31.029000+00:00",
+      "entry": 0.576595,
+      "exit": 0.57704,
+      "stop_bid": 0.57698,
+      "initial_risk": 0.00041500000000016524,
+      "target": 0.5757649999999996,
+      "reason": "SL",
+      "price_net_r": -1.0722891566261483,
+      "commission_r": 0.1445783132529545,
+      "net_r": -1.2168674698791029
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-28",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.8436186225151814,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-28 08:38:34.582000+00:00",
+      "exit_time": "2025-10-28 09:44:31.029000+00:00",
+      "entry": 0.5765899999999999,
+      "exit": 0.57706,
+      "stop_bid": 0.57698,
+      "initial_risk": 0.0004300000000001525,
+      "target": 0.5757299999999996,
+      "reason": "SL",
+      "price_net_r": -1.0930232558137554,
+      "commission_r": 0.18604651162784103,
+      "net_r": -1.2790697674415963
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-28",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.8436186225151814,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-28 08:38:34.582000+00:00",
+      "exit_time": "2025-10-28 09:44:31.029000+00:00",
+      "entry": 0.5766,
+      "exit": 0.57709,
+      "stop_bid": 0.57698,
+      "initial_risk": 0.00048000000000003595,
+      "target": 0.5756399999999999,
+      "reason": "SL",
+      "price_net_r": -1.020833333333237,
+      "commission_r": 0.0833333333333271,
+      "net_r": -1.104166666666564
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-29",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.9936257967754031,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-29 08:23:11.295000+00:00",
+      "exit_time": "2025-10-29 13:18:15.577000+00:00",
+      "entry": 0.57823,
+      "exit": 0.5788599999999999,
+      "stop_bid": 0.5788,
+      "initial_risk": 0.0005899999999999794,
+      "target": 0.5770500000000001,
+      "reason": "SL",
+      "price_net_r": -1.0677966101693734,
+      "commission_r": 0.0677966101694939,
+      "net_r": -1.1355932203388672
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-29",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.9936257967754031,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-29 08:23:11.295000+00:00",
+      "exit_time": "2025-10-29 13:18:15.577000+00:00",
+      "entry": 0.578225,
+      "exit": 0.5788749999999999,
+      "stop_bid": 0.5788,
+      "initial_risk": 0.0006050000000000777,
+      "target": 0.5770149999999998,
+      "reason": "SL",
+      "price_net_r": -1.074380165289,
+      "commission_r": 0.09917355371899554,
+      "net_r": -1.1735537190079954
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-29",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.9936257967754031,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-29 08:23:11.295000+00:00",
+      "exit_time": "2025-10-29 13:18:15.577000+00:00",
+      "entry": 0.57822,
+      "exit": 0.57889,
+      "stop_bid": 0.5788,
+      "initial_risk": 0.0006200000000000649,
+      "target": 0.5769799999999998,
+      "reason": "SL",
+      "price_net_r": -1.0806451612903052,
+      "commission_r": 0.12903225806450264,
+      "net_r": -1.2096774193548079
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-29",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.9936257967754031,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-29 08:23:11.295000+00:00",
+      "exit_time": "2025-10-29 13:18:15.577000+00:00",
+      "entry": 0.57823,
+      "exit": 0.5789399999999999,
+      "stop_bid": 0.5788,
+      "initial_risk": 0.0006699999999999484,
+      "target": 0.5768900000000001,
+      "reason": "SL",
+      "price_net_r": -1.0597014925372121,
+      "commission_r": 0.05970149253731803,
+      "net_r": -1.1194029850745302
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-30",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.9151090342679128,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-30 08:16:15.372000+00:00",
+      "exit_time": "2025-10-30 11:44:47.503000+00:00",
+      "entry": 0.57691,
+      "exit": 0.57546,
+      "stop_bid": 0.5776,
+      "initial_risk": 0.0007300000000000084,
+      "target": 0.57545,
+      "reason": "TP2",
+      "price_net_r": 1.9863013698630763,
+      "commission_r": 0.05479452054794458,
+      "net_r": 1.9315068493151317
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-30",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.9151090342679128,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-30 08:16:15.372000+00:00",
+      "exit_time": "2025-10-30 11:50:01.394000+00:00",
+      "entry": 0.576905,
+      "exit": 0.5754099999999999,
+      "stop_bid": 0.5776,
+      "initial_risk": 0.0007550000000000612,
+      "target": 0.5753949999999999,
+      "reason": "TP2",
+      "price_net_r": 1.9801324503311444,
+      "commission_r": 0.07947019867549027,
+      "net_r": 1.9006622516556542
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-30",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.9151090342679128,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-30 08:16:15.372000+00:00",
+      "exit_time": "2025-10-30 11:52:51.321000+00:00",
+      "entry": 0.5769,
+      "exit": 0.5753599999999998,
+      "stop_bid": 0.5776,
+      "initial_risk": 0.0007800000000001139,
+      "target": 0.5753399999999997,
+      "reason": "TP2",
+      "price_net_r": 1.9743589743589525,
+      "commission_r": 0.10256410256408759,
+      "net_r": 1.871794871794865
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-30",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.9151090342679128,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-30 08:16:15.372000+00:00",
+      "exit_time": "2025-10-30 11:54:31.584000+00:00",
+      "entry": 0.57691,
+      "exit": 0.5753400000000001,
+      "stop_bid": 0.5776,
+      "initial_risk": 0.0007899999999999574,
+      "target": 0.5753300000000001,
+      "reason": "TP2",
+      "price_net_r": 1.9873417721519557,
+      "commission_r": 0.050632911392407796,
+      "net_r": 1.936708860759548
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-31",
+    "scenario": "OBSERVED_QUOTES_1x",
+    "rvol": 0.679603915319827,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-31 08:18:02.796000+00:00",
+      "exit_time": "2025-10-31 08:56:39.594000+00:00",
+      "entry": 0.57176,
+      "exit": 0.5721999999999999,
+      "stop_bid": 0.57216,
+      "initial_risk": 0.00042999999999993044,
+      "target": 0.5709000000000002,
+      "reason": "SL",
+      "price_net_r": -1.0232558139533863,
+      "commission_r": 0.09302325581396854,
+      "net_r": -1.1162790697673548
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-31",
+    "scenario": "COST_STRESS_1.5x",
+    "rvol": 0.679603915319827,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-31 08:18:02.796000+00:00",
+      "exit_time": "2025-10-31 08:56:39.594000+00:00",
+      "entry": 0.571755,
+      "exit": 0.57222,
+      "stop_bid": 0.57216,
+      "initial_risk": 0.00044999999999995044,
+      "target": 0.5708550000000001,
+      "reason": "SL",
+      "price_net_r": -1.0333333333333086,
+      "commission_r": 0.13333333333334804,
+      "net_r": -1.1666666666666565
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-31",
+    "scenario": "COST_STRESS_2x",
+    "rvol": 0.679603915319827,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-31 08:18:02.796000+00:00",
+      "exit_time": "2025-10-31 08:56:39.594000+00:00",
+      "entry": 0.57175,
+      "exit": 0.57224,
+      "stop_bid": 0.57216,
+      "initial_risk": 0.00046999999999997044,
+      "target": 0.57081,
+      "reason": "SL",
+      "price_net_r": -1.0425531914894068,
+      "commission_r": 0.17021276595745752,
+      "net_r": -1.2127659574468643
+    }
+  },
+  {
+    "symbol": "NZDUSD",
+    "date": "2025-10-31",
+    "scenario": "MIN_SPREAD_1PIP",
+    "rvol": 0.679603915319827,
+    "outcome": {
+      "status": "CLOSED",
+      "entry_time": "2025-10-31 08:18:02.796000+00:00",
+      "exit_time": "2025-10-31 08:56:39.594000+00:00",
+      "entry": 0.57176,
+      "exit": 0.57227,
+      "stop_bid": 0.57216,
+      "initial_risk": 0.0004999999999999449,
+      "target": 0.5707600000000002,
+      "reason": "SL",
+      "price_net_r": -1.0199999999999112,
+      "commission_r": 0.08000000000000881,
+      "net_r": -1.09999999999992
+    }
+  }
+]

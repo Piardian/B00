@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE_RESEARCH",
+  "hashes": {
+    "protocol_frozen.json": "5923b8682d4501add7fa5ba711e4507f42940496fecffed8f49937641f657eb8",
+    "outcomes.json": "790112e887f3c7e318612d7ecdaf705412f4860df464985c9bd8dbd8ea9dc5bc",
+    "results.json": "57e64ff15926406dc3f55a9ca43fa2e7f4a6c0fce600834abb14016252892c80"
+  }
+}

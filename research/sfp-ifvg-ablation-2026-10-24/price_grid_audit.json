@@ -1,0 +1,715 @@
+{
+  "REFERENCE": {
+    "total": 8,
+    "any_off_grid": 8,
+    "by_field": {
+      "entry": 3,
+      "stop_loss": 7,
+      "tp1": 8,
+      "tp2": 8
+    },
+    "by_symbol": {
+      "EURUSD": {
+        "n": 2,
+        "off_grid_entry": 1
+      },
+      "GBPUSD": {
+        "n": 3,
+        "off_grid_entry": 2
+      },
+      "XAUUSD": {
+        "n": 3,
+        "off_grid_entry": 0
+      }
+    },
+    "details": [
+      {
+        "case_id": "EURUSD_2025-06-09T14:15:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "EURUSD_2025-11-06T08:45:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-01-15T09:15:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-05-07T10:15:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-06-13T11:45:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-03-14T08:00:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-06-03T08:15:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-10-20T07:15:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      }
+    ]
+  },
+  "VARIANT": {
+    "total": 57,
+    "any_off_grid": 57,
+    "by_field": {
+      "entry": 24,
+      "stop_loss": 52,
+      "tp1": 54,
+      "tp2": 48
+    },
+    "by_symbol": {
+      "EURUSD": {
+        "n": 13,
+        "off_grid_entry": 5
+      },
+      "GBPUSD": {
+        "n": 22,
+        "off_grid_entry": 8
+      },
+      "XAUUSD": {
+        "n": 22,
+        "off_grid_entry": 11
+      }
+    },
+    "details": [
+      {
+        "case_id": "EURUSD_2025-02-10T07:30:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "EURUSD_2025-02-10T17:45:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "EURUSD_2025-02-24T11:00:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "EURUSD_2025-03-06T10:00:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1"
+        ]
+      },
+      {
+        "case_id": "EURUSD_2025-04-08T16:45:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "EURUSD_2025-04-18T07:45:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "EURUSD_2025-06-09T14:15:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "EURUSD_2025-06-30T09:00:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "tp1"
+        ]
+      },
+      {
+        "case_id": "EURUSD_2025-06-30T11:00:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "EURUSD_2025-06-30T14:30:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "EURUSD_2025-07-02T15:15:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "EURUSD_2025-07-22T08:45:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "EURUSD_2025-11-06T08:45:00+00:00",
+        "symbol": "EURUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-01-15T09:15:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-02-10T14:15:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-02-19T15:00:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-03-12T07:45:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-03-14T08:15:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-03-20T15:30:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-05-07T09:45:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-05-07T10:15:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-05-22T08:00:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-05-27T11:15:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "tp1"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-06-13T11:45:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-06-30T11:30:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-07-02T11:15:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-07-30T11:15:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-09-11T13:15:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-09-30T09:15:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-09-30T10:30:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-10-08T09:00:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-10-23T10:00:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-11-03T08:00:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-11-03T13:30:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "GBPUSD_2025-11-05T11:00:00+00:00",
+        "symbol": "GBPUSD",
+        "step": 1e-05,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-01-23T15:45:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-01-28T09:00:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-01-31T11:30:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-02-04T08:30:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-03-06T10:30:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-03-12T08:00:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-03-14T08:00:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-03-24T08:45:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-04-23T07:45:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-05-08T13:45:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-06-03T08:15:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-06-05T17:00:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-06-06T08:30:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-06-17T10:15:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-07-02T08:00:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "stop_loss"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-07-14T07:00:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "entry",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-07-16T15:00:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-08-25T11:45:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-09-17T14:15:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "tp1"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-10-14T07:30:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-10-17T17:45:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss"
+        ]
+      },
+      {
+        "case_id": "XAUUSD_2025-10-20T07:15:00+00:00",
+        "symbol": "XAUUSD",
+        "step": 0.01,
+        "off_grid_fields": [
+          "entry",
+          "stop_loss",
+          "tp1",
+          "tp2"
+        ]
+      }
+    ]
+  },
+  "interpretation": "Diagnostic appended AFTER the frozen model comparison. No entries rounded, no outcomes rerun, no candidate removed. Broker2026 symbol specs, not independently archived2025 order acceptance. Off-grid nominal quote markouts are hypothetical price-level probes, NOT proof of an accepted executable limit. This arithmetic issue does not by itself establish or disprove directional alpha.",
+  "gold_symbol_spec_source_sha256": "96a2711bbb5c725884afa65aceb5509a28fae39181cab49447f75eb8a1dfad63"
+}

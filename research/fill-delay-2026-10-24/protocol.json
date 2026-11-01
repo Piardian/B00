@@ -1,0 +1,68 @@
+{
+  "frozen_at": "2026-10-23 23:00:06.539510+00:00",
+  "sample": "Same58 first daily setups Jan/Feb/Mar/Nov2025. All observed; new diagnostic hypothesis, no genuine OOS. RECHECK25 Feb/Mar primary; DISCOVERY33 Jan/Nov supporting.",
+  "hypothesis": "Limit setup may become stale. Only compare pending lifespan240min versus15min, each capped by existingLondonnoon. No entry/stop/target/exit modification.",
+  "expiry": "Order active in [available_at, min(available_at+TTL,Londonnoon)). Exactly15minute fill rejected in15variant; previous descriptive <=15bin is not identical. Already filled position managed normally beyond pending expiry.",
+  "selection": "Same original first daily setup retained, canceled/unfilled consumes date; no later candidate replacement.",
+  "invariants": "Reaction exit always on, same stop-first,fillbarTPban,halfTP1,BE/trail,London16:30flat. Retained early fills must reproduce reference entire lifecycle/netR. Canceled late orders must have no fill/fees. No filled loss can be erased retrospectively.",
+  "costs": "Same assumed spreads.2/.5/.9/1.5pip,primary.5/adverse1.5,USD4/100kroundtrip,.2pipmarketexit slip. Historical bidM1 only; actualask/fees not validated.",
+  "analysis": "All baseline fills split wait<15 versus>=15 (boundary explicit), canceled winners/losers separately, counterfactual savedPnl=-removedbaselinePnl. Avoidedloss is not revenue; original basket opportunity total, no portfolio/redeployment claim.",
+  "uncertainty": "10000 London-day cluster resamples95%paired mean netR delta per accepted setup;seed20261024;exploratory and no multiple-research correction.",
+  "decision": "No live promotion. Candidate survives screen only if15TTL improves RECHECK total AND is positive in BOTH Feb/Mar at.5 and1.5pip with no unresolved, nonzero retainedfills in both months. Merely fewer losses/zero trades not edge.",
+  "prices": {
+    "DISCOVERY_EURUSD": {
+      "path": "data\\full_2025_study\\prices_utc\\EURUSD_1m.csv.gz",
+      "sha256": "accd55f5f6d2d996489f6549040e4e78c88ca3a2c2528d941843fe02d6c7b30c"
+    },
+    "DISCOVERY_GBPUSD": {
+      "path": "data\\full_2025_study\\prices_utc\\GBPUSD_1m.csv.gz",
+      "sha256": "2ede9d4387615552fa24a32a42850b18d9b1a974bfdae47353c67f0835b89dc4"
+    },
+    "DISCOVERY_NZDUSD": {
+      "path": "data\\full_2025_study\\prices_utc\\NZDUSD_1m.csv.gz",
+      "sha256": "49a5ea1c75f7323646948998bc144105ed7834ea9c20381a1e36c921bdcd1e53"
+    },
+    "DISCOVERY_USDCHF": {
+      "path": "data\\full_2025_study\\prices_utc\\USDCHF_1m.csv.gz",
+      "sha256": "5534a56aab48b500dbde1848f5ed074baa9e0ed7ab82db9de44fcf17983b0e71"
+    },
+    "DISCOVERY_USDJPY": {
+      "path": "data\\full_2025_study\\prices_utc\\USDJPY_1m.csv.gz",
+      "sha256": "51991dab9c9b2292585b5c647ff40c09da6a51dd6629cac2ef607566b03ce28a"
+    },
+    "DISCOVERY_USDCAD": {
+      "path": "data\\full_2025_study\\prices_utc\\USDCAD_1m.csv.gz",
+      "sha256": "8c8466a32c579ba0dde1dffe2c8c6bdee6b3dc10d1c5bf4f66094eeaf8b90047"
+    },
+    "RECHECK_EURUSD": {
+      "path": "research\\asia-validation-2026-10-24\\prices\\EURUSD_1m.parquet",
+      "sha256": "b681320ae02ff718a57d8120daed8a834ea363cfe2e800e9c260583b93d1bda5"
+    },
+    "RECHECK_GBPUSD": {
+      "path": "research\\asia-validation-2026-10-24\\prices\\GBPUSD_1m.parquet",
+      "sha256": "88452d19cdfbccce2c914c53ae8c6d995feb7234cc489e892c81672a2e515b92"
+    },
+    "RECHECK_USDJPY": {
+      "path": "research\\asia-validation-2026-10-24\\prices\\USDJPY_1m.parquet",
+      "sha256": "a71b222ee8ab049b16b99ec45a66e27d94b9e777f186f7059a057ba5caac14e3"
+    },
+    "RECHECK_USDCAD": {
+      "path": "research\\asia-validation-2026-10-24\\prices\\USDCAD_1m.parquet",
+      "sha256": "e9ad53609a4d66fbaa73286226b52be3f6f5eadfa6405e6ba765ed72a0d3034b"
+    },
+    "RECHECK_USDCHF": {
+      "path": "research\\asia-validation-2026-10-24\\prices\\USDCHF_1m.parquet",
+      "sha256": "8be6ec8a711ecb8a4cf1391fdd1eb4fbfa3b114708f1efc3b81fb9864b5b301d"
+    }
+  },
+  "prior_protocol_sha256": "2066154de63b1af36dd2fd46dcc7235017a2d1e940c2e7ce4f50b6d99e9dc86d",
+  "code_hashes": {
+    "execution.py": "79acd037cfe95734c28c6ffad93b8a3cd2377ce2364b3b2bc9c2e6150d216e83",
+    "study.py": "86d2e973173b720d0ff1c12fde7ddcb9e346c531c884dd1b3d5e3721e95a72b3",
+    "test_ttl.py": "4074e26f55c8d14b24fa828485a34bf1677a9d141c23aff2a39d2b6f34ca51fa"
+  },
+  "input_hashes": {
+    "cases_frozen.json": "29bde4fdc86715198a2968bc52e2dad49c17553676a0af157165ddb9516a3440",
+    "reference_frozen.json": "8be18e94dbbe2069db09a008f6f3d628a67417d14e6950fe16f3cf3b3a3b99d6"
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "EUR/USD",
+    "date": "2025-01-01",
+    "reason": "NO_OPENING_OR_14DAY_VOLUME"
+  },
+  {
+    "symbol": "GBP/USD",
+    "date": "2025-01-01",
+    "reason": "NO_OPENING_OR_14DAY_VOLUME"
+  },
+  {
+    "symbol": "USD/JPY",
+    "date": "2025-01-01",
+    "reason": "NO_OPENING_OR_14DAY_VOLUME"
+  },
+  {
+    "symbol": "USD/CAD",
+    "date": "2025-01-01",
+    "reason": "NO_OPENING_OR_14DAY_VOLUME"
+  },
+  {
+    "symbol": "USD/CHF",
+    "date": "2025-01-01",
+    "reason": "NO_OPENING_OR_14DAY_VOLUME"
+  },
+  {
+    "symbol": "NZD/USD",
+    "date": "2025-01-01",
+    "reason": "NO_OPENING_OR_14DAY_VOLUME"
+  }
+]

@@ -1,0 +1,949 @@
+[
+  {
+    "cohort": "ALL",
+    "scenario": "OBSERVED_QUOTES",
+    "ttl": "REFERENCE_240",
+    "setups": 90,
+    "fills": 72,
+    "unresolved": 0,
+    "net_r": -13.294115851059935,
+    "closed_only_net_r": -13.294115851059935,
+    "gross_price_r": -9.893086100488246,
+    "commission_r": 3.4010297505716895,
+    "assumed_market_slippage_r": 1.388748611561145,
+    "pf": 0.5313358701922327,
+    "mean_setup_day95": [
+      -0.2883360029979601,
+      -0.0010337004364036775
+    ],
+    "marketable_openings": 1,
+    "net_excluding_marketable_cases": -12.127449184393335,
+    "monthly": {
+      "2025-02": {
+        "setups": 12,
+        "fills": 12,
+        "closed_only_r": 0.43759856998047336,
+        "unresolved": 0
+      },
+      "2025-03": {
+        "setups": 13,
+        "fills": 11,
+        "closed_only_r": -2.0250728273054133,
+        "unresolved": 0
+      },
+      "2025-04": {
+        "setups": 9,
+        "fills": 8,
+        "closed_only_r": -3.245158853317803,
+        "unresolved": 0
+      },
+      "2025-05": {
+        "setups": 16,
+        "fills": 12,
+        "closed_only_r": -1.8103147016724304,
+        "unresolved": 0
+      },
+      "2025-09": {
+        "setups": 21,
+        "fills": 11,
+        "closed_only_r": 1.5611077771070594,
+        "unresolved": 0
+      },
+      "2025-10": {
+        "setups": 19,
+        "fills": 18,
+        "closed_only_r": -8.212275815851822,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "INTRADAY_FLAT": 2,
+      "NO_FILL_DEADLINE": 18,
+      "REACTION_EXIT": 36,
+      "STOP_OR_BE_TRAIL": 31,
+      "TP2": 3
+    }
+  },
+  {
+    "cohort": "ALL",
+    "scenario": "OBSERVED_QUOTES",
+    "ttl": "TTL_15",
+    "setups": 90,
+    "fills": 58,
+    "unresolved": 0,
+    "net_r": -11.945535878060593,
+    "closed_only_net_r": -11.945535878060593,
+    "gross_price_r": -9.001963778580368,
+    "commission_r": 2.943572099480225,
+    "assumed_market_slippage_r": 1.1839122323612232,
+    "pf": 0.5270212273766274,
+    "mean_setup_day95": [
+      -0.2606247905041016,
+      0.0049453869875424016
+    ],
+    "marketable_openings": 1,
+    "net_excluding_marketable_cases": -10.778869211393992,
+    "monthly": {
+      "2025-02": {
+        "setups": 12,
+        "fills": 9,
+        "closed_only_r": 0.09819723308219451,
+        "unresolved": 0
+      },
+      "2025-03": {
+        "setups": 13,
+        "fills": 10,
+        "closed_only_r": -1.8917394939723684,
+        "unresolved": 0
+      },
+      "2025-04": {
+        "setups": 9,
+        "fills": 8,
+        "closed_only_r": -3.245158853317803,
+        "unresolved": 0
+      },
+      "2025-05": {
+        "setups": 16,
+        "fills": 7,
+        "closed_only_r": -1.9146349790759014,
+        "unresolved": 0
+      },
+      "2025-09": {
+        "setups": 21,
+        "fills": 9,
+        "closed_only_r": 1.0661077771070093,
+        "unresolved": 0
+      },
+      "2025-10": {
+        "setups": 19,
+        "fills": 15,
+        "closed_only_r": -6.058307561883724,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "INTRADAY_FLAT": 1,
+      "NO_FILL_DEADLINE": 32,
+      "REACTION_EXIT": 27,
+      "STOP_OR_BE_TRAIL": 27,
+      "TP2": 3
+    }
+  },
+  {
+    "cohort": "ALL",
+    "scenario": "COST_STRESS_1_5X",
+    "ttl": "REFERENCE_240",
+    "setups": 90,
+    "fills": 72,
+    "unresolved": 0,
+    "net_r": -15.841279458646603,
+    "closed_only_net_r": -15.841279458646603,
+    "gross_price_r": -10.739730624752799,
+    "commission_r": 5.101548833893804,
+    "assumed_market_slippage_r": 2.0831229173417176,
+    "pf": 0.47948769954904863,
+    "mean_setup_day95": [
+      -0.31935894758474653,
+      -0.02703400286442924
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -15.841279458646603,
+    "monthly": {
+      "2025-02": {
+        "setups": 12,
+        "fills": 12,
+        "closed_only_r": -0.05121888376035391,
+        "unresolved": 0
+      },
+      "2025-03": {
+        "setups": 13,
+        "fills": 11,
+        "closed_only_r": -2.3615850781263905,
+        "unresolved": 0
+      },
+      "2025-04": {
+        "setups": 9,
+        "fills": 8,
+        "closed_only_r": -3.5133875386071143,
+        "unresolved": 0
+      },
+      "2025-05": {
+        "setups": 16,
+        "fills": 12,
+        "closed_only_r": -2.047458202291081,
+        "unresolved": 0
+      },
+      "2025-09": {
+        "setups": 21,
+        "fills": 11,
+        "closed_only_r": 1.1573006169870608,
+        "unresolved": 0
+      },
+      "2025-10": {
+        "setups": 19,
+        "fills": 18,
+        "closed_only_r": -9.024930372848724,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "INTRADAY_FLAT": 2,
+      "NO_FILL_DEADLINE": 18,
+      "REACTION_EXIT": 36,
+      "STOP_OR_BE_TRAIL": 31,
+      "TP2": 3
+    }
+  },
+  {
+    "cohort": "ALL",
+    "scenario": "COST_STRESS_1_5X",
+    "ttl": "TTL_15",
+    "setups": 90,
+    "fills": 58,
+    "unresolved": 0,
+    "net_r": -14.191078544387972,
+    "closed_only_net_r": -14.191078544387972,
+    "gross_price_r": -9.775716206459094,
+    "commission_r": 4.415362337928876,
+    "assumed_market_slippage_r": 1.775868348541835,
+    "pf": 0.4749984483059342,
+    "mean_setup_day95": [
+      -0.2886422444995583,
+      -0.017256472066762382
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -14.191078544387972,
+    "monthly": {
+      "2025-02": {
+        "setups": 12,
+        "fills": 9,
+        "closed_only_r": -0.3494472723521266,
+        "unresolved": 0
+      },
+      "2025-03": {
+        "setups": 13,
+        "fills": 10,
+        "closed_only_r": -2.1782517447932315,
+        "unresolved": 0
+      },
+      "2025-04": {
+        "setups": 9,
+        "fills": 8,
+        "closed_only_r": -3.5133875386071143,
+        "unresolved": 0
+      },
+      "2025-05": {
+        "setups": 16,
+        "fills": 7,
+        "closed_only_r": -2.0713701692818414,
+        "unresolved": 0
+      },
+      "2025-09": {
+        "setups": 21,
+        "fills": 9,
+        "closed_only_r": 0.7181339503204516,
+        "unresolved": 0
+      },
+      "2025-10": {
+        "setups": 19,
+        "fills": 15,
+        "closed_only_r": -6.796755769674109,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "INTRADAY_FLAT": 1,
+      "NO_FILL_DEADLINE": 32,
+      "REACTION_EXIT": 27,
+      "STOP_OR_BE_TRAIL": 27,
+      "TP2": 3
+    }
+  },
+  {
+    "cohort": "ALL",
+    "scenario": "SPREAD_FLOOR_1PIP",
+    "ttl": "REFERENCE_240",
+    "setups": 90,
+    "fills": 71,
+    "unresolved": 0,
+    "net_r": -19.123968237783462,
+    "closed_only_net_r": -19.123968237783462,
+    "gross_price_r": -14.055708147037501,
+    "commission_r": 5.068260090745962,
+    "assumed_market_slippage_r": 2.1084259476447373,
+    "pf": 0.37931615445393224,
+    "mean_setup_day95": [
+      -0.3443176297938822,
+      -0.07749736748528911
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -19.123968237783462,
+    "monthly": {
+      "2025-02": {
+        "setups": 12,
+        "fills": 12,
+        "closed_only_r": -2.0206525361774883,
+        "unresolved": 0
+      },
+      "2025-03": {
+        "setups": 13,
+        "fills": 11,
+        "closed_only_r": -1.4414998432815436,
+        "unresolved": 0
+      },
+      "2025-04": {
+        "setups": 9,
+        "fills": 8,
+        "closed_only_r": -3.907348091942335,
+        "unresolved": 0
+      },
+      "2025-05": {
+        "setups": 16,
+        "fills": 11,
+        "closed_only_r": -0.5308469095794857,
+        "unresolved": 0
+      },
+      "2025-09": {
+        "setups": 21,
+        "fills": 11,
+        "closed_only_r": -3.1470767748819406,
+        "unresolved": 0
+      },
+      "2025-10": {
+        "setups": 19,
+        "fills": 18,
+        "closed_only_r": -8.07654408192067,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "INTRADAY_FLAT": 3,
+      "NO_FILL_DEADLINE": 19,
+      "REACTION_EXIT": 39,
+      "STOP_OR_BE_TRAIL": 27,
+      "TP2": 2
+    }
+  },
+  {
+    "cohort": "ALL",
+    "scenario": "SPREAD_FLOOR_1PIP",
+    "ttl": "TTL_15",
+    "setups": 90,
+    "fills": 55,
+    "unresolved": 0,
+    "net_r": -16.439766617854467,
+    "closed_only_net_r": -16.439766617854467,
+    "gross_price_r": -12.220902977806285,
+    "commission_r": 4.218863640048184,
+    "assumed_market_slippage_r": 1.735931241623583,
+    "pf": 0.35127648228225733,
+    "mean_setup_day95": [
+      -0.2990659387896763,
+      -0.0608983289932642
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -16.439766617854467,
+    "monthly": {
+      "2025-02": {
+        "setups": 12,
+        "fills": 9,
+        "closed_only_r": -0.6305101761062804,
+        "unresolved": 0
+      },
+      "2025-03": {
+        "setups": 13,
+        "fills": 10,
+        "closed_only_r": -1.0914998432817176,
+        "unresolved": 0
+      },
+      "2025-04": {
+        "setups": 9,
+        "fills": 8,
+        "closed_only_r": -3.907348091942335,
+        "unresolved": 0
+      },
+      "2025-05": {
+        "setups": 16,
+        "fills": 6,
+        "closed_only_r": -2.0968677635279014,
+        "unresolved": 0
+      },
+      "2025-09": {
+        "setups": 21,
+        "fills": 8,
+        "closed_only_r": -3.254576774882017,
+        "unresolved": 0
+      },
+      "2025-10": {
+        "setups": 19,
+        "fills": 14,
+        "closed_only_r": -5.458963968114217,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "INTRADAY_FLAT": 1,
+      "NO_FILL_DEADLINE": 35,
+      "REACTION_EXIT": 30,
+      "STOP_OR_BE_TRAIL": 23,
+      "TP2": 1
+    }
+  },
+  {
+    "cohort": "RECHECK",
+    "scenario": "OBSERVED_QUOTES",
+    "ttl": "REFERENCE_240",
+    "setups": 25,
+    "fills": 23,
+    "unresolved": 0,
+    "net_r": -1.5874742573249396,
+    "closed_only_net_r": -1.5874742573249396,
+    "gross_price_r": -0.46900768465901377,
+    "commission_r": 1.118466572665926,
+    "assumed_market_slippage_r": 0.42907488526019805,
+    "pf": 0.8155087867002958,
+    "mean_setup_day95": [
+      -0.3858390688141409,
+      0.2819253231380548
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -1.5874742573249396,
+    "monthly": {
+      "2025-02": {
+        "setups": 12,
+        "fills": 12,
+        "closed_only_r": 0.43759856998047336,
+        "unresolved": 0
+      },
+      "2025-03": {
+        "setups": 13,
+        "fills": 11,
+        "closed_only_r": -2.0250728273054133,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "NO_FILL_DEADLINE": 2,
+      "REACTION_EXIT": 9,
+      "STOP_OR_BE_TRAIL": 13,
+      "TP2": 1
+    }
+  },
+  {
+    "cohort": "RECHECK",
+    "scenario": "OBSERVED_QUOTES",
+    "ttl": "TTL_15",
+    "setups": 25,
+    "fills": 19,
+    "unresolved": 0,
+    "net_r": -1.7935422608901739,
+    "closed_only_net_r": -1.7935422608901739,
+    "gross_price_r": -0.8582827886401726,
+    "commission_r": 0.9352594722500014,
+    "assumed_market_slippage_r": 0.3526637147313798,
+    "pf": 0.7840700171840527,
+    "mean_setup_day95": [
+      -0.389462920808849,
+      0.27692275070780437
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -1.7935422608901739,
+    "monthly": {
+      "2025-02": {
+        "setups": 12,
+        "fills": 9,
+        "closed_only_r": 0.09819723308219451,
+        "unresolved": 0
+      },
+      "2025-03": {
+        "setups": 13,
+        "fills": 10,
+        "closed_only_r": -1.8917394939723684,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "NO_FILL_DEADLINE": 6,
+      "REACTION_EXIT": 6,
+      "STOP_OR_BE_TRAIL": 12,
+      "TP2": 1
+    }
+  },
+  {
+    "cohort": "RECHECK",
+    "scenario": "COST_STRESS_1_5X",
+    "ttl": "REFERENCE_240",
+    "setups": 25,
+    "fills": 23,
+    "unresolved": 0,
+    "net_r": -2.4128039618867447,
+    "closed_only_net_r": -2.4128039618867447,
+    "gross_price_r": -0.7351005111287029,
+    "commission_r": 1.6777034507580417,
+    "assumed_market_slippage_r": 0.6436123278902971,
+    "pf": 0.7391846455445782,
+    "mean_setup_day95": [
+      -0.42127440740615435,
+      0.24959353777753807
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -2.4128039618867447,
+    "monthly": {
+      "2025-02": {
+        "setups": 12,
+        "fills": 12,
+        "closed_only_r": -0.05121888376035391,
+        "unresolved": 0
+      },
+      "2025-03": {
+        "setups": 13,
+        "fills": 11,
+        "closed_only_r": -2.3615850781263905,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "NO_FILL_DEADLINE": 2,
+      "REACTION_EXIT": 9,
+      "STOP_OR_BE_TRAIL": 13,
+      "TP2": 1
+    }
+  },
+  {
+    "cohort": "RECHECK",
+    "scenario": "COST_STRESS_1_5X",
+    "ttl": "TTL_15",
+    "setups": 25,
+    "fills": 19,
+    "unresolved": 0,
+    "net_r": -2.5276990171453577,
+    "closed_only_net_r": -2.5276990171453577,
+    "gross_price_r": -1.1248063934817913,
+    "commission_r": 1.4028926236635668,
+    "assumed_market_slippage_r": 0.5289955720970697,
+    "pf": 0.7142372062077973,
+    "mean_setup_day95": [
+      -0.42010452614180244,
+      0.24422034071083804
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -2.5276990171453577,
+    "monthly": {
+      "2025-02": {
+        "setups": 12,
+        "fills": 9,
+        "closed_only_r": -0.3494472723521266,
+        "unresolved": 0
+      },
+      "2025-03": {
+        "setups": 13,
+        "fills": 10,
+        "closed_only_r": -2.1782517447932315,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "NO_FILL_DEADLINE": 6,
+      "REACTION_EXIT": 6,
+      "STOP_OR_BE_TRAIL": 12,
+      "TP2": 1
+    }
+  },
+  {
+    "cohort": "RECHECK",
+    "scenario": "SPREAD_FLOOR_1PIP",
+    "ttl": "REFERENCE_240",
+    "setups": 25,
+    "fills": 23,
+    "unresolved": 0,
+    "net_r": -3.462152379459032,
+    "closed_only_net_r": -3.462152379459032,
+    "gross_price_r": -1.784438053469825,
+    "commission_r": 1.6777143259892071,
+    "assumed_market_slippage_r": 0.6572486915266594,
+    "pf": 0.6321632164750212,
+    "mean_setup_day95": [
+      -0.4294548754539195,
+      0.20108771720842464
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -3.462152379459032,
+    "monthly": {
+      "2025-02": {
+        "setups": 12,
+        "fills": 12,
+        "closed_only_r": -2.0206525361774883,
+        "unresolved": 0
+      },
+      "2025-03": {
+        "setups": 13,
+        "fills": 11,
+        "closed_only_r": -1.4414998432815436,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "NO_FILL_DEADLINE": 2,
+      "REACTION_EXIT": 11,
+      "STOP_OR_BE_TRAIL": 11,
+      "TP2": 1
+    }
+  },
+  {
+    "cohort": "RECHECK",
+    "scenario": "SPREAD_FLOOR_1PIP",
+    "ttl": "TTL_15",
+    "setups": 25,
+    "fills": 19,
+    "unresolved": 0,
+    "net_r": -1.722010019387998,
+    "closed_only_net_r": -1.722010019387998,
+    "gross_price_r": -0.31910828519914824,
+    "commission_r": 1.40290173418885,
+    "assumed_market_slippage_r": 0.5289955720970697,
+    "pf": 0.7755477465099826,
+    "mean_setup_day95": [
+      -0.3549090436029256,
+      0.2557612510245042
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -1.722010019387998,
+    "monthly": {
+      "2025-02": {
+        "setups": 12,
+        "fills": 9,
+        "closed_only_r": -0.6305101761062804,
+        "unresolved": 0
+      },
+      "2025-03": {
+        "setups": 13,
+        "fills": 10,
+        "closed_only_r": -1.0914998432817176,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "NO_FILL_DEADLINE": 6,
+      "REACTION_EXIT": 8,
+      "STOP_OR_BE_TRAIL": 10,
+      "TP2": 1
+    }
+  },
+  {
+    "cohort": "FOLLOWUP",
+    "scenario": "OBSERVED_QUOTES",
+    "ttl": "REFERENCE_240",
+    "setups": 65,
+    "fills": 49,
+    "unresolved": 0,
+    "net_r": -11.706641593734995,
+    "closed_only_net_r": -11.706641593734995,
+    "gross_price_r": -9.424078415829232,
+    "commission_r": 2.2825631779057636,
+    "assumed_market_slippage_r": 0.9596737263009469,
+    "pf": 0.4075997120493838,
+    "mean_setup_day95": [
+      -0.33354314902143656,
+      -0.02402452733818247
+    ],
+    "marketable_openings": 1,
+    "net_excluding_marketable_cases": -10.539974927068394,
+    "monthly": {
+      "2025-04": {
+        "setups": 9,
+        "fills": 8,
+        "closed_only_r": -3.245158853317803,
+        "unresolved": 0
+      },
+      "2025-05": {
+        "setups": 16,
+        "fills": 12,
+        "closed_only_r": -1.8103147016724304,
+        "unresolved": 0
+      },
+      "2025-09": {
+        "setups": 21,
+        "fills": 11,
+        "closed_only_r": 1.5611077771070594,
+        "unresolved": 0
+      },
+      "2025-10": {
+        "setups": 19,
+        "fills": 18,
+        "closed_only_r": -8.212275815851822,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "INTRADAY_FLAT": 2,
+      "NO_FILL_DEADLINE": 16,
+      "REACTION_EXIT": 27,
+      "STOP_OR_BE_TRAIL": 18,
+      "TP2": 2
+    }
+  },
+  {
+    "cohort": "FOLLOWUP",
+    "scenario": "OBSERVED_QUOTES",
+    "ttl": "TTL_15",
+    "setups": 65,
+    "fills": 39,
+    "unresolved": 0,
+    "net_r": -10.151993617170419,
+    "closed_only_net_r": -10.151993617170419,
+    "gross_price_r": -8.143680989940195,
+    "commission_r": 2.0083126272302234,
+    "assumed_market_slippage_r": 0.8312485176298435,
+    "pf": 0.4010565746741565,
+    "mean_setup_day95": [
+      -0.2896627911514973,
+      -0.019571753585072058
+    ],
+    "marketable_openings": 1,
+    "net_excluding_marketable_cases": -8.985326950503818,
+    "monthly": {
+      "2025-04": {
+        "setups": 9,
+        "fills": 8,
+        "closed_only_r": -3.245158853317803,
+        "unresolved": 0
+      },
+      "2025-05": {
+        "setups": 16,
+        "fills": 7,
+        "closed_only_r": -1.9146349790759014,
+        "unresolved": 0
+      },
+      "2025-09": {
+        "setups": 21,
+        "fills": 9,
+        "closed_only_r": 1.0661077771070093,
+        "unresolved": 0
+      },
+      "2025-10": {
+        "setups": 19,
+        "fills": 15,
+        "closed_only_r": -6.058307561883724,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "INTRADAY_FLAT": 1,
+      "NO_FILL_DEADLINE": 26,
+      "REACTION_EXIT": 21,
+      "STOP_OR_BE_TRAIL": 15,
+      "TP2": 2
+    }
+  },
+  {
+    "cohort": "FOLLOWUP",
+    "scenario": "COST_STRESS_1_5X",
+    "ttl": "REFERENCE_240",
+    "setups": 65,
+    "fills": 49,
+    "unresolved": 0,
+    "net_r": -13.428475496759859,
+    "closed_only_net_r": -13.428475496759859,
+    "gross_price_r": -10.004630113624096,
+    "commission_r": 3.4238453831357623,
+    "assumed_market_slippage_r": 1.4395105894514204,
+    "pf": 0.36607334463534363,
+    "mean_setup_day95": [
+      -0.3645179837439463,
+      -0.045419134024420056
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -13.428475496759859,
+    "monthly": {
+      "2025-04": {
+        "setups": 9,
+        "fills": 8,
+        "closed_only_r": -3.5133875386071143,
+        "unresolved": 0
+      },
+      "2025-05": {
+        "setups": 16,
+        "fills": 12,
+        "closed_only_r": -2.047458202291081,
+        "unresolved": 0
+      },
+      "2025-09": {
+        "setups": 21,
+        "fills": 11,
+        "closed_only_r": 1.1573006169870608,
+        "unresolved": 0
+      },
+      "2025-10": {
+        "setups": 19,
+        "fills": 18,
+        "closed_only_r": -9.024930372848724,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "INTRADAY_FLAT": 2,
+      "NO_FILL_DEADLINE": 16,
+      "REACTION_EXIT": 27,
+      "STOP_OR_BE_TRAIL": 18,
+      "TP2": 2
+    }
+  },
+  {
+    "cohort": "FOLLOWUP",
+    "scenario": "COST_STRESS_1_5X",
+    "ttl": "TTL_15",
+    "setups": 65,
+    "fills": 39,
+    "unresolved": 0,
+    "net_r": -11.663379527242613,
+    "closed_only_net_r": -11.663379527242613,
+    "gross_price_r": -8.650909812977304,
+    "commission_r": 3.0124697142653094,
+    "assumed_market_slippage_r": 1.2468727764447654,
+    "pf": 0.3586299325064567,
+    "mean_setup_day95": [
+      -0.31659530038848455,
+      -0.039381109507865504
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -11.663379527242613,
+    "monthly": {
+      "2025-04": {
+        "setups": 9,
+        "fills": 8,
+        "closed_only_r": -3.5133875386071143,
+        "unresolved": 0
+      },
+      "2025-05": {
+        "setups": 16,
+        "fills": 7,
+        "closed_only_r": -2.0713701692818414,
+        "unresolved": 0
+      },
+      "2025-09": {
+        "setups": 21,
+        "fills": 9,
+        "closed_only_r": 0.7181339503204516,
+        "unresolved": 0
+      },
+      "2025-10": {
+        "setups": 19,
+        "fills": 15,
+        "closed_only_r": -6.796755769674109,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "INTRADAY_FLAT": 1,
+      "NO_FILL_DEADLINE": 26,
+      "REACTION_EXIT": 21,
+      "STOP_OR_BE_TRAIL": 15,
+      "TP2": 2
+    }
+  },
+  {
+    "cohort": "FOLLOWUP",
+    "scenario": "SPREAD_FLOOR_1PIP",
+    "ttl": "REFERENCE_240",
+    "setups": 65,
+    "fills": 48,
+    "unresolved": 0,
+    "net_r": -15.661815858324431,
+    "closed_only_net_r": -15.661815858324431,
+    "gross_price_r": -12.271270093567676,
+    "commission_r": 3.3905457647567547,
+    "assumed_market_slippage_r": 1.4511772561180776,
+    "pf": 0.2681028103349694,
+    "mean_setup_day95": [
+      -0.3851424936887782,
+      -0.10804435476206666
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -15.661815858324431,
+    "monthly": {
+      "2025-04": {
+        "setups": 9,
+        "fills": 8,
+        "closed_only_r": -3.907348091942335,
+        "unresolved": 0
+      },
+      "2025-05": {
+        "setups": 16,
+        "fills": 11,
+        "closed_only_r": -0.5308469095794857,
+        "unresolved": 0
+      },
+      "2025-09": {
+        "setups": 21,
+        "fills": 11,
+        "closed_only_r": -3.1470767748819406,
+        "unresolved": 0
+      },
+      "2025-10": {
+        "setups": 19,
+        "fills": 18,
+        "closed_only_r": -8.07654408192067,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "INTRADAY_FLAT": 3,
+      "NO_FILL_DEADLINE": 17,
+      "REACTION_EXIT": 28,
+      "STOP_OR_BE_TRAIL": 16,
+      "TP2": 1
+    }
+  },
+  {
+    "cohort": "FOLLOWUP",
+    "scenario": "SPREAD_FLOOR_1PIP",
+    "ttl": "TTL_15",
+    "setups": 65,
+    "fills": 36,
+    "unresolved": 0,
+    "net_r": -14.71775659846647,
+    "closed_only_net_r": -14.71775659846647,
+    "gross_price_r": -11.901794692607137,
+    "commission_r": 2.8159619058593344,
+    "assumed_market_slippage_r": 1.2069356695265134,
+    "pf": 0.16706057762484583,
+    "mean_setup_day95": [
+      -0.3432340612476506,
+      -0.11487233288866866
+    ],
+    "marketable_openings": 0,
+    "net_excluding_marketable_cases": -14.71775659846647,
+    "monthly": {
+      "2025-04": {
+        "setups": 9,
+        "fills": 8,
+        "closed_only_r": -3.907348091942335,
+        "unresolved": 0
+      },
+      "2025-05": {
+        "setups": 16,
+        "fills": 6,
+        "closed_only_r": -2.0968677635279014,
+        "unresolved": 0
+      },
+      "2025-09": {
+        "setups": 21,
+        "fills": 8,
+        "closed_only_r": -3.254576774882017,
+        "unresolved": 0
+      },
+      "2025-10": {
+        "setups": 19,
+        "fills": 14,
+        "closed_only_r": -5.458963968114217,
+        "unresolved": 0
+      }
+    },
+    "reasons": {
+      "INTRADAY_FLAT": 1,
+      "NO_FILL_DEADLINE": 29,
+      "REACTION_EXIT": 22,
+      "STOP_OR_BE_TRAIL": 13
+    }
+  }
+]

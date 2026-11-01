@@ -1,0 +1,71 @@
+[
+  {
+    "cohort": "ALL",
+    "cases": 90,
+    "measured": 90,
+    "unpriced": 0,
+    "groups": {
+      "BEFORE15": 58,
+      "AT_OR_AFTER15": 14,
+      "NO_FILL": 18
+    },
+    "model_full_fills_on_measured": 71,
+    "model_ttl15_on_measured": 57,
+    "tick_full_fills": 72,
+    "ttl15_disagreements": 1,
+    "minute_matches": 65,
+    "both_filled": 71,
+    "tick_fill_without_model": 1,
+    "model_fill_without_tick": 0,
+    "median_observed_fill_spread_pips": 0.1000000000005663,
+    "zero_spread_fill_quotes": 31,
+    "marketable_opening_quotes": 1,
+    "unpriced_reasons": {}
+  },
+  {
+    "cohort": "RECHECK",
+    "cases": 25,
+    "measured": 25,
+    "unpriced": 0,
+    "groups": {
+      "BEFORE15": 19,
+      "AT_OR_AFTER15": 4,
+      "NO_FILL": 2
+    },
+    "model_full_fills_on_measured": 23,
+    "model_ttl15_on_measured": 19,
+    "tick_full_fills": 23,
+    "ttl15_disagreements": 0,
+    "minute_matches": 18,
+    "both_filled": 23,
+    "tick_fill_without_model": 0,
+    "model_fill_without_tick": 0,
+    "median_observed_fill_spread_pips": 0.09999999999843467,
+    "zero_spread_fill_quotes": 11,
+    "marketable_opening_quotes": 0,
+    "unpriced_reasons": {}
+  },
+  {
+    "cohort": "FOLLOWUP",
+    "cases": 65,
+    "measured": 65,
+    "unpriced": 0,
+    "groups": {
+      "BEFORE15": 39,
+      "AT_OR_AFTER15": 10,
+      "NO_FILL": 16
+    },
+    "model_full_fills_on_measured": 48,
+    "model_ttl15_on_measured": 38,
+    "tick_full_fills": 49,
+    "ttl15_disagreements": 1,
+    "minute_matches": 47,
+    "both_filled": 48,
+    "tick_fill_without_model": 1,
+    "model_fill_without_tick": 0,
+    "median_observed_fill_spread_pips": 0.10000000000065512,
+    "zero_spread_fill_quotes": 20,
+    "marketable_opening_quotes": 1,
+    "unpriced_reasons": {}
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "frozen_at": "2026-10-23 21:11:43.405026+00:00",
+  "symbols": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY",
+    "USDCAD",
+    "USDCHF",
+    "NZDUSD"
+  ],
+  "months": [
+    "2025-02",
+    "2025-03"
+  ],
+  "scope": "Additional temporal sample for <=.35 Asia/ATR hypothesis; Feb/Mar prices previously used by separate classic ORB research. Not pristine project-wide OOS, not prospective forward.",
+  "hypothesis": "Same first normalized daily detector setup. Tight Asia<=.35 dailyATR versus loose(.35,.70]. Base detector cap.70 unchanged; threshold never tuned.",
+  "detector": "Byte-identical frozen ORB/config/entry/volume/context from discovery. London08-08:15local,2xvolume,Asia00-06UTC,prior14validUTCdailyTR,entry availability before12local. First daily setup even if unfilled; no replacement after new compression filter.",
+  "lifecycle": "Unmodified discovery execution.py: passive fixed entry/stop, outward target correction>=1.2/2R, halfTP1,BE/trail,fill-bar adverse reaction,stop-first,no fill-bar TP, London16:30 flat; noon/4h pending deadline.",
+  "costs": "Same four assumed constant spreads .2/.5/.9/1.5pip; primary.5, adverse1.5; USD4/100k roundtrip,.2pip market exit slippage. New native broker bidM1 checked against tick bid samples. Not actual historic charges/ask replay.",
+  "coverage": "All41weekdays x6symbols; no missing weekday or input silently treated no signal. Asia24M15+opening and every decision bar coverage required; ATR warmup available separately. Replay missingM1 unresolved; any unresolved forbids complete-basket claims.",
+  "primary": "Mean netR per tight-group accepted setup including no-fill zeros; month signs and adverse costs; compare loose group under same schedule.",
+  "decision": "Hypothesis survives screen only if tight group positive in both months at.5 and1.5pip with no coverage/replay unresolved and outperform loose mean at both costs. At least30closedtightfills required even to regard as a substantive follow-up candidate; this is a heuristic sample gate, not edge proof. No live promotion under any result.",
+  "uncertainty": "10000 day-cluster resamples of accepted setup mean;95%percentiles. Exploratory validation after multiple earlier hypotheses, no multiplicity correction.",
+  "prohibited": "No parameter/asset/month search, no macro imputation, no live orders or paid API.",
+  "forced_research_environment": {
+    "ENTRY_MODEL": "MIDPOINT",
+    "LIMIT_EXPIRY_BARS": "16"
+  },
+  "code_hashes": {
+    "collect_bars.py": "402c62db413da3788e4a7d1d5d4bde1e299b43e34f735c81f9141593b8a52916",
+    "execution.py": "c1b2cded094bf5c3ed40f50d950a356a942adc8d003d97bf1cdcebd048fac989",
+    "normalize_clock.py": "d422c16480c903a54ad01107fb1054535b28114e8da9a10f7046a5e83ce5b44f",
+    "price_rules.py": "16a0956e7734284a81beba30c3a34380e00a9fd44efc50e090e2387863689221",
+    "study.py": "c03c91a43540b75ce9f21766f95697c9a365f889446dfcb45cf6bcddff98edb8",
+    "test_validation.py": "e99fbca9588fd46ba46ce6ca4239a01f99a83e9f5ceaca9ceb16c54662c9e0d2",
+    "frozen_engine\\config.py": "22b133cd8b06b3c3dccfe94b758c47797ff6fba990ee1dd4f5b6fa54d450f281",
+    "frozen_engine\\entry_mechanics.py": "a89813719b68e2be8da16a73432b296d03855e48d56bd7f99eba7b9ed5155ba5",
+    "frozen_engine\\orb_detector.py": "7f06f1be7e13d7a4191698302e60ff4404bd050f81f6e8950b0b9bc66a60f1c5",
+    "frozen_engine\\orb_session_context.py": "1b701210b86b9681b3ed2aaa0f05dca355f7d4e11055e773dd68ee6140c4c765",
+    "frozen_engine\\volume_anomaly.py": "7fe0308d123bc92399dcf3fd1e6af8e3d0ec22cb214b70a557ef1ec0f9a66f50",
+    "frozen_engine\\__init__.py": "6ec4fdfe575c573205e4c6fab156a2075f81a56858e38fb9f15540bc750e64ae"
+  }
+}

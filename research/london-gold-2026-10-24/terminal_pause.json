@@ -1,0 +1,9 @@
+{
+  "status": "closed_with_user_approval",
+  "path": "C:\\Program Files\\Five Percent Online MetaTrader 5\\terminal64.exe",
+  "utc": "2026-10-23T23:22:35.4338857Z",
+  "free_bytes": 6864896,
+  "pid": 11108,
+  "reason": "MT5 historical tick request continued after Python exit; preventing disk exhaustion",
+  "closed_utc": "2026-10-23T23:24:14.2740202Z"
+}

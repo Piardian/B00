@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-24T08:54:17.879188+00:00",
+  "hypothesis": "No entries June July August; all other rules/costs unchanged.",
+  "classification": "POST_HOC descriptive diagnostic, prompted after observing August losses. Not untouched OOS or seasonality evidence.",
+  "sample": "Only Jan-Aug2025 currently replayed; removing JunAug leaves JanMay only. No SeptemberDecember result or second year inferred.",
+  "method": "Filter immutable outcomes by calendar month, no new simulations/orders. Fixed comparator allJanAug, shutdown JunAug, excluded summer separate. Same circular5weekday10000seed173 CI. Full calendar disabled days zero; active calendar CI also reported. May-removed diagnostic predeclared here.",
+  "live_approved": false,
+  "hashes": {
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-summer-off-2026-10-24\\analyze.py": "c0aa5062c79c025f346f8f4b090b8acf3797cba75069324d0b972b8a5e5a3b7f",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\validate.py": "0d676034df62630cb67b9c7f684d59d01cdca37c5df50998577263a508ac5167",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\study.py": "110d3b0b0295edc7e0e40596f5356d7c48823053e869062218e74c891e94b6b9",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\outcomes.json": "ffe8114865710114a47f01df22af882b749be459d14e1a79bf65745b05c7119d",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\outcomes.json": "1ed5a7866fd63b45015b1e927c61c97f69776bf12fc805b51ed56c194ad62a60",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\completion.json": "a2f941da08ff5e8bc7d7e46f0852b0515f1ec5d9f2f1a8dbc6212666b0db4cb9",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\results.json": "0525a2ff83b7f8fe299c22fdcb5150fa0c26474e6adeda85a5650a06412620bf"
+  }
+}

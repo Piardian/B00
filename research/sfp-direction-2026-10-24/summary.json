@@ -1,0 +1,216 @@
+{
+  "groups": {
+    "DEVELOPMENT": {
+      "signals": 6,
+      "direction_measured": 6,
+      "direction_mean_r": -0.3273155650635083,
+      "direction_positive": 3,
+      "direction_day95": [
+        -1.364944584889859,
+        0.6169391090358448
+      ],
+      "quotes": {
+        "OBSERVED": {
+          "setups": 6,
+          "fills": 2,
+          "days": 2,
+          "status_counts": {
+            "FILLED_MARKOUT": 2,
+            "NO_FILL": 1,
+            "UNRESOLVED_COVERAGE": 3
+          },
+          "mean_conditional_markout_r": 0.20210719684487308,
+          "day95": null,
+          "stop_crossed": 0
+        },
+        "STRESS_1_5X": {
+          "setups": 6,
+          "fills": 2,
+          "days": 2,
+          "status_counts": {
+            "FILLED_MARKOUT": 2,
+            "NO_FILL": 1,
+            "UNRESOLVED_COVERAGE": 3
+          },
+          "mean_conditional_markout_r": 0.18529463145153088,
+          "day95": null,
+          "stop_crossed": 0
+        },
+        "STRESS_FLOOR": {
+          "setups": 6,
+          "fills": 2,
+          "days": 2,
+          "status_counts": {
+            "FILLED_MARKOUT": 2,
+            "NO_FILL": 1,
+            "UNRESOLVED_COVERAGE": 3
+          },
+          "mean_conditional_markout_r": 0.04365157196139988,
+          "day95": null,
+          "stop_crossed": 0
+        }
+      }
+    },
+    "VALIDATION": {
+      "signals": 2,
+      "direction_measured": 2,
+      "direction_mean_r": -0.41962886552064005,
+      "direction_positive": 1,
+      "direction_day95": null,
+      "quotes": {
+        "OBSERVED": {
+          "setups": 2,
+          "fills": 1,
+          "days": 1,
+          "status_counts": {
+            "FILLED_MARKOUT": 1,
+            "UNRESOLVED_COVERAGE": 1
+          },
+          "mean_conditional_markout_r": 0.3198939747984741,
+          "day95": null,
+          "stop_crossed": 0
+        },
+        "STRESS_1_5X": {
+          "setups": 2,
+          "fills": 1,
+          "days": 1,
+          "status_counts": {
+            "FILLED_MARKOUT": 1,
+            "UNRESOLVED_COVERAGE": 1
+          },
+          "mean_conditional_markout_r": 0.31634072715178974,
+          "day95": null,
+          "stop_crossed": 0
+        },
+        "STRESS_FLOOR": {
+          "setups": 2,
+          "fills": 1,
+          "days": 1,
+          "status_counts": {
+            "FILLED_MARKOUT": 1,
+            "UNRESOLVED_COVERAGE": 1
+          },
+          "mean_conditional_markout_r": 0.31634072715178974,
+          "day95": null,
+          "stop_crossed": 0
+        }
+      }
+    }
+  },
+  "monthly": {
+    "2025-01": {
+      "signals": 1,
+      "direction_mean_r": -2.72952853598059,
+      "by_symbol": {
+        "EURUSD": 0,
+        "GBPUSD": 1,
+        "XAUUSD": 0
+      }
+    },
+    "2025-02": {
+      "signals": 0,
+      "direction_mean_r": null,
+      "by_symbol": {
+        "EURUSD": 0,
+        "GBPUSD": 0,
+        "XAUUSD": 0
+      }
+    },
+    "2025-03": {
+      "signals": 1,
+      "direction_mean_r": 1.2342388518708178,
+      "by_symbol": {
+        "EURUSD": 0,
+        "GBPUSD": 0,
+        "XAUUSD": 1
+      }
+    },
+    "2025-04": {
+      "signals": 0,
+      "direction_mean_r": null,
+      "by_symbol": {
+        "EURUSD": 0,
+        "GBPUSD": 0,
+        "XAUUSD": 0
+      }
+    },
+    "2025-05": {
+      "signals": 1,
+      "direction_mean_r": 0.36827195467423984,
+      "by_symbol": {
+        "EURUSD": 0,
+        "GBPUSD": 1,
+        "XAUUSD": 0
+      }
+    },
+    "2025-06": {
+      "signals": 3,
+      "direction_mean_r": -0.27895855364850586,
+      "by_symbol": {
+        "EURUSD": 1,
+        "GBPUSD": 1,
+        "XAUUSD": 1
+      }
+    },
+    "2025-07": {
+      "signals": 0,
+      "direction_mean_r": null,
+      "by_symbol": {
+        "EURUSD": 0,
+        "GBPUSD": 0,
+        "XAUUSD": 0
+      }
+    },
+    "2025-08": {
+      "signals": 0,
+      "direction_mean_r": null,
+      "by_symbol": {
+        "EURUSD": 0,
+        "GBPUSD": 0,
+        "XAUUSD": 0
+      }
+    },
+    "2025-09": {
+      "signals": 0,
+      "direction_mean_r": null,
+      "by_symbol": {
+        "EURUSD": 0,
+        "GBPUSD": 0,
+        "XAUUSD": 0
+      }
+    },
+    "2025-10": {
+      "signals": 1,
+      "direction_mean_r": 0.29031037527091264,
+      "by_symbol": {
+        "EURUSD": 0,
+        "GBPUSD": 0,
+        "XAUUSD": 1
+      }
+    },
+    "2025-11": {
+      "signals": 1,
+      "direction_mean_r": -1.1295681063121927,
+      "by_symbol": {
+        "EURUSD": 1,
+        "GBPUSD": 0,
+        "XAUUSD": 0
+      }
+    }
+  },
+  "by_symbol": {
+    "EURUSD": 2,
+    "GBPUSD": 3,
+    "XAUUSD": 3
+  },
+  "coverage_totals": {
+    "expected_windows": 28560,
+    "missing_decision_bar": 160,
+    "htf_unknown": 9540,
+    "scanned": 18860,
+    "raw_signals": 8,
+    "validated": 8
+  },
+  "direction_not_pnl": true,
+  "conditional_markout_not_strategy_pnl": true
+}

@@ -1,0 +1,6 @@
+{
+  "probed_utc": "2026-10-23T20:50:08.726566+00:00",
+  "free_disk_gb": 4.295570373535156,
+  "status": "MT5_UNAVAILABLE",
+  "error": "(-6, 'Terminal: Authorization failed')"
+}

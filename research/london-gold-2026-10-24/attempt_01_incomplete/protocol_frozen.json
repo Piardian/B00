@@ -1,0 +1,58 @@
+{
+  "frozen_utc": "2026-10-23T23:19:27.417087+00:00",
+  "declaration": {
+    "symbol": "XAUUSD",
+    "development_months": [
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06"
+    ],
+    "reserve_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "reserve_policy": "Do not inspect reservestrategyoutcomes unless developmentgatepasses. Months seen by older broad research; this is held-aside historical data for this rule, NOT prospective or globally untouchedOOS.",
+    "model": "SingleclassicLondonORB;08:00-08:15Europe/LondonhalfopenBIDrange;nativeBIDopeningcandledirection;firstBIDtouch/breaksameboundaryfrom08:15strictlybefore12:00;oneattempt/day;oppositeBIDbandsyntheticstructuralSL;full2R;EODfirstquote>=16:00within5s;nofilters,RVOL,M1confirmation,BE,partialsortrailing",
+    "execution": "BuyASK+slip/sellBID-slip;longBIDexit/shortASKexit;SLstructuralBIDtriggerforbothdirectionsasoldclassicengine;exitonlynextorderedquote;EODprecedenceat16;SLbeforeTP;TPfavourablegapcappedat2Rtargetminusadverseslip;SLgapworseprice",
+    "cost": "Perounceprice,USDprofit. CommissionRTperlot=max(8USD,2*entry*100ounces*0.001percent/100);divideby100forperounce. CalibratedconservativeASSUMPTION,envelopesflat4USD/sideandpercentage0.001percent/sideconsistentwith9roundedOctober2026fills;notknownhistorical2025tariff. Slippage0.05USD/ounce/side=5brokerstepsASSUMED. Stressmultipliesspread,slippage,commission1.5/2. NeverborrowFX4USDroundtrip.",
+    "scenarios": [
+      [
+        "OBSERVED_1x",
+        1.0
+      ],
+      [
+        "STRESS_1.5x",
+        1.5
+      ],
+      [
+        "STRESS_2x",
+        2.0
+      ]
+    ],
+    "price_net_diagnostic": "Samefillpaths beforecommission, stillincludesbidaskandslippage; ifnegativeunknownpositivecommissioncannotrescuethesesamefills. Notfrictionfreeorstrictupperboundacrossdifferententry/exitmodels.",
+    "quality": "ChronologicalvalidBIDASK;firstopeningquote<=5s,EODquote<=5s,internalgap<=60s;nativeopeningM15OHLCwithinone0.01tickanddirectionequal;BIDflagvolumecomparedbutnotusedinstrategy. Missingunknownsnotflat.",
+    "holidays": "Only2025-01-01and2025-04-18excludableifbothnativeD1andallLondonM15absent;goldNewYear/GoodFriday. Othermissingdatesunknown. Neverexcludeaweekdaysimplybecauseitlost.",
+    "clock": "SamebrokerUTC+2winter/+3USsummerpreviouslyvalidatedagainstindependentEURUSDandNASDAQincludingUS/EUDSTgap. RevalidatepreflightEURUSDM15againstindependentTwelveDatareturnsforoffsets-3..+3:20strongdays>=.7corrand>=.15margin,noconflicts,atleastoneUS/EUDSTdisagreementday. Noindependentgoldfeedclaim.",
+    "gate": "Completecoverage,clockandnativeQA,>=100developmentclosedtrades,positive1.5xand2x,1.5xblockCIlo>0,atleast4of6monthspositiveat1.5x,andbothJanMar/AprJunblockspositiveat1.5x. Onlythenreserve. Numeric2025commissionstillunverified;notliveapproval.",
+    "statistics": "10000circular5weekdayblockstotalRseed173;allbusinessdaysincludingconfirmedholidaysinclocklength;confidenceexploratorynomultiplicitycorrection;independentunitRopportunitiesnotaccountreturnorpropDD",
+    "disk": "Atleast600MiBfreebeforeeachdownload,450MiBnewtapesbudget;noexistingfilesdeleted;nativeMT5cachemaygrow;onlimitstopandpreservepartialmanifestwithoutnetclaim",
+    "terminal": "C:/Program Files/Five Percent Online MetaTrader 5/terminal64.exe",
+    "read_only": true,
+    "live_approved": false,
+    "hashes": {
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\study.py": "110d3b0b0295edc7e0e40596f5356d7c48823053e869062218e74c891e94b6b9",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\test_study.py": "f8d69f7fb7faca2c6ffb43512b4e5c6e408ded87c22264c6f6577b3e810d0217",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\preflight.py": "8cfaa20fb728cbf58742f47c4384979f19307d54f7f8c22ecbc387a2d0086bac",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\cost_evidence.json": "96a2711bbb5c725884afa65aceb5509a28fae39181cab49447f75eb8a1dfad63",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\gold_m15.parquet": "5569aa0446d001a0107495576f7452f08c777029b98b234d5a02fa9a2e24d3a1",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\gold_d1.parquet": "b0565579881d85dbd6aa6f7e8432f9af769415d0d4388f8c66995fb3ee9b933c",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\clock_eurusd_m15.parquet": "9c1a0650eb8bf6c87534b040cb6ad7dd7f40c858f4e689dc52f5a0ac366241d8",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\scripts\\normalize_broker_history.py": "d422c16480c903a54ad01107fb1054535b28114e8da9a10f7046a5e83ce5b44f",
+      "C:\\Users\\piard\\Desktop\\MegalordProject\\audit\\daytrade-session-2026-10-22\\evidence\\twelvedata_EURUSD_15m.csv.gz": "a0d15c3b3a5e5ee6913a8678b21378a6c5ea8b86939b202c44f7abdfa89a2daf",
+      "C:\\Users\\piard\\Desktop\\MegalordProject\\audit\\daytrade-session-2026-10-22\\clock_validation.json": "17a25fad1c63e46939b87b2b1b80c537dccf83ae9e0be9c72587b2c1967a2e18"
+    }
+  }
+}

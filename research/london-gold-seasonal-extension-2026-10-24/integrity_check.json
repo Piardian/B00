@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "days": 456,
+  "prior_parity_days": 173,
+  "sources_rehashed": true,
+  "native_hashes": {
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\gold_m15.parquet": "4fea15e5abf871eb425a5148644cd71b4b42430cbc6f86c5dc0fc39cbb933473",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\gold_d1.parquet": "5c89c3f344b2e7995af7087b85c84c8edf860212ff63b7448e9e2d4bb0e8c5fd",
+    "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\clock_eurusd_m15.parquet": "866ad28ae98e1ec181c584188d9a75a12c44bf13d550c099178ad7db87bece7e"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "expected_normalized_shift_hours": 0,
+  "min_strong_days": 20,
+  "strong_corr": 0.7,
+  "min_margin": 0.15,
+  "reference_sha256": "a0d15c3b3a5e5ee6913a8678b21378a6c5ea8b86939b202c44f7abdfa89a2daf",
+  "scope": "EURUSDcrossfeedclockQAonly;not strategyoutcome"
+}

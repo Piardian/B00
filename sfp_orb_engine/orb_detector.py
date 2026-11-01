@@ -9,6 +9,8 @@ from datetime import datetime, time, timezone
 from .config import (
     ORB_RANGE_MINUTES,
     ORB_SESSIONS,
+    ORB_ENABLED,
+    ORB_ACTIVE_SESSIONS,
     ORB_MIN_BREAKOUT_VOL_RATIO,
     ORB_SL_MODE,
     SFP_RR_TARGET_1,
@@ -54,7 +56,7 @@ class ORBDetector:
         Verilen veri setindeki son barlar icin aktif seansin ORB kirilimini tespit eder.
         """
         # Geliştirme 5: ORB Yalnızca Forex Paritelerinde Aktiftir (Endeks ve Kriptolarda sahte açılış iğneleri nedeniyle VETO)
-        if not is_forex_symbol(symbol):
+        if not ORB_ENABLED or not is_forex_symbol(symbol):
             return None
 
         # Hafta Sonu Korumasi: Cumartesi ve Pazar gunleri kriptoda sahte kirilimlari onlemek icin ORB kesinlikle kapalidir!
@@ -84,6 +86,8 @@ class ORBDetector:
 
         # Hangi seanstayiz?
         for session_key, session_cfg in ORB_SESSIONS.items():
+            if session_key not in ORB_ACTIVE_SESSIONS:
+                continue
             context = None
             if session_key == "LONDON":
                 context = london_context(df, hourly_history, session_cfg, self.range_minutes, scan_time,
@@ -182,6 +186,7 @@ class ORBDetector:
                 grade = "A+" if vol_ratio >= 1.8 else ("A" if vol_ratio >= self.min_vol_ratio else "B+")
 
                 return {
+                    **({'entry_deadline_utc': str(context['entry_deadline'])} if context else {}),
                     **({'london_context': {'version': 'daily-atr14-v1', 'orb_start_utc': str(context['start']),
                         'orb_end_utc': str(context['end']), 'daily_atr': context['daily_atr'],
                         'asia_range': context['asian_range'], 'asia_atr_ratio': context['ratio']}} if context else {}),
@@ -246,6 +251,7 @@ class ORBDetector:
                 grade = "A+" if vol_ratio >= 1.8 else ("A" if vol_ratio >= self.min_vol_ratio else "B+")
 
                 return {
+                    **({'entry_deadline_utc': str(context['entry_deadline'])} if context else {}),
                     **({'london_context': {'version': 'daily-atr14-v1', 'orb_start_utc': str(context['start']),
                         'orb_end_utc': str(context['end']), 'daily_atr': context['daily_atr'],
                         'asia_range': context['asian_range'], 'asia_atr_ratio': context['ratio']}} if context else {}),

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "all_signals_reproduced": 8,
+  "prefix_future_mutation_checks": 41,
+  "quote_ledger_records": 24,
+  "used_quote_tapes_verified": 4,
+  "coverage_asset_months": 33,
+  "original_source_hashes_match": true,
+  "live_approved": false
+}

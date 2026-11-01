@@ -1,0 +1,44 @@
+{
+  "status": "NO_FULL_LIFECYCLE_ESCALATION",
+  "edge_proven": false,
+  "live_approved": false,
+  "demo_started": false,
+  "live_changed": false,
+  "hypothesis": "One predeclared mandatory-IFVG-off existing-entry-model comparison executed; no tuning.",
+  "gates": {
+    "DEVELOPMENT": {
+      "STRESS_1_5X": {
+        "at_least30fills": false,
+        "at_least15days": false,
+        "no_unresolved": false,
+        "positive_mean": false,
+        "positive_day95_lower": false
+      },
+      "STRESS_FLOOR": {
+        "at_least30fills": false,
+        "at_least15days": false,
+        "no_unresolved": false,
+        "positive_mean": false,
+        "positive_day95_lower": false
+      }
+    },
+    "VALIDATION": {
+      "STRESS_1_5X": {
+        "at_least30fills": false,
+        "at_least15days": false,
+        "no_unresolved": false,
+        "positive_mean": true,
+        "positive_day95_lower": false
+      },
+      "STRESS_FLOOR": {
+        "at_least30fills": false,
+        "at_least15days": false,
+        "no_unresolved": false,
+        "positive_mean": true,
+        "positive_day95_lower": false
+      }
+    }
+  },
+  "scope": "Conditional60min quote markouts and signal direction, not real strategy return. Quote missingness is explicit. All history previously observed; not pristineOOS.",
+  "action": "Proceed to exact original lifecycle only if support gates pass. Otherwise retain measurement, do not optimize TP/SL or change production based on extra signal count."
+}

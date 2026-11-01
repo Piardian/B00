@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-23T20:53:35.987458+00:00",
+  "dns": {
+    "method": "DNS-over-HTTPS A lookup; original HTTPS hostname and certificate verification retained",
+    "ip": "16.62.244.190"
+  },
+  "http_status": 429,
+  "retry_after": null,
+  "status": "PROVIDER_UNAVAILABLE_NO_QUOTE_SUBSTITUTION"
+}

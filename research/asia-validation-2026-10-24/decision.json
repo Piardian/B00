@@ -1,0 +1,16 @@
+{
+  "status": "NOT_CONFIRMED",
+  "gates": {
+    "tight_positive_total_0.5pip": false,
+    "tight_both_months_positive_0.5pip": false,
+    "tight_outperforms_loose_mean_0.5pip": false,
+    "tight_positive_total_1.5pip": false,
+    "tight_both_months_positive_1.5pip": false,
+    "tight_outperforms_loose_mean_1.5pip": false,
+    "at_least30_primary_tight_fills": false,
+    "all246pair_days_covered": true,
+    "no_unresolved_replay": true
+  },
+  "live_promotion": false,
+  "caveat": "Additional retrospective period, same model not realized costs;30fill gate heuristic, never edge proof"
+}

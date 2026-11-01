@@ -1,0 +1,33 @@
+{
+  "read_only": true,
+  "server": "FivePercentOnline-Real",
+  "script_sha256": "be473b5fb6948ee754f0de656b2e03aa9aea43351ac90c46f0a730409bd260f1",
+  "rows": [
+    {
+      "symbol": "NZDUSD",
+      "date": "2025-10-09",
+      "confirmation_available_at": "2025-10-09 09:54:00+00:00",
+      "stored_next_quote": "2025-10-09 09:54:06.217000+00:00",
+      "fresh_next_quote": "2025-10-09 09:54:06.217000+00:00",
+      "delay_seconds": 6.217,
+      "fresh_quote_within_5seconds": false,
+      "frozen_window_rows": 59,
+      "refetched_window_rows": 59,
+      "refetch_exact_match": true,
+      "raw_sha256": "909890879f34b9e02a625ee93eb417382b24aab17c1ca84c206657574ea54bc3"
+    },
+    {
+      "symbol": "USDCAD",
+      "date": "2025-09-08",
+      "confirmation_available_at": "2025-09-08 07:20:00+00:00",
+      "stored_next_quote": "2025-09-08 07:20:05.087000+00:00",
+      "fresh_next_quote": "2025-09-08 07:20:05.087000+00:00",
+      "delay_seconds": 5.087,
+      "fresh_quote_within_5seconds": false,
+      "frozen_window_rows": 111,
+      "refetched_window_rows": 111,
+      "refetch_exact_match": true,
+      "raw_sha256": "e6e697d83a200fbd2e760428f8da3f9e1d4c76cca5fa7396fe10da48a30b0bb3"
+    }
+  ]
+}

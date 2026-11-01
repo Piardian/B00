@@ -1,0 +1,13 @@
+{
+  "frozen_at": "2026-10-23 22:45:40.749970+00:00",
+  "scope": "All21TIGHT filled trades at primary.5pip after validation result, not independent verification.",
+  "question": "Initial structural stop before TP1, or TP1 before stop? For reaction exits, same question after exit. No profit attached to hypothetical continuation.",
+  "rules": "Existing initial entry/stop/TP1,exit-side bid/assumedaskM1;stop precedence fillbar,no fillbarTP;later sameM1stop/target labeledAMBIGUOUS. FixedLondon16:30 cutoff. MissingbarsUNKNOWN.",
+  "prohibition": "No replacement rules,optimization,live gate,price future as entry feature or counterfactual PNL.",
+  "hashes": {
+    "path_diagnosis.py": "46121db6edcbce3e83068777ae6effe6292ba3caa3c7d2dbcf3f34372304cac5",
+    "outcomes.json": "6d59b0d16bd271377e2a0410de9c37e266bf10dcf9d518553e37065f99fe5dea",
+    "candidates.json": "87c4bed69a2854e74d6f88c1c0e7397d64102dc136e366fdfc4cc4cdf4d78f74",
+    "price_manifest_frozen.json": "704994f5dc0cc54fd808a146b9177b5235de02d7b60234ae9ccd837cd6a079e3"
+  }
+}

@@ -1,0 +1,1541 @@
+[
+  {
+    "case_id": "EURUSD_2025-02-10T07:30:00+00:00",
+    "day": "2025-02-10",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "UNRESOLVED_MARKOUT",
+    "aligned_status": "UNRESOLVED_MARKOUT",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-02-10T07:30:00+00:00",
+    "day": "2025-02-10",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "UNRESOLVED_MARKOUT",
+    "aligned_status": "UNRESOLVED_MARKOUT",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-02-10T07:30:00+00:00",
+    "day": "2025-02-10",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "UNRESOLVED_MARKOUT",
+    "aligned_status": "UNRESOLVED_MARKOUT",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-02-10T17:45:00+00:00",
+    "day": "2025-02-10",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.01980758347483247
+  },
+  {
+    "case_id": "EURUSD_2025-02-10T17:45:00+00:00",
+    "day": "2025-02-10",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.01810979060556117
+  },
+  {
+    "case_id": "EURUSD_2025-02-10T17:45:00+00:00",
+    "day": "2025-02-10",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.01528013582343657
+  },
+  {
+    "case_id": "EURUSD_2025-02-24T11:00:00+00:00",
+    "day": "2025-02-24",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.009319899244348895
+  },
+  {
+    "case_id": "EURUSD_2025-02-24T11:00:00+00:00",
+    "day": "2025-02-24",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.009603274559208064
+  },
+  {
+    "case_id": "EURUSD_2025-02-24T11:00:00+00:00",
+    "day": "2025-02-24",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.002896725440875214
+  },
+  {
+    "case_id": "EURUSD_2025-03-06T10:00:00+00:00",
+    "day": "2025-03-06",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0013492545368776754
+  },
+  {
+    "case_id": "EURUSD_2025-03-06T10:00:00+00:00",
+    "day": "2025-03-06",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0012480604466118539
+  },
+  {
+    "case_id": "EURUSD_2025-03-06T10:00:00+00:00",
+    "day": "2025-03-06",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0011468663563454218
+  },
+  {
+    "case_id": "EURUSD_2025-04-08T16:45:00+00:00",
+    "day": "2025-04-08",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-04-08T16:45:00+00:00",
+    "day": "2025-04-08",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-04-08T16:45:00+00:00",
+    "day": "2025-04-08",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-04-18T07:45:00+00:00",
+    "day": "2025-04-18",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-04-18T07:45:00+00:00",
+    "day": "2025-04-18",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-04-18T07:45:00+00:00",
+    "day": "2025-04-18",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-06-09T14:15:00+00:00",
+    "day": "2025-06-09",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.01925770308135588
+  },
+  {
+    "case_id": "EURUSD_2025-06-09T14:15:00+00:00",
+    "day": "2025-06-09",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.019047619047741104
+  },
+  {
+    "case_id": "EURUSD_2025-06-09T14:15:00+00:00",
+    "day": "2025-06-09",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.019117647058946474
+  },
+  {
+    "case_id": "EURUSD_2025-06-30T09:00:00+00:00",
+    "day": "2025-06-30",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0
+  },
+  {
+    "case_id": "EURUSD_2025-06-30T09:00:00+00:00",
+    "day": "2025-06-30",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0
+  },
+  {
+    "case_id": "EURUSD_2025-06-30T09:00:00+00:00",
+    "day": "2025-06-30",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0
+  },
+  {
+    "case_id": "EURUSD_2025-06-30T11:00:00+00:00",
+    "day": "2025-06-30",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.013157894736804954
+  },
+  {
+    "case_id": "EURUSD_2025-06-30T11:00:00+00:00",
+    "day": "2025-06-30",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.013993316624859364
+  },
+  {
+    "case_id": "EURUSD_2025-06-30T11:00:00+00:00",
+    "day": "2025-06-30",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.04824561403508576
+  },
+  {
+    "case_id": "EURUSD_2025-06-30T14:30:00+00:00",
+    "day": "2025-06-30",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-06-30T14:30:00+00:00",
+    "day": "2025-06-30",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-06-30T14:30:00+00:00",
+    "day": "2025-06-30",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-07-02T15:15:00+00:00",
+    "day": "2025-07-02",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-07-02T15:15:00+00:00",
+    "day": "2025-07-02",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-07-02T15:15:00+00:00",
+    "day": "2025-07-02",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "EURUSD_2025-07-22T08:45:00+00:00",
+    "day": "2025-07-22",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.006665116639548718
+  },
+  {
+    "case_id": "EURUSD_2025-07-22T08:45:00+00:00",
+    "day": "2025-07-22",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.006897620708370189
+  },
+  {
+    "case_id": "EURUSD_2025-07-22T08:45:00+00:00",
+    "day": "2025-07-22",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0038750678136906247
+  },
+  {
+    "case_id": "EURUSD_2025-11-06T08:45:00+00:00",
+    "day": "2025-11-06",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0028923468503186944
+  },
+  {
+    "case_id": "EURUSD_2025-11-06T08:45:00+00:00",
+    "day": "2025-11-06",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.003239428472356698
+  },
+  {
+    "case_id": "EURUSD_2025-11-06T08:45:00+00:00",
+    "day": "2025-11-06",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0038178978424213694
+  },
+  {
+    "case_id": "GBPUSD_2025-01-15T09:15:00+00:00",
+    "day": "2025-01-15",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.021987264207975254
+  },
+  {
+    "case_id": "GBPUSD_2025-01-15T09:15:00+00:00",
+    "day": "2025-01-15",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.022347711162204575
+  },
+  {
+    "case_id": "GBPUSD_2025-01-15T09:15:00+00:00",
+    "day": "2025-01-15",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.022948456085921
+  },
+  {
+    "case_id": "GBPUSD_2025-02-10T14:15:00+00:00",
+    "day": "2025-02-10",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.005143922669702872
+  },
+  {
+    "case_id": "GBPUSD_2025-02-10T14:15:00+00:00",
+    "day": "2025-02-10",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.004886726536217689
+  },
+  {
+    "case_id": "GBPUSD_2025-02-10T14:15:00+00:00",
+    "day": "2025-02-10",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.004458066313741682
+  },
+  {
+    "case_id": "GBPUSD_2025-02-19T15:00:00+00:00",
+    "day": "2025-02-19",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.014079273327807229
+  },
+  {
+    "case_id": "GBPUSD_2025-02-19T15:00:00+00:00",
+    "day": "2025-02-19",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.014574731626734394
+  },
+  {
+    "case_id": "GBPUSD_2025-02-19T15:00:00+00:00",
+    "day": "2025-02-19",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.002683732452638976
+  },
+  {
+    "case_id": "GBPUSD_2025-03-12T07:45:00+00:00",
+    "day": "2025-03-12",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.00412360371658127
+  },
+  {
+    "case_id": "GBPUSD_2025-03-12T07:45:00+00:00",
+    "day": "2025-03-12",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.003967011170382007
+  },
+  {
+    "case_id": "GBPUSD_2025-03-12T07:45:00+00:00",
+    "day": "2025-03-12",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.003967011170382007
+  },
+  {
+    "case_id": "GBPUSD_2025-03-14T08:15:00+00:00",
+    "day": "2025-03-14",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.004678362573129591
+  },
+  {
+    "case_id": "GBPUSD_2025-03-14T08:15:00+00:00",
+    "day": "2025-03-14",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.004511278195517887
+  },
+  {
+    "case_id": "GBPUSD_2025-03-14T08:15:00+00:00",
+    "day": "2025-03-14",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.004566972988055529
+  },
+  {
+    "case_id": "GBPUSD_2025-03-20T15:30:00+00:00",
+    "day": "2025-03-20",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0005494823298415052
+  },
+  {
+    "case_id": "GBPUSD_2025-03-20T15:30:00+00:00",
+    "day": "2025-03-20",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0004627219619718348
+  },
+  {
+    "case_id": "GBPUSD_2025-03-20T15:30:00+00:00",
+    "day": "2025-03-20",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0004627219619718348
+  },
+  {
+    "case_id": "GBPUSD_2025-05-07T09:45:00+00:00",
+    "day": "2025-05-07",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.014573346117128905
+  },
+  {
+    "case_id": "GBPUSD_2025-05-07T09:45:00+00:00",
+    "day": "2025-05-07",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.014381591562955709
+  },
+  {
+    "case_id": "GBPUSD_2025-05-07T09:45:00+00:00",
+    "day": "2025-05-07",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.014381591562955709
+  },
+  {
+    "case_id": "GBPUSD_2025-05-07T10:15:00+00:00",
+    "day": "2025-05-07",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-05-07T10:15:00+00:00",
+    "day": "2025-05-07",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-05-07T10:15:00+00:00",
+    "day": "2025-05-07",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-05-22T08:00:00+00:00",
+    "day": "2025-05-22",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0086842188143188
+  },
+  {
+    "case_id": "GBPUSD_2025-05-22T08:00:00+00:00",
+    "day": "2025-05-22",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.008873177337928695
+  },
+  {
+    "case_id": "GBPUSD_2025-05-22T08:00:00+00:00",
+    "day": "2025-05-22",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.008873177337928695
+  },
+  {
+    "case_id": "GBPUSD_2025-05-27T11:15:00+00:00",
+    "day": "2025-05-27",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0
+  },
+  {
+    "case_id": "GBPUSD_2025-05-27T11:15:00+00:00",
+    "day": "2025-05-27",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0
+  },
+  {
+    "case_id": "GBPUSD_2025-05-27T11:15:00+00:00",
+    "day": "2025-05-27",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0
+  },
+  {
+    "case_id": "GBPUSD_2025-06-13T11:45:00+00:00",
+    "day": "2025-06-13",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0019478573569206015
+  },
+  {
+    "case_id": "GBPUSD_2025-06-13T11:45:00+00:00",
+    "day": "2025-06-13",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0017980221756190573
+  },
+  {
+    "case_id": "GBPUSD_2025-06-13T11:45:00+00:00",
+    "day": "2025-06-13",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.004145440016009694
+  },
+  {
+    "case_id": "GBPUSD_2025-06-30T11:30:00+00:00",
+    "day": "2025-06-30",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "UNRESOLVED_MARKOUT",
+    "aligned_status": "UNRESOLVED_MARKOUT",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-06-30T11:30:00+00:00",
+    "day": "2025-06-30",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.01669892854190591
+  },
+  {
+    "case_id": "GBPUSD_2025-06-30T11:30:00+00:00",
+    "day": "2025-06-30",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0167943509907178
+  },
+  {
+    "case_id": "GBPUSD_2025-07-02T11:15:00+00:00",
+    "day": "2025-07-02",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.10774014475633997
+  },
+  {
+    "case_id": "GBPUSD_2025-07-02T11:15:00+00:00",
+    "day": "2025-07-02",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.06845970065547835
+  },
+  {
+    "case_id": "GBPUSD_2025-07-02T11:15:00+00:00",
+    "day": "2025-07-02",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.09477549012903985
+  },
+  {
+    "case_id": "GBPUSD_2025-07-30T11:15:00+00:00",
+    "day": "2025-07-30",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.017352742697664292
+  },
+  {
+    "case_id": "GBPUSD_2025-07-30T11:15:00+00:00",
+    "day": "2025-07-30",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.016051286995339087
+  },
+  {
+    "case_id": "GBPUSD_2025-07-30T11:15:00+00:00",
+    "day": "2025-07-30",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.013882194158125971
+  },
+  {
+    "case_id": "GBPUSD_2025-09-11T13:15:00+00:00",
+    "day": "2025-09-11",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-09-11T13:15:00+00:00",
+    "day": "2025-09-11",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-09-11T13:15:00+00:00",
+    "day": "2025-09-11",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-09-30T09:15:00+00:00",
+    "day": "2025-09-30",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.008079901245698018
+  },
+  {
+    "case_id": "GBPUSD_2025-09-30T09:15:00+00:00",
+    "day": "2025-09-30",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.00763101784315845
+  },
+  {
+    "case_id": "GBPUSD_2025-09-30T09:15:00+00:00",
+    "day": "2025-09-30",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.00740657614189022
+  },
+  {
+    "case_id": "GBPUSD_2025-09-30T10:30:00+00:00",
+    "day": "2025-09-30",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.024393090569370557
+  },
+  {
+    "case_id": "GBPUSD_2025-09-30T10:30:00+00:00",
+    "day": "2025-09-30",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.023984593837347745
+  },
+  {
+    "case_id": "GBPUSD_2025-09-30T10:30:00+00:00",
+    "day": "2025-09-30",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.023576097105324934
+  },
+  {
+    "case_id": "GBPUSD_2025-10-08T09:00:00+00:00",
+    "day": "2025-10-08",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "UNRESOLVED_MARKOUT",
+    "aligned_status": "UNRESOLVED_MARKOUT",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-10-08T09:00:00+00:00",
+    "day": "2025-10-08",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "UNRESOLVED_MARKOUT",
+    "aligned_status": "UNRESOLVED_MARKOUT",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-10-08T09:00:00+00:00",
+    "day": "2025-10-08",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "UNRESOLVED_MARKOUT",
+    "aligned_status": "UNRESOLVED_MARKOUT",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-10-23T10:00:00+00:00",
+    "day": "2025-10-23",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "UNRESOLVED_MARKOUT",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-10-23T10:00:00+00:00",
+    "day": "2025-10-23",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "UNRESOLVED_MARKOUT",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-10-23T10:00:00+00:00",
+    "day": "2025-10-23",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "UNRESOLVED_MARKOUT",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-11-03T08:00:00+00:00",
+    "day": "2025-11-03",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-11-03T08:00:00+00:00",
+    "day": "2025-11-03",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-11-03T08:00:00+00:00",
+    "day": "2025-11-03",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "GBPUSD_2025-11-03T13:30:00+00:00",
+    "day": "2025-11-03",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.00512265512260468
+  },
+  {
+    "case_id": "GBPUSD_2025-11-03T13:30:00+00:00",
+    "day": "2025-11-03",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.005375180375129407
+  },
+  {
+    "case_id": "GBPUSD_2025-11-03T13:30:00+00:00",
+    "day": "2025-11-03",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.005627705627653912
+  },
+  {
+    "case_id": "GBPUSD_2025-11-05T11:00:00+00:00",
+    "day": "2025-11-05",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.019444044361069723
+  },
+  {
+    "case_id": "GBPUSD_2025-11-05T11:00:00+00:00",
+    "day": "2025-11-05",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.020308224110451967
+  },
+  {
+    "case_id": "GBPUSD_2025-11-05T11:00:00+00:00",
+    "day": "2025-11-05",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.020740313985140535
+  },
+  {
+    "case_id": "XAUUSD_2025-01-23T15:45:00+00:00",
+    "day": "2025-01-23",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0029791396524159186
+  },
+  {
+    "case_id": "XAUUSD_2025-01-23T15:45:00+00:00",
+    "day": "2025-01-23",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0029555705095962725
+  },
+  {
+    "case_id": "XAUUSD_2025-01-23T15:45:00+00:00",
+    "day": "2025-01-23",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0029555705095962725
+  },
+  {
+    "case_id": "XAUUSD_2025-01-28T09:00:00+00:00",
+    "day": "2025-01-28",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-01-28T09:00:00+00:00",
+    "day": "2025-01-28",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-01-28T09:00:00+00:00",
+    "day": "2025-01-28",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-01-31T11:30:00+00:00",
+    "day": "2025-01-31",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-01-31T11:30:00+00:00",
+    "day": "2025-01-31",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-01-31T11:30:00+00:00",
+    "day": "2025-01-31",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-02-04T08:30:00+00:00",
+    "day": "2025-02-04",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -7.963843292135842e-05
+  },
+  {
+    "case_id": "XAUUSD_2025-02-04T08:30:00+00:00",
+    "day": "2025-02-04",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -8.232892051995844e-05
+  },
+  {
+    "case_id": "XAUUSD_2025-02-04T08:30:00+00:00",
+    "day": "2025-02-04",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -8.232892051995844e-05
+  },
+  {
+    "case_id": "XAUUSD_2025-03-06T10:30:00+00:00",
+    "day": "2025-03-06",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-03-06T10:30:00+00:00",
+    "day": "2025-03-06",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-03-06T10:30:00+00:00",
+    "day": "2025-03-06",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-03-12T08:00:00+00:00",
+    "day": "2025-03-12",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-03-12T08:00:00+00:00",
+    "day": "2025-03-12",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-03-12T08:00:00+00:00",
+    "day": "2025-03-12",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-03-14T08:00:00+00:00",
+    "day": "2025-03-14",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-03-14T08:00:00+00:00",
+    "day": "2025-03-14",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-03-14T08:00:00+00:00",
+    "day": "2025-03-14",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-03-24T08:45:00+00:00",
+    "day": "2025-03-24",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0021058458993927776
+  },
+  {
+    "case_id": "XAUUSD_2025-03-24T08:45:00+00:00",
+    "day": "2025-03-24",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.002146136318386116
+  },
+  {
+    "case_id": "XAUUSD_2025-03-24T08:45:00+00:00",
+    "day": "2025-03-24",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.002146136318386116
+  },
+  {
+    "case_id": "XAUUSD_2025-04-23T07:45:00+00:00",
+    "day": "2025-04-23",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0016102658470473763
+  },
+  {
+    "case_id": "XAUUSD_2025-04-23T07:45:00+00:00",
+    "day": "2025-04-23",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0015858712195677693
+  },
+  {
+    "case_id": "XAUUSD_2025-04-23T07:45:00+00:00",
+    "day": "2025-04-23",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0015858712195677693
+  },
+  {
+    "case_id": "XAUUSD_2025-05-08T13:45:00+00:00",
+    "day": "2025-05-08",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.000538791843038261
+  },
+  {
+    "case_id": "XAUUSD_2025-05-08T13:45:00+00:00",
+    "day": "2025-05-08",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0005300193293118205
+  },
+  {
+    "case_id": "XAUUSD_2025-05-08T13:45:00+00:00",
+    "day": "2025-05-08",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0005300193293118205
+  },
+  {
+    "case_id": "XAUUSD_2025-06-03T08:15:00+00:00",
+    "day": "2025-06-03",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0001515191605455657
+  },
+  {
+    "case_id": "XAUUSD_2025-06-03T08:15:00+00:00",
+    "day": "2025-06-03",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.00011692772365229365
+  },
+  {
+    "case_id": "XAUUSD_2025-06-03T08:15:00+00:00",
+    "day": "2025-06-03",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.00011692772365229365
+  },
+  {
+    "case_id": "XAUUSD_2025-06-05T17:00:00+00:00",
+    "day": "2025-06-05",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "UNRESOLVED_COVERAGE",
+    "aligned_status": "UNRESOLVED_COVERAGE",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-06-05T17:00:00+00:00",
+    "day": "2025-06-05",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "UNRESOLVED_COVERAGE",
+    "aligned_status": "UNRESOLVED_COVERAGE",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-06-05T17:00:00+00:00",
+    "day": "2025-06-05",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "UNRESOLVED_COVERAGE",
+    "aligned_status": "UNRESOLVED_COVERAGE",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-06-06T08:30:00+00:00",
+    "day": "2025-06-06",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 9.354877269326933e-05
+  },
+  {
+    "case_id": "XAUUSD_2025-06-06T08:30:00+00:00",
+    "day": "2025-06-06",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 1.4725269775838976e-05
+  },
+  {
+    "case_id": "XAUUSD_2025-06-06T08:30:00+00:00",
+    "day": "2025-06-06",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 1.4725269775838976e-05
+  },
+  {
+    "case_id": "XAUUSD_2025-06-17T10:15:00+00:00",
+    "day": "2025-06-17",
+    "period": "DEVELOPMENT",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0007025414568174702
+  },
+  {
+    "case_id": "XAUUSD_2025-06-17T10:15:00+00:00",
+    "day": "2025-06-17",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0007382730798444065
+  },
+  {
+    "case_id": "XAUUSD_2025-06-17T10:15:00+00:00",
+    "day": "2025-06-17",
+    "period": "DEVELOPMENT",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0007382730798444065
+  },
+  {
+    "case_id": "XAUUSD_2025-07-02T08:00:00+00:00",
+    "day": "2025-07-02",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-07-02T08:00:00+00:00",
+    "day": "2025-07-02",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-07-02T08:00:00+00:00",
+    "day": "2025-07-02",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-07-14T07:00:00+00:00",
+    "day": "2025-07-14",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-07-14T07:00:00+00:00",
+    "day": "2025-07-14",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-07-14T07:00:00+00:00",
+    "day": "2025-07-14",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-07-16T15:00:00+00:00",
+    "day": "2025-07-16",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-07-16T15:00:00+00:00",
+    "day": "2025-07-16",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-07-16T15:00:00+00:00",
+    "day": "2025-07-16",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-08-25T11:45:00+00:00",
+    "day": "2025-08-25",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0002903612371785158
+  },
+  {
+    "case_id": "XAUUSD_2025-08-25T11:45:00+00:00",
+    "day": "2025-08-25",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0008999284485479986
+  },
+  {
+    "case_id": "XAUUSD_2025-08-25T11:45:00+00:00",
+    "day": "2025-08-25",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": -0.0008999284485479986
+  },
+  {
+    "case_id": "XAUUSD_2025-09-17T14:15:00+00:00",
+    "day": "2025-09-17",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0
+  },
+  {
+    "case_id": "XAUUSD_2025-09-17T14:15:00+00:00",
+    "day": "2025-09-17",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0
+  },
+  {
+    "case_id": "XAUUSD_2025-09-17T14:15:00+00:00",
+    "day": "2025-09-17",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "FILLED_MARKOUT",
+    "aligned_status": "FILLED_MARKOUT",
+    "paired_conditional_delta_r": 0.0
+  },
+  {
+    "case_id": "XAUUSD_2025-10-14T07:30:00+00:00",
+    "day": "2025-10-14",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-10-14T07:30:00+00:00",
+    "day": "2025-10-14",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-10-14T07:30:00+00:00",
+    "day": "2025-10-14",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-10-17T17:45:00+00:00",
+    "day": "2025-10-17",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "UNRESOLVED_COVERAGE",
+    "aligned_status": "UNRESOLVED_COVERAGE",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-10-17T17:45:00+00:00",
+    "day": "2025-10-17",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "UNRESOLVED_COVERAGE",
+    "aligned_status": "UNRESOLVED_COVERAGE",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-10-17T17:45:00+00:00",
+    "day": "2025-10-17",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "UNRESOLVED_COVERAGE",
+    "aligned_status": "UNRESOLVED_COVERAGE",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-10-20T07:15:00+00:00",
+    "day": "2025-10-20",
+    "period": "VALIDATION",
+    "scenario": "OBSERVED",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-10-20T07:15:00+00:00",
+    "day": "2025-10-20",
+    "period": "VALIDATION",
+    "scenario": "STRESS_1_5X",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  },
+  {
+    "case_id": "XAUUSD_2025-10-20T07:15:00+00:00",
+    "day": "2025-10-20",
+    "period": "VALIDATION",
+    "scenario": "STRESS_FLOOR",
+    "nominal_status": "NO_FILL",
+    "aligned_status": "NO_FILL",
+    "paired_conditional_delta_r": null
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "records": 342,
+  "setups": 57,
+  "models": 2,
+  "scenarios": 3,
+  "old_resolved_parity_checked": 84,
+  "old_resolved_parity_matched": 84,
+  "quote_files_verified": 51,
+  "live_changed": false
+}

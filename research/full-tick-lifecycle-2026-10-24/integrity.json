@@ -1,0 +1,16 @@
+{
+  "status": "PASSED",
+  "rows": 540,
+  "observed_tick_fill_parity": 90,
+  "retained_ttl_lifecycles_identical": 171,
+  "checks": [
+    "fee ledger",
+    "entry/exit quantity conservation",
+    "net=gross-fee",
+    "unfilled no fees",
+    "observed fill audit parity",
+    "retained TTL lifecycle equality"
+  ],
+  "outcome_sha256": "d51b33f184c288edfbaff7d3dce846ef81a35fdb8040dc56cf1bb55464ab4eed",
+  "audit_source_sha256": "bdb54710b8407d855638a20ca4e3647b6430d58846292e1ad0d8fdba08e709e6"
+}

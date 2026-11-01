@@ -1,0 +1,9 @@
+{
+  "aligned_signal_proposals.json": "ad28668668d61dee71c4a28f7003e5fdbe30e514574c03f70813aa98bc28a500",
+  "integrity.json": "809ca8f3b54a9a1adda2fcc703d4e50df127233ac1ef3f4254597f877c682da0",
+  "prepare.py": "21886f7e4d7f65758106102286a25ed160eb54ddb4ea763f9f5f81bbcb5cb217",
+  "price_grid.py": "c94d7ab4e3ffe03223029f41bf6aae077418611594a8fb60aa6472a3ce347b48",
+  "protocol.json": "96b14fd7bbbdb25ab025583977b2656bf605b8d7601c293f11c7614457d390f6",
+  "REPORT.md": "ff397bae8988e0392e99bdb496e321c737e50c39ae182b8170b423e8940e6ec1",
+  "test_price_grid.py": "ffcad7a6d467c64e1a94fbf3602d7d81998787121beab428c944d63df1417cfd"
+}

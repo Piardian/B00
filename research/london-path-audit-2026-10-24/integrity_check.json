@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "source_files": 10,
+  "tapes": 701,
+  "closed_rows_parity": 1402,
+  "all_sources_and_tapes_rehashed_after": true
+}

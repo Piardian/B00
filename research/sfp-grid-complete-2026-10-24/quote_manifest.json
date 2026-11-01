@@ -1,0 +1,1275 @@
+{
+  "files": {
+    "EURUSD_2025-02-10": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\EURUSD_2025-02-10.parquet",
+      "sha256": "766f4e3828724ac06408e4358ac71aa8a560b827bbc6221a4334da4fe722f592",
+      "raw_numpy_sha256": "5c9fb188ca29834e8bccb546efec238d6b2e6b6cbf50185fe1974fcd9dfb5452",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 81002,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 80998,
+      "first": "2025-02-10 07:30:00.039000+00:00",
+      "last": "2025-02-10 22:45:04.101000+00:00",
+      "requested_start": "2025-02-10 07:30:00+00:00",
+      "requested_end": "2025-02-10 22:45:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 61,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 600.02,
+      "median_spread": 0.0
+    },
+    "EURUSD_2025-02-24": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\EURUSD_2025-02-24.parquet",
+      "sha256": "d96de482efbccc4d5993940e98aa8cfe7c6c3fd4fab33778c28b3dad4b1e5200",
+      "raw_numpy_sha256": "c2573cd846cebeb78d19e9651b0039558a090351a66d83d75de3687d2175c35e",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 36497,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 36474,
+      "first": "2025-02-24 11:00:00.145000+00:00",
+      "last": "2025-02-24 16:00:04.758000+00:00",
+      "requested_start": "2025-02-24 11:00:00+00:00",
+      "requested_end": "2025-02-24 16:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 24.747,
+      "median_spread": 0.0
+    },
+    "EURUSD_2025-03-06": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\tapes\\EURUSD_2025-03-06.parquet",
+      "sha256": "3392dde82379e96c24baef4734338ea2c94f58d74f972b123e6ac76dd4ee613c",
+      "raw_numpy_sha256": "b819522874da240780c5ea049ada66f0933e997c6c02f72838e5d0f7d3688761",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 154721,
+      "first": "2025-03-06 08:00:00.035000+00:00",
+      "last": "2025-03-06 16:00:04.994000+00:00",
+      "requested_start": "2025-03-06 10:00:00+00:00",
+      "requested_end": "2025-03-06 15:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 14.296,
+      "median_spread": 9.999999999843467e-06
+    },
+    "EURUSD_2025-04-08": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\EURUSD_2025-04-08.parquet",
+      "sha256": "4573402678709d22709dee5a820bd421b2a853dd11be7349937c0b8302ec3ac6",
+      "raw_numpy_sha256": "d1c016c3e5c4fb57df3978b807d633a02196c7549ef71f8554be2af4d41c3454",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 67470,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 67468,
+      "first": "2025-04-08 16:45:00.030000+00:00",
+      "last": "2025-04-08 21:45:04.766000+00:00",
+      "requested_start": "2025-04-08 16:45:00+00:00",
+      "requested_end": "2025-04-08 21:45:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 600.41,
+      "median_spread": 9.999999999843467e-06
+    },
+    "EURUSD_2025-04-18": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-extension-2026-10-24\\tapes\\EURUSD_2025-04-18.parquet",
+      "sha256": "d69f32c496cdf8f8a813c51d6897ebb964720989c2eec12881c59335e64d535e",
+      "raw_numpy_sha256": "0937a79328a91baf10f8d490ab8dc32ad73213bd3b355130f69d83262ebefebb",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 144743,
+      "first": "2025-04-18 07:00:00.007000+00:00",
+      "last": "2025-04-18 15:00:04.968000+00:00",
+      "requested_start": "2025-04-18 07:45:00+00:00",
+      "requested_end": "2025-04-18 12:45:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 48.69,
+      "median_spread": 0.000180000000000069
+    },
+    "EURUSD_2025-06-09": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\EURUSD_2025-06-09.parquet",
+      "sha256": "c4f13c3a6014616236d94f654106576d86cef6263794c1aa82cea47223d3bca8",
+      "raw_numpy_sha256": "dd29fe057855551baed56e723d3ec42f5d9a5db80edb7cad5058c8f6ade48616",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 24230,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 24224,
+      "first": "2025-06-09 14:15:00.098000+00:00",
+      "last": "2025-06-09 19:15:03.183000+00:00",
+      "requested_start": "2025-06-09 14:15:00+00:00",
+      "requested_end": "2025-06-09 19:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 31.55,
+      "median_spread": 0.0
+    },
+    "EURUSD_2025-06-30": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\EURUSD_2025-06-30.parquet",
+      "sha256": "7941242001435e284ba33270dc2ba85fc2509c6cdad08887eb95243205acc1ff",
+      "raw_numpy_sha256": "06497ea6a0a09e91e3b786c6af967e66a6d224229a3583d078956de7e0f8099c",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 88666,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 88659,
+      "first": "2025-06-30 09:00:00.014000+00:00",
+      "last": "2025-06-30 19:30:04.425000+00:00",
+      "requested_start": "2025-06-30 09:00:00+00:00",
+      "requested_end": "2025-06-30 19:30:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 42,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 20.407,
+      "median_spread": 0.0
+    },
+    "EURUSD_2025-07-02": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\EURUSD_2025-07-02.parquet",
+      "sha256": "e0de90b8ade96171d7b0297d23ef1c797b8889ea9bbab8f6d4b28d2db5d2d6ec",
+      "raw_numpy_sha256": "b7a8f783f2950be9ac988ccf1cded90cb301fde1c61408831621caedf28d8231",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 29293,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 29291,
+      "first": "2025-07-02 15:15:00.039000+00:00",
+      "last": "2025-07-02 20:14:56.140000+00:00",
+      "requested_start": "2025-07-02 15:15:00+00:00",
+      "requested_end": "2025-07-02 20:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 19.464,
+      "median_spread": 0.0
+    },
+    "EURUSD_2025-07-22": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\EURUSD_2025-07-22.parquet",
+      "sha256": "8854af7e65be665af4d1db25a4f06aff96a3de1ac6f9db55cac0ad3e6765bb2a",
+      "raw_numpy_sha256": "4e5af845e0b42cc288b0855f092704d7d0b257096e472dc4b9104cd981fef6f4",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 33244,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 33221,
+      "first": "2025-07-22 08:45:00.075000+00:00",
+      "last": "2025-07-22 13:45:03.954000+00:00",
+      "requested_start": "2025-07-22 08:45:00+00:00",
+      "requested_end": "2025-07-22 13:45:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 19.512,
+      "median_spread": 0.0
+    },
+    "EURUSD_2025-11-06": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\EURUSD_2025-11-06.parquet",
+      "sha256": "a5afeb72aa6589ae00662f5f3b41b34fa6a72b7efefd92f3f7b5fef96aee9177",
+      "raw_numpy_sha256": "2672c5c3d843c905bc17b24cad0ad855d960f35b2ce98e6721e84b36242ae451",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 25262,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 25246,
+      "first": "2025-11-06 08:45:01.442000+00:00",
+      "last": "2025-11-06 13:45:03.390000+00:00",
+      "requested_start": "2025-11-06 08:45:00+00:00",
+      "requested_end": "2025-11-06 13:45:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 2.220446049250313e-16
+      },
+      "max_gap_seconds": 31.659,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-01-15": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-01-15.parquet",
+      "sha256": "a7d8224eefe44328afb7233ade885356e15a1932e9c7e10104db36683ce7d5a2",
+      "raw_numpy_sha256": "e855137f58df9c5bd7e3b625a76483725f7a5c594eb809d21740e33f14ca6583",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 71615,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 71593,
+      "first": "2025-01-15 09:15:00.710000+00:00",
+      "last": "2025-01-15 14:15:04.996000+00:00",
+      "requested_start": "2025-01-15 09:15:00+00:00",
+      "requested_end": "2025-01-15 14:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 18.221,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-02-10": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-02-10.parquet",
+      "sha256": "f8e88667842bce590860492bd09675da4e4c3d70ca170f5a8d723c9228cdd17b",
+      "raw_numpy_sha256": "3c08d6d1a0523ae880169730bc7b8d9d5ff69bb92fb3e06d774adb224663fa7b",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 31663,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 31655,
+      "first": "2025-02-10 14:15:00.346000+00:00",
+      "last": "2025-02-10 19:15:00.764000+00:00",
+      "requested_start": "2025-02-10 14:15:00+00:00",
+      "requested_end": "2025-02-10 19:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 30.501,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-02-19": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-02-19.parquet",
+      "sha256": "c53d6cde842b67b57c6e4f434eda13829ee98fb0128caf5b1928676951ec0fd4",
+      "raw_numpy_sha256": "33ef701d51ff8afc89a375da4a68b5e8e9530db9a965fb2d519e91e4c9714676",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 37804,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 37783,
+      "first": "2025-02-19 15:00:00.045000+00:00",
+      "last": "2025-02-19 20:00:04.014000+00:00",
+      "requested_start": "2025-02-19 15:00:00+00:00",
+      "requested_end": "2025-02-19 20:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 20.239,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-03-12": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-03-12.parquet",
+      "sha256": "b2834dac7a067060315cacc14a9156229cbc9bb1658af31a278e9ede1e8eea71",
+      "raw_numpy_sha256": "5ce6b7187db94e95ca8c7eeae0b86743077ee347231298908779e6f922c45ad4",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 71906,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 71875,
+      "first": "2025-03-12 07:45:00.129000+00:00",
+      "last": "2025-03-12 12:45:04.765000+00:00",
+      "requested_start": "2025-03-12 07:45:00+00:00",
+      "requested_end": "2025-03-12 12:45:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 22.055,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-03-14": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\tapes\\GBPUSD_2025-03-14.parquet",
+      "sha256": "dc2e41e8381e80465c616d4414b1c1589e2ccc8156e04343b5e75af74ff85839",
+      "raw_numpy_sha256": "08c01f5d182c6064493cc92a329bd2d89552ab1124e9fe96237ef4798379dafd",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 99696,
+      "first": "2025-03-14 08:00:00.064000+00:00",
+      "last": "2025-03-14 16:00:04.942000+00:00",
+      "requested_start": "2025-03-14 08:15:00+00:00",
+      "requested_end": "2025-03-14 13:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 16.993,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-03-20": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-03-20.parquet",
+      "sha256": "5d8c3b4afd5ea50eaa0dc1e6bba966d9cb4f5aee4880bdfdd59a9a0a246bfe7c",
+      "raw_numpy_sha256": "f90d62e5f5140e213b11e4506a4e14225f98711f511b144ba5762ad7ecac6f54",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 24703,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 24700,
+      "first": "2025-03-20 15:30:00.071000+00:00",
+      "last": "2025-03-20 20:30:02.792000+00:00",
+      "requested_start": "2025-03-20 15:30:00+00:00",
+      "requested_end": "2025-03-20 20:30:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 30.192,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-05-07": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-05-07.parquet",
+      "sha256": "d607ee3c40f5d2dc6a1f51700cfcc914235d65fe24cb10e59b1fe4ed78009017",
+      "raw_numpy_sha256": "39e9538eeac1b52f542faef25138b7cc19aabbba5e1efe341f8be59cf2585825",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 37952,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 37944,
+      "first": "2025-05-07 09:45:00.122000+00:00",
+      "last": "2025-05-07 15:15:01.587000+00:00",
+      "requested_start": "2025-05-07 09:45:00+00:00",
+      "requested_end": "2025-05-07 15:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 22,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 29.216,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-05-22": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-extension-2026-10-24\\tapes\\GBPUSD_2025-05-22.parquet",
+      "sha256": "ec40b5464e7506e74eb7689b03ee108ef9ec9606268b93006af4a76f17cb3bf3",
+      "raw_numpy_sha256": "9f526fa36a528e68120222b8de757620e6288ff6959f6f2b0bf75a9f548bae7c",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 77260,
+      "first": "2025-05-22 07:00:00.025000+00:00",
+      "last": "2025-05-22 15:00:03.592000+00:00",
+      "requested_start": "2025-05-22 08:00:00+00:00",
+      "requested_end": "2025-05-22 13:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 24.35,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-05-27": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-05-27.parquet",
+      "sha256": "30d0e8c545cc86e8d221017656f915136e4f7aed98c96e0a75c8fa835ebc3781",
+      "raw_numpy_sha256": "cbdf6bb139adc13dc1fd5ba7a7d2d430b1ddd4ece15651e158f6b230b97dffe2",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 44427,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 44405,
+      "first": "2025-05-27 11:15:00.110000+00:00",
+      "last": "2025-05-27 16:15:04.988000+00:00",
+      "requested_start": "2025-05-27 11:15:00+00:00",
+      "requested_end": "2025-05-27 16:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 16.5,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-06-13": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-06-13.parquet",
+      "sha256": "f71191abc02086a56c0e03feef88431594cfca4300691ce9bab005271a91a30a",
+      "raw_numpy_sha256": "010343db90659bbb3f08d597e8d1f16d6be9afabf223b3e9f19523a48fc39b9b",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 59737,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 59720,
+      "first": "2025-06-13 11:45:00.071000+00:00",
+      "last": "2025-06-13 16:45:03.137000+00:00",
+      "requested_start": "2025-06-13 11:45:00+00:00",
+      "requested_end": "2025-06-13 16:45:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 17.497,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-06-30": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-06-30.parquet",
+      "sha256": "f64e9fd2129ef9debc6e6b141713d43e6a049d8995efce32bea13b8d1a884fdd",
+      "raw_numpy_sha256": "7850013fa3608952ca6587ed566e0127253a6d36e2b6a294ca9ff045c8621511",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 52540,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 52536,
+      "first": "2025-06-30 11:30:00.010000+00:00",
+      "last": "2025-06-30 16:30:01.806000+00:00",
+      "requested_start": "2025-06-30 11:30:00+00:00",
+      "requested_end": "2025-06-30 16:30:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 22.572,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-07-02": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-07-02.parquet",
+      "sha256": "9c3d801657a659b81a739ea7c44d728ea974856b914a8c4a5a0360480d846e44",
+      "raw_numpy_sha256": "92dff987c5ada138310e44d742da8eed505da81b997b11ea52d0bc075aea7ba8",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 72854,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 72831,
+      "first": "2025-07-02 11:15:00.356000+00:00",
+      "last": "2025-07-02 16:15:04.889000+00:00",
+      "requested_start": "2025-07-02 11:15:00+00:00",
+      "requested_end": "2025-07-02 16:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 21.8,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-07-30": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-07-30.parquet",
+      "sha256": "23cb3f4c7fdd2bf45270c4707b2d1d212b16b99f0fa299e0d3655048dd6ded69",
+      "raw_numpy_sha256": "b7badee5358dac67a01f3288b58144e259aad37984cb736f68eb0f990a9d3480",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 55687,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 55680,
+      "first": "2025-07-30 11:15:01.282000+00:00",
+      "last": "2025-07-30 16:15:01.784000+00:00",
+      "requested_start": "2025-07-30 11:15:00+00:00",
+      "requested_end": "2025-07-30 16:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 14.759,
+      "median_spread": 0.0
+    },
+    "GBPUSD_2025-09-11": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-09-11.parquet",
+      "sha256": "c94c90864d8fad2f7fb015d9e18a6ddbeb3edcb443c6fe1ceb5fe5406a701fbe",
+      "raw_numpy_sha256": "4a79ceefde7f9b3addb204c27c1ce22a893d145f07b90b0a8a92f26504b4bf89",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 53987,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 53980,
+      "first": "2025-09-11 13:15:00.163000+00:00",
+      "last": "2025-09-11 18:15:04.564000+00:00",
+      "requested_start": "2025-09-11 13:15:00+00:00",
+      "requested_end": "2025-09-11 18:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 27.412,
+      "median_spread": 9.999999999843467e-06
+    },
+    "GBPUSD_2025-09-30": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-09-30.parquet",
+      "sha256": "b1de3d59fd0230dcb946793a6a2a078f66772932eaaf8f74d58b72c133384e3b",
+      "raw_numpy_sha256": "2c6f4e2fc9569aa66dd3ea6281d8ab7a53400e0f70a67f78b133df988908d0e3",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 67512,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 67475,
+      "first": "2025-09-30 09:15:00.401000+00:00",
+      "last": "2025-09-30 15:30:04.990000+00:00",
+      "requested_start": "2025-09-30 09:15:00+00:00",
+      "requested_end": "2025-09-30 15:30:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 25,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 16.253,
+      "median_spread": 9.999999999843467e-06
+    },
+    "GBPUSD_2025-10-08": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-extension-2026-10-24\\tapes\\GBPUSD_2025-10-08.parquet",
+      "sha256": "f7d4d30dfb8f173a2a62032a538896665686294f18a8df07f521131a79435010",
+      "raw_numpy_sha256": "d699ebae966ec672b9faa87c325d361bdd82b55b1b9be3dad12ade1a0ee75d6a",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 77751,
+      "first": "2025-10-08 07:00:00.105000+00:00",
+      "last": "2025-10-08 15:00:04.593000+00:00",
+      "requested_start": "2025-10-08 09:00:00+00:00",
+      "requested_end": "2025-10-08 14:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 22.722,
+      "median_spread": 9.999999999843467e-06
+    },
+    "GBPUSD_2025-10-23": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-10-23.parquet",
+      "sha256": "80ab0db62112033c2ea75138d12c46b7e4fe5dfc934c42003d799dd8f61f0243",
+      "raw_numpy_sha256": "3437ae9b5925cd0c1e490b69bd62d5c2fc90ba3f34574b2746a60ef78c819511",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 50288,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 50260,
+      "first": "2025-10-23 10:00:00.105000+00:00",
+      "last": "2025-10-23 15:00:04.702000+00:00",
+      "requested_start": "2025-10-23 10:00:00+00:00",
+      "requested_end": "2025-10-23 15:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 30.99,
+      "median_spread": 9.999999999843467e-06
+    },
+    "GBPUSD_2025-11-03": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-11-03.parquet",
+      "sha256": "11ba3d4fb4ce28489c44cc895b47cc433746a723eb3a3a31c708800e2dbfa882",
+      "raw_numpy_sha256": "cd3db0533f4d6dd7d61db7bba47c27c1587d26588e3353df012339a9608af52c",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 94603,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 94591,
+      "first": "2025-11-03 08:00:00.058000+00:00",
+      "last": "2025-11-03 18:30:04.483000+00:00",
+      "requested_start": "2025-11-03 08:00:00+00:00",
+      "requested_end": "2025-11-03 18:30:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 42,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 2.220446049250313e-16
+      },
+      "max_gap_seconds": 26.91,
+      "median_spread": 9.999999999843467e-06
+    },
+    "GBPUSD_2025-11-05": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\GBPUSD_2025-11-05.parquet",
+      "sha256": "234f5ef01e627d5b7288cef6a831543421ebea515b0ab04f8330df76076df1a9",
+      "raw_numpy_sha256": "a6780c9108ed45a85e4af516a4686bd7285465dcdd3a085f5476851091c627e5",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 54979,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 54954,
+      "first": "2025-11-05 11:00:00.129000+00:00",
+      "last": "2025-11-05 16:00:04.976000+00:00",
+      "requested_start": "2025-11-05 11:00:00+00:00",
+      "requested_end": "2025-11-05 16:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 2.220446049250313e-16
+      },
+      "max_gap_seconds": 29.522,
+      "median_spread": 9.999999999843467e-06
+    },
+    "XAUUSD_2025-01-23": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\XAUUSD_2025-01-23.parquet",
+      "sha256": "ccca140ae864a6d052893adb6798346feeb98238b3eabf69f7133d26d3a30689",
+      "raw_numpy_sha256": "136ba29b9956c841d982928db0135446bd75b54df364bc16ae0140409dc94985",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 199163,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 199102,
+      "first": "2025-01-23 15:45:00.036000+00:00",
+      "last": "2025-01-23 20:45:05+00:00",
+      "requested_start": "2025-01-23 15:45:00+00:00",
+      "requested_end": "2025-01-23 20:45:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 11.319,
+      "median_spread": 0.2300000000000182
+    },
+    "XAUUSD_2025-01-28": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\tapes\\XAUUSD_2025-01-28.parquet",
+      "sha256": "d4fd1f28973d985154d396a1ab21089517ba34ce39c7e835a1ddf26d909b6675",
+      "raw_numpy_sha256": "f169591c8cbdb3ddf7f0b709f41e09d0b59d31fc8173664338e2b98eee338cdd",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 347918,
+      "first": "2025-01-28 08:00:00.001000+00:00",
+      "last": "2025-01-28 16:00:04.607000+00:00",
+      "requested_start": "2025-01-28 09:00:00+00:00",
+      "requested_end": "2025-01-28 14:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 10.025,
+      "median_spread": 0.23999999999978172
+    },
+    "XAUUSD_2025-01-31": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\XAUUSD_2025-01-31.parquet",
+      "sha256": "b44e9e35c80827a0b6e009e30f71fb237d86cc0203bfa1443a162e796cc13fbd",
+      "raw_numpy_sha256": "d3cae40dc07c138a941c15c267955e829d3bbfe807326b1be7ebc6d8fb52feaa",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 330069,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 329970,
+      "first": "2025-01-31 11:30:00.031000+00:00",
+      "last": "2025-01-31 16:30:04.912000+00:00",
+      "requested_start": "2025-01-31 11:30:00+00:00",
+      "requested_end": "2025-01-31 16:30:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 5.078,
+      "median_spread": 0.25
+    },
+    "XAUUSD_2025-02-04": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\tapes\\XAUUSD_2025-02-04.parquet",
+      "sha256": "a0e13a7f8c6577e1d6ab9c2b5b9760fa96689d2d674d6414d6de56617be7a8cc",
+      "raw_numpy_sha256": "62c5a0446491cba6e8e9816d68fb5a9a4234d233c629d8ef07f36660c5a5a4d2",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 556947,
+      "first": "2025-02-04 08:00:00.034000+00:00",
+      "last": "2025-02-04 16:00:04.991000+00:00",
+      "requested_start": "2025-02-04 08:30:00+00:00",
+      "requested_end": "2025-02-04 13:30:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 5.838,
+      "median_spread": 0.25999999999976353
+    },
+    "XAUUSD_2025-03-06": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\tapes\\XAUUSD_2025-03-06.parquet",
+      "sha256": "ffe38983b10ff4fe7e53ed1787285a47a4accef7845f27f5dec786f20a08af6d",
+      "raw_numpy_sha256": "7322e04ff48f1f9e64b657d8d9f05f4dc434cba1263cd4c237d2a498e1f8f3d7",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 260683,
+      "first": "2025-03-06 08:00:00.037000+00:00",
+      "last": "2025-03-06 16:00:04.292000+00:00",
+      "requested_start": "2025-03-06 10:30:00+00:00",
+      "requested_end": "2025-03-06 15:30:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 8.752,
+      "median_spread": 0.2600000000002183
+    },
+    "XAUUSD_2025-03-12": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\tapes\\XAUUSD_2025-03-12.parquet",
+      "sha256": "7b5b6455319db02fe9b245ff0e352c14cbc1cc0191aed902eed8beff01f48761",
+      "raw_numpy_sha256": "073c7e33846b8762dcf6f7fdfebcaa18f66c2e5ac46df1c6ab60233b7b93ed20",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 316661,
+      "first": "2025-03-12 08:00:00.031000+00:00",
+      "last": "2025-03-12 16:00:04.977000+00:00",
+      "requested_start": "2025-03-12 08:00:00+00:00",
+      "requested_end": "2025-03-12 13:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 10.533,
+      "median_spread": 0.2600000000002183
+    },
+    "XAUUSD_2025-03-14": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\tapes\\XAUUSD_2025-03-14.parquet",
+      "sha256": "e77c6d6d4f519e5ce244306487bfc88bad1283a019f26ee85c176a88e249f368",
+      "raw_numpy_sha256": "487dafd5cfb1e191059b7be5abb8d1b7dc297b4b3a5971997af1c1790e2c3589",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 310621,
+      "first": "2025-03-14 08:00:00.009000+00:00",
+      "last": "2025-03-14 16:00:04.990000+00:00",
+      "requested_start": "2025-03-14 08:00:00+00:00",
+      "requested_end": "2025-03-14 13:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 7.93,
+      "median_spread": 0.2600000000002183
+    },
+    "XAUUSD_2025-03-24": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\tapes\\XAUUSD_2025-03-24.parquet",
+      "sha256": "1b361f0a2026383e2c4248e21ceb48bd34561a224e8456f40b1e535ea3c892b7",
+      "raw_numpy_sha256": "0b3513e6f066041dd3f3b1e9c8be4d8768fa34b9fa71b8426f237a854976fcc1",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 304941,
+      "first": "2025-03-24 08:00:00.013000+00:00",
+      "last": "2025-03-24 16:00:04.882000+00:00",
+      "requested_start": "2025-03-24 08:45:00+00:00",
+      "requested_end": "2025-03-24 13:45:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 6.78,
+      "median_spread": 0.2600000000002183
+    },
+    "XAUUSD_2025-04-23": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\tapes\\XAUUSD_2025-04-23.parquet",
+      "sha256": "e4605f5227102b1e7d40a5071910f8f2f785b9568c031368033c95b7e635f185",
+      "raw_numpy_sha256": "666585ee47c9321fe3f4a3c3e96715e7b0fe992cf582e6a0858c6bd44402db25",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 403189,
+      "first": "2025-04-23 07:00:00.010000+00:00",
+      "last": "2025-04-23 15:00:04.948000+00:00",
+      "requested_start": "2025-04-23 07:45:00+00:00",
+      "requested_end": "2025-04-23 12:45:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 6.732,
+      "median_spread": 0.2699999999999818
+    },
+    "XAUUSD_2025-05-08": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\XAUUSD_2025-05-08.parquet",
+      "sha256": "294e21c5feea2d49dd254b40dbe8105105e1a32e4ca3e494e756e90ab847a0e0",
+      "raw_numpy_sha256": "1e6b2b4ad997928f00925f8c2fa0f88770c5ab4ed92dc35d1b1bbce32f9b1f65",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 245533,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 245513,
+      "first": "2025-05-08 13:45:00.090000+00:00",
+      "last": "2025-05-08 18:45:04.965000+00:00",
+      "requested_start": "2025-05-08 13:45:00+00:00",
+      "requested_end": "2025-05-08 18:45:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 4.479,
+      "median_spread": 0.2600000000002183
+    },
+    "XAUUSD_2025-06-03": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\tapes\\XAUUSD_2025-06-03.parquet",
+      "sha256": "82eda809027eb55ecb9cbfafd2f7fe0a9bf488316fb67a31e5568cfda0a8a9db",
+      "raw_numpy_sha256": "af97bf35288e5036e7f57820fddf005cfdd4b457d9c2968c3b590f74eb9cf4b7",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 469754,
+      "first": "2025-06-03 07:00:00.008000+00:00",
+      "last": "2025-06-03 15:00:04.909000+00:00",
+      "requested_start": "2025-06-03 08:15:00+00:00",
+      "requested_end": "2025-06-03 13:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 5.327,
+      "median_spread": 0.2699999999999818
+    },
+    "XAUUSD_2025-06-05": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\XAUUSD_2025-06-05.parquet",
+      "sha256": "2704d58c3af7da2d4ccac1b980369bebc01ee95a42409fff1d7ed3ac43ef6c9f",
+      "raw_numpy_sha256": "529c6688dde1712fbcb2900bc15d4fc24e68da0653a9c59007d57c5a9373b714",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 115986,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 115986,
+      "first": "2025-06-05 17:00:00.083000+00:00",
+      "last": "2025-06-05 20:49:57.079000+00:00",
+      "requested_start": "2025-06-05 17:00:00+00:00",
+      "requested_end": "2025-06-05 22:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 16,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 11.422,
+      "median_spread": 0.2600000000002183
+    },
+    "XAUUSD_2025-06-06": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-2026-10-24\\tapes\\XAUUSD_2025-06-06.parquet",
+      "sha256": "59c9e86e9a552f4037e59248e0d785cdc7b0508f3d6b29e4af23fae9fb3ad42a",
+      "raw_numpy_sha256": "5b2a6d5ba144c220c24a49367dff2995e1eee95872cf4513347eb68de4eae39b",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 402362,
+      "first": "2025-06-06 07:00:00.039000+00:00",
+      "last": "2025-06-06 15:00:04.998000+00:00",
+      "requested_start": "2025-06-06 08:30:00+00:00",
+      "requested_end": "2025-06-06 13:30:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 8.642,
+      "median_spread": 0.2699999999999818
+    },
+    "XAUUSD_2025-06-17": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\XAUUSD_2025-06-17.parquet",
+      "sha256": "d032b4c226e9b693cda9d8836cd87a1030a9e2f927e15deecccb65a2eb4167da",
+      "raw_numpy_sha256": "67878dec88aa42a8e5233bd6c2e4f2d79b38881f9bfee850a7f6e830fd91b12d",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 250258,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 250236,
+      "first": "2025-06-17 10:15:00.152000+00:00",
+      "last": "2025-06-17 15:15:04.889000+00:00",
+      "requested_start": "2025-06-17 10:15:00+00:00",
+      "requested_end": "2025-06-17 15:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 3.455,
+      "median_spread": 0.2699999999999818
+    },
+    "XAUUSD_2025-07-02": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-02.parquet",
+      "sha256": "3c0ecea5d5f03246483f8385ff156834e1c81587e2f63256866c6f3b0938a2bf",
+      "raw_numpy_sha256": "6d7fba0fc85f983b6ca9fd9b8bb9e9a5c317ab1c1da7dab8d2abf95eb0a997e3",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 288346,
+      "first": "2025-07-02 07:00:00.004000+00:00",
+      "last": "2025-07-02 15:00:04.910000+00:00",
+      "requested_start": "2025-07-02 08:00:00+00:00",
+      "requested_end": "2025-07-02 13:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 5.891,
+      "median_spread": 0.2699999999999818
+    },
+    "XAUUSD_2025-07-14": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-validation-2026-10-24\\tapes\\XAUUSD_2025-07-14.parquet",
+      "sha256": "b077dce467438fd22dfbd92751bf5a14ab82da1d4f6be4f004cfc1f1dc9db4d6",
+      "raw_numpy_sha256": "104683a98d499076aa551021cace3b830d0a6b8f8167027b90af4fda84a14128",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 292068,
+      "first": "2025-07-14 07:00:00.046000+00:00",
+      "last": "2025-07-14 15:00:04.978000+00:00",
+      "requested_start": "2025-07-14 07:00:00+00:00",
+      "requested_end": "2025-07-14 12:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 4.637,
+      "median_spread": 0.2699999999999818
+    },
+    "XAUUSD_2025-07-16": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\XAUUSD_2025-07-16.parquet",
+      "sha256": "efef532f695c294cd39e8907571457e47dc7aab0e6948463c97e1c98fe243fa5",
+      "raw_numpy_sha256": "0b428976d6f5978dd464e8c07b9365bcc84112c1442886692f0d5115e8222102",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 155641,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 155625,
+      "first": "2025-07-16 15:00:00.048000+00:00",
+      "last": "2025-07-16 20:00:04.033000+00:00",
+      "requested_start": "2025-07-16 15:00:00+00:00",
+      "requested_end": "2025-07-16 20:00:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 7.699,
+      "median_spread": 0.2600000000002183
+    },
+    "XAUUSD_2025-08-25": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\XAUUSD_2025-08-25.parquet",
+      "sha256": "ce93b84d355d7bc7d659189c5f56c13a1479cb4c772ac62fdeede75569954e4c",
+      "raw_numpy_sha256": "32db30d82a804c6648fe7b54ed7bb29c4cb4ea6236f80c9dc2f833cae6652421",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 179581,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 179534,
+      "first": "2025-08-25 11:45:00.160000+00:00",
+      "last": "2025-08-25 16:45:04.795000+00:00",
+      "requested_start": "2025-08-25 11:45:00+00:00",
+      "requested_end": "2025-08-25 16:45:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 5.432,
+      "median_spread": 0.2699999999999818
+    },
+    "XAUUSD_2025-09-17": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\XAUUSD_2025-09-17.parquet",
+      "sha256": "ad6846fd80c1b45e6583dfc62374bced3e5eb80ce3c87fed1ebabd4562f46d5d",
+      "raw_numpy_sha256": "8c76847d1bbcf2c042c5f0f1b04984a320113572d22a12ba24702b9b057c782a",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 257965,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 257784,
+      "first": "2025-09-17 14:15:00.152000+00:00",
+      "last": "2025-09-17 19:15:04.881000+00:00",
+      "requested_start": "2025-09-17 14:15:00+00:00",
+      "requested_end": "2025-09-17 19:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 4.439,
+      "median_spread": 0.2800000000002001
+    },
+    "XAUUSD_2025-10-14": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\tapes\\XAUUSD_2025-10-14.parquet",
+      "sha256": "1063cafe1d534326cbe9c1fabc354ff12fcae35eac6efc5f614381127f7fc17a",
+      "raw_numpy_sha256": "3fecd1b10c7edf0aa0df88c4b8992f9e0c923b5f685a4ee79d2e8888285faf8d",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 314654,
+      "first": "2025-10-14 07:00:00.044000+00:00",
+      "last": "2025-10-14 15:00:04.983000+00:00",
+      "requested_start": "2025-10-14 07:30:00+00:00",
+      "requested_end": "2025-10-14 12:30:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 3.365,
+      "median_spread": 0.27999999999974534
+    },
+    "XAUUSD_2025-10-17": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\sfp-grid-complete-2026-10-24\\tapes\\XAUUSD_2025-10-17.parquet",
+      "sha256": "700b0e7d641dfc56d918ccd1952f5ec4ad0f73a75dbb59479dea27bb91f8bcc0",
+      "raw_numpy_sha256": "184267077c22e9cf1082e6b810eaeb26d29731d78c2b746cf4e6948eb558239a",
+      "method": "MT5_READ_ONLY_RANGE",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rows": 149223,
+          "error": "(1, 'Success')"
+        }
+      ],
+      "rows": 149223,
+      "first": "2025-10-17 17:45:00.158000+00:00",
+      "last": "2025-10-17 20:49:59.839000+00:00",
+      "requested_start": "2025-10-17 17:45:00+00:00",
+      "requested_end": "2025-10-17 22:45:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 13,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 3.971,
+      "median_spread": 0.27999999999974534
+    },
+    "XAUUSD_2025-10-20": {
+      "status": "AVAILABLE",
+      "path": "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-gold-seasonal-extension-2026-10-24\\tapes\\XAUUSD_2025-10-20.parquet",
+      "sha256": "3ba90deba5f95983fd73a266d2884d1f1c2f4ad5fd7145edf8329112bc119d67",
+      "raw_numpy_sha256": "460cbed6d481bb3a64c9ae2a5b9fd50121d354d0f321986cca6a59edae9c29cc",
+      "method": "REUSED_COMPLETE_FROZEN_TAPE",
+      "attempts": [],
+      "rows": 394234,
+      "first": "2025-10-20 07:00:00.037000+00:00",
+      "last": "2025-10-20 15:00:04.993000+00:00",
+      "requested_start": "2025-10-20 07:15:00+00:00",
+      "requested_end": "2025-10-20 12:15:05+00:00",
+      "clock_qa": {
+        "passed": true,
+        "compared_bars": 20,
+        "fraction_within2steps": 1.0,
+        "max_abs_error": 0.0
+      },
+      "max_gap_seconds": 2.788,
+      "median_spread": 0.27999999999974534
+    }
+  },
+  "complete": true,
+  "all_clock_qa_passed": true
+}

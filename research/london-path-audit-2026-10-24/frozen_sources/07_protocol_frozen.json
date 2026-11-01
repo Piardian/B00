@@ -1,0 +1,59 @@
+{
+  "frozen_utc": "2026-10-23T22:45:06.990297+00:00",
+  "declaration": {
+    "months": [
+      "2025-04",
+      "2025-05",
+      "2025-09",
+      "2025-10"
+    ],
+    "symbols": [
+      "EURUSD",
+      "GBPUSD",
+      "USDJPY",
+      "USDCAD",
+      "USDCHF",
+      "NZDUSD"
+    ],
+    "scenarios": [
+      [
+        "OBSERVED_QUOTES_1x",
+        1.0,
+        0.0
+      ],
+      [
+        "COST_STRESS_1.5x",
+        1.5,
+        0.0
+      ],
+      [
+        "COST_STRESS_2x",
+        2.0,
+        0.0
+      ],
+      [
+        "MIN_SPREAD_1PIP",
+        1.0,
+        1.0
+      ]
+    ],
+    "user_constraints": "OnlyThe5ers,onlyhistoricaldata,no live or paper orders",
+    "unchanged": "Exactpriorquote_engine.pyhash;nativeBID-flagopening14-dayRVOL>=1;controlwithoutfilter;08:00-08:15Londonrange,openingdirection,onepairday,entrybefore12London,oppositebidbandvirtualSL,full2R,EOD16London",
+    "selection": "Fixed4monthsbeforeoutcomes,noearlystoponsuccess;priorFebMarretainedseparatelyandcombinedall6months;notprospectiveandnotgloballyuntouchedOOS",
+    "quality": "Samefirstquote<=5s/EODfirstquote<=5s/maxtapegap60s;missingfailedcoverageisunknownnotflat;nativeM15OHLCvolumematch;independentM15clockcorr>=.7margin>=.15min16bars,>=20strongdaysoverall>=8eachmonth,noconflicts",
+    "statistics": "5observeddaycircularblockbootstrap10000seed173;yearmonthwindowsallreported;pairedfiltered-minus-controlannualizationnotused;priortrialsnotmultiplicityadjusted;notaccountportfolio",
+    "fees": "Unchangedassumed$4/100kunitsroundtrip+0.1pip/yourside;observedbidask;1.5/2xfactor;1pipminspreadstress;not verified historical personal account charges",
+    "gate": "Completecoverage,clockandnativebarQA,>=100primaryfills,newfourmonthnetpositiveat1.5/2xand1pipfloor,newperiodCIlo>0;6monthcombinedalsoevaluated;passingnotliveapproval",
+    "source_files": {
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-extension-2026-10-24\\extension.py": "270eecc1fd9cd955e13dea6aa3b5b16cb0b473282042a81d95153472412a46a8",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-extension-2026-10-24\\test_extension.py": "81ac0c4b2f842f17d22f9bb5e73e46cad1c757cd0b0ec7b868ffa42c8aad3706",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\research\\london-quote-validation-2026-10-23\\quote_engine.py": "d1b5819c790be9247b2050c4c465812ca413a2917ca9eece179e3671c35d02a3",
+      "C:\\Users\\piard\\Desktop\\Begonya00\\scripts\\normalize_broker_history.py": "d422c16480c903a54ad01107fb1054535b28114e8da9a10f7046a5e83ce5b44f",
+      "C:\\Users\\piard\\Desktop\\MegalordProject\\audit\\daytrade-session-2026-10-22\\evidence\\twelvedata_EURUSD_15m.csv.gz": "a0d15c3b3a5e5ee6913a8678b21378a6c5ea8b86939b202c44f7abdfa89a2daf"
+    },
+    "prior_native_protocol_sha256": "d881c799d919642875733af66faaf37c6310419c93b4d2e33b6f7100888c9562",
+    "prior_outcomes_sha256": "ac25ff8e54d601e5b2a1eef1b366c0df78e879d35f5efc5b66e7161b950cacb5",
+    "collector_read_only": true,
+    "live_approved": false
+  }
+}

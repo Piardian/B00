@@ -71,3 +71,7 @@ data/nas100_feed_alignment_*
 data/weekend_profit_forensics_*
 data/execution_quality_*
 scratch/
+
+# Market data tapes
+*.parquet
+research/**/tapes/

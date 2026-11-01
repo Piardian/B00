@@ -1,0 +1,38 @@
+{
+  "frozen_at": "2026-10-23 21:02:17.825320+00:00",
+  "scope": "Descriptive conditions of all33 prior early-limit setups. Previously observed Jan/Nov2025, no new OOS or full-system claim.",
+  "partitions": {
+    "timing": "London decision before09 vs09-noon",
+    "htf": "Existing setup flag aligned vs not aligned",
+    "asia": "Asia range/daily ATR <=.35 vs>.35, unknown explicit",
+    "cost_group": "Observed decision spread + assumed USD4/100k and .2pip exit slip, normalized risk <=.10R /(.10,.20]R />.20R; unpriced explicit"
+  },
+  "purpose": "Measure context and costs, not fit/promote filters. Partitions fixed before grouped output, after previous aggregate results already known.",
+  "quote_collection": "All33 decisions,61seconds backward each. Existing explicit FivePercentOnline-Real terminal, no trading or credential changes. Read-only broker access; no paid API.",
+  "quote_quality": "Last quote at or before decision age<=5seconds, positive finite noncrossed bid/ask; previous-minute bid OHLC within2 broker ticks of canonical M1. Inherited UTC+2/3 broker mapping; match is consistency check, not independent clock proof.",
+  "pnl": "Read unchanged modeled reference at .2/.5/.9/1.5pip; actual decision snapshots never retroactively substitute for lifecycle bid/ask. No missing cost imputation.",
+  "uncertainty": "10000 London-day cluster resamples;95% percentile CI mean modeled R per accepted setup, only if>=5 distinct days. Exploratory, no multiplicity correction, not causal evidence.",
+  "seed": 20261024,
+  "promotion": false,
+  "source_outcomes_sha256": "0e7bed805e897e4cd3fedb45c1a3ba910f34af6bec47fc8595baaaf1ea8e273c",
+  "local_hashes": {
+    "collect_decisions.py": "66f72deab8edba41f04bfffc8b5090977b8198fea94402611f3d2467ead506a1",
+    "cost_observer.py": "0f21904a2bdcd877852d7337434399f8002897f572af86932d7737f7d4cb6b30",
+    "measurement.py": "d45dcf544ac12b4468a17eb422e75413dd8daa48bfce28ab984a40a64f37dc9e",
+    "study.py": "0b1cdc3ca2bc551e10173243804879a4b8ef2d11e181fe0dd14b386bc803cf78",
+    "test_measurement.py": "22ad410fea7a02957b1d7534da0b17e739930893cb1b20b90e05a0c76ae20fd5",
+    "reference_frozen.json": "7f680c682f44f3aed137837b18cc06423f43cdea8a442acf1ee8f31622fbff96",
+    "setups_frozen.json": "83c20eb63d0dbe6414b0a20307b2a65145a0ae13d8d78b744e6cbe857b415fc7"
+  },
+  "price_hashes": {
+    "data\\full_2025_study\\prices_utc\\EURUSD_1m.csv.gz": "accd55f5f6d2d996489f6549040e4e78c88ca3a2c2528d941843fe02d6c7b30c",
+    "data\\full_2025_study\\prices_utc\\GBPUSD_1m.csv.gz": "2ede9d4387615552fa24a32a42850b18d9b1a974bfdae47353c67f0835b89dc4",
+    "data\\full_2025_study\\prices_utc\\USDJPY_1m.csv.gz": "51991dab9c9b2292585b5c647ff40c09da6a51dd6629cac2ef607566b03ce28a",
+    "data\\full_2025_study\\prices_utc\\USDCAD_1m.csv.gz": "8c8466a32c579ba0dde1dffe2c8c6bdee6b3dc10d1c5bf4f66094eeaf8b90047",
+    "data\\full_2025_study\\prices_utc\\USDCHF_1m.csv.gz": "5534a56aab48b500dbde1848f5ed074baa9e0ed7ab82db9de44fcf17983b0e71",
+    "data\\full_2025_study\\prices_utc\\NZDUSD_1m.csv.gz": "49a5ea1c75f7323646948998bc144105ed7834ea9c20381a1e36c921bdcd1e53"
+  },
+  "amended_at": "2026-10-23 21:03:42.774707+00:00",
+  "supersedes_sha256": "77e51258e451ad4de6a3e88d1917ccf724873d9c3d199fc6ff6dc267fc528dd6",
+  "amendment": "Initial collector preflight stopped before any quote reads: free disk below3GiB. All target months already cached. Restrict to existing month caches, minimum2GiB free and128MiB cumulative growth guard. No grouped results yet; partitions and PNL inputs unchanged."
+}

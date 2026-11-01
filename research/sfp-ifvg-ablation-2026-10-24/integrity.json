@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "single_flag_only": true,
+  "baseline_artifacts_unchanged": true,
+  "signals_reproduced": 57,
+  "prefix_future_mutation_checks": 90,
+  "quote_records": 171,
+  "quote_tapes_verified": 34,
+  "coverage_asset_months": 33,
+  "frozen_input_hashes_verified": true,
+  "live_changed": false
+}

@@ -1,0 +1,815 @@
+{
+  "files": {
+    "RECHECK_0": {
+      "path": "tails\\RECHECK_0.parquet",
+      "sha256": "81142ee10a6ce1b1d1d77e153e41b6905695c3c8c7aa23295249b888296d7670",
+      "raw_numpy_sha256": "7bf3086d1105735f6aa660d7277d22c03b537cffbf235f849a9be4a985854ca7",
+      "rows": 4385,
+      "first": "2025-02-06 16:00:00.028000+00:00",
+      "last": "2025-02-06 16:30:59.864000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_1": {
+      "path": "tails\\RECHECK_1.parquet",
+      "sha256": "6c62f5e3f8f4c7e5b8862c1988434c6d877205b0714f496ea00e82573a6513e6",
+      "raw_numpy_sha256": "cdb3a6294783e2cd3f62f691e83940da1142f6f7c491ca6ddcd8ff6d9debc0ed",
+      "rows": 3727,
+      "first": "2025-02-10 16:00:00.084000+00:00",
+      "last": "2025-02-10 16:30:58.746000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_2": {
+      "path": "tails\\RECHECK_2.parquet",
+      "sha256": "36e2f361c26422ecb71d00bd4762dc1bd491b621a0d3d9bd23eaf7cc71b57a0b",
+      "raw_numpy_sha256": "b728ea1c0084680f58abedbebf3e3a764d587166e26cc8b1ed77a65f39ca1a73",
+      "rows": 4124,
+      "first": "2025-02-14 16:00:00.067000+00:00",
+      "last": "2025-02-14 16:30:59.048000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_3": {
+      "path": "tails\\RECHECK_3.parquet",
+      "sha256": "da66278250249acfee6a2e48f8faa242a100ed90a95071b117844392fb30aa4e",
+      "raw_numpy_sha256": "93573a4c638b53b47774bf4b614e15966e581e548b58257935aa99851dc7e986",
+      "rows": 2291,
+      "first": "2025-02-17 16:00:00.006000+00:00",
+      "last": "2025-02-17 16:30:56.950000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_4": {
+      "path": "tails\\RECHECK_4.parquet",
+      "sha256": "5ef98e54db70b89be5d638481dfd951ec0bc52937ce60be1cccf3f2daaa017f0",
+      "raw_numpy_sha256": "70c864e5e6cfe069c737cc73f795e3f610af4a73336dfacdb8b3b6a86b2752ca",
+      "rows": 4204,
+      "first": "2025-02-20 16:00:00.053000+00:00",
+      "last": "2025-02-20 16:30:58.078000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_5": {
+      "path": "tails\\RECHECK_5.parquet",
+      "sha256": "cf8e41d4992e896b8f046a5357a3c40ded060d0cc0342d294b54eb97ea66658f",
+      "raw_numpy_sha256": "09c3be788ea8a34effc5aad03bbac85d4e009e101fe74c77db742c1c00290322",
+      "rows": 3901,
+      "first": "2025-02-21 16:00:00.027000+00:00",
+      "last": "2025-02-21 16:30:59.988000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_6": {
+      "path": "tails\\RECHECK_6.parquet",
+      "sha256": "10aad3a08fd3ca8ea869115ec538cfe6ce029b57a78e42d47c3f0ac54c62dcfb",
+      "raw_numpy_sha256": "bb92fe79ed9cef043dca0a7aaf9231abd83f83415663a49f52ace87d99f13cac",
+      "rows": 4921,
+      "first": "2025-03-03 16:00:00.041000+00:00",
+      "last": "2025-03-03 16:30:58.747000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_7": {
+      "path": "tails\\RECHECK_7.parquet",
+      "sha256": "f83da4ac6cc3bb51fe39356f7c2e993c9b8ecf1ff08ce23ad73c4d8782432b1f",
+      "raw_numpy_sha256": "38d0c23388f123ecc28a00e6fbccdcea0d4ccd4d46475607a039996f5cad740e",
+      "rows": 4920,
+      "first": "2025-03-18 16:00:00.101000+00:00",
+      "last": "2025-03-18 16:30:59.377000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "RECHECK_8": {
+      "path": "tails\\RECHECK_8.parquet",
+      "sha256": "a8126d57ca02db635609af624bd9a63d30f59d7c3524bcd6d5f7a56c71b1197f",
+      "raw_numpy_sha256": "8e813a526952c9a93612cbc2a15d226dd8b3c90000dd90e53b9f8a643f4497a2",
+      "rows": 4728,
+      "first": "2025-03-24 16:00:00.048000+00:00",
+      "last": "2025-03-24 16:30:59.959000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "RECHECK_9": {
+      "path": "tails\\RECHECK_9.parquet",
+      "sha256": "3990f65ddeb15587b6318148c599d1ac4d312b40ecd64f150c792a92d7d1f070",
+      "raw_numpy_sha256": "2b6c2b58bc03af1cef709a029a280d00610495b9cbee156f5c5764d83bf32073",
+      "rows": 5052,
+      "first": "2025-03-25 16:00:00.178000+00:00",
+      "last": "2025-03-25 16:30:58.625000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "RECHECK_10": {
+      "path": "tails\\RECHECK_10.parquet",
+      "sha256": "9971a3893070d0b200c9c4b5a7b5195b6aebfd137f83c1788145f5dd3fc338fd",
+      "raw_numpy_sha256": "ddb8ab0b4f566e673d916aea608c1276b734f31c4af49962c318daa485b10f29",
+      "rows": 6046,
+      "first": "2025-03-26 16:00:00.039000+00:00",
+      "last": "2025-03-26 16:30:59.996000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "RECHECK_11": {
+      "path": "tails\\RECHECK_11.parquet",
+      "sha256": "85c847b2c9c6441a1348d770abd4bf9111fccd2ebc426f67b687cd57d372c535",
+      "raw_numpy_sha256": "e14e211d4175af4b144ec24a78d9250da3e0baddb870e899aef6226d5edd9eb8",
+      "rows": 4976,
+      "first": "2025-03-28 16:00:00.048000+00:00",
+      "last": "2025-03-28 16:30:59.888000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "RECHECK_12": {
+      "path": "tails\\RECHECK_12.parquet",
+      "sha256": "fafb545c24a5cd1028f50e6eb212928153c6c75c112065b8ecf633cfd602a026",
+      "raw_numpy_sha256": "0b5b8eb2e0c2a80d5ce971b4f7e3ea81e7083ebfa915ca5d624e7b737c83d497",
+      "rows": 8721,
+      "first": "2025-03-31 15:00:00.023000+00:00",
+      "last": "2025-03-31 15:30:59.900000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "RECHECK_13": {
+      "path": "tails\\RECHECK_13.parquet",
+      "sha256": "6db6e8a2077804e9ce6273beba0bed9edc2a99feb8c6c67ddee1a796026df0c1",
+      "raw_numpy_sha256": "71d0ecfe19c43a0fa722b4121e2c432a192ba6275bbbbcfd5bbfae16430f2e00",
+      "rows": 11462,
+      "first": "2025-02-06 16:00:00.003000+00:00",
+      "last": "2025-02-06 16:30:59.581000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_14": {
+      "path": "tails\\RECHECK_14.parquet",
+      "sha256": "8d1eac11b1b1522e7e3a98bf94e3873e6b6266d89b7924e8aee85dd7eac12d81",
+      "raw_numpy_sha256": "71e2a93813f4dc2f25784692541568c46d6fbe2cbe4a61941344a45e17f36add",
+      "rows": 3692,
+      "first": "2025-02-21 16:00:00.067000+00:00",
+      "last": "2025-02-21 16:30:59.990000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_15": {
+      "path": "tails\\RECHECK_15.parquet",
+      "sha256": "0b9bfd3fb1d38e8fb5f41befc4e18adc728f707f517302daacba35a60dada3a8",
+      "raw_numpy_sha256": "d66363a2a0197de660d775ead3f31a4c7cf15fad76f653afc6b9af023798f3b0",
+      "rows": 8395,
+      "first": "2025-03-12 16:00:00.026000+00:00",
+      "last": "2025-03-12 16:30:59.850000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "RECHECK_16": {
+      "path": "tails\\RECHECK_16.parquet",
+      "sha256": "47e5a3efca8ec84392f355c4a16b22cc6a9424d16d2f694055500215ecd749eb",
+      "raw_numpy_sha256": "2d1b730236cfd572fcec1a6652eb2fb34f768ae80e1d54b16f097d310b4f1c23",
+      "rows": 7339,
+      "first": "2025-03-13 16:00:00.078000+00:00",
+      "last": "2025-03-13 16:30:59.836000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "RECHECK_17": {
+      "path": "tails\\RECHECK_17.parquet",
+      "sha256": "09666dfd74152363c6813964ac725fc267e2a0c941ad3966e6db768993c5df7d",
+      "raw_numpy_sha256": "e5830d11ced436ce6f01f6f700c5ffee6e488d83501af8052c2b41ac7f9ff9f5",
+      "rows": 8627,
+      "first": "2025-02-11 16:00:00.007000+00:00",
+      "last": "2025-02-11 16:30:59.997000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_18": {
+      "path": "tails\\RECHECK_18.parquet",
+      "sha256": "43518438b759b7d95dbb4bfae1fe53e725aebc03329b7a20f5c759c4c50eade8",
+      "raw_numpy_sha256": "980e2d4f3469dee68c26c109b5a8163d9e4e138d32ee75825f6fdc103070eead",
+      "rows": 10141,
+      "first": "2025-03-24 16:00:00.058000+00:00",
+      "last": "2025-03-24 16:30:59.279000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "RECHECK_19": {
+      "path": "tails\\RECHECK_19.parquet",
+      "sha256": "7adbe49f614b1108ae09d384fce26eb99a5472e1ecfc0033c29912c3f4ed3e16",
+      "raw_numpy_sha256": "cd3fef6b58f919b4543d43118adbdde1d9269d6f4f2f6ec629a25ab964918a2a",
+      "rows": 5480,
+      "first": "2025-02-27 16:00:00.009000+00:00",
+      "last": "2025-02-27 16:30:54.894000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_20": {
+      "path": "tails\\RECHECK_20.parquet",
+      "sha256": "a0b5ddf03adc4baa58a7011d0df2d9a936c18e8b8673e36c7a72d81780b8b690",
+      "raw_numpy_sha256": "4cfe66b81a70e3d9950ad8c8a694ac2b5baa8b59559c9432488b221d1f66349c",
+      "rows": 2975,
+      "first": "2025-02-10 16:00:00.007000+00:00",
+      "last": "2025-02-10 16:30:59.825000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_21": {
+      "path": "tails\\RECHECK_21.parquet",
+      "sha256": "9b92cbac4ddb18f09cc6d70341ece5f5699d6710581ce0948d9e45e658ada17a",
+      "raw_numpy_sha256": "6df1b69f3890898e92baca9cf3dfd3966e22ccd4ed0aafe60443baa337391602",
+      "rows": 2662,
+      "first": "2025-02-19 16:00:00.087000+00:00",
+      "last": "2025-02-19 16:30:59.592000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_22": {
+      "path": "tails\\RECHECK_22.parquet",
+      "sha256": "15c8791efa1e4bf0d939ce3512ed1cecc6cb59293b3a315a9963311f4d56771f",
+      "raw_numpy_sha256": "9eee00d9379081c9cb5f9d57f4840af4613ae019bbd98360bc435555d9335fe4",
+      "rows": 6030,
+      "first": "2025-03-06 16:00:00.003000+00:00",
+      "last": "2025-03-06 16:30:59.914000+00:00",
+      "broker_clock_offset_hours": 2
+    },
+    "RECHECK_23": {
+      "path": "tails\\RECHECK_23.parquet",
+      "sha256": "b02e647498b71b63cec0a72d5358ee953c4dd023c0af33341df59f6e7236c1cf",
+      "raw_numpy_sha256": "9e2ea0fee9adbf5924a51354c0f9c22087aa40c6ef9dedda81d622371f791a57",
+      "rows": 2199,
+      "first": "2025-03-18 16:00:00.056000+00:00",
+      "last": "2025-03-18 16:30:59.381000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "RECHECK_24": {
+      "path": "tails\\RECHECK_24.parquet",
+      "sha256": "058f67ff8cf74f7a1d6490d61012b58ee22d3b85ba8a5574fd55e55e933ddd32",
+      "raw_numpy_sha256": "3cf23aa2af594645576296ab30e7dcbe8c0071a24138a39c95a0618a5626d4c6",
+      "rows": 5703,
+      "first": "2025-03-31 15:00:00.032000+00:00",
+      "last": "2025-03-31 15:30:59.281000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_0": {
+      "path": "tails\\FOLLOWUP_0.parquet",
+      "sha256": "ce50fd78bb2d5e57b71a51582738acbafffabc83e360ab0134e9bdbf6308c867",
+      "raw_numpy_sha256": "3b0807dd6bc6557978b2a63e120488ab35f28149bcb0ee3d8332f11f9d15fdc1",
+      "rows": 6887,
+      "first": "2025-04-01 15:00:00.045000+00:00",
+      "last": "2025-04-01 15:30:59.935000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_1": {
+      "path": "tails\\FOLLOWUP_1.parquet",
+      "sha256": "de53f69cee0d74f9fd4a68973cc2c2168bf120763fe0d377e4b6d3e92eb2a512",
+      "raw_numpy_sha256": "8c389cd6a3aaeeb95d116a9f33cfd70c59fe0b3cfa504ee38e1ab5e8b0e4ad8b",
+      "rows": 11551,
+      "first": "2025-04-08 15:00:00.024000+00:00",
+      "last": "2025-04-08 15:30:58.660000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_2": {
+      "path": "tails\\FOLLOWUP_2.parquet",
+      "sha256": "012870fa15d3234a0b5a1aa0f7247791e55ccdc99872c8d6f7fa503a291079a8",
+      "raw_numpy_sha256": "660b659c50d1d746371f0b1e0bb89199f8e0d11e68f9be296330a6784d98a373",
+      "rows": 16295,
+      "first": "2025-04-10 15:00:00.028000+00:00",
+      "last": "2025-04-10 15:30:59.931000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_3": {
+      "path": "tails\\FOLLOWUP_3.parquet",
+      "sha256": "773b774d3d6d8571ecc8c971730ccdbfdbaefe16b4ddba31a671133291bcc256",
+      "raw_numpy_sha256": "113b3429851caa131b3fd1030bb5ed95938211efdceac210aecae590671dbc3d",
+      "rows": 9122,
+      "first": "2025-04-16 15:00:00.043000+00:00",
+      "last": "2025-04-16 15:30:59.670000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_4": {
+      "path": "tails\\FOLLOWUP_4.parquet",
+      "sha256": "316f49cc493a55b855615dc4605c2cd697df8e50484b8f4c08e59f4178217844",
+      "raw_numpy_sha256": "f1c184d8a1ee0e9c2fe2757fe882cdc1ba1b31e316aabf61385ec517c5f34c0c",
+      "rows": 11938,
+      "first": "2025-04-30 15:00:00.033000+00:00",
+      "last": "2025-04-30 15:30:59.880000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_5": {
+      "path": "tails\\FOLLOWUP_5.parquet",
+      "sha256": "a7612f063d4e1594aca3d20a9712fa7048a06834b9c7b470dff8dba358849d78",
+      "raw_numpy_sha256": "83a837796c1d4d7751e9972034f6942a130ddf592b4d28db83d5c9b70da3e2e2",
+      "rows": 6441,
+      "first": "2025-05-06 15:00:00.006000+00:00",
+      "last": "2025-05-06 15:30:57.832000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_6": {
+      "path": "tails\\FOLLOWUP_6.parquet",
+      "sha256": "0e569b5d55737c9fc26d88574f56b0da4aa946cc0bc5e482157369e80d6f3780",
+      "raw_numpy_sha256": "fc6a64c63e7a387ae4a573d06443e2ed7cda87e1ba0859ee672e31b3db1ea75c",
+      "rows": 6993,
+      "first": "2025-05-12 15:00:00+00:00",
+      "last": "2025-05-12 15:30:59.903000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_7": {
+      "path": "tails\\FOLLOWUP_7.parquet",
+      "sha256": "89515210a7432c374ebe855af9e277cc4e37cb5d7de35d84e3be6233c0acdbb3",
+      "raw_numpy_sha256": "b6932654b26cc950925400f7c2fde98dab39c073546a7d87646e27973ccf9c1c",
+      "rows": 5301,
+      "first": "2025-05-19 15:00:00.092000+00:00",
+      "last": "2025-05-19 15:30:59.157000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_8": {
+      "path": "tails\\FOLLOWUP_8.parquet",
+      "sha256": "c05c06e942527443fa9bcb5e29863b76d525636b707863964a6ac98abc387995",
+      "raw_numpy_sha256": "fff9662eb63adcce7d8b3c382fd5b5c0aa42c5a3de982a1de32343ca4fdad159",
+      "rows": 7777,
+      "first": "2025-05-22 15:00:00.096000+00:00",
+      "last": "2025-05-22 15:30:59.794000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_9": {
+      "path": "tails\\FOLLOWUP_9.parquet",
+      "sha256": "cfd716304834947621af3e50c962d8ef830164a669bfcca858eb1a0ab98965f6",
+      "raw_numpy_sha256": "ef01a8c98026fddef8d9208ebc6529a09766eb211d5c67f777a8c3ad1f88b037",
+      "rows": 4638,
+      "first": "2025-05-23 15:00:00.022000+00:00",
+      "last": "2025-05-23 15:30:59.206000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_10": {
+      "path": "tails\\FOLLOWUP_10.parquet",
+      "sha256": "2386cafe0133e2419c27c0326966fd9f97b58b16f9993bb5255fb3ab4d663bd5",
+      "raw_numpy_sha256": "84b6b877a66fdd34f505bc5328dbf24ccbb192c7e8d9d5be61e0bdf16c4102d5",
+      "rows": 5515,
+      "first": "2025-05-27 15:00:00.060000+00:00",
+      "last": "2025-05-27 15:30:59.742000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_11": {
+      "path": "tails\\FOLLOWUP_11.parquet",
+      "sha256": "3af13a436768da0eaf856918587915ddf95f3a923367dccd8e3495a04866ff7c",
+      "raw_numpy_sha256": "63829d08bbdd932f245f46d152994b268489f9baa9d528471c5347c90226a727",
+      "rows": 5827,
+      "first": "2025-09-02 15:00:00.012000+00:00",
+      "last": "2025-09-02 15:30:59.285000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_12": {
+      "path": "tails\\FOLLOWUP_12.parquet",
+      "sha256": "828f7585589a90a08fb681bc05aafeab6b9eba428d4f961d6447e0c1d86a6f6c",
+      "raw_numpy_sha256": "886542efe9f501c1e8d12648a69774f2dee54788cd607cf686dc229dc392d3a5",
+      "rows": 4323,
+      "first": "2025-09-03 15:00:01.004000+00:00",
+      "last": "2025-09-03 15:30:59.976000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_13": {
+      "path": "tails\\FOLLOWUP_13.parquet",
+      "sha256": "a00f12009c92aae2623f25b320cc66565ded1536d4f5dbb455b2ce483ecf33ca",
+      "raw_numpy_sha256": "0733175d8b3e6ccacbf8390126bde546b0d5d6d6790425f87e3874eb11d95c6a",
+      "rows": 4275,
+      "first": "2025-09-12 15:00:00.049000+00:00",
+      "last": "2025-09-12 15:30:59.721000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_14": {
+      "path": "tails\\FOLLOWUP_14.parquet",
+      "sha256": "2965087d9b8cc1cd022878a8c504ec518668b00922eed7f26ee021cd09ee9606",
+      "raw_numpy_sha256": "8ff8d3739d462d4d20708f116b0189c73b7cc942084e7467790b8f81002e24eb",
+      "rows": 6019,
+      "first": "2025-09-18 15:00:00.007000+00:00",
+      "last": "2025-09-18 15:30:59.944000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_15": {
+      "path": "tails\\FOLLOWUP_15.parquet",
+      "sha256": "f22f930e6c75d463647d45f3b4c449eccc4fb16e26940512b849544db11ba9c2",
+      "raw_numpy_sha256": "22f5b9a44c1bc3e0301eb30dfb57118cd34c29d57e5e38c0bda6962482fe45d4",
+      "rows": 3781,
+      "first": "2025-09-22 15:00:00.194000+00:00",
+      "last": "2025-09-22 15:30:59.816000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_16": {
+      "path": "tails\\FOLLOWUP_16.parquet",
+      "sha256": "7746bd4d2d6be003af66c70e0785387cc4e058f27e8b43ef53de8829b3c9a7f2",
+      "raw_numpy_sha256": "82e07d433cddac66c56ee85ee0d46ab1b8d354d28bb68d53692524c7e4ed5271",
+      "rows": 5192,
+      "first": "2025-09-24 15:00:00.090000+00:00",
+      "last": "2025-09-24 15:30:59.734000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_17": {
+      "path": "tails\\FOLLOWUP_17.parquet",
+      "sha256": "1f0b7bdba068ace76fc112a46d586db1b0cfc2ef43bbf0b61d8ca6e057f5e8e2",
+      "raw_numpy_sha256": "8fb1c161b3bd03d2a4517df0b1d9789ee7cc255c6b4517feee534dbf5a594c01",
+      "rows": 5492,
+      "first": "2025-09-29 15:00:00.026000+00:00",
+      "last": "2025-09-29 15:30:59.745000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_18": {
+      "path": "tails\\FOLLOWUP_18.parquet",
+      "sha256": "12a2df02ea02032285fa7c0af536b2a5ce1e28ed9c12a86e1cddf55071408a67",
+      "raw_numpy_sha256": "3c119ccd2104f91ae3b0c7fa9b7f78d66100710383576ad57095fc164eeb8ca6",
+      "rows": 8890,
+      "first": "2025-10-01 15:00:00.002000+00:00",
+      "last": "2025-10-01 15:30:59.749000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_19": {
+      "path": "tails\\FOLLOWUP_19.parquet",
+      "sha256": "52627f66ff0e8d03a1e0d86e806581f866186a52edc58fb72d2775d90fbc1b0e",
+      "raw_numpy_sha256": "2f13f96f6f17336b501bea4570c037f1f4b989d1f2b586d6f6d0466c4963ea72",
+      "rows": 5541,
+      "first": "2025-10-06 15:00:00.201000+00:00",
+      "last": "2025-10-06 15:30:59.942000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_20": {
+      "path": "tails\\FOLLOWUP_20.parquet",
+      "sha256": "77fa8c8fe6f6f7177099ede3466397791b9e4a09faf1013686018133cd428eb2",
+      "raw_numpy_sha256": "814cdf67f26c4d3db148b60b2065eb8596d10c7eb18ceaf42630f76f78f11467",
+      "rows": 4093,
+      "first": "2025-10-08 15:00:00.100000+00:00",
+      "last": "2025-10-08 15:30:59.592000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_21": {
+      "path": "tails\\FOLLOWUP_21.parquet",
+      "sha256": "c0d9cac9fafae70b9f96c9c8ef68568fd5f06ee015f7189deae1d81ee117f9df",
+      "raw_numpy_sha256": "5c7e9994245ed83435147f5b263d8f0de7fc91296902fb2ef95c166268cede81",
+      "rows": 3594,
+      "first": "2025-10-16 15:00:00.045000+00:00",
+      "last": "2025-10-16 15:30:59.971000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_22": {
+      "path": "tails\\FOLLOWUP_22.parquet",
+      "sha256": "5542ab81fcfb8c23406bfa395ade14a112b74236874cf3ec97d6a90c24b1de9d",
+      "raw_numpy_sha256": "6def374d09aa86b848236ce544e3b66ac8dc21bb2640e94198a7657a8084c6a2",
+      "rows": 2967,
+      "first": "2025-10-24 15:00:00.163000+00:00",
+      "last": "2025-10-24 15:30:55.542000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_23": {
+      "path": "tails\\FOLLOWUP_23.parquet",
+      "sha256": "d4ccb19c0d9172d316fc039596ccbf9f6185deece03a694da0509c85fca63945",
+      "raw_numpy_sha256": "14d34cc87437ce65c39020898ec835c39b27405c125506c2588953e67f217595",
+      "rows": 10291,
+      "first": "2025-04-08 15:00:00.012000+00:00",
+      "last": "2025-04-08 15:30:59.286000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_24": {
+      "path": "tails\\FOLLOWUP_24.parquet",
+      "sha256": "dfbc386d029ab8cc12eeaf31533d2ea244f296151e0fd5870dd9674a6613d0d3",
+      "raw_numpy_sha256": "83c60a887c1aee833307cb9c54cc4e8b8ec50593111a54919fac750c670f4998",
+      "rows": 4602,
+      "first": "2025-05-06 15:00:00.020000+00:00",
+      "last": "2025-05-06 15:30:58.599000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_25": {
+      "path": "tails\\FOLLOWUP_25.parquet",
+      "sha256": "72740d26885f66a095dfe44c6aae125ab3ab94755f62447d36c2f91ce40b6511",
+      "raw_numpy_sha256": "e2fd13d4e77f60e61d2df6314d540933a08b040d6d09277b2938de56f4576ff3",
+      "rows": 5937,
+      "first": "2025-05-12 15:00:00.049000+00:00",
+      "last": "2025-05-12 15:30:59.151000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_26": {
+      "path": "tails\\FOLLOWUP_26.parquet",
+      "sha256": "c29ad9a2a5ef89df69a80d15bbc60540e9afa86c86f90dcea06f5a86df927f58",
+      "raw_numpy_sha256": "47d02c84becccbae78b523e240ac1d4c8d3de835c182b5a0574e20c3bc7e1dac",
+      "rows": 4197,
+      "first": "2025-05-23 15:00:00.022000+00:00",
+      "last": "2025-05-23 15:30:58.925000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_27": {
+      "path": "tails\\FOLLOWUP_27.parquet",
+      "sha256": "28a9e5175903d8a24eabda2a54036d5a8338a3c043aad5f82a75f4085c8a6ed4",
+      "raw_numpy_sha256": "de7cb9a4cad636d7dcfb918152ee57ca3a3b8891cd6a80d8186b50cbeb2b82fd",
+      "rows": 5428,
+      "first": "2025-09-02 15:00:00.068000+00:00",
+      "last": "2025-09-02 15:30:59.092000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_28": {
+      "path": "tails\\FOLLOWUP_28.parquet",
+      "sha256": "b77fdcc651f02e811dd21d820e5437ecad1e4424628fd9998c4ad9c6cafc714c",
+      "raw_numpy_sha256": "0fa6ae1317f04c8d4249942c61e228ae007b39b68eb7f547b2dd4333973c22ad",
+      "rows": 5082,
+      "first": "2025-09-03 15:00:00.042000+00:00",
+      "last": "2025-09-03 15:30:59.235000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_29": {
+      "path": "tails\\FOLLOWUP_29.parquet",
+      "sha256": "2676ce01028c0933c7c6c86d630361d2abf88d0ab4cf5626d08cb6ad63188fdb",
+      "raw_numpy_sha256": "6323769c21de14ba78b5884227ff29782391719f9cb3f9b4d631e20e264463bb",
+      "rows": 6980,
+      "first": "2025-09-09 15:00:00.045000+00:00",
+      "last": "2025-09-09 15:30:58.875000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_30": {
+      "path": "tails\\FOLLOWUP_30.parquet",
+      "sha256": "4b459dbcc0178d1989ff41ece1bd94b69edc4e045ff85049b8e4d989e528b32a",
+      "raw_numpy_sha256": "134147c4ba7f0d46ddbf3496c938d01203d04ed0176dee4e18137b7193615758",
+      "rows": 5605,
+      "first": "2025-09-12 15:00:00.021000+00:00",
+      "last": "2025-09-12 15:30:59.730000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_31": {
+      "path": "tails\\FOLLOWUP_31.parquet",
+      "sha256": "c91a35f8c97e0f933236351faefbc1121ca785d1f27548352734582ace7ed5c5",
+      "raw_numpy_sha256": "d3ec793956427e9f8c4919cfc74ad114a92e414180ac17ecbcf86d29f8be8419",
+      "rows": 4115,
+      "first": "2025-09-22 15:00:00.019000+00:00",
+      "last": "2025-09-22 15:30:59.944000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_32": {
+      "path": "tails\\FOLLOWUP_32.parquet",
+      "sha256": "d357db996a962d3a67c0cb07ee7d85a5f0af054a40516c9dd0a21085a71333d5",
+      "raw_numpy_sha256": "f56ff7410433bb69e1a953a78c022952c193ef60c0596d0f49b7c8008c7254b7",
+      "rows": 5126,
+      "first": "2025-09-23 15:00:00.042000+00:00",
+      "last": "2025-09-23 15:30:59.454000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_33": {
+      "path": "tails\\FOLLOWUP_33.parquet",
+      "sha256": "4d1ba47c0b63d8a67853a021966777f47537bbfb52ead6ff98dd77043e182e19",
+      "raw_numpy_sha256": "8030192e6922f795182b00fca7b2a3005872b28127b91c94acc05e316cbdaad5",
+      "rows": 6582,
+      "first": "2025-09-25 15:00:00.004000+00:00",
+      "last": "2025-09-25 15:30:59.214000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_34": {
+      "path": "tails\\FOLLOWUP_34.parquet",
+      "sha256": "941ab06787eedaa665f4f2614616e28a484c35bd7fa9255e71603b476354eec4",
+      "raw_numpy_sha256": "605447419d0e887accfd7eec8e20f765599eef98332ca8a0247e614ddf8eeed6",
+      "rows": 9230,
+      "first": "2025-10-01 15:00:00.028000+00:00",
+      "last": "2025-10-01 15:30:59.253000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_35": {
+      "path": "tails\\FOLLOWUP_35.parquet",
+      "sha256": "ae66ddaa7271273120c264f17bf1d8318991d81da9ffc6f81aaa89c17e90e7ea",
+      "raw_numpy_sha256": "829a8e73044ef1dc4ea40efd36f791d49f3960c3580e5116e97b7dc43881f422",
+      "rows": 8351,
+      "first": "2025-10-06 15:00:00.024000+00:00",
+      "last": "2025-10-06 15:30:59.853000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_36": {
+      "path": "tails\\FOLLOWUP_36.parquet",
+      "sha256": "be8844d9c48cebd5c41abc3846a90be932bb98bc556dfe8af1c2903a407f447a",
+      "raw_numpy_sha256": "809bb466691401d8a428e3bb2df906cd8ebb9699aa7a05ca2ce2e70faec40ae0",
+      "rows": 10152,
+      "first": "2025-10-09 15:00:00.047000+00:00",
+      "last": "2025-10-09 15:30:59.499000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_37": {
+      "path": "tails\\FOLLOWUP_37.parquet",
+      "sha256": "50436392c4f025ca6b6cadbbb30c6eb6640e17abb6b8bde613d647a2c59ab1d7",
+      "raw_numpy_sha256": "c09dbc8dda69b0f1e5fdf4676a7704a0401453727fc58e48f6158dfaddd18d07",
+      "rows": 7012,
+      "first": "2025-10-21 15:00:00.064000+00:00",
+      "last": "2025-10-21 15:30:59.931000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_38": {
+      "path": "tails\\FOLLOWUP_38.parquet",
+      "sha256": "61cf0298e239941080ee60b5f9c758df49a98b88fe66749be62bde53e1d71955",
+      "raw_numpy_sha256": "05e8613860058629885749b11d00876ad572130a68387eb11063892a4c740419",
+      "rows": 4508,
+      "first": "2025-10-27 16:00:00.046000+00:00",
+      "last": "2025-10-27 16:30:58.750000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_39": {
+      "path": "tails\\FOLLOWUP_39.parquet",
+      "sha256": "cb7817d97f380c82707d8267982d080f7ae2c04cc04ce8386f336465d47ece2d",
+      "raw_numpy_sha256": "dfd49779a0af31364191afb5db1cc6607c4064c73ac089e105b34f0fcd253e82",
+      "rows": 18011,
+      "first": "2025-04-17 15:00:00.011000+00:00",
+      "last": "2025-04-17 15:30:59.963000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_40": {
+      "path": "tails\\FOLLOWUP_40.parquet",
+      "sha256": "19d5b55005555df3c6b189e7afc519bd72561eae57e3a9ca827ad1fb10b0010d",
+      "raw_numpy_sha256": "901001cddf6ad5b08043a880188525e35269c44b46a954151ddb597d48954791",
+      "rows": 7949,
+      "first": "2025-05-06 15:00:00.053000+00:00",
+      "last": "2025-05-06 15:30:58.827000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_41": {
+      "path": "tails\\FOLLOWUP_41.parquet",
+      "sha256": "61d40845ca97c59d03c768ba72280b503bdb88d82b11e78629acf20d935bf605",
+      "raw_numpy_sha256": "ef351e483f7cf8eafd050756d733129e754388915e9075d2d84405fc214f5584",
+      "rows": 13786,
+      "first": "2025-05-12 15:00:00.007000+00:00",
+      "last": "2025-05-12 15:30:58.683000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_42": {
+      "path": "tails\\FOLLOWUP_42.parquet",
+      "sha256": "168a9579757d9104a5e940b6d37b57b57904656cfe92606bdfcb1348f0fae18a",
+      "raw_numpy_sha256": "7560b635fff2ded5087da14501a72e16ba72ce343a4e69fc4c5812653684338b",
+      "rows": 9004,
+      "first": "2025-09-09 15:00:00.160000+00:00",
+      "last": "2025-09-09 15:30:59.813000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_43": {
+      "path": "tails\\FOLLOWUP_43.parquet",
+      "sha256": "d5f2971aeb207472d10e74214a6117ec69dbb982e2c1ac95e9317316d1468401",
+      "raw_numpy_sha256": "be1b706fa95b84cef150382329d0a9cbfba5c6c3beec88aa343375bd2742931d",
+      "rows": 5692,
+      "first": "2025-09-22 15:00:00.047000+00:00",
+      "last": "2025-09-22 15:30:59.840000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_44": {
+      "path": "tails\\FOLLOWUP_44.parquet",
+      "sha256": "d1f8b39a8e471bdd289b9c29e06c8f38e4da99e4c0ec46e9196ce22819c8b89e",
+      "raw_numpy_sha256": "97782adaeeda636957c0f7960ab5e19ab17065030a8df34dd30ee2d487c288d9",
+      "rows": 8483,
+      "first": "2025-10-16 15:00:00.001000+00:00",
+      "last": "2025-10-16 15:30:59.973000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_45": {
+      "path": "tails\\FOLLOWUP_45.parquet",
+      "sha256": "8fd584252e9bc2e564e54737c0da47df54bffde8a1ae3a1c0b443c5f14efb700",
+      "raw_numpy_sha256": "3d13541b93938cce9b5ba9dc4b9fc943a412157121b3e9bb4ac4032d02a8873e",
+      "rows": 3536,
+      "first": "2025-05-12 15:00:00.004000+00:00",
+      "last": "2025-05-12 15:30:59.763000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_46": {
+      "path": "tails\\FOLLOWUP_46.parquet",
+      "sha256": "1278ba9815aa4190e1ea9d21c5409423a8959f2ca928e8998b01e6714b2a6c8d",
+      "raw_numpy_sha256": "0d29cdd2faa359f34d8c01222dff005909692578784a9007845d74c9ee060928",
+      "rows": 2959,
+      "first": "2025-05-19 15:00:00.085000+00:00",
+      "last": "2025-05-19 15:30:59.975000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_47": {
+      "path": "tails\\FOLLOWUP_47.parquet",
+      "sha256": "28a41d48fa8ebd2c1fe5125bed9809bb63291f45b38c9058b0d96bb5328a30a3",
+      "raw_numpy_sha256": "409db0f52b79a099e924f2a65862422f126a426782e29c737e36c1579dba4533",
+      "rows": 4610,
+      "first": "2025-09-02 15:00:00.068000+00:00",
+      "last": "2025-09-02 15:30:55.577000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_48": {
+      "path": "tails\\FOLLOWUP_48.parquet",
+      "sha256": "10ff20a64dc34cc17836e95d8eb98a9101a9ff86bb44326fd96f50f20de6b173",
+      "raw_numpy_sha256": "d373810c74c08441d8f7d3c48f07042dbf64cbcc1825d307ea96813d0ad8e506",
+      "rows": 4729,
+      "first": "2025-09-25 15:00:00.057000+00:00",
+      "last": "2025-09-25 15:30:59.169000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_49": {
+      "path": "tails\\FOLLOWUP_49.parquet",
+      "sha256": "52c023c065b84f590b8dd45ceac04b58903fefb052573946b8444a9c8e9d4e53",
+      "raw_numpy_sha256": "5725a6a68ab114e186664dd4fe3673725338e5ecf39b1b4d564e85cb7a236a42",
+      "rows": 3303,
+      "first": "2025-10-06 15:00:00.445000+00:00",
+      "last": "2025-10-06 15:30:59.808000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_50": {
+      "path": "tails\\FOLLOWUP_50.parquet",
+      "sha256": "45f6c5cc93caedb8b357af9ec30d88034a0b1ac545e34dd46cadd5a7583cbfeb",
+      "raw_numpy_sha256": "1b2d87be11725786c475a9dfc428da8f774df234136e56785edbc836c078402e",
+      "rows": 4347,
+      "first": "2025-10-13 15:00:00.018000+00:00",
+      "last": "2025-10-13 15:30:59.980000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_51": {
+      "path": "tails\\FOLLOWUP_51.parquet",
+      "sha256": "12873863951c58ea24554c3f90dd69eff5426f5adabd3166cbf09614289787d5",
+      "raw_numpy_sha256": "5cadcfc781550e6ef96a719740263df5963e8504bcd4068ec9beb90c4024cf18",
+      "rows": 3803,
+      "first": "2025-10-21 15:00:00.050000+00:00",
+      "last": "2025-10-21 15:30:58.593000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_52": {
+      "path": "tails\\FOLLOWUP_52.parquet",
+      "sha256": "7d8dc0a27b9a7fe4aeced8f022a470c18c99ba0d8b04ad28cfd59863e58e3b5a",
+      "raw_numpy_sha256": "b6b7d2642e28814d5c0b492fd4b4db9e41a53227e1993b8e4ec261114af5bed1",
+      "rows": 4176,
+      "first": "2025-05-06 15:00:00.065000+00:00",
+      "last": "2025-05-06 15:30:57.586000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_53": {
+      "path": "tails\\FOLLOWUP_53.parquet",
+      "sha256": "78b2a59d6d8991f2d1779952088df979bf49dcacee2cc105228e42777492e498",
+      "raw_numpy_sha256": "f76bfca121aad9867832092a52f50c07346856d1f6322d7c6e6b315ac0334ad7",
+      "rows": 6316,
+      "first": "2025-05-12 15:00:00.001000+00:00",
+      "last": "2025-05-12 15:30:58.837000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_54": {
+      "path": "tails\\FOLLOWUP_54.parquet",
+      "sha256": "901ec90dd682b0052755cf98b0bf6f5d7bc1e7be4110f241895f2ee173c404dd",
+      "raw_numpy_sha256": "74b69be3fb7071c5bbb04f4e236c26c5e2bb69603c00b59a54e477a078bbc88b",
+      "rows": 3459,
+      "first": "2025-09-08 15:00:00.016000+00:00",
+      "last": "2025-09-08 15:30:57.960000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_55": {
+      "path": "tails\\FOLLOWUP_55.parquet",
+      "sha256": "f23a07583971bcfaf11c8ec814e992a263215afd6c3f7bc2401cefa0cb6bf86d",
+      "raw_numpy_sha256": "ef06e2d5dfe25ac8407eda2a7cb3c504610c7f929749e529e1aa61037fa856ca",
+      "rows": 6088,
+      "first": "2025-09-25 15:00:00.094000+00:00",
+      "last": "2025-09-25 15:30:59.981000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_56": {
+      "path": "tails\\FOLLOWUP_56.parquet",
+      "sha256": "dd9ae51e12744a30ba943bf3a64af17e08c1371fd091b58ceb56de268c82e5e5",
+      "raw_numpy_sha256": "16499ee66b21d2c64ac3c778fbc7d6ad341a016fd6e2492b29941376f3e117f1",
+      "rows": 2672,
+      "first": "2025-10-06 15:00:00.201000+00:00",
+      "last": "2025-10-06 15:30:59.789000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_57": {
+      "path": "tails\\FOLLOWUP_57.parquet",
+      "sha256": "a2792d8aabd47c746b6338af15f3a68fe5aa747843c08aa82c5b08691f5b87cb",
+      "raw_numpy_sha256": "8c1fbbe1979884c59ada86e63d8dc5abbd9ca59cdc67831bab182feae1ddb5b4",
+      "rows": 3067,
+      "first": "2025-10-13 15:00:00.020000+00:00",
+      "last": "2025-10-13 15:30:59.978000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_58": {
+      "path": "tails\\FOLLOWUP_58.parquet",
+      "sha256": "67abc26f60edacce86e7dec8f0539aa55fa45711a9076f9f11890492ce11bfe1",
+      "raw_numpy_sha256": "a6dbd97a4a7c2053aca691378fe040bc0b8093d484754712a5fb1fc9aeb9a697",
+      "rows": 3037,
+      "first": "2025-10-23 15:00:00.013000+00:00",
+      "last": "2025-10-23 15:30:53.451000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_59": {
+      "path": "tails\\FOLLOWUP_59.parquet",
+      "sha256": "984411c984e09041af3fdb82f13dd4b0fa11db31018aabfb30c27054d208f766",
+      "raw_numpy_sha256": "e40cc8ae73e531bb0598110486f3599cad9be8d81b73ddd204c72e1b950c186f",
+      "rows": 4406,
+      "first": "2025-04-15 15:00:00.069000+00:00",
+      "last": "2025-04-15 15:30:59.359000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_60": {
+      "path": "tails\\FOLLOWUP_60.parquet",
+      "sha256": "367c0c0f60eaa80622a4179fbb15152d7ce3245494229924c4e18a2028bbc4b6",
+      "raw_numpy_sha256": "95677f44b16127af27908fd78b64ab0aa2cd9eda04fd29a46b45912e48f594df",
+      "rows": 5020,
+      "first": "2025-04-16 15:00:00.002000+00:00",
+      "last": "2025-04-16 15:30:58.801000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_61": {
+      "path": "tails\\FOLLOWUP_61.parquet",
+      "sha256": "7b0416f9c9c318ef6286ab7db1a51ad494a26ce464adac586794246e33d153a4",
+      "raw_numpy_sha256": "8c9627c7ec7b0c52063f460ff06fd66039b772232388e381ac0dc8c481b2494c",
+      "rows": 5089,
+      "first": "2025-05-12 15:00:00+00:00",
+      "last": "2025-05-12 15:30:59.748000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_62": {
+      "path": "tails\\FOLLOWUP_62.parquet",
+      "sha256": "cd85d52e67058c5d8390ce37e710408070fc488803a22d68df70b019b5d345de",
+      "raw_numpy_sha256": "49d60261d587c08d1bbd9d87bb2f61cb4d0b60390ee12e959c5b3884f360da3f",
+      "rows": 5487,
+      "first": "2025-09-02 15:00:00.036000+00:00",
+      "last": "2025-09-02 15:30:58.484000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_63": {
+      "path": "tails\\FOLLOWUP_63.parquet",
+      "sha256": "33a8d520f02c6c885abc336ec079920488c521b5bfa558efd37442c672876599",
+      "raw_numpy_sha256": "3ecd1903ce4feeb21737e268f41bbcf0104ad5a5a989eb438511de9e8400dafc",
+      "rows": 1686,
+      "first": "2025-10-06 15:00:00.048000+00:00",
+      "last": "2025-10-06 15:30:59.873000+00:00",
+      "broker_clock_offset_hours": 3
+    },
+    "FOLLOWUP_64": {
+      "path": "tails\\FOLLOWUP_64.parquet",
+      "sha256": "7263497b3def79a32c8c935c0d4e6dc1e95b4aaf95d9311530b3dcd8e8ff52ac",
+      "raw_numpy_sha256": "2d57d6bf30d14eef0c4e45da704b95a668c7867251873060acde75a59f929842",
+      "rows": 3008,
+      "first": "2025-10-13 15:00:00.094000+00:00",
+      "last": "2025-10-13 15:30:58.897000+00:00",
+      "broker_clock_offset_hours": 3
+    }
+  },
+  "complete": true
+}

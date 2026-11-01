@@ -1,0 +1,10 @@
+{
+  "proposals": 57,
+  "all_price_levels_on_grid": true,
+  "minimum_RR_rechecked": true,
+  "maximum_risk_ratio": 1.0250569476082005,
+  "old_returns_reused": false,
+  "lifecycle_replayed": false,
+  "broker_order_acceptance_verified": false,
+  "live_changed": false
+}

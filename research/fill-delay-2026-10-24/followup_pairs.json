@@ -1,0 +1,2082 @@
+[
+  {
+    "day": "2025-04-01",
+    "month": "2025-04",
+    "spread_pips": 0.2,
+    "case_id": "0",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-01",
+    "month": "2025-04",
+    "spread_pips": 0.5,
+    "case_id": "0",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-01",
+    "month": "2025-04",
+    "spread_pips": 0.9,
+    "case_id": "0",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-01",
+    "month": "2025-04",
+    "spread_pips": 1.5,
+    "case_id": "0",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-08",
+    "month": "2025-04",
+    "spread_pips": 0.2,
+    "case_id": "1",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-08",
+    "month": "2025-04",
+    "spread_pips": 0.5,
+    "case_id": "1",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-08",
+    "month": "2025-04",
+    "spread_pips": 0.9,
+    "case_id": "1",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-08",
+    "month": "2025-04",
+    "spread_pips": 1.5,
+    "case_id": "1",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-10",
+    "month": "2025-04",
+    "spread_pips": 0.2,
+    "case_id": "2",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-10",
+    "month": "2025-04",
+    "spread_pips": 0.5,
+    "case_id": "2",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-10",
+    "month": "2025-04",
+    "spread_pips": 0.9,
+    "case_id": "2",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-10",
+    "month": "2025-04",
+    "spread_pips": 1.5,
+    "case_id": "2",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-16",
+    "month": "2025-04",
+    "spread_pips": 0.2,
+    "case_id": "3",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-16",
+    "month": "2025-04",
+    "spread_pips": 0.5,
+    "case_id": "3",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-16",
+    "month": "2025-04",
+    "spread_pips": 0.9,
+    "case_id": "3",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-16",
+    "month": "2025-04",
+    "spread_pips": 1.5,
+    "case_id": "3",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-30",
+    "month": "2025-04",
+    "spread_pips": 0.2,
+    "case_id": "4",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-30",
+    "month": "2025-04",
+    "spread_pips": 0.5,
+    "case_id": "4",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-30",
+    "month": "2025-04",
+    "spread_pips": 0.9,
+    "case_id": "4",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-30",
+    "month": "2025-04",
+    "spread_pips": 1.5,
+    "case_id": "4",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "5",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "5",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "5",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "5",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "6",
+    "removed": true,
+    "delta_r": -0.2852459016393633
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "6",
+    "removed": true,
+    "delta_r": -0.28032786885244587
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "6",
+    "removed": true,
+    "delta_r": -0.2737704918032954
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "6",
+    "removed": true,
+    "delta_r": -0.2639344262294968
+  },
+  {
+    "day": "2025-05-19",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "7",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-19",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "7",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-19",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "7",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-19",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "7",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-22",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "8",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-22",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "8",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-22",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "8",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-22",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "8",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-23",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "9",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-23",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "9",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-23",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "9",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-23",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "9",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-27",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "10",
+    "removed": true,
+    "delta_r": 0.10769230769229268
+  },
+  {
+    "day": "2025-05-27",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "10",
+    "removed": true,
+    "delta_r": 0.13076923076936556
+  },
+  {
+    "day": "2025-05-27",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "10",
+    "removed": true,
+    "delta_r": 0.16153846153845441
+  },
+  {
+    "day": "2025-05-27",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "10",
+    "removed": true,
+    "delta_r": 0.20769230769242933
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "11",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "11",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "11",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "11",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-03",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "12",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-03",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "12",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-03",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "12",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-03",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "12",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-12",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "13",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-12",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "13",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-12",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "13",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-12",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "13",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-18",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "14",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-18",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "14",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-18",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "14",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-18",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "14",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-22",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "15",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-22",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "15",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-22",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "15",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-22",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "15",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-24",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "16",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-24",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "16",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-24",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "16",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-24",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "16",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-29",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "17",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-29",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "17",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-29",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "17",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-29",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "17",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-01",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "18",
+    "removed": true,
+    "delta_r": 0.05714285714272435
+  },
+  {
+    "day": "2025-10-01",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "18",
+    "removed": true,
+    "delta_r": 0.07857142857143512
+  },
+  {
+    "day": "2025-10-01",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "18",
+    "removed": true,
+    "delta_r": 0.10714285714273228
+  },
+  {
+    "day": "2025-10-01",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "18",
+    "removed": true,
+    "delta_r": 0.14999999999999522
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "19",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "19",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "19",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "19",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-08",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "20",
+    "removed": true,
+    "delta_r": 1.0666666666665563
+  },
+  {
+    "day": "2025-10-08",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "20",
+    "removed": true,
+    "delta_r": 1.0666666666665563
+  },
+  {
+    "day": "2025-10-08",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "20",
+    "removed": true,
+    "delta_r": 1.0666666666665563
+  },
+  {
+    "day": "2025-10-08",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "20",
+    "removed": true,
+    "delta_r": 0.2555555555554234
+  },
+  {
+    "day": "2025-10-16",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "21",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-16",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "21",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-16",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "21",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-16",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "21",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-24",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "22",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-24",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "22",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-24",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "22",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-24",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "22",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-08",
+    "month": "2025-04",
+    "spread_pips": 0.2,
+    "case_id": "23",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-08",
+    "month": "2025-04",
+    "spread_pips": 0.5,
+    "case_id": "23",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-08",
+    "month": "2025-04",
+    "spread_pips": 0.9,
+    "case_id": "23",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-08",
+    "month": "2025-04",
+    "spread_pips": 1.5,
+    "case_id": "23",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "24",
+    "removed": true,
+    "delta_r": 0.02999999999993779
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "24",
+    "removed": true,
+    "delta_r": 0.02999999999993779
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "24",
+    "removed": true,
+    "delta_r": -1.5600000000002177
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "24",
+    "removed": true,
+    "delta_r": -1.5600000000002177
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "25",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "25",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "25",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "25",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-23",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "26",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-23",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "26",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-23",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "26",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-23",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "26",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "27",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "27",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "27",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "27",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-03",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "28",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-03",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "28",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-03",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "28",
+    "removed": true,
+    "delta_r": 0.16666666666660251
+  },
+  {
+    "day": "2025-09-03",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "28",
+    "removed": true,
+    "delta_r": -1.63333333333312
+  },
+  {
+    "day": "2025-09-09",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "29",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-09",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "29",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-09",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "29",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-09",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "29",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-12",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "30",
+    "removed": true,
+    "delta_r": -0.975000000000012
+  },
+  {
+    "day": "2025-09-12",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "30",
+    "removed": true,
+    "delta_r": -0.975000000000012
+  },
+  {
+    "day": "2025-09-12",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "30",
+    "removed": true,
+    "delta_r": -0.975000000000012
+  },
+  {
+    "day": "2025-09-12",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "30",
+    "removed": true,
+    "delta_r": -0.975000000000012
+  },
+  {
+    "day": "2025-09-22",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "31",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-22",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "31",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-22",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "31",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-22",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "31",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-23",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "32",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-23",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "32",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-23",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "32",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-23",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "32",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-25",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "33",
+    "removed": true,
+    "delta_r": 0.4874999999997315
+  },
+  {
+    "day": "2025-09-25",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "33",
+    "removed": true,
+    "delta_r": 0.5249999999999708
+  },
+  {
+    "day": "2025-09-25",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "33",
+    "removed": true,
+    "delta_r": 0.5749999999997348
+  },
+  {
+    "day": "2025-09-25",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "33",
+    "removed": true,
+    "delta_r": 0.6499999999999361
+  },
+  {
+    "day": "2025-10-01",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "34",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-01",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "34",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-01",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "34",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-01",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "34",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "35",
+    "removed": true,
+    "delta_r": 1.0333333333332824
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "35",
+    "removed": true,
+    "delta_r": 1.0333333333332824
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "35",
+    "removed": true,
+    "delta_r": 1.0333333333332824
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "35",
+    "removed": true,
+    "delta_r": 1.0333333333332824
+  },
+  {
+    "day": "2025-10-09",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "36",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-09",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "36",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-09",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "36",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-09",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "36",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-21",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "37",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-21",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "37",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-21",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "37",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-21",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "37",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-27",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "38",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-27",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "38",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-27",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "38",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-27",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "38",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-17",
+    "month": "2025-04",
+    "spread_pips": 0.2,
+    "case_id": "39",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-17",
+    "month": "2025-04",
+    "spread_pips": 0.5,
+    "case_id": "39",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-17",
+    "month": "2025-04",
+    "spread_pips": 0.9,
+    "case_id": "39",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-17",
+    "month": "2025-04",
+    "spread_pips": 1.5,
+    "case_id": "39",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "40",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "40",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "40",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "40",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "41",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "41",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "41",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "41",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-09",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "42",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-09",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "42",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-09",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "42",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-09",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "42",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-22",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "43",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-22",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "43",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-22",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "43",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-22",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "43",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-16",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "44",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-16",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "44",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-16",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "44",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-16",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "44",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "45",
+    "removed": true,
+    "delta_r": 0.03860493333331773
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "45",
+    "removed": true,
+    "delta_r": 0.0686043333332933
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "45",
+    "removed": true,
+    "delta_r": 0.0686043333332933
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "45",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-19",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "46",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-19",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "46",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-19",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "46",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-19",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "46",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "47",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "47",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "47",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "47",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-25",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "48",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-25",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "48",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-25",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "48",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-25",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "48",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "49",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "49",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "49",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "49",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-13",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "50",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-13",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "50",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-13",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "50",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-13",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "50",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-21",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "51",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-21",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "51",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-21",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "51",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-21",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "51",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "52",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "52",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "52",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-06",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "52",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "53",
+    "removed": true,
+    "delta_r": 0.021652342857157735
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "53",
+    "removed": true,
+    "delta_r": 0.021652342857157735
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "53",
+    "removed": true,
+    "delta_r": -0.029775199999982828
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "53",
+    "removed": true,
+    "delta_r": -0.029775199999982828
+  },
+  {
+    "day": "2025-09-08",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "54",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-08",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "54",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-08",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "54",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-08",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "54",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-25",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "55",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-25",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "55",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-25",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "55",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-25",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "55",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "56",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "56",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "56",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "56",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-13",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "57",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-13",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "57",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-13",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "57",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-13",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "57",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-23",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "58",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-23",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "58",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-23",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "58",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-23",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "58",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-15",
+    "month": "2025-04",
+    "spread_pips": 0.2,
+    "case_id": "59",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-15",
+    "month": "2025-04",
+    "spread_pips": 0.5,
+    "case_id": "59",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-15",
+    "month": "2025-04",
+    "spread_pips": 0.9,
+    "case_id": "59",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-15",
+    "month": "2025-04",
+    "spread_pips": 1.5,
+    "case_id": "59",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-16",
+    "month": "2025-04",
+    "spread_pips": 0.2,
+    "case_id": "60",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-16",
+    "month": "2025-04",
+    "spread_pips": 0.5,
+    "case_id": "60",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-16",
+    "month": "2025-04",
+    "spread_pips": 0.9,
+    "case_id": "60",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-04-16",
+    "month": "2025-04",
+    "spread_pips": 1.5,
+    "case_id": "60",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.2,
+    "case_id": "61",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.5,
+    "case_id": "61",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 0.9,
+    "case_id": "61",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-05-12",
+    "month": "2025-05",
+    "spread_pips": 1.5,
+    "case_id": "61",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 0.2,
+    "case_id": "62",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 0.5,
+    "case_id": "62",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 0.9,
+    "case_id": "62",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-09-02",
+    "month": "2025-09",
+    "spread_pips": 1.5,
+    "case_id": "62",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "63",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "63",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "63",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-06",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "63",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-13",
+    "month": "2025-10",
+    "spread_pips": 0.2,
+    "case_id": "64",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-13",
+    "month": "2025-10",
+    "spread_pips": 0.5,
+    "case_id": "64",
+    "removed": false,
+    "delta_r": 0.0
+  },
+  {
+    "day": "2025-10-13",
+    "month": "2025-10",
+    "spread_pips": 0.9,
+    "case_id": "64",
+    "removed": true,
+    "delta_r": 0.2641509433962458
+  },
+  {
+    "day": "2025-10-13",
+    "month": "2025-10",
+    "spread_pips": 1.5,
+    "case_id": "64",
+    "removed": true,
+    "delta_r": 1.1132075471698664
+  }
+]

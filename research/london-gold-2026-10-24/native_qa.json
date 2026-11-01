@@ -1,0 +1,894 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "date": "2025-01-02",
+      "price_direction_match": true,
+      "bid_flag_count": 4172,
+      "native_volume": 4172,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-03",
+      "price_direction_match": true,
+      "bid_flag_count": 5479,
+      "native_volume": 5479,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-06",
+      "price_direction_match": true,
+      "bid_flag_count": 3989,
+      "native_volume": 3989,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-07",
+      "price_direction_match": true,
+      "bid_flag_count": 8509,
+      "native_volume": 8509,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-08",
+      "price_direction_match": true,
+      "bid_flag_count": 5246,
+      "native_volume": 5246,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-09",
+      "price_direction_match": true,
+      "bid_flag_count": 8459,
+      "native_volume": 8459,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-10",
+      "price_direction_match": true,
+      "bid_flag_count": 5374,
+      "native_volume": 5374,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-13",
+      "price_direction_match": true,
+      "bid_flag_count": 10973,
+      "native_volume": 10973,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-14",
+      "price_direction_match": true,
+      "bid_flag_count": 7030,
+      "native_volume": 7030,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-15",
+      "price_direction_match": true,
+      "bid_flag_count": 7653,
+      "native_volume": 7653,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-16",
+      "price_direction_match": true,
+      "bid_flag_count": 9242,
+      "native_volume": 9242,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-17",
+      "price_direction_match": true,
+      "bid_flag_count": 9273,
+      "native_volume": 9273,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-20",
+      "price_direction_match": true,
+      "bid_flag_count": 8173,
+      "native_volume": 8173,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-21",
+      "price_direction_match": true,
+      "bid_flag_count": 14458,
+      "native_volume": 14458,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-22",
+      "price_direction_match": true,
+      "bid_flag_count": 9911,
+      "native_volume": 9911,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-23",
+      "price_direction_match": true,
+      "bid_flag_count": 6603,
+      "native_volume": 6603,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-24",
+      "price_direction_match": true,
+      "bid_flag_count": 8720,
+      "native_volume": 8720,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-27",
+      "price_direction_match": true,
+      "bid_flag_count": 12764,
+      "native_volume": 12764,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-28",
+      "price_direction_match": true,
+      "bid_flag_count": 8018,
+      "native_volume": 8018,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-29",
+      "price_direction_match": true,
+      "bid_flag_count": 8107,
+      "native_volume": 8107,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-30",
+      "price_direction_match": true,
+      "bid_flag_count": 8363,
+      "native_volume": 8363,
+      "volume_match": true
+    },
+    {
+      "date": "2025-01-31",
+      "price_direction_match": true,
+      "bid_flag_count": 8902,
+      "native_volume": 8902,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-03",
+      "price_direction_match": true,
+      "bid_flag_count": 13631,
+      "native_volume": 13631,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-04",
+      "price_direction_match": true,
+      "bid_flag_count": 13816,
+      "native_volume": 13816,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-05",
+      "price_direction_match": true,
+      "bid_flag_count": 10559,
+      "native_volume": 10559,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-06",
+      "price_direction_match": true,
+      "bid_flag_count": 13247,
+      "native_volume": 13247,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-07",
+      "price_direction_match": true,
+      "bid_flag_count": 5935,
+      "native_volume": 5935,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-10",
+      "price_direction_match": true,
+      "bid_flag_count": 8224,
+      "native_volume": 8224,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-11",
+      "price_direction_match": true,
+      "bid_flag_count": 8508,
+      "native_volume": 8508,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-12",
+      "price_direction_match": true,
+      "bid_flag_count": 10517,
+      "native_volume": 10517,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-13",
+      "price_direction_match": true,
+      "bid_flag_count": 8884,
+      "native_volume": 8884,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-14",
+      "price_direction_match": true,
+      "bid_flag_count": 9208,
+      "native_volume": 9208,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-17",
+      "price_direction_match": true,
+      "bid_flag_count": 5994,
+      "native_volume": 5994,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-18",
+      "price_direction_match": true,
+      "bid_flag_count": 8188,
+      "native_volume": 8188,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-19",
+      "price_direction_match": true,
+      "bid_flag_count": 3223,
+      "native_volume": 3223,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-20",
+      "price_direction_match": true,
+      "bid_flag_count": 8598,
+      "native_volume": 8598,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-21",
+      "price_direction_match": true,
+      "bid_flag_count": 8818,
+      "native_volume": 8818,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-24",
+      "price_direction_match": true,
+      "bid_flag_count": 5983,
+      "native_volume": 5983,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-25",
+      "price_direction_match": true,
+      "bid_flag_count": 9538,
+      "native_volume": 9538,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-26",
+      "price_direction_match": true,
+      "bid_flag_count": 5020,
+      "native_volume": 5020,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-27",
+      "price_direction_match": true,
+      "bid_flag_count": 10634,
+      "native_volume": 10634,
+      "volume_match": true
+    },
+    {
+      "date": "2025-02-28",
+      "price_direction_match": true,
+      "bid_flag_count": 10132,
+      "native_volume": 10132,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-03",
+      "price_direction_match": true,
+      "bid_flag_count": 5645,
+      "native_volume": 5645,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-04",
+      "price_direction_match": true,
+      "bid_flag_count": 8602,
+      "native_volume": 8602,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-05",
+      "price_direction_match": true,
+      "bid_flag_count": 8021,
+      "native_volume": 8021,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-06",
+      "price_direction_match": true,
+      "bid_flag_count": 7881,
+      "native_volume": 7881,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-07",
+      "price_direction_match": true,
+      "bid_flag_count": 6968,
+      "native_volume": 6968,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-10",
+      "price_direction_match": true,
+      "bid_flag_count": 9726,
+      "native_volume": 9726,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-11",
+      "price_direction_match": true,
+      "bid_flag_count": 8389,
+      "native_volume": 8389,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-12",
+      "price_direction_match": true,
+      "bid_flag_count": 8431,
+      "native_volume": 8431,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-13",
+      "price_direction_match": true,
+      "bid_flag_count": 7401,
+      "native_volume": 7401,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-14",
+      "price_direction_match": true,
+      "bid_flag_count": 7743,
+      "native_volume": 7743,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-17",
+      "price_direction_match": true,
+      "bid_flag_count": 2773,
+      "native_volume": 2773,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-18",
+      "price_direction_match": true,
+      "bid_flag_count": 6686,
+      "native_volume": 6686,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-19",
+      "price_direction_match": true,
+      "bid_flag_count": 5499,
+      "native_volume": 5499,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-20",
+      "price_direction_match": true,
+      "bid_flag_count": 4661,
+      "native_volume": 4661,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-21",
+      "price_direction_match": true,
+      "bid_flag_count": 5121,
+      "native_volume": 5121,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-24",
+      "price_direction_match": true,
+      "bid_flag_count": 8279,
+      "native_volume": 8279,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-25",
+      "price_direction_match": true,
+      "bid_flag_count": 8079,
+      "native_volume": 8079,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-26",
+      "price_direction_match": true,
+      "bid_flag_count": 5073,
+      "native_volume": 5073,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-27",
+      "price_direction_match": true,
+      "bid_flag_count": 7701,
+      "native_volume": 7701,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-28",
+      "price_direction_match": true,
+      "bid_flag_count": 8406,
+      "native_volume": 8406,
+      "volume_match": true
+    },
+    {
+      "date": "2025-03-31",
+      "price_direction_match": true,
+      "bid_flag_count": 11593,
+      "native_volume": 11593,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-01",
+      "price_direction_match": true,
+      "bid_flag_count": 7531,
+      "native_volume": 7531,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-02",
+      "price_direction_match": true,
+      "bid_flag_count": 7289,
+      "native_volume": 7289,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-03",
+      "price_direction_match": true,
+      "bid_flag_count": 9585,
+      "native_volume": 9585,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-04",
+      "price_direction_match": true,
+      "bid_flag_count": 8774,
+      "native_volume": 8774,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-07",
+      "price_direction_match": true,
+      "bid_flag_count": 11661,
+      "native_volume": 11661,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-08",
+      "price_direction_match": true,
+      "bid_flag_count": 7782,
+      "native_volume": 7782,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-09",
+      "price_direction_match": true,
+      "bid_flag_count": 8201,
+      "native_volume": 8201,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-10",
+      "price_direction_match": true,
+      "bid_flag_count": 4818,
+      "native_volume": 4818,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-11",
+      "price_direction_match": true,
+      "bid_flag_count": 7003,
+      "native_volume": 7003,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-14",
+      "price_direction_match": true,
+      "bid_flag_count": 4303,
+      "native_volume": 4303,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-15",
+      "price_direction_match": true,
+      "bid_flag_count": 3498,
+      "native_volume": 3498,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-16",
+      "price_direction_match": true,
+      "bid_flag_count": 5887,
+      "native_volume": 5887,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-17",
+      "price_direction_match": true,
+      "bid_flag_count": 6086,
+      "native_volume": 6086,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-21",
+      "price_direction_match": true,
+      "bid_flag_count": 6831,
+      "native_volume": 6831,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-22",
+      "price_direction_match": true,
+      "bid_flag_count": 13365,
+      "native_volume": 13365,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-23",
+      "price_direction_match": true,
+      "bid_flag_count": 9980,
+      "native_volume": 9980,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-24",
+      "price_direction_match": true,
+      "bid_flag_count": 9016,
+      "native_volume": 9016,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-25",
+      "price_direction_match": true,
+      "bid_flag_count": 6981,
+      "native_volume": 6981,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-28",
+      "price_direction_match": true,
+      "bid_flag_count": 4915,
+      "native_volume": 4915,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-29",
+      "price_direction_match": true,
+      "bid_flag_count": 4012,
+      "native_volume": 4012,
+      "volume_match": true
+    },
+    {
+      "date": "2025-04-30",
+      "price_direction_match": true,
+      "bid_flag_count": 2744,
+      "native_volume": 2744,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-01",
+      "price_direction_match": true,
+      "bid_flag_count": 6721,
+      "native_volume": 6721,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-02",
+      "price_direction_match": true,
+      "bid_flag_count": 6892,
+      "native_volume": 6892,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-05",
+      "price_direction_match": true,
+      "bid_flag_count": 8430,
+      "native_volume": 8430,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-06",
+      "price_direction_match": true,
+      "bid_flag_count": 10027,
+      "native_volume": 10027,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-07",
+      "price_direction_match": true,
+      "bid_flag_count": 8200,
+      "native_volume": 8200,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-08",
+      "price_direction_match": true,
+      "bid_flag_count": 11531,
+      "native_volume": 11531,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-09",
+      "price_direction_match": true,
+      "bid_flag_count": 9044,
+      "native_volume": 9044,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-12",
+      "price_direction_match": true,
+      "bid_flag_count": 18594,
+      "native_volume": 18594,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-13",
+      "price_direction_match": true,
+      "bid_flag_count": 8328,
+      "native_volume": 8328,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-14",
+      "price_direction_match": true,
+      "bid_flag_count": 9767,
+      "native_volume": 9767,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-15",
+      "price_direction_match": true,
+      "bid_flag_count": 9691,
+      "native_volume": 9691,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-16",
+      "price_direction_match": true,
+      "bid_flag_count": 8751,
+      "native_volume": 8751,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-19",
+      "price_direction_match": true,
+      "bid_flag_count": 8194,
+      "native_volume": 8194,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-20",
+      "price_direction_match": true,
+      "bid_flag_count": 8098,
+      "native_volume": 8098,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-21",
+      "price_direction_match": true,
+      "bid_flag_count": 8861,
+      "native_volume": 8861,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-22",
+      "price_direction_match": true,
+      "bid_flag_count": 3677,
+      "native_volume": 3677,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-23",
+      "price_direction_match": true,
+      "bid_flag_count": 4238,
+      "native_volume": 4238,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-26",
+      "price_direction_match": true,
+      "bid_flag_count": 7879,
+      "native_volume": 7879,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-27",
+      "price_direction_match": true,
+      "bid_flag_count": 21341,
+      "native_volume": 21341,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-28",
+      "price_direction_match": true,
+      "bid_flag_count": 15603,
+      "native_volume": 15603,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-29",
+      "price_direction_match": true,
+      "bid_flag_count": 13030,
+      "native_volume": 13030,
+      "volume_match": true
+    },
+    {
+      "date": "2025-05-30",
+      "price_direction_match": true,
+      "bid_flag_count": 20367,
+      "native_volume": 20367,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-02",
+      "price_direction_match": true,
+      "bid_flag_count": 19913,
+      "native_volume": 19913,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-03",
+      "price_direction_match": true,
+      "bid_flag_count": 18430,
+      "native_volume": 18430,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-04",
+      "price_direction_match": true,
+      "bid_flag_count": 10062,
+      "native_volume": 10062,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-05",
+      "price_direction_match": true,
+      "bid_flag_count": 7751,
+      "native_volume": 7751,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-06",
+      "price_direction_match": true,
+      "bid_flag_count": 11339,
+      "native_volume": 11339,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-09",
+      "price_direction_match": true,
+      "bid_flag_count": 7638,
+      "native_volume": 7638,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-10",
+      "price_direction_match": true,
+      "bid_flag_count": 9827,
+      "native_volume": 9827,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-11",
+      "price_direction_match": true,
+      "bid_flag_count": 7829,
+      "native_volume": 7829,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-12",
+      "price_direction_match": true,
+      "bid_flag_count": 8042,
+      "native_volume": 8042,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-13",
+      "price_direction_match": true,
+      "bid_flag_count": 12057,
+      "native_volume": 12057,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-16",
+      "price_direction_match": true,
+      "bid_flag_count": 9487,
+      "native_volume": 9487,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-17",
+      "price_direction_match": true,
+      "bid_flag_count": 8901,
+      "native_volume": 8901,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-18",
+      "price_direction_match": true,
+      "bid_flag_count": 7252,
+      "native_volume": 7252,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-19",
+      "price_direction_match": true,
+      "bid_flag_count": 8450,
+      "native_volume": 8450,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-20",
+      "price_direction_match": true,
+      "bid_flag_count": 8980,
+      "native_volume": 8980,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-23",
+      "price_direction_match": true,
+      "bid_flag_count": 7199,
+      "native_volume": 7199,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-24",
+      "price_direction_match": true,
+      "bid_flag_count": 11177,
+      "native_volume": 11177,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-25",
+      "price_direction_match": true,
+      "bid_flag_count": 7503,
+      "native_volume": 7503,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-26",
+      "price_direction_match": true,
+      "bid_flag_count": 7554,
+      "native_volume": 7554,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-27",
+      "price_direction_match": true,
+      "bid_flag_count": 8726,
+      "native_volume": 8726,
+      "volume_match": true
+    },
+    {
+      "date": "2025-06-30",
+      "price_direction_match": true,
+      "bid_flag_count": 6858,
+      "native_volume": 6858,
+      "volume_match": true
+    }
+  ]
+}

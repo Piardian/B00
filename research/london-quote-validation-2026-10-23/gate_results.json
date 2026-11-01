@@ -1,0 +1,11 @@
+{
+  "complete_tape": true,
+  "independent_clock": true,
+  "at_least100fills": false,
+  "positive_both_months": true,
+  "observed_ci_lower_positive": false,
+  "positive_stress_1_5x": true,
+  "positive_stress_2x": true,
+  "positive_spread_floor_1pip": true,
+  "research_candidate_gate_passed": false
+}

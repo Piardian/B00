@@ -1,0 +1,28 @@
+{
+  "frozen_at": "2026-10-23 23:15:18.699353+00:00",
+  "sample": "All90 existing first daily setups Feb/Mar/Apr/May/Sep/Oct2025; Jan/Nov excluded because full-day quote tapes not in this locked archive. No selection by PNL or audit result.",
+  "purpose": "Audit fill timing assumptions, NOT new trade PNL, edge proof, live order or latency/queue simulation.",
+  "quote_rule": "Earliest actualask<=buyentry-one tick or actualbid>=sellentry+one tick after original availability, before min(noon,+240min). Same fixed15min cutoff, exclusive boundary. Raw same-ms order preserved.",
+  "quality": "Positive finite noncrossed quotes in pending window;firstpostdecisionquote<=5sec;no gap>60sec before firsthit/expiry;nofill needsquote at expiry within5sec. Stale/unknown UNPRICED, never assumed canceled profit.",
+  "comparison": "Baseline .5pip syntheticspread model fill versus observedquote opportunity; fillminute and TTL15classification. Does not attach old modeledPNL to changed tick fills.",
+  "caveats": [
+    "Archived broker bid/ask quotes, not actual fill receipts or independent executable spread certificate",
+    "Many quote records can show zero spread; no free trading inference",
+    "Trade entry reaction, exit costs and lifecycle not re-simulated; previous negative profit validation unchanged",
+    "Historical observed data; no new OOS claim, no threshold search"
+  ],
+  "source_hashes": {
+    "research\\asia-validation-2026-10-24\\candidates.json": "87c4bed69a2854e74d6f88c1c0e7397d64102dc136e366fdfc4cc4cdf4d78f74",
+    "research\\fill-delay-2026-10-24\\followup_candidates.json": "9a9bcbbf6376ca64255568148c92c3887e578f25fe29b36101df06e2de1ca34e",
+    "research\\fill-delay-2026-10-24\\outcomes.json": "c604e3b3ced3f4d5401ebf114d7021086dbb18e4a33cfcf08e30a4a3b9b6f34d",
+    "research\\fill-delay-2026-10-24\\followup_outcomes.json": "b2f78864b4c403edac8537573e48d2c2e933049f4392c2b4124b47b992c2428f",
+    "research\\london-quote-validation-2026-10-23\\quote_manifest_frozen.json": "df2e1c157c373babc31de34a1f652fad510440485639d963b197175e2a9a6392",
+    "research\\fill-delay-2026-10-24\\followup_source_manifest.json": "f1842f402bb517cfb58825567bc8fc7189697104682665be698dcff14ee99a76"
+  },
+  "code_hashes": {
+    "audit.py": "b4270fe9e8ef92c1ce4c6c0b3ebd9d16eeaae0677c0b917db985022561670690",
+    "study.py": "6ece7f8c77d4f259c6a84c7c00770ef1c69e147125e9c7bc4d7f97ad6a04463f",
+    "test_audit.py": "704f57bda2ea88e95118d24b126bc06043ee90a4972a90693a9ae106b571ffa9"
+  },
+  "cases_sha256": "204a66b7a44c2f203520e2ae4a1ac4d4eea8749cae239b9b96aa99b13f09dcfa"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE_RESEARCH_WITH_KNOWN_COVERAGE_LIMITS",
+  "days": 456,
+  "orders_sent": false,
+  "live_approved": false,
+  "sha256": {
+    "protocol_frozen.json": "834ab2c19b7ed2f4aed25edf7f8ffc84a49de03cb7d3fd32679599509a5df0d3",
+    "features.json": "21543c1492ed2ddc49999439880e591dffeddf625cd3d7f63ab0bdd9237b0a96",
+    "outcomes.json": "80a695f334597c336f806b9aaa6e4125fbe8f2b5f4f74ca1d71c410fc19f2272",
+    "results.json": "4165aefc6c03d770bd71737aaefcf85bc27ae81bc85409804fc1635ad83c23af",
+    "integrity.json": "a3b2ac4d68d3484c7fb9504c24c58a98982784e663d2bfa92420bdbaf470c274",
+    "SONUC.md": "c1af1b1f3876a31d281d646f7fc77961b240dcca564f8ad5c2331adf7eaebe6a"
+  }
+}

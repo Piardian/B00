@@ -1,0 +1,27 @@
+{
+  "confirmation_checks": {
+    "structure_calls": 70,
+    "breaker_pass": 63,
+    "ifvg_pass": 13,
+    "both_pass": 10,
+    "original_confirmation_pass": 10
+  },
+  "periods": {
+    "DEVELOPMENT": {
+      "structure_calls": 43,
+      "breaker_pass": 41,
+      "ifvg_pass": 9,
+      "both_pass": 8,
+      "original_confirmation_pass": 8
+    },
+    "VALIDATION": {
+      "structure_calls": 27,
+      "breaker_pass": 22,
+      "ifvg_pass": 4,
+      "both_pass": 2,
+      "original_confirmation_pass": 2
+    }
+  },
+  "interpretation": "Checks are nested sweep/pool attempts, NOT unique trades. Volumes are reported by strict SFP but are not an independent veto in _detect_confirmed_sfp. IFVG absent in57/70 confirmation checks; this is a frequency bottleneck, NOT proof this filter destroys alpha. Original CE source guard rejected2 of10 structurally confirmed attempts.",
+  "caveat": "Upstream rejection reasons (wick, pool, sweep, trend, trigger, body) not instrumented individually. No claim all lost opportunities would have been profitable."
+}

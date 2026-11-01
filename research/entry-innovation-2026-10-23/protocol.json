@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-23 20:42:28.839397+00:00",
+  "policies": [
+    "passive",
+    "reaction_retest",
+    "break_retest"
+  ],
+  "spreads_pips": [
+    0.2,
+    0.5,
+    0.9,
+    1.5
+  ],
+  "primary_spread_pips": 0.5,
+  "market_exit_slippage_pips": 0.2,
+  "commission_usd_roundtrip_per_100k": 4,
+  "candidates": "Existing opening-only audit; first normalized setup per symbol/London date, chosen before outcomes; consumes date even if no order",
+  "target_correction": "Outward tick rounding to minimum 1.2R/2R; original entry and stop unchanged",
+  "quotes": "Canonical bid M1 plus assumed constant ask spread. Strict one tick penetration. Not historical spread calibration.",
+  "lifecycle": "All policies retain adverse fill-bar reaction exit, stop-first, no fill-bar TP. Half at TP1; BE then 1.5R activation for .75R trailing, subsequent bars only.",
+  "new_exit": "Flatten at London 16:30 M1 open; pending expires min(noon, availability+4h). New research contract, not original production lifecycle.",
+  "primary_cohort": "All first daily setups; paired identical candidate set across policies and costs",
+  "secondary_cohort": "Predefined HTF-aligned and engine-session-open among same first daily setups",
+  "evaluation": "January/June 2025 development, November retrospective check; all previously observed, no genuine OOS claim",
+  "missing_data": "Any missing minute before terminal outcome unresolved; no profit assigned; closed sums not valid whole basket if unresolved",
+  "limitations": [
+    "No macro/news gates, shared risk, funding or swap; new intraday flatten avoids overnight swap",
+    "Independent candidate research, not full-bot or executable portfolio",
+    "Constant spread assumptions and 1m ambiguity, not broker tick fills",
+    "No parameter search beyond predeclared policies and cost sensitivity"
+  ],
+  "decision": "No live promotion. Candidate for next separate validation only if positive at primary and adverse costs with no unresolved cases and positive retrospective month; never call small N edge proof.",
+  "hashes": {
+    "research\\entry-innovation-2026-10-23\\study.py": "1a6f5585c0ce719a057adb4f31de023784d2dbc78493a15708d5650e0d2b8742",
+    "research\\entry-innovation-2026-10-23\\quote_engine.py": "c1b2cded094bf5c3ed40f50d950a356a942adc8d003d97bf1cdcebd048fac989",
+    "research\\entry-innovation-2026-10-23\\price_rules.py": "16a0956e7734284a81beba30c3a34380e00a9fd44efc50e090e2387863689221",
+    "research\\entry-innovation-2026-10-23\\test_quote_engine.py": "2e1401adc06a2c9d88ae96303661de41d01d6dd4077c44e7ccbaf90501875e74",
+    "research\\entry-innovation-2026-10-23\\candidates_frozen.json": "e38a3287f869f88a1af38c7804cf7c51abc26250de8dfe7e09daa87ab281ba79",
+    "data\\full_2025_study\\prices_utc\\EURUSD_1m.csv.gz": "accd55f5f6d2d996489f6549040e4e78c88ca3a2c2528d941843fe02d6c7b30c",
+    "data\\full_2025_study\\prices_utc\\GBPUSD_1m.csv.gz": "2ede9d4387615552fa24a32a42850b18d9b1a974bfdae47353c67f0835b89dc4",
+    "data\\full_2025_study\\prices_utc\\USDJPY_1m.csv.gz": "51991dab9c9b2292585b5c647ff40c09da6a51dd6629cac2ef607566b03ce28a",
+    "data\\full_2025_study\\prices_utc\\USDCAD_1m.csv.gz": "8c8466a32c579ba0dde1dffe2c8c6bdee6b3dc10d1c5bf4f66094eeaf8b90047",
+    "data\\full_2025_study\\prices_utc\\USDCHF_1m.csv.gz": "5534a56aab48b500dbde1848f5ed074baa9e0ed7ab82db9de44fcf17983b0e71",
+    "data\\full_2025_study\\prices_utc\\NZDUSD_1m.csv.gz": "49a5ea1c75f7323646948998bc144105ed7834ea9c20381a1e36c921bdcd1e53"
+  }
+}

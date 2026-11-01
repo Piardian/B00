@@ -1,0 +1,1172 @@
+[
+  {
+    "setup_id": 0,
+    "symbol": "EURUSD",
+    "day": "2025-01-02",
+    "features": {
+      "london_time": "2025-01-02 08:30:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "ALIGNED",
+      "asia": "GT_0_35_ATR",
+      "asia_atr_ratio": 0.4496576721707655,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.354,
+      "spread_pips": 0.0,
+      "stop_pips": 13.999999999998458,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.02857142857143172,
+      "total_cost_budget_r": 0.04285714285714758,
+      "weighted_full_target_gross_r": 1.6000000000002697,
+      "full_target_less_cost_budget_r": 1.557142857143122,
+      "binary_full_win_full_loss_breakeven_winrate": 0.4010989010988613,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-02 08:29:59.646000+00:00",
+      "bid": 1.03488,
+      "ask": 1.03488,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 83,
+        "canonical_volume": 83.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 1,
+    "symbol": "GBPUSD",
+    "day": "2025-01-02",
+    "features": {
+      "london_time": "2025-01-02 08:30:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.33293069605918446,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 1.223,
+      "spread_pips": 0.0,
+      "stop_pips": 17.000000000000348,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.023529411764705403,
+      "total_cost_budget_r": 0.0352941176470581,
+      "weighted_full_target_gross_r": 1.6,
+      "full_target_less_cost_budget_r": 1.564705882352942,
+      "binary_full_win_full_loss_breakeven_winrate": 0.3981900452488685,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-02 08:29:58.777000+00:00",
+      "bid": 1.24952,
+      "ask": 1.24952,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 102,
+        "canonical_volume": 102.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 2,
+    "symbol": "EURUSD",
+    "day": "2025-01-03",
+    "features": {
+      "london_time": "2025-01-03 09:15:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.13154016212233138,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.64,
+      "spread_pips": 0.0,
+      "stop_pips": 9.999999999998899,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.04000000000000441,
+      "total_cost_budget_r": 0.06000000000000661,
+      "weighted_full_target_gross_r": 1.6000000000002221,
+      "full_target_less_cost_budget_r": 1.5400000000002154,
+      "binary_full_win_full_loss_breakeven_winrate": 0.40769230769227544,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-03 09:14:59.360000+00:00",
+      "bid": 1.02932,
+      "ask": 1.02932,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 90,
+        "canonical_volume": 90.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 3,
+    "symbol": "GBPUSD",
+    "day": "2025-01-06",
+    "features": {
+      "london_time": "2025-01-06 08:30:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.27136116152449447,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.0,
+      "spread_pips": 0.0,
+      "stop_pips": 14.000000000000679,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.02857142857142719,
+      "total_cost_budget_r": 0.04285714285714078,
+      "weighted_full_target_gross_r": 1.6071428571426816,
+      "full_target_less_cost_budget_r": 1.5642857142855409,
+      "binary_full_win_full_loss_breakeven_winrate": 0.40000000000002606,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-06 08:30:00+00:00",
+      "bid": 1.2476099999999999,
+      "ask": 1.2476099999999999,
+      "alignment": {
+        "max_ohlc_error_ticks": 2.2204460492503128e-11,
+        "sampled_ticks": 272,
+        "canonical_volume": 272.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 4,
+    "symbol": "NZDUSD",
+    "day": "2025-01-06",
+    "features": {
+      "london_time": "2025-01-06 08:30:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "NOT_ALIGNED",
+      "asia": "GT_0_35_ATR",
+      "asia_atr_ratio": 0.43138433789268155,
+      "cost_group": "0_10_TO_0_20R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.09,
+      "spread_pips": 0.20000000000020002,
+      "stop_pips": 6.099999999999994,
+      "spread_r": 0.03278688524593446,
+      "commission_budget_r": 0.06557377049180335,
+      "total_cost_budget_r": 0.13114754098363948,
+      "weighted_full_target_gross_r": 1.6065573770492416,
+      "full_target_less_cost_budget_r": 1.475409836065602,
+      "binary_full_win_full_loss_breakeven_winrate": 0.43396226415094585,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-06 08:29:59.910000+00:00",
+      "bid": 0.56347,
+      "ask": 0.56349,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 188,
+        "canonical_volume": 188.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "0_10_TO_0_20R"
+    }
+  },
+  {
+    "setup_id": 5,
+    "symbol": "USDCHF",
+    "day": "2025-01-06",
+    "features": {
+      "london_time": "2025-01-06 08:30:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.238636363636368,
+      "cost_group": "0_10_TO_0_20R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 3.827,
+      "spread_pips": 0.20000000000020002,
+      "stop_pips": 6.799999999999029,
+      "spread_r": 0.029411764705915968,
+      "commission_budget_r": 0.05336705882353703,
+      "total_cost_budget_r": 0.11219058823533955,
+      "weighted_full_target_gross_r": 1.602941176470869,
+      "full_target_less_cost_budget_r": 1.4907505882355294,
+      "binary_full_win_full_loss_breakeven_winrate": 0.42728225988697704,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-06 08:29:56.173000+00:00",
+      "bid": 0.90713,
+      "ask": 0.90715,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 110,
+        "canonical_volume": 110.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "0_10_TO_0_20R"
+    }
+  },
+  {
+    "setup_id": 6,
+    "symbol": "EURUSD",
+    "day": "2025-01-06",
+    "features": {
+      "london_time": "2025-01-06 09:00:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.3014574518100485,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.341,
+      "spread_pips": 0.10000000000065512,
+      "stop_pips": 14.000000000000679,
+      "spread_r": 0.007142857142903591,
+      "commission_budget_r": 0.02857142857142719,
+      "total_cost_budget_r": 0.05000000000004437,
+      "weighted_full_target_gross_r": 1.5999999999998573,
+      "full_target_less_cost_budget_r": 1.5499999999998129,
+      "binary_full_win_full_loss_breakeven_winrate": 0.40384615384619305,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-06 08:59:59.659000+00:00",
+      "bid": 1.035,
+      "ask": 1.03501,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 153,
+        "canonical_volume": 153.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 7,
+    "symbol": "USDJPY",
+    "day": "2025-01-06",
+    "features": {
+      "london_time": "2025-01-06 11:30:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.2597641458401084,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.955,
+      "spread_pips": 0.0,
+      "stop_pips": 19.999999999998863,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.031498000000001795,
+      "total_cost_budget_r": 0.041498000000002366,
+      "weighted_full_target_gross_r": 1.675000000000135,
+      "full_target_less_cost_budget_r": 1.6335020000001328,
+      "binary_full_win_full_loss_breakeven_winrate": 0.38934504672895326,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-06 11:29:59.045000+00:00",
+      "bid": 157.353,
+      "ask": 157.353,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 414,
+        "canonical_volume": 414.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 8,
+    "symbol": "GBPUSD",
+    "day": "2025-01-08",
+    "features": {
+      "london_time": "2025-01-08 08:30:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.1305472365913296,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 1.706,
+      "spread_pips": 0.0,
+      "stop_pips": 13.999999999998458,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.02857142857143172,
+      "total_cost_budget_r": 0.04285714285714758,
+      "weighted_full_target_gross_r": 1.607142857143095,
+      "full_target_less_cost_budget_r": 1.5642857142859474,
+      "binary_full_win_full_loss_breakeven_winrate": 0.3999999999999653,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-08 08:29:58.294000+00:00",
+      "bid": 1.24502,
+      "ask": 1.24502,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 176,
+        "canonical_volume": 176.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 9,
+    "symbol": "EURUSD",
+    "day": "2025-01-08",
+    "features": {
+      "london_time": "2025-01-08 09:00:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.17379474534478528,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.195,
+      "spread_pips": 0.0,
+      "stop_pips": 12.000000000000899,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.03333333333333084,
+      "total_cost_budget_r": 0.04999999999999626,
+      "weighted_full_target_gross_r": 1.6666666666665433,
+      "full_target_less_cost_budget_r": 1.616666666666547,
+      "binary_full_win_full_loss_breakeven_winrate": 0.3937500000000168,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-08 08:59:59.805000+00:00",
+      "bid": 1.0319,
+      "ask": 1.0319,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 231,
+        "canonical_volume": 231.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 10,
+    "symbol": "USDCAD",
+    "day": "2025-01-10",
+    "features": {
+      "london_time": "2025-01-10 09:00:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.2609202096680279,
+      "cost_group": "0_10_TO_0_20R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.46,
+      "spread_pips": 0.1999999999990898,
+      "stop_pips": 8.00000000000134,
+      "spread_r": 0.02499999999988204,
+      "commission_budget_r": 0.07204499999998794,
+      "total_cost_budget_r": 0.12204499999986579,
+      "weighted_full_target_gross_r": 1.599999999999528,
+      "full_target_less_cost_budget_r": 1.4779549999996622,
+      "binary_full_win_full_loss_breakeven_winrate": 0.43155576923079597,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-10 08:59:59.540000+00:00",
+      "bid": 1.44113,
+      "ask": 1.44115,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 145,
+        "canonical_volume": 145.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "0_10_TO_0_20R"
+    }
+  },
+  {
+    "setup_id": 11,
+    "symbol": "GBPUSD",
+    "day": "2025-01-10",
+    "features": {
+      "london_time": "2025-01-10 09:30:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.31070615034169735,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.916,
+      "spread_pips": 0.0,
+      "stop_pips": 10.000000000001119,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.039999999999995525,
+      "total_cost_budget_r": 0.05999999999999329,
+      "weighted_full_target_gross_r": 1.6999999999998447,
+      "full_target_less_cost_budget_r": 1.6399999999998514,
+      "binary_full_win_full_loss_breakeven_winrate": 0.3925925925926127,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-10 09:29:59.084000+00:00",
+      "bid": 1.23016,
+      "ask": 1.23016,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 178,
+        "canonical_volume": 178.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 12,
+    "symbol": "USDCAD",
+    "day": "2025-01-13",
+    "features": {
+      "london_time": "2025-01-13 08:45:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "NOT_ALIGNED",
+      "asia": "GT_0_35_ATR",
+      "asia_atr_ratio": 0.39270516717326,
+      "cost_group": "0_10_TO_0_20R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 3.8129999999999997,
+      "spread_pips": 0.1999999999990898,
+      "stop_pips": 8.00000000000134,
+      "spread_r": 0.02499999999988204,
+      "commission_budget_r": 0.07209999999998792,
+      "total_cost_budget_r": 0.12209999999986577,
+      "weighted_full_target_gross_r": 1.6249999999996878,
+      "full_target_less_cost_budget_r": 1.502899999999822,
+      "binary_full_win_full_loss_breakeven_winrate": 0.4274666666666664,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-13 08:44:56.187000+00:00",
+      "bid": 1.44191,
+      "ask": 1.44193,
+      "alignment": {
+        "max_ohlc_error_ticks": 2.2204460492503128e-11,
+        "sampled_ticks": 194,
+        "canonical_volume": 194.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "0_10_TO_0_20R"
+    }
+  },
+  {
+    "setup_id": 13,
+    "symbol": "EURUSD",
+    "day": "2025-01-13",
+    "features": {
+      "london_time": "2025-01-13 09:30:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "ALIGNED",
+      "asia": "GT_0_35_ATR",
+      "asia_atr_ratio": 0.5439360929557084,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.13,
+      "spread_pips": 0.0,
+      "stop_pips": 23.999999999999577,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.01666666666666696,
+      "total_cost_budget_r": 0.025000000000000442,
+      "weighted_full_target_gross_r": 1.6000000000000094,
+      "full_target_less_cost_budget_r": 1.575000000000009,
+      "binary_full_win_full_loss_breakeven_winrate": 0.39423076923076794,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-13 09:29:59.870000+00:00",
+      "bid": 1.01871,
+      "ask": 1.01871,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 578,
+        "canonical_volume": 578.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 14,
+    "symbol": "NZDUSD",
+    "day": "2025-01-13",
+    "features": {
+      "london_time": "2025-01-13 09:30:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "ALIGNED",
+      "asia": "GT_0_35_ATR",
+      "asia_atr_ratio": 0.5280968643278604,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 1.919,
+      "spread_pips": 0.1999999999990898,
+      "stop_pips": 10.700000000000154,
+      "spread_r": 0.018691588784961393,
+      "commission_budget_r": 0.03738317757009292,
+      "total_cost_budget_r": 0.07476635514010077,
+      "weighted_full_target_gross_r": 1.6028037383177027,
+      "full_target_less_cost_budget_r": 1.528037383177602,
+      "binary_full_win_full_loss_breakeven_winrate": 0.41292639138238124,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-13 09:29:58.081000+00:00",
+      "bid": 0.55439,
+      "ask": 0.55441,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 137,
+        "canonical_volume": 137.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 15,
+    "symbol": "USDCHF",
+    "day": "2025-01-13",
+    "features": {
+      "london_time": "2025-01-13 09:30:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.2775919732441466,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.11,
+      "spread_pips": 0.20000000000020002,
+      "stop_pips": 8.199999999999319,
+      "spread_r": 0.02439024390246544,
+      "commission_budget_r": 0.04475024390244274,
+      "total_cost_budget_r": 0.09353073170734924,
+      "weighted_full_target_gross_r": 1.603658536585512,
+      "full_target_less_cost_budget_r": 1.5101278048781628,
+      "binary_full_win_full_loss_breakeven_winrate": 0.419997751756429,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-13 09:29:59.890000+00:00",
+      "bid": 0.91769,
+      "ask": 0.91771,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 206,
+        "canonical_volume": 206.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 16,
+    "symbol": "GBPUSD",
+    "day": "2025-01-20",
+    "features": {
+      "london_time": "2025-01-20 08:30:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.3377814845704648,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.48,
+      "spread_pips": 0.0,
+      "stop_pips": 9.00000000000123,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.044444444444438375,
+      "total_cost_budget_r": 0.06666666666665756,
+      "weighted_full_target_gross_r": 1.7777777777774626,
+      "full_target_less_cost_budget_r": 1.711111111110805,
+      "binary_full_win_full_loss_breakeven_winrate": 0.3840000000000403,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-20 08:29:59.520000+00:00",
+      "bid": 1.22039,
+      "ask": 1.22039,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 153,
+        "canonical_volume": 153.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 17,
+    "symbol": "EURUSD",
+    "day": "2025-01-22",
+    "features": {
+      "london_time": "2025-01-22 08:45:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.2028052425845202,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.329,
+      "spread_pips": 0.0,
+      "stop_pips": 6.00000000000156,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.06666666666664935,
+      "total_cost_budget_r": 0.09999999999997403,
+      "weighted_full_target_gross_r": 1.599999999999334,
+      "full_target_less_cost_budget_r": 1.4999999999993598,
+      "binary_full_win_full_loss_breakeven_winrate": 0.4230769230770215,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-22 08:44:59.671000+00:00",
+      "bid": 1.04196,
+      "ask": 1.04196,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 224,
+        "canonical_volume": 224.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 18,
+    "symbol": "EURUSD",
+    "day": "2025-01-24",
+    "features": {
+      "london_time": "2025-01-24 08:45:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "NOT_ALIGNED",
+      "asia": "GT_0_35_ATR",
+      "asia_atr_ratio": 0.4855031267765773,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.002,
+      "spread_pips": 0.0,
+      "stop_pips": 20.000000000000018,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.019999999999999983,
+      "total_cost_budget_r": 0.029999999999999975,
+      "weighted_full_target_gross_r": 1.599999999999989,
+      "full_target_less_cost_budget_r": 1.569999999999989,
+      "binary_full_win_full_loss_breakeven_winrate": 0.39615384615384786,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-24 08:44:59.998000+00:00",
+      "bid": 1.04896,
+      "ask": 1.04896,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 366,
+        "canonical_volume": 366.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 19,
+    "symbol": "EURUSD",
+    "day": "2025-01-29",
+    "features": {
+      "london_time": "2025-01-29 09:15:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.2060761660248382,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.147,
+      "spread_pips": 0.0,
+      "stop_pips": 7.999999999999119,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.05000000000000551,
+      "total_cost_budget_r": 0.07500000000000827,
+      "weighted_full_target_gross_r": 1.6875000000002776,
+      "full_target_less_cost_budget_r": 1.6125000000002694,
+      "binary_full_win_full_loss_breakeven_winrate": 0.3999999999999617,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-29 09:14:59.853000+00:00",
+      "bid": 1.04134,
+      "ask": 1.04134,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 140,
+        "canonical_volume": 140.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 20,
+    "symbol": "EURUSD",
+    "day": "2025-01-30",
+    "features": {
+      "london_time": "2025-01-30 09:15:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.13626447390502366,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 1.851,
+      "spread_pips": 0.0,
+      "stop_pips": 12.000000000000899,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.03333333333333084,
+      "total_cost_budget_r": 0.04999999999999626,
+      "weighted_full_target_gross_r": 1.599999999999815,
+      "full_target_less_cost_budget_r": 1.5499999999998186,
+      "binary_full_win_full_loss_breakeven_winrate": 0.40384615384618117,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-30 09:14:58.149000+00:00",
+      "bid": 1.04095,
+      "ask": 1.04095,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 182,
+        "canonical_volume": 182.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 21,
+    "symbol": "EURUSD",
+    "day": "2025-01-31",
+    "features": {
+      "london_time": "2025-01-31 08:30:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.3080713678844368,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 2.5620000000000003,
+      "spread_pips": 0.0,
+      "stop_pips": 10.000000000001119,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.039999999999995525,
+      "total_cost_budget_r": 0.05999999999999329,
+      "weighted_full_target_gross_r": 1.5999999999997558,
+      "full_target_less_cost_budget_r": 1.5399999999997624,
+      "binary_full_win_full_loss_breakeven_winrate": 0.40769230769234344,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-31 08:29:57.438000+00:00",
+      "bid": 1.03912,
+      "ask": 1.03912,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 170,
+        "canonical_volume": 170.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 22,
+    "symbol": "GBPUSD",
+    "day": "2025-01-31",
+    "features": {
+      "london_time": "2025-01-31 08:30:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.2339235787511657,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.07,
+      "spread_pips": 0.0,
+      "stop_pips": 8.00000000000134,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.049999999999991634,
+      "total_cost_budget_r": 0.07499999999998745,
+      "weighted_full_target_gross_r": 1.624999999999549,
+      "full_target_less_cost_budget_r": 1.5499999999995615,
+      "binary_full_win_full_loss_breakeven_winrate": 0.4095238095238752,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-01-31 08:29:59.930000+00:00",
+      "bid": 1.24259,
+      "ask": 1.24259,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 178,
+        "canonical_volume": 178.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 23,
+    "symbol": "EURUSD",
+    "day": "2025-11-06",
+    "features": {
+      "london_time": "2025-11-06 09:00:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.33596996916479954,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.011,
+      "spread_pips": 0.0,
+      "stop_pips": 7.999999999999119,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.05000000000000551,
+      "total_cost_budget_r": 0.07500000000000827,
+      "weighted_full_target_gross_r": 1.6000000000002497,
+      "full_target_less_cost_budget_r": 1.5250000000002415,
+      "binary_full_win_full_loss_breakeven_winrate": 0.4134615384615019,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-11-06 08:59:59.989000+00:00",
+      "bid": 1.1521,
+      "ask": 1.1521,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 251,
+        "canonical_volume": 251.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 24,
+    "symbol": "USDCHF",
+    "day": "2025-11-12",
+    "features": {
+      "london_time": "2025-11-12 08:30:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.17633739031985246,
+      "cost_group": "UNPRICED"
+    },
+    "measurement": {
+      "status": "UNPRICED",
+      "reason": "STALE_DECISION_QUOTE",
+      "quote_age_seconds": 10.77
+    }
+  },
+  {
+    "setup_id": 25,
+    "symbol": "EURUSD",
+    "day": "2025-11-13",
+    "features": {
+      "london_time": "2025-11-13 09:00:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.267575514568304,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.158,
+      "spread_pips": 0.20000000000131024,
+      "stop_pips": 10.000000000001119,
+      "spread_r": 0.020000000000128786,
+      "commission_budget_r": 0.039999999999995525,
+      "total_cost_budget_r": 0.08000000000012207,
+      "weighted_full_target_gross_r": 1.5999999999997558,
+      "full_target_less_cost_budget_r": 1.5199999999996339,
+      "binary_full_win_full_loss_breakeven_winrate": 0.4153846153847013,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-11-13 08:59:59.842000+00:00",
+      "bid": 1.16281,
+      "ask": 1.16283,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 177,
+        "canonical_volume": 177.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 26,
+    "symbol": "GBPUSD",
+    "day": "2025-11-13",
+    "features": {
+      "london_time": "2025-11-13 09:00:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.21831653312654575,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.058,
+      "spread_pips": 0.2999999999997449,
+      "stop_pips": 17.000000000000348,
+      "spread_r": 0.017647058823514045,
+      "commission_budget_r": 0.023529411764705403,
+      "total_cost_budget_r": 0.05294117647057214,
+      "weighted_full_target_gross_r": 1.6470588235293273,
+      "full_target_less_cost_budget_r": 1.5941176470587552,
+      "binary_full_win_full_loss_breakeven_winrate": 0.39777777777778434,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-11-13 08:59:59.942000+00:00",
+      "bid": 1.31673,
+      "ask": 1.31676,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 309,
+        "canonical_volume": 309.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 27,
+    "symbol": "USDCHF",
+    "day": "2025-11-13",
+    "features": {
+      "london_time": "2025-11-13 09:00:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.313892436497805,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 1.8,
+      "spread_pips": 0.3999999999992898,
+      "stop_pips": 12.100000000000444,
+      "spread_r": 0.03305785123960952,
+      "commission_budget_r": 0.026276033057850277,
+      "total_cost_budget_r": 0.0758628099172939,
+      "weighted_full_target_gross_r": 1.60330578512386,
+      "full_target_less_cost_budget_r": 1.527442975206566,
+      "binary_full_win_full_loss_breakeven_winrate": 0.4132679365079299,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-11-13 08:59:58.200000+00:00",
+      "bid": 0.79434,
+      "ask": 0.79438,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 169,
+        "canonical_volume": 169.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 28,
+    "symbol": "GBPUSD",
+    "day": "2025-11-14",
+    "features": {
+      "london_time": "2025-11-14 08:45:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.3049086949237652,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.313,
+      "spread_pips": 0.1999999999990898,
+      "stop_pips": 41.999999999999815,
+      "spread_r": 0.004761904761883111,
+      "commission_budget_r": 0.009523809523809566,
+      "total_cost_budget_r": 0.019047619047597462,
+      "weighted_full_target_gross_r": 1.6000000000000476,
+      "full_target_less_cost_budget_r": 1.5809523809524502,
+      "binary_full_win_full_loss_breakeven_winrate": 0.39194139194137645,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-11-14 08:44:59.687000+00:00",
+      "bid": 1.31917,
+      "ask": 1.3191899999999999,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 1000,
+        "canonical_volume": 1000.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 29,
+    "symbol": "NZDUSD",
+    "day": "2025-11-21",
+    "features": {
+      "london_time": "2025-11-21 08:30:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "NOT_ALIGNED",
+      "asia": "GT_0_35_ATR",
+      "asia_atr_ratio": 0.35768025078370186,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.447,
+      "spread_pips": 0.20000000000020002,
+      "stop_pips": 8.099999999999774,
+      "spread_r": 0.02469135802471674,
+      "commission_budget_r": 0.0493827160493841,
+      "total_cost_budget_r": 0.09876543209879288,
+      "weighted_full_target_gross_r": 1.604938271605012,
+      "full_target_less_cost_budget_r": 1.506172839506219,
+      "binary_full_win_full_loss_breakeven_winrate": 0.4218009478672972,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-11-21 08:29:59.553000+00:00",
+      "bid": 0.56045,
+      "ask": 0.56047,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 167,
+        "canonical_volume": 167.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 30,
+    "symbol": "USDCAD",
+    "day": "2025-11-21",
+    "features": {
+      "london_time": "2025-11-21 08:30:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "NOT_ALIGNED",
+      "asia": "LE_0_35_ATR",
+      "asia_atr_ratio": 0.2160384518087535,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 2.222,
+      "spread_pips": 0.1999999999990898,
+      "stop_pips": 10.999999999998789,
+      "spread_r": 0.01818181818173744,
+      "commission_budget_r": 0.05124000000000564,
+      "total_cost_budget_r": 0.08760363636356326,
+      "weighted_full_target_gross_r": 1.6000000000001617,
+      "full_target_less_cost_budget_r": 1.5123963636365985,
+      "binary_full_win_full_loss_breakeven_winrate": 0.4183090909090368,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-11-21 08:29:57.778000+00:00",
+      "bid": 1.40884,
+      "ask": 1.40886,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 131,
+        "canonical_volume": 131.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 31,
+    "symbol": "EURUSD",
+    "day": "2025-11-24",
+    "features": {
+      "london_time": "2025-11-24 08:30:00+00:00",
+      "timing": "BEFORE_09",
+      "htf": "NOT_ALIGNED",
+      "asia": "GT_0_35_ATR",
+      "asia_atr_ratio": 0.4995287464656044,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.218,
+      "spread_pips": 0.0,
+      "stop_pips": 15.000000000000568,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.02666666666666566,
+      "total_cost_budget_r": 0.03999999999999849,
+      "weighted_full_target_gross_r": 1.5999999999999113,
+      "full_target_less_cost_budget_r": 1.5599999999999128,
+      "binary_full_win_full_loss_breakeven_winrate": 0.40000000000001307,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-11-24 08:29:59.782000+00:00",
+      "bid": 1.15335,
+      "ask": 1.15335,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 110,
+        "canonical_volume": 110.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  },
+  {
+    "setup_id": 32,
+    "symbol": "GBPUSD",
+    "day": "2025-11-26",
+    "features": {
+      "london_time": "2025-11-26 11:45:00+00:00",
+      "timing": "09_TO_NOON",
+      "htf": "NOT_ALIGNED",
+      "asia": "GT_0_35_ATR",
+      "asia_atr_ratio": 0.4992306996108305,
+      "cost_group": "LE_0_10R"
+    },
+    "measurement": {
+      "status": "OBSERVED_ONLY",
+      "quote_age_seconds": 0.077,
+      "spread_pips": 0.0,
+      "stop_pips": 9.00000000000123,
+      "spread_r": 0.0,
+      "commission_budget_r": 0.044444444444438375,
+      "total_cost_budget_r": 0.06666666666665756,
+      "weighted_full_target_gross_r": 1.7222222222220442,
+      "full_target_less_cost_budget_r": 1.6555555555553867,
+      "binary_full_win_full_loss_breakeven_winrate": 0.39183673469389985,
+      "caution": "Binary benchmark only; partial exits, reaction exits, gaps and trailing alter required win rate. Not an entry approval.",
+      "quote_at": "2025-11-26 11:44:59.923000+00:00",
+      "bid": 1.31866,
+      "ask": 1.31866,
+      "alignment": {
+        "max_ohlc_error_ticks": 0.0,
+        "sampled_ticks": 576,
+        "canonical_volume": 576.0
+      },
+      "fees": "USD4/100k roundtrip and .2pip exit slip assumptions; not realized charges",
+      "cost_group": "LE_0_10R"
+    }
+  }
+]

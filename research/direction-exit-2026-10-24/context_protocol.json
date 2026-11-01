@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-10-23 22:52:50.244403+00:00",
+  "stage": "Declared after aggregate ablation/direction results. Descriptive, not independent validation.",
+  "sample": "All reference reaction exits, at.5 and1.5pip, both periods; no choice by winning/losing later.",
+  "features": {
+    "close_vs_entry": "Executable fill-bar close mark-to-entry >=0R versus<0R, known at exit decision before slip/fee",
+    "wait": "Time from original availability to filled M1 start <=15minutes versus>15minutes",
+    "asia": "Existing <=.35 versus>.35 ratio for context only; failed filter not revived"
+  },
+  "benefit": "Reference net minus never-exit net, paired same setup/spread; positive means early exit helped. Not an entry signal or new strategy PNL.",
+  "after_fill_direction": "Use fixed60min diagnostic from nextM1open after reference fill minute, not unknown intraminute fill order. Includes trades already exited by then; descriptive price path, not new orders.",
+  "hashes": {
+    "reaction_context.py": "dddeca780096c481e562644665e812583b16d777f8a94f154504a0650115d255",
+    "outcomes.json": "5b04105707df9a67523b68861a1902ecaa473cafb607627698a6639211c9d2a1",
+    "cases_frozen.json": "29bde4fdc86715198a2968bc52e2dad49c17553676a0af157165ddb9516a3440",
+    "direction.py": "93d6f33ebb43404d673fec49969298d2991c4d1de120ea0149a8396c5901445d"
+  }
+}

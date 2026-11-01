@@ -1,0 +1,15 @@
+{
+  "repaired": true,
+  "date": "2025-01-02",
+  "rows": 209644,
+  "attempts": [
+    {
+      "number": 1,
+      "rows": 209644,
+      "error": "(1, 'Success')"
+    }
+  ],
+  "recovered_quote_sha256": "9baee37a1712ef8dca96ba71ef8640789030dcc014c4c43f48b280d869848bae",
+  "all_other_manifest_entries_unchanged": true,
+  "strategy_hash_unchanged": true
+}

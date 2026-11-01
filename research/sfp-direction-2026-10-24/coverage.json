@@ -1,0 +1,563 @@
+[
+  {
+    "symbol": "EURUSD",
+    "month": "2025-01",
+    "expected_windows": 920,
+    "missing_decision_bar": 40,
+    "htf_unknown": 392,
+    "scanned": 488,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 1,
+      "breaker_pass": 0,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "month": "2025-02",
+    "expected_windows": 800,
+    "missing_decision_bar": 0,
+    "htf_unknown": 276,
+    "scanned": 524,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 3,
+      "breaker_pass": 3,
+      "ifvg_pass": 1,
+      "both_pass": 1,
+      "original_confirmation_pass": 1
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "month": "2025-03",
+    "expected_windows": 840,
+    "missing_decision_bar": 0,
+    "htf_unknown": 280,
+    "scanned": 560,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 1,
+      "breaker_pass": 1,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "month": "2025-04",
+    "expected_windows": 880,
+    "missing_decision_bar": 0,
+    "htf_unknown": 132,
+    "scanned": 748,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 2,
+      "breaker_pass": 2,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "month": "2025-05",
+    "expected_windows": 880,
+    "missing_decision_bar": 0,
+    "htf_unknown": 480,
+    "scanned": 400,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 0,
+      "breaker_pass": 0,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "month": "2025-06",
+    "expected_windows": 840,
+    "missing_decision_bar": 0,
+    "htf_unknown": 56,
+    "scanned": 784,
+    "raw_signals": 1,
+    "validated": 1,
+    "confirmation_diagnostics": {
+      "structure_calls": 4,
+      "breaker_pass": 4,
+      "ifvg_pass": 1,
+      "both_pass": 1,
+      "original_confirmation_pass": 1
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "month": "2025-07",
+    "expected_windows": 920,
+    "missing_decision_bar": 0,
+    "htf_unknown": 456,
+    "scanned": 464,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 2,
+      "breaker_pass": 2,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "month": "2025-08",
+    "expected_windows": 840,
+    "missing_decision_bar": 0,
+    "htf_unknown": 432,
+    "scanned": 408,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 0,
+      "breaker_pass": 0,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "month": "2025-09",
+    "expected_windows": 880,
+    "missing_decision_bar": 0,
+    "htf_unknown": 348,
+    "scanned": 532,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 0,
+      "breaker_pass": 0,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "month": "2025-10",
+    "expected_windows": 920,
+    "missing_decision_bar": 0,
+    "htf_unknown": 384,
+    "scanned": 536,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 2,
+      "breaker_pass": 0,
+      "ifvg_pass": 2,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "month": "2025-11",
+    "expected_windows": 800,
+    "missing_decision_bar": 0,
+    "htf_unknown": 400,
+    "scanned": 400,
+    "raw_signals": 1,
+    "validated": 1,
+    "confirmation_diagnostics": {
+      "structure_calls": 2,
+      "breaker_pass": 1,
+      "ifvg_pass": 1,
+      "both_pass": 1,
+      "original_confirmation_pass": 1
+    }
+  },
+  {
+    "symbol": "GBPUSD",
+    "month": "2025-01",
+    "expected_windows": 920,
+    "missing_decision_bar": 40,
+    "htf_unknown": 384,
+    "scanned": 496,
+    "raw_signals": 1,
+    "validated": 1,
+    "confirmation_diagnostics": {
+      "structure_calls": 1,
+      "breaker_pass": 1,
+      "ifvg_pass": 1,
+      "both_pass": 1,
+      "original_confirmation_pass": 1
+    }
+  },
+  {
+    "symbol": "GBPUSD",
+    "month": "2025-02",
+    "expected_windows": 800,
+    "missing_decision_bar": 0,
+    "htf_unknown": 256,
+    "scanned": 544,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 4,
+      "breaker_pass": 4,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "GBPUSD",
+    "month": "2025-03",
+    "expected_windows": 840,
+    "missing_decision_bar": 0,
+    "htf_unknown": 156,
+    "scanned": 684,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 3,
+      "breaker_pass": 3,
+      "ifvg_pass": 1,
+      "both_pass": 1,
+      "original_confirmation_pass": 1
+    }
+  },
+  {
+    "symbol": "GBPUSD",
+    "month": "2025-04",
+    "expected_windows": 880,
+    "missing_decision_bar": 0,
+    "htf_unknown": 204,
+    "scanned": 676,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 0,
+      "breaker_pass": 0,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "GBPUSD",
+    "month": "2025-05",
+    "expected_windows": 880,
+    "missing_decision_bar": 0,
+    "htf_unknown": 284,
+    "scanned": 596,
+    "raw_signals": 1,
+    "validated": 1,
+    "confirmation_diagnostics": {
+      "structure_calls": 8,
+      "breaker_pass": 7,
+      "ifvg_pass": 2,
+      "both_pass": 1,
+      "original_confirmation_pass": 1
+    }
+  },
+  {
+    "symbol": "GBPUSD",
+    "month": "2025-06",
+    "expected_windows": 840,
+    "missing_decision_bar": 0,
+    "htf_unknown": 232,
+    "scanned": 608,
+    "raw_signals": 1,
+    "validated": 1,
+    "confirmation_diagnostics": {
+      "structure_calls": 2,
+      "breaker_pass": 2,
+      "ifvg_pass": 1,
+      "both_pass": 1,
+      "original_confirmation_pass": 1
+    }
+  },
+  {
+    "symbol": "GBPUSD",
+    "month": "2025-07",
+    "expected_windows": 920,
+    "missing_decision_bar": 0,
+    "htf_unknown": 456,
+    "scanned": 464,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 2,
+      "breaker_pass": 2,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "GBPUSD",
+    "month": "2025-08",
+    "expected_windows": 840,
+    "missing_decision_bar": 0,
+    "htf_unknown": 396,
+    "scanned": 444,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 0,
+      "breaker_pass": 0,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "GBPUSD",
+    "month": "2025-09",
+    "expected_windows": 880,
+    "missing_decision_bar": 0,
+    "htf_unknown": 380,
+    "scanned": 500,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 3,
+      "breaker_pass": 3,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "GBPUSD",
+    "month": "2025-10",
+    "expected_windows": 920,
+    "missing_decision_bar": 0,
+    "htf_unknown": 220,
+    "scanned": 700,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 2,
+      "breaker_pass": 2,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "GBPUSD",
+    "month": "2025-11",
+    "expected_windows": 800,
+    "missing_decision_bar": 0,
+    "htf_unknown": 252,
+    "scanned": 548,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 4,
+      "breaker_pass": 3,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "XAUUSD",
+    "month": "2025-01",
+    "expected_windows": 920,
+    "missing_decision_bar": 40,
+    "htf_unknown": 248,
+    "scanned": 632,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 3,
+      "breaker_pass": 3,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "XAUUSD",
+    "month": "2025-02",
+    "expected_windows": 800,
+    "missing_decision_bar": 0,
+    "htf_unknown": 124,
+    "scanned": 676,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 1,
+      "breaker_pass": 1,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "XAUUSD",
+    "month": "2025-03",
+    "expected_windows": 840,
+    "missing_decision_bar": 0,
+    "htf_unknown": 84,
+    "scanned": 756,
+    "raw_signals": 1,
+    "validated": 1,
+    "confirmation_diagnostics": {
+      "structure_calls": 4,
+      "breaker_pass": 4,
+      "ifvg_pass": 1,
+      "both_pass": 1,
+      "original_confirmation_pass": 1
+    }
+  },
+  {
+    "symbol": "XAUUSD",
+    "month": "2025-04",
+    "expected_windows": 880,
+    "missing_decision_bar": 40,
+    "htf_unknown": 148,
+    "scanned": 692,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 1,
+      "breaker_pass": 1,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "XAUUSD",
+    "month": "2025-05",
+    "expected_windows": 880,
+    "missing_decision_bar": 0,
+    "htf_unknown": 464,
+    "scanned": 416,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 1,
+      "breaker_pass": 1,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "XAUUSD",
+    "month": "2025-06",
+    "expected_windows": 840,
+    "missing_decision_bar": 0,
+    "htf_unknown": 352,
+    "scanned": 488,
+    "raw_signals": 1,
+    "validated": 1,
+    "confirmation_diagnostics": {
+      "structure_calls": 4,
+      "breaker_pass": 4,
+      "ifvg_pass": 1,
+      "both_pass": 1,
+      "original_confirmation_pass": 1
+    }
+  },
+  {
+    "symbol": "XAUUSD",
+    "month": "2025-07",
+    "expected_windows": 920,
+    "missing_decision_bar": 0,
+    "htf_unknown": 284,
+    "scanned": 636,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 4,
+      "breaker_pass": 4,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "XAUUSD",
+    "month": "2025-08",
+    "expected_windows": 840,
+    "missing_decision_bar": 0,
+    "htf_unknown": 268,
+    "scanned": 572,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 1,
+      "breaker_pass": 1,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "XAUUSD",
+    "month": "2025-09",
+    "expected_windows": 880,
+    "missing_decision_bar": 0,
+    "htf_unknown": 0,
+    "scanned": 880,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 2,
+      "breaker_pass": 1,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  },
+  {
+    "symbol": "XAUUSD",
+    "month": "2025-10",
+    "expected_windows": 920,
+    "missing_decision_bar": 0,
+    "htf_unknown": 320,
+    "scanned": 600,
+    "raw_signals": 1,
+    "validated": 1,
+    "confirmation_diagnostics": {
+      "structure_calls": 3,
+      "breaker_pass": 3,
+      "ifvg_pass": 1,
+      "both_pass": 1,
+      "original_confirmation_pass": 1
+    }
+  },
+  {
+    "symbol": "XAUUSD",
+    "month": "2025-11",
+    "expected_windows": 800,
+    "missing_decision_bar": 0,
+    "htf_unknown": 392,
+    "scanned": 408,
+    "raw_signals": 0,
+    "validated": 0,
+    "confirmation_diagnostics": {
+      "structure_calls": 0,
+      "breaker_pass": 0,
+      "ifvg_pass": 0,
+      "both_pass": 0,
+      "original_confirmation_pass": 0
+    }
+  }
+]

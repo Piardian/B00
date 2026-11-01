@@ -1,0 +1,182 @@
+[
+  {
+    "source": "ALL",
+    "spread_pips": 0.2,
+    "removed_fills": 12,
+    "boundary15_removed": 0,
+    "missed_winners": 3,
+    "avoided_losers": 9,
+    "missed_profit_r": 1.5400029708854752,
+    "avoided_loss_r": 3.056734183763856,
+    "net_delta_r": 1.516731212878381,
+    "paired_mean_delta_day95": [
+      -0.03876017434580467,
+      0.09485284549864925
+    ]
+  },
+  {
+    "source": "ALL",
+    "spread_pips": 0.5,
+    "removed_fills": 12,
+    "boundary15_removed": 0,
+    "missed_winners": 1,
+    "avoided_losers": 11,
+    "missed_profit_r": 0.9632352941176264,
+    "avoided_loss_r": 4.307084706640006,
+    "net_delta_r": 3.343849412522379,
+    "paired_mean_delta_day95": [
+      -0.011022729471236612,
+      0.13045266588351803
+    ]
+  },
+  {
+    "source": "ALL",
+    "spread_pips": 0.9,
+    "removed_fills": 14,
+    "boundary15_removed": 0,
+    "missed_winners": 1,
+    "avoided_losers": 13,
+    "missed_profit_r": 1.5409836065574383,
+    "avoided_loss_r": 4.947591682278083,
+    "net_delta_r": 3.406608075720645,
+    "paired_mean_delta_day95": [
+      -0.027033862649306278,
+      0.14471802741411016
+    ]
+  },
+  {
+    "source": "ALL",
+    "spread_pips": 1.5,
+    "removed_fills": 14,
+    "boundary15_removed": 0,
+    "missed_winners": 0,
+    "avoided_losers": 14,
+    "missed_profit_r": 0,
+    "avoided_loss_r": 7.12518501429425,
+    "net_delta_r": 7.12518501429425,
+    "paired_mean_delta_day95": [
+      0.052755094680360506,
+      0.19935717850292609
+    ]
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 0.2,
+    "removed_fills": 8,
+    "boundary15_removed": 0,
+    "missed_winners": 2,
+    "avoided_losers": 6,
+    "missed_profit_r": 0.9854575163400356,
+    "avoided_loss_r": 2.7242695693851404,
+    "net_delta_r": 1.738812053045105,
+    "paired_mean_delta_day95": [
+      -0.0559432641541615,
+      0.1651068331621587
+    ]
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 0.5,
+    "removed_fills": 8,
+    "boundary15_removed": 0,
+    "missed_winners": 1,
+    "avoided_losers": 7,
+    "missed_profit_r": 0.9632352941176264,
+    "avoided_loss_r": 2.852427225950966,
+    "net_delta_r": 1.8891919318333394,
+    "paired_mean_delta_day95": [
+      -0.05195828010490775,
+      0.1708033450657231
+    ]
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 0.9,
+    "removed_fills": 10,
+    "boundary15_removed": 0,
+    "missed_winners": 1,
+    "avoided_losers": 9,
+    "missed_profit_r": 1.5409836065574383,
+    "avoided_loss_r": 3.402737652569785,
+    "net_delta_r": 1.8617540460123467,
+    "paired_mean_delta_day95": [
+      -0.07796940232040063,
+      0.1926904813377372
+    ]
+  },
+  {
+    "source": "DISCOVERY",
+    "spread_pips": 1.5,
+    "removed_fills": 10,
+    "boundary15_removed": 0,
+    "missed_winners": 0,
+    "avoided_losers": 10,
+    "missed_profit_r": 0,
+    "avoided_loss_r": 5.322813938833974,
+    "net_delta_r": 5.322813938833974,
+    "paired_mean_delta_day95": [
+      0.05992717566899094,
+      0.27339100593948606
+    ]
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 0.2,
+    "removed_fills": 4,
+    "boundary15_removed": 0,
+    "missed_winners": 1,
+    "avoided_losers": 3,
+    "missed_profit_r": 0.5545454545454396,
+    "avoided_loss_r": 0.3324646143787156,
+    "net_delta_r": -0.22208084016672397,
+    "paired_mean_delta_day95": [
+      -0.057366771159873056,
+      0.02894773685700763
+    ]
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 0.5,
+    "removed_fills": 4,
+    "boundary15_removed": 0,
+    "missed_winners": 0,
+    "avoided_losers": 4,
+    "missed_profit_r": 0,
+    "avoided_loss_r": 1.4546574806890398,
+    "net_delta_r": 1.4546574806890398,
+    "paired_mean_delta_day95": [
+      0.00370370370370505,
+      0.14610549114674778
+    ]
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 0.9,
+    "removed_fills": 4,
+    "boundary15_removed": 0,
+    "missed_winners": 0,
+    "avoided_losers": 4,
+    "missed_profit_r": 0,
+    "avoided_loss_r": 1.5448540297082984,
+    "net_delta_r": 1.5448540297082984,
+    "paired_mean_delta_day95": [
+      0.004071943204864719,
+      0.15048509983527394
+    ]
+  },
+  {
+    "source": "RECHECK",
+    "spread_pips": 1.5,
+    "removed_fills": 4,
+    "boundary15_removed": 0,
+    "missed_winners": 0,
+    "avoided_losers": 4,
+    "missed_profit_r": 0,
+    "avoided_loss_r": 1.8023710754602762,
+    "net_delta_r": 1.8023710754602762,
+    "paired_mean_delta_day95": [
+      0.007303261244723399,
+      0.16405208517110945
+    ]
+  }
+]
